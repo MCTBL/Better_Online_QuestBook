@@ -1,6 +1,23 @@
 export class Utils {
 
-
+    static rotScreen() {
+        var main = document.getElementById("main")!;
+        window.addEventListener("resize", function () {
+            adjustImageSize();
+        });
+        adjustImageSize();
+        function adjustImageSize() {
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            main.style.height = windowHeight + "px";
+            main.style.width = windowWidth + "px";
+            if (windowWidth > windowHeight) {
+                main.style.transform = "rotate(0deg)";
+            } else {
+                main.style.transform = "rotate(90deg)";
+            }
+        }
+    }
 
     static copyH5Str(str: string) {
         var input = str + "";

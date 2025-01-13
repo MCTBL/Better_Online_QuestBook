@@ -3,9 +3,11 @@ import { Utils } from "./Utils.js";
 export class QuestListPage {
     constructor() {
         this.win = window;
+        this.$ = this.win.$;
         this.init();
     }
     private win: any;
+    private $:any;
 
     init() {
         var chart_this_chart = this.win.echarts.init(document.getElementById("this_chart"), "white", { renderer: "canvas" });
@@ -27,6 +29,17 @@ export class QuestListPage {
             chart_this_chart.resize();
         });
 
+        this.onMessage();
+
+
+    }
+
+
+    onMessage(){
+        this.win.addEventListener("message", (event: any) => {
+            console.log(event);
+
+        });
     }
 }
 

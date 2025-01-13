@@ -2,6 +2,7 @@ import { Utils } from "./Utils.js";
 export class QuestListPage {
     constructor() {
         this.win = window;
+        this.$ = this.win.$;
         this.init();
     }
     init() {
@@ -21,6 +22,12 @@ export class QuestListPage {
         }
         window.addEventListener("resize", function () {
             chart_this_chart.resize();
+        });
+        this.onMessage();
+    }
+    onMessage() {
+        this.win.addEventListener("message", (event) => {
+            console.log(event);
         });
     }
 }
