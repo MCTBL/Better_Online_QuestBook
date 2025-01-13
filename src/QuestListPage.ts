@@ -1,44 +1,65 @@
+
+import { m2qData, msgAction } from "./Define.js";
 import { Utils } from "./Utils.js";
 
 export class QuestListPage {
     constructor() {
-        this.win = window;
-        this.$ = this.win.$;
         this.init();
     }
-    private win: any;
-    private $:any;
+
+    private echarts: echarts.ECharts;
 
     init() {
-        var chart_this_chart = this.win.echarts.init(document.getElementById("this_chart"), "white", { renderer: "canvas" });
+        $(() => {
+            this.onMessage();
+            let data = { action: msgAction.ready, data: null };
+            this.sendMessageToMain(data);
+        });
+    }
 
-        chart_this_chart.on("click", function (params: any) {
-            console.log(params);
+    sendMessageToMain(data: m2qData) {
+        window.parent.postMessage(data, "*");
+    }
+
+
+    onMessage() {
+        addEventListener("message", (event: MessageEvent) => {
+            let data: m2qData = event.data;
+            switch (data.action) {
+                case msgAction.init:
+                    this.loadJSData(data.data);
+                    break;
+            }
+        });
+    }
+
+
+
+    loadJSData(url: string) {
+        $.getScript(url, (script, textStatus) => {
+            this.initEcharts();
+        });
+    }
+
+    initEcharts() {
+        if (!this.echarts) {
+            this.echarts = echarts.init(document.getElementById("this_chart") as HTMLDivElement, "white", { renderer: "canvas" });
+        }
+
+        this.echarts.on("click", (params: any) => {
             if (params.dataType === "node") {
                 let str = params.data.tooltip.replaceAll("<br/>", "");
                 Utils.copyH5Str(str);
             }
         });
 
-        if (this.win.option_this_chart) {
-            chart_this_chart.setOption(this.win.option_this_chart);
+        if ((window as any).option_this_chart) {
+            this.echarts.setOption((window as any).option_this_chart);
         } else {
             console.error("内容丢失");
         }
-        window.addEventListener("resize", function () {
-            chart_this_chart.resize();
-        });
-
-        this.onMessage();
-
-
-    }
-
-
-    onMessage(){
-        this.win.addEventListener("message", (event: any) => {
-            console.log(event);
-
+        window.addEventListener("resize", () => {
+            this.echarts.resize();
         });
     }
 }
