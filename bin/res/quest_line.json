@@ -1,6 +1,8 @@
 [
 	{
 		"title": "Adept Thaumaturgy",
+		"title_zh": "法杖核心",
+        "search_key":["py"],
 		"icon": "水晶缠绕宇宙中子态素法杖",
 		"url": "questjs/AdeptThaumaturgy.js"
 	},
