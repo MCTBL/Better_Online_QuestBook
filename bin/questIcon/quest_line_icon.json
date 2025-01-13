@@ -1,0 +1,172 @@
+[
+  {
+    "quest_line_name": "Adept Thaumaturgy",
+    "quest_line_icon": "水晶缠绕宇宙中子态素法杖"
+  },
+  { "quest_line_name": "And So, It Begins", "quest_line_icon": "床" },
+  {
+    "quest_line_name": "Applied Energistics",
+    "quest_line_icon": "64k-ME存储元件"
+  },
+  {
+    "quest_line_name": "Basic Automation",
+    "quest_line_icon": "太阳能引擎"
+  },
+  {
+    "quest_line_name": "Be(e) Breeding",
+    "quest_line_icon": "野兔蜂后"
+  },
+  {
+    "quest_line_name": "Bio for the Masses",
+    "quest_line_icon": "油菜"
+  },
+  {
+    "quest_line_name": "Building Better Bases",
+    "quest_line_icon": "未来科技方块"
+  },
+  {
+    "quest_line_name": "Coins, Coins, Coins",
+    "quest_line_icon": "技术员币$1000"
+  },
+  {
+    "quest_line_name": "Endgame Goals",
+    "quest_line_icon": "星门控制器"
+  },
+  {
+    "quest_line_name": "Fishing, Farming, Cooking",
+    "quest_line_icon": "罐"
+  },
+  {
+    "quest_line_name": "Flower Power",
+    "quest_line_icon": "草地之种"
+  },
+  {
+    "quest_line_name": "Focus on Wand Foci & EMT",
+    "quest_line_icon": "法杖核心:元始"
+  },
+  {
+    "quest_line_name": "Forestry and Multifarms",
+    "quest_line_icon": "木工机"
+  },
+  {
+    "quest_line_name": "Getting Around...",
+    "quest_line_icon": "滑翔翼"
+  },
+  {
+    "quest_line_name": "Handle Logistics with Pipes",
+    "quest_line_icon": "快速分拣模块"
+  },
+  {
+    "quest_line_name": "Hardcore End(er) Expansion",
+    "quest_line_icon": "传送宝石"
+  },
+  {
+    "quest_line_name": "How to Be(e)",
+    "quest_line_icon": "森林蜂巢"
+  },
+  {
+    "quest_line_name": "How to Generate Power",
+    "quest_line_icon": "基础燃气轮机"
+  },
+  {
+    "quest_line_name": "Kaaami, Haaaami, ... HA!",
+    "quest_line_icon": "灵液"
+  },
+  {
+    "quest_line_name": "Kill All the Things",
+    "quest_line_icon": "巫妖战利品"
+  },
+  {
+    "quest_line_name": "Look to the Edges",
+    "quest_line_icon": "魔法扫帚"
+  },
+  {
+    "quest_line_name": "Mass Processing",
+    "quest_line_icon": "合金冶炼炉"
+  },
+  {
+    "quest_line_name": "Multiblock Goals",
+    "quest_line_icon": "工业高炉"
+  },
+  {
+    "quest_line_name": "Novice Thaumaturgy",
+    "quest_line_icon": "金杖端宏伟之木法杖"
+  },
+  {
+    "quest_line_name": "Paying the Highest Price",
+    "quest_line_icon": "血之祭坛"
+  },
+  {
+    "quest_line_name": "Powerful Nuclear Physics",
+    "quest_line_icon": "核反应堆"
+  },
+  {
+    "quest_line_name": "Reward Area",
+    "quest_line_icon": "战利品袋(Tier 9 UHV)"
+  },
+  {
+    "quest_line_name": "SFM and Computers",
+    "quest_line_icon": "加速运算单元(APU)(T3)"
+  },
+  { "quest_line_name": "Space Race", "quest_line_icon": "6阶火箭" },
+  {
+    "quest_line_name": "Storing and Transforming EU",
+    "quest_line_icon": "小型锂电池"
+  },
+  {
+    "quest_line_name": "Tier 0.5 - Steam",
+    "quest_line_icon": "打火石"
+  },
+  {
+    "quest_line_name": "Tier 0 - Stone Age",
+    "quest_line_icon": "青铜镐"
+  },
+  {
+    "quest_line_name": "Tier 10 - UEV",
+    "quest_line_icon": "超维度等离子锻炉"
+  },
+  {
+    "quest_line_name": "Tier 11 - UIV",
+    "quest_line_icon": "戴森球地面单元"
+  },
+  {
+    "quest_line_name": "Tier 12 - UMV",
+    "quest_line_icon": "鸿蒙之眼"
+  },
+  { "quest_line_name": "Tier 1 - LV", "quest_line_icon": "铝板" },
+  {
+    "quest_line_name": "Tier 2 - MV",
+    "quest_line_icon": "高级电路板"
+  },
+  {
+    "quest_line_name": "Tier 3 - HV",
+    "quest_line_icon": "NASA工作台"
+  },
+  {
+    "quest_line_name": "Tier 4 - EV",
+    "quest_line_icon": "核反应堆"
+  },
+  { "quest_line_name": "Tier 5 - IV", "quest_line_icon": "装配线" },
+  {
+    "quest_line_name": "Tier 6 - LuV",
+    "quest_line_icon": "核聚变反应堆控制电脑Mk I"
+  },
+  {
+    "quest_line_name": "Tier 7 - ZPM",
+    "quest_line_icon": "零点模块"
+  },
+  { "quest_line_name": "Tier 8 - UV", "quest_line_icon": "研究站" },
+  {
+    "quest_line_name": "Tier 9 - UHV",
+    "quest_line_icon": "无尽之锭"
+  },
+  {
+    "quest_line_name": "Tips and Tricks",
+    "quest_line_icon": "书与笔"
+  },
+  {
+    "quest_line_name": "...Without Dying",
+    "quest_line_icon": "重力胸甲"
+  },
+  { "quest_line_name": "Working with Oil", "quest_line_icon": "石油桶" }
+]
