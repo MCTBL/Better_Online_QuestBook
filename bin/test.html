@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+    <style>
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            z-index: 100;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 50;
+        }
+
+        .close-btn {
+            cursor: pointer;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="triggerPopup1">打开弹出框1</button>
+    <button id="triggerPopup2">打开弹出框2</button>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <p id="popupContent">这里是弹出框的内容</p>
+    </div>
+
+    <script>
+        // JavaScript代码
+        document.getElementById('triggerPopup1').addEventListener('click', function () {
+            showPopup('这是弹出框1的内容');
+        });
+
+        document.getElementById('triggerPopup2').addEventListener('click', function () {
+            showPopup('这是弹出框2的内容');
+        });
+
+0
+
+        function showPopup(content) {
+            document.getElementById('popupContent').innerText = content;
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+
+        function hidePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
+
