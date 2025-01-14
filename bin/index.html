@@ -12,7 +12,13 @@
 	<body>
 		<div id="sidebar" class="grid">
 			<input type="text" id="search" placeholder="搜索" />
-			<div id="logo"><img id="logoImg" src="./logo.png" /></div>
+			<div id="logo">
+				<img id="logoImg" src="./logo.png" />
+			</div>
+			<select required id="version">
+				<option selected value="2.7.0">2.7.0</option>
+				<option value="nul">测试,实际没用</option>
+			</select>
 		</div>
 		<div id="mainPage">
 			<iframe src="./QuestListPage.html" id="mainIframe"></iframe>
