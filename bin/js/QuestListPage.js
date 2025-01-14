@@ -1,17 +1,18 @@
 import { msgAction } from "./Define.js";
 import { Utils } from "./Utils.js";
-
 function showPopup(content) {
-  document.getElementById("popupContent").innerText = content;
-  document.getElementById("popup").style.display = "block";
-  document.getElementById("overlay").style.display = "block";
+  if (document !== null) {
+    document.getElementById("popupContent").innerHTML = content;
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+  }
 }
-
 export function hidePopup() {
-  document.getElementById("popup").style.display = "none";
-  document.getElementById("overlay").style.display = "none";
+  if (document !== null) {
+    document.getElementById("popup").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+  }
 }
-
 export class QuestListPage {
   constructor() {
     this.init();
@@ -21,15 +22,13 @@ export class QuestListPage {
       this.onMessage();
       let data = { action: msgAction.ready, data: null };
       this.sendMessageToMain(data);
-
-      document.getElementById("overlay").addEventListener("click", function () {
-        hidePopup();
-      });
-
-      document.getElementById("copyBtn").addEventListener("click", function () {
-        Utils.copyH5Str(document.getElementById("popupContent").innerText);
-        console.log("成功复制");
-      });
+    });
+    document.getElementById("overlay").addEventListener("click", function () {
+      hidePopup();
+    });
+    document.getElementById("copyBtn").addEventListener("click", function () {
+      Utils.copyH5Str(document.getElementById("popupContent").innerText);
+      console.log("成功复制");
     });
   }
   sendMessageToMain(data) {
@@ -61,7 +60,10 @@ export class QuestListPage {
     this.echarts.on("click", (params) => {
       if (params.dataType === "node") {
         showPopup(
-          params.data.name + "\n" + params.data.data.replaceAll("<br/>", "")
+          "<h1>" +
+            params.data.name +
+            "</h1></br>" +
+            params.data.data.replaceAll("<br/>", "")
         );
       }
     });
