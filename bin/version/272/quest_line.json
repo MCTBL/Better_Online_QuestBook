@@ -1,11 +1,13 @@
 [
     {
       "title": "And So, It Begins",
+      "title_zh": "由此开始",
       "icon": "床",
       "url": "quest/AndSoItBegins.js"
     },
     {
       "title": "Tips and Tricks",
+      "title_zh": "提示,技巧",
       "icon": "书与笔",
       "url": "quest/TipsandTricks.js"
     },
