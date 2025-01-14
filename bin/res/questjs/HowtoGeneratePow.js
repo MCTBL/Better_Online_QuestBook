@@ -1245,6 +1245,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8010\u8d85\u9ad8\u6e29\u7f51",
                     "symbolSize": 31.200000000000003,
+                    "symbol": "image://icon/\u8010\u8d85\u9ad8\u6e29\u7f51.png",
                     "x": 228.0,
                     "y": 372.0,
                     "tooltip": "*\u62cd\u62cd\u8010\u8d85\u9ad8\u6e29\u7f51* \u8fd9\u4e2a\u574f\u5c0f\u5b50\u53ef\u4ee5\u627f\u53d7\u5de8\u91cf\u70ed\u91cf!\u5982\u679c\u4f60\u60f3\u4f7f\u7528\u6234\u68ee\u7403\u591a\u65b9\u5757\u7ed3\u6784\u7684\u8bdd,\u81ea\u52a8\u5316\u5408\u6210\u8010\u8d85\u9ad8\u6e29<br/>\u7f51\u662f\u4e0d\u53ef\u6216\u7f3a\u7684\u524d\u63d0\u6761\u4ef6\u4e4b\u4e00."

@@ -666,7 +666,7 @@ var chart_this_chart = echarts.init(
                     "symbol": "image://icon/\u4f4e\u538b\u5408\u6210\u8868\u8fc7\u6ee4\u5668.png",
                     "x": 1008.0,
                     "y": 444.0,
-                    "tooltip": "A feat of human engineering at your disposal!\n\nThi<br/>s machine allows you to filter by machine recipe t<br/>ype and allows you to effortlessly set up automati<br/>ons. To use it simply put a machine of any type in<br/>to the GUI to create a filter, e.g. a Macerator wi<br/>ll allow the machine to only accept items that can<br/> be macerated. The same machine can be used to cre<br/>ate an inverse filter (a button in the GUI) that w<br/>ill allow you to exclude all items that can be pro<br/>cessed by that machine."
+                    "tooltip": "A peak of human engineering at your disposal!\n\nThi<br/>s machine allows you to filer by machine recipe ty<br/>pe and allows you to effortlessly setup automation<br/>. To use it simply put a machine of any type into <br/>the GUI to create a filter, e.g. macerator will al<br/>low the machine to only accept items that can be m<br/>acerated. The same machine can be used to create a<br/>n inverse filter (a button in the GUI) that will a<br/>llow you to exclude all items that can be processe<br/>d by that machine. \n\n[note]Is it time for some ore<br/> processing automation?[/note]"
                 },
                 {
                     "name": "\u00a75\u00a76\u00a7l\u00a75\u00a7lHandle Resources Like a Bo$$ #2",
@@ -674,7 +674,7 @@ var chart_this_chart = echarts.init(
                     "symbol": "image://icon/\u4f4e\u538b\u6821\u51c6\u5668.png",
                     "x": 972.0,
                     "y": 468.0,
-                    "tooltip": "A feat of human engineering at your disposal!\n\nThi<br/>s machine allows you to filter 9 items, and will o<br/>nly output set batches. This allows you to automat<br/>e processes such as electrolyzing that require dif<br/>ferent amounts of inputs that may clog the system <br/>otherwise.\n\n[note]This will be particularly useful<br/> in MV once you unlock more electrolysis recipes![<br/>/note]"
+                    "tooltip": "A peak of human engineering at your disposal!\n\nThi<br/>s machine allows you to filter 9 items, and will o<br/>nly output set batches. This allows you to automat<br/>e processes such as electrolyzing that require dif<br/>ferent amounts of inputs that may clog the system <br/>otherwise.\n\n[note]Is it time for some ore processi<br/>ng automation?[/note]\n[note]This will be immensely<br/> useful in MV once you unlock more electorlyzer re<br/>cipes![/note]"
                 },
                 {
                     "name": "\u81ea\u52a8\u5316\u5904\u7406\u5c0f\u64ae\u7c89\u672b",

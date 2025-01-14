@@ -508,14 +508,6 @@ var chart_this_chart = echarts.init(
                     "tooltip": "First available in LV, the Mob Repellator prevents<br/> mobs from spawning in its radius. It works withou<br/>t power, but with it has a higher range.\n\n[note]Yo<br/>u only need one to complete the quest.[/note]"
                 },
                 {
-                    "name": "\u950b\u5229:\u8d85\u8fc7...5...",
-                    "symbolSize": 31.200000000000003,
-                    "symbol": "image://icon/\u6728\u5251.png",
-                    "x": 780.0,
-                    "y": 12.0,
-                    "tooltip": "\u8be5\u505a\u4e9b\u6709\u7528\u7684\u4e1c\u897f\u4e86\uff1a\u4e00\u628a\u5251!\u73b0\u5728\u4f60\u6709\u4e86\u4e00\u628a\u5251,\u4f60\u5c06\u5728\u201c\u6740\u622e\u65f6\u523b\u201d\u4efb\u52a1\u680f\u4e2d\u83b7\u5f97\u6740\u6b7b\u602a\u7269\u7684\u5956\u52b1.\u5f53\u5fc3,\u8fd9<br/>\u4e2a\u4e16\u754c\u4e0a\u7684\u602a\u7269\u4f1a\u628a\u4f60\u54ac\u788e\u7136\u540e\u518d\u5410\u51fa\u6765!PS\uff1a \u5982\u679c\u5fd8\u8bb0\u4e86\u4efb\u52a1\u6240\u5728\u7684\u4f4d\u7f6e,\u53ef\u4ee5\u5728\"\u6446\u8131\u6b7b\u4ea1,\u6e38\u5386\u56db\u65b9\"<br/>\u4efb\u52a1\u680f\u4e2d\u627e\u5230\u522b\u7684\u6b66\u5668\u4efb\u52a1."
-                },
-                {
                     "name": "\u7eb3\u7c73\u6c34\u6676",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://icon/\u7eb3\u7c73\u6676\u4f53.png",
@@ -714,6 +706,14 @@ var chart_this_chart = echarts.init(
                     "x": 588.0,
                     "y": 324.0,
                     "tooltip": "\u591c\u89c6\u955c\u9700\u8981\u7279\u6b8a\u7684\u63a2\u6d4b\u955c\u7247\u6765\u8fd0\u4f5c."
+                },
+                {
+                    "name": "\u950b\u5229:\u8d85\u8fc7...5...",
+                    "symbolSize": 31.200000000000003,
+                    "symbol": "image://icon/\u5251.png",
+                    "x": 780.0,
+                    "y": 12.0,
+                    "tooltip": "\u8be5\u505a\u4e9b\u6709\u7528\u7684\u4e1c\u897f\u4e86\uff1a\u4e00\u628a\u5251!\u73b0\u5728\u4f60\u6709\u4e86\u4e00\u628a\u5251,\u4f60\u5c06\u5728\u201c\u6740\u622e\u65f6\u523b\u201d\u4efb\u52a1\u680f\u4e2d\u83b7\u5f97\u6740\u6b7b\u602a\u7269\u7684\u5956\u52b1.\u5f53\u5fc3,\u8fd9<br/>\u4e2a\u4e16\u754c\u4e0a\u7684\u602a\u7269\u4f1a\u628a\u4f60\u54ac\u788e\u7136\u540e\u518d\u5410\u51fa\u6765!PS\uff1a \u5982\u679c\u5fd8\u8bb0\u4e86\u4efb\u52a1\u6240\u5728\u7684\u4f4d\u7f6e,\u53ef\u4ee5\u5728\"\u6446\u8131\u6b7b\u4ea1,\u6e38\u5386\u56db\u65b9\"<br/>\u4efb\u52a1\u680f\u4e2d\u627e\u5230\u522b\u7684\u6b66\u5668\u4efb\u52a1."
                 },
                 {
                     "name": "\u4e3e\u8d77\u76fe\u724c",
@@ -1303,10 +1303,6 @@ var chart_this_chart = echarts.init(
                     "target": "Mob Repellators"
                 },
                 {
-                    "source": "\u57fa\u672c\u5de5\u5177",
-                    "target": "\u950b\u5229:\u8d85\u8fc7...5..."
-                },
-                {
                     "source": "\u80fd\u91cf\u6c34\u6676",
                     "target": "\u7eb3\u7c73\u6c34\u6676"
                 },
@@ -1453,6 +1449,10 @@ var chart_this_chart = echarts.init(
                 {
                     "source": "\u9ad8\u7ea7\u7535\u8def\u677f",
                     "target": "\u63a2\u6d4b\u955c\u7247"
+                },
+                {
+                    "source": "\u57fa\u672c\u5de5\u5177",
+                    "target": "\u950b\u5229:\u8d85\u8fc7...5..."
                 },
                 {
                     "source": "\u950b\u5229:\u8d85\u8fc7...5...",

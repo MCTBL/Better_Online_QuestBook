@@ -721,13 +721,6 @@ var chart_this_chart = echarts.init(
                     "tooltip": "\u7531\u4e8e\u666e\u901a\u7684\u5f13\u7bad\u9700\u8981\u5728\u7ec4\u88c5\u673a\u4e2d\u5236\u9020,\u800c\u4e14\u666e\u901a\u7684\u5c0f\u602a\u4e0d\u4f1a\u6389\u843d(\u7cbe\u82f1\u602a\u6709\u51e0\u7387\u6389\u843d).\u56e0\u6b64\u4f60\u9700\u8981\u4e00\u5f20\u53ef\u4ee5\u957f\u65f6<br/>\u95f4\u4f7f\u7528\u7684\u5f13.\u867d\u7136\u53ef\u4ee5\u7528\u6728\u5934\u505a,\u4f46\u662f\u7528\u9aa8\u5934\u4f1a\u597d\u5f97\u591a. \u7528\u9aa8\u5934\u505a2\u4e2a\u5f13\u81c2,\u7528\u7ebf\u4f5c\u51fa\u5f13\u5f26.\u800c\u7bad\u5934\u53ef\u4ee5\u7528\u9aa8\u5934<br/>\u548c\u71e7\u77f3,\u5b83\u8f7b\u5f97\u591a,\u4f46\u662f\u53ef\u80fd\u8010\u4e45\u65b9\u9762\u6bd4\u4e0d\u4e0a\u666e\u901a\u7684\u7bad.\u4fee\u590d\u5f13\u7684\u65b9\u5f0f\u548c\u4fee\u590d\u5176\u4ed6\u5320\u9b42\u5de5\u5177\u4e00\u6837,\u800c\u7bad\u5219\u53ef\u4ee5\u901a\u8fc7<br/>\u5de5\u5177\u53f0\u6216\u8005\u76f4\u63a5\u4ece\u5730\u4e0a\u5c06\u7bad\u6361\u8d77\u6765\u7684\u65b9\u5f0f\u6765\u6062\u590d\u6570\u91cf."
                 },
                 {
-                    "name": "\u00a72\u00a7lYour First Flint Sword",
-                    "symbolSize": 31.200000000000003,
-                    "x": 564.0,
-                    "y": 336.0,
-                    "tooltip": "It's time to upgrade your wooden sword a little.\nC<br/>ollect flint bones and a stick.\n\nYou won't be able<br/> to kill a Wither with it now, but you can upgrade<br/> and improve this tool later. You can also repair <br/>it with flint."
-                },
-                {
                     "name": "\u4f60\u7684\u7b2c\u4e00\u628a\u71e7\u77f3\u98de\u5200",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://icon/\u7cbe\u91d1 \u98de\u5200.png",
@@ -1149,10 +1142,6 @@ var chart_this_chart = echarts.init(
                 {
                     "source": "\u5320\u9b42\u65f6\u95f4",
                     "target": "\u4f60\u7684\u7b2c\u4e00\u628a\u9aa8\u5f13"
-                },
-                {
-                    "source": "\u5320\u9b42\u65f6\u95f4",
-                    "target": "\u00a72\u00a7lYour First Flint Sword"
                 },
                 {
                     "source": "\u5320\u9b42\u65f6\u95f4",

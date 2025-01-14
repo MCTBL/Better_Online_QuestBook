@@ -87,7 +87,7 @@
   {
     "title": "Fishing, Farming, Cooking",
     "icon": "罐",
-    "url": "res/questjs/FishingFarmingCooking.js"
+    "url": "res/questjs/FishingFarmingCo.js"
   },
   {
     "title": "Getting Around...",
@@ -102,12 +102,12 @@
   {
     "title": "Building Better Bases",
     "icon": "未来科技方块",
-    "url": "res/questjs/BuildingBetterBases.js"
+    "url": "res/questjs/BuildingBetterBa.js"
   },
   {
     "title": "Forestry and Multifarms",
     "icon": "木工机",
-    "url": "res/questjs/ForestryandMultifarms.js"
+    "url": "res/questjs/ForestryandMulti.js"
   },
   {
     "title": "Multiblock Goals",
@@ -122,7 +122,7 @@
   {
     "title": "How to Generate Power",
     "icon": "基础燃气轮机",
-    "url": "res/questjs/HowtoGeneratePower.js"
+    "url": "res/questjs/HowtoGeneratePow.js"
   },
   {
     "title": "Storing and Transforming EU",
@@ -142,7 +142,7 @@
   {
     "title": "Powerful Nuclear Physics",
     "icon": "核反应堆",
-    "url": "res/questjs/PowerfulNuclearPhysics.js"
+    "url": "res/questjs/PowerfulNuclearP.js"
   },
   {
     "title": "Space Race",
@@ -162,7 +162,7 @@
   {
     "title": "Handle Logistics with Pipes",
     "icon": "快速分拣模块",
-    "url": "res/questjs/HandleLogisticswithPipes.js"
+    "url": "res/questjs/HandleLogisticsw.js"
   },
   {
     "title": "Applied Energistics",
@@ -182,12 +182,12 @@
   {
     "title": "Hardcore End(er) Expansion",
     "icon": "传送宝石",
-    "url": "res/questjs/HardcoreEnderExpansion.js"
+    "url": "res/questjs/HardcoreEnderExp.js"
   },
   {
     "title": "Novice Thaumaturgy",
     "icon": "金杖端宏伟之木法杖",
-    "url": "res/questjs/NoviceThaumaturgy.js"
+    "url": "res/questjs/NoviceThaumaturg.js"
   },
   {
     "title": "Adept Thaumaturgy",
@@ -202,7 +202,7 @@
   {
     "title": "Focus on Wand Foci & EMT",
     "icon": "法杖核心:元始",
-    "url": "res/questjs/FocusonWandFociEMT.js"
+    "url": "res/questjs/FocusonWandFociE.js"
   },
   {
     "title": "Flower Power",
@@ -217,7 +217,7 @@
   {
     "title": "Paying the Highest Price",
     "icon": "血之祭坛",
-    "url": "res/questjs/PayingtheHighestPrice.js"
+    "url": "res/questjs/PayingtheHighest.js"
   },
   {
     "title": "Kill All the Things",

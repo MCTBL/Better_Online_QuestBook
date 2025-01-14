@@ -1,4 +1,13 @@
-var option_this_chart = {
+var chart_this_chart = echarts.init(
+            document.getElementById('this_chart'), 'white', {renderer: 'canvas'});
+            
+            chart_this_chart.on('click', function (params) {
+                    if (params.dataType === 'node') {
+                        navigator.clipboard.writeText(params.data.tooltip.replaceAll("<br/>", ""));
+                    }
+            });
+        
+        var option_this_chart = {
     "backgroundColor": "#f5f0d3",
     "animation": true,
     "animationThreshold": 2000,
@@ -966,3 +975,7 @@ var option_this_chart = {
         "order": "seriesAsc"
     }
 };
+        chart_this_chart.setOption(option_this_chart);
+            window.addEventListener('resize', function(){
+                chart_this_chart.resize();
+            })

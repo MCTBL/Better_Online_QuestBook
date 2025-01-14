@@ -1,12 +1,12 @@
 var chart_this_chart = echarts.init(
             document.getElementById('this_chart'), 'white', {renderer: 'canvas'});
-
+            
             chart_this_chart.on('click', function (params) {
                     if (params.dataType === 'node') {
                         navigator.clipboard.writeText(params.data.tooltip.replaceAll("<br/>", ""));
                     }
             });
-
+        
         var option_this_chart = {
     "backgroundColor": "#f5f0d3",
     "animation": true,
