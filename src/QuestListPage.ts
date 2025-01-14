@@ -37,6 +37,13 @@ export class QuestListPage {
       Utils.copyH5Str(document.getElementById("popupContent")!.innerText);
       console.log("成功复制");
     });
+
+    document
+      .getElementById("copyIdBtn")!
+      .addEventListener("click", function () {
+        Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
+        console.log("成功复制");
+      });
   }
 
   sendMessageToMain(data: m2qData) {
@@ -71,6 +78,7 @@ export class QuestListPage {
 
     this.echarts.on("click", (params: any) => {
       if (params.dataType === "node") {
+        document.getElementById("quest_id")!.innerText = params.data.quest_id;
         showPopup(
           "<h1>" +
             params.data.name +

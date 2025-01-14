@@ -124,3 +124,15 @@ iframe {
 	background-color: #4CAF50;
 	text-align: center;
 }
+
+.copy-id-btn {
+	cursor: pointer;
+	float: left;
+	border: 1px solid green;
+	background-color: #4CAF50;
+	text-align: center;
+}
+
+.quest_id{
+	display: none;
+}

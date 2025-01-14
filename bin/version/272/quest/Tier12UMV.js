@@ -63,7 +63,8 @@ var chart_this_chart = echarts.init(
                     "x": 324.0,
                     "y": 108.0,
                     "tooltip": "An Eye at the End of Time",
-                    "data": "So you have made yourself an Eternal DTPF or hopef<br/>ully a few, and now it is time for the push to the<br/> next tier, UXV.\n\nIntroducing the final multiblock<br/> in the game, and by far the most expensive. \nIt i<br/>ntroduces 4 new materials: Raw Stellar Plasma, Whi<br/>te and Black Dwarf Matter and finally Universium.\n<br/>\nIt has 3 different tiered casings with 9 tiers ea<br/>ch: \n\nSpacetime Compression Field Generator:\n- Det<br/>ermines the tier of the planet block that can be r<br/>un and decreases the processing time by 3% per tie<br/>r.\n\nTime Dilation Field Generator:\n- Decreases rec<br/>ipe time by 50% per tier, while decreasing the cha<br/>nce of a recipe succeeding by 9.25% per tier.\n\nSta<br/>bilisation Field Generator:\n- Increases the chance<br/> of a recipe succeeding by 5% per tier, while decr<br/>easing the output of a recipe by 5% per tier.\n\nLow<br/>er tier Stabilisation Field Generators have a powe<br/>r output penalty.\n\nFinding the best setup of diffe<br/>rent casing tiers might be a hard task, so a calcu<br/>lator visualing all the drops and setups has been <br/>created: [url]https://docs.google.com/spreadsheets<br/>/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/u<br/>rl]\n\n[note]Be sure to read the tooltip of the Eye <br/>of Harmony controller, it explains everything in d<br/>etail! Depending on your GUI scale it might have m<br/>ultiple pages.[/note]"
+                    "data": "So you have made yourself an Eternal DTPF or hopef<br/>ully a few, and now it is time for the push to the<br/> next tier, UXV.\n\nIntroducing the final multiblock<br/> in the game, and by far the most expensive. \nIt i<br/>ntroduces 4 new materials: Raw Stellar Plasma, Whi<br/>te and Black Dwarf Matter and finally Universium.\n<br/>\nIt has 3 different tiered casings with 9 tiers ea<br/>ch: \n\nSpacetime Compression Field Generator:\n- Det<br/>ermines the tier of the planet block that can be r<br/>un and decreases the processing time by 3% per tie<br/>r.\n\nTime Dilation Field Generator:\n- Decreases rec<br/>ipe time by 50% per tier, while decreasing the cha<br/>nce of a recipe succeeding by 9.25% per tier.\n\nSta<br/>bilisation Field Generator:\n- Increases the chance<br/> of a recipe succeeding by 5% per tier, while decr<br/>easing the output of a recipe by 5% per tier.\n\nLow<br/>er tier Stabilisation Field Generators have a powe<br/>r output penalty.\n\nFinding the best setup of diffe<br/>rent casing tiers might be a hard task, so a calcu<br/>lator visualing all the drops and setups has been <br/>created: [url]https://docs.google.com/spreadsheets<br/>/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/u<br/>rl]\n\n[note]Be sure to read the tooltip of the Eye <br/>of Harmony controller, it explains everything in d<br/>etail! Depending on your GUI scale it might have m<br/>ultiple pages.[/note]",
+                    "quest_id": "kazCPEWoSmiZhR4bkHlEBQ=="
                 },
                 {
                     "name": "Are you Ready?",
@@ -71,7 +72,8 @@ var chart_this_chart = echarts.init(
                     "x": 324.0,
                     "y": 12.0,
                     "tooltip": "Are you Ready?",
-                    "data": "From now on, you\u2019ll be dealing with extremely slow<br/> recipes.\n\nConsider finishing up your QFTs and upg<br/>rading or replacing your old infrastructure to sav<br/>e on TPS.\n\nYou should definitely upgrade your powe<br/>r generation and infrastructure to handle millions<br/> of recipes.\n\nThe Eye of Harmony will be consuming<br/> most of your power before it starts generating mo<br/>re than it uses.\n\nMay Colen have mercy on your sou<br/>l.\n\n[note]Welcome to the waiting lounge.[/note]"
+                    "data": "From now on, you\u2019ll be dealing with extremely slow<br/> recipes.\n\nConsider finishing up your QFTs and upg<br/>rading or replacing your old infrastructure to sav<br/>e on TPS.\n\nYou should definitely upgrade your powe<br/>r generation and infrastructure to handle millions<br/> of recipes.\n\nThe Eye of Harmony will be consuming<br/> most of your power before it starts generating mo<br/>re than it uses.\n\nMay Colen have mercy on your sou<br/>l.\n\n[note]Welcome to the waiting lounge.[/note]",
+                    "quest_id": "Me_rEqy5uFg=="
                 },
                 {
                     "name": "\u00a7b\u00a7lA Second Ring has Hit the Godforge",
@@ -79,7 +81,8 @@ var chart_this_chart = echarts.init(
                     "x": 24.0,
                     "y": -36.0,
                     "tooltip": "\u00a7b\u00a7lA Second Ring has Hit the Godforge",
-                    "data": "As additional rings are placed closer to the star <br/>at the center of the Forge, the gravitational stre<br/>ss drastically increases on the structure. Gravito<br/>n shards alleviate these stresses while also creat<br/>ing localized spacetime bridges to link the two ri<br/>ngs and their modules\u2019 respective upgrades.\n\n[note<br/>]Adding a second ring to your Godforge allows for <br/>4 additional modules, as well as allowing you to p<br/>ick a second path in the split paths part of the u<br/>pgrade tree.[/note]\n\n[note]Usage of a second ring <br/>requires the CD upgrade.[/note]"
+                    "data": "As additional rings are placed closer to the star <br/>at the center of the Forge, the gravitational stre<br/>ss drastically increases on the structure. Gravito<br/>n shards alleviate these stresses while also creat<br/>ing localized spacetime bridges to link the two ri<br/>ngs and their modules\u2019 respective upgrades.\n\n[note<br/>]Adding a second ring to your Godforge allows for <br/>4 additional modules, as well as allowing you to p<br/>ick a second path in the split paths part of the u<br/>pgrade tree.[/note]\n\n[note]Usage of a second ring <br/>requires the CD upgrade.[/note]",
+                    "quest_id": "6937dCEUqHUw=="
                 },
                 {
                     "name": "Black Dwarf Matter",
@@ -88,7 +91,8 @@ var chart_this_chart = echarts.init(
                     "x": 360.0,
                     "y": 180.0,
                     "tooltip": "Black Dwarf Matter",
-                    "data": "Reinforcing your casings with matter from white dw<br/>arfs was a good idea.\n\nYou can now accelerate a so<br/>lar system until a black dwarf forms. This materia<br/>l will likely be key to observing and understandin<br/>g what happens next.\n\nThis is the second of your t<br/>hree EOH materials. Use it to upgrade your casings<br/> to T7.\n\n[note]The EOH becomes power positive once<br/> all the casings are Tier 7.[/note]"
+                    "data": "Reinforcing your casings with matter from white dw<br/>arfs was a good idea.\n\nYou can now accelerate a so<br/>lar system until a black dwarf forms. This materia<br/>l will likely be key to observing and understandin<br/>g what happens next.\n\nThis is the second of your t<br/>hree EOH materials. Use it to upgrade your casings<br/> to T7.\n\n[note]The EOH becomes power positive once<br/> all the casings are Tier 7.[/note]",
+                    "quest_id": "bPYTUdlkSCiRi0eDHHw7tw=="
                 },
                 {
                     "name": "Convergence",
@@ -96,7 +100,8 @@ var chart_this_chart = echarts.init(
                     "x": 96.0,
                     "y": 60.0,
                     "tooltip": "Convergence",
-                    "data": "Running your Dimensionally Transcendent Plasma For<br/>ge for an extended period [note](8 hours)[/note] a<br/>llows the Multidimensional Spaces to align perfect<br/>ly.\n\nWith your newly acquired technology, you can <br/>now tap into these spaces in perfect sync, enablin<br/>g your plasma forges to operate at incredible spee<br/>ds.\n\nThe Transdimensional Alignment Matrix allows <br/>the DTPF to run with Perfect Overclocks. To achiev<br/>e this, you need a full discount, and the extra po<br/>wer cost is offset by using more of the same catal<br/>yst.\n\nOverall, it is more efficient and totally wo<br/>rth it.\n\nThis process is extremely catalyst-hungry<br/>. Ensure you're producing enough to sustain it.\n\nF<br/>or recipes without a catalyst, you must specify th<br/>e catalyst in the GUI by right-clicking the Conver<br/>gence button, otherwise it will default to Crude.[<br/>/note]\n\n[note]Math for the curious:\n\nTo clear up w<br/>hat exactly happens in the background, here's an e<br/>xplanation on how the extra catalyst values are ca<br/>lculated using an example:\n\nThe example recipe of <br/>choice is the molten neutronium recipe using prosa<br/>ic catalyst, running at 64A UMV (8,589,934,592 EU/<br/>t).\nThe recipe uses 14,753L of Prosaic catalyst an<br/>d 36,484,545,600 EU per recipe without OCs or the <br/>catalyst discount. With the discount, the catalyst<br/> amount gets cut in half, meaning 7,376.5L of cata<br/>lyst, which are rounded to 7,376L, and due to the <br/>64A UMV the machine is supplied with the recipe ov<br/>erclocks 3 times, meaning each recipe actually use<br/>s 36,484,545,600 * 2^3 = 291,876,364,800 EU. \n\nKno<br/>wing the amount of OCs and the base voltage of the<br/> recipe, the difference of the needed EU per recip<br/>e with and without perfect OC can be calculated, t<br/>hat being 291,876,364,800 - 36,484,545,600 = 255,3<br/>91,819,200 extra EU due to imperfect OCs.\nTo get t<br/>he value of needed extra catalyst, this extra EU v<br/>alue has to be divided by the energy density of th<br/>e relevant catalyst, prosaic in this case.\n\nThe di<br/>vision equates to 255,391,819,200 EU / 66,768,460 <br/>EU/L = 3,825.037 L, rounded to 3,825L extra prosai<br/>c catalyst per recipe. For the final step, this va<br/>lue has to be multiplied by 0.5 as its affected by<br/> the discount, meaning the total extra catalyst th<br/>at gets added to the recipe is 3,825L * 0.5 = 1,91<br/>2.5 L, rounded to 1,912L.\n\nTo summarise it all in <br/>a formula:\nAmount extra catalyst per recipe = (B *<br/> ((2^x) - 1))/2L\nwhere:\nB is base total EU of the <br/>recipe\nx is the number of overclocks\nL is the EU/L<br/> of the relevant catalyst [/note]\n"
+                    "data": "Running your Dimensionally Transcendent Plasma For<br/>ge for an extended period [note](8 hours)[/note] a<br/>llows the Multidimensional Spaces to align perfect<br/>ly.\n\nWith your newly acquired technology, you can <br/>now tap into these spaces in perfect sync, enablin<br/>g your plasma forges to operate at incredible spee<br/>ds.\n\nThe Transdimensional Alignment Matrix allows <br/>the DTPF to run with Perfect Overclocks. To achiev<br/>e this, you need a full discount, and the extra po<br/>wer cost is offset by using more of the same catal<br/>yst.\n\nOverall, it is more efficient and totally wo<br/>rth it.\n\nThis process is extremely catalyst-hungry<br/>. Ensure you're producing enough to sustain it.\n\nF<br/>or recipes without a catalyst, you must specify th<br/>e catalyst in the GUI by right-clicking the Conver<br/>gence button, otherwise it will default to Crude.[<br/>/note]\n\n[note]Math for the curious:\n\nTo clear up w<br/>hat exactly happens in the background, here's an e<br/>xplanation on how the extra catalyst values are ca<br/>lculated using an example:\n\nThe example recipe of <br/>choice is the molten neutronium recipe using prosa<br/>ic catalyst, running at 64A UMV (8,589,934,592 EU/<br/>t).\nThe recipe uses 14,753L of Prosaic catalyst an<br/>d 36,484,545,600 EU per recipe without OCs or the <br/>catalyst discount. With the discount, the catalyst<br/> amount gets cut in half, meaning 7,376.5L of cata<br/>lyst, which are rounded to 7,376L, and due to the <br/>64A UMV the machine is supplied with the recipe ov<br/>erclocks 3 times, meaning each recipe actually use<br/>s 36,484,545,600 * 2^3 = 291,876,364,800 EU. \n\nKno<br/>wing the amount of OCs and the base voltage of the<br/> recipe, the difference of the needed EU per recip<br/>e with and without perfect OC can be calculated, t<br/>hat being 291,876,364,800 - 36,484,545,600 = 255,3<br/>91,819,200 extra EU due to imperfect OCs.\nTo get t<br/>he value of needed extra catalyst, this extra EU v<br/>alue has to be divided by the energy density of th<br/>e relevant catalyst, prosaic in this case.\n\nThe di<br/>vision equates to 255,391,819,200 EU / 66,768,460 <br/>EU/L = 3,825.037 L, rounded to 3,825L extra prosai<br/>c catalyst per recipe. For the final step, this va<br/>lue has to be multiplied by 0.5 as its affected by<br/> the discount, meaning the total extra catalyst th<br/>at gets added to the recipe is 3,825L * 0.5 = 1,91<br/>2.5 L, rounded to 1,912L.\n\nTo summarise it all in <br/>a formula:\nAmount extra catalyst per recipe = (B *<br/> ((2^x) - 1))/2L\nwhere:\nB is base total EU of the <br/>recipe\nx is the number of overclocks\nL is the EU/L<br/> of the relevant catalyst [/note]\n",
+                    "quest_id": "XoEzTtuPQjyeHTyqp9eY8Q=="
                 },
                 {
                     "name": "Finally, Universium!",
@@ -105,7 +110,8 @@ var chart_this_chart = echarts.init(
                     "x": 432.0,
                     "y": 180.0,
                     "tooltip": "Finally, Universium!",
-                    "data": "You\u2019ve finally solved it. Who knew that leaving de<br/>ad stars long enough would cause your artificial s<br/>olar system to implode and lead to a Big Bang?\n\nIf<br/> only you could tap into that much mass right befo<br/>re it started expanding again, you could literally<br/> hold the entire universe in the palm of your hand<br/>.\n\nThis is your third and final material from the <br/>EOH.\n\n[note]It's mainly used for UXV crafts, but y<br/>our first few should go in the Eternity loop. The <br/>quest for it is located in the Endgame Goals tab.\n<br/>\nCongrats! You can now move on to the UXV tier.[/n<br/>ote]"
+                    "data": "You\u2019ve finally solved it. Who knew that leaving de<br/>ad stars long enough would cause your artificial s<br/>olar system to implode and lead to a Big Bang?\n\nIf<br/> only you could tap into that much mass right befo<br/>re it started expanding again, you could literally<br/> hold the entire universe in the palm of your hand<br/>.\n\nThis is your third and final material from the <br/>EOH.\n\n[note]It's mainly used for UXV crafts, but y<br/>our first few should go in the Eternity loop. The <br/>quest for it is located in the Endgame Goals tab.\n<br/>\nCongrats! You can now move on to the UXV tier.[/n<br/>ote]",
+                    "quest_id": "21tDEYptRuOgSJym30Watg=="
                 },
                 {
                     "name": "Guzzling Massive Amounts of Gas",
@@ -114,7 +120,8 @@ var chart_this_chart = echarts.init(
                     "x": -96.0,
                     "y": -48.0,
                     "tooltip": "Guzzling Massive Amounts of Gas",
-                    "data": "It can run 4 different recipes simultaneously, wit<br/>h 4 parallels for each recipe.\n\nA worthy upgrade f<br/>or some SpaceTime."
+                    "data": "It can run 4 different recipes simultaneously, wit<br/>h 4 parallels for each recipe.\n\nA worthy upgrade f<br/>or some SpaceTime.",
+                    "quest_id": "5vAyoCzxQkSRpjzlDNwtrw=="
                 },
                 {
                     "name": "\u00a7b\u00a7lMagnetic Monopole Matter",
@@ -122,7 +129,8 @@ var chart_this_chart = echarts.init(
                     "x": 432.0,
                     "y": 240.0,
                     "tooltip": "\u00a7b\u00a7lMagnetic Monopole Matter",
-                    "data": "With total mastery of the Forge of the Gods achiev<br/>ed, it is possible to begin a new universe-spannin<br/>g initiative. It is now possible to quantize and e<br/>xtract graviton shards for use outside the Forge i<br/>n powerful new technological endeavours; produce t<br/>he most exotic plasmas beyond merely periodic elem<br/>ents; and most importantly, begin to understand th<br/>e immense power of magmatter, a form of matter mad<br/>e entirely of magnetic monopoles with density and <br/>stability billions of times that of conventional b<br/>osonic matter. It is with this development you rea<br/>lise that the completion of the Forge was not the <br/>end goal, but merely a stepping stone to universal<br/> transcendence.\n\n[note]Required for UXV components<br/>, Magmatter is the second material the Heliofusion<br/> Exoticizer can create, and will require a second <br/>module. Read the Godforge Information in the UI fo<br/>r more information on how to automate this.[/note]<br/>\n\n[note]The creation of Magmatter requires the END<br/> upgrade.[/note]\n"
+                    "data": "With total mastery of the Forge of the Gods achiev<br/>ed, it is possible to begin a new universe-spannin<br/>g initiative. It is now possible to quantize and e<br/>xtract graviton shards for use outside the Forge i<br/>n powerful new technological endeavours; produce t<br/>he most exotic plasmas beyond merely periodic elem<br/>ents; and most importantly, begin to understand th<br/>e immense power of magmatter, a form of matter mad<br/>e entirely of magnetic monopoles with density and <br/>stability billions of times that of conventional b<br/>osonic matter. It is with this development you rea<br/>lise that the completion of the Forge was not the <br/>end goal, but merely a stepping stone to universal<br/> transcendence.\n\n[note]Required for UXV components<br/>, Magmatter is the second material the Heliofusion<br/> Exoticizer can create, and will require a second <br/>module. Read the Godforge Information in the UI fo<br/>r more information on how to automate this.[/note]<br/>\n\n[note]The creation of Magmatter requires the END<br/> upgrade.[/note]\n",
+                    "quest_id": "U7Ta5d7PSii76sbIPbltlw=="
                 },
                 {
                     "name": "\u7ec8\u4e8e,\u4f60\u5728\u8fd9\u4e86.",
@@ -131,7 +139,8 @@ var chart_this_chart = echarts.init(
                     "x": -24.0,
                     "y": 60.0,
                     "tooltip": "\u7ec8\u4e8e,\u4f60\u5728\u8fd9\u4e86.",
-                    "data": "\u8fd8\u80fd\u518d\u5f3a\u4e00\u70b9."
+                    "data": "\u8fd8\u80fd\u518d\u5f3a\u4e00\u70b9.",
+                    "quest_id": "AAAAAAAAAAAAAAAAAAAMqw=="
                 },
                 {
                     "name": "Raw Stellar Plasma",
@@ -140,7 +149,8 @@ var chart_this_chart = echarts.init(
                     "x": 216.0,
                     "y": 180.0,
                     "tooltip": "Raw Stellar Plasma",
-                    "data": "Created by all tiers of the Eye of Harmony, Raw St<br/>ellar Plasma can be used for several things includ<br/>ing Stellar Catalyst.\n\n[note]You may want to be ca<br/>reful with this material, as later running EOH's w<br/>ith Astral Arrays requires this instead of Hydroge<br/>n and Helium, so make sure to never fully run out!<br/>[/note]"
+                    "data": "Created by all tiers of the Eye of Harmony, Raw St<br/>ellar Plasma can be used for several things includ<br/>ing Stellar Catalyst.\n\n[note]You may want to be ca<br/>reful with this material, as later running EOH's w<br/>ith Astral Arrays requires this instead of Hydroge<br/>n and Helium, so make sure to never fully run out!<br/>[/note]",
+                    "quest_id": "uXczmEsfT2uRCSnx8Vm4RQ=="
                 },
                 {
                     "name": "Saving on SpaceTime",
@@ -149,7 +159,8 @@ var chart_this_chart = echarts.init(
                     "x": 60.0,
                     "y": 108.0,
                     "tooltip": "Saving on SpaceTime",
-                    "data": "SpaceTime is quite a challenge, isn\u2019t it? You shou<br/>ld definitely consider upgrading your Component As<br/>sembly Lines to save on some of it.\n\n[note]Did you<br/> know you can wall-share the component casings? Ju<br/>st turn one CoAL upside down.\n\nThe CoAL will perfo<br/>rm Perfect Overclocks for the recipes below its ti<br/>er.[/note]"
+                    "data": "SpaceTime is quite a challenge, isn\u2019t it? You shou<br/>ld definitely consider upgrading your Component As<br/>sembly Lines to save on some of it.\n\n[note]Did you<br/> know you can wall-share the component casings? Ju<br/>st turn one CoAL upside down.\n\nThe CoAL will perfo<br/>rm Perfect Overclocks for the recipes below its ti<br/>er.[/note]",
+                    "quest_id": "whQfmgWO0EII7g2g=="
                 },
                 {
                     "name": "Shirabon",
@@ -158,7 +169,8 @@ var chart_this_chart = echarts.init(
                     "x": -24.0,
                     "y": -36.0,
                     "tooltip": "Shirabon",
-                    "data": "A helper material needed in some UMV and UXV compo<br/>nents. Have fun making millions.\n\n[note]This is ex<br/>tremely slow to make and to process.[/note]"
+                    "data": "A helper material needed in some UMV and UXV compo<br/>nents. Have fun making millions.\n\n[note]This is ex<br/>tremely slow to make and to process.[/note]",
+                    "quest_id": "OSRJKBGzDsGujvNw=="
                 },
                 {
                     "name": "Stars, So Many Stars",
@@ -167,7 +179,8 @@ var chart_this_chart = echarts.init(
                     "x": 432.0,
                     "y": -12.0,
                     "tooltip": "Stars, So Many Stars",
-                    "data": "Eternal coils? Perfect time for stargate trophy nu<br/>mber three. \nYou know the drill, you give 2 starga<br/>tes' worth of stuff, you get your trophy. Simple a<br/>s that.\n\n[note]Our journey through time continues <br/>onwards, entering the UMV, aka DTPF era.\n\nSurprisi<br/>ngly, it still is the year 2022, but there have be<br/>en a huge amount of changes since our last stop in<br/> the UEV era. The DTPF exists now, hypogen & etern<br/>al coils included, and machine parts up to UMV thu<br/>s are craftable. Wireless energy is a thing now to<br/>o, both the LSC and the regular hatch kind, and AE<br/>2FC is in the pack, allowing direct fluid crafting<br/> (meaning no more volumetric flask shuffling). \nTh<br/>e power situation hasnt changed much since the UEV<br/> era, except for dyson being even more bugged and <br/>giving free uncapped infinite power (abusing this <br/>was obviously labeled as bugabuse). \nSome other ne<br/>w useful things are the MABS, Integrated Ore Facto<br/>ry, Space Elevator, UIV and UMV singleblocks (and <br/>PAs accepting up to 64 UEV+ machines), EIG, EEC, i<br/>ndustrial & mega apiary, yottanks, stocking buses,<br/> data bank chaining and the Draconic Fusion Crafte<br/>r.\nThe stargate's cost has now skyrocketed far mor<br/>e than ever before, marking the beginning of this <br/>new era of GT:NH endgame, the era of expansion.\n\nT<br/>his time around the leading GDCloud was challenged<br/> by the team Neo Caelestia, who were progressing a<br/>t a staggering speed, inching ever closer to being<br/> first to gate, but ultimately weren't able to ful<br/>ly catch up and thus GDCloud once again was first <br/>to conquer the challenge on the 19th of November, <br/>2022.\n\nP.S.: You know how this works, right? Here'<br/>s the list:\n-PCB Factory, Component Assemblyline, <br/>AAL, Transcendent Plasma Mixer, EOH, QFT\n-Multi-Am<br/>p wireless hatches\n-Sub 1-tick OC, Batch Mode, inb<br/>uilt Void Protection on multis\n-Level Maintainer, <br/>Stocking Hatches, Crafting Input Buses\n\nP.P.S.: Ch<br/>aotic capacitor bank? What's that?[/note]"
+                    "data": "Eternal coils? Perfect time for stargate trophy nu<br/>mber three. \nYou know the drill, you give 2 starga<br/>tes' worth of stuff, you get your trophy. Simple a<br/>s that.\n\n[note]Our journey through time continues <br/>onwards, entering the UMV, aka DTPF era.\n\nSurprisi<br/>ngly, it still is the year 2022, but there have be<br/>en a huge amount of changes since our last stop in<br/> the UEV era. The DTPF exists now, hypogen & etern<br/>al coils included, and machine parts up to UMV thu<br/>s are craftable. Wireless energy is a thing now to<br/>o, both the LSC and the regular hatch kind, and AE<br/>2FC is in the pack, allowing direct fluid crafting<br/> (meaning no more volumetric flask shuffling). \nTh<br/>e power situation hasnt changed much since the UEV<br/> era, except for dyson being even more bugged and <br/>giving free uncapped infinite power (abusing this <br/>was obviously labeled as bugabuse). \nSome other ne<br/>w useful things are the MABS, Integrated Ore Facto<br/>ry, Space Elevator, UIV and UMV singleblocks (and <br/>PAs accepting up to 64 UEV+ machines), EIG, EEC, i<br/>ndustrial & mega apiary, yottanks, stocking buses,<br/> data bank chaining and the Draconic Fusion Crafte<br/>r.\nThe stargate's cost has now skyrocketed far mor<br/>e than ever before, marking the beginning of this <br/>new era of GT:NH endgame, the era of expansion.\n\nT<br/>his time around the leading GDCloud was challenged<br/> by the team Neo Caelestia, who were progressing a<br/>t a staggering speed, inching ever closer to being<br/> first to gate, but ultimately weren't able to ful<br/>ly catch up and thus GDCloud once again was first <br/>to conquer the challenge on the 19th of November, <br/>2022.\n\nP.S.: You know how this works, right? Here'<br/>s the list:\n-PCB Factory, Component Assemblyline, <br/>AAL, Transcendent Plasma Mixer, EOH, QFT\n-Multi-Am<br/>p wireless hatches\n-Sub 1-tick OC, Batch Mode, inb<br/>uilt Void Protection on multis\n-Level Maintainer, <br/>Stocking Hatches, Crafting Input Buses\n\nP.P.S.: Ch<br/>aotic capacitor bank? What's that?[/note]",
+                    "quest_id": "QO1gudFvTtKgWe9942dW3Q=="
                 },
                 {
                     "name": "Stellar Catalyst",
@@ -176,7 +189,8 @@ var chart_this_chart = echarts.init(
                     "x": 216.0,
                     "y": 240.0,
                     "tooltip": "Stellar Catalyst",
-                    "data": "Your attempts to improve your dimensional catalyst<br/> have been futile so far, but with the Raw Stellar<br/> Plasma from your Eye of Harmony, you can finally <br/>create a stable and more powerful catalyst.\n\nYou w<br/>ill need some higher-tier plasmas to help maintain<br/> its stability as well.\n\n[warn]Handle with care. W<br/>e are not responsible for your base turning into s<br/>upermassive black holes. /s[/warn]"
+                    "data": "Your attempts to improve your dimensional catalyst<br/> have been futile so far, but with the Raw Stellar<br/> Plasma from your Eye of Harmony, you can finally <br/>create a stable and more powerful catalyst.\n\nYou w<br/>ill need some higher-tier plasmas to help maintain<br/> its stability as well.\n\n[warn]Handle with care. W<br/>e are not responsible for your base turning into s<br/>upermassive black holes. /s[/warn]",
+                    "quest_id": "h3CkJQ=="
                 },
                 {
                     "name": "Storing Computation in the Cloud",
@@ -184,7 +198,8 @@ var chart_this_chart = echarts.init(
                     "x": 60.0,
                     "y": -132.0,
                     "tooltip": "Storing Computation in the Cloud",
-                    "data": "Wireless Computation is similar to Wireless Data, <br/>Cloud Computation Server Hatches send computation <br/>to Cloud Computation Client Hatches, which other m<br/>ultiblocks can use.\n\nPlace down a Server Hatch on <br/>a Quantum Computer, screwdriver the controller to <br/>enable Wireless Mode, then after placing down a Cl<br/>ient Hatch, you have to set how much computation i<br/>t should request from the Server Hatch.\n\n[note]Wir<br/>eless Data Hatches are N:M instead of 1:1[/note]"
+                    "data": "Wireless Computation is similar to Wireless Data, <br/>Cloud Computation Server Hatches send computation <br/>to Cloud Computation Client Hatches, which other m<br/>ultiblocks can use.\n\nPlace down a Server Hatch on <br/>a Quantum Computer, screwdriver the controller to <br/>enable Wireless Mode, then after placing down a Cl<br/>ient Hatch, you have to set how much computation i<br/>t should request from the Server Hatch.\n\n[note]Wir<br/>eless Data Hatches are N:M instead of 1:1[/note]",
+                    "quest_id": "YsMFqW6U1tQ=="
                 },
                 {
                     "name": "Subspace Cooling",
@@ -193,7 +208,8 @@ var chart_this_chart = echarts.init(
                     "x": -144.0,
                     "y": 72.0,
                     "tooltip": "Subspace Cooling",
-                    "data": "Cooling exotic ingots proves to be a much bigger c<br/>hallenge than smelting them.\n\nFortunately, reinfor<br/>cing some of the casings with your new materials a<br/>llows you to inject exotic coolants that capture e<br/>xtreme heat in miniature tears of spacetime, helpi<br/>ng to cool your ingots a bit faster.\n\nWith Subspac<br/>e Cooling, you can enable the Vacuum Freezer to ac<br/>hieve Perfect Overclocks\u2026 at a cost.\n\nTier 1 will <br/>consume SpaceTime in liquid form at [warn]7500 L/s<br/>[/warn] and allow for 1 Perfect Overclock.\n\n[note]<br/>This cost is very high but static, remaining the s<br/>ame for each recipe being run. So, be selective ab<br/>out cooling your ingots.\n\nThe faster the recipes, <br/>the more efficient the cost, so find your optimal <br/>balance.[/note]\n\nThe Infinity Cooled Casings repla<br/>ce the Frostproof casings, so you don\u2019t need to wo<br/>rry about damaging your setups."
+                    "data": "Cooling exotic ingots proves to be a much bigger c<br/>hallenge than smelting them.\n\nFortunately, reinfor<br/>cing some of the casings with your new materials a<br/>llows you to inject exotic coolants that capture e<br/>xtreme heat in miniature tears of spacetime, helpi<br/>ng to cool your ingots a bit faster.\n\nWith Subspac<br/>e Cooling, you can enable the Vacuum Freezer to ac<br/>hieve Perfect Overclocks\u2026 at a cost.\n\nTier 1 will <br/>consume SpaceTime in liquid form at [warn]7500 L/s<br/>[/warn] and allow for 1 Perfect Overclock.\n\n[note]<br/>This cost is very high but static, remaining the s<br/>ame for each recipe being run. So, be selective ab<br/>out cooling your ingots.\n\nThe faster the recipes, <br/>the more efficient the cost, so find your optimal <br/>balance.[/note]\n\nThe Infinity Cooled Casings repla<br/>ce the Frostproof casings, so you don\u2019t need to wo<br/>rry about damaging your setups.",
+                    "quest_id": "hybMIjq9Q9mxxWKEE8gBWQ=="
                 },
                 {
                     "name": "\u7a7a\u51bb\u5854",
@@ -202,7 +218,8 @@ var chart_this_chart = echarts.init(
                     "x": -96.0,
                     "y": 72.0,
                     "tooltip": "\u7a7a\u51bb\u5854",
-                    "data": "\u638c\u63a7\u65f6\u7a7a,\u4f60\u5df2\u7ecf\u53ef\u4ee5\u8ba9\u6e29\u5ea6\u63a5\u8fd1\u7edd\u5bf9\u96f6\u5ea6,\u8fd9\u4f7f\u5f97\u7814\u53d1\u66f4\u68d2\u7684\u51b7\u5374\u5355\u5143\u6210\u4e3a\u53ef\u80fd.\u7279\u5236\u7684\u673a\u68b0\u65b9\u5757\u53ef\u4f7f\u5185\u90e8\u4fdd\u6301<br/>\u6781\u4f4e\u6e29\u5ea6,\u540c\u65f6\u7eb3\u7c73\u8702\u7fa4\u5f97\u76ca\u4e8e\u5176\u6781\u5c0f\u7684\u4f53\u578b,\u53ef\u4ee5\u6709\u6548\u5730\u8fdb\u884c\u70ed\u91cf\u4f20\u9012.\u5355\u6709\u8fd9\u4e9b\u4ecd\u7136\u4e0d\u591f,\u8fd8\u9700\u8981\u4e00\u4e9b\u51b7\u5374\u6db2<br/>,\u4f46\u5728\u6b64\u6e29\u5ea6\u4e0b\u6c34\u4f1a\u7ed3\u51b0,\u6240\u4ee5\u8d85\u7ea7\u51b7\u5374\u6db2\u6210\u4e3a\u4e86\u6211\u4eec\u7684\u9009\u62e9.\u8fd0\u884c\u65f6,\u7a7a\u51bb\u5854\u6bcf\u79d2\u6d88\u801710\u5347\u8d85\u7ea7\u51b7\u5374\u6db2,\u8ba9\u673a<br/>\u5668\u8fdb\u884c4/4\u8d85\u9891.\u8f93\u5165\u4ed3\u4f4d\u4e8e\u7a7a\u51bb\u5854\u7684\u5e95\u5c42\u4e2d\u592e.\u6b64\u5347\u7ea7\u4e0e\u6c34\u51b7\u5854\u4e0d\u517c\u5bb9."
+                    "data": "\u638c\u63a7\u65f6\u7a7a,\u4f60\u5df2\u7ecf\u53ef\u4ee5\u8ba9\u6e29\u5ea6\u63a5\u8fd1\u7edd\u5bf9\u96f6\u5ea6,\u8fd9\u4f7f\u5f97\u7814\u53d1\u66f4\u68d2\u7684\u51b7\u5374\u5355\u5143\u6210\u4e3a\u53ef\u80fd.\u7279\u5236\u7684\u673a\u68b0\u65b9\u5757\u53ef\u4f7f\u5185\u90e8\u4fdd\u6301<br/>\u6781\u4f4e\u6e29\u5ea6,\u540c\u65f6\u7eb3\u7c73\u8702\u7fa4\u5f97\u76ca\u4e8e\u5176\u6781\u5c0f\u7684\u4f53\u578b,\u53ef\u4ee5\u6709\u6548\u5730\u8fdb\u884c\u70ed\u91cf\u4f20\u9012.\u5355\u6709\u8fd9\u4e9b\u4ecd\u7136\u4e0d\u591f,\u8fd8\u9700\u8981\u4e00\u4e9b\u51b7\u5374\u6db2<br/>,\u4f46\u5728\u6b64\u6e29\u5ea6\u4e0b\u6c34\u4f1a\u7ed3\u51b0,\u6240\u4ee5\u8d85\u7ea7\u51b7\u5374\u6db2\u6210\u4e3a\u4e86\u6211\u4eec\u7684\u9009\u62e9.\u8fd0\u884c\u65f6,\u7a7a\u51bb\u5854\u6bcf\u79d2\u6d88\u801710\u5347\u8d85\u7ea7\u51b7\u5374\u6db2,\u8ba9\u673a<br/>\u5668\u8fdb\u884c4/4\u8d85\u9891.\u8f93\u5165\u4ed3\u4f4d\u4e8e\u7a7a\u51bb\u5854\u7684\u5e95\u5c42\u4e2d\u592e.\u6b64\u5347\u7ea7\u4e0e\u6c34\u51b7\u5854\u4e0d\u517c\u5bb9.",
+                    "quest_id": "AAAAAAAAAAAAAAAAAAAMzQ=="
                 },
                 {
                     "name": "The SUCC",
@@ -211,7 +228,8 @@ var chart_this_chart = echarts.init(
                     "x": 360.0,
                     "y": 240.0,
                     "tooltip": "The SUCC",
-                    "data": "Like its predecessor it can run 4 different recipe<br/>s at once, but this time each recipe has 16 parall<br/>els.\n\nA good solution for your Hydrogen and Helium<br/> problems.\n\n[note]This also requires Eternity to c<br/>raft.[/note]"
+                    "data": "Like its predecessor it can run 4 different recipe<br/>s at once, but this time each recipe has 16 parall<br/>els.\n\nA good solution for your Hydrogen and Helium<br/> problems.\n\n[note]This also requires Eternity to c<br/>raft.[/note]",
+                    "quest_id": "J4rw=="
                 },
                 {
                     "name": "Tier 12 (UMV)",
@@ -220,7 +238,8 @@ var chart_this_chart = echarts.init(
                     "x": -120.0,
                     "y": 12.0,
                     "tooltip": "Tier 12 (UMV)",
-                    "data": "Welcome to the current penultimate tier of New Hor<br/>izons.\n\nThis tier is the tier for upgrading everyt<br/>hing and provides access to better parts to help y<br/>ou scale up.\n\nGood Luck.\n\n[warn]This tier is not f<br/>ully complete. Expect stuff to change.[/warn]"
+                    "data": "Welcome to the current penultimate tier of New Hor<br/>izons.\n\nThis tier is the tier for upgrading everyt<br/>hing and provides access to better parts to help y<br/>ou scale up.\n\nGood Luck.\n\n[warn]This tier is not f<br/>ully complete. Expect stuff to change.[/warn]",
+                    "quest_id": "jlXvqqgIQ_Crha2tW0gEQg=="
                 },
                 {
                     "name": "Tier 4 QFT Catalysts",
@@ -229,7 +248,8 @@ var chart_this_chart = echarts.init(
                     "x": 0.0,
                     "y": -84.0,
                     "tooltip": "Tier 4 QFT Catalysts",
-                    "data": "With Shirabon now acquired, you can finally create<br/> catalysts to use in your Tier 4 QFT.\n\n[note]These<br/> are extremely expensive, you may want to look int<br/>o DTPF convergence, and faster means of creating M<br/>etastable Oganesson before you can make many of th<br/>ese.[/note]"
+                    "data": "With Shirabon now acquired, you can finally create<br/> catalysts to use in your Tier 4 QFT.\n\n[note]These<br/> are extremely expensive, you may want to look int<br/>o DTPF convergence, and faster means of creating M<br/>etastable Oganesson before you can make many of th<br/>ese.[/note]",
+                    "quest_id": "2IsyxKTLiZuTY417qWKw=="
                 },
                 {
                     "name": "UMV Energy Hatch",
@@ -238,7 +258,8 @@ var chart_this_chart = echarts.init(
                     "x": 0.0,
                     "y": 108.0,
                     "tooltip": "UMV Energy Hatch",
-                    "data": "The penultimate energy hatch.\n\nHopefully you know <br/>what to upgrade first.\n\n[note]Have you checked out<br/> wireless energy hatches yet?[/note]"
+                    "data": "The penultimate energy hatch.\n\nHopefully you know <br/>what to upgrade first.\n\n[note]Have you checked out<br/> wireless energy hatches yet?[/note]",
+                    "quest_id": "6rzcSbH2QY2cpChT2zLC_g=="
                 },
                 {
                     "name": "UMV Field Generator",
@@ -247,7 +268,8 @@ var chart_this_chart = echarts.init(
                     "x": 60.0,
                     "y": 12.0,
                     "tooltip": "UMV Field Generator",
-                    "data": "Another Field Generator... you are almost done."
+                    "data": "Another Field Generator... you are almost done.",
+                    "quest_id": "rdzpjzaCS2epgavzZr6L9A=="
                 },
                 {
                     "name": "UMV Superconductors",
@@ -256,7 +278,8 @@ var chart_this_chart = echarts.init(
                     "x": -48.0,
                     "y": 108.0,
                     "tooltip": "UMV Superconductors",
-                    "data": "One of the last wires you have to make for now.\n\n[<br/>note]Hope you're not using these for hooking up po<br/>wer to your pre-existing machines. Consider the In<br/>finity Wire.[/note]"
+                    "data": "One of the last wires you have to make for now.\n\n[<br/>note]Hope you're not using these for hooking up po<br/>wer to your pre-existing machines. Consider the In<br/>finity Wire.[/note]",
+                    "quest_id": "SOXA=="
                 },
                 {
                     "name": "UXV\u7535\u8def\u677f",
@@ -265,7 +288,8 @@ var chart_this_chart = echarts.init(
                     "x": 60.0,
                     "y": -84.0,
                     "tooltip": "UXV\u7535\u8def\u677f",
-                    "data": "\u8fd9\u662fUXV\u7535\u8def\u677f."
+                    "data": "\u8fd9\u662fUXV\u7535\u8def\u677f.",
+                    "quest_id": "AAAAAAAAAAAAAAAAAAAMrA=="
                 },
                 {
                     "name": "What Do I Use This Stuff On?",
@@ -274,7 +298,8 @@ var chart_this_chart = echarts.init(
                     "x": 288.0,
                     "y": 240.0,
                     "tooltip": "What Do I Use This Stuff On?",
-                    "data": "White Dwarf Matter, your first main EOH material! <br/>I must be able to craft all sorts of cool endgame <br/>things with this... right?\n\n[note]Currently, besid<br/>es EOH casing upgrades, White Dwarf Matter is not <br/>used anywhere on its own, often paired with Black <br/>Dwarf Matter or other later materials. Save it up <br/>for now and keep upgrading that EOH![/note]"
+                    "data": "White Dwarf Matter, your first main EOH material! <br/>I must be able to craft all sorts of cool endgame <br/>things with this... right?\n\n[note]Currently, besid<br/>es EOH casing upgrades, White Dwarf Matter is not <br/>used anywhere on its own, often paired with Black <br/>Dwarf Matter or other later materials. Save it up <br/>for now and keep upgrading that EOH![/note]",
+                    "quest_id": "_Cwgzi_VR5ChWJSIIrzUvg=="
                 },
                 {
                     "name": "White Dwarf Matter",
@@ -283,7 +308,8 @@ var chart_this_chart = echarts.init(
                     "x": 288.0,
                     "y": 180.0,
                     "tooltip": "White Dwarf Matter",
-                    "data": "Who knew that creating artificial solar systems wo<br/>uld finally allow you to extract the core of a fre<br/>shly dead star?\n\nWith your current crude casings, <br/>you can only accelerate the life of an artificial <br/>solar system to observe white dwarfs.\n\nPerhaps thi<br/>s matter will help you push the process even furth<br/>er.\n\n[note]This is one of the three EOH materials.<br/> Use it to upgrade your casings up to T4.[/note]"
+                    "data": "Who knew that creating artificial solar systems wo<br/>uld finally allow you to extract the core of a fre<br/>shly dead star?\n\nWith your current crude casings, <br/>you can only accelerate the life of an artificial <br/>solar system to observe white dwarfs.\n\nPerhaps thi<br/>s matter will help you push the process even furth<br/>er.\n\n[note]This is one of the three EOH materials.<br/> Use it to upgrade your casings up to T4.[/note]",
+                    "quest_id": "Q=="
                 },
                 {
                     "name": "Wireless Multi-Amp Hatches",
@@ -292,7 +318,8 @@ var chart_this_chart = echarts.init(
                     "x": -48.0,
                     "y": -84.0,
                     "tooltip": "Wireless Multi-Amp Hatches",
-                    "data": "With Shirabon now acquired, you can create 4A, 16A<br/> and 64A wireless energy hatches. These are partic<br/>ularly useful for machines which can use multi-amp<br/>, but do not need extreme amounts of power warrant<br/>ing a laser hatch.\n\n[note]These used to be needed <br/>in large quantities, being the best energy hatch t<br/>o use on a Processing Array. May they rest in peac<br/>e.[/note]"
+                    "data": "With Shirabon now acquired, you can create 4A, 16A<br/> and 64A wireless energy hatches. These are partic<br/>ularly useful for machines which can use multi-amp<br/>, but do not need extreme amounts of power warrant<br/>ing a laser hatch.\n\n[note]These used to be needed <br/>in large quantities, being the best energy hatch t<br/>o use on a Processing Array. May they rest in peac<br/>e.[/note]",
+                    "quest_id": "2TXAUm6oQ0OhtMK79tC5cw=="
                 },
                 {
                     "name": "Yet Another Space Elevator Upgrade",
@@ -301,7 +328,8 @@ var chart_this_chart = echarts.init(
                     "x": -144.0,
                     "y": -48.0,
                     "tooltip": "Yet Another Space Elevator Upgrade",
-                    "data": "This bad boi can handle 18 modules at once.\n\n"
+                    "data": "This bad boi can handle 18 modules at once.\n\n",
+                    "quest_id": "MiGXZ65sRwiAdpsCrVB0Eg=="
                 },
                 {
                     "name": "\u73cd\u60dc\u4f60\u81ea\u5df1",
@@ -310,7 +338,8 @@ var chart_this_chart = echarts.init(
                     "x": 432.0,
                     "y": 36.0,
                     "tooltip": "\u73cd\u60dc\u4f60\u81ea\u5df1",
-                    "data": "\u5982\u679c\u4f60\u8fd8\u5728\u610f\u81ea\u5df1\u7684\u7406\u667a,\u5c31\u522b\u518d\u5f80\u524d\u8d70\u4e86."
+                    "data": "\u5982\u679c\u4f60\u8fd8\u5728\u610f\u81ea\u5df1\u7684\u7406\u667a,\u5c31\u522b\u518d\u5f80\u524d\u8d70\u4e86.",
+                    "quest_id": "AAAAAAAAAAAAAAAAAAAMoQ=="
                 }
             ],
             "edgeLabel": {
