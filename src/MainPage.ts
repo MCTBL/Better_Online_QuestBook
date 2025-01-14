@@ -30,7 +30,7 @@ export class MainPage {
     }
 
     loadList() {
-        $.getJSON("./res/quest_line.json", (data: any) => {
+        $.getJSON("./version/272/quest_line.json", (data: any) => {
             this.questList = data;
             this.questList.forEach((quest, index) => {
                 let button = this.createButton(index, quest);
