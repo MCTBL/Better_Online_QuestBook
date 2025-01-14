@@ -11,18 +11,18 @@ export class MainPage {
     }
 
     addEvent() {
-        $("#search").on("input", (e) => {
-            const text = $(e.target)!.val()!.toString();
-            $(".questButton").each((index, element) => {
-                const button = $(element);
-                const questData = button.data("questData");
-                if (questData.title.includes(text) || questData.title_zh?.includes(text) || questData.search_key?.includes(text)) {
-                    button.show();
-                } else {
-                    button.hide();
-                }
-            });
-        });
+        // $("#search").on("input", (e) => {
+        //     const text = $(e.target)!.val()!.toString();
+        //     $(".questButton").each((index, element) => {
+        //         const button = $(element);
+        //         const questData = button.data("questData");
+        //         if (questData.title.includes(text) || questData.title_zh?.includes(text) || questData.search_key?.includes(text)) {
+        //             button.show();
+        //         } else {
+        //             button.hide();
+        //         }
+        //     });
+        // });
 
         addEventListener("message", (event: MessageEvent) => {
             this.onGetMessage(event);

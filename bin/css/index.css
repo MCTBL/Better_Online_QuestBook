@@ -35,28 +35,27 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 2; /* 确保在其他内容之上 */
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 #logo {
 	width: 100%;
 	position: sticky;
-	top: 45px; /* 根据需要调整位置 */
+	top: 0px;
 	z-index: 1; /* 确保在其他内容之上 */
 	background-color: white;
 	display: flex;
-	justify-content: center; /* 水平居中 */
-	align-items: center; /* 垂直居中 */
+	justify-content: center;
+	align-items: center;
 }
 
 #logoImg {
 	margin: auto;
 }
 
-#version{
-    margin-bottom: 0;
+#version {
+	margin-bottom: 0;
 }
-
 
 #mainPage {
 	width: 80%;
