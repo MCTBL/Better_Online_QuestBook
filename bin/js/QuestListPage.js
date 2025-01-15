@@ -68,7 +68,7 @@ export class QuestListPage {
         showPopup(
           "<h1>" +
             params.data.name +
-            "</h1></br>" +
+            "</h1>" +
             params.data.data.replaceAll("<br/>", "")
         );
       }
