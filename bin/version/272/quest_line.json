@@ -13,226 +13,271 @@
   },
   {
     "title": "Tier 0 - Stone Age",
+    "title_zh": "第0阶-石器时代",
     "icon": "青铜镐",
     "url": "version/272/quest/Tier0StoneAge.js"
   },
   {
     "title": "Tier 0.5 - Steam",
+    "title_zh": "第0.5阶-蒸汽时代",
     "icon": "打火石",
     "url": "version/272/quest/Tier05Steam.js"
   },
   {
     "title": "Tier 1 - LV",
+    "title_zh": "第1阶-低压(LV)",
     "icon": "铝板",
     "url": "version/272/quest/Tier1LV.js"
   },
   {
     "title": "Tier 2 - MV",
+    "title_zh": "第2阶-中压(MV)",
     "icon": "高级电路板",
     "url": "version/272/quest/Tier2MV.js"
   },
   {
     "title": "Tier 3 - HV",
+    "title_zh": "第3阶-高压(HV)",
     "icon": "NASA工作台",
     "url": "version/272/quest/Tier3HV.js"
   },
   {
     "title": "Tier 4 - EV",
+    "title_zh": "第4阶-超高压(EV)",
     "icon": "核反应堆",
     "url": "version/272/quest/Tier4EV.js"
   },
   {
     "title": "Tier 5 - IV",
+    "title_zh": "第5阶-强导压(IV)",
     "icon": "装配线",
     "url": "version/272/quest/Tier5IV.js"
   },
   {
     "title": "Tier 6 - LuV",
+    "title_zh": "第6阶-剧差压(LuV)",
     "icon": "核聚变反应堆控制电脑Mk I",
     "url": "version/272/quest/Tier6LuV.js"
   },
   {
     "title": "Tier 7 - ZPM",
+    "title_zh": "第7阶-零点压(ZPM)",
     "icon": "零点模块",
     "url": "version/272/quest/Tier7ZPM.js"
   },
   {
     "title": "Tier 8 - UV",
+    "title_zh": "第8阶-极限压<br>(UV)",
     "icon": "研究站",
     "url": "version/272/quest/Tier8UV.js"
   },
   {
     "title": "Tier 9 - UHV",
+    "title_zh": "第9阶-极高压(UHV)",
     "icon": "无尽之锭",
     "url": "version/272/quest/Tier9UHV.js"
   },
   {
     "title": "Tier 10 - UEV",
+    "title_zh": "第10阶-超极限压(UEV)",
     "icon": "超维度等离子锻炉",
     "url": "version/272/quest/Tier10UEV.js"
   },
   {
     "title": "Tier 11 - UIV",
+    "title_zh": "第11阶-极强导压(UIV)",
     "icon": "戴森球地面单元",
     "url": "version/272/quest/Tier11UIV.js"
   },
   {
     "title": "Tier 12 - UMV",
+    "title_zh": "第12阶-极剧差压(UMV)",
     "icon": "鸿蒙之眼",
     "url": "version/272/quest/Tier12UMV.js"
   },
   {
     "title": "Endgame Goals",
+    "title_zh": "终极目标",
     "icon": "星门控制器",
     "url": "version/272/quest/EndgameGoals.js"
   },
   {
     "title": "Fishing, Farming, Cooking",
+    "title_zh": "捕鱼,农业,烹饪",
     "icon": "罐",
     "url": "version/272/quest/FishingFarmingCo.js"
   },
   {
     "title": "Getting Around...",
+    "title_zh": "游历四方……",
     "icon": "滑翔翼",
     "url": "version/272/quest/GettingAround.js"
   },
   {
     "title": "...Without Dying",
+    "title_zh": "……摆脱死亡",
     "icon": "重力胸甲",
     "url": "version/272/quest/WithoutDying.js"
   },
   {
     "title": "Building Better Bases",
+    "title_zh": "基地建设",
     "icon": "未来科技方块",
     "url": "version/272/quest/BuildingBetterBa.js"
   },
   {
     "title": "Forestry and Multifarms",
+    "title_zh": "林业与多方块农场",
     "icon": "木工机",
     "url": "version/272/quest/ForestryandMulti.js"
   },
   {
     "title": "Multiblock Goals",
+    "title_zh": "多方块结构",
     "icon": "工业高炉",
     "url": "version/272/quest/MultiblockGoals.js"
   },
   {
     "title": "Mass Processing",
+    "title_zh": "大批量加工",
     "icon": "合金冶炼炉",
     "url": "version/272/quest/MassProcessing.js"
   },
   {
     "title": "How to Generate Power",
+    "title_zh": "如何发电",
     "icon": "基础燃气轮机",
     "url": "version/272/quest/HowtoGeneratePow.js"
   },
   {
     "title": "Storing and Transforming EU",
+    "title_zh": "EU的存储与变压",
     "icon": "小型锂电池",
     "url": "version/272/quest/StoringandTransf.js"
   },
   {
     "title": "Working with Oil",
+    "title_zh": "石油工业",
     "icon": "石油桶",
     "url": "version/272/quest/WorkingwithOil.js"
   },
   {
     "title": "Bio for the Masses",
+    "title_zh": "大众生物学",
     "icon": "油菜",
     "url": "version/272/quest/BiofortheMasses.js"
   },
   {
     "title": "Powerful Nuclear Physics",
+    "title_zh": "强大的核物理",
     "icon": "核反应堆",
     "url": "version/272/quest/PowerfulNuclearP.js"
   },
   {
     "title": "Space Race",
+    "title_zh": "太空竞赛",
     "icon": "6阶火箭",
     "url": "version/272/quest/SpaceRace.js"
   },
   {
     "title": "Basic Automation",
+    "title_zh": "基础自动化",
     "icon": "太阳能引擎",
     "url": "version/272/quest/BasicAutomation.js"
   },
   {
     "title": "SFM and Computers",
+    "title_zh": "史蒂夫工厂和电脑",
     "icon": "加速运算单元(APU)(T3)",
     "url": "version/272/quest/SFMandComputers.js"
   },
   {
     "title": "Handle Logistics with Pipes",
+    "title_zh": "使用管道处理物流",
     "icon": "快速分拣模块",
     "url": "version/272/quest/HandleLogisticsw.js"
   },
   {
     "title": "Applied Energistics",
+    "title_zh": "应用能源",
     "icon": "64k-ME存储元件",
     "url": "version/272/quest/AppliedEnergisti.js"
   },
   {
     "title": "How to Be(e)",
+    "title_zh": "人来疯(蜂)",
     "icon": "森林蜂巢",
     "url": "version/272/quest/HowtoBee.js"
   },
   {
     "title": "Be(e) Breeding",
+    "title_zh": "蜜蜂育种",
     "icon": "野兔蜂后",
     "url": "version/272/quest/BeeBreeding.js"
   },
   {
     "title": "Hardcore End(er) Expansion",
+    "title_zh": "极限末地生存",
     "icon": "传送宝石",
     "url": "version/272/quest/HardcoreEnderExp.js"
   },
   {
     "title": "Novice Thaumaturgy",
+    "title_zh": "魔法学徒",
     "icon": "金杖端宏伟之木法杖",
     "url": "version/272/quest/NoviceThaumaturg.js"
   },
   {
     "title": "Adept Thaumaturgy",
+    "title_zh": "熟练的神秘使",
     "icon": "水晶缠绕宇宙中子态素法杖",
     "url": "version/272/quest/AdeptThaumaturgy.js"
   },
   {
     "title": "Kaaami, Haaaami, ... HA!",
+    "title_zh": "龟...派...气...功波!",
     "icon": "灵液",
     "url": "version/272/quest/KaaamiHaaaamiHA.js"
   },
   {
     "title": "Focus on Wand Foci & EMT",
+    "title_zh": "来关注法杖核心&电力魔法工具吧!",
     "icon": "法杖核心_元始",
     "url": "version/272/quest/FocusonWandFociE.js"
   },
   {
     "title": "Flower Power",
+    "title_zh": "花的力量",
     "icon": "草地之种",
     "url": "version/272/quest/FlowerPower.js"
   },
   {
     "title": "Look to the Edges",
+    "title_zh": "替代魔法",
     "icon": "魔法扫帚",
     "url": "version/272/quest/LooktotheEdges.js"
   },
   {
     "title": "Paying the Highest Price",
+    "title_zh": "付出最高的代价",
     "icon": "血之祭坛",
     "url": "version/272/quest/PayingtheHighest.js"
   },
   {
     "title": "Kill All the Things",
+    "title_zh": "杀戮时刻",
     "icon": "巫妖战利品",
     "url": "version/272/quest/KillAlltheThings.js"
   },
   {
     "title": "Coins, Coins, Coins",
+    "title_zh": "硬币、硬币、硬币",
     "icon": "技术员币$1000",
     "url": "version/272/quest/CoinsCoinsCoins.js"
   },
   {
     "title": "Reward Area",
+    "title_zh": "奖励区",
     "icon": "战利品袋(Tier 9 UHV)",
     "url": "version/272/quest/RewardArea.js"
   }
