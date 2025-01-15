@@ -29,15 +29,16 @@ export class QuestListPage {
       let data = { action: msgAction.ready, data: null };
       this.sendMessageToMain(data);
     });
+    // 绑定点击消失
     document.getElementById("overlay")!.addEventListener("click", function () {
       hidePopup();
     });
-
+    // 绑定点击复制任务详情
     document.getElementById("copyBtn")!.addEventListener("click", function () {
       Utils.copyH5Str(document.getElementById("popupContent")!.innerText);
       console.log("成功复制");
     });
-
+    // 绑定点击复制任务ID
     document
       .getElementById("copyIdBtn")!
       .addEventListener("click", function () {
@@ -78,7 +79,11 @@ export class QuestListPage {
 
     this.echarts.on("click", (params: any) => {
       if (params.dataType === "node") {
+        // 写入任务id并隐藏
         document.getElementById("quest_id")!.innerText = params.data.quest_id;
+        document.getElementById("quest_id")!.style.display = "none";
+
+        // 展示
         showPopup(
           "<h1>" +
             params.data.name +

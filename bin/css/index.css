@@ -118,21 +118,31 @@ iframe {
 }
 
 .copy-btn {
+	color: #fff;
 	cursor: pointer;
 	float: left;
 	border: 1px solid green;
 	background-color: #4CAF50;
 	text-align: center;
+	border-radius: 5px;
+	padding: 7px;
 }
 
 .copy-id-btn {
+	color: #fff;
 	cursor: pointer;
 	float: left;
 	border: 1px solid green;
 	background-color: #4CAF50;
 	text-align: center;
+	border-radius: 5px;
+	padding: 7px;
 }
 
 .quest_id{
 	display: none;
+}
+
+span {
+	margin: 10px;
 }

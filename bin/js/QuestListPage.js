@@ -64,6 +64,7 @@ export class QuestListPage {
     this.echarts.on("click", (params) => {
       if (params.dataType === "node") {
         document.getElementById("quest_id").innerText = params.data.quest_id;
+        document.getElementById("quest_id").style.display = "none";
         showPopup(
           "<h1>" +
             params.data.name +
