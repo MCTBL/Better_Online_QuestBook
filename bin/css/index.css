@@ -146,3 +146,11 @@ iframe {
 span {
 	margin: 10px;
 }
+
+footer {
+	font-size: 50px;
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+	color: white;
+}
