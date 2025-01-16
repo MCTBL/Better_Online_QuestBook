@@ -159,7 +159,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u82ac\u82b3\u5757",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u8702\u540e.png",
+                    "symbol": "image://icon/\u82ac\u82b3\u5757.png",
                     "x": 252.0,
                     "y": 12.0,
                     "tooltip": "\u82ac\u82b3\u5757",
@@ -229,7 +229,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57fa\u7840\u871c\u8702\u7edf\u8ba1",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u871c\u8702\u8702\u7a9d.png",
+                    "symbol": "image://icon/\u57fa\u5ca9\u8702\u540e.png",
                     "x": 60.0,
                     "y": 60.0,
                     "tooltip": "\u57fa\u7840\u871c\u8702\u7edf\u8ba1",
@@ -609,7 +609,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Energium",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u8702\u540e.png",
+                    "symbol": "image://icon/Corium\u79cd\u5b50.png",
                     "x": 1116.0,
                     "y": 252.0,
                     "tooltip": "Energium",
@@ -629,7 +629,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Essentia",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u8702\u540e.png",
+                    "symbol": "image://icon/Argentia\u79cd\u5b50.png",
                     "x": 396.0,
                     "y": 300.0,
                     "tooltip": "Essentia",
@@ -669,7 +669,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7206\u70b8",
                     "symbolSize": 57.599999999999994,
-                    "symbol": "image://icon/\u8702\u540e.png",
+                    "symbol": "image://icon/\u70b8\u836f\u8702\u540e.png",
                     "x": 828.0,
                     "y": 468.0,
                     "tooltip": "\u7206\u70b8",
@@ -709,7 +709,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u706b\u77f3",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u706b\u8702\u540e.png",
+                    "symbol": "image://icon/\u706b\u77f3\u8702\u540e.png",
                     "x": 828.0,
                     "y": 396.0,
                     "tooltip": "\u706b\u77f3",
@@ -919,7 +919,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Lapotron",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/Latte.png",
+                    "symbol": "image://icon/Cotton\u79cd\u5b50.png",
                     "x": 1140.0,
                     "y": 300.0,
                     "tooltip": "Lapotron",
@@ -999,7 +999,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u871c\u8702\u57f9\u80b2\"\u667a\u8005\"\u624b\u518c",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u871c\u8702\u8702\u7a9d.png",
+                    "symbol": "image://icon/\u52c7\u8005\u8702\u540e.png",
                     "x": 12.0,
                     "y": 60.0,
                     "tooltip": "\u871c\u8702\u57f9\u80b2\"\u667a\u8005\"\u624b\u518c",
@@ -1209,7 +1209,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Pyrotheum",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/Protomatter.png",
+                    "symbol": "image://icon/Pyrolusium\u79cd\u5b50.png",
                     "x": 1092.0,
                     "y": 300.0,
                     "tooltip": "Pyrotheum",
@@ -1509,7 +1509,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Sunnarium",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/Quantaria\u79cd\u5b50.png",
+                    "symbol": "image://icon/Stargatium\u79cd\u5b50.png",
                     "x": 1164.0,
                     "y": 252.0,
                     "tooltip": "Sunnarium",
