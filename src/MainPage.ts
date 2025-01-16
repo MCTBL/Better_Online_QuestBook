@@ -1,36 +1,36 @@
 import { m2qData, msgAction, quest } from "./Define.js";
+import { ProjectConfig } from "./ProjectConfig.js";
+import { ProjectData } from "./ProjectData.js";
 
 export class MainPage {
     private questList: quest[] = [];
     private buttonList: JQuery<HTMLElement>[] = [];
     constructor() {
         $(() => {
+            this.initSelect();
             this.addEvent();
             this.loadList();
         });
     }
 
-    addEvent() {
-        // $("#search").on("input", (e) => {
-        //     const text = $(e.target)!.val()!.toString();
-        //     $(".questButton").each((index, element) => {
-        //         const button = $(element);
-        //         const questData = button.data("questData");
-        //         if (questData.title.includes(text) || questData.title_zh?.includes(text) || questData.search_key?.includes(text)) {
-        //             button.show();
-        //         } else {
-        //             button.hide();
-        //         }
-        //     });
-        // });
+    initSelect(){
+        for(let i = 0;i<ProjectConfig.versionList.length;i++){
+            let option = $('<option>',{
+                text:ProjectConfig.versionList[i],
+                value:ProjectConfig.versionList[i]
+            });
+            $("#versionSelect").append(option);
+        }
+    }
 
+    addEvent() {
         addEventListener("message", (event: MessageEvent) => {
             this.onGetMessage(event);
         });
     }
 
     loadList() {
-        $.getJSON("./version/272/quest_line.json", (data: any) => {
+        $.getJSON(ProjectData.getQuestLinePath(), (data: any) => {
             this.questList = data;
             this.questList.forEach((quest, index) => {
                 let button = this.createButton(index, quest);
