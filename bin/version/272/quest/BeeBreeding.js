@@ -59,6 +59,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9057\u5fd8\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9057\u5fd8\u8702\u540e.png",
                     "x": 636.0,
                     "y": 156.0,
                     "tooltip": "\u9057\u5fd8\u8702",
@@ -68,6 +69,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7075\u6c14\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7075\u6c14\u8702\u540e.png",
                     "x": 636.0,
                     "y": 300.0,
                     "tooltip": "\u7075\u6c14\u8702",
@@ -77,6 +79,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u519c\u8015\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u519c\u8015\u8702\u540e.png",
                     "x": 444.0,
                     "y": 396.0,
                     "tooltip": "\u519c\u8015\u8702",
@@ -86,6 +89,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94dd\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94dd\u8702\u540e.png",
                     "x": 300.0,
                     "y": 264.0,
                     "tooltip": "\u94dd\u8702",
@@ -95,6 +99,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9545\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9545\u8702\u540e.png",
                     "x": 348.0,
                     "y": 648.0,
                     "tooltip": "\u9545\u8702",
@@ -104,6 +109,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u53e4\u4ee3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u53e4\u4ee3\u8702\u540e.png",
                     "x": 876.0,
                     "y": 12.0,
                     "tooltip": "\u53e4\u4ee3\u8702",
@@ -113,6 +119,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u78f7\u7070\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u78f7\u7070\u77f3\u8702\u540e.png",
                     "x": 1068.0,
                     "y": 204.0,
                     "tooltip": "\u78f7\u7070\u77f3\u8702",
@@ -122,6 +129,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6d41\u6c34\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6d41\u6c34\u8702\u540e.png",
                     "x": 636.0,
                     "y": 348.0,
                     "tooltip": "\u6d41\u6c34\u8702",
@@ -131,6 +139,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5965\u80fd\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5965\u80fd\u8702\u540e.png",
                     "x": 396.0,
                     "y": 204.0,
                     "tooltip": "\u5965\u80fd\u8702",
@@ -140,6 +149,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5e72\u65f1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5e72\u65f1\u8702\u540e.png",
                     "x": 396.0,
                     "y": 456.0,
                     "tooltip": "\u5e72\u65f1\u8702",
@@ -149,7 +159,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u82ac\u82b3\u5757",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u82ac\u82b3\u5757.png",
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 252.0,
                     "y": 12.0,
                     "tooltip": "\u82ac\u82b3\u5757",
@@ -159,6 +169,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7837\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7837\u8702\u540e.png",
                     "x": 684.0,
                     "y": 492.0,
                     "tooltip": "\u7837\u8702",
@@ -168,6 +179,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7070\u70ec\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7070\u70ec\u8702\u540e.png",
                     "x": 1068.0,
                     "y": 156.0,
                     "tooltip": "\u7070\u70ec\u8702",
@@ -177,6 +189,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u82e6\u884c\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u82e6\u884c\u8702\u540e.png",
                     "x": 108.0,
                     "y": 216.0,
                     "tooltip": "\u82e6\u884c\u8702",
@@ -186,6 +199,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u590d\u4ec7\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u590d\u4ec7\u8702\u540e.png",
                     "x": 300.0,
                     "y": 408.0,
                     "tooltip": "\u590d\u4ec7\u8702",
@@ -195,6 +209,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u611f\u77e5\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u611f\u77e5\u8702\u540e.png",
                     "x": 588.0,
                     "y": 60.0,
                     "tooltip": "\u611f\u77e5\u8702",
@@ -204,6 +219,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8d2b\u7620\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 396.0,
                     "y": 504.0,
                     "tooltip": "\u8d2b\u7620\u8702",
@@ -213,7 +229,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57fa\u7840\u871c\u8702\u7edf\u8ba1",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u4e66.png",
+                    "symbol": "image://icon/\u871c\u8702\u8702\u7a9d.png",
                     "x": 60.0,
                     "y": 60.0,
                     "tooltip": "\u57fa\u7840\u871c\u8702\u7edf\u8ba1",
@@ -223,6 +239,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u706b\u8760\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u706b\u8760\u8702\u540e.png",
                     "x": 492.0,
                     "y": 348.0,
                     "tooltip": "\u706b\u8760\u8702",
@@ -232,6 +249,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u76db\u5f00\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u76db\u5f00\u8702\u540e.png",
                     "x": 1212.0,
                     "y": 60.0,
                     "tooltip": "\u76db\u5f00\u8702",
@@ -241,6 +259,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u84dd\u8272\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u84dd\u8272\u8702\u540e.png",
                     "x": 1068.0,
                     "y": 12.0,
                     "tooltip": "\u84dd\u8272\u8702",
@@ -250,7 +269,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57f9\u80b2\u4e00\u4e9b\u5bfb\u5e38\u8702",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u91ce\u5154\u8702\u540e.png",
+                    "symbol": "image://icon/\u5bfb\u5e38\u8702\u540e.png",
                     "x": 12.0,
                     "y": 12.0,
                     "tooltip": "\u57f9\u80b2\u4e00\u4e9b\u5bfb\u5e38\u8702",
@@ -260,7 +279,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57f9\u80b2\u4e00\u4e9b\u7530\u91ce\u8702",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u91ce\u5154\u8702\u540e.png",
+                    "symbol": "image://icon/\u7530\u91ce\u8702\u540e.png",
                     "x": 60.0,
                     "y": 12.0,
                     "tooltip": "\u57f9\u80b2\u4e00\u4e9b\u7530\u91ce\u8702",
@@ -270,7 +289,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57f9\u80b2\u4e00\u4e9b\u5e1d\u7687\u8702",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u91ce\u5154\u8702\u540e.png",
+                    "symbol": "image://icon/\u5e1d\u7687\u8702\u540e.png",
                     "x": 204.0,
                     "y": 60.0,
                     "tooltip": "\u57f9\u80b2\u4e00\u4e9b\u5e1d\u7687\u8702",
@@ -280,7 +299,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57f9\u80b2\u4e00\u4e9b\u5e84\u4e25\u8702",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u91ce\u5154\u8702\u540e.png",
+                    "symbol": "image://icon/\u5e84\u4e25\u8702\u540e.png",
                     "x": 156.0,
                     "y": 60.0,
                     "tooltip": "\u57f9\u80b2\u4e00\u4e9b\u5e84\u4e25\u8702",
@@ -290,7 +309,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u57f9\u80b2\u4e00\u4e9b\u9ad8\u5c1a\u8702",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u91ce\u5154\u8702\u540e.png",
+                    "symbol": "image://icon/\u9ad8\u5c1a\u8702\u540e.png",
                     "x": 108.0,
                     "y": 60.0,
                     "tooltip": "\u57f9\u80b2\u4e00\u4e9b\u9ad8\u5c1a\u8702",
@@ -300,6 +319,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u666e\u5929\u540c\u5e86\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u666e\u5929\u540c\u5e86\u8702\u540e.png",
                     "x": 1020.0,
                     "y": 204.0,
                     "tooltip": "\u666e\u5929\u540c\u5e86\u8702",
@@ -309,6 +329,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8d5b\u7279\u65af\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8d5b\u7279\u65af\u8702\u540e.png",
                     "x": 156.0,
                     "y": 360.0,
                     "tooltip": "\u8d5b\u7279\u65af\u8702",
@@ -318,6 +339,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6734\u5b9e\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6734\u5b9e\u8702\u540e.png",
                     "x": 540.0,
                     "y": 60.0,
                     "tooltip": "\u6734\u5b9e\u8702",
@@ -327,6 +349,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9b45\u60d1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9b45\u60d1\u8702\u540e.png",
                     "x": 444.0,
                     "y": 60.0,
                     "tooltip": "\u9b45\u60d1\u8702",
@@ -336,6 +359,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94ec\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94ec\u8702\u540e.png",
                     "x": 252.0,
                     "y": 360.0,
                     "tooltip": "\u94ec\u8702",
@@ -345,6 +369,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7c98\u571f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7c98\u571f\u8702\u540e.png",
                     "x": 204.0,
                     "y": 120.0,
                     "tooltip": "\u7c98\u571f\u8702",
@@ -354,6 +379,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7164\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7164\u8702\u540e.png",
                     "x": 204.0,
                     "y": 216.0,
                     "tooltip": "\u7164\u8702",
@@ -363,6 +389,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94dc\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94dc\u8702\u540e.png",
                     "x": 252.0,
                     "y": 168.0,
                     "tooltip": "\u94dc\u8702",
@@ -372,6 +399,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8150\u70c2\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8150\u8680\u8702\u540e.png",
                     "x": 396.0,
                     "y": 600.0,
                     "tooltip": "\u8150\u70c2\u8702",
@@ -381,6 +409,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6076\u9b54\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6076\u9b54\u8702\u540e.png",
                     "x": 204.0,
                     "y": 264.0,
                     "tooltip": "\u6076\u9b54\u8702",
@@ -390,6 +419,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8352\u51c9\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8352\u51c9\u8702\u540e.png",
                     "x": 396.0,
                     "y": 552.0,
                     "tooltip": "\u8352\u51c9\u8702",
@@ -399,6 +429,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94bb\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94bb\u77f3\u8702\u540e.png",
                     "x": 204.0,
                     "y": 360.0,
                     "tooltip": "\u94bb\u77f3\u8702",
@@ -408,6 +439,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u52e4\u594b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u52e4\u594b\u8702\u540e.png",
                     "x": 108.0,
                     "y": 12.0,
                     "tooltip": "\u52e4\u594b\u8702",
@@ -417,6 +449,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5206\u998f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5206\u998f\u8702\u540e.png",
                     "x": 876.0,
                     "y": 156.0,
                     "tooltip": "\u5206\u998f\u8702",
@@ -426,6 +459,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9b54\u6676\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9b54\u6676\u8702\u540e.png",
                     "x": 156.0,
                     "y": 552.0,
                     "tooltip": "\u9b54\u6676\u8702",
@@ -435,6 +469,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6076\u9f99\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6076\u9f99\u8702\u540e.png",
                     "x": 684.0,
                     "y": 156.0,
                     "tooltip": "\u6076\u9f99\u8702",
@@ -444,6 +479,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9f99\u8840\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9f99\u8840\u8702\u540e.png",
                     "x": 204.0,
                     "y": 696.0,
                     "tooltip": "\u9f99\u8840\u8702",
@@ -453,7 +489,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6ef4\u6c34\u8702\u7a9d",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u6ef4\u6c34\u8702\u7a9d.png",
+                    "symbol": "image://icon/\u6c34\u8702\u540e.png",
                     "x": 108.0,
                     "y": 96.0,
                     "tooltip": "\u6ef4\u6c34\u8702\u7a9d",
@@ -463,6 +499,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u571f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u571f\u8702\u540e.png",
                     "x": 588.0,
                     "y": 108.0,
                     "tooltip": "\u571f\u8702",
@@ -472,6 +509,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4f0a\u7538\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4f0a\u7538\u8702\u540e.png",
                     "x": 684.0,
                     "y": 204.0,
                     "tooltip": "\u4f0a\u7538\u8702",
@@ -481,6 +519,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6a61\u80f6\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6a61\u80f6\u8702\u540e.png",
                     "x": 924.0,
                     "y": 156.0,
                     "tooltip": "\u6a61\u80f6\u8702",
@@ -490,6 +529,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u602a\u5f02\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u602a\u5f02\u8702\u540e.png",
                     "x": 396.0,
                     "y": 60.0,
                     "tooltip": "\u602a\u5f02\u8702",
@@ -499,6 +539,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7eff\u5b9d\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7eff\u5b9d\u77f3\u8702\u540e.png",
                     "x": 156.0,
                     "y": 456.0,
                     "tooltip": "\u7eff\u5b9d\u77f3\u8702",
@@ -508,6 +549,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5145\u80fd\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u5145\u80fd\u8702\u540e.png",
                     "x": 600.0,
                     "y": 12.0,
                     "tooltip": "\u5145\u80fd\u8702",
@@ -517,6 +559,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8574\u9b54\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8574\u9b54\u8702\u540e.png",
                     "x": 444.0,
                     "y": 108.0,
                     "tooltip": "\u8574\u9b54\u8702",
@@ -526,6 +569,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u672b\u5f71\u7c89\u672b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u672b\u5f71\u7c89\u672b\u8702\u540e.png",
                     "x": 636.0,
                     "y": 492.0,
                     "tooltip": "\u672b\u5f71\u7c89\u672b\u8702",
@@ -535,6 +579,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u672b\u5f71\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u672b\u5f71\u8702\u540e.png",
                     "x": 492.0,
                     "y": 552.0,
                     "tooltip": "\u672b\u5f71\u8702",
@@ -544,6 +589,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u672b\u5f71\u788e\u7247",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u672b\u5f71\u788e\u7247\u8702\u540e.png",
                     "x": 660.0,
                     "y": 552.0,
                     "tooltip": "\u672b\u5f71\u788e\u7247",
@@ -553,6 +599,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5145\u80fd\u5408\u91d1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5145\u80fd\u5408\u91d1\u8702\u540e.png",
                     "x": 444.0,
                     "y": 504.0,
                     "tooltip": "\u5145\u80fd\u5408\u91d1\u8702",
@@ -562,6 +609,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Energium",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 1116.0,
                     "y": 252.0,
                     "tooltip": "Energium",
@@ -571,6 +619,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7384\u5965\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7384\u5965\u8702\u540e.png",
                     "x": 396.0,
                     "y": 108.0,
                     "tooltip": "\u7384\u5965\u8702",
@@ -580,6 +629,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Essentia",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 396.0,
                     "y": 300.0,
                     "tooltip": "Essentia",
@@ -589,6 +639,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4ee5\u592a\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4ee5\u592a\u8702\u540e.png",
                     "x": 492.0,
                     "y": 204.0,
                     "tooltip": "\u4ee5\u592a\u8702",
@@ -598,6 +649,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6fc0\u52a8\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6fc0\u52a8\u8702\u540e.png",
                     "x": 1020.0,
                     "y": 156.0,
                     "tooltip": "\u6fc0\u52a8\u8702",
@@ -607,6 +659,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5f02\u56fd\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5f02\u56fd\u8702\u540e.png",
                     "x": 636.0,
                     "y": 204.0,
                     "tooltip": "\u5f02\u56fd\u8702",
@@ -616,6 +669,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7206\u70b8",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 828.0,
                     "y": 468.0,
                     "tooltip": "\u7206\u70b8",
@@ -625,6 +679,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7a3c\u7a51\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7a3c\u7a51\u8702\u540e.png",
                     "x": 396.0,
                     "y": 396.0,
                     "tooltip": "\u7a3c\u7a51\u8702",
@@ -634,6 +689,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u80a5\u6599\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u80a5\u6599\u8702\u540e.png",
                     "x": 1068.0,
                     "y": 252.0,
                     "tooltip": "\u80a5\u6599\u8702",
@@ -643,6 +699,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6b8b\u5fcd\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6b8b\u5fcd\u8702\u540e.png",
                     "x": 156.0,
                     "y": 168.0,
                     "tooltip": "\u6b8b\u5fcd\u8702",
@@ -652,6 +709,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u706b\u77f3",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u706b\u8702\u540e.png",
                     "x": 828.0,
                     "y": 396.0,
                     "tooltip": "\u706b\u77f3",
@@ -661,6 +719,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u706b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u706b\u8702\u540e.png",
                     "x": 588.0,
                     "y": 252.0,
                     "tooltip": "\u706b\u8702",
@@ -670,6 +729,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u798f\u9c81\u4f0a\u514b\u65af\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u798f\u9c81\u4f0a\u514b\u65af\u8702\u540e.png",
                     "x": 1212.0,
                     "y": 156.0,
                     "tooltip": "\u798f\u9c81\u4f0a\u514b\u65af\u8702",
@@ -679,6 +739,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8282\u4fed\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8282\u4fed\u8702\u540e.png",
                     "x": 156.0,
                     "y": 216.0,
                     "tooltip": "\u8282\u4fed\u8702",
@@ -688,6 +749,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6c34\u679c\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6c34\u679c\u8702\u540e.png",
                     "x": 1116.0,
                     "y": 60.0,
                     "tooltip": "\u6c34\u679c\u8702",
@@ -697,6 +759,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Furious",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 1116.0,
                     "y": 156.0,
                     "tooltip": "Furious",
@@ -706,6 +769,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6c14\u4f53\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u7075\u6c14\u8702\u540e.png",
                     "x": 588.0,
                     "y": 552.0,
                     "tooltip": "\u6c14\u4f53\u8702",
@@ -715,6 +779,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5e7d\u9b42\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5e7d\u9b42\u8702\u540e.png",
                     "x": 492.0,
                     "y": 300.0,
                     "tooltip": "\u5e7d\u9b42\u8702",
@@ -724,6 +789,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Glowstone",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/Glowshroom\u79cd\u5b50.png",
                     "x": 1164.0,
                     "y": 204.0,
                     "tooltip": "Glowstone",
@@ -733,6 +799,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Gold",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 1164.0,
                     "y": 156.0,
                     "tooltip": "Gold",
@@ -742,6 +809,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u751f\u957f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u751f\u957f\u8702\u540e.png",
                     "x": 1164.0,
                     "y": 12.0,
                     "tooltip": "\u751f\u957f\u8702",
@@ -751,6 +819,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u618e\u6076\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u618e\u6076\u8702\u540e.png",
                     "x": 732.0,
                     "y": 12.0,
                     "tooltip": "\u618e\u6076\u8702",
@@ -760,6 +829,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9041\u4e16\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9041\u4e16\u8702\u540e.png",
                     "x": 108.0,
                     "y": 312.0,
                     "tooltip": "\u9041\u4e16\u8702",
@@ -769,6 +839,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u82f1\u96c4\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u82f1\u96c4\u8702\u540e.png",
                     "x": 60.0,
                     "y": 552.0,
                     "tooltip": "\u82f1\u96c4\u8702",
@@ -778,6 +849,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e5d\u5934\u86c7\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4e5d\u5934\u86c7\u8702\u540e.png",
                     "x": 828.0,
                     "y": 204.0,
                     "tooltip": "\u4e5d\u5934\u86c7\u8702",
@@ -787,6 +859,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u707c\u70ed\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u707c\u70ed\u8702\u540e.png",
                     "x": 636.0,
                     "y": 252.0,
                     "tooltip": "\u707c\u70ed\u8702",
@@ -796,6 +869,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94df\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u94df\u8702\u540e.png",
                     "x": 756.0,
                     "y": 468.0,
                     "tooltip": "\u94df\u8702",
@@ -805,6 +879,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u656c\u4e1a\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u656c\u4e1a\u8702\u540e.png",
                     "x": 204.0,
                     "y": 12.0,
                     "tooltip": "\u656c\u4e1a\u8702",
@@ -814,6 +889,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94f1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94f1\u8702\u540e.png",
                     "x": 156.0,
                     "y": 600.0,
                     "tooltip": "\u94f1\u8702",
@@ -823,6 +899,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94c1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94c1\u8702\u540e.png",
                     "x": 300.0,
                     "y": 168.0,
                     "tooltip": "\u94c1\u8702",
@@ -832,6 +909,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9752\u91d1\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9752\u91d1\u77f3\u8702\u540e.png",
                     "x": 156.0,
                     "y": 312.0,
                     "tooltip": "\u9752\u91d1\u77f3\u8702",
@@ -841,6 +919,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Lapotron",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/Latte.png",
                     "x": 1140.0,
                     "y": 300.0,
                     "tooltip": "Lapotron",
@@ -850,6 +929,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94c5\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94c5\u8702\u540e.png",
                     "x": 684.0,
                     "y": 396.0,
                     "tooltip": "\u94c5\u8702",
@@ -859,6 +939,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5deb\u5996\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5deb\u5996\u8702\u540e.png",
                     "x": 828.0,
                     "y": 156.0,
                     "tooltip": "\u5deb\u5996\u8702",
@@ -868,6 +949,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9565\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9565\u8702\u540e.png",
                     "x": 348.0,
                     "y": 600.0,
                     "tooltip": "\u9565\u8702",
@@ -877,6 +959,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u54c1\u7ea2\u8272\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u54c1\u7ea2\u8272\u8702\u540e.png",
                     "x": 1020.0,
                     "y": 108.0,
                     "tooltip": "\u54c1\u7ea2\u8272\u8702",
@@ -886,6 +969,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9530\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9530\u8702\u540e.png",
                     "x": 108.0,
                     "y": 552.0,
                     "tooltip": "\u9530\u8702",
@@ -895,6 +979,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6ce5\u6cde\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6ce5\u6cde\u8702\u540e.png",
                     "x": 924.0,
                     "y": 12.0,
                     "tooltip": "\u6ce5\u6cde\u8702",
@@ -904,6 +989,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u50e7\u4fa3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u50e7\u4fa3\u8702\u540e.png",
                     "x": 60.0,
                     "y": 264.0,
                     "tooltip": "\u50e7\u4fa3\u8702",
@@ -913,7 +999,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u871c\u8702\u57f9\u80b2\"\u667a\u8005\"\u624b\u518c",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u4e66.png",
+                    "symbol": "image://icon/\u871c\u8702\u8702\u7a9d.png",
                     "x": 12.0,
                     "y": 60.0,
                     "tooltip": "\u871c\u8702\u57f9\u80b2\"\u667a\u8005\"\u624b\u518c",
@@ -923,6 +1009,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5965\u79d8\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5965\u79d8\u8702\u540e.png",
                     "x": 396.0,
                     "y": 156.0,
                     "tooltip": "\u5965\u79d8\u8702",
@@ -932,6 +1019,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5a1c\u8fe6\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5a1c\u8fe6\u8702\u540e.png",
                     "x": 828.0,
                     "y": 108.0,
                     "tooltip": "\u5a1c\u8fe6\u8702",
@@ -941,6 +1029,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u65e0\u540d\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u65e0\u540d\u8702\u540e.png",
                     "x": 588.0,
                     "y": 156.0,
                     "tooltip": "\u65e0\u540d\u8702",
@@ -950,6 +1039,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7845\u5ca9\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u7845\u5ca9\u8702\u540e.png",
                     "x": 204.0,
                     "y": 540.0,
                     "tooltip": "\u7845\u5ca9\u8702",
@@ -959,6 +1049,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8d85\u80fd\u7845\u5ca9\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8d85\u80fd\u7845\u5ca9\u8702\u540e.png",
                     "x": 204.0,
                     "y": 600.0,
                     "tooltip": "\u8d85\u80fd\u7845\u5ca9\u8702",
@@ -968,6 +1059,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e0b\u754c\u788e\u7247",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u4e0b\u754c\u788e\u7247\u8702\u540e.png",
                     "x": 732.0,
                     "y": 552.0,
                     "tooltip": "\u4e0b\u754c\u788e\u7247",
@@ -977,6 +1069,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e2d\u5b50\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u4e2d\u5b50\u8702\u540e.png",
                     "x": 276.0,
                     "y": 648.0,
                     "tooltip": "\u4e2d\u5b50\u8702",
@@ -986,6 +1079,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u954d\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u954d\u8702\u540e.png",
                     "x": 252.0,
                     "y": 216.0,
                     "tooltip": "\u954d\u8702",
@@ -995,6 +1089,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6d77\u6d0b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6d77\u6d0b\u8702\u540e.png",
                     "x": 828.0,
                     "y": 12.0,
                     "tooltip": "\u6d77\u6d0b\u8702",
@@ -1004,6 +1099,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u77f3\u6cb9\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u77f3\u6cb9\u8702\u540e.png",
                     "x": 972.0,
                     "y": 252.0,
                     "tooltip": "\u77f3\u6cb9\u8702",
@@ -1013,6 +1109,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u542b\u6cb9\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u542b\u6cb9\u8702\u540e.png",
                     "x": 876.0,
                     "y": 108.0,
                     "tooltip": "\u542b\u6cb9\u8702",
@@ -1022,6 +1119,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6a44\u6984\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6a44\u6984\u77f3\u8702\u540e.png",
                     "x": 156.0,
                     "y": 408.0,
                     "tooltip": "\u6a44\u6984\u77f3\u8702",
@@ -1031,6 +1129,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5947\u672f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5947\u672f\u8702\u540e.png",
                     "x": 396.0,
                     "y": 252.0,
                     "tooltip": "\u5947\u672f\u8702",
@@ -1040,6 +1139,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9507\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9507\u8702\u540e.png",
                     "x": 756.0,
                     "y": 396.0,
                     "tooltip": "\u9507\u8702",
@@ -1049,6 +1149,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6ce5\u70ad\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6ce5\u70ad\u8702\u540e.png",
                     "x": 204.0,
                     "y": 168.0,
                     "tooltip": "\u6ce5\u70ad\u8702",
@@ -1058,6 +1159,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5e7b\u5f71\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5e7b\u5f71\u8702\u540e.png",
                     "x": 540.0,
                     "y": 504.0,
                     "tooltip": "\u5e7b\u5f71\u8702",
@@ -1067,6 +1169,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7c89\u8272\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7c89\u8272\u8702\u540e.png",
                     "x": 972.0,
                     "y": 60.0,
                     "tooltip": "\u7c89\u8272\u8702",
@@ -1076,6 +1179,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94c2\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94c2\u8702\u540e.png",
                     "x": 252.0,
                     "y": 408.0,
                     "tooltip": "\u94c2\u8702",
@@ -1085,6 +1189,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u949a\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u949a\u8702\u540e.png",
                     "x": 276.0,
                     "y": 540.0,
                     "tooltip": "\u949a\u8702",
@@ -1094,6 +1199,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u539f\u59cb\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u539f\u59cb\u8702\u540e.png",
                     "x": 876.0,
                     "y": 60.0,
                     "tooltip": "\u539f\u59cb\u8702",
@@ -1103,6 +1209,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Pyrotheum",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/Protomatter.png",
                     "x": 1092.0,
                     "y": 300.0,
                     "tooltip": "Pyrotheum",
@@ -1112,6 +1219,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7ea2\u8272\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7ea2\u8272\u8702\u540e.png",
                     "x": 972.0,
                     "y": 12.0,
                     "tooltip": "\u7ea2\u8272\u8702",
@@ -1121,6 +1229,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7ea2\u8272\u5408\u91d1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7ea2\u8272\u5408\u91d1\u8702\u540e.png",
                     "x": 444.0,
                     "y": 456.0,
                     "tooltip": "\u7ea2\u8272\u5408\u91d1\u8702",
@@ -1130,6 +1239,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7ea2\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7ea2\u77f3\u8702\u540e.png",
                     "x": 252.0,
                     "y": 264.0,
                     "tooltip": "\u7ea2\u77f3\u8702",
@@ -1139,6 +1249,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7ea2\u77f3\u5408\u91d1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7ea2\u77f3\u5408\u91d1\u8702\u540e.png",
                     "x": 492.0,
                     "y": 456.0,
                     "tooltip": "\u7ea2\u77f3\u5408\u91d1\u8702",
@@ -1148,6 +1259,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7cbe\u70bc\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7cbe\u70bc\u8702\u540e.png",
                     "x": 876.0,
                     "y": 204.0,
                     "tooltip": "\u7cbe\u70bc\u8702",
@@ -1157,6 +1269,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u590d\u5174\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u590d\u5174\u8702\u540e.png",
                     "x": 540.0,
                     "y": 12.0,
                     "tooltip": "\u590d\u5174\u8702",
@@ -1166,6 +1279,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6811\u8102\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6811\u8102\u8702\u540e.png",
                     "x": 924.0,
                     "y": 60.0,
                     "tooltip": "\u6811\u8102\u8702",
@@ -1175,7 +1289,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8702\u738b\u6d46",
                     "symbolSize": 28.799999999999997,
-                    "symbol": "image://icon/\u8702\u738b\u6d46.png",
+                    "symbol": "image://icon/\u8702\u540e.png",
                     "x": 252.0,
                     "y": 60.0,
                     "tooltip": "\u8702\u738b\u6d46",
@@ -1185,6 +1299,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7ea2\u5b9d\u77f3\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7ea2\u5b9d\u77f3\u8702\u540e.png",
                     "x": 204.0,
                     "y": 312.0,
                     "tooltip": "\u7ea2\u5b9d\u77f3\u8702",
@@ -1194,6 +1309,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7530\u56ed\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7530\u56ed\u8702\u540e.png",
                     "x": 156.0,
                     "y": 120.0,
                     "tooltip": "\u7530\u56ed\u8702",
@@ -1203,6 +1319,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e16\u754c\u76d0\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u4e16\u754c\u76d0\u8702\u540e.png",
                     "x": 756.0,
                     "y": 300.0,
                     "tooltip": "\u4e16\u754c\u76d0\u8702",
@@ -1212,6 +1329,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e09\u660e\u6cbb\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4e09\u660e\u6cbb\u8702\u540e.png",
                     "x": 492.0,
                     "y": 396.0,
                     "tooltip": "\u4e09\u660e\u6cbb\u8702",
@@ -1221,6 +1339,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5f52\u9690\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5f52\u9690\u8702\u540e.png",
                     "x": 108.0,
                     "y": 264.0,
                     "tooltip": "\u5f52\u9690\u8702",
@@ -1230,6 +1349,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94f6\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94f6\u8702\u540e.png",
                     "x": 684.0,
                     "y": 444.0,
                     "tooltip": "\u94f6\u8702",
@@ -1239,6 +1359,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u90aa\u6076\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u90aa\u6076\u8702\u540e.png",
                     "x": 108.0,
                     "y": 168.0,
                     "tooltip": "\u90aa\u6076\u8702",
@@ -1248,6 +1369,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8be1\u9690\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8be1\u9690\u8702\u540e.png",
                     "x": 444.0,
                     "y": 300.0,
                     "tooltip": "\u8be1\u9690\u8702",
@@ -1257,6 +1379,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7c98\u6db2\u7403\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7c98\u6db2\u7403\u8702\u540e.png",
                     "x": 972.0,
                     "y": 156.0,
                     "tooltip": "\u7c98\u6db2\u7403\u8702",
@@ -1266,6 +1389,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u95f7\u70e7\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u95f7\u70e7\u8702\u540e.png",
                     "x": 540.0,
                     "y": 348.0,
                     "tooltip": "\u95f7\u70e7\u8702",
@@ -1275,6 +1399,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u51b0\u96ea\u5973\u738b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u51b0\u96ea\u5973\u738b\u8702\u540e.png",
                     "x": 828.0,
                     "y": 300.0,
                     "tooltip": "\u51b0\u96ea\u5973\u738b\u8702",
@@ -1284,6 +1409,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6ce5\u571f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6ce5\u571f\u8702\u540e.png",
                     "x": 636.0,
                     "y": 108.0,
                     "tooltip": "\u6ce5\u571f\u8702",
@@ -1293,6 +1419,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9b42\u9b44\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9b42\u9b44\u8702\u540e.png",
                     "x": 684.0,
                     "y": 60.0,
                     "tooltip": "\u9b42\u9b44\u8702",
@@ -1302,6 +1429,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5b87\u5b99\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u5b87\u5b99\u8702\u540e.png",
                     "x": 60.0,
                     "y": 636.0,
                     "tooltip": "\u5b87\u5b99\u8702",
@@ -1311,6 +1439,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5e7d\u7075\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5e7d\u7075\u8702\u540e.png",
                     "x": 540.0,
                     "y": 456.0,
                     "tooltip": "\u5e7d\u7075\u8702",
@@ -1320,6 +1449,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8718\u86db\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8718\u86db\u8702\u540e.png",
                     "x": 444.0,
                     "y": 348.0,
                     "tooltip": "\u8718\u86db\u8702",
@@ -1329,6 +1459,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7cbe\u795e\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7cbe\u795e\u8702\u540e.png",
                     "x": 636.0,
                     "y": 60.0,
                     "tooltip": "\u7cbe\u795e\u8702",
@@ -1338,6 +1469,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6076\u610f\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6076\u610f\u8702\u540e.png",
                     "x": 732.0,
                     "y": 60.0,
                     "tooltip": "\u6076\u610f\u8702",
@@ -1347,6 +1479,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e0d\u9508\u94a2\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4e0d\u9508\u94a2\u8702\u540e.png",
                     "x": 636.0,
                     "y": 444.0,
                     "tooltip": "\u4e0d\u9508\u94a2\u8702",
@@ -1356,6 +1489,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94a2\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94a2\u94c1\u8702\u540e.png",
                     "x": 636.0,
                     "y": 396.0,
                     "tooltip": "\u94a2\u8702",
@@ -1365,6 +1499,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u7c98\u6027\u6811\u8102\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u7c98\u6027\u6811\u8102\u8702\u540e.png",
                     "x": 972.0,
                     "y": 204.0,
                     "tooltip": "\u7c98\u6027\u6811\u8102\u8702",
@@ -1374,6 +1509,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Sunnarium",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/Quantaria\u79cd\u5b50.png",
                     "x": 1164.0,
                     "y": 252.0,
                     "tooltip": "Sunnarium",
@@ -1383,6 +1519,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8d85\u80fd\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8d85\u80fd\u8702\u540e.png",
                     "x": 444.0,
                     "y": 156.0,
                     "tooltip": "\u8d85\u80fd\u8702",
@@ -1392,6 +1529,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u751c\u7f8e\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u751c\u7f8e\u8702\u540e.png",
                     "x": 1116.0,
                     "y": 12.0,
                     "tooltip": "\u751c\u7f8e\u8702",
@@ -1401,6 +1539,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u795e\u79d8\u788e\u7247\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u795e\u79d8\u788e\u7247\u8702\u540e.png",
                     "x": 684.0,
                     "y": 300.0,
                     "tooltip": "\u795e\u79d8\u788e\u7247\u8702",
@@ -1410,6 +1549,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u795e\u79d8\u5c18\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u795e\u79d8\u5c18\u8702\u540e.png",
                     "x": 684.0,
                     "y": 252.0,
                     "tooltip": "\u795e\u79d8\u5c18\u8702",
@@ -1419,6 +1559,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u948d\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u948d\u8702\u540e.png",
                     "x": 348.0,
                     "y": 552.0,
                     "tooltip": "\u948d\u8702",
@@ -1428,6 +1569,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u5174\u65fa\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u5174\u65fa\u8702\u540e.png",
                     "x": 1164.0,
                     "y": 60.0,
                     "tooltip": "\u5174\u65fa\u8702",
@@ -1437,6 +1579,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9521\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9521\u8702\u540e.png",
                     "x": 252.0,
                     "y": 120.0,
                     "tooltip": "\u9521\u8702",
@@ -1446,6 +1589,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u949b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u949b\u8702\u540e.png",
                     "x": 252.0,
                     "y": 312.0,
                     "tooltip": "\u949b\u8702",
@@ -1455,6 +1599,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94a8\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u94a8\u8702\u540e.png",
                     "x": 108.0,
                     "y": 600.0,
                     "tooltip": "\u94a8\u8702",
@@ -1464,6 +1609,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u4e0d\u5026\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u4e0d\u5026\u8702\u540e.png",
                     "x": 156.0,
                     "y": 12.0,
                     "tooltip": "\u4e0d\u5026\u8702",
@@ -1473,6 +1619,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u94c0\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u94c0\u8702\u540e.png",
                     "x": 276.0,
                     "y": 468.0,
                     "tooltip": "\u94c0\u8702",
@@ -1482,6 +1629,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u66ae\u8272\u6076\u9b42\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u66ae\u8272\u6076\u9b42\u8702\u540e.png",
                     "x": 828.0,
                     "y": 252.0,
                     "tooltip": "\u66ae\u8272\u6076\u9b42\u8702",
@@ -1491,6 +1639,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u62a5\u4ec7\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u62a5\u4ec7\u8702\u540e.png",
                     "x": 300.0,
                     "y": 360.0,
                     "tooltip": "\u62a5\u4ec7\u8702",
@@ -1500,6 +1649,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8109\u51b2\u5408\u91d1\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8109\u51b2\u5408\u91d1\u8702\u540e.png",
                     "x": 492.0,
                     "y": 504.0,
                     "tooltip": "\u8109\u51b2\u5408\u91d1\u8702",
@@ -1509,6 +1659,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u8bb0\u6068\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u8bb0\u6068\u8702\u540e.png",
                     "x": 300.0,
                     "y": 312.0,
                     "tooltip": "\u8bb0\u6068\u8702",
@@ -1518,6 +1669,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u9b54\u529b\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u9b54\u529b\u8702\u540e.png",
                     "x": 492.0,
                     "y": 12.0,
                     "tooltip": "\u9b54\u529b\u8702",
@@ -1527,6 +1679,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "Volcanic",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/Machinist\u8702\u540e.png",
                     "x": 1116.0,
                     "y": 204.0,
                     "tooltip": "Volcanic",
@@ -1536,6 +1689,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u6c34\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u6c34\u8702\u540e.png",
                     "x": 588.0,
                     "y": 348.0,
                     "tooltip": "\u6c34\u8702",
@@ -1545,6 +1699,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u767d\u8272\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u767d\u8272\u8702\u540e.png",
                     "x": 1020.0,
                     "y": 12.0,
                     "tooltip": "\u767d\u8272\u8702",
@@ -1554,6 +1709,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u98ce\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u98ce\u8702\u540e.png",
                     "x": 588.0,
                     "y": 300.0,
                     "tooltip": "\u98ce\u8702",
@@ -1563,6 +1719,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u51cb\u7075\u8702",
                     "symbolSize": 57.599999999999994,
+                    "symbol": "image://icon/\u51cb\u7075\u8702\u540e.png",
                     "x": 756.0,
                     "y": 180.0,
                     "tooltip": "\u51cb\u7075\u8702",
@@ -1572,6 +1729,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u51cb\u96f6\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u51cb\u96f6\u8702\u540e.png",
                     "x": 732.0,
                     "y": 108.0,
                     "tooltip": "\u51cb\u96f6\u8702",
@@ -1581,6 +1739,7 @@ var chart_this_chart = echarts.init(
                 {
                     "name": "\u950c\u8702",
                     "symbolSize": 28.799999999999997,
+                    "symbol": "image://icon/\u950c\u8702\u540e.png",
                     "x": 300.0,
                     "y": 216.0,
                     "tooltip": "\u950c\u8702",
