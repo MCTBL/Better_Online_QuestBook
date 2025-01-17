@@ -12,5 +12,8 @@
   "devDependencies": {
     "@types/echarts": "^4.9.22",
     "@types/jquery": "^3.5.32"
+  },
+  "dependencies": {
+    "anywhere": "^1.6.0"
   }
 }
