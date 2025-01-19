@@ -1,3 +1,7 @@
 node_modules
 bin/js
 .vscode
+tmp/DefaultQuests
+tmp/lang
+tmp/html
+tmp/js
