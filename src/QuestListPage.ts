@@ -93,12 +93,13 @@ export class QuestListPage {
 				document.getElementById("quest_id")!.innerText = params.data.quest_id;
 				document.getElementById("quest_id")!.style.display = "none";
 
+				console.log(params.data);
 				// 展示
 				showPopup(
 					"<h1>" +
 						params.data.name +
-						"</h1></br>" +
-						params.data.data.replaceAll("<br/>", "")
+						"</h1>" +
+						params.data.data.replaceAll("%n", "</br>")
 				);
 			}
 		});
