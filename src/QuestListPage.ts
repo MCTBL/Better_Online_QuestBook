@@ -93,7 +93,6 @@ export class QuestListPage {
 				document.getElementById("quest_id")!.innerText = params.data.quest_id;
 				document.getElementById("quest_id")!.style.display = "none";
 
-				console.log(params.data);
 				// 展示
 				showPopup(
 					"<h1>" +

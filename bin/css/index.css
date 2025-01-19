@@ -148,9 +148,9 @@ span {
 }
 
 footer {
-	font-size: 50px;
+	height: 10vh;
+	font-size: 5vh;
 	text-align: center;
-	padding: 3px;
 	background-color: black;
 	color: white;
 }
