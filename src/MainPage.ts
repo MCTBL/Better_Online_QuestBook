@@ -5,15 +5,19 @@ import { ProjectData } from "./ProjectData.js";
 export class MainPage {
 	private questList: quest[] = [];
 	private buttonList: JQuery<HTMLElement>[] = [];
+
+
+	private showSidebar: boolean = true;
+
 	constructor() {
 		$(() => {
-			this.initSelect();
+			this.initPage();
 			this.addEvent();
 			this.loadList();
 		});
 	}
 
-	initSelect() {
+	initPage() {
 		for (let i = 0; i < ProjectConfig.versionList.length; i++) {
 			let option = $("<option>", {
 				text: ProjectConfig.versionList[i],
@@ -21,13 +25,40 @@ export class MainPage {
 			});
 			$("#versionSelect").append(option);
 		}
+
+
 	}
 
 	addEvent() {
 		addEventListener("message", (event: MessageEvent) => {
 			this.onGetMessage(event);
 		});
+		$("#toggleSidebar").click(this.toggleSidebar);
+
 	}
+
+
+	//TODO 这里太挫了，需要重写
+	toggleSidebar() {
+		if (!this.showSidebar) {
+			$("#sidebar").animate({ left: "-280px" }, 500);
+			$("#mainPage").animate({
+				left: "0px",
+				width: "100%"
+			}, 500);
+			this.showSidebar = true;
+		} else {
+			$("#sidebar").animate({ left: "0px" }, 500);
+			let width = $(window).width()! - 280;
+			$("#mainPage").animate({
+				left: "280px",
+				width: width + "px"
+			}, 500);
+			this.showSidebar = false;
+		}
+	}
+
+
 
 	loadList() {
 		$.getJSON(ProjectData.getQuestLinePath(), (data: any) => {
