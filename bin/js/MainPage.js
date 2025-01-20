@@ -1,6 +1,7 @@
 import { msgAction } from "./Define.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
+import { TipsMgr } from "./TipsMgr.js";
 export class MainPage {
     constructor() {
         this.questList = [];
@@ -23,11 +24,10 @@ export class MainPage {
     }
     addEvent() {
         addEventListener("message", (event) => {
-            this.onGetMessage(event);
+            this.onGetMessageFromIframe(event);
         });
         $("#toggleSidebar").click(this.toggleSidebar);
     }
-    //TODO 这里太挫了，需要重写
     toggleSidebar() {
         if (!this.showSidebar) {
             $("#sidebar").animate({ left: "-280px" }, 500);
@@ -83,15 +83,6 @@ export class MainPage {
         button.append(txt);
         return button;
     }
-    onGetMessage(event) {
-        console.warn(event);
-        let data = event.data;
-        switch (data.action) {
-            case msgAction.ready:
-                this.initMainIframe();
-                break;
-        }
-    }
     initMainIframe() {
         let url = localStorage.getItem("mainIframeUrl");
         if (url) {
@@ -109,5 +100,20 @@ export class MainPage {
     sendMessageToIframe(msg) {
         const iframe = $("#mainIframe")[0];
         iframe.contentWindow.postMessage(msg, "*");
+    }
+    onGetMessageFromIframe(event) {
+        console.warn(event);
+        let data = event.data;
+        switch (data.action) {
+            case msgAction.ready:
+                this.initMainIframe();
+                break;
+            case msgAction.showDialog:
+                this.showDialog(data.data.content, this, data.data.sure, data.data.cancel, data.data.onlySure, data.data.title, data.data.sureMsg, data.data.cancelMsg);
+                break;
+        }
+    }
+    showDialog(content, caller, sure, cancel, onlySure = true, title = "提示", sureMsg = "确定", cancelMsg = "取消") {
+        TipsMgr.showDialog(content, caller, sure, cancel, onlySure, title, sureMsg, cancelMsg);
     }
 }

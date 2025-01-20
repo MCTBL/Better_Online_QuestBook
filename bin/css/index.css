@@ -170,3 +170,20 @@ footer {
 	width: 100vw;
 	height: 100vh;
 }
+
+#myDialog {
+	max-width: 90vw;
+	max-height: 90vh;
+}
+
+dialog article {
+	width: auto;
+}
+.dialogContent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 360px;
+	min-height: 130px;
+	text-align: center;
+}
