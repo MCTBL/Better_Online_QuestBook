@@ -78,14 +78,14 @@
                     "tooltip": "<strong>\u66f4\u597d\u7684\u6d41\u4f53\u7ba1\u9053</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94c5\u3001\u65b9\u94c5\u3001\u94f6\u548c\u51b0\u6676\u77f3"
                 },
                 {
-                    "name": "Adding More Funtions",
+                    "name": "\u6dfb\u52a0\u66f4\u591a\u529f\u80fd",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5563376651650091647.png",
                     "x": 396.0,
                     "y": -36.0,
-                    "data": "One such improvement is the Advanced Redcrystal.\n\nIt allows you to set a threshold with your wand to define how strong a signal needs to be in order to pass through. This can come in handy when checking fill level of tanks or power storage.\n\n[note]One caveat for redstone experts: The Advanced Redcrystal checks the signal strength in the block it is in, not in the previous block like a comparator would.[/note]",
+                    "data": "\u5176\u4e2d\u4e00\u79cd\u6539\u8fdb\u5c31\u662f\u949d\u5316\u7ea2\u6676.%n%n\u949d\u5316\u7ea2\u6676\u5141\u8bb8\u4f60\u7528\u6cd5\u6756\u53f3\u51fb\u8bbe\u7f6e\u4e00\u4e2a\u9608\u503c,\u8fd9\u80fd\u63a7\u5236\u591a\u5f3a\u7684\u7ea2\u77f3\u4fe1\u53f7\u624d\u80fd\u901a\u8fc7.\u8fd9\u5bf9\u68c0\u6d4b\u50a8\u7f50\u50a8\u91cf\u6216\u8005\u7535\u529b\u7f13\u5b58\u591a\u5c11\u5f88\u6709\u5e2e\u52a9.%n%n[note]\u7ea2\u77f3\u4e13\u5bb6\u9700\u8981\u6ce8\u610f\u4e00\u70b9\uff1a \u949d\u5316\u7ea2\u6676\u4f1a\u68c0\u67e5\u6240\u5728\u65b9\u5757\u7684\u4fe1\u53f7\u5f3a\u5ea6,\u800c\u4e0d\u662f\u50cf\u6bd4\u8f83\u5668\u90a3\u6837\u68c0\u67e5\u524d\u4e00\u4e2a\u65b9\u5757\u7684\u4fe1\u53f7\u5f3a\u5ea6.[/note]",
                     "quest_id": "ad_fPxg-ThqyyuppTrG1gQ==",
-                    "tooltip": "<strong>Adding More Funtions</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Solid, Directional Redstone"
+                    "tooltip": "<strong>\u6dfb\u52a0\u66f4\u591a\u529f\u80fd</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3"
                 },
                 {
                     "name": "\u4e00\u4e2a\u66f4\"\u4f18\u79c0\"\u7684\u6cd5\u6756",
@@ -98,14 +98,14 @@
                     "tooltip": "<strong>\u4e00\u4e2a\u66f4\"\u4f18\u79c0\"\u7684\u6cd5\u6756</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6539\u8fdb\u4f60\u7684\u6cd5\u6756"
                 },
                 {
-                    "name": "Alleviating Warp",
+                    "name": "\u7f13\u89e3\u626d\u66f2",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7122426930826890446.png",
                     "x": 300.0,
                     "y": -36.0,
-                    "data": "When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?\n\nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.\n\nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.\n\nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then disappear, only to return fully matured. Still, if it works, it works.",
+                    "data": "\u5f53\u4f60\u4e2d\u6bd2\u6216\u88ab\u865a\u5f31\u65f6,\u4e00\u4e9b\u725b\u5976\u5c31\u80fd\u89e3\u51b3\u95ee\u9898.\u90a3\u4e48\u6709\u6ca1\u6709\u7c7b\u4f3c\u4e8e\u725b\u5976\u7684\u4e1c\u897f,\u53ef\u4ee5\u7528\u6765\u5bf9\u6297\u626d\u66f2\u6548\u679c\u5462?%n%n\u6cbb\u6108\u8349\u7ed9\u51fa\u4e86\u7b54\u6848.\u8fd9\u79cd\u9700\u8981\u826f\u597d\u5149\u7167\u624d\u80fd\u751f\u957f\u7684\u4e24\u683c\u9ad8\u7684\u690d\u7269,\u6536\u83b7\u65f6\u4f1a\u4ea7\u751f\u6cbb\u6108\u82b1\u79cd\u5b50\u56ca.\u8fd9\u4e9b\u79cd\u5b50\u56ca\u53ef\u4ee5\u4e0e\u7cd6\u548c\u5408\u9002\u7684\u5bb9\u5668\u5728\u5965\u672f\u5de5\u4f5c\u53f0\u4e2d\u5408\u6210\u4e3a\u73ab\u7470\u679c\u6d46.%n%n\u73ab\u7470\u679c\u6d46\u6700\u591a\u53ef\u4ee5\u5806\u53e016\u4e2a,\u4f7f\u7528\u65b9\u5f0f\u4e0e\u725b\u5976\u76f8\u540c,\u80fd\u591f\u53bb\u9664\u4e00\u4e9b(\u4f46\u4e0d\u662f\u5168\u90e8)\u626d\u66f2\u6548\u679c,\u4ee5\u53ca\u5492\u6d41\u548c\u5492\u55b0.%n%n\u8fd9\u79cd\u690d\u7269\u6709\u4e00\u4e2a\u5947\u602a\u7684\u751f\u547d\u5468\u671f,\u79cd\u835a\u6700\u521d\u4f1a\u4ee5\u9ec4\u8272\u5c0f\u70b9\u7684\u5f62\u5f0f\u51fa\u73b0,\u968f\u7740\u6210\u719f\u53d8\u6210\u7c89\u8272,\u7136\u540e\u6d88\u5931,\u6700\u540e\u518d\u5b8c\u5168\u6210\u719f.\u4e0d\u8fc7,\u53ea\u8981\u6709\u6548,\u4ed6\u5c31\u80fd\u7528.",
                     "quest_id": "gVqhKJAoTfudKA5xUWMzMg==",
-                    "tooltip": "<strong>Alleviating Warp</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u7f13\u89e3\u626d\u66f2</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
                     "name": "\u66f4\u5f3a\u5927\u7684\u529b\u91cf",
@@ -128,24 +128,24 @@
                     "tooltip": "<strong>\u706b\u628a\u7684\u4ee3\u66ff\u54c1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
                 },
                 {
-                    "name": "\u6709\u7528\u7684\u690d\u7269",
+                    "name": "\u4e00\u79cd\u65b0\u7684\u201c\u79cd\u690d\u201d\u8d44\u6e90\u7684\u529e\u6cd5",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/302.png",
                     "x": 348.0,
                     "y": 12.0,
-                    "data": "\u4e00\u822c\u7684\u690d\u7269\u90fd\u662f\u7528\u6765\u5236\u4f5c\u98df\u7269\u7684.\u4f46\u662f\u4f60\u60f3\u77e5\u9053\u662f\u5426\u80fd\u5f97\u5230\u4e00\u4e9b\"\u66f4\u52a0\u7279\u6b8a\"\u7684\u690d\u7269...",
+                    "data": "\u666e\u901a\u690d\u7269\u5927\u591a\u7528\u4e8e\u5236\u4f5c\u98df\u7269\uff0c\u800c\u8fd9\u4e9b\u795e\u5947\u7684\u690d\u7269\uff08\u611f\u8c22\u795e\u79d8\u57fa\u7840\u5b66\uff09\u4f1a\u4e3a\u4f60\u5e26\u6765\u4e00\u4e9b\u5f88\u68d2\u7684\u8d44\u6e90\uff01%n%n\u5177\u4f53\u6765\u8bf4\uff0c\u4f60\u53ef\u4ee5\u79cd\u690d\u7ea2\u77f3\u74dc\uff08\u7ea2\u77f3\uff09\u3001\u91d1\u5c5e\u8349\uff08\u94c1\uff09\u3001\u70bc\u91d1\u8349\uff08\u91d1\uff09\u3001\u9752\u91d1\u8349\uff08\u9752\u91d1\u77f3\uff09\u3002%n%n\u6b64\u5916\uff0c\u8fd8\u6709\u4f20\u8bf4\u4e2d\u7684\u201c\u5f69\u8679\u4ed9\u4eba\u638c\u201d\uff0c\u8fd9\u5c06\u5e2e\u52a9\u90a3\u4e9b\u559c\u6b22\u7528\u5404\u79cd\u989c\u8272\u5efa\u9020\u7684\u4eba\u4eec\u2026",
                     "quest_id": "AAAAAAAAAAAAAAAAAAABLg==",
-                    "tooltip": "<strong>\u6709\u7528\u7684\u690d\u7269</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u4e00\u79cd\u65b0\u7684\u201c\u79cd\u690d\u201d\u8d44\u6e90\u7684\u529e\u6cd5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
-                    "name": "A Pechuliar Merchant",
+                    "name": "\u53e4\u602a\u5546\u4eba",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6442987415315414167.png",
                     "x": 156.0,
                     "y": 108.0,
-                    "data": "During your travels, you've heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.\n \nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... \"Magical Forest\".\n\n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]",
+                    "data": "\u5728\u4f60\u7684\u65c5\u9014\u4e2d,\u4f60\u542c\u8bf4\u8fc7\u4e00\u4e2a\u5145\u6ee1\u9b54\u6cd5\u7684\u68ee\u6797.\u636e\u8bf4\u5728\u8fd9\u4e2a\u68ee\u6797\u91cc,\u6709\u4e00\u4e2a\u6709\u8da3\u7684\u5c0f\u5bb6\u4f19\u53ef\u4ee5\u548c\u4ed6\u4ea4\u6613\u9b54\u6cd5\u7269\u54c1.\u5305\u62ec\u8574\u9b54\u77f3\u788e\u7247!\u636e\u8bf4\u4ed6\u4eec\u5728\u4e16\u754c\u5404\u5730\u641c\u5bfb\u5b9d\u77f3\u548c\u9ec4\u91d1,\u4f46\u5bf9\u90a3\u4e9b\u8eab\u65e0\u5206\u6587\u7684\u6d41\u6d6a\u8005\u5341\u5206\u51b7\u6de1.%n%n\u4f60\u5f88\u597d\u5947\u662f\u5426\u80fd\u627e\u5230\u8fd9\u4e2a\u5546\u4eba\u5e76\u8d2d\u4e70\u4ed6\u7684\u5546\u54c1.\u5982\u679c\u6709\u5de5\u5177\u53ef\u4ee5\u5e2e\u52a9\u4f60\u627e\u5230\u8fd9\u4e2a...\u201c\u9b54\u6cd5\u68ee\u6797\u201d\u5c31\u597d\u4e86.%n%n[note]\u6ce8\u610f\uff1a\u8fd9\u4e2a\u4efb\u52a1\u63a5\u53d7\u9047\u89c1\u7684\u4efb\u4f55\u7c7b\u578b\u7684\u5ca9\u7cbe,\u800c\u4e0d\u53ea\u662f\u5ca9\u7cbe\u5f3a\u76d7.[/note]",
                     "quest_id": "TvVeFhtYQCSmlekVCdADaQ==",
-                    "tooltip": "<strong>A Pechuliar Merchant</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u7684\u7b2c\u4e00\u6839\u6cd5\u6756"
+                    "tooltip": "<strong>\u53e4\u602a\u5546\u4eba</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u7684\u7b2c\u4e00\u6839\u6cd5\u6756"
                 },
                 {
                     "name": "\u5f00\u91c7\u963f\u8fea\u7279\u548c\u94b4",
@@ -153,7 +153,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1837.png",
                     "x": 108.0,
                     "y": 60.0,
-                    "data": "\u94c1\u6728\u6bd4\u4f60\u60f3\u8c61\u7684\u8fd8\u8981\u575a\u56fa\u8010\u7528.\u7528\u5b83\u5236\u4f5c\u7684\u5de5\u5177\u548c\u88c5\u7532\u6709\u4f18\u8d8a\u7684\u6027\u80fd.\u7528\u5b83\u5236\u4f5c\u9550,\u5f00\u91c7\u7b49\u7ea7\u80fd\u8fbe\u5230\u94b4,\u8fd9\u610f\u5473\u7740\u4f60\u53ef\u4ee5\u4e0d\u7528\u5de5\u4e1a\u9ad8\u7089\u4e5f\u80fd\u83b7\u5f97\u963f\u8fea\u7279\u548c\u94b4.",
+                    "data": "\u94c1\u6728\u6bd4\u4f60\u60f3\u8c61\u7684\u8fd8\u8981\u575a\u56fa\u8010\u7528.\u7528\u5b83\u5236\u4f5c\u7684\u5de5\u5177\u548c\u88c5\u7532\u6709\u4f18\u8d8a\u7684\u6027\u80fd.\u7528\u5b83\u5236\u4f5c\u9550,\u91c7\u6398\u7b49\u7ea7\u80fd\u8fbe\u5230\u94b4,\u8fd9\u610f\u5473\u7740\u4f60\u53ef\u4ee5\u4e0d\u7528\u5de5\u4e1a\u9ad8\u7089\u4e5f\u80fd\u83b7\u5f97\u963f\u8fea\u7279\u548c\u94b4.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAHLQ==",
                     "tooltip": "<strong>\u5f00\u91c7\u963f\u8fea\u7279\u548c\u94b4</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94c1\u6728"
                 },
@@ -228,24 +228,24 @@
                     "tooltip": "<strong>\u4eba\u9760\u8863\u88c5...\u5deb\u5e08\u4e5f\u4e00\u6837</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5965\u6cd5\u5de5\u4f5c\u53f0</br>\u795e\u79d8\u70f9\u996a"
                 },
                 {
-                    "name": "Comparing at a Distance",
+                    "name": "\u8fdc\u7a0b\u6bd4\u8f83\u5668",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7975621830681627535.png",
                     "x": 444.0,
                     "y": -84.0,
-                    "data": "Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.\n\nRemote Comparators allow you to do just that. Sneak-right click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitering the block remotely.\n\nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the tiniest amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.",
+                    "data": "\u6bd4\u8f83\u5668\u662f\u975e\u5e38\u6709\u7528\u7684\u8bbe\u5907,\u4f46\u5b83\u4eec\u9700\u8981\u76f4\u63a5\u4e0e\u6240\u6bd4\u8f83\u7684\u5bf9\u8c61\u76f8\u90bb,\u8fd9\u5c31\u9020\u6210\u4e86\u5f88\u5927\u7684\u5c40\u9650\u6027.\u5982\u679c\u53ef\u4ee5\u8fdb\u884c\u8fdc\u7a0b\u6bd4\u8f83,\u5c31\u80fd\u6446\u8131\u8fd9\u4e00\u4e3b\u8981\u9650\u5236.%n%n\u8fdc\u7a0b\u6bd4\u8f83\u5668\u8ba9\u60a8\u53ef\u4ee5\u505a\u5230\u8fd9\u4e00\u70b9.\u624b\u6301\u6c34\u6676\u4e4b\u773c\u6f5c\u884c\u53f3\u952e\u70b9\u51fb\u4f60\u60f3\u89c2\u5bdf\u7684\u65b9\u5757\u8fdb\u884c\u7ed1\u5b9a,\u7136\u540e\u628a\u6c34\u6676\u4e4b\u773c\u653e\u5728\u8fdc\u7a0b\u6bd4\u8f83\u5668\u4e2d,\u5c31\u53ef\u4ee5\u5f00\u59cb\u8fdc\u7a0b\u6bd4\u8f83\u8be5\u65b9\u5757\u4e86.%n%n\u8003\u8651\u5230\u989d\u5916\u7684\u8ddd\u79bb,\u867d\u7136\u8fdc\u7a0b\u6bd4\u8f83\u5668\u7684\u8303\u56f4\u76f8\u5f53\u6709\u9650,\u4f60\u80fd\u9884\u6599\u5230\u548c\u666e\u901a\u6bd4\u8f83\u5668\u76f8\u6bd4\u8fdc\u7a0b\u6bd4\u8f83\u5668\u4f1a\u6709\u5c0f\u7684\u4fe1\u53f7\u5ef6\u8fdf.\u4e0d\u8fc7,\u4f60\u5f88\u6000\u7591\u8fd9\u662f\u5426\u4f1a\u6210\u4e3a\u9650\u5236\u56e0\u7d20.",
                     "quest_id": "HF-prjNuRP-RUOYzn170cQ==",
-                    "tooltip": "<strong>Comparing at a Distance</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4e0d\u4ec5\u662f\u7528\u6765\u88c5\u9970</br>Solid, Directional Redstone"
+                    "tooltip": "<strong>\u8fdc\u7a0b\u6bd4\u8f83\u5668</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4e0d\u4ec5\u662f\u7528\u6765\u88c5\u9970</br>\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3"
                 },
                 {
-                    "name": "Counting Items",
+                    "name": "\u7269\u54c1\u8ba1\u6570",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7497528900357426935.png",
                     "x": 492.0,
                     "y": -84.0,
-                    "data": "The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full of.\n\nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.\n\nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.\n\n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]",
+                    "data": "\u8fdc\u7a0b\u6bd4\u8f83\u5668\u4f7f\u5f97\u4ece\u4f60\u60f3\u8981\u7684\u4efb\u4f55\u65b9\u5757\u4e2d\u83b7\u53d6\u6bd4\u8f83\u5668\u4fe1\u53f7\u53d8\u5f97\u66f4\u52a0\u5bb9\u6613,\u4f46\u770b\u7740\u4f60\u7684\u50a8\u7269\u7bb1,\u4f60\u4e0d\u7981\u89c9\u5f97\u6ca1\u6709\u7406\u7531\u53bb\u8d39\u5fc3.\u5982\u679c\u5b83\u4eec\u5feb\u6ee1\u4e86\u600e\u4e48\u529e?\u4f60\u60f3\u77e5\u9053\u5b83\u4eec\u56e0\u4ec0\u4e48\u800c\u6ee1.%n%n\u8ba1\u6570\u76d2\u53ef\u4ee5\u6307\u5411\u4e00\u4e2a\u5bb9\u5668\u2014\u2014\u53ef\u4ee5\u662f\u76f4\u63a5\u6307\u5411,\u4e5f\u53ef\u4ee5\u901a\u8fc7\u8fdc\u7a0b\u6bd4\u8f83\u5668\u8fdc\u7a0b\u6307\u5411\u2014\u2014\u5e76\u901a\u8fc7\u7b26\u6587\u767d\u540d\u5355\u6765\u6307\u5b9a\u4f60\u5e0c\u671b\u8ba1\u6570\u76d2\u53d1\u9001\u7ea2\u77f3\u4fe1\u53f7\u7684\u6761\u4ef6.\u6570\u91cf\u3001\u5143\u6570\u636e\u548cNBT\u5339\u914d\u90fd\u662f\u9009\u9879,\u4f7f\u7528\u57fa\u672c\u540d\u79f0\u8fc7\u6ee4\u5668\u4e5f\u662f\u53ef\u4ee5\u7684.%n%n\u8bf7\u6ce8\u610f,\u7ea2\u77f3\u4fa7\u603b\u662f\u4e0e\u8bfb\u53d6\u4fa7\u76f8\u5bf9,\u8fdc\u7a0b\u6bd4\u8f83\u5668\u5fc5\u987b\u653e\u7f6e\u5728\u8ba1\u6570\u76d2\u7684\u9876\u90e8\u624d\u80fd\u4e00\u8d77\u5de5\u4f5c,\u8fd9\u610f\u5473\u7740\u5728\u8fd9\u79cd\u60c5\u51b5\u4e0b,\u7ea2\u77f3\u4fe1\u53f7\u603b\u662f\u4ece\u4e0b\u65b9\u8f93\u51fa.%n%n[note]\u4e0d\u5e78\u7684\u662f,\u7b26\u6587\u767d\u540d\u5355\u4e0d\u5141\u8bb8\u4f7f\u7528NEI\u865a\u62df\u7269\u54c1\u6765\u8bbe\u7f6e\u8fc7\u6ee4\u5668.[/note]",
                     "quest_id": "jvbdUzcgTfGX820wUPhxCQ==",
-                    "tooltip": "<strong>Counting Items</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Comparing at a Distance"
+                    "tooltip": "<strong>\u7269\u54c1\u8ba1\u6570</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fdc\u7a0b\u6bd4\u8f83\u5668"
                 },
                 {
                     "name": "\u9b54\u6676",
@@ -318,14 +318,14 @@
                     "tooltip": "<strong>\u6e90\u8d28\u8fc7\u6ee4</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u70bc\u5316\u6e90\u8d28"
                 },
                 {
-                    "name": "Essentia Storage",
+                    "name": "\u6e90\u8d28\u5b58\u50a8",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6939546665296547760.png",
                     "x": 684.0,
                     "y": 108.0,
-                    "data": "At long last, you have all the tools to smelt items into Essentia, keep it stable, and store it for later use.\n\nThe last step was creating Warded Jars, relatively simple creations that keep Essentia in a quasi-liquid state, which makes it easier to keep Essentia from turning into Flux. Unlike phials, which must hold 8 Essentia exactly to keep it stable, Warded Jars can store anywhere from 1 to 64 Essentia.\n\nThese Warded Jars are safe to pick up and carry around, which you suspect will not be the case for most objects storing much more Essentia than these jars do. Right click them with a label to filter that jar to a specific type of Essentia. Use a preset label if the jar is still empty.\n\nSneak-right click with an empty hand to remove a label from a jar, or void the Essentia it contains if it doesn't have a label. Voiding Essentia from jars will not generate Flux, because... magic, I guess. It's very convenient, so just politely don't question it too much.",
+                    "data": "\u7ec8\u4e8e,\u4f60\u62e5\u6709\u4e86\u6240\u6709\u5de5\u5177,\u53ef\u4ee5\u5c06\u7269\u54c1\u7194\u70bc\u6210\u6e90\u8d28\u4fdd\u6301\u5176\u7a33\u5b9a,\u5e76\u50a8\u5b58\u4ee5\u5907\u540e\u7528.%n%n\u6700\u540e\u4e00\u6b65\u662f\u5236\u4f5c\u6e90\u8d28\u7f50\u5b50,\u8fd9\u662f\u4e00\u79cd\u76f8\u5bf9\u7b80\u5355\u7684\u5236\u54c1,\u53ef\u4ee5\u5c06\u6e90\u8d28\u4fdd\u6301\u5728\u51c6\u6db2\u6001\u72b6\u6001,\u8fd9\u80fd\u591f\u9632\u6b62\u6e90\u8d28\u8f6c\u5316\u4e3a\u5492\u6ce2.\u4e0e\u5fc5\u987b\u7cbe\u786e\u5bb9\u7eb38\u4e2a\u6e90\u8d28\u4ee5\u4fdd\u6301\u7a33\u5b9a\u7684\u5b89\u74ff\u4e0d\u540c,\u6e90\u8d28\u7f50\u5b50\u53ef\u4ee5\u5b58\u50a8\u4ece1\u523064\u4efb\u610f\u6570\u91cf\u7684\u6e90\u8d28.%n%n\u8fd9\u4e9b\u6e90\u8d28\u7f50\u5b50\u53ef\u4ee5\u968f\u610f\u62fe\u53d6\u548c\u643a\u5e26,\u800c\u5927\u591a\u6570\u6bd4\u8fd9\u4e9b\u7f50\u5b50\u80fd\u5b58\u50a8\u66f4\u591a\u6e90\u8d28\u7684\u5bb9\u5668\u5c31\u4e0d\u80fd\u8fd9\u6837\u4e86.\u4f7f\u7528\u6807\u7b7e\u53f3\u952e\u70b9\u51fb\u7f50\u5b50,\u53ef\u4ee5\u5c06\u8be5\u7f50\u5b50\u8fc7\u6ee4\u4e3a\u5b58\u50a8\u7279\u5b9a\u7c7b\u578b\u7684\u6e90\u8d28.\u5982\u679c\u7f50\u5b50\u662f\u7a7a\u7684,\u53ef\u4ee5\u4f7f\u7528\u9884\u8bbe\u6807\u7b7e.%n%n\u6f5c\u884c\u72b6\u6001\u4e0b\u7a7a\u624b\u53f3\u952e\u70b9\u51fb\u53ef\u4ee5\u4ece\u7f50\u5b50\u4e0a\u79fb\u9664\u6807\u7b7e,\u6216\u8005\u5982\u679c\u7f50\u5b50\u6ca1\u6709\u6807\u7b7e,\u5219\u6e05\u7a7a\u5176\u4e2d\u7684\u6e90\u8d28.\u4ece\u7f50\u5b50\u4e2d\u6e05\u7a7a\u6e90\u8d28\u4e0d\u4f1a\u4ea7\u751f\u5492\u6ce2,\u8fd9\u662f\u56e0\u4e3a\u2026\u2026\u9b54\u6cd5,\u6211\u731c\u7684.\u8fd9\u975e\u5e38\u65b9\u4fbf,\u6240\u4ee5\u8bf7\u8bc6\u8da3\u70b9\u4e0d\u8981\u8fc7\u591a\u8d28\u7591.",
                     "quest_id": "cbv93MoJQESfsccTQMCwUA==",
-                    "tooltip": "<strong>Essentia Storage</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6e90\u8d28\u8fc7\u6ee4"
+                    "tooltip": "<strong>\u6e90\u8d28\u5b58\u50a8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6e90\u8d28\u8fc7\u6ee4"
                 },
                 {
                     "name": "\u4e00\u5207\u90fd\u5f88\u6a21\u7cca?\u8bd5\u8bd5\u955c\u7247\u5427",
@@ -353,9 +353,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/233.png",
                     "x": 204.0,
                     "y": 108.0,
-                    "data": "\u73b0\u5728\u4f60\u627e\u5230\u4e866\u79cd\u62e5\u6709\u6700\u539f\u59cb\u529b\u91cf\u7684\u9b54\u6cd5\u77f3\u5934,\u4f60\u9700\u8981\u6253\u788e\u8fd9\u4e9b\u77f3\u5934\u6765\u83b7\u5f97\u9b54\u529b\u788e\u7247.\u6700\u7b80\u5355\u7684\u65b9\u6cd5\u5c31\u662f\u628a\u8fd9\u4e9b\u77f3\u5934\u6254\u5230\u4f60\u7684\u953b\u9020\u9524\u91cc\u9762.\u540e\u6765,\u5f53\u4f60\u6709\u7b5b\u9009\u673a\u7684\u65f6\u5019,\u4f60\u53ef\u4ee5\u7b5b\u51fa\u66f4\u591a\u7684\u788e\u7247.\u9ad8\u538b\u91dc\u53ef\u4ee5\u628a\u7c89\u672b\u53d8\u6210\u788e\u7247.\u4e5f\u8bb8\u6709\u4e00\u79cd\u9b54\u6cd5\u7684\u65b9\u5f0f\u6765\u505a\u540c\u6837\u7684\u4e8b\u60c5\uff1f",
+                    "data": "\u4e0d\u7ba1\u4f60\u662f\u5982\u4f55\u83b7\u5f97\u5b83\u4eec\u7684\uff0c\u4f60\u5df2\u7ecf\u6536\u96c6\u4e86\u5404\u79cd\u8574\u9b54\u77f3\u788e\u7247\u3002\u73b0\u5728\u5e94\u8be5\u8003\u8651\u5982\u4f55\u4f7f\u7528\u5b83\u4eec\u2026",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAA6Q==",
-                    "tooltip": "<strong>\u83b7\u5f97\u788e\u7247</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8574\u9b54\u77f3</br>A Pechuliar Merchant"
+                    "tooltip": "<strong>\u83b7\u5f97\u788e\u7247</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8574\u9b54\u77f3</br>\u53e4\u602a\u5546\u4eba"
                 },
                 {
                     "name": "\u7ed9\u6211,\u7ed9\u6211,\u7ed9\u6211",
@@ -368,14 +368,14 @@
                     "tooltip": "<strong>\u7ed9\u6211,\u7ed9\u6211,\u7ed9\u6211</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u8111\u5b50"
                 },
                 {
-                    "name": "\u53ef\u5b58\u50a875vis\u7684\u6743\u6756",
+                    "name": "\u91d1\u7eb9\u5b8f\u4f1f\u4e4b\u6728\u6743\u6756",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/877.png",
                     "x": 780.0,
                     "y": 204.0,
-                    "data": "\u6743\u6756\u662f\u7528\u6756\u67c4\u3001\u5143\u59cb\u9b54\u529b\u3001\u4e09\u4e2a\u6756\u7aef\u3001\u4e00\u4e2a\u66ae\u8272\u68ee\u6797\u602a\u7269\u6389\u843d\u7269\u3001\u548c\u4e00\u4e9b\u87ba\u4e1d\u5236\u6210\u7684.\u53ef\u4f7f\u7528\u4efb\u4f55\u79cd\u7c7b\u7684\u6756\u67c4\u548c\u6756\u7aef,\u4f46\u4e09\u4e2a\u6756\u7aef\u5fc5\u987b\u540c\u7c7b.\u6743\u6756\u65e0\u6cd5\u5b89\u88c5\u6cd5\u6756\u6838\u5fc3,\u4f46vis\u5b58\u50a8\u91cf\u662f\u76f8\u540c\u6756\u67c4\u5236\u6210\u6cd5\u6756\u7684150\uff05,\u5e76\u63d0\u4f9b\u989d\u591610\uff05\u7684\u9b54\u529b\u51cf\u514d.",
+                    "data": "\u6743\u6756\u662f\u7528\u6756\u67c4\u3001\u5143\u59cb\u9b54\u529b\u3001\u4e09\u4e2a\u6756\u7aef\u3001\u4e00\u4e2a\u66ae\u8272\u68ee\u6797\u602a\u7269\u6389\u843d\u7269\u3001\u548c\u4e00\u4e9b\u87ba\u4e1d\u5236\u6210\u7684\u3002\u53ef\u4f7f\u7528\u4efb\u4f55\u79cd\u7c7b\u7684\u6756\u67c4\u548c\u6756\u7aef\uff0c\u4f46\u4e09\u4e2a\u6756\u7aef\u5fc5\u987b\u662f\u540c\u7c7b\u7684\u3002\u6743\u6756\u65e0\u6cd5\u5b89\u88c5\u6cd5\u6756\u6838\u5fc3\uff0c\u4f46\u9b54\u529b\u5b58\u50a8\u91cf\u662f\u76f8\u540c\u6756\u67c4\u5236\u6210\u6cd5\u6756\u7684150\uff05\uff0c\u5e76\u63d0\u4f9b\u989d\u591610\uff05\u7684\u9b54\u529b\u51cf\u514d\u3002%n%n\u8fd9\u5bf9\u4e8e\u4f60\u7684\u6240\u6709\u5408\u6210\u9700\u6c42\u548c\u8fdb\u4e00\u6b65\u7684\u53d1\u5c55\u90fd\u662f\u7406\u60f3\u7684\u9009\u62e9\uff01%n%n[note]\u6709\u591a\u79cd\u65b9\u6cd5\u53ef\u4ee5\u83b7\u5f97\u8db3\u591f\u7684\u9b54\u529b\u5bb9\u91cf\u6765\u5236\u4f5c\u6743\u6756\u3002\u5982\u679c\u4f60\u8fd8\u4e0d\u80fd\u5236\u4f5c\u5b83\uff0c\u4e5f\u8bb8\u5148\u8fdb\u884c\u878d\u5408\uff0c\u518d\u7ed9\u81ea\u5df1\u505a\u4e00\u4e9b\u5177\u6709\u66f4\u597d\u7684\u9b54\u529b\u51cf\u514d\u7684\u9774\u5b50\u3002[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAADbQ==",
-                    "tooltip": "<strong>\u53ef\u5b58\u50a875vis\u7684\u6743\u6756</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5143\u59cb\u9b54\u529b"
+                    "tooltip": "<strong>\u91d1\u7eb9\u5b8f\u4f1f\u4e4b\u6728\u6743\u6756</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5143\u59cb\u9b54\u529b"
                 },
                 {
                     "name": "\u8d2a\u5a6a\u7bb1\u5b50",
@@ -388,34 +388,34 @@
                     "tooltip": "<strong>\u8d2a\u5a6a\u7bb1\u5b50</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5965\u6cd5\u5de5\u4f5c\u53f0"
                 },
                 {
-                    "name": "Growing Auram",
+                    "name": "\u751f\u957f\u7684\u7075\u6c14",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6377301388234701261.png",
                     "x": 300.0,
                     "y": -84.0,
-                    "data": "One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.\n\nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.\n\nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.\n\n[note]Terra Wart is also a growable source of Auram Essentia. It has a quest in the Fishing, Farming, Cooking quest tab.[/note]",
+                    "data": "\u7075\u6c14\u53ef\u80fd\u662f\u4e00\u79cd\u53ef\u80fd\u5f88\u96be\u83b7\u5f97\u7684\u6e90\u8d28.\u53ef\u80fd\u4f60\u5df2\u7ecf\u4ece\u5929\u57df\u4e4b\u534e\u4e2d\u5f97\u5230\u4e86\u4e00\u4e9b,\u5929\u57df\u4e4b\u534e\u662f\u4e0b\u754c\u4e2d\u5c11\u89c1\u7684\u98de\u884c\u7403\u4f53(\u8bd1\u6ce8\uff1a\u795e\u79d8\u65f6\u4ee3\u7684\u7cbe\u7075)\u6240\u6389\u843d\u7684,\u6216\u8005\u662f\u7834\u574f\u7075\u6c14\u8282\u70b9.\u8fd9\u663e\u7136\u4e0d\u662f\u4e00\u4e2a\u597d\u7684\u83b7\u53d6\u65b9\u5f0f.%n%n\u5f53\u6ee1\u6708\u51fa\u73b0\u5728\u5934\u9876\u65f6,\u7075\u6c14\u82b1\u4f1a\u5f20\u5f00\u82b1\u74e3,\u5927\u6982\u662f\u4e3a\u4e86\u5438\u6536\u6708\u534e.\u5bf9\u60a8\u6765\u8bf4\u6709\u610f\u4e49\u7684\u662f,\u5b83\u4eec\u5076\u5c14\u4f1a\u8131\u843d\u82b1\u74e3,\u8fd9\u4e9b\u82b1\u74e3\u53ef\u4ee5\u4ece\u5730\u4e0a\u6536\u96c6\u8d77\u6765\u4f5c\u4e3a\u4f18\u79c0\u7684\u7075\u6c14\u6e90\u8d28\u6765\u6e90.%n%n\u4f60\u5e94\u8be5\u4fdd\u8bc1\u7075\u6c14\u82b1\u9644\u8fd1\u5730\u9762\u6ca1\u6709\u5176\u4ed6\u82b1\u8349,\u4fbf\u4e8e\u4f60\u7a0d\u540e\u6536\u96c6\u7075\u6c14\u82b1\u82b1\u74e3.\u7075\u6c14\u82b1\u672c\u8eab\u53ea\u9700\u8981\u79cd\u5728\u8349\u65b9\u5757\u4e0a,\u800c\u4e0d\u662f\u8015\u5730\u65b9\u5757\u4e0a,\u6240\u4ee5\u9644\u8fd1\u4e5f\u4e0d\u9700\u8981\u6709\u6c34\u6e90.%n%n[note]\u5927\u5730\u75a3\u4e5f\u662f\u4e00\u4e2a\u53ef\u518d\u751f\u7684\u7075\u6c14\u6e90\u8d28\u6765\u6e90.\u5b83\u5728\u6355\u9c7c,\u519c\u4e1a,\u70f9\u996a\u4efb\u52a1\u9009\u9879\u5361\u4e2d\u6709\u4e00\u4e2a\u4efb\u52a1.[/note]",
                     "quest_id": "BiGj2-sBQ62nf0YtAKpGMw==",
-                    "tooltip": "<strong>Growing Auram</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u751f\u957f\u7684\u7075\u6c14</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
-                    "name": "Growing Glowstone the Magical Way",
+                    "name": "\u7528\u9b54\u6cd5\u7684\u65b9\u5f0f\u79cd\u690d\u8424\u77f3",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6516225634758235386.png",
                     "x": 396.0,
                     "y": -84.0,
-                    "data": "There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.",
+                    "data": "\u6709\u8bb8\u591a\u4f5c\u7269\u90fd\u80fd\u4e3a\u4f60\u63d0\u4f9b\u8424\u77f3\u7c89,\u4f46\u662f\u5176\u4e2d\u6700\u597d\u7684\u53ef\u80fd\u662f\u8367\u5149\u82b1.\u8fd9\u79cd\u795e\u5947\u7684\u4f5c\u7269\u4e00\u65e6\u6210\u719f\u4fbf\u53ef\u4ee5\u76f4\u63a5\u6536\u83b7\u4e24\u4e2a\u8424\u77f3\u7c89.",
                     "quest_id": "LUwrS4RnQGilkbdPQ_DrBg==",
-                    "tooltip": "<strong>Growing Glowstone the Magical Way</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u7528\u9b54\u6cd5\u7684\u65b9\u5f0f\u79cd\u690d\u8424\u77f3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
-                    "name": "Growing your own Knowledge!",
+                    "name": "\u79cd\u51fa\u4f60\u7684\u77e5\u8bc6!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5722547895249924043.png",
                     "x": 300.0,
                     "y": 12.0,
-                    "data": "Ever thought to yourself \"man, why does everything have to use primal aspects so much?\" Well now you won't have to worry about that anymore!\n\nMeet the Rosa Mysteria. When the sprout planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!\n\n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unforseen   consequences.[/warn]",
+                    "data": "\u6709\u6ca1\u6709\u60f3\u8fc7\u201cman,\u4e3a\u4ec0\u4e48\u6240\u6709\u4e1c\u897f\u90fd\u8981\u5927\u91cf\u4f9d\u8d56\u57fa\u7840\u8981\u7d20?\u201d\u597d\u5427,\u73b0\u5728\u4f60\u4e0d\u5fc5\u518d\u62c5\u5fc3\u8fd9\u4e2a\u4e86!%n%n\u8ba4\u8bc6\u4e00\u4e0b\u795e\u79d8\u73ab\u7470.\u5f53\u5b83\u7684\u82bd\u79cd\u690d\u5728\u9b54\u6676\u5757\u4e0a\u65f6,\u5b83\u5c06\u5229\u7528\u8fd9\u4e2a\u5757\u7684\u6e90\u8d28\u6210\u957f\u4e3a\u76f8\u540c\u7c7b\u578b\u7684\u8574\u9b54\u788e\u7247!\u8fd9\u4e9b\u788e\u7247\u53ef\u4ee5\u88ab\u6254\u8fdb\u4f60\u7684\u5769\u57da\u6216\u70bc\u91d1\u7089\u4e2d,\u6216\u8005\u50cf\u77e5\u8bc6\u788e\u7247\u90a3\u6837\u4f7f\u7528\u6765\u83b7\u5f97\u7814\u7a76\u70b9.\u751a\u81f3\u590d\u76f8\u9b54\u6676\u4e5f\u53ef\u4ee5\u7528\u4f5c\u50ac\u5316\u5242!%n%n[warn]\u8b66\u544a\uff1a\u5728\u6c61\u67d3\u9b54\u6676\u5757\u4e0a\u79cd\u690d\u795e\u79d8\u73ab\u7470\u5c06\u5bfc\u81f4\u4e0d\u826f\u540e\u679c.[/warn]",
                     "quest_id": "eWOxG-reT9ewlW0CNXgQNQ==",
-                    "tooltip": "<strong>Growing your own Knowledge!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u79cd\u51fa\u4f60\u7684\u77e5\u8bc6!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
                     "name": "\u6211\u53ef\u4ee5\u770b\u5230\u4e00\u5207",
@@ -483,7 +483,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/229.png",
                     "x": 156.0,
                     "y": 60.0,
-                    "data": "\u4e0d\u7ba1\u4f60\u5728\u8fd9\u4e2a\u7ef4\u5ea6\u54ea\u4e2a\u89d2\u843d\u90fd\u4f1a\u53d1\u73b0\u8fd9\u91cc\u5145\u6ee1\u4e86\u9b54\u6cd5\u80fd\u91cf.\u4f60\u60f3\u77e5\u9053\u666e\u901a\u7684\u77f3\u5934\u5982\u679c\u957f\u65f6\u95f4\u66b4\u9732\u5728\u8fd9\u4e48\u9ad8\u6d53\u5ea6\u7684\u9b54\u6cd5\u80fd\u91cf\u4e2d\u4f1a\u53d1\u751f\u4ec0\u4e48\u6709\u8da3\u7684\u53d8\u5316. \u4e5f\u8bb8\u662f\u65f6\u5019\u53bb\u770b\u770b\u8fd9\u4e2a\u7ef4\u5ea6\u7684\u77ff\u7269\u751f\u6210\u4e86!%n%n\u6709\u4e09\u79cd\u77ff\u8109.\u6bcf\u79cd\u77ff\u8109\u4e2d\u90fd\u6709\u7425\u73c0\u548c\u6731\u7802\u77ff\u77f3.\u5b83\u4eec\u7684\u7528\u9014\u4e0d\u591a,\u4f46\u4e5f\u5c11\u4e0d\u4e86,\u6240\u4ee5\u81f3\u5c11\u5b58\u4e00\u70b9\u5427.",
+                    "data": "\u4e0d\u7ba1\u4f60\u5728\u8fd9\u4e2a\u7ef4\u5ea6\u54ea\u4e2a\u89d2\u843d\u90fd\u4f1a\u53d1\u73b0\u8fd9\u91cc\u5145\u6ee1\u4e86\u9b54\u6cd5\u80fd\u91cf.\u4f60\u60f3\u77e5\u9053\u666e\u901a\u7684\u77f3\u5934\u5982\u679c\u957f\u65f6\u95f4\u66b4\u9732\u5728\u8fd9\u4e48\u9ad8\u6d53\u5ea6\u7684\u9b54\u6cd5\u80fd\u91cf\u4e2d\u4f1a\u53d1\u751f\u4ec0\u4e48\u6709\u8da3\u7684\u53d8\u5316. \u4e5f\u8bb8\u662f\u65f6\u5019\u53bb\u770b\u770b\u8fd9\u4e2a\u7ef4\u5ea6\u7684\u77ff\u7269\u751f\u6210\u4e86!%n%n\u6709\u4e09\u79cd\u77ff\u8109.\u6bcf\u79cd\u77ff\u8109\u4e2d\u90fd\u6709\u7425\u73c0\u548c\u6731\u7802\u77ff\u77f3.\u5b83\u4eec\u7684\u7528\u9014\u4e0d\u591a,\u4f46\u4e5f\u5c11\u4e0d\u4e86,\u6240\u4ee5\u81f3\u5c11\u5b58\u4e00\u70b9\u5427.%n%n\u5373\u4f7f\u4f60\u627e\u5230\u4e86\u8fd9\u4e9b\u8574\u9b54\u77ff\u77f3,\u5b83\u4eec\u4e5f\u4e0d\u4f1a\u6389\u843d\u4f60\u6025\u9700\u7684\u8574\u9b54\u77f3\u788e\u7247.\u56e0\u6b64,\u60a8\u5fc5\u987b\u52a0\u5de5\u539f\u77ff\u77f3\u672c\u8eab.\u6700\u7b80\u5355\u7684\u65b9\u6cd5\u5c31\u662f\u5c06\u8fd9\u4e9b\u539f\u77ff\u77f3\u6254\u8fdb\u953b\u9020\u9524\u4e2d.%n%n\u4ee5\u540e\u6709\u4e86\u7b5b\u9009\u673a,\u5c31\u53ef\u4ee5\u7b5b\u9009\u7eaf\u51c0\u7684\u77ff\u77f3,\u4ee5\u83b7\u5f97\u66f4\u591a\u7684\u788e\u7247.\u9ad8\u538b\u91dc\u4e5f\u53ef\u4ee5\u5c06\u788e\u7247\u7c89\u5c18\u53d8\u6210\u788e\u7247.\u4e5f\u8bb8\u6709\u4e00\u79cd\u795e\u5947\u7684\u65b9\u6cd5\u53ef\u4ee5\u505a\u540c\u6837\u7684\u4e8b\u60c5?",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAA5Q==",
                     "tooltip": "<strong>\u8574\u9b54\u77f3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
@@ -503,7 +503,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1158.png",
                     "x": 60.0,
                     "y": 108.0,
-                    "data": "\u94c1\u6728\u6bd4\u6a61\u80f6\u66f4\u52a0\u8010\u7528,\u662f\u5236\u4f5c\u8f6f\u9524\u7684\u7406\u60f3\u6750\u6599. \u6536\u96c6\u4e00\u4e9b\u5730\u4e0b\u7684\u6d3b\u6839,\u78e8\u788e\u5b83,\u7136\u540e\u5c06\u6d3b\u6839\u7c89\u3001\u94c1\u7c89\u548c\u91d1\u7c89\u6405\u62cc\u6df7\u5408,\u4f60\u5c31\u5f97\u5230\u4e86\u4e00\u79cd\u795e\u5947\u7684\u65b0\u6750\u6599.%n%n\u4f60\u8fd8\u53ef\u4ee5\u7528\u8fd9\u4e2a\u6750\u6599\u6765\u5236\u4f5c\u4e00\u4e9b\u72ec\u7279\u7684\u88c5\u5907.",
+                    "data": "\u94c1\u6728\u6bd4\u6a61\u80f6\u66f4\u52a0\u8010\u7528,\u662f\u5236\u4f5c\u8f6f\u9524\u7684\u7406\u60f3\u6750\u6599. \u6536\u96c6\u4e00\u4e9b\u5730\u4e0b\u7684\u6d3b\u6839,\u78e8\u788e\u5b83,\u7136\u540e\u5c06\u6d3b\u6839\u7c89\u3001\u94c1\u7c89\u548c\u91d1\u7c89\u6405\u62cc\u6df7\u5408,\u4f60\u5c31\u5f97\u5230\u4e86\u4e00\u79cd\u65b0\u7684\u9b54\u6cd5\u6750\u6599.%n%n\u4f60\u8fd8\u53ef\u4ee5\u7528\u8fd9\u79cd\u6750\u6599\u6765\u5236\u4f5c\u4e00\u4e9b\u72ec\u7279\u7684\u88c5\u5907.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAEhg==",
                     "tooltip": "<strong>\u94c1\u6728</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
@@ -515,7 +515,7 @@
                     "y": 60.0,
                     "data": "\u8fd9\u53f0\u8bbe\u5907\u76f8\u5f53\u4e8e\u81ea\u52a8\u5316\u5769\u57da. \u8bf7\u67e5\u770b\u9b54\u5bfc\u624b\u518c\u4e2d,\u5769\u57da\u53f3\u8fb9\u8fdc\u5904\u7684\u7814\u7a76,\u4ee5\u83b7\u53d6\u66f4\u591a\u4fe1\u606f.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAALRg==",
-                    "tooltip": "<strong>\u5b83\u53eb\u795e\u79d8\u70bc\u91d1\u5854,\u597d\u4e0d?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Essentia Storage"
+                    "tooltip": "<strong>\u5b83\u53eb\u795e\u79d8\u70bc\u91d1\u5854,\u597d\u4e0d?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6e90\u8d28\u5b58\u50a8"
                 },
                 {
                     "name": "\u544a\u8bc9\u6211\u8981\u626b\u63cf\u4ec0\u4e48!",
@@ -528,14 +528,14 @@
                     "tooltip": "<strong>\u544a\u8bc9\u6211\u8981\u626b\u63cf\u4ec0\u4e48!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u89c1\u6240\u672a\u89c1"
                 },
                 {
-                    "name": "Keeping Out the Riff-Raff",
+                    "name": "\u5c06\u4e4c\u5408\u4e4b\u4f17\u62d2\u4e4b\u95e8\u5916",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6318031316370662851.png",
                     "x": 540.0,
                     "y": 156.0,
-                    "data": "You're starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that's just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn't conveniently door-shaped too much to ask?\n\nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible forcefield above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the forcefield, so no need for overhangs to keep them out too.\n\nThat said, since the forcefield cannot tell an arrow fired by you from one fired at you, mundane objects will still pass through regardless. And the forcefield does as much to block line of sight as the term invisible would suggest.\n\nOf course, you're not concerned about that part. Being able to shoot things with your crossbow while they can't reach you is very much in your favor, all told.",
+                    "data": "\u4e3a\u4e86\u786e\u4fdd\u6ca1\u6709\u4e0d\u901f\u4e4b\u5ba2\u5165\u4fb5,\u4f60\u4e0d\u5f97\u4e0d\u628a\u4e00\u5207\u90fd\u9020\u5f97\u50cf\u5821\u5792\u4e00\u6837,\u4f60\u5f00\u59cb\u538c\u5026\u4e86.\u6ca1\u9519,\u5728\u8fd9\u4e2a\u4e16\u754c\u4e0a\u751f\u6d3b\u7684\u672c\u8d28\u5c31\u662f\u8fd9\u6837,\u6bcf\u4e2a\u9ed1\u6697\u89d2\u843d\u90fd\u4f1a\u5f98\u5f8a\u7740\u65e0\u5c3d\u7684\u3001\u4e0d\u5b89\u5206\u7684\u4ea1\u7075.\u4f46\u96be\u9053\u8981\u6c42\u6709\u6bd4\u95e8\u66f4\u65b9\u4fbf\u7684\u5165\u53e3\u662f\u4e00\u4ef6\u5f88\u8fc7\u5206\u7684\u4e8b\u5417?%n%n\u73b0\u5728\u4e0d\u518d\u662f\u8fd9\u6837\u4e86.\u5728\u6ca1\u6709\u4efb\u4f55\u4e1c\u897f\u653e\u5728\u5176\u4e0a\u65f6,\u5b88\u536b\u8005\u94fa\u8def\u77f3\u5c06\u4f1a\u5728\u5176\u4e0a\u65b9\u6295\u5c04\u51fa\u4e00\u4e2a\u4e24\u683c\u9ad8\u7684\u9690\u5f62\u529b\u573a,\u963b\u6b62\u975e\u73a9\u5bb6\u751f\u7269\u901a\u8fc7,\u81f3\u5c11\u963b\u6b62\u90a3\u4e9b\u4e4c\u5408\u4e4b\u4f17\u901a\u8fc7.\u5b83\u8fd8\u6709\u4e00\u4e2a\u989d\u5916\u7684\u597d\u5904,\u8718\u86db\u65e0\u6cd5\u6500\u722c\u8fd9\u4e2a\u529b\u573a,\u56e0\u6b64\u4e5f\u4e0d\u9700\u8981\u60ac\u6311\u7ed3\u6784\u6765\u9632\u6b62\u5b83\u4eec\u8fdb\u5165.%n%n\u8bdd\u867d\u5982\u6b64,\u7531\u4e8e\u529b\u573a\u65e0\u6cd5\u533a\u5206\u4f60\u53d1\u5c04\u7684\u7bad\u548c\u522b\u4eba\u5411\u4f60\u53d1\u5c04\u7684\u7bad,\u666e\u901a\u7269\u4f53\u4ecd\u7136\u53ef\u4ee5\u7a7f\u8fc7\u529b\u573a.\u6b64\u5916,\u529b\u573a\u5728\u963b\u6321\u89c6\u7ebf\u65b9\u9762\u7684\u6548\u679c\u4e0e\u9690\u5f62\u8fd9\u4e2a\u8bcd\u7684\u6548\u679c\u5b8c\u5168\u4e00\u6837.%n%n\u5f53\u7136,\u4f60\u5e76\u4e0d\u9700\u8981\u62c5\u5fc3\u8fd9\u4e00\u70b9.\u80fd\u591f\u5728\u654c\u4eba\u65e0\u6cd5\u63a5\u8fd1\u4f60\u7684\u60c5\u51b5\u4e0b\u7528\u5341\u5b57\u5f13\u5c04\u51fb\u4e1c\u897f,\u5bf9\u4f60\u5b8c\u5168\u662f\u6709\u5229\u7684.",
                     "quest_id": "_N4B3gVMTZOoUdf9--7aPQ==",
-                    "tooltip": "<strong>Keeping Out the Riff-Raff</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5899\u4e0a\u7684\u53c8\u4e00\u5757\u7816..."
+                    "tooltip": "<strong>\u5c06\u4e4c\u5408\u4e4b\u4f17\u62d2\u4e4b\u95e8\u5916</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5899\u4e0a\u7684\u53c8\u4e00\u5757\u7816..."
                 },
                 {
                     "name": "\u4e13\u4f9b\u51ef\u9a6c\u7279(K-Mart)(\u5927\u578b\u767e\u8d27\u8fde\u9501\u5e97)",
@@ -583,19 +583,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1838.png",
                     "x": 12.0,
                     "y": 204.0,
-                    "data": "\u8981\u662f\u4f60\u5728\u66ae\u8272\u68ee\u6797\u6e38\u8361\u4e86\u4e0d\u5c11\u65f6\u95f4,\u90a3\u5e94\u8be5\u4f1a\u53d1\u73b0\u82cd\u7a79\u6811.\u8fd9\u79cd\u5927\u6811\u4f1a\u751f\u6210\u8bb8\u591a\u539f\u6728\u548c\u6811\u6839,\u6811\u6839\u4f1a\u6389\u843d\u6728\u68cd.\u6ce8\u610f!\u4e0d\u8981\u5728\u6811\u8fb9\u6216\u4efb\u4f55\u6811\u53ef\u80fd\u957f\u5230\u7684\u5730\u65b9\u653e\u7f6e\u7bb1\u5b50\u6216\u8005\u522b\u7684\u4ec0\u4e48,\u5426\u5219\u957f\u51fa\u7684\u6811\u6839/\u6811\u5e72\u53ef\u80fd\u4f1a\u66ff\u6362\u6389\u5b83.\u4f60\u53ef\u80fd\u4f1a\u53d1\u73b0\u8fd9\u662f\u4e00\u4e2a\u6709\u7528\u7684\u65b9\u6cd5(\u67d0\u4e9b\u60c5\u51b5\u4e0b),\u4f46\u4f60\u771f\u7684\u4e0d\u5e94\u8be5\u8fd9\u6837\u505a.",
+                    "data": "\u8981\u662f\u4f60\u5728\u66ae\u8272\u68ee\u6797\u6e38\u8361\u4e86\u4e0d\u5c11\u65f6\u95f4,\u90a3\u5e94\u8be5\u4f1a\u53d1\u73b0\u82cd\u7a79\u6811.\u8fd9\u79cd\u5927\u6811\u4f1a\u751f\u6210\u8bb8\u591a\u539f\u6728\u548c\u6811\u6839,\u6811\u6839\u4f1a\u6389\u843d\u6728\u68cd.\u6ce8\u610f!\u4e0d\u8981\u5728\u6811\u8fb9\u6216\u4efb\u4f55\u6811\u53ef\u80fd\u957f\u5230\u7684\u5730\u65b9\u653e\u7f6e\u7bb1\u5b50\u6216\u8005\u522b\u7684\u4ec0\u4e48,\u5426\u5219\u957f\u51fa\u7684\u6811\u6839/\u6811\u5e72\u53ef\u80fd\u4f1a\u66ff\u6362\u6389\u5b83.\u4f60\u53ef\u80fd\u4f1a\u53d1\u73b0\u8fd9\u4e2a\u7279\u6027\u6709\u7684\u65f6\u5019\u8fd8\u633a\u597d\u7528\u7684(\u67d0\u4e9b\u60c5\u51b5\u4e0b),\u4f46\u4f60\u771f\u7684\u4e0d\u5e94\u8be5\u8fd9\u6837\u505a.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAHLg==",
                     "tooltip": "<strong>\u82cd\u7a79\u6811</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
                 {
-                    "name": "\u795e\u5947\u7684\u7fbd\u6bdb",
+                    "name": "\u9b54\u6cd5\u7fbd\u6bdb",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/1070.png",
                     "x": 12.0,
                     "y": 108.0,
-                    "data": "\u60f3\u8981\u77e5\u9053\u81ea\u5df1\u6240\u5904\u7684\u4f4d\u7f6e,\u4ee5\u53ca\u60f3\u8981\u53bb\u7684\u5730\u65b9,\u4f60\u9700\u8981\u5236\u4f5c\u4e00\u5f20\u5730\u56fe. \u8fd9\u662f\u4e00\u4e2a\u5145\u6ee1\u9b54\u529b\u7684\u5730\u65b9,\u6240\u4ee5\u9700\u8981\u7684\u662f\u9b54\u6cd5\u5730\u56fe! \u5b83\u7684\u4e3b\u8981\u90e8\u5206\u5c31\u662f\u9b54\u6cd5\u5730\u56fe\u6838\u5fc3.%n%n\u9996\u5148,\u5bfb\u627e\u5e76\u6536\u96c6\u4e4c\u9e26\u7684\u7fbd\u6bdb,\u4f60\u53ef\u4ee5\u5728\u66ae\u8272\u68ee\u6797\u901a\u8fc7\u6740\u6b7b\u4e4c\u9e26\u6765\u5f97\u5230\u5b83.\u5b83\u4eec\u7ecf\u5e38\u5728\u9ed1\u66dc\u77f3\u67f1\u8fb9\u51fa\u6ca1.%n%n\u7136\u540e\u4f60\u9700\u8981\u4e00\u70b9\u706b\u70ac\u6d46\u679c(\u901a\u5e38\u5728\u5730\u4e0b)\u548c\u8424\u77f3\u7c89.",
+                    "data": "\u60f3\u8981\u77e5\u9053\u81ea\u5df1\u6240\u5904\u7684\u4f4d\u7f6e,\u4ee5\u53ca\u60f3\u8981\u53bb\u7684\u5730\u65b9,\u4f60\u9700\u8981\u5236\u4f5c\u4e00\u5f20\u5730\u56fe. \u8fd9\u662f\u4e00\u4e2a\u5145\u6ee1\u9b54\u529b\u7684\u5730\u65b9,\u6240\u4ee5\u9700\u8981\u7684\u662f\u9b54\u6cd5\u5730\u56fe! \u5b83\u7684\u4e3b\u8981\u90e8\u5206\u5c31\u662f\u9b54\u6cd5\u5730\u56fe\u6838\u5fc3.%n%n\u9996\u5148,\u53bb\u641e\u70b9\u4e4c\u9e26\u7684\u7fbd\u6bdb,\u6740\u6b7b\u66ae\u8272\u68ee\u6797\u91cc\u7684\u4e4c\u9e26\u5c31\u80fd\u62ff\u5230.\u5b83\u4eec\u7ecf\u5e38\u5728\u9ed1\u66dc\u77f3\u67f1\u8fb9\u51fa\u6ca1.%n%n\u7136\u540e\u4f60\u9700\u8981\u4e00\u70b9\u706b\u70ac\u6d46\u679c(\u901a\u5e38\u5728\u5730\u4e0b)\u548c\u8424\u77f3\u7c89.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAELg==",
-                    "tooltip": "<strong>\u795e\u5947\u7684\u7fbd\u6bdb</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
+                    "tooltip": "<strong>\u9b54\u6cd5\u7fbd\u6bdb</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
                 {
                     "name": "\u9b54\u6cd5\u5730\u56fe",
@@ -605,27 +605,27 @@
                     "y": 60.0,
                     "data": "\u8981\u5236\u4f5c\u9b54\u6cd5\u5730\u56fe,\u4f60\u9700\u8981\u9b54\u6cd5\u5730\u56fe\u6838\u5fc3\u548c\u4e00\u53e0\u7eb8.%n%n\u53f3\u952e\u4f7f\u7528\u9b54\u6cd5\u5730\u56fe\u540e,\u5b83\u4f1a\u4e3a\u4f60\u7ed8\u5236\u9644\u8fd1\u533a\u57df\u7684\u5730\u56fe,\u5e76\u6807\u6ce8\u51faBOSS\u7684\u4f4d\u7f6e.\u4f60\u9700\u8981\u6309\u7167\u6210\u5c31\u6307\u5f15,\u4f9d\u6b21\u51fb\u6740\u4e0d\u540cBOSS,\u4ee5\u63a2\u7d22\u5269\u4e0b\u7684\u66ae\u8272\u68ee\u6797.%n%n\u9996\u5148\u9700\u8981\u51fb\u6740\u7684\u662f\u5a1c\u8fe6.\u9664\u4e86\u6210\u5c31\u6307\u5f15\u5916,\u4efb\u52a1\u4e66\u7684\u53e6\u4e00\u7ae0\u8282\u4e5f\u4f1a\u544a\u8bc9\u4f60\u51fb\u6740BOSS\u7684\u987a\u5e8f. \u572824\u4e2a\u5c0f\u65f6\u4e4b\u5185\u4f60\u53ea\u80fd\u5f97\u5230\u4e00\u5f20\u9b54\u6cd5\u5730\u56fe,\u6240\u4ee5\u8981\u5c0f\u5fc3\u4f7f\u7528!%n%n\u8bf7\u8bb0\u4f4f!\u4e00\u5b9a\u8981\u5728\u66ae\u8272\u68ee\u91cc\u4e2d\u4f7f\u7528\u9b54\u6cd5\u5730\u56fe.\u5728\u4e3b\u4e16\u754c\u6216\u5176\u4ed6\u4efb\u610f\u7ef4\u5ea6\u4f7f\u7528\u90fd\u4f1a\u7ed9\u670d\u52a1\u5668\u5e26\u6765\u5ef6\u8fdf!",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAELw==",
-                    "tooltip": "<strong>\u9b54\u6cd5\u5730\u56fe</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u795e\u5947\u7684\u7fbd\u6bdb"
+                    "tooltip": "<strong>\u9b54\u6cd5\u5730\u56fe</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u7fbd\u6bdb"
                 },
                 {
-                    "name": "More Health",
+                    "name": "\u66f4\u591a\u751f\u547d\u503c",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5362928539393889721.png",
                     "x": 684.0,
                     "y": 204.0,
-                    "data": "No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...\n\nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.\n\nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.",
+                    "data": "\u5f53\u4f60\u5c04\u51fa\u5f29\u7bad\u65f6\u4f60\u6ca1\u6765\u5f97\u53ca\u6ce8\u610f\u5230\u4f60\u7784\u51c6\u7684\u662f\u4e00\u79cd\u80cc\u4e0a\u6709\u7740\u7ea2\u8272\u7ebf\u6761\u7684\u7279\u6b8a\u8718\u86db,\u65e0\u8bba\u4f60\u662f\u600e\u6837\u4e00\u4e2a\u795e\u5c04\u624b\u4e5f\u65e0\u6d4e\u4e8e\u4e8b.\u901a\u5e38,\u4ee4\u4eba\u96be\u4ee5\u7f6e\u4fe1\u7684\u75bc\u75db\u4f1a\u968f\u4e4b\u800c\u6765...%n%n\u5229\u7528\u4f60\u7684\u65b0\u6cd5\u6756,\u4f60\u53ef\u4ee5\u5236\u4f5c\u7ea2\u5fc3\u5bb9\u5668\u4e86.\u4f60\u53ef\u4ee5\u6700\u591a\u653e10\u4e2a\u7ea2\u5fc3\u5bb9\u5668\u5230\u4e13\u7528\u7684\u680f\u4f4d\u4e2d,\u6bcf\u4e2a\u7ea2\u5fc3\u5bb9\u5668\u80fd\u63d0\u5347\u4e00\u9897\u5fc3\u7684\u751f\u547d\u503c\u4e0a\u9650.%n%n\u8fd9\u53ef\u80fd\u5e76\u4e0d\u591f,\u4f46\u5982\u679c\u4ed6\u6700\u7ec8\u8ba9\u4f60\u597d\u597d\u7684\u7ad9\u7740,\u800c\u4e0d\u662f\u6a2a\u7740\u8eba\u5728\u68fa\u6750\u91cc,\u4f60\u4fbf\u4f1a\u5e86\u5e78\u4f60\u5236\u4f5c\u4e86\u8fd9\u4e9b\u5fc3\u4e4b\u5bb9\u5668.",
                     "quest_id": "TjJv9pSOSaW1kwzoTZ9qRw==",
-                    "tooltip": "<strong>More Health</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u80fd\u591f\u50a8\u5b5850\"VIS\"\u7684\u6cd5\u6756"
+                    "tooltip": "<strong>\u66f4\u591a\u751f\u547d\u503c</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u80fd\u591f\u50a8\u5b5850\"VIS\"\u7684\u6cd5\u6756"
                 },
                 {
-                    "name": "Need More Sugar?",
+                    "name": "\u9700\u8981\u66f4\u591a\u7cd6?",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4762573495702958200.png",
                     "x": 348.0,
                     "y": -84.0,
-                    "data": "With Briar starting to consume you might also want to increase your sugar production.\n\nSweeds are planted on grass, not farmland, and will spread to propogate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.",
+                    "data": "\u968f\u7740\u4f60\u4f7f\u7528\u6cbb\u6108\u8349,\u4f60\u53ef\u80fd\u4e5f\u60f3\u6269\u5927\u4f60\u7684\u7cd6\u4ea7\u80fd.%n%n\u82a6\u82c7\u662f\u76f4\u63a5\u79cd\u690d\u5728\u8349\u65b9\u5757\u4e0a\u800c\u4e0d\u662f\u8015\u5730\u4e0a\u7684,\u5e76\u4e14\u4ed6\u4f1a\u81ea\u5df1\u8513\u5ef6\u7e41\u6b96.\u4e00\u65e6\u5b83\u5b8c\u5168\u6210\u719f,\u4f60\u53ef\u4ee5\u540c\u65f6\u6536\u83b7\u7cd6\u548c\u7518\u8517.",
                     "quest_id": "UAWjHTM_SAW95_Cji-9PiA==",
-                    "tooltip": "<strong>Need More Sugar?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
+                    "tooltip": "<strong>\u9700\u8981\u66f4\u591a\u7cd6?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u6cd5\u6ce5\u571f"
                 },
                 {
                     "name": "\u4e0d\u7528\u7164",
@@ -673,19 +673,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1286.png",
                     "x": 408.0,
                     "y": 156.0,
-                    "data": "\u5982\u679c\u4f60\u79cd\u690d\u4e86\u4e00\u9897\u65b0\u7684\u59cb\u6e90\u8611\u83c7,\u7b49\u5b83\u4eec\u6210\u719f\u540e\u6536\u83b7,\u5b83\u4eec\u5c06\u4f1a\u628a\u6536\u96c6\u5230\u7684\u8981\u7d20\u7403\u91ca\u653e.\u7b80\u5355\u6765\u8bb2\u5c31\u662f\u79cd\u74dc\u5f97\u74dc,\u79cd\u8611\u83c7\u5f97\u8981\u7d20...%n%n\u627e\u4e00\u627e\u9b54\u6cd5\u68ee\u6797\u751f\u7269\u7fa4\u7cfb,\u90a3\u91cc\u53ef\u4ee5\u627e\u5230\u7ea4\u6bdb\u83c7,\u5982\u679c\u5b9e\u5728\u627e\u4e0d\u5230\u90a3\u4e48\u5c31\u53bb\u4e70\u70b9\u5427.%n%n2\u4e2a\u5357\u74dc\u52a0\u4e0a4\u4e2a\u5c0f\u64ae\u77f3\u7c89\u53ef\u4ee5\u5b8c\u7f8e\u63d0\u4f9b\u6240\u9700\u6e90\u8d28.%n%n\u53ea\u8981\u5b8c\u5168\u957f\u6210,\u5c31\u53ef\u4ee5\u7834\u574f\u5b83\u4eec,\u4f1a\u6389\u843d\u8981\u7d20\u7403,\u5c31\u8ddf\u5237\u602a\u4e00\u6837. \u4e0d\u8fc7\u4f60\u5f97\u5e26\u7740\u6cd5\u6756\u624d\u80fd\u5438\u6536\u8fd9\u4e9b\u8981\u7d20\u7403. \u5b83\u4eec\u9700\u8981\u7279\u5b9a\u7684\u5149\u7167\u624d\u80fd\u751f\u957f.",
+                    "data": "\u5982\u679c\u4f60\u79cd\u690d\u4e86\u4e00\u9897\u65b0\u7684\u59cb\u6e90\u8611\u83c7,\u7b49\u5b83\u4eec\u6210\u719f\u540e\u6536\u83b7,\u5b83\u4eec\u5c06\u4f1a\u628a\u6536\u96c6\u5230\u7684\u8981\u7d20\u7403\u91ca\u653e.\u7b80\u5355\u6765\u8bb2\u5c31\u662f\u79cd\u74dc\u5f97\u74dc,\u79cd\u8611\u83c7\u5f97\u8981\u7d20...%n%n\u627e\u4e00\u627e\u9b54\u6cd5\u68ee\u6797\u751f\u7269\u7fa4\u7cfb,\u90a3\u91cc\u53ef\u4ee5\u627e\u5230\u7ea4\u6bdb\u83c7,\u5982\u679c\u5b9e\u5728\u627e\u4e0d\u5230\u90a3\u4e48\u5c31\u53bb\u4e70\u70b9\u5427.%n%n1\u4e2a\u5357\u74dc\u52a0\u4e0a4\u4e2a\u5c0f\u64ae\u77f3\u7c89\u53ef\u4ee5\u5b8c\u7f8e\u63d0\u4f9b\u6240\u9700\u6e90\u8d28.%n%n\u53ea\u8981\u5b8c\u5168\u957f\u6210,\u5c31\u53ef\u4ee5\u7834\u574f\u5b83\u4eec,\u4f1a\u6389\u843d\u8981\u7d20\u7403,\u5c31\u8ddf\u5237\u602a\u4e00\u6837. \u4e0d\u8fc7\u4f60\u5f97\u5e26\u7740\u6cd5\u6756\u624d\u80fd\u5438\u6536\u8fd9\u4e9b\u8981\u7d20\u7403. \u5b83\u4eec\u9700\u8981\u7279\u5b9a\u7684\u5149\u7167\u624d\u80fd\u751f\u957f.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFBg==",
                     "tooltip": "<strong>\u59cb\u6e90\u8611\u83c7</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
                 },
                 {
-                    "name": "Pushing Back the Taint",
+                    "name": "\u8d76\u8d70\u8150\u5316",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6644822685919168427.png",
                     "x": 300.0,
                     "y": 60.0,
-                    "data": "So how do you actually destroy tainted land?\n\nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.\n\nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also an IC2 crop version of them.",
+                    "data": "\u90a3\u4e48,\u5982\u4f55\u624d\u80fd\u771f\u6b63\u6467\u6bc1\u8150\u5316\u4e4b\u5730?%n%n\u8fd9\u4e9b\u5929\u57df\u82b1\u4f1a\u6e05\u9664\u81ea\u8eab\u5468\u56f4\u5c0f\u8303\u56f4\u5185\u7684\u8150\u5316\u4e4b\u5730,\u8fdb\u800c\u6740\u6b7b\u4efb\u4f55\u8150\u5316\u8349\u4e1b.\u5b83\u4eec\u4e0d\u80fd\u6e05\u9664\u6c61\u67d3\u8282\u70b9.\u4e5f\u4e0d\u4e00\u5b9a\u4f1a\u8ba9\u8150\u5316\u7684\u751f\u7269\u7fa4\u7cfb\u6062\u590d\u539f\u72b6,\u4f46\u5b83\u4eec\u4f1a\u63d0\u4f9b\u4e00\u4e2a\u5c4f\u969c.%n%n\u5982\u679c\u4f60\u5f88\u96be\u5728\u94f6\u6811\u5468\u56f4\u627e\u5230\u4ed6\u4eec\u7684\u6750\u6599\u6c34\u94f6\u82b1,\u4f60\u53ef\u4ee5\u901a\u8fc7LV\u7ec4\u88c5\u673a\u5408\u6210\u6c34\u94f6\u82b1.\u4ed6\u4eec\u8fd8\u6709\u4e00\u79cdic\u4f5c\u7269\u7248\u672c.",
                     "quest_id": "aWvML-AaSIyjyNj5ElS4VQ==",
-                    "tooltip": "<strong>Pushing Back the Taint</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Taint Warnings"
+                    "tooltip": "<strong>\u8d76\u8d70\u8150\u5316</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8150\u5316\u8b66\u544a"
                 },
                 {
                     "name": "\u4fdd\u62a4\u9c7f\u9c7c,\u4eba\u4eba\u6709\u8d23",
@@ -738,14 +738,14 @@
                     "tooltip": "<strong>\u7cbe\u81f4\u7684\u73e0\u5b9d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9644\u9b54\u53f01.0"
                 },
                 {
-                    "name": "Solid, Directional Redstone",
+                    "name": "\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6167478518452759927.png",
                     "x": 396.0,
                     "y": 12.0,
-                    "data": "Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.\n\nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.\n\nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.\n\nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...",
+                    "data": "\u7ea2\u77f3\u7c89\u662f\u4e00\u79cd\u5947\u5999\u7684\u7269\u8d28,\u4f46\u5b83\u6709\u51e0\u4e2a\u9650\u5236,\u53ea\u6709\u771f\u6b63\u7684Minecraft\u73a9\u5bb6\u624d\u80fd\u5e94\u5bf9.%n%n\u5e78\u8fd0\u7684\u662f,\u901a\u8fc7\u4e00\u70b9\u9b54\u6cd5,\u7ea2\u77f3\u7c89\u53ef\u4ee5\u7ed3\u6676\u53d8\u5f97\u66f4\u5bb9\u6613\u5904\u7406.%n%n\u7ea2\u6676\u53ef\u4ee5\u76f4\u63a5\u653e\u7f6e\u5728\u5899\u58c1\u6216\u5929\u82b1\u677f\u4e0a,\u5e76\u4e14\u5141\u8bb8\u4f60\u4f7f\u7528\u6cd5\u6756\u5207\u6362\u67d0\u4e00\u4fa7\u662f\u5426\u53d1\u9001/\u63a5\u6536\u7ea2\u77f3\u4fe1\u53f7.\u8fd9\u4f7f\u5f97\u5728\u666e\u901a\u7ea2\u77f3\u65e0\u6cd5\u5b58\u5728\u7684\u5730\u65b9\u8fdb\u884c\u7d27\u51d1\u7684\u6784\u5efa\u6210\u4e3a\u53ef\u80fd.%n%n\u4e5f\u8bb8\u53ef\u4ee5\u8fdb\u4e00\u6b65\u6539\u8fdb\u8fd9\u4e9b\u7ea2\u6c34\u6676,\u4f7f\u5b83\u4eec\u80fd\u591f\u4ee5\u67d0\u79cd\u65b9\u5f0f\u64cd\u63a7\u6216\u5904\u7406\u5b83\u4eec\u63a5\u6536\u5230\u7684\u4fe1\u53f7...",
                     "quest_id": "fmeCtrL-SNGqaLb208VSiQ==",
-                    "tooltip": "<strong>Solid, Directional Redstone</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
+                    "tooltip": "<strong>\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
                 },
                 {
                     "name": "\u592a\u6e34\u4e86",
@@ -763,7 +763,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1613.png",
                     "x": 60.0,
                     "y": 204.0,
-                    "data": "\u5de5\u4e1a\u9ad8\u7089\u7684\u5408\u6210\u6750\u6599\u4e4b\u4e00\u5c31\u662f\u954d. \u73b0\u5728\u4f60\u5df2\u7ecf\u6253\u5f00\u4e86\u66ae\u8272\u4f20\u9001\u95e8,\u662f\u65f6\u5019\u6536\u96c6\u4e00\u4e9b\u954d\u4e86. \u7845\u9541\u954d\u77ff\u8109\u4e2d\u6709\u7845\u9541\u954d\u77ff\u77f3\u3001\u954d\u77ff\u77f3\u3001\u8f89\u94b4\u77ff\u77f3\u548c\u954d\u9ec4\u94c1\u77ff\u77f3,\u5b83\u4eec\u90fd\u53ef\u4ee5\u51fa\u4ea7\u954d,\u7845\u9541\u954d\u77ff\u8109\u53ef\u5728\u66ae\u8272\u68ee\u6797Y",
+                    "data": "\u5de5\u4e1a\u9ad8\u7089\u7684\u5408\u6210\u6750\u6599\u4e4b\u4e00\u5c31\u662f\u954d. \u73b0\u5728\u4f60\u5df2\u7ecf\u6253\u5f00\u4e86\u66ae\u8272\u4f20\u9001\u95e8,\u662f\u65f6\u5019\u6536\u96c6\u4e00\u4e9b\u954d\u4e86. \u954d\u77ff\u8109\u4e2d\u6709\u7845\u9541\u954d\u77ff\u77f3\u3001\u954d\u77ff\u77f3\u3001\u8f89\u94b4\u77ff\u77f3\u548c\u954d\u9ec4\u94c1\u77ff\u77f3,\u5b83\u4eec\u90fd\u53ef\u4ee5\u51fa\u4ea7\u954d,\u954d\u77ff\u8109\u53ef\u5728\u66ae\u8272\u68ee\u6797Y",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAGTQ==",
                     "tooltip": "<strong>\u954d\u7684\u6765\u6e90</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
@@ -773,7 +773,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1159.png",
                     "x": 60.0,
                     "y": 60.0,
-                    "data": "\u5982\u679c\u4f60\u5728\u66ae\u8272\u68ee\u6797\u7684\u8ff7\u5bab\u91cc\u627e\u5230\u4e86\u94a2\u53f6\u90a3\u4e48\u4f60\u771f\u7684\u5f88\u5e78\u8fd0. \u94a2\u53f6\u662f\u5236\u4f5c\u8f6f\u9524\u7684\u6700\u4f73\u6750\u6599,\u800c\u4e14\u7528\u94a2\u53f6\u5236\u4f5c\u7684\u76d4\u7532\u8fd8\u53ef\u4ee5\u62e5\u6709\u4e00\u4e9b\u795e\u5947\u7684\u6548\u679c.",
+                    "data": "\u5982\u679c\u4f60\u5728\u66ae\u8272\u68ee\u6797\u7684\u8ff7\u5bab\u91cc\u627e\u5230\u4e86\u94a2\u53f6\u90a3\u4e48\u4f60\u771f\u7684\u5f88\u5e78\u8fd0. \u94a2\u53f6\u662f\u76ee\u524d\u5236\u4f5c\u8f6f\u9524\u7684\u6700\u4f73\u6750\u6599,\u800c\u4e14\u7528\u94a2\u53f6\u5236\u4f5c\u7684\u76d4\u7532\u8fd8\u53ef\u4ee5\u62e5\u6709\u4e00\u4e9b\u795e\u5947\u7684\u6548\u679c.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAEhw==",
                     "tooltip": "<strong>\u94a2\u53f61</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94c1\u6728"
                 },
@@ -783,39 +783,39 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/237.png",
                     "x": 684.0,
                     "y": 252.0,
-                    "data": "\u4f7f\u7528\u91d1\u6756\u7aef\u53ef\u4ee5\u4f7f\u4f60\u907f\u514d\u94c1\u6756\u7aef\u7684\u7f3a\u70b9.\u6240\u4ee5\u6700\u597d\u5347\u7ea7\u5230\u91d1\u6756\u7aef\u5b8f\u4f1f\u4e4b\u6728\u6cd5\u6756!%n%n\u6709\u4e86\u8fd9\u4e2a\u53ef\u4ee5\u4f7f\u4f60\u6bd4\u4ee5\u5f80\u4efb\u4f55\u65f6\u5019\u66f4\u52a0\u5f3a\u5927!\u4f60\u6709\u4e00\u79cd\u611f\u89c9,\u8fd9\u6839\u65b0\u9b54\u6756\u5f88\u5feb\u5c31\u4f1a\u6d3e\u4e0a\u7528\u573a.%n%n\u672a\u6765\u7684\u9b54\u6756\u4efb\u52a1\u4e0d\u4f1a\u4e13\u6ce8\u4e8e\u6756\u7aef.\u4f60\u73b0\u5728\u77e5\u9053\u94c1\u6756\u7aef\u7684\u9b54\u6756\u5236\u4f5c\u6210\u672c\u6700\u4f4e,\u4f46\u91d1\u6756\u7aef\u66f4\u597d.\u4f60\u8fd8\u5e94\u8be5\u5c1d\u8bd5\u5176\u4ed6\u53ef\u4ee5\u5236\u4f5c\u7684\u6756\u7aef,\u5b83\u4eec\u53ef\u80fd\u4f1a\u66f4\u597d!%n\u94c1\u6756\u7aef\u662f\u6700\u4fbf\u5b9c\u7684,\u4f46\u8fd9\u5e76\u4e0d\u610f\u5473\u7740\u4f60\u603b\u662f\u9700\u8981\u4ece\u94c1\u6756\u7aef\u6cd5\u6756\u5f00\u59cb,\u4ec5\u4ec5\u662f\u4e3a\u4e86\u5236\u4f5c\u66f4\u597d\u7684\u9b54\u6756.\u76f8\u53cd,\u4f60\u5e94\u8be5\u5f00\u59cb\u53e0\u52a0\u5404\u79cd\u6765\u6e90\u7684\u9b54\u529b\u51cf\u514d!\u5982\u679c\u4f60\u73b0\u5728\u7684\u88c5\u5907\u6ca1\u6709\u81f3\u5c1110%\u7684\u9b54\u529b\u51cf\u514d,\u4f60\u53ef\u80fd\u5e94\u8be5\u770b\u770b\u672c\u7ae0\u7684\u5176\u4ed6\u4efb\u52a1\u6765\u63d0\u9ad8\u4f60\u7684\u9b54\u529b\u51cf\u514d\u3002",
+                    "data": "\u4f7f\u7528\u91d1\u6756\u7aef\u53ef\u4ee5\u4f7f\u4f60\u907f\u514d\u94c1\u6756\u7aef\u7684\u7f3a\u70b9\u3002\u56e0\u6b64\uff0c\u6700\u597d\u5347\u7ea7\u5230\u91d1\u6756\u7aef\u5b8f\u4f1f\u4e4b\u6728\u6cd5\u6756\uff01%n%n\u4f60\u4e5f\u53ef\u4ee5\u8003\u8651\u7528\u9b54\u529b\u5e03\u5339\u6756\u7aef\u5236\u4f5c\u4f60\u7684\u5b8f\u4f1f\u4e4b\u6728\u9b54\u6756\u3002\u8fd9\u6837\u53ef\u4ee5\u989d\u5916\u83b7\u5f975%%\u7684\u9b54\u529b\u51cf\u514d\uff01%n%n\u6709\u4e86\u8fd9\u6839\u5b8f\u4f1f\u4e4b\u6728\u9b54\u6756\uff0c\u4f60\u6bd4\u4ee5\u5f80\u4efb\u4f55\u65f6\u5019\u90fd\u66f4\u5f3a\u5927\uff01%n%n[note]\u4f60\u53ea\u9700\u8981\u5b8c\u6210\u5176\u4e2d\u4e00\u4e2a\u4efb\u52a1\u5373\u53ef\u5b8c\u6210\u6b64\u4efb\u52a1\u3002[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAA7Q==",
                     "tooltip": "<strong>\u80fd\u591f\u50a8\u5b5850\"VIS\"\u7684\u6cd5\u6756</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94c1\u7aef\u5b8f\u4f1f\u4e4b\u6728\u6cd5\u6756"
                 },
                 {
-                    "name": "\u8ff7\u5931\u5728\u66ae\u8272\u68ee\u6797\u91cc?",
+                    "name": "\u88ab\u56f0\u5728\u66ae\u8272\u68ee\u6797\u91cc\u4e86?",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/1368.png",
                     "x": 12.0,
                     "y": 156.0,
-                    "data": "\u5982\u679c\u4f60\u6b63\u5728\u66ae\u8272\u68ee\u6797\u4e2d\u63a2\u7d22\u65f6,\u4f20\u9001\u95e8\u88ab\u7834\u574f\u4e86,\u4f60\u5c31\u4f1a\u9677\u5165\u56f0\u5883. \u6bcf\u969424\u5c0f\u65f6,\u4f60\u5c31\u53ef\u4ee5\u4ea4\u6362\u4e00\u4e9b\u6750\u6599,\u4ee5\u83b7\u5f97\u65b0\u7684\u4f20\u9001\u6c34\u6676,\u4ece\u800c\u79bb\u5f00\u8fd9\u91cc.%n%n\u4e5f\u53ef\u4ee5\u81ea\u5df1\u591a\u9020\u4e00\u4e2a\u5f00\u95e8\u6c34\u6676,\u653e\u5728\u66ae\u8272\u68ee\u6797\u91cc\u7684\u7bb1\u5b50\u91cc\u4ee5\u5907\u4e0d\u65f6\u4e4b\u9700.",
+                    "data": "\u5982\u679c\u4f60\u6b63\u5728\u66ae\u8272\u68ee\u6797\u4e2d\u63a2\u7d22\u65f6,\u4f20\u9001\u95e8\u88ab\u7834\u574f\u4e86,\u4f60\u5c31\u4f1a\u88ab\u56f0\u5728\u90a3\u8fb9. \u6bcf\u969424\u5c0f\u65f6,\u4f60\u5c31\u53ef\u4ee5\u7528\u4e00\u4e9b\u6750\u6599\u6765\u6362\u4e2a\u65b0\u7684\u4f20\u9001\u6c34\u6676,\u4ece\u800c\u79bb\u5f00\u8fd9\u91cc.%n%n\u4f60\u4e5f\u53ef\u4ee5\u8003\u8651\u4e00\u4e0b\u81ea\u5df1\u591a\u9020\u4e00\u4e2a\u5f00\u95e8\u6c34\u6676,\u653e\u5728\u66ae\u8272\u68ee\u6797\u7684\u7bb1\u5b50\u91cc\u4ee5\u5907\u4e0d\u65f6\u4e4b\u9700.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFWA==",
-                    "tooltip": "<strong>\u8ff7\u5931\u5728\u66ae\u8272\u68ee\u6797\u91cc?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
+                    "tooltip": "<strong>\u88ab\u56f0\u5728\u66ae\u8272\u68ee\u6797\u91cc\u4e86?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5bfb\u627e\u7b54\u6848"
                 },
                 {
-                    "name": "Taint Warnings",
+                    "name": "\u8150\u5316\u8b66\u544a",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7526210071214077051.png",
                     "x": 348.0,
                     "y": 60.0,
-                    "data": "Now that you have started using Vis in the form of Essentia, a warning about Taint.\n\nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.\n\nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.\n\nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.\n\nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.\n\nDestroying the tendrils stops the spread, but unless all are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.\n\nIf you are exceedingly careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.",
+                    "data": "\u73b0\u5728\u4f60\u5df2\u7ecf\u80fd\u591f\u4ee5\u6e90\u8d28\u7684\u5f62\u5f0f\u4f7f\u7528\u9b54\u529b,\u8fd9\u91cc\u662f\u5173\u4e8e\u8150\u5316\u7684\u8b66\u544a.%n%n\u5982\u679c\u5b58\u50a8\u7684\u65b9\u6cd5\u4e0d\u6b63\u786e,\u5728\u6e90\u8d28\u72b6\u6001\u4e0b\u7684\u9b54\u529b\u662f\u4e0d\u7a33\u5b9a\u7684.\u5982\u679c\u653e\u7f6e\u592a\u4e45,\u6216\u8005\u6e05\u7a7a\u5769\u9505\u65f6,\u6e90\u8d28\u4f1a\u5206\u89e3.\u4f46\u5b83\u4e0d\u662f\u5206\u89e3\u4e3a\u9b54\u529b,\u800c\u662f\u5206\u89e3\u4e3a\u5492\u6ce2.%n%n\u5492\u6ce2\u53ef\u80fd\u662f\u6db2\u6001\u6216\u8005\u6c14\u6001,\u4f46\u65e0\u8bba\u600e\u6837,\u5b83\u7684\u5b58\u5728\u53ea\u4f1a\u662f\u4e2a\u9ebb\u70e6. \u8eab\u5904\u4e8e\u5728\u5492\u6ce2\u73af\u5883\u4e0b\u7684\u795e\u79d8\u4f7f\u53ef\u80fd\u4f1a\u67d3\u4e0a\u5492\u6d41,\u8fd9\u79cd\u72b6\u6001\u4e0b\u5f15\u5bfc\u9b54\u529b\u4f1a\u66f4\u52a0\u56f0\u96be,\u4e0d\u8fc7\u53ea\u662f\u6682\u65f6\u7684.%n%n\u66f4\u5927\u6d53\u5ea6\u7684\u5492\u6ce2\u4f1a\u56fa\u5316\u6210\u4e3a\u795e\u79d8\u53f2\u83b1\u59c6,\u8fd9\u4e9b\u5947\u5f02\u7684\u751f\u7269\u4f1a\u8bd5\u56fe\u76f8\u4e92\u878d\u5408\u4ee5\u53d8\u5f97\u66f4\u5927.\u5b83\u4eec\u867d\u7136\u6709\u70b9\u5371\u9669,\u4f46\u5bf9\u548c\u5927\u591a\u6570\u602a\u7269\u4e00\u6837,\u4ed6\u4eec\u4e5f\u65e0\u6cd5\u62b5\u6297\u5f29\u7bad\u7684\u653b\u51fb\u529b.%n%n\u7136\u800c,\u5982\u679c\u8ba9\u8fc7\u591a\u7684\u5492\u6ce2\u505c\u7559\u592a\u4e45,\u5b83\u5c06\u8150\u8680\u571f\u5730\u5e76\u5f62\u6210\u89e6\u624b.\u8fd9\u662f\u6240\u8c13\u7684\u8150\u5316.\u89e6\u624b(\u4ee5\u53ca\u5176\u5f62\u6210\u7684\u8150\u5316\u8349\u4e1b)\u4f1a\u4f20\u64ad\u5e76\u5f62\u6210\u8150\u5316\u4e4b\u5730,\u626d\u66f2\u9b54\u6cd5\u5e76\u541e\u566c\u4e4b.\u800c\u8282\u70b9\u5c24\u5176\u8106\u5f31,\u5982\u679c\u8282\u70b9\u5904\u4e8e\u5728\u8fd9\u79cd\u88ab\u626d\u66f2\u7684\u9b54\u6cd5\u4e2d,\u5b83\u4eec\u4f1a\u53d8\u4e3a\u6c61\u67d3\u8282\u70b9.%n%n\u6467\u6bc1\u89e6\u624b\u53ef\u4ee5\u963b\u6b62\u4f20\u64ad,\u4f46\u9664\u975e\u6240\u6709\u7684\u89e6\u624b\u90fd\u88ab\u6467\u6bc1,\u5426\u5219\u8fd9\u53ea\u662f\u6682\u65f6\u7684.\u66f4\u6709\u6548\u7684\u89e3\u51b3\u65b9\u6cd5\u662f\u6467\u6bc1\u8150\u5316\u4e4b\u5730\u672c\u8eab,\u56e0\u4e3a\u5728\u8fd9\u4e2a\u7279\u5b9a\u751f\u7269\u7fa4\u7cfb\u4e4b\u5916,\u89e6\u624b\u4f1a\u8fc5\u901f\u8870\u7aed\u5e76\u6b7b\u4ea1.%n%n\u5982\u679c\u4f60\u5728\u7528\u4f60\u7684\u5769\u57da\u65f6\u6781\u5176\u7c97\u5fc3,\u5b9e\u9645\u4e0a\u4f60\u662f\u53ef\u4ee5\u521b\u9020\u51fa\u8150\u5316\u4e4b\u5730\u7684.\u56e0\u6b64,\u4f60\u6700\u597d\u5c3d\u91cf\u51cf\u5c11\u6d6a\u8d39\u6e90\u8d28,\u5e76\u6e05\u7406\u4efb\u4f55\u4f60\u6240\u6d6a\u8d39\u7684\u4e1c\u897f.",
                     "quest_id": "JyVKlIbSSiaXjYfQ2FFLhQ==",
-                    "tooltip": "<strong>Taint Warnings</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
+                    "tooltip": "<strong>\u8150\u5316\u8b66\u544a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684"
                 },
                 {
-                    "name": "Thauminite Helmet",
+                    "name": "\u79d8\u6676\u5934\u76d4",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8670597739683462194.png",
                     "x": 492.0,
                     "y": 156.0,
-                    "data": "If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5% vis discount while equipped.\n\nMaybe this new material is useful for wands too?",
+                    "data": "\u5982\u679c\u4f60\u60f3\u63d0\u5347\u4f60\u7684\u795e\u79d8\u91d1\u5c5e\u5230\u79d8\u6676,\u4f60\u53ef\u4ee5\u505a\u8fd9\u4e2a\u975e\u5e38\u65f6\u9ae6\u7684\u5934\u76d4!\u88c5\u5907\u65f6\u8fd8\u63d0\u4f9b5%%\u7684\u9b54\u529b\u51cf\u514d.%n%n\u4e5f\u8bb8\u8fd9\u79cd\u65b0\u6750\u6599\u5bf9\u6cd5\u6756\u4e5f\u6709\u6548\u679c?",
                     "quest_id": "CAqER5QVQg2Hq9lLZ9zDzg==",
-                    "tooltip": "<strong>Thauminite Helmet</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u795e\u79d8\u70f9\u996a"
+                    "tooltip": "<strong>\u79d8\u6676\u5934\u76d4</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u795e\u79d8\u70f9\u996a"
                 },
                 {
                     "name": "\u795e\u79d8\u70f9\u996a",
@@ -903,7 +903,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1565.png",
                     "x": 348.0,
                     "y": 300.0,
-                    "data": "\u771f\u5b9e\u9ed1\u591c(Hardcore-darkness)\u4ee4\u4eba\u75db\u82e6,\u4f46\u73b0\u5728\u591c\u665a\u5c06\u662f\u5149\u660e\u7684. \u81f3\u5c11,\u5728\u4f60\u770b\u8d77\u6765\u662f\u5149\u660e\u7684,\u602a\u7269\u8fd8\u662f\u4f1a\u751f\u6210!\u4f60\u8fd8\u8981\u5c0f\u5fc3,\u602a\u7269\u5e76\u4e0d\u4f1a\u88ab\u524a\u5f31.%n%n\u987a\u4fbf\u4e00\u63d0,\u4ece\u8fd9\u74f6\u836f\u6c34\u8fd8\u53ef\u4ee5\u7ee7\u7eed\u52a0\u5de5\u51fa\u6301\u7eed\u65f6\u95f4\u66f4\u957f\u7684\u836f\u6c34.\u53e6\u5916,\u4f60\u5e94\u8be5\u4e00\u6b21\u5236\u90203\u4e2a,\u8fd9\u6837\u5c31\u4e0d\u4f1a\u6d6a\u8d39\u6750\u6599\u4e86.",
+                    "data": "\u771f\u5b9e\u9ed1\u591c(Hardcore-darkness)\u4ee4\u4eba\u75db\u82e6,\u4f46\u73b0\u5728\u591c\u665a\u5c06\u662f\u5149\u660e\u7684. \u81f3\u5c11,\u5728\u4f60\u770b\u8d77\u6765\u662f\u5149\u660e\u7684,\u602a\u7269\u8fd8\u662f\u4f1a\u751f\u6210!\u4f60\u8fd8\u8981\u5c0f\u5fc3,\u602a\u7269\u5e76\u4e0d\u4f1a\u88ab\u524a\u5f31.%n%n\u5982\u679c\u4f60\u60f3\u7684\u8bdd,\u4ece\u591c\u89c6\u836f\u6c34\u8fd8\u53ef\u4ee5\u7ee7\u7eed\u52a0\u5de5\u51fa\u6301\u7eed\u65f6\u95f4\u66f4\u957f\u7684\u836f\u6c34.\u53e6\u5916,\u4f60\u5e94\u8be5\u4e00\u6b21\u5236\u90203\u4e2a,\u8fd9\u6837\u5c31\u4e0d\u4f1a\u6d6a\u8d39\u6750\u6599\u4e86.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAGHQ==",
                     "tooltip": "<strong>\u591c\u665a\u4e0d\u518d\u6f06\u9ed1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5495\u565c...\u5495\u565c...\u5495\u565c..."
                 },
@@ -915,7 +915,7 @@
                     "y": 156.0,
                     "data": "...\u5e74\u8f7b\u7684\u5b66\u5f92.\u4f60\u5df2\u7ecf\u719f\u7ec3\u638c\u63e1\u4e86\u5982\u4f55\u4f7f\u7528\u6cd5\u6756\u64cd\u7eb56\u79cd\u57fa\u672c\u5143\u7d20,\u4e5f\u7cbe\u901a\u4e86\u5982\u4f55\u5411\u5404\u79cd\u7269\u54c1\u4e2d\u6ce8\u5165\u6e90\u8d28\u548c\"VIS\"\u7684\u65b9\u6cd5.\u4f46\u662f\u8bf7\u8bb0\u4f4f\u5e74\u8f7b\u4eba,\u5728\u63a2\u7a76\u9b54\u6cd5\u7684\u540c\u65f6,\u4f60\u4f1a\u63a5\u89e6\u5230\u4e00\u4e9b\u90aa\u6076\u529b\u91cf.\u8fd9\u79cd\u90aa\u6076\u7684\u529b\u91cf\u4f1a\u5f15\u5bfc\u4f60\u53bb\u63a2\u7a76\u90a3\u4e9b\u7981\u5fcc\u7684\u9b54\u6cd5.\u6211\u770b\u5230\u4e86\u672a\u6765\u53ef\u80fd\u4f1a\u53d1\u751f\u7684\u4e00\u4e9b\u4e8b\u60c5...\u5f02\u5e38\u7684\u5929\u6c14\u3001\u865a\u5f31\u7684\u8eab\u4f53\u3001\u604d\u60da\u7684\u795e\u5fd7\u3001\u5b9e\u4f53\u5316\u7684\u5fc3\u9b54,\u751a\u81f3\u4f1a\u6709\u90aa\u6076\u7684\u5b88\u536b\u4f20\u9001\u5230\u4f60\u7684\u8eab\u8fb9.\u4e00\u8def\u5c0f\u5fc3,\u6211\u7684\u670b\u53cb...",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAA_A==",
-                    "tooltip": "<strong>\u4f60\u5df2\u7ecf\u51fa\u5e08\u4e86!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u53ef\u5b58\u50a875vis\u7684\u6743\u6756</br>Fuuuuuu...sion(\u878d\u5408)!"
+                    "tooltip": "<strong>\u4f60\u5df2\u7ecf\u51fa\u5e08\u4e86!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91d1\u7eb9\u5b8f\u4f1f\u4e4b\u6728\u6743\u6756</br>Fuuuuuu...sion(\u878d\u5408)!"
                 },
                 {
                     "name": "\u9b54\u5bfc\u624b\u518c",
@@ -928,14 +928,14 @@
                     "tooltip": "<strong>\u9b54\u5bfc\u624b\u518c</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u7684\u7b2c\u4e00\u6839\u6cd5\u6756"
                 },
                 {
-                    "name": "Tube Madness",
+                    "name": "\u6211\u4e3a\u7ba1\u9053\u72c2",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5271180655444922868.png",
                     "x": 636.0,
                     "y": 60.0,
-                    "data": "So you want to move essentia from your Alchemical furnace to your warded Jars without getting it all gunked up with different essentia types?\n\nWell you came to the right place, with the use of buffered tubes and your handy wand you can move your essentia in tubes to fill all your jars without having to manually break and replace one jar at a time.\n\nTo create a simple setup place the buffered tubes in a main line from your Arcane Alembic with tubes coming out of the main buffered tube line. These standard tubes will then go directly into a warded jar. To get the essentia to flow correctly into the buffered tubes, shift right click the output side of the buffered tube with your wand untill it is red. This will change the band to a red band which will limit the suction of the Essentia.\n\nThe Essentia will be forced from the buffered tube to a normal tube then into your Warded jars. Chain your buffered tubes as needed untill all your Warded Jars will fit.\n\nNote: This system will get gunked up with essentia if any of your Warded Jars are full!\n\nIf you would like more information please check out the guide 'A Thaumaturge Guide to Laying Pipe' by xlstadal for more indepth Thaumcraft 4 Tube knowledge.\n\n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]",
+                    "data": "\u4f60\u628a\u5404\u79cd\u6e90\u8d28\u4ece\u70bc\u91d1\u7089\u5f04\u5230\u5230\u6e90\u8d28\u7f50\u5b50\u7684\u65f6\u5019,\u4e0d\u60f3\u8ba9\u5b83\u4eec\u9ecf\u6210\u4e00\u56e2?%n%n\u90a3\u4f60\u5c31\u6765\u5bf9\u5730\u65b9\u4e86.\u4f7f\u7528\u6e90\u8d28\u7f13\u5b58\u5668\u548c\u6cd5\u6756,\u4f60\u4e0d\u9700\u8981\u53cd\u590d\u6572\u6389\u91cd\u653e\u5c31\u80fd\u8ba9\u7ba1\u9053\u91cc\u7684\u6e90\u8d28\u4e56\u4e56\u88c5\u6ee1\u7f50\u5b50.%n%n\u4e00\u4e2a\u7b80\u5355\u7684\u7528\u6cd5\u5c31\u662f,\u628a\u6e90\u8d28\u7f13\u5b58\u5668\u8d34\u5230\u4f60\u7684\u5965\u672f\u84b8\u998f\u5668\u4e0a\u7ec4\u6210\u4e00\u6761\u7f13\u5b58\u5668\u94fe,\u7528\u666e\u901a\u6e90\u8d28\u7ba1\u9053\u8fde\u51fa\u6765,\u7136\u540e\u76f4\u63a5\u8fdb\u5165\u6e90\u8d28\u7f50\u5b50.\u4e3a\u4e86\u8ba9\u6e90\u8d28\u5728\u7f13\u5b58\u5668\u91cc\u6b63\u786e\u6d41\u52a8,\u7528\u6cd5\u6756shift\u53f3\u952e\u5c06\u7f13\u5b58\u5668\u7684\u8f93\u51fa\u53e3\u8c03\u6210\u7ea2\u8272.\u8fd9\u4e2a\u7ea2\u5708\u4f1a\u628a\u6b64\u65b9\u5411\u5bf9\u6e90\u8d28\u7684\u5438\u529b\u8c03\u6574\u5230\u6700\u5c0f%n%n\u6e90\u8d28\u4f1a\u4ece\u7f13\u5b58\u5668\u4e2d\u88ab\u5438\u5165\u666e\u901a\u7ba1\u9053\u7136\u540e\u8fdb\u5165\u6e90\u8d28\u7f50\u5b50.\u6839\u636e\u4f60\u9700\u8981\u653e\u7f6e\u7684\u6e90\u8d28\u7f50\u5b50\u6570\u91cf\u5ef6\u957f\u7f13\u5b58\u5668\u94fe\u6761.%n%n\u6ce8\u610f\uff1a\u8fd9\u4e2a\u7cfb\u7edf\u4ecd\u7136\u4f1a\u5728\u67d0\u4e00\u4e2a\u7f50\u5b50\u88c5\u6ee1\u4e4b\u540e\u5835\u4f4f!%n%n\u5982\u679c\u4f60\u9700\u8981\u66f4\u591a\u4fe1\u606f,\u53ef\u4ee5\u67e5\u770b\u7531xlstadal\u5236\u4f5c\u7684\u6559\u7a0b'A Thaumaturge Guide to Laying Pipe',\u5b83\u63d0\u4f9b\u4e86\u66f4\u591a\u5173\u4e8e\u795e\u79d8\u65f6\u4ee34\u7ba1\u9053\u7cfb\u7edf\u7684\u8fdb\u9636\u77e5\u8bc6.%n%n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]",
                     "quest_id": "xoH_knd-RV-22QEfLUtuDA==",
-                    "tooltip": "<strong>Tube Madness</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6e90\u8d28\u8fc7\u6ee4"
+                    "tooltip": "<strong>\u6211\u4e3a\u7ba1\u9053\u72c2</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6e90\u8d28\u8fc7\u6ee4"
                 },
                 {
                     "name": "\u5c1d\u8bd5\u628a\u6db2\u4f53\u70bc\u5316\u6210\u6e90\u8d28",
@@ -948,14 +948,14 @@
                     "tooltip": "<strong>\u5c1d\u8bd5\u628a\u6db2\u4f53\u70bc\u5316\u6210\u6e90\u8d28</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u70bc\u5316\u6e90\u8d28"
                 },
                 {
-                    "name": "Understanding Wand Progression",
+                    "name": "\u7406\u89e3\u6cd5\u6756\u8fdb\u9636",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8049119362564896392.png",
                     "x": 540.0,
                     "y": 252.0,
-                    "data": "More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:\n\nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.\n\nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to procede. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.\n\nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.\n\nBut before all these options really open up, let us work on that Greatwood Wand!",
+                    "data": "\u66f4\u9ad8\u7ea7\u7684\u795e\u79d8\u65f6\u4ee3\u914d\u65b9\u9700\u8981\u8d8a\u6765\u8d8a\u591a\u7684\u9b54\u529b,\u800c\u4f60\u6700\u521d\u7684\u6cd5\u6756\u65e0\u6cd5\u6ee1\u8db3\u8fd9\u4e9b\u9700\u6c42.\u4f60\u9700\u8981\u9010\u6b65\u8fdb\u9636,\u4ee5\u63d0\u9ad8\u4f60\u7684\u80fd\u529b.\u8fd9\u4e2a\u8fdb\u9636\u6709\u4e24\u4e2a\u65b9\u9762\uff1a%n%n\u9996\u5148,\u4f60\u9700\u8981\u5236\u4f5c\u66f4\u9ad8\u7ea7\u7684\u6cd5\u6756,\u4e0b\u4e00\u7ea7\u662f\u5b8f\u4f1f\u4e4b\u6728\u6cd5\u6756.\u5176\u6b21,\u4f60\u9700\u8981\u63d0\u9ad8\u4f60\u7684\u5408\u6210\u51cf\u514d.\u8fd9\u4e9b\u51cf\u514d\u53ef\u4ee5\u51cf\u5c11\u5408\u6210\u6240\u9700\u7684\u9b54\u529b,\u4ece\u800c\u8ba9\u4f60\u80fd\u591f\u5408\u6210\u9700\u8981\u66f4\u591a\u9b54\u529b\u7684\u914d\u65b9.%n%n\u5728\u4f60\u7684\u8fdb\u9636\u4e2d,\u4f60\u9700\u8981\u4f9d\u8d56\u4e0a\u8ff0\u8fd9\u4e24\u4e2a\u65b9\u9762\uff1a\u66f4\u597d\u7684\u6cd5\u6756\u548c\u66f4\u9ad8\u7684\u51cf\u514d.\u7136\u800c,\u968f\u7740\u4f60\u7684\u8fdb\u9636,\u6709\u8bb8\u591a\u4e0d\u540c\u7684\u65b9\u5f0f\u53ef\u4ee5\u505a\u5230\u8fd9\u4e24\u70b9.\u6709\u4e9b\u65b9\u5f0f\u66f4\u4fa7\u91cd\u4e8e\u51cf\u514d,\u800c\u53e6\u4e00\u4e9b\u65b9\u5f0f\u5219\u66f4\u4fa7\u91cd\u4e8e\u63d0\u5347\u6cd5\u6756.\u56e0\u6b64,\u4efb\u52a1\u4e66\u53ea\u4f1a\u7ed9\u4f60\u4e00\u4e9b\u4e00\u822c\u6027\u7684\u5efa\u8bae.%n%n\u4f8b\u5982,\u5728\u5236\u4f5c\u65b0\u6cd5\u6756\u7c7b\u578b\u65f6,\u9996\u5148\u5236\u4f5c\u6700\u4fbf\u5b9c\u7684\u94c1\u6756\u7aef,\u7136\u540e\u518d\u5c1d\u8bd5\u5347\u7ea7\u5b83.\u7136\u800c,\u5982\u679c\u4f60\u80fd\u591f\u83b7\u5f97\u8db3\u591f\u7684\u51cf\u514d,\u4f60\u53ef\u4ee5\u76f4\u63a5\u7528\u91d1\u6756\u7aef\u6216\u66f4\u597d\u7684\u6750\u6599\u5236\u4f5c\u6cd5\u6756,\u8df3\u8fc7\u94c1\u6756\u7aef\u6cd5\u6756\u7684\u6b65\u9aa4.%n%n\u4f46\u5728\u6240\u6709\u8fd9\u4e9b\u9009\u9879\u771f\u6b63\u80fd\u7528\u4e4b\u524d,\u8ba9\u6211\u4eec\u5148\u6765\u5236\u4f5c\u90a3\u6839\u5b8f\u4f1f\u4e4b\u6728\u6cd5\u6756\u5427!",
                     "quest_id": "bfrxXr1iSpGQS8iV95nJeA==",
-                    "tooltip": "<strong>Understanding Wand Progression</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6539\u8fdb\u4f60\u7684\u6cd5\u6756"
+                    "tooltip": "<strong>\u7406\u89e3\u6cd5\u6756\u8fdb\u9636</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6539\u8fdb\u4f60\u7684\u6cd5\u6756"
                 },
                 {
                     "name": "\u626d\u66f2\u8b66\u62a5",
@@ -963,7 +963,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1778.png",
                     "x": 252.0,
                     "y": 156.0,
-                    "data": "\u795e\u79d8\u65f6\u4ee3\u7684\u8bbe\u5907\u4e0e\u5de5\u5177\u53ef\u4ee5\u5e26\u6765\u5de8\u5927\u7684\u529b\u91cf. \u4f46\u529b\u91cf\u662f\u9700\u8981\u4ed8\u51fa\u4ee3\u4ef7\u7684.... \u4ece\u7248\u672c4.2\u5f00\u59cb,\u8fd9\u79cd\u4ee3\u4ef7\u4ee5\u626d\u66f2\u8868\u73b0\u51fa\u6765: \u5bf9\u89d2\u8272\u601d\u60f3\u4e0e\u7075\u9b42\u7684\u4fb5\u8680,\u9010\u6e10\u5bf9\u4ed6\u4eec\u9020\u6210\u66f4\u591a\u53ef\u6015\u7684\u5f71\u54cd.%n%n\u867d\u7136\u626d\u66f2\u7684\u6548\u679c\u5c0f\u5219\u70e6\u4eba,\u5927\u5219\u81f4\u547d,\u4f46\u79ef\u7d2f\u8db3\u591f\u591a\u7684\u626d\u66f2\u4e5f\u53ef\u4ee5\u8ba9\u4f60\u83b7\u5f97\u66f4\u5927\u7684\u529b\u91cf...\u4ee3\u4ef7\u5c31\u662f\u8d8a\u53d1\u75af\u72c2,\u4e5f\u8d8a\u53d1\u5438\u5f15\u9ed1\u6697\u529b\u91cf. \u81f3\u5c11,\u90a3\u5728\u65c1\u4eba\u770b\u6765\u662f\u75af\u72c2... \u4f46\u662f,\u5f53\u4f60\u5934\u8111\u4e2d\u7684\u58f0\u97f3\u7ed9\u51fa\u4e86\u6709\u7528\u7684\u77e5\u8bc6\u65f6\uff1b\u5728\u4f60\u79bb\u5f00\u4e4b\u524d\u51fa\u73b0\u7684\u602a\u7269\u4ecd\u7136\u7559\u5728\u4f60\u8eab\u540e\u65f6,\u4f60\u5f00\u59cb\u6000\u7591:\u5b83\u771f\u7684\u662f\u7cbe\u795e\u9519\u4e71\u5417\uff1f%n%n\u795e\u79d8\u626d\u66f2\u5b66\u6dfb\u52a0\u4e86\u4e00\u7cfb\u5217\u626d\u66f2\u6548\u679c. \u8981\u4e07\u5206\u5f53\u5fc3,\u56e0\u4e3a\u4f60\u80af\u5b9a\u4e0d\u60f3\u8ba9\u4f60\u7684\u57fa\u5730\u5185\u90e8\u6216\u5468\u56f4\u751f\u6210\u51cb\u7075.%n%n\u626d\u66f2\u6548\u679c\u4e0e\u626d\u66f2\u503c\u76f8\u5173.%n%n5\u626d\u66f2: \u8baf\u606f%n10\u626d\u66f2: \u865a\u62df\u7206\u70b8%n15\u626d\u66f2: \u786c\u5e01\u3001\u5357\u74dc%n20\u626d\u66f2: \u4e0b\u86cb\u3001\u751f\u6210\u5e7b\u5f71%n25\u626d\u66f2: \u865a\u62df\u722c\u884c\u8005\u3001\u865a\u62df\u4e0b\u96e8%n30\u626d\u66f2: \u865a\u62dfGT\u97f3\u6548\u3001\u751f\u6210\u8759\u8760%n35\u626d\u66f2: \u6d41\u8840\u3001\u865a\u62df\u672b\u5f71\u4eba%n40\u626d\u66f2: \u751f\u6210\u53cb\u65b9\u722c\u884c\u8005%n45\u626d\u66f2: \u8df3\u8dc3\u63d0\u5347\u3001\u53cd\u80c3%n50\u626d\u66f2: \u5931\u7720\u3001Vis\u6d41\u5931%n55\u626d\u66f2: \u96f7\u96e8%n60\u626d\u66f2: \u751f\u6210\u4e5d\u72f1\u7131\u8760%n65\u626d\u66f2: \u5931\u660e\u3001\u4e2d\u6bd2%n70\u626d\u66f2: \u7272\u755c\u4e4b\u96e8%n75\u626d\u66f2: \u751f\u6210\u5206\u8eab%n80\u626d\u66f2: \u751f\u6210\u672b\u5f71\u4eba\u3001\u51cb\u96f6\u6548\u679c%n85\u626d\u66f2: \u602a\u98ce%n90\u626d\u66f2: \u672b\u5f71\u73cd\u73e0%n95\u626d\u66f2: \u706b\u7403%n100\u626d\u66f2: \u5965\u672f\u77f3\u854a\u8bd5\u7eb8\u3001\u5783\u573e%n110\u626d\u66f2: \u9ed1\u66dc\u77f3%n120\u626d\u66f2: \u95ea\u7535%n125\u626d\u66f2: \u7269\u54c1\u680f\u4ea4\u6362%n130\u626d\u66f2: \u968f\u673a\u4f20\u9001%n140\u626d\u66f2: \u52a0\u901f%n150\u626d\u66f2: \u865a\u62df\u51cb\u7075\u3001\u7269\u54c1\u680f\u6df7\u4e71%n160\u626d\u66f2: \u7206\u70b8\u5012\u6570%n170\u626d\u66f2: \u8611\u83c7%n175\u626d\u66f2: \u4e0b\u96ea(\u751f\u6210\u96ea\u5080\u5121)%n180\u626d\u66f2: \u88c5\u5907\u8150\u8680%n190\u626d\u66f2: \u751f\u673a\u52c3\u52c3%n200\u626d\u66f2: \u751f\u6210\u51cb\u7075",
+                    "data": "\u795e\u79d8\u65f6\u4ee3\u7684\u8bbe\u5907\u4e0e\u5de5\u5177\u53ef\u4ee5\u5e26\u6765\u5de8\u5927\u7684\u529b\u91cf. \u4f46\u529b\u91cf\u662f\u9700\u8981\u4ed8\u51fa\u4ee3\u4ef7\u7684.... \u4ece\u7248\u672c4.2\u5f00\u59cb,\u8fd9\u79cd\u4ee3\u4ef7\u4ee5\u626d\u66f2\u8868\u73b0\u51fa\u6765: \u5bf9\u89d2\u8272\u601d\u60f3\u4e0e\u7075\u9b42\u7684\u4fb5\u8680,\u9010\u6e10\u5bf9\u4ed6\u4eec\u9020\u6210\u66f4\u591a\u53ef\u6015\u7684\u5f71\u54cd.%n%n\u867d\u7136\u626d\u66f2\u7684\u6548\u679c\u5c0f\u5219\u70e6\u4eba,\u5927\u5219\u81f4\u547d,\u4f46\u79ef\u7d2f\u8db3\u591f\u591a\u7684\u626d\u66f2\u4e5f\u53ef\u4ee5\u8ba9\u4f60\u83b7\u5f97\u66f4\u5927\u7684\u529b\u91cf...\u4ee3\u4ef7\u5c31\u662f\u8d8a\u53d1\u75af\u72c2,\u4e5f\u8d8a\u53d1\u5438\u5f15\u9ed1\u6697\u529b\u91cf. \u81f3\u5c11,\u90a3\u5728\u65c1\u4eba\u770b\u6765\u662f\u75af\u72c2... \u4f46\u662f,\u5f53\u4f60\u5934\u8111\u4e2d\u7684\u58f0\u97f3\u7ed9\u51fa\u4e86\u6709\u7528\u7684\u77e5\u8bc6\u65f6\uff1b\u5728\u4f60\u79bb\u5f00\u4e4b\u524d\u51fa\u73b0\u7684\u602a\u7269\u4ecd\u7136\u7559\u5728\u4f60\u8eab\u540e\u65f6,\u4f60\u5f00\u59cb\u6000\u7591:\u5b83\u771f\u7684\u662f\u7cbe\u795e\u9519\u4e71\u5417\uff1f%n%n\u795e\u79d8\u626d\u66f2\u5b66\u6dfb\u52a0\u4e86\u4e00\u7cfb\u5217\u626d\u66f2\u6548\u679c. \u8981\u4e07\u5206\u5f53\u5fc3,\u56e0\u4e3a\u4f60\u80af\u5b9a\u4e0d\u60f3\u8ba9\u4f60\u7684\u57fa\u5730\u5185\u90e8\u6216\u5468\u56f4\u751f\u6210\u51cb\u7075.%n%n\u626d\u66f2\u6548\u679c\u4e0e\u626d\u66f2\u503c\u76f8\u5173.%n%n5\u626d\u66f2: \u8baf\u606f%n10\u626d\u66f2: \u865a\u62df\u7206\u70b8%n15\u626d\u66f2: \u786c\u5e01\u3001\u5357\u74dc%n20\u626d\u66f2: \u4e0b\u86cb\u3001\u751f\u6210\u5e7b\u5f71%n25\u626d\u66f2: \u865a\u62df\u722c\u884c\u8005\u3001\u865a\u62df\u4e0b\u96e8%n30\u626d\u66f2: \u865a\u62dfGT\u97f3\u6548\u3001\u751f\u6210\u8759\u8760%n35\u626d\u66f2: \u6d41\u8840\u3001\u865a\u62df\u672b\u5f71\u4eba%n40\u626d\u66f2: \u751f\u6210\u53cb\u65b9\u722c\u884c\u8005%n45\u626d\u66f2: \u8df3\u8dc3\u63d0\u5347\u3001\u53cd\u80c3%n50\u626d\u66f2: \u5931\u7720\u3001Vis\u6d41\u5931%n55\u626d\u66f2: \u96f7\u96e8%n60\u626d\u66f2: \u751f\u6210\u4e5d\u72f1\u7131\u8760%n65\u626d\u66f2: \u5931\u660e\u3001\u4e2d\u6bd2%n70\u626d\u66f2: \u7272\u755c\u4e4b\u96e8%n75\u626d\u66f2: \u751f\u6210\u5206\u8eab%n80\u626d\u66f2: \u751f\u6210\u672b\u5f71\u4eba\u3001\u51cb\u96f6\u6548\u679c%n85\u626d\u66f2: \u602a\u98ce%n90\u626d\u66f2: \u672b\u5f71\u73cd\u73e0%n95\u626d\u66f2: \u706b\u7403%n100\u626d\u66f2: \u5965\u672f\u77f3\u854a\u8bd5\u7eb8\u3001\u5783\u573e\u3001\u6df1\u6e0a\u7684\u547c\u5524%n110\u626d\u66f2: \u9ed1\u66dc\u77f3%n120\u626d\u66f2: \u95ea\u7535%n125\u626d\u66f2: \u7269\u54c1\u680f\u4ea4\u6362%n130\u626d\u66f2: \u968f\u673a\u4f20\u9001%n140\u626d\u66f2: \u52a0\u901f%n150\u626d\u66f2: \u865a\u62df\u51cb\u7075\u3001\u7269\u54c1\u680f\u6df7\u4e71%n160\u626d\u66f2: \u7206\u70b8\u5012\u6570%n170\u626d\u66f2: \u8611\u83c7%n175\u626d\u66f2: \u4e0b\u96ea(\u751f\u6210\u96ea\u5080\u5121)%n180\u626d\u66f2: \u88c5\u5907\u8150\u8680%n190\u626d\u66f2: \u751f\u673a\u52c3\u52c3%n200\u626d\u66f2: \u751f\u6210\u51cb\u7075",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAG8g==",
                     "tooltip": "<strong>\u626d\u66f2\u8b66\u62a5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9b54\u5bfc\u624b\u518c"
                 },
@@ -993,7 +993,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/224.png",
                     "x": 492.0,
                     "y": 300.0,
-                    "data": "\u5982\u679c\u4f60\u5df2\u7ecf\u9020\u597d\u4e86\u7eba\u8f66,\u5e76\u5b8c\u6210\u4e86\u7814\u7a76,\u540c\u65f6\u62e5\u670950-vis\u4ee5\u4e0a\u7684\u9b54\u6756,\u90a3\u4f60\u5c31\u80fd\u5236\u9020\u8fd9\u4e9b\u4e86. \u5b83\u4eec\u975e\u5e38\u6709\u7528.",
+                    "data": "\u5982\u679c\u4f60\u5df2\u7ecf\u9020\u597d\u4e86\u7eba\u8f66,\u5e76\u5b8c\u6210\u4e86\u7814\u7a76,\u540c\u65f6\u62e5\u670950-vis\u4ee5\u4e0a\u7684\u9b54\u6756,\u90a3\u4f60\u5c31\u80fd\u5236\u9020\u8fd9\u4e9b\u4e86. %n%n\u5b83\u4eec\u63d0\u4f9b\u7684vis\u51cf\u514d\u5728\u66f4\u9ad8\u6548\u7387\u5408\u6210\u548c\u7b80\u5316\u6cd5\u6756\u7684\u53d1\u5c55\u8def\u7ebf\u4e0a\u5f88\u6709\u7528. \u662f\u4e0d\u662f\u5e94\u8be5\u53bb\u627e\u627e\u66f4\u591a\u80fd\u51cf\u514dvis\u7684\u73a9\u610f?",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAA4A==",
                     "tooltip": "<strong>\u7537\u5deb\u5973\u5deb</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4eba\u9760\u8863\u88c5...\u5deb\u5e08\u4e5f\u4e00\u6837</br>\u4e13\u4f9b\u51ef\u9a6c\u7279(K-Mart)(\u5927\u578b\u767e\u8d27\u8fde\u9501\u5e97)"
                 },
@@ -1042,8 +1042,8 @@
                     "target": "\u66f4\u597d\u7684\u6d41\u4f53\u7ba1\u9053"
                 },
                 {
-                    "source": "Solid, Directional Redstone",
-                    "target": "Adding More Funtions"
+                    "source": "\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3",
+                    "target": "\u6dfb\u52a0\u66f4\u591a\u529f\u80fd"
                 },
                 {
                     "source": "\u6539\u8fdb\u4f60\u7684\u6cd5\u6756",
@@ -1051,7 +1051,7 @@
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "Alleviating Warp"
+                    "target": "\u7f13\u89e3\u626d\u66f2"
                 },
                 {
                     "source": "\u4e00\u4e2a\u66f4\"\u4f18\u79c0\"\u7684\u6cd5\u6756",
@@ -1063,11 +1063,11 @@
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "\u6709\u7528\u7684\u690d\u7269"
+                    "target": "\u4e00\u79cd\u65b0\u7684\u201c\u79cd\u690d\u201d\u8d44\u6e90\u7684\u529e\u6cd5"
                 },
                 {
                     "source": "\u4f60\u7684\u7b2c\u4e00\u6839\u6cd5\u6756",
-                    "target": "A Pechuliar Merchant"
+                    "target": "\u53e4\u602a\u5546\u4eba"
                 },
                 {
                     "source": "\u94c1\u6728",
@@ -1111,15 +1111,15 @@
                 },
                 {
                     "source": "\u4e0d\u4ec5\u662f\u7528\u6765\u88c5\u9970",
-                    "target": "Comparing at a Distance"
+                    "target": "\u8fdc\u7a0b\u6bd4\u8f83\u5668"
                 },
                 {
-                    "source": "Solid, Directional Redstone",
-                    "target": "Comparing at a Distance"
+                    "source": "\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3",
+                    "target": "\u8fdc\u7a0b\u6bd4\u8f83\u5668"
                 },
                 {
-                    "source": "Comparing at a Distance",
-                    "target": "Counting Items"
+                    "source": "\u8fdc\u7a0b\u6bd4\u8f83\u5668",
+                    "target": "\u7269\u54c1\u8ba1\u6570"
                 },
                 {
                     "source": "\u5965\u6cd5\u5de5\u4f5c\u53f0",
@@ -1171,7 +1171,7 @@
                 },
                 {
                     "source": "\u6e90\u8d28\u8fc7\u6ee4",
-                    "target": "Essentia Storage"
+                    "target": "\u6e90\u8d28\u5b58\u50a8"
                 },
                 {
                     "source": "\u6211\u53ef\u4ee5\u770b\u5230\u4e00\u5207",
@@ -1198,7 +1198,7 @@
                     "target": "\u83b7\u5f97\u788e\u7247"
                 },
                 {
-                    "source": "A Pechuliar Merchant",
+                    "source": "\u53e4\u602a\u5546\u4eba",
                     "target": "\u83b7\u5f97\u788e\u7247"
                 },
                 {
@@ -1207,7 +1207,7 @@
                 },
                 {
                     "source": "\u5143\u59cb\u9b54\u529b",
-                    "target": "\u53ef\u5b58\u50a875vis\u7684\u6743\u6756"
+                    "target": "\u91d1\u7eb9\u5b8f\u4f1f\u4e4b\u6728\u6743\u6756"
                 },
                 {
                     "source": "\u5965\u6cd5\u5de5\u4f5c\u53f0",
@@ -1215,15 +1215,15 @@
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "Growing Auram"
+                    "target": "\u751f\u957f\u7684\u7075\u6c14"
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "Growing Glowstone the Magical Way"
+                    "target": "\u7528\u9b54\u6cd5\u7684\u65b9\u5f0f\u79cd\u690d\u8424\u77f3"
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "Growing your own Knowledge!"
+                    "target": "\u79cd\u51fa\u4f60\u7684\u77e5\u8bc6!"
                 },
                 {
                     "source": "\u80fd\u591f\u50a8\u5b5850\"VIS\"\u7684\u6cd5\u6756",
@@ -1270,7 +1270,7 @@
                     "target": "\u94c1\u6728"
                 },
                 {
-                    "source": "Essentia Storage",
+                    "source": "\u6e90\u8d28\u5b58\u50a8",
                     "target": "\u5b83\u53eb\u795e\u79d8\u70bc\u91d1\u5854,\u597d\u4e0d?"
                 },
                 {
@@ -1279,7 +1279,7 @@
                 },
                 {
                     "source": "\u5899\u4e0a\u7684\u53c8\u4e00\u5757\u7816...",
-                    "target": "Keeping Out the Riff-Raff"
+                    "target": "\u5c06\u4e4c\u5408\u4e4b\u4f17\u62d2\u4e4b\u95e8\u5916"
                 },
                 {
                     "source": "\u4f60\u662f\u8c01,\u4e00\u4e2a\u5973\u88c1\u7f1d?",
@@ -1303,19 +1303,19 @@
                 },
                 {
                     "source": "\u5bfb\u627e\u7b54\u6848",
-                    "target": "\u795e\u5947\u7684\u7fbd\u6bdb"
+                    "target": "\u9b54\u6cd5\u7fbd\u6bdb"
                 },
                 {
-                    "source": "\u795e\u5947\u7684\u7fbd\u6bdb",
+                    "source": "\u9b54\u6cd5\u7fbd\u6bdb",
                     "target": "\u9b54\u6cd5\u5730\u56fe"
                 },
                 {
                     "source": "\u80fd\u591f\u50a8\u5b5850\"VIS\"\u7684\u6cd5\u6756",
-                    "target": "More Health"
+                    "target": "\u66f4\u591a\u751f\u547d\u503c"
                 },
                 {
                     "source": "\u9b54\u6cd5\u6ce5\u571f",
-                    "target": "Need More Sugar?"
+                    "target": "\u9700\u8981\u66f4\u591a\u7cd6?"
                 },
                 {
                     "source": "\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684",
@@ -1342,8 +1342,8 @@
                     "target": "\u59cb\u6e90\u8611\u83c7"
                 },
                 {
-                    "source": "Taint Warnings",
-                    "target": "Pushing Back the Taint"
+                    "source": "\u8150\u5316\u8b66\u544a",
+                    "target": "\u8d76\u8d70\u8150\u5316"
                 },
                 {
                     "source": "\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684",
@@ -1375,7 +1375,7 @@
                 },
                 {
                     "source": "\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684",
-                    "target": "Solid, Directional Redstone"
+                    "target": "\u56fa\u6001\u5b9a\u5411\u7ea2\u77f3"
                 },
                 {
                     "source": "\u5965\u6cd5\u5de5\u4f5c\u53f0",
@@ -1395,15 +1395,15 @@
                 },
                 {
                     "source": "\u5bfb\u627e\u7b54\u6848",
-                    "target": "\u8ff7\u5931\u5728\u66ae\u8272\u68ee\u6797\u91cc?"
+                    "target": "\u88ab\u56f0\u5728\u66ae\u8272\u68ee\u6797\u91cc\u4e86?"
                 },
                 {
                     "source": "\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684",
-                    "target": "Taint Warnings"
+                    "target": "\u8150\u5316\u8b66\u544a"
                 },
                 {
                     "source": "\u795e\u79d8\u70f9\u996a",
-                    "target": "Thauminite Helmet"
+                    "target": "\u79d8\u6676\u5934\u76d4"
                 },
                 {
                     "source": "\u8fd9\u53ef\u4e0d\u662f\u505a\u6c64\u7684",
@@ -1562,7 +1562,7 @@
                     "target": "\u591c\u665a\u4e0d\u518d\u6f06\u9ed1"
                 },
                 {
-                    "source": "\u53ef\u5b58\u50a875vis\u7684\u6743\u6756",
+                    "source": "\u91d1\u7eb9\u5b8f\u4f1f\u4e4b\u6728\u6743\u6756",
                     "target": "\u4f60\u5df2\u7ecf\u51fa\u5e08\u4e86!"
                 },
                 {
@@ -1575,7 +1575,7 @@
                 },
                 {
                     "source": "\u6e90\u8d28\u8fc7\u6ee4",
-                    "target": "Tube Madness"
+                    "target": "\u6211\u4e3a\u7ba1\u9053\u72c2"
                 },
                 {
                     "source": "\u70bc\u5316\u6e90\u8d28",
@@ -1583,7 +1583,7 @@
                 },
                 {
                     "source": "\u6539\u8fdb\u4f60\u7684\u6cd5\u6756",
-                    "target": "Understanding Wand Progression"
+                    "target": "\u7406\u89e3\u6cd5\u6756\u8fdb\u9636"
                 },
                 {
                     "source": "\u9b54\u5bfc\u624b\u518c",

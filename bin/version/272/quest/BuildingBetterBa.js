@@ -78,14 +78,14 @@
                     "tooltip": "<strong>\u66f4\u597d\u7684\u51ff\u5b50</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u538b\u7f29\u6750\u6599"
                 },
                 {
-                    "name": "A Modern Technology",
+                    "name": "\u4e00\u9879\u73b0\u4ee3\u79d1\u6280",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8955940478007720167.png",
                     "x": 156.0,
                     "y": 300.0,
-                    "data": "Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.\n\nThere are a lot of other nice blocks in Chisel. Just type \"@chisel\" in NEI and look around.",
+                    "data": "\u6df7\u51dd\u571f.\u54e6\u4e0d\uff0c\u662f\u6c49\u9ebb\u6df7\u51dd\u571f!\u901a\u8fc7GTNH Chisel\u6a21\u7ec4\u5e26\u6765\u7684\u4e00\u9879\u5168\u65b0\u7684\u73b0\u4ee3\u6280\u672f.\u4e00\u5171\u670916\u79cd\u989c\u8272.%n%n\u5728Chisel\u4e2d\u8fd8\u6709\u5f88\u591a\u5176\u4ed6\u6f02\u4eae\u7684\u65b9\u5757.\u53ea\u9700\u8981\u5728NEI\u4e2d\u8f93\u5165\"@chisel\"\u7136\u540e\u770b\u4e00\u770b.",
                     "quest_id": "VFVruPLHQAeDthuV-s7HGQ==",
-                    "tooltip": "<strong>A Modern Technology</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u690d\u7269\u7403"
+                    "tooltip": "<strong>\u4e00\u9879\u73b0\u4ee3\u79d1\u6280</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u690d\u7269\u7403"
                 },
                 {
                     "name": "\u5f27\u5149\u706f",
@@ -228,14 +228,14 @@
                     "tooltip": "<strong>\u5c3d\u53ef\u80fd\u5feb\u5730\u51ff</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u96d5\u51ff\u4e07\u7269"
                 },
                 {
-                    "name": "Compact Storage",
+                    "name": "\u7d27\u51d1\u7684\u5b58\u50a8",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6848797731239430532.png",
                     "x": 12.0,
                     "y": 396.0,
-                    "data": "Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. \n\n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. try the \"Wood to Copper Chest Upgrade\", upgrade from wood to a tiered chest will not be chaper.[/note]\n\n[note]Upgraded chests cannot be connected into double chests.[/note]",
+                    "data": "\u73b0\u5728\u4f60\u5df2\u7ecf\u6709\u4e86\u8d8a\u6765\u8d8a\u591a\u7684\u94dc\u50a8\u5907,\u4f60\u611f\u89c9\u4f60\u7684\u6728\u7bb1\u5b50\u592a\u5c0f\u4e86,\u4e0d\u80fd\u5b58\u4e0b\u4f60\u7684\u6240\u6709\u4e1c\u897f. %n%n[note]\u662f\u65f6\u5019\u5c06\u4f60\u7684\u6728\u7bb1\u5b50\u5347\u7ea7\u4e3a\u94dc\u7bb1\u5b50\u4e86!\u66f4\u9ad8\u7b49\u7ea7\u7684\u7bb1\u5b50\u53ef\u4ee5\u901a\u8fc7\u5347\u7ea7\u7ec4\u4ef6\u65b9\u4fbf\u5730\u8fdb\u884c\u5347\u7ea7,\u4f46\u5e76\u4e0d\u662f\u6240\u6709\u7b49\u7ea7\u7684\u7bb1\u5b50\u90fd\u53ef\u4ee5\u901a\u8fc7\u8fd9\u79cd\u65b9\u6cd5\u76f4\u63a5\u5347\u7ea7.\u8bd5\u8bd5\u770b\"\u7bb1\u5b50\u5347\u7ea7\uff1a\u6728>\u94dc\",\u867d\u7136\u7528\u8fd9\u79cd\u65b9\u5f0f\u5c06\u6728\u7bb1\u5b50\u5347\u7ea7\u5230\u9ad8\u7ea7\u7684\u7bb1\u5b50\u5e76\u4e0d\u4f1a\u66f4\u52a0\u4fbf\u5b9c.[/note]%n%n[note]\u5347\u7ea7\u540e\u76f8\u90bb\u7684\u7bb1\u5b50\u4e0d\u518d\u80fd\u8fde\u63a5\u7ec4\u6210\u66f4\u5927\u7684\u7bb1\u5b50.[/note]",
                     "quest_id": "QNsm_wc0QO2g9C6_-vj2fA==",
-                    "tooltip": "<strong>Compact Storage</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cd\u8981\u7684\u5de5\u5177"
+                    "tooltip": "<strong>\u7d27\u51d1\u7684\u5b58\u50a8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cd\u8981\u7684\u5de5\u5177"
                 },
                 {
                     "name": "\u6df7\u51dd\u571f\u548cGT\u77f3\u5934",
@@ -248,24 +248,24 @@
                     "tooltip": "<strong>\u6df7\u51dd\u571f\u548cGT\u77f3\u5934</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u563f,DJ,\u6405\u8d77\u6765!</br>\u66f4\u597d\u7684\u51ff\u5b50"
                 },
                 {
-                    "name": "Crystal Chest",
+                    "name": "\u6c34\u6676\u7bb1\u5b50",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5235602628658218321.png",
                     "x": 156.0,
                     "y": 360.0,
-                    "data": "You've created a chest that allows you to see what's inside, isn't that useful?\n\n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]",
+                    "data": "\u4f60\u5df2\u7ecf\u5236\u4f5c\u4e86\u4e00\u4e2a\u53ef\u4ee5\u8ba9\u4f60\u770b\u5230\u91cc\u9762\u5185\u5bb9\u7684\u7bb1\u5b50\uff0c\u662f\u4e0d\u662f\u5f88\u6709\u7528\uff1f%n%n[note]\u5c31\u50cf\u4e4b\u524d\u7684\u7bb1\u5b50\u4e00\u6837\uff0c\u4f60\u4e5f\u53ef\u4ee5\u7528\u5408\u9002\u7684\u5347\u7ea7\u7269\u54c1\u6765\u5347\u7ea7\u5b83\u3002",
                     "quest_id": "e-VLKN-JSRK3V2cmDbm6rw==",
-                    "tooltip": "<strong>Crystal Chest</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae"
+                    "tooltip": "<strong>\u6c34\u6676\u7bb1\u5b50</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae"
                 },
                 {
-                    "name": "Dark Steel Chest",
+                    "name": "\u7384\u94a2\u7bb1\u5b50",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8724598716517898559.png",
                     "x": 192.0,
                     "y": 396.0,
-                    "data": "After embracing the dark side you get access to the new even bigger dark steel chest... perhaps another upgrade will be available in the future?\n\n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]",
+                    "data": "\u62e5\u62b1\u9ed1\u6697\u540e,\u4f60\u53ef\u4ee5\u83b7\u5f97\u65b0\u7684\u66f4\u5927\u7684\u7384\u94a2\u7bb1\u5b50.\u4e5f\u8bb8\u5c06\u6765\u4f1a\u6709\u53e6\u4e00\u79cd\u5347\u7ea7\u65b9\u5f0f?%n%n[note]\u5c31\u50cf\u4e4b\u524d\u7684\u7bb1\u5b50\u4e00\u6837,\u4f60\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5408\u9002\u7684\u5347\u7ea7\u7269\u54c1\u6765\u5347\u7ea7\u5230\u7384\u94a2\u7bb1\u5b50.[/note]%n",
                     "quest_id": "t6xRGFm_S2SG6_-xNh8mwQ==",
-                    "tooltip": "<strong>Dark Steel Chest</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae</br>\u6765\u5230\u9ed1\u6697\u9762...(Come to the Dark Side...)"
+                    "tooltip": "<strong>\u7384\u94a2\u7bb1\u5b50</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae</br>\u6765\u5230\u9ed1\u6697\u9762...(Come to the Dark Side...)"
                 },
                 {
                     "name": "\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae",
@@ -273,7 +273,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1094.png",
                     "x": 156.0,
                     "y": 396.0,
-                    "data": "\u5728\u4f60\u5236\u9020\u4e86\u4e00\u53f0\u5207\u5272\u673a\u4e4b\u540e,\u4f60\u53ef\u4ee5\u5207\u5272\u4e00\u4e9b\u94bb\u77f3\u677f\u6765\u5236\u4f5c108\u683c\u7684\u5927\u53f7\u65b0\u7bb1\u5b50\u4e86!",
+                    "data": "\u5728\u4f60\u5236\u9020\u4e86\u4e00\u53f0\u5207\u5272\u673a\u4e4b\u540e,\u4f60\u53ef\u4ee5\u5207\u5272\u4e00\u4e9b\u94bb\u77f3\u677f\u6765\u5236\u4f5c108\u683c\u7684\u5927\u53f7\u65b0\u7bb1\u5b50\u4e86!%n%n[note]\u5c31\u50cf\u4e4b\u524d\u7684\u5176\u4ed6\u7bb1\u5b50\u4e00\u6837,\u4f60\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5347\u7ea7\u7269\u54c1.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAERg==",
                     "tooltip": "<strong>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5207\u5272\u6210\u7247"
                 },
@@ -303,7 +303,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1095.png",
                     "x": 84.0,
                     "y": 396.0,
-                    "data": "\u5982\u679c\u4f60\u627e\u5230\u4e86\u8db3\u591f\u591a\u7684\u9ec4\u91d1,\u90a3\u4e48\u4f60\u53ef\u4ee5\u7ee7\u7eed\u5347\u7ea7\u4f60\u7684\u7bb1\u5b50.\u9ec4\u91d1\u7bb1\u5b50\u62e5\u67099x9\u7684\u5b58\u50a8\u7a7a\u95f4. \u4f60\u53ef\u4ee5\u76f4\u63a5\u5236\u9020\u4e00\u4e2a\u5168\u65b0\u7684\u91d1\u7bb1\u5b50,\u6216\u8005\u901a\u8fc7\u5347\u7ea7\u7ec4\u4ef6\u5c06\u94c1\u7bb1\u5b50\u5347\u7ea7\u5230\u91d1\u7bb1\u5b50. \u7528\u7ec4\u88c5\u673a\u5236\u9020\u4f1a\u7a0d\u5fae\u4fbf\u5b9c\u4e00\u70b9.",
+                    "data": "\u5982\u679c\u4f60\u627e\u5230\u4e86\u8db3\u591f\u591a\u7684\u9ec4\u91d1,\u90a3\u4e48\u4f60\u53ef\u4ee5\u7ee7\u7eed\u5347\u7ea7\u4f60\u7684\u7bb1\u5b50.\u9ec4\u91d1\u7bb1\u5b50\u62e5\u67099x9\u7684\u5b58\u50a8\u7a7a\u95f4.[note]\u4f60\u6709\u4e00\u4e2a\u8fc7\u5c0f\u7684\u94c1\u7bb1\u5b50\u5417?\u901a\u8fc7\u5347\u7ea7\u7ec4\u4ef6\u5c06\u5176\u5347\u7ea7\u5230\u91d1\u7bb1\u5b50.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAERw==",
                     "tooltip": "<strong>\u66f4\u52a0\u66f4\u52a0\u7d27\u51d1\u7684\u5b58\u50a8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cd\u8981\u7684\u5de5\u5177"
                 },
@@ -543,7 +543,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1085.png",
                     "x": 48.0,
                     "y": 396.0,
-                    "data": "\u73b0\u5728\u4f60\u5df2\u7ecf\u6709\u4e86\u8d8a\u6765\u8d8a\u591a\u7684\u94c1\u50a8\u5907,\u4f60\u611f\u89c9\u4f60\u7684\u6728\u5934\u7bb1\u5b50\u592a\u5c0f\u4e86,\u4e0d\u80fd\u5927\u91cf\u5730\u5b58\u50a8\u4f60\u53d1\u73b0\u548c\u6536\u96c6\u7684\u4e1c\u897f. \u90a3\u4e48\u73b0\u5728\u662f\u65f6\u5019\u5347\u7ea7\u4f60\u7684\u7bb1\u5b50\u4e86. \u4f60\u53ef\u4ee5\u76f4\u63a5\u5236\u9020\u4e00\u4e2a\u5168\u65b0\u7684\u94c1\u7bb1\u5b50,\u6216\u8005\u901a\u8fc7\u5347\u7ea7\u7ec4\u4ef6\u5c06\u6728\u5934\u7bb1\u5b50\u5347\u7ea7\u5230\u94c1\u7bb1\u5b50.",
+                    "data": "\u73b0\u5728\u4f60\u5df2\u7ecf\u6709\u4e86\u8d8a\u6765\u8d8a\u591a\u7684\u94c1\u50a8\u5907,\u4f60\u611f\u89c9\u4f60\u7684\u94dc\u7bb1\u5b50\u592a\u5c0f\u4e86,\u4e0d\u80fd\u5b58\u4e0b\u4f60\u7684\u6240\u6709\u4e1c\u897f. %n%n[note]\u4f60\u6709\u4e00\u4e2a\u8fc7\u5c0f\u7684\u94dc\u7bb1\u5b50\u5417?\u901a\u8fc7\u5347\u7ea7\u7ec4\u4ef6\u5c06\u5176\u5347\u7ea7\u5230\u94c1\u7bb1\u5b50.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAEPQ==",
                     "tooltip": "<strong>\u66f4\u52a0\u7d27\u51d1\u7684\u5b58\u50a8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cd\u8981\u7684\u5de5\u5177"
                 },
@@ -583,9 +583,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1517.png",
                     "x": 228.0,
                     "y": 396.0,
-                    "data": "\u6765\u81ea\u65e0\u5c3d\u8d2a\u5a6a(Avaritia)\u7684\u538b\u7f29\u7bb1\u5b50\u600e\u4e48\u6837\uff1f\u8fd9\u4e2a\u7bb1\u5b50\u53ef\u4ee5\u5b58\u653e243\u683c\u7684\u7269\u54c1,\u5e76\u4e14\u5728\u88ab\u7834\u574f\u540e\u4f1a\u4fdd\u7559\u5176\u4e2d\u7684\u7269\u54c1,\u518d\u4e5f\u4e0d\u7528\u6162\u817e\u817e\u7684\u624b\u63a8\u8f66\u4e86!",
+                    "data": "...\u6700\u540e,\u7bb1\u5b50\u7684\u6700\u7ec8\u5f62\u6001,\u5373\u4f7f\u88ab\u7834\u574f\u4e86,\u91cc\u9762\u7684\u7269\u54c1\u8fd8\u662f\u4f1a\u4fdd\u7559!\u8fd9\u6837\u7269\u54c1\u8fd0\u8f93\u5c31\u4f1a\u53d8\u5f97\u7b80\u5355\u5f97\u591a!",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAF7Q==",
-                    "tooltip": "<strong>\u9700\u8981\u4e00\u4e2a\u5730\u65b9\u6765\u5b58\u653e\u6240\u6709\u8fd9\u4e9b\u77ff\u77f3\uff1f</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>HV\u81ea\u52a8\u91c7\u77ff\u673a</br>Obsidian Chest</br>Dark Steel Chest"
+                    "tooltip": "<strong>\u9700\u8981\u4e00\u4e2a\u5730\u65b9\u6765\u5b58\u653e\u6240\u6709\u8fd9\u4e9b\u77ff\u77f3\uff1f</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>HV\u81ea\u52a8\u91c7\u77ff\u673a</br>\u9ed1\u66dc\u77f3\u7bb1\u5b50</br>\u7384\u94a2\u7bb1\u5b50"
                 },
                 {
                     "name": "\u4e0d\u60f3\u63a5\u53d7\u4f60\u673a\u5668\u63d0\u4f9b\u7684ASMR\u670d\u52a1?",
@@ -598,14 +598,14 @@
                     "tooltip": "<strong>\u4e0d\u60f3\u63a5\u53d7\u4f60\u673a\u5668\u63d0\u4f9b\u7684ASMR\u670d\u52a1?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u878d\u805a\u4e59\u70ef"
                 },
                 {
-                    "name": "Obsidian Chest",
+                    "name": "\u9ed1\u66dc\u77f3\u7bb1\u5b50",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5548813088822417447.png",
                     "x": 156.0,
                     "y": 432.0,
-                    "data": "Combining diamond chest with obsidian allowed you to create a chest that is blastproof!\n\n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]",
+                    "data": "\u5c06\u94bb\u77f3\u7bb1\u5b50\u4e0e\u9ed1\u66dc\u77f3\u7ed3\u5408\u8d77\u6765\uff0c\u4f7f\u4f60\u80fd\u591f\u5236\u4f5c\u4e00\u4e2a\u9632\u7206\u7bb1\uff01%n%n[note]\u5c31\u50cf\u4e4b\u524d\u7684\u7bb1\u5b50\u4e00\u6837\uff0c\u4f60\u4e5f\u53ef\u4ee5\u7528\u5408\u9002\u7684\u5347\u7ea7\u7269\u54c1\u6765\u5347\u7ea7\u5b83\u3002",
                     "quest_id": "QMlw6Z67T5-y_qflA7On2Q==",
-                    "tooltip": "<strong>Obsidian Chest</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae"
+                    "tooltip": "<strong>\u9ed1\u66dc\u77f3\u7bb1\u5b50</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae"
                 },
                 {
                     "name": "\u8986\u76d6\u4e07\u7269",
@@ -658,14 +658,14 @@
                     "tooltip": "<strong>\u4e00\u4e9b\u65b9\u4fbf\u7684\u7528\u6cd5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5408\u9002\u7684\u5de5\u5177"
                 },
                 {
-                    "name": "Steel Chest?",
+                    "name": "\u94a2\u7bb1\u5b50?",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8598415503288479283.png",
                     "x": 120.0,
                     "y": 396.0,
-                    "data": "While being significantly more expensive than gold chest, the steel chest hass less capacity but it can be used in some specialized crafting recipes.",
+                    "data": "\u94a2\u7bb1\u5b50\u7684\u9020\u4ef7\u660e\u663e\u9ad8\u4e8e\u91d1\u7bb1,\u5bb9\u91cf\u4e5f\u66f4\u5c0f,\u4f46\u53ef\u7528\u4e8e\u67d0\u4e9b\u7279\u6b8a\u5408\u6210\u914d\u65b9.%n",
                     "quest_id": "V4jinTYRSueIrEqn90dRzQ==",
-                    "tooltip": "<strong>Steel Chest?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u70bc!"
+                    "tooltip": "<strong>\u94a2\u7bb1\u5b50?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u70bc!"
                 },
                 {
                     "name": "\u5408\u9002\u7684\u5de5\u5177",
@@ -739,7 +739,7 @@
                 },
                 {
                     "source": "\u690d\u7269\u7403",
-                    "target": "A Modern Technology"
+                    "target": "\u4e00\u9879\u73b0\u4ee3\u79d1\u6280"
                 },
                 {
                     "source": "3\u9636\u706b\u7bad",
@@ -815,7 +815,7 @@
                 },
                 {
                     "source": "\u91cd\u8981\u7684\u5de5\u5177",
-                    "target": "Compact Storage"
+                    "target": "\u7d27\u51d1\u7684\u5b58\u50a8"
                 },
                 {
                     "source": "\u563f,DJ,\u6405\u8d77\u6765!",
@@ -827,15 +827,15 @@
                 },
                 {
                     "source": "\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae",
-                    "target": "Crystal Chest"
+                    "target": "\u6c34\u6676\u7bb1\u5b50"
                 },
                 {
                     "source": "\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae",
-                    "target": "Dark Steel Chest"
+                    "target": "\u7384\u94a2\u7bb1\u5b50"
                 },
                 {
                     "source": "\u6765\u5230\u9ed1\u6697\u9762...(Come to the Dark Side...)",
-                    "target": "Dark Steel Chest"
+                    "target": "\u7384\u94a2\u7bb1\u5b50"
                 },
                 {
                     "source": "\u5207\u5272\u6210\u7247",
@@ -994,11 +994,11 @@
                     "target": "\u9700\u8981\u4e00\u4e2a\u5730\u65b9\u6765\u5b58\u653e\u6240\u6709\u8fd9\u4e9b\u77ff\u77f3\uff1f"
                 },
                 {
-                    "source": "Obsidian Chest",
+                    "source": "\u9ed1\u66dc\u77f3\u7bb1\u5b50",
                     "target": "\u9700\u8981\u4e00\u4e2a\u5730\u65b9\u6765\u5b58\u653e\u6240\u6709\u8fd9\u4e9b\u77ff\u77f3\uff1f"
                 },
                 {
-                    "source": "Dark Steel Chest",
+                    "source": "\u7384\u94a2\u7bb1\u5b50",
                     "target": "\u9700\u8981\u4e00\u4e2a\u5730\u65b9\u6765\u5b58\u653e\u6240\u6709\u8fd9\u4e9b\u77ff\u77f3\uff1f"
                 },
                 {
@@ -1007,7 +1007,7 @@
                 },
                 {
                     "source": "\u94bb\u77f3\u7bb1\u5b50...\u54e6,\u95ea\u95ea\u53d1\u4eae",
-                    "target": "Obsidian Chest"
+                    "target": "\u9ed1\u66dc\u77f3\u7bb1\u5b50"
                 },
                 {
                     "source": "\u82b1\u54e8\u7684\u6728\u5934",
@@ -1031,7 +1031,7 @@
                 },
                 {
                     "source": "\u7194\u70bc!",
-                    "target": "Steel Chest?"
+                    "target": "\u94a2\u7bb1\u5b50?"
                 },
                 {
                     "source": "\u5320\u9b42\u65b9\u5757",

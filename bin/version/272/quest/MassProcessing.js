@@ -58,34 +58,34 @@
             "focusNodeAdjacency": true,
             "data": [
                 {
-                    "name": "Advanced Assembly Line",
+                    "name": "\u8fdb\u9636\u88c5\u914d\u7ebf",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5847927107856321162.png",
                     "x": 216.0,
                     "y": -72.0,
-                    "data": "This is the advanced assembly line from GigaGramFab.\n\nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.\n\nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller's front face will have its status light turned orange.\n\nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every laser overclock will 0.3 to power exponent. 1 laser overclock will have 50% recipe time and use 430% power. 2 laser overclocks will have 25% recipe time and use 1978% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then laser overclock.",
+                    "data": "\u8fd9\u662fGigaGramFab\u6dfb\u52a0\u7684\u8fdb\u9636\u88c5\u914d\u7ebf.%n%n\u8fd9\u4e2a\u88c5\u914d\u7ebf\u652f\u6301\u6d41\u6c34\u7ebf\u5f0f\u64cd\u4f5c,\u4e5f\u5c31\u662f\u8bf4,\u5b83\u4f1a\u50cf\u771f\u6b63\u7684\u6d41\u6c34\u7ebf\u4e00\u6837,\u4e00\u4e2a\u4e00\u4e2a\u6d88\u8017\u7269\u54c1\u800c\u975e\u4e00\u6b21\u6027\u5168\u90e8\u6d88\u8017.\u8fd9\u6837\u5b83\u5c31\u53ef\u4ee5\u5bf9\u4efb\u610f\u6570\u91cf\u7684\u7269\u54c1\u8f93\u5165\u914d\u65b9\u63d0\u4f9b\u5e76\u884c.\u4f60\u53ef\u4ee5\u8ba4\u4e3a\u4e00\u6761\u8fdb\u9636\u88c5\u914d\u7ebf\u662f\u7531\u6570\u4e2a\u88c5\u914d\u7247\u7ec4\u6210\u7684,\u6bcf\u4e2a\u88c5\u914d\u7247\u90fd\u53ef\u4ee5\u72ec\u7acb\u4e8e\u5176\u5b83\u7247\u5904\u7406\u6bcf\u4e00\u6b65.\u5f53\u8f93\u5165\u603b\u7ebf\u5185\u7269\u54c1\u4e0e\u4efb\u610f\u95ea\u5b58\u543b\u5408\u65f6,\u88c5\u914d\u7ebf\u5c06\u5f00\u59cb\u5de5\u4f5c.\u7b2c\u4e00\u7247\u5c06\u4f1a\u6d88\u8017\u8f93\u5165\u603b\u7ebf#1\u5185\u7684\u7269\u54c1.\u7ecf\u8fc7(\u914d\u65b9\u65f6\u95f4/\u8f93\u5165\u7269\u54c1\u79cd\u7c7b\u6570)\u65f6\u95f4\u540e,\u7b2c\u4e00\u7247\u7684\u5de5\u4f5c\u5b8c\u6210,\u7b2c\u4e8c\u7247\u5f00\u59cb\u5de5\u4f5c.\u4e0e\u6b64\u540c\u65f6,\u7b2c\u4e00\u7247\u5c06\u4f1a\u5728\u8f93\u5165\u603b\u7ebf#1\u5185\u5bfb\u627e\u6750\u6599.\u5982\u679c\u6750\u6599\u8db3\u591f,\u5219\u7b2c\u4e00\u7247\u5c06\u518d\u6b21\u5de5\u4f5c.%n%n\u5f53\u6240\u6709\u5de5\u4f5c\u5b8c\u6210\u65f6,\u7ec8\u7aef\u7247(\u7b2cn\u7247,n\u4e3a\u914d\u65b9\u8981\u6c42\u8f93\u5165\u7269\u54c1\u79cd\u7c7b\u6570)\u5c06\u4f1a\u5728\u8f93\u51fa\u603b\u7ebf\u5904\u8f93\u51fa\u4ea7\u54c1,\u975e\u7ec8\u7aef\u7247\u5728\u5de5\u4f5c\u5b8c\u6210\u540e,\u5c06\u81ea\u52a8\u5c1d\u8bd5\u8ba9\u4e0b\u4e00\u7247\u5de5\u4f5c,\u5982\u679c\u4e0b\u4e00\u7247\u7684\u8f93\u5165\u603b\u7ebf\u4e2d\u6ca1\u6709\u8db3\u591f\u7684\u6750\u6599,\u5b8c\u6210\u5de5\u4f5c\u7684\u7247\u5c06\u4f1a\u4fdd\u6301[warn]\u5835\u585e[/warn]\u72b6\u6001,\u5e76\u4f7f\u88c5\u914d\u7ebf\u8fdb\u5165\"\u6302\u8d77\"\u72b6\u6001.\u4e3a\u65b9\u4fbf\u5b9a\u4f4d,\u5904\u4e8e\"\u6302\u8d77\"\u72b6\u6001\u7684\u88c5\u914d\u7ebf,\u5176\u63a7\u5236\u5668\u7684\u6b63\u9762\u6307\u793a\u706f\u5c06\u4f1a\u53d8\u4e3a\u6a59\u8272.%n%n\u542f\u7528\u7684\u7247\u6570\u4e58\u4ee5\u539f\u914d\u65b9\u6240\u9700EU/t\u5373\u673a\u5668\u6240\u6d88\u8017\u7684EU/t.[warn]\u5835\u585e[/warn]\u7247\u4e0d\u4f1a\u6d88\u8017\u80fd\u91cf,\u6700\u4f4e\u7b49\u7ea7\u80fd\u6e90\u4ed3\u7684\u8f93\u5165\u7535\u538b,\u51b3\u5b9a\u4e86\u914d\u65b9\u7b49\u7ea7\u548c\u5e38\u89c4\u8d85\u9891\u4e0a\u9650.\u5b89\u88c5\u6fc0\u5149\u4ed3,\u53ef\u5728\u5e38\u89c4\u8d85\u9891\u57fa\u7840\u4e0a,\u518d\u8fdb\u884c\u6fc0\u5149\u8d85\u9891,\u4f46\u4f1a\u6d88\u8017\u6bd4\u5e38\u89c4\u6709\u635f\u8d85\u9891\u66f4\u591a\u7684\u80fd\u91cf.\u6bcf\u6fc0\u5149\u8d85\u9891\u4e00\u6b21,\u90fd\u4f1a\u589e\u52a00.3\u500d\u7684\u80fd\u91cf\u635f\u8017,\u4e00\u6b21\u6fc0\u5149\u8d85\u9891\u4f7f\u914d\u65b9\u65f6\u95f4\u51cf\u5c11\u523050%%,\u4f7f\u7528430%%\u7684\u80fd\u91cf.\u4e24\u6b21\u6fc0\u5149\u8d85\u9891\u4f7f\u914d\u65b9\u65f6\u95f4\u51cf\u5c11\u523025%%,\u4f7f\u75281978%%\u7684\u80fd\u91cf.\u65e0\u6cd5\u8d85\u9891\u52301tick\u4ee5\u4e0b.\u673a\u5668\u4f1a\u9996\u5148\u5c1d\u8bd5\u5e76\u884c,\u7136\u540e\u5c1d\u8bd5\u5e38\u89c4\u6709\u635f\u8d85\u9891,\u6700\u540e\u5c1d\u8bd5\u6fc0\u5149\u8d85\u9891.",
                     "quest_id": "ZIotzqvnRiKu1_1Hb9i1dg==",
-                    "tooltip": "<strong>Advanced Assembly Line</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u88c5\u914d\u7ebf</br>\u7b2c6\u9636\u6bb5(LuV)"
+                    "tooltip": "<strong>\u8fdb\u9636\u88c5\u914d\u7ebf</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u88c5\u914d\u7ebf</br>\u7b2c6\u9636\u6bb5(LuV)"
                 },
                 {
-                    "name": "Advanced Autoclaving",
+                    "name": "\u8fdb\u9636\u5316\u5c18\u4e3a\u6676",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6902980861914057189.png",
                     "x": 144.0,
                     "y": -144.0,
-                    "data": "In LuV, you can make the Industrial Autoclave. This is a huge multiblock with many scaling factors - it is also extremely powerful. You'll definitely want to pick one of these up to process crystal chips quickly for the crystal circuit line.\n\n[note]Coils, pipe casings, and item pipe casings are all extremely important to this multi's scaling. Use the best ones you have![/note]",
+                    "data": "\u5de5\u4e1a\u9ad8\u538b\u91dc\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020. \u8fd9\u662f\u4e00\u53f0\u5de8\u5927\u7684\u3001\u6709\u7740\u8bb8\u591a\u4e58\u533a\u7684\u591a\u65b9\u5757\u673a\u5668 - \u800c\u4e14\u76f8\u5f53\u5f3a\u5927. \u4f60\u4f1a\u9700\u8981\u4e00\u53f0\u6765\u52a0\u5de5\u6676\u4f53\u7535\u8def\u9700\u8981\u7684\u6676\u4f53\u82af\u7247\u7684. %n%n[note]\u7ebf\u5708, \u7ba1\u9053\u65b9\u5757\u548c\u7269\u54c1\u7ba1\u9053\u65b9\u5757\u5bf9\u8fd9\u53f0\u673a\u5668\u7684\u4e58\u533a\u90fd\u5341\u5206\u91cd\u8981. \u4f7f\u7528\u4f60\u80fd\u5f97\u5230\u7684\u6700\u9ad8\u7b49\u7ea7\u65b9\u5757\u5427![/note]",
                     "quest_id": "_dFgSThoQTWgM696ykr2Gw==",
-                    "tooltip": "<strong>Advanced Autoclaving</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u7b2c6\u9636\u6bb5(LuV)"
+                    "tooltip": "<strong>\u8fdb\u9636\u5316\u5c18\u4e3a\u6676</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u7b2c6\u9636\u6bb5(LuV)"
                 },
                 {
-                    "name": "An End to Deforestation",
+                    "name": "\u6ee5\u780d\u6ee5\u4f10\u7684\u7ec8\u7ed3",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6915086947092752744.png",
                     "x": 240.0,
                     "y": 60.0,
-                    "data": "This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!\n\nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. All this in a compact 3x3x3 cube, without any lag from growing a real tree.\n\nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate to the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.\n\nDifferent tools are required to gather different parts of the tree:\n - Saw for logs\n - Branch Cutter for saplings\n - Shears for leaves\n - Knife for fruit\nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.\n\nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!\n\nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up some automatic replacement.\n\n[note]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/note]",
+                    "data": "\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u662f\u83b7\u53d6\u5927\u91cf\u6728\u6750\u7684\u5b8c\u7f8e\u89e3\u51b3\u65b9\u6848.\u60a8\u662f\u5426\u5728\u4e3a\u6728\u70ad\u6216\u8005\u82ef\u53d1\u7535\u65f6\u6240\u9700\u7684\u5927\u91cf\u6728\u6750\u53d1\u6101?\u60a8\u662f\u5426\u82e6\u4e8e\u65e0\u6cd5\u83b7\u53d6\u5927\u91cf\u575a\u679c\u6765\u69a8\u53d6\u79cd\u5b50\u6cb9?\u4ea6\u6216\u8005\u56e0\u4e3a\u88c5\u9970\u6027\u6811\u53f6\u7684\u6765\u6e90\u800c\u5927\u4f24\u8111\u7b4b?\u8e0f\u7834\u94c1\u978b\u65e0\u89c5\u5904,\u5f97\u6765\u5168\u4e0d\u8d39\u5de5\u592b!%n%n\u539f\u6728\u62df\u751f\u573a\u53ef\u4ee5\u79cd\u690d\u6e38\u620f\u5185\u51e0\u4e4e\u5168\u90e8\u79cd\u7c7b\u7684\u6811\u6728\u5e76\u4e14\u8f93\u51fa\u4f60\u780d\u6811\u65f6\u4f1a\u83b7\u5f97\u7684\u6b63\u5e38\u6389\u843d.\u8fd9\u4e00\u5207\u90fd\u88ab\u96c6\u6210\u5728\u4e00\u4e2a3x3x3\u7684\u7a7a\u95f4\u4e2d,\u65e0\u9700\u5fcd\u53d7\u6811\u6728\u771f\u5b9e\u751f\u957f\u65f6\u5e26\u6765\u7684\u5361\u987f.%n%n\u9996\u5148,\u5c06\u4efb\u610f\u4e00\u79cd\u6811\u82d7\u653e\u5165\u63a7\u5236\u5668GUI\u4e2d.\u5176\u6b21,\u5728\u8f93\u5165\u603b\u7ebf\u4e2d\u653e\u5165\u4f60\u6240\u9700\u6c42\u7684\u4ea7\u7269\u6240\u5bf9\u5e94\u7684\u5de5\u5177.\u6700\u540e,\u7ed9\u673a\u5668\u901a\u7535,\u5e76\u4e14\u6253\u5f00\u5b83.\u63a5\u7740\u4f60\u5c31\u51c6\u5907\u597d\u88ab\u4ea7\u7269\u6240\u6df9\u6ca1\u5427.%n%n\u6811\u7684\u4e0d\u540c\u90e8\u5206\u9700\u8981\u4e0d\u540c\u79cd\u7c7b\u7684\u5de5\u5177.%n - \u952f\u5bf9\u5e94\u6728\u6750%n - \u526a\u679d\u5668(GT)\u5bf9\u5e94\u6811\u82d7%n - \u526a\u5200\u5bf9\u5e94\u6811\u53f6%n - \u5c0f\u5200\u5bf9\u5e94\u6c34\u679c%n\u9ad8\u7ea7\u5de5\u5177(\u94fe\u952f,\u526a\u679d\u5668(\u6797\u4e1a),...)\u4f1a\u63d0\u4f9b\u66f4\u591a\u4ea7\u51fa!\u5177\u4f53\u8bf7\u67e5\u770b\u63a7\u5236\u5668\u7684tooltip%n%n\u60a8\u751a\u81f3\u53ef\u4ee5\u540c\u65f6\u4f7f\u7528\u591a\u4e2a\u4e0d\u540c\u7684\u5de5\u5177,\u673a\u5668\u5c31\u80fd\u540c\u65f6\u6536\u83b7\u591a\u4e2a\u4e0d\u540c\u7684\u4ea7\u54c1!%n%n\u8bf7\u6ce8\u610f,\u4f7f\u7528\u7684\u5de5\u5177\u4f1a\u7f13\u6162\u5931\u53bb\u8010\u4e45\u503c.\u56e0\u6b64,\u4e3a\u4e86\u957f\u671f\u8fd0\u884c,\u4f60\u53ef\u80fd\u9700\u8981\u8bbe\u7f6e\u4e00\u4e9b\u81ea\u52a8\u66f4\u6362\u529f\u80fd.%n%n[note]\u867d\u7136\u8fd9\u53f0\u673a\u5668\u5728IV\u9636\u6bb5\u5c31\u80fd\u5236\u4f5c,\u4f46\u5728IV\u521d\u671f\u5374\u76f8\u5f53\u6602\u8d35,\u9700\u898116\u4e2a ZPM\u7535\u8def\u677f\u548c\u4e00\u4e9b\u9ad8\u7ea7\u5408\u91d1.[/note]",
                     "quest_id": "fLH_QDPRR6mgCK0PL5iWmA==",
-                    "tooltip": "<strong>An End to Deforestation</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u6ee5\u780d\u6ee5\u4f10\u7684\u7ec8\u7ed3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
                     "name": "\u53e6\u4e00\u53f0\u591a\u65b9\u5757\u5316\u5b66\u53cd\u5e94\u91dc?",
@@ -95,17 +95,17 @@
                     "y": 12.0,
                     "data": "\u8fc4\u4eca\u4e3a\u6b62,\u4f60\u53ef\u80fd\u5df2\u7ecf\u5efa\u9020\u4e86\u8bb8\u591a\u53f0\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc.\u62e5\u6709\u5f3a\u59274/4\u65e0\u635f\u8d85\u9891\u7684\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u662f\u6700\u5f3a\u591a\u65b9\u5757\u4e4b\u4e00.\u7136\u800c,\u5982\u679c\u8fd9\u90fd\u65e0\u6cd5\u6ee1\u8db3\u4f60\u7684\u5316\u5de5\u4ea7\u7ebf,\u600e\u4e48\u529e\u5462?\u5982\u679c\u4e00\u4e2a\u914d\u65b9\u7684\u5904\u7406\u65f6\u95f4\u5df2\u7ecf\u8d85\u9891\u5230\u4e861t(0.05\u79d2)\u4ee5\u4e0b,\u4f60\u5c31\u65e0\u6cd5\u8fdb\u4e00\u6b65\u63d0\u901f\u4e86\u5417?%n%n\u522b\u62c5\u5fc3,\u6211\u4eec\u4e3a\u4f60\u63d0\u4f9b\u4e86\u89e3\u51b3\u65b9\u6848\uff1a\u5de8\u578b\u5316\u5b66\u53cd\u5e94\u91dc.\u5b83\u6700\u9ad8\u53ef\u4ee5\u540c\u65f6\u5e76\u884c256\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u914d\u65b9!\u540c\u65f6,\u5982\u679c\u4f60\u80fd\u63d0\u4f9b\u8db3\u591f\u7684\u80fd\u91cf,\u5b83\u540c\u6837\u80fd\u591f\u8fdb\u884c\u8d85\u9891.%n%n\u7531\u4e8e\u9700\u89817\u4e2a\u805a\u53d8\u7ebf\u5708\u65b9\u5757,\u6240\u4ee5LuV\u624d\u80fd\u89e3\u9501\u5b83.\u8bf7\u67e5\u770b\u5168\u606f\u6295\u5f71\u4eea,\u83b7\u77e5\u5b83\u7684\u5177\u4f53\u7ed3\u6784\u4ee5\u53ca\u6240\u9700\u65b9\u5757.%n%n\u73bb\u7483\u7b49\u7ea7\u4f1a\u9650\u5236\u53ef\u7528\u7684\u80fd\u6e90\u4ed3\u7b49\u7ea7.\u4f60\u751a\u81f3\u53ef\u4ee5\u7528TecTech\u7684\u591aA\u80fd\u6e90\u4ed3!\u4e0d\u8fc7,\u5982\u679c\u4f60\u60f3\u7528\u6fc0\u5149\u4ed3\u7684\u8bdd,\u81f3\u5c11\u9700\u8981UV\u73bb\u7483.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAMig==",
-                    "tooltip": "<strong>\u53e6\u4e00\u53f0\u591a\u65b9\u5757\u5316\u5b66\u53cd\u5e94\u91dc?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania</br>\u7b2c6\u9636\u6bb5(LuV)"
+                    "tooltip": "<strong>\u53e6\u4e00\u53f0\u591a\u65b9\u5757\u5316\u5b66\u53cd\u5e94\u91dc?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!</br>\u7b2c6\u9636\u6bb5(LuV)"
                 },
                 {
-                    "name": "A steam-powered whirl!",
+                    "name": "\u4e00\u53f0\u84b8\u6c7d\u9a71\u52a8\u7684\u79bb\u5fc3\u673a!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8361079222456284577.png",
                     "x": -24.0,
                     "y": -120.0,
-                    "data": "How does one centrifuge rare materials in the Steam Age? The answer is by building and using the Steam Separator, of course! By using steam to create a spinning force, this Multiblock can separate different materials quickly and easily.\n\nIf you think separation is taking forever, the Steam Separator will speed things up!\n\nThis Multiblock can process recipes up to LV Tier, and does accept an Output Hatch for recipes. But if you are looking to use recipes which require Fluid Inputs, you might have to build an LV Centrifuge in the future.",
+                    "data": "\u5728\u84b8\u6c7d\u65f6\u4ee3,\u5982\u4f55\u5bf9\u7a00\u6709\u6750\u6599\u8fdb\u884c\u79bb\u5fc3\u5206\u79bb?\u7b54\u6848\u5f53\u7136\u662f\u5236\u9020\u548c\u4f7f\u7528\u5927\u578b\u84b8\u6c7d\u79bb\u5fc3\u673a!\u901a\u8fc7\u4f7f\u7528\u84b8\u6c7d\u4ea7\u751f\u65cb\u8f6c\u529b,\u8fd9\u4e2a\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5feb\u901f\u4e14\u8f7b\u677e\u5730\u79bb\u5fc3\u4e0d\u540c\u7684\u6750\u6599.%n%n\u5982\u679c\u4f60\u89c9\u5f97\u79bb\u5fc3\u9700\u8981\u5f88\u957f\u65f6\u95f4,\u90a3\u4e48\u84b8\u6c7d\u5206\u79bb\u5668\u4f1a\u52a0\u5feb\u901f\u5ea6!%n%n\u8fd9\u4e2a\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5904\u7406\u6700\u9ad8 LV \u7ea7\u522b\u7684\u914d\u65b9,\u5e76\u4e14\u5904\u7406\u9700\u8981\u8f93\u51fa\u4ed3\u7684\u914d\u65b9.\u4f46\u5982\u679c\u4f60\u60f3\u5904\u7406\u9700\u8981\u6d41\u4f53\u8f93\u5165\u7684\u914d\u65b9,\u4f60\u5c06\u6765\u53ef\u80fd\u9700\u8981\u5efa\u9020\u4e00\u53f0 LV \u79bb\u5fc3\u673a.",
                     "quest_id": "0rUmaWIPQPaL93q-_pgKXw==",
-                    "tooltip": "<strong>A steam-powered whirl!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u4e00\u53f0\u84b8\u6c7d\u9a71\u52a8\u7684\u79bb\u5fc3\u673a!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
                     "name": "\u57fa\u5730\u706b\u5c71",
@@ -123,9 +123,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2029.png",
                     "x": 168.0,
                     "y": -72.0,
-                    "data": "\u6210\u767e\u4e0a\u5343\u73bb\u7483\u7684\u6700\u4f73\u6765\u6e90...\u8981\u8fd9\u4e9b\u505a\u4ec0\u4e48\u5462?\u6211\u4e0d\u77e5\u9053,\u8fd8\u662f\u60f3\u70b9\u6709\u8da3\u7684\u7528\u9014,\u7ed9\u6211\u5f00\u5f00\u773c\u5427!%n%n\u5de5\u4e1a\u7535\u5f27\u7089\u7684\"\u6709\u6548\"\u7535\u538b\u6bd4\u80fd\u6e90\u4ed3\u8981\u4f4e\u4e00\u9636.\u4e3e\u4e2a\u4f8b\u5b50,\u4f7f\u7528MV\u80fd\u6e90\u4ed3,\u673a\u5668\u53ef\u5904\u7406LV\u7535\u5f27\u7089\u7684\u914d\u65b9.%n%n\u8fd9\u53f0\u673a\u5668\u8fd8\u53ef\u4ee5\u5904\u7406\u7b49\u79bb\u5b50\u7535\u5f27\u7089\u7684\u914d\u65b9.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020. \u539f\u6599\u4e4b\u4e00\u662f\u948d-232,\u4e00\u65b9\u9762\u7528\u9014\u4e0d\u591a,\u53e6\u4e00\u65b9\u9762\u5236\u9020\u8d77\u6765\u8fd8\u7279\u522b\u9ebb\u70e6.%n%n\u8bd1\u8005\u6ce8: \u948d-232\u7b97\u5565,\u770b\u770b\u5957\u5a03\u80fd\u91cf\u6838\u5fc3! \u4e0d\u8fc7\u505a\u51fa\u6765\u4e4b\u540e\u8fd8\u662f\u5f88\u9999\u7684.",
+                    "data": "\u6210\u767e\u4e0a\u5343\u73bb\u7483\u7684\u6700\u4f73\u6765\u6e90...\u8981\u8fd9\u4e9b\u505a\u4ec0\u4e48\u5462?\u6211\u4e0d\u77e5\u9053,\u8fd8\u662f\u60f3\u70b9\u6709\u8da3\u7684\u7528\u9014,\u7ed9\u6211\u5f00\u5f00\u773c\u5427!%n%n\u5de5\u4e1a\u7535\u5f27\u7089\u7684\"\u6709\u6548\"\u7535\u538b\u6bd4\u80fd\u6e90\u4ed3\u8981\u4f4e\u4e00\u9636.\u4e3e\u4e2a\u4f8b\u5b50,\u4f7f\u7528MV\u80fd\u6e90\u4ed3,\u673a\u5668\u53ef\u5904\u7406LV\u7535\u5f27\u7089\u7684\u914d\u65b9.%n%n\u8fd9\u53f0\u673a\u5668\u8fd8\u53ef\u4ee5\u5904\u7406\u7b49\u79bb\u5b50\u7535\u5f27\u7089\u7684\u914d\u65b9.%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020,\u5e76\u4e14\u9700\u8981\u948d-232.[/note]%n%n\u8bd1\u8005\u6ce8: \u948d-232\u7b97\u5565,\u770b\u770b\u5957\u5a03\u80fd\u91cf\u6838\u5fc3! \u4e0d\u8fc7\u505a\u51fa\u6765\u4e4b\u540e\u8fd8\u662f\u5f88\u9999\u7684.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH7Q==",
-                    "tooltip": "<strong>\u6c90\u6d74\u5728\u7535\u6d41\u4e2d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u7b2c6\u9636\u6bb5(LuV)"
+                    "tooltip": "<strong>\u6c90\u6d74\u5728\u7535\u6d41\u4e2d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u7b2c6\u9636\u6bb5(LuV)"
                 },
                 {
                     "name": "\u6405\u62cc/\u6405\u62cc/\u5de7\u514b\u529b",
@@ -135,7 +135,7 @@
                     "y": 276.0,
                     "data": "\u5976\u5976,\u4f60\u80fd\u6559\u6211\u4eec\u5de7\u514b\u529b\u4e4b\u6b4c\u5417?%n\u4e50\u610f\u4e4b\u81f3!%n\u4f60\u4f1a\u8ddf\u6211\u4eec\u4e00\u8d77\u5531\u5de7\u514b\u529b\u4e4b\u6b4c\u5417?%n\u592a\u68d2\u4e86,\u8ddf\u7740\u5976\u5976\u4e00\u8d77\u5531!%n%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n%n\u6405\u62cc\u597d\u5403\u7684\u5de7\u514b\u529b,\u5de7\u514b\u529b%n\u6405\u62cc\u597d\u5403\u7684\u5de7\u514b\u529b,\u5de7\u514b\u529b%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b%n%n\u73b0\u5728\u4e0d\u518d\u9700\u8981\u5355\u5143\u4e86,\u597d\u8036!%n%n\u8bd1\u8005\u6ce8:\u300a\u6405\u62cc,\u6405\u62cc,\u5de7\u514b\u529b\u300b(Bate-Bate-Chocolate)\u662f\u58a8\u897f\u54e5\u4f20\u7edf\u513f\u6b4c.\u4efb\u52a1\u4e66\u539f\u6587\u6b4c\u8bcd\u90e8\u5206\u5747\u4e3a\u897f\u73ed\u7259\u6587.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH7g==",
-                    "tooltip": "<strong>\u6405\u62cc/\u6405\u62cc/\u5de7\u514b\u529b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u6405\u62cc\u673a</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u6405\u62cc/\u6405\u62cc/\u5de7\u514b\u529b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u6405\u62cc\u673a</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
                     "name": "\u5f2f\u66f2\u3001\u8f8a\u538b",
@@ -143,9 +143,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2038.png",
                     "x": -36.0,
                     "y": 216.0,
-                    "data": "\u5f53\u4f60\u9700\u8981\u6210\u5343\u4e0a\u4e07\u7684\u677f\u5b50\u65f6... \u53ef\u901a\u8fc7\u87ba\u4e1d\u5200\u5207\u6362\u5377\u677f\u673a\u6a21\u5f0f\u548c\u51b2\u538b\u673a\u5e8a\u6a21\u5f0f.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u5f53\u4f60\u9700\u8981\u6210\u5343\u4e0a\u4e07\u7684\u677f\u5b50\u65f6... \u53ef\u901a\u8fc7\u87ba\u4e1d\u5200\u5207\u6362\u5377\u677f\u673a\u6a21\u5f0f\u548c\u51b2\u538b\u673a\u5e8a\u6a21\u5f0f.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH9g==",
-                    "tooltip": "<strong>\u5f2f\u66f2\u3001\u8f8a\u538b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u5f2f\u66f2\u3001\u8f8a\u538b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u6700\u597d\u7684\u5207\u9762\u5305\u673a",
@@ -153,7 +153,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2032.png",
                     "x": 144.0,
                     "y": 84.0,
-                    "data": "\u5f53\u4f60\u6709\u4e86\u4e00\u53f0\u88c5\u6ee1\u4e86\u5c0f\u5200\u7684\u673a\u5668,\u4f60\u770b\u5565\u90fd\u50cf\u9762\u5305\u4e86. \u4f7f\u7528\u87ba\u4e1d\u5200\u53ef\u5207\u6362\u677f\u6750\u5207\u5272\u673a\u6a21\u5f0f\u548c\u98df\u6750\u5207\u7247\u673a\u6a21\u5f0f.%n%nBluebine-2019!%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u5f53\u4f60\u6709\u4e86\u4e00\u53f0\u88c5\u6ee1\u4e86\u5c0f\u5200\u7684\u673a\u5668,\u4f60\u770b\u5565\u90fd\u50cf\u9762\u5305\u4e86. \u4f7f\u7528\u87ba\u4e1d\u5200\u53ef\u5207\u6362\u677f\u6750\u5207\u5272\u673a\u6a21\u5f0f\u548c\u98df\u6750\u5207\u7247\u673a\u6a21\u5f0f.%n%nBluebine-2019!",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH8A==",
                     "tooltip": "<strong>\u6700\u597d\u7684\u5207\u9762\u5305\u673a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
@@ -173,7 +173,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2039.png",
                     "x": 216.0,
                     "y": 0.0,
-                    "data": "\u4e9a\u9a6c\u900a\u4ed3\u5e93\u662f\u6ee1\u8db3\u4f60\u6240\u6709\u6253\u5305\u9700\u6c42\u7684\u7ec8\u6781\u9009\u62e9.\u5c0f\u64ae\u7c89\u548c\u5c0f\u5806\u7c89\u5b9e\u5728\u592a\u591a?\u8fd9\u53f0\u673a\u5668\u4e3a\u4f60\u800c\u751f.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020.%n%n\u8bd1\u8005\u6ce8:\u6770\u592b\u00b7\u8d1d\u7d22\u65af(Jeff Bezos)\u662f\u4e9a\u9a6c\u900a\u516c\u53f8\u7684CEO.",
+                    "data": "\u4e9a\u9a6c\u900a\u4ed3\u5e93\u662f\u6ee1\u8db3\u4f60\u6240\u6709\u6253\u5305\u9700\u6c42\u7684\u7ec8\u6781\u9009\u62e9.\u5c0f\u64ae\u7c89\u548c\u5c0f\u5806\u7c89\u5b9e\u5728\u592a\u591a?\u8fd9\u53f0\u673a\u5668\u4e3a\u4f60\u800c\u751f.%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020.[/note]%n%n\u8bd1\u8005\u6ce8:\u6770\u592b\u00b7\u8d1d\u7d22\u65af(Jeff Bezos)\u662f\u4e9a\u9a6c\u900a\u516c\u53f8\u7684CEO.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH9w==",
                     "tooltip": "<strong>\u8d1d\u7d22\u65af\u7684\u9a84\u50b2</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
@@ -183,19 +183,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/876.png",
                     "x": 72.0,
                     "y": 24.0,
-                    "data": "\u538c\u5026\u4e86\u4f7f\u7528\u5c0f\u5355\u5143\u6765\u5904\u7406\u5316\u5b66\u54c1?\u5efa\u9020\u4e00\u4e2a\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u5427,\u4f60\u53ef\u4ee5\u76f4\u63a5\u7528\u7ba1\u9053\u8f93\u5165\u6216\u8f93\u51fa\u6d41\u4f53,\u6216\u4f7f\u7528\u5927\u578b\u6d41\u4f53\u5355\u5143\u6765\u4ece\u8f93\u51fa\u4ed3\u8fd0\u8f93\u6d41\u4f53.%n%n\u6ce8\u610f,\u5982\u679c\u8f93\u51fa\u4ed3\u5df2\u6ee1,\u591a\u65b9\u5757\u5c06\u4f1a\u541e\u6389\u591a\u4f59\u7684\u4ea7\u7269!%n%n\u987a\u4fbf\u8bf4\u4e00\u4e0b,\u67d0\u4e9b\u65e7\u914d\u65b9\u5728\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u4e2d\u53d8\u5f97\u66f4\u7b80\u5355\u4e86(24\u53f7\u7535\u8def\u677f,\u53ef\u8df3\u8fc7\u4e00\u6b65\u6216\u591a\u6b65\u5408\u6210).%n%n\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u53ef\u770b\u505a\u8d85\u51c0\u95f4\u73af\u5883.%n%n\u4f60\u8fd8\u9700\u8981:%n1x\u7ef4\u62a4\u4ed3%n1x\u80fd\u6e90\u4ed3%n0+\u8f93\u5165\u603b\u7ebf(\u5982\u679c\u914d\u65b9\u9700\u8981\u8f93\u5165\u7269\u54c1\u7684\u8bdd,\u4e3a\u4e86\u5b8c\u5168\u81ea\u52a8\u5316,\u4f60\u53ef\u80fd\u9700\u8981\u6bcf\u79cd\u6750\u6599\u653e\u4e00\u4e2a\u8f93\u5165\u603b\u7ebf)%n0-1x\u8f93\u51fa\u603b\u7ebf(\u5982\u679c\u914d\u65b9\u4f1a\u8f93\u51fa\u7269\u54c1\u7684\u8bdd)%n2+\u8f93\u5165\u4ed3(\u6bcf\u79cd\u6d41\u4f53\u4e00\u4e2a\u8f93\u5165\u4ed3)%n1+\u8f93\u51fa\u4ed3(\u540c\u4e0a)%n%n\u5bf9\u51c6\u8f93\u51fa\u4ed3\u4f7f\u7528\u87ba\u4e1d\u5200,\u53ef\u4ee5\u5faa\u73af\u5207\u6362\u5176\u8f93\u51fa\u6a21\u5f0f. \u624b\u6301\u87ba\u4e1d\u5200Shift+\u53f3\u952e,\u53ef\u4ee5\u76f4\u63a5\u5207\u6362\u4e3a\u7279\u5b9a\u6d41\u4f53\u6a21\u5f0f(specific-fluid-mode),\u7136\u540e\u7528\u5355\u5143\u9501\u5b9a\u8f93\u51fa\u7684\u6d41\u4f53,\u8fd9\u6837\u81ea\u52a8\u5316\u5c31\u4f1a\u65b9\u4fbf\u591a\u4e86. \u9501\u5b9a\u6d41\u4f53\u9002\u7528\u4e8e\u6240\u6709\u8f93\u51fa\u4ed3,\u5e76\u4e0d\u4ec5\u4ec5\u652f\u6301\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc.",
+                    "data": "\u538c\u5026\u4e86\u4f7f\u7528\u5c0f\u5355\u5143\u6765\u5904\u7406\u5316\u5b66\u54c1?\u5efa\u9020\u4e00\u4e2a\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u5427,\u4f60\u53ef\u4ee5\u76f4\u63a5\u7528\u7ba1\u9053\u8f93\u5165\u6216\u8f93\u51fa\u6d41\u4f53,\u6216\u4f7f\u7528\u5927\u578b\u6d41\u4f53\u5355\u5143\u6765\u4ece\u8f93\u51fa\u4ed3\u8fd0\u8f93\u6d41\u4f53.%n%n\u4f60\u53ef\u4ee5\u9009\u62e9\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u662f\u5426\u9500\u6bc1\u8fc7\u591a\u7684\u8f93\u51fa\u7269\uff0c\u5728GUI\u5185\u7684\u9500\u6bc1\u6a21\u5f0f\u6309\u94ae\u8fdb\u884c\u9009\u62e9\u3002%n%n\u987a\u4fbf\u8bf4\u4e00\u4e0b,\u67d0\u4e9b\u65e7\u914d\u65b9\u5728\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u4e2d\u53d8\u5f97\u66f4\u7b80\u5355\u4e86(24\u53f7\u7535\u8def\u677f,\u53ef\u8df3\u8fc7\u4e00\u6b65\u6216\u591a\u6b65\u5408\u6210).%n%n\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u53ef\u770b\u505a\u8d85\u51c0\u95f4\u73af\u5883.%n%n\u4f60\u8fd8\u9700\u8981:%n1x\u7ef4\u62a4\u4ed3%n1x\u80fd\u6e90\u4ed3%n0+\u8f93\u5165\u603b\u7ebf(\u5982\u679c\u914d\u65b9\u9700\u8981\u8f93\u5165\u7269\u54c1\u7684\u8bdd,\u4e3a\u4e86\u5b8c\u5168\u81ea\u52a8\u5316,\u4f60\u53ef\u80fd\u9700\u8981\u6bcf\u79cd\u6750\u6599\u653e\u4e00\u4e2a\u8f93\u5165\u603b\u7ebf)%n0-1x\u8f93\u51fa\u603b\u7ebf(\u5982\u679c\u914d\u65b9\u4f1a\u8f93\u51fa\u7269\u54c1\u7684\u8bdd)%n2+\u8f93\u5165\u4ed3(\u6bcf\u79cd\u6d41\u4f53\u4e00\u4e2a\u8f93\u5165\u4ed3)%n1+\u8f93\u51fa\u4ed3(\u540c\u4e0a)%n%n\u5bf9\u51c6\u8f93\u51fa\u4ed3\u4f7f\u7528\u87ba\u4e1d\u5200,\u53ef\u4ee5\u5faa\u73af\u5207\u6362\u5176\u8f93\u51fa\u6a21\u5f0f. \u624b\u6301\u87ba\u4e1d\u5200Shift+\u53f3\u952e,\u53ef\u4ee5\u76f4\u63a5\u5207\u6362\u4e3a\u7279\u5b9a\u6d41\u4f53\u6a21\u5f0f(specific-fluid-mode),\u7136\u540e\u7528\u5355\u5143\u9501\u5b9a\u8f93\u51fa\u7684\u6d41\u4f53,\u8fd9\u6837\u81ea\u52a8\u5316\u5c31\u4f1a\u65b9\u4fbf\u591a\u4e86. \u9501\u5b9a\u6d41\u4f53\u9002\u7528\u4e8e\u6240\u6709\u8f93\u51fa\u4ed3,\u5e76\u4e0d\u4ec5\u4ec5\u652f\u6301\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAADbA==",
-                    "tooltip": "<strong>\u7ed9\u6211\u4e00\u5927\u6876\u805a\u4e59\u70ef!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>\u7ed9\u6211\u4e00\u5927\u6876\u805a\u4e59\u70ef!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
-                    "name": "Can it!",
+                    "name": "\u628a\u5b83\u88c5\u8fdb\u7f50\u5b50\u91cc\uff01(Can it!)",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5201462720540834507.png",
                     "x": -24.0,
                     "y": 72.0,
-                    "data": "If you've ever needed to wait on a Canning Machine to fill up your supply of tin cans, or for a Fluid Canning Machine to make mountains of coolant, consider the TurboCan Pro. This multiblock acts as both machines and has significant bonuses - when the time comes that you decide you need it!",
+                    "data": "\u5982\u679c\u60a8\u66fe\u7ecf\u9700\u8981\u7b49\u5f85\u88c5\u7f50\u673a\u6765\u88c5\u6ee1\u9521\u7f50,\u6216\u8005\u7b49\u5f85\u6d41\u4f53\u704c\u88c5\u673a\u6765\u5236\u9020\u6210\u5428\u7684\u51b7\u5374\u5355\u5143,\u90a3\u4e48\u8bf7\u8003\u8651\u4e0b\u6da1\u8f6e\u88c5\u7f50\u673aPro.\u5f53\u60a8\u51b3\u5b9a\u9700\u8981\u5b83\u65f6,\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u540c\u65f6\u5145\u5f53\u8fd9\u4e24\u79cd\u673a\u5668,\u5e76\u5177\u6709\u663e\u8457\u7684\u4f18\u52bf!",
                     "quest_id": "gMRufFtRRRa30LE21boFNQ==",
-                    "tooltip": "<strong>Can it!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>\u628a\u5b83\u88c5\u8fdb\u7f50\u5b50\u91cc\uff01(Can it!)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
                     "name": "\u7535\u8def\u88c5\u914d\u7ebf",
@@ -203,19 +203,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2601.png",
                     "x": 168.0,
                     "y": -168.0,
-                    "data": "\u8fd9\u4e9b\u7528\u4e8e\u6784\u5efa4\u53f07\u7247\u7684\u7535\u8def\u88c5\u914d\u7ebf,\u8db3\u591f\u6ee1\u8db3\u4e00\u4e2a\u7cfb\u5217\u7684\u7535\u8def\u677f\u5236\u9020. \u5982\u679c\u4f60\u4ec5\u9700\u8981\u67d0\u4e2a\u7cfb\u5217\u4e2d\u7684\u4e00\u79cd\u7535\u8def\u677f(\u6bd4\u5982\u5fae\u5904\u7406\u5668),\u90a3\u5c31\u628a\u5b83\u9664\u4ee54.%n%n\u5047\u8bbe\u4f60\u5728LuV\u4efb\u52a1\u680f\u5df2\u7ecf\u83b7\u5f97\u4e86\u6240\u9700\u7684\u538b\u5370\u7535\u8def,\u73b0\u5728\u5c31\u53ef\u4ee5\u5f00\u59cb\u5236\u9020\u6676\u4f53\u7cfb\u5217\u7684\u7535\u8def\u88c5\u914d\u7ebf\u4e86. \u6211\u4eec\u4e00\u4e0a\u6765\u5c31\u8981\u6c424\u53f0\u662f\u56e0\u4e3a\u6bcf\u53f0\u7535\u8def\u88c5\u914d\u7ebf\u53ea\u80fd\u94ed\u523b\u4e00\u6b21,\u65e0\u6cd5\u79fb\u9664\u94ed\u523b.\u662f\u7684,\u4f60\u60f3\u7528\u7535\u8def\u88c5\u914d\u7ebf\u5236\u9020\u7684\u6bcf\u79cd\u7535\u8def\u677f\u90fd\u9700\u8981\u4e00\u53f0\u4e13\u7528\u7535\u8def\u88c5\u914d\u7ebf.%n%n\u4f5c\u4e3a\u88c5\u914d\u7ebf,\u5b83\u4e0e\u666e\u901a\u88c5\u914d\u7ebf\u7684\u5de5\u4f5c\u65b9\u5f0f\u4e00\u81f4,\u6bcf\u4e2a\u603b\u7ebf\u6309\u987a\u5e8f\u63d0\u4f9b\u539f\u6599,\u4f46\u7531\u4e8e\u662f\u5355\u53f0\u4e13\u7528,\u6240\u4ee5\u7528\u8d77\u6765\u5c31\u5bb9\u6613\u591a\u4e86,\u540c\u65f6\u9ad8\u9636\u5408\u6210\u8868\u4e5f\u4fbf\u5b9c\u591a\u4e86.%n%n\u7535\u8def\u88c5\u914d\u7ebf\u7684\u539f\u6599\u662f\u5c01\u88c5\u7684,\u6240\u4ee5\u4e00\u6b21\u53ef\u4ee5\u5236\u902016\u4e2a\u7535\u8def\u677f(ULV\u548cLV\u7535\u8def\u66f4\u591a),\u8282\u7ea6\u65f6\u95f4\u3001EU\u8fd8\u6709\u710a\u9521(\u6216\u94cb\u94c5\u5408\u91d1).\u5728\u7ec4\u88c5\u673a\u4e2d\u914d\u5408\u805a\u4e59\u70ef\u53ef\u4ee5\u5236\u9020\u5c01\u88c5\u5143\u4ef6.%n%n\u987a\u4fbf\u4e00\u63d0,\u4f60\u53ef\u4ee5\u9009\u62e9\u5b89\u88c5\u66f4\u9ad8\u7ea7\u7684\u4ed3/\u603b\u7ebf,\u4e0d\u8fc7\u5408\u6210\u65f6\u7684\u539f\u6599\u987a\u5e8f\u8fd8\u662f\u5f97\u4e0eNEI\u4e00\u81f4.\u53e6\u5916,\u7535\u8def\u88c5\u914d\u7ebf\u53ef\u4ee5\u65e0\u635f\u8d85\u9891.",
+                    "data": "\u8fd9\u4e9b\u7528\u4e8e\u6784\u5efa4\u53f07\u7247\u7684\u7535\u8def\u88c5\u914d\u7ebf,\u8db3\u591f\u6ee1\u8db3\u4e00\u4e2a\u7cfb\u5217\u7684\u7535\u8def\u677f\u5236\u9020. \u5982\u679c\u4f60\u4ec5\u9700\u8981\u67d0\u4e2a\u7cfb\u5217\u4e2d\u7684\u4e00\u79cd\u7535\u8def\u677f(\u6bd4\u5982\u5fae\u5904\u7406\u5668),\u90a3\u5c31\u628a\u5b83\u9664\u4ee54.%n%n\u5047\u8bbe\u4f60\u5728LuV\u4efb\u52a1\u680f\u5df2\u7ecf\u83b7\u5f97\u4e86\u6240\u9700\u7684\u538b\u5370\u7535\u8def,\u73b0\u5728\u5c31\u53ef\u4ee5\u5f00\u59cb\u5236\u9020\u6676\u4f53\u7cfb\u5217\u7684\u7535\u8def\u88c5\u914d\u7ebf\u4e86. \u6211\u4eec\u4e00\u4e0a\u6765\u5c31\u8981\u6c424\u53f0\u662f\u56e0\u4e3a\u6bcf\u53f0\u7535\u8def\u88c5\u914d\u7ebf\u53ea\u80fd\u94ed\u523b\u4e00\u6b21,\u65e0\u6cd5\u79fb\u9664\u94ed\u523b.\u662f\u7684,\u4f60\u60f3\u7528\u7535\u8def\u88c5\u914d\u7ebf\u5236\u9020\u7684\u6bcf\u79cd\u7535\u8def\u677f\u90fd\u9700\u8981\u4e00\u53f0\u4e13\u7528\u7535\u8def\u88c5\u914d\u7ebf.%n%n\u4f5c\u4e3a\u88c5\u914d\u7ebf,\u5b83\u4e0e\u666e\u901a\u88c5\u914d\u7ebf\u7684\u5de5\u4f5c\u65b9\u5f0f\u4e00\u81f4,\u6bcf\u4e2a\u603b\u7ebf\u6309\u987a\u5e8f\u63d0\u4f9b\u539f\u6599,\u4f46\u7531\u4e8e\u662f\u5355\u53f0\u4e13\u7528,\u6240\u4ee5\u7528\u8d77\u6765\u5c31\u5bb9\u6613\u591a\u4e86,\u540c\u65f6\u9ad8\u9636\u5408\u6210\u8868\u4e5f\u4fbf\u5b9c\u591a\u4e86.%n%n\u7535\u8def\u88c5\u914d\u7ebf\u7684\u539f\u6599\u662f\u5c01\u88c5\u7684,\u6240\u4ee5\u4e00\u6b21\u53ef\u4ee5\u5236\u902016\u4e2a\u7535\u8def\u677f(ULV\u548cLV\u7535\u8def\u66f4\u591a),\u8282\u7ea6\u65f6\u95f4\u3001EU\u8fd8\u6709\u710a\u9521(\u6216\u94cb\u94c5\u5408\u91d1).\u5728\u7ec4\u88c5\u673a\u4e2d\u914d\u5408\u805a\u4e59\u70ef\u53ef\u4ee5\u5236\u9020\u5c01\u88c5\u5143\u4ef6.%n%n[note]\u987a\u4fbf\u4e00\u63d0,\u4f60\u53ef\u4ee5\u9009\u62e9\u5b89\u88c5\u66f4\u9ad8\u7ea7\u7684\u4ed3/\u603b\u7ebf,\u4e0d\u8fc7\u5408\u6210\u65f6\u7684\u539f\u6599\u987a\u5e8f\u8fd8\u662f\u5f97\u4e0eNEI\u4e00\u81f4.\u53e6\u5916,\u7535\u8def\u88c5\u914d\u7ebf\u53ef\u4ee5\u65e0\u635f\u8d85\u9891.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKKQ==",
-                    "tooltip": "<strong>\u7535\u8def\u88c5\u914d\u7ebf</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u89c9\u5f97\u53d1\u5c04\u5668\u5df2\u7ecf\u591f\u7cdf\u7cd5\u4e86\uff1f</br>Mass Processing in LuV and Beyond</br>LuV\u7535\u8def\u7ec4\u88c5\u673a</br>\u88c5\u914d\u7ebf</br>\u968f\u673a\u8fc7\u7a0b\u7edd\u5bf9\u662f\u8d85\u68d2\u7684\u6e38\u620f\u8bbe\u8ba1"
+                    "tooltip": "<strong>\u7535\u8def\u88c5\u914d\u7ebf</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u89c9\u5f97\u53d1\u5c04\u5668\u5df2\u7ecf\u591f\u7cdf\u7cd5\u4e86\uff1f</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>LuV\u7535\u8def\u7ec4\u88c5\u673a</br>\u88c5\u914d\u7ebf</br>\u968f\u673a\u8fc7\u7a0b\u7edd\u5bf9\u662f\u8d85\u68d2\u7684\u6e38\u620f\u8bbe\u8ba1"
                 },
                 {
-                    "name": "Clean Implosions?!",
+                    "name": "\u73af\u4fdd\u7684\u805a\u7206?!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7261433663633078124.png",
                     "x": 216.0,
                     "y": -168.0,
-                    "data": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!\n\nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]",
+                    "data": "\u5411\u4f60\u4ecb\u7ecd\u66f4\u5927(\u66f4\u597d)\u7684\u805a\u7206\u538b\u7f29\u673a--\u7535\u52a8\u805a\u7206\u538b\u7f29\u673a!%n%n\u7535\u52a8\u805a\u7206\u538b\u7f29\u673a\u4e0d\u9700\u8981\u4efb\u4f55\u7206\u70b8\u7269,\u662f\u4e0d\u662f\u5f88\u597d?%n%n\u6b64\u5916,\u5b83\u8fd8\u80fd\u6839\u636e\u4e2d\u95f4\u4f7f\u7528\u7684\u65b9\u5757\u7b49\u7ea7\u6765\u83b7\u5f97\u989d\u5916\u7684\u5e76\u884c\u6570(4^(\u7b49\u7ea7 - 1)).%n%n\u7b49\u7ea71\uff1a\u4e2d\u5b50\u5757%n\u7b49\u7ea72\uff1a\u65e0\u5c3d\u4e4b\u5757%n\u7b49\u7ea73\uff1a\u8d85\u65f6\u7a7a\u91d1\u5c5e\u5757%n\u7b49\u7ea74\uff1a\u65f6\u7a7a\u5757%n\u7b49\u7ea75\uff1a\u5b87\u5b99\u7d20\u5757%n%n[note]\u867d\u7136\u7ed3\u6784\u9884\u89c8\u663e\u793a\u4e2d\u95f4\u6709\u6d1e,\u4f46\u5b83\u9700\u8981\u5b8c\u6574\u7684 27 \u4e2a\u65b9\u5757\u624d\u80fd\u5f62\u6210,\u4e00\u65e6\u6210\u578b,\u4e2d\u95f4\u7684 5 \u4e2a\u65b9\u5757\u5c31\u4f1a\u6d88\u5931,\u4f46\u7834\u574f\u540e\u4f1a\u627e\u56de\u6765(\u6709\u65f6\u76f4\u63a5\u6d88\u5931).[/note]%n%n[note]\u5141\u8bb8\u7684\u6700\u4f4e\u80fd\u91cf\u4ed3\u7b49\u7ea7\u6bd4\u914d\u65b9\u7b49\u7ea7\u4f4e\u4e00\u7ea7,\u6240\u4ee5\u6211\u4eec\u53ef\u4ee5\u4ece\u4e24\u4e2aUV\u80fd\u6e90\u4ed3\u5f00\u59cb.[/note]",
                     "quest_id": "IlCOpa8bR9WbOjSOPxZIlA==",
-                    "tooltip": "<strong>Clean Implosions?!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u538b\u7f29\u4e07\u7269</br>Mass Processing in LuV and Beyond</br>UHV\u8d85\u5bfc(2,097,152 EU/t)"
+                    "tooltip": "<strong>\u73af\u4fdd\u7684\u805a\u7206?!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u538b\u7f29\u4e07\u7269</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>UHV\u8d85\u5bfc(2,097,152 EU/t)"
                 },
                 {
                     "name": "\u771f\u7537\u4eba\u4ece\u6765\u4e0d\u56de\u5934\u770b\u7206\u70b8",
@@ -223,19 +223,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2757.png",
                     "x": 252.0,
                     "y": 252.0,
-                    "data": "\u4ed6\u4eec\u7528\u81ea\u52a8\u5316\u6765\u5b8c\u6210.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020,\u4e0d\u8fc7\u8fd8\u8981\u7528\u5230\u94c2\u7ebf\u548cZPM\u7535\u8def\u677f.",
+                    "data": "\u4ed6\u4eec\u7528\u81ea\u52a8\u5316\u6765\u5b8c\u6210.%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020,\u4e0d\u8fc7\u8fd8\u8981\u7528\u5230\u94c2\u7ebf\u548cZPM\u7535\u8def\u677f.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKxQ==",
-                    "tooltip": "<strong>\u771f\u7537\u4eba\u4ece\u6765\u4e0d\u56de\u5934\u770b\u7206\u70b8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u771f\u7537\u4eba\u4ece\u6765\u4e0d\u56de\u5934\u770b\u7206\u70b8</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
-                    "name": "Cracking the World",
+                    "name": "\u5c06\u4e16\u754c\u4e5f\u88c2\u89e3",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7508677545920872020.png",
                     "x": -96.0,
                     "y": 48.0,
-                    "data": "How much oil do you need? Or maybe it's Naquadah Fuel you're after, or Radox... either way, this massive structure can handle it, boasting 256 parallels.",
+                    "data": "\u60a8\u5230\u5e95\u9700\u8981\u591a\u5c11\u77f3\u6cb9?\u6216\u8005\u60a8\u9700\u8981\u7684\u662f\u7845\u5ca9\u71c3\u6599\u6216\u8005\u62c9\u591aX?\u65e0\u8bba\u5982\u4f55,\u8fd9\u4e2a\u5e9e\u5927\u7684\u591a\u65b9\u5757\u7ed3\u6784\u90fd\u80fd\u6ee1\u8db3,\u5b83\u62e5\u6709256\u5e76\u884c.",
                     "quest_id": "d5Fxz8ClQQCXy9GN_m9BrA==",
-                    "tooltip": "<strong>Cracking the World</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania"
+                    "tooltip": "<strong>\u5c06\u4e16\u754c\u4e5f\u88c2\u89e3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!"
                 },
                 {
                     "name": "\u65cb\u8f6c,\u8df3\u8dc3",
@@ -243,9 +243,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1423.png",
                     "x": -12.0,
                     "y": 276.0,
-                    "data": "\u65cb\u8f6c,\u5347\u6e29--\u542c\u8d77\u6765\u50cf\u4e00\u4e2a\u821e\u8e48. \u6216\u662f\u70ed\u529b\u79bb\u5fc3\u673a. \u5efa\u9020\u4e00\u4e2a\u5de5\u4e1a\u70ed\u529b\u7cbe\u70bc\u5382,\u4ee5\u5145\u5206\u5229\u7528\u4f60\u7684\u77ff\u77f3.%n%n\u53ea\u8981\u4fdd\u8bc1\u81f3\u5c118\u4e2a\u70ed\u5904\u7406\u673a\u68b0\u65b9\u5757,\u4f60\u5c31\u53ef\u4ee5\u7528\u566a\u97f3\u5371\u9669\u6807\u5fd7\u6765\u4ee3\u66ff\u70ed\u5904\u7406\u673a\u68b0\u65b9\u5757.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.\u6ce8\u610f\u6d88\u58f0\u4ed3\u5b89\u88c5\u5728\u5e95\u5c42.",
+                    "data": "\u65cb\u8f6c,\u5347\u6e29--\u542c\u8d77\u6765\u50cf\u4e00\u4e2a\u821e\u8e48. \u6216\u662f\u70ed\u529b\u79bb\u5fc3\u673a. \u5efa\u9020\u4e00\u4e2a\u5de5\u4e1a\u70ed\u529b\u7cbe\u70bc\u5382,\u4ee5\u5145\u5206\u5229\u7528\u4f60\u7684\u77ff\u77f3.%n%n\u53ea\u8981\u4fdd\u8bc1\u81f3\u5c118\u4e2a\u70ed\u5904\u7406\u673a\u68b0\u65b9\u5757,\u4f60\u5c31\u53ef\u4ee5\u7528\u566a\u97f3\u5371\u9669\u6807\u5fd7\u6765\u4ee3\u66ff\u70ed\u5904\u7406\u673a\u68b0\u65b9\u5757.%n%n\u6ce8\u610f\u6d88\u58f0\u4ed3\u5b89\u88c5\u5728\u5e95\u5c42.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFjw==",
-                    "tooltip": "<strong>\u65cb\u8f6c,\u8df3\u8dc3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u65cb\u8f6c,\u8df3\u8dc3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u628a\u6d77\u6d0b\u635e\u7a7a",
@@ -253,49 +253,49 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2053.png",
                     "x": 240.0,
                     "y": 84.0,
-                    "data": "\u4e3a\u4e86\u751f\u7269\u67f4\u6cb9,\u5f88\u957f\u4e00\u6bb5\u65f6\u95f4\u91cc,\u4f60\u90fd\u7528\u9c7c\u7b3c\u6355\u9c7c.\u73b0\u5728,\u4f60\u53ef\u4ee5\u5efa\u9020\u73e0\u6d77\u6e14\u573a,\u6536\u83b7\u6210\u5428\u7684\u9c7c\u548c\u526f\u4ea7\u7269.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u4e3a\u4e86\u751f\u7269\u67f4\u6cb9,\u5f88\u957f\u4e00\u6bb5\u65f6\u95f4\u91cc,\u4f60\u90fd\u7528\u9c7c\u7b3c\u6355\u9c7c.\u73b0\u5728,\u4f60\u53ef\u4ee5\u5efa\u9020\u73e0\u6d77\u6e14\u573a,\u6536\u83b7\u6210\u5428\u7684\u9c7c\u548c\u526f\u4ea7\u7269.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAIBQ==",
                     "tooltip": "<strong>\u628a\u6d77\u6d0b\u635e\u7a7a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
-                    "name": "Engraving With Style",
+                    "name": "\u7cbe\u81f4\u8680\u523b",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9206015034842694688.png",
                     "x": 144.0,
                     "y": 12.0,
-                    "data": "Sick of having to swap out lenses or make tens of laser engravers for your cleanroom? The Hyper-Intensity Laser Engraver is here for you. This multiblock can handle all of your engraving needs.\n\nBy using more powerful Laser Source Hatches in the structure, you can gain more parallels and run higher tier recipes.",
+                    "data": "\u538c\u5026\u4e86\u4e0d\u505c\u66f4\u6362\u900f\u955c, \u6216\u8005\u5f80\u8d85\u51c0\u95f4\u91cc\u585e\u5341\u51e0\u53f0\u6fc0\u5149\u8680\u523b\u673a? \u9ad8\u5f3a\u5ea6\u6fc0\u5149\u8680\u523b\u673a\u6b63\u662f\u4f60\u6240\u9700\u8981\u7684. \u8fd9\u53f0\u591a\u65b9\u5757\u80fd\u591f\u5904\u7406\u4f60\u6240\u6709\u7684\u6fc0\u5149\u8680\u523b\u9700\u6c42.%n%n\u901a\u8fc7\u5728\u7ed3\u6784\u4e2d\u4f7f\u7528\u66f4\u5f3a\u5927\u7684\u6fc0\u5149\u6e90\u4ed3, \u4f60\u53ef\u4ee5\u83b7\u5f97\u66f4\u591a\u7684\u5e76\u884c\u5e76\u5904\u7406\u66f4\u9ad8\u7b49\u7ea7\u7684\u914d\u65b9. %n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u5fc5\u987b\u4f7f\u7528\u787c\u73bb\u7483 - \u8bf7\u9605\u8bfbtooltip![/note]",
                     "quest_id": "uP_FwHb_QTyAPaoZ80u74A==",
-                    "tooltip": "<strong>Engraving With Style</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
+                    "tooltip": "<strong>\u7cbe\u81f4\u8680\u523b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
-                    "name": "Extraction Point",
+                    "name": "\u6211\u4eec\u5230\u64a4\u79bb(\u63d0\u53d6)\u70b9\u4e86!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7251013088481099277.png",
                     "x": 60.0,
                     "y": 276.0,
-                    "data": "Nothing turns solids to liquids faster than the Large Fluid Extractor - not yet, anyways. You'll need to make both Heating and Solenoid Coils for this multiblock.\n\n[note]This multiblock is technically EV, but it will demand a lot of tungstensteel.[/note]",
+                    "data": "\u6ca1\u6709\u4ec0\u4e48\u4e1c\u897f\u80fd\u6bd4\u5927\u578b\u6d41\u4f53\u63d0\u53d6\u673a\u66f4\u5feb\u5730\u5c06\u56fa\u4f53\u53d8\u6210\u6db2\u4f53-\u81f3\u5c11\u73b0\u5728\u6ca1\u6709. \u8fd9\u53f0\u673a\u5668\u9700\u8981\u4f60\u5236\u4f5c\u52a0\u70ed\u548c\u87ba\u7ebf\u7ba1\u4e24\u79cd\u7ebf\u5708. %n%n[note]\u7406\u8bba\u4e0a\u8fd9\u53f0\u591a\u65b9\u5757\u53ef\u4ee5\u5728EV\u5236\u9020, \u4f46\u5b83\u9700\u8981\u5927\u91cf\u7684\u94a8\u94a2.[/note]",
                     "quest_id": "Itn1KOiISHSbXzoDd2BB8w==",
-                    "tooltip": "<strong>Extraction Point</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u6211\u4eec\u5230\u64a4\u79bb(\u63d0\u53d6)\u70b9\u4e86!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
-                    "name": "Extreme Voltage Multiblocks",
+                    "name": "EV\u591a\u65b9\u5757",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8959971444972358643.png",
                     "x": 24.0,
                     "y": 216.0,
-                    "data": "You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock multiblocks for (almost) every GT machine. And some more on top of that!\n\nMost of them are made to do the same GT processing as the singleblock machines you've been using, but much faster. The multis can have up to three bonuses: energy savings, faster recipe time and parallels, which mean that a single recipe cycle can craft multiple items at once, if the power provided is enough to sustain it.\n\nThe variety of structures and intricacies of these new multis can go far beyond simpler multis like the EBF, LCR or VF. While some are simple cuboids, others come with more diverse mechanics and conditions to work properly. In return, they can be extremely powerful, so keep an eye out for them!",
+                    "data": "\u4f60\u53ef\u80fd\u5df2\u7ecf\u7528\u4e0a\u4e86\u84b8\u6c7d\u591a\u65b9\u5757\u8bbe\u5907\u6216\u8005\u5de5\u4e1a\u7b5b\u9009\u673a.\u4f46\u5728EV,IV\u4ee5\u53ca\u4e4b\u540e\u7684\u7535\u538b\u7b49\u7ea7\u4e2d,\u4f60\u5c06\u89e3\u9501\u8bb8\u591a\u591a\u65b9\u5757\u673a\u5668,\u5b83\u4eec\u5bf9\u5e94\u51e0\u4e4e\u6240\u6709\u7684GT\u5355\u65b9\u5757\u673a\u5668.\u751a\u81f3\u8fd8\u6709\u66f4\u5f3a\u5927\u7684\u8bbe\u5907.%n%n\u5b83\u4eec\u4e2d\u7684\u5927\u591a\u6570\u548c\u4f60\u4e4b\u524d\u7684GT\u7684\u5904\u7406\u6d41\u7a0b\u76f8\u540c,\u4f46\u662f\u901f\u5ea6\u66f4\u5feb. \u591a\u65b9\u5757\u673a\u5668\u6709\u4e09\u4e2a\u597d\u5904: \u8282\u7701\u80fd\u6e90,\u66f4\u5feb\u7684\u914d\u65b9\u5904\u7406\u65f6\u95f4\u4ee5\u53ca\u5e76\u884c, \u5e76\u884c\u610f\u5473\u7740\u5728\u80fd\u91cf\u4f9b\u5e94\u8db3\u591f\u7684\u60c5\u51b5\u4e0b, \u914d\u65b9\u5355\u6b21\u7684\u5904\u7406\u65f6\u95f4\u91cc\u4e00\u6b21\u53ef\u4ee5\u540c\u65f6\u5408\u6210\u591a\u4e2a\u7269\u54c1.%n%n\u8fd9\u4e9b\u65b0\u7684\u591a\u65b9\u5757\u673a\u5668\u7684\u591a\u6837\u6027\u548c\u590d\u6742\u6027\u8fdc\u8fdc\u8d85\u51fa\u4e86\u5de5\u4e1a\u9ad8\u7089\u3001\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc\u6216\u8005\u771f\u7a7a\u51b7\u51bb\u673a\u7b49\u7b80\u5355\u7684\u591a\u65b9\u5757\u673a\u5668. \u6709\u4e9b\u867d\u7136\u662f\u7b80\u5355\u7684\u7acb\u65b9\u4f53,\u4f46\u6709\u4e9b\u5219\u5177\u6709\u66f4\u591a\u6837\u5316\u7684\u673a\u5236\u548c\u5de5\u4f5c\u6761\u4ef6.\u4f5c\u4e3a\u56de\u62a5,\u5b83\u4eec\u662f\u975e\u5e38\u5f3a\u5927\u7684,\u56e0\u6b64\u52a1\u5fc5\u7559\u610f\u4ed6\u4eec.",
                     "quest_id": "w5O5rPL_Q_GDp8lxWMd0DQ==",
-                    "tooltip": "<strong>Extreme Voltage Multiblocks</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c4\u9636\u6bb5(EV)</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>EV\u591a\u65b9\u5757</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c4\u9636\u6bb5(EV)</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
-                    "name": "Fits The Mold",
+                    "name": "\u9002\u5408\u4e0d\u540c\u6a21\u5177",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5744442785667642528.png",
                     "x": 168.0,
                     "y": 0.0,
-                    "data": "Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using Solidifier Hatches. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!\n\n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]",
+                    "data": "\u4e3a\u6bcf\u79cd\u6a21\u5177\u90fd\u5236\u9020\u4e00\u53f0\u6d41\u4f53\u56fa\u5316\u5668\u542c\u8d77\u6765\u5f88\u7d2f\u4eba......\u5e78\u8fd0\u7684\u662f,\u6d41\u4f53\u6210\u578b\u673a\u591a\u65b9\u5757\u53ef\u4ee5\u901a\u8fc7\u4f7f\u7528\u56fa\u5316\u4ed3\u6765\u5904\u7406\u4efb\u610f\u6570\u91cf\u7684\u6a21\u5177.\u8fd9\u79cd\u591a\u65b9\u5757\u673a\u5668\u8fd8\u53ef\u4ee5\u5347\u7ea7,\u5982\u679c\u4f60\u5728\u4e24\u7aef\u6dfb\u52a0\u989d\u5916\u7684\u7247,\u5c31\u80fd\u83b7\u5f97\u66f4\u591a\u7684\u5e76\u884c.\u5982\u679c\u901f\u5ea6\u592a\u6162,\u4e00\u5b9a\u8981\u5347\u7ea7\u5b83!%n%n\u6ce8\uff1a\u5927\u578b\u6d41\u4f53\u56fa\u5316\u5668\u5728\u8fd0\u884c\u8fc7\u7a0b\u4e2d\u4e5f\u4f1a\u6bd4\u5355\u65b9\u5757\u6d41\u4f53\u56fa\u5316\u5668\u66f4\u5feb,\u4f7f\u5176\u66f4\u6709\u6548\u5730\u8fdb\u884c\u5927\u6279\u91cf\u751f\u4ea7.",
                     "quest_id": "6glle46JSyuwR6O4x7mLYA==",
-                    "tooltip": "<strong>Fits The Mold</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
+                    "tooltip": "<strong>\u9002\u5408\u4e0d\u540c\u6a21\u5177</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
                     "name": "\u51bb\u4f24!",
@@ -305,7 +305,7 @@
                     "y": 12.0,
                     "data": "\u8fd9\u53f0\u5de8\u578b\u771f\u7a7a\u51b7\u51bb\u673a\u53ef\u4ee5\u540c\u65f6\u5904\u7406\u6700\u591a256\u4e2a\u914d\u65b9.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH_Q==",
-                    "tooltip": "<strong>\u51bb\u4f24!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania"
+                    "tooltip": "<strong>\u51bb\u4f24!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!"
                 },
                 {
                     "name": "\u51bb\u50f5\u4e86...",
@@ -313,7 +313,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2035.png",
                     "x": 216.0,
                     "y": 96.0,
-                    "data": "\u6211\u597d\u51b7\u554a...\u60f3\u8981\u6b63\u5e38\u4f7f\u7528\u8fd9\u53f0\u673a\u5668,\u4f60\u9700\u8981\u7ed9\u5b83\u6301\u7eed\u4f9b\u5e94\u6781\u5bd2\u4e4b\u51db\u51b0.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728LuV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u6211\u597d\u51b7\u554a...\u60f3\u8981\u6b63\u5e38\u4f7f\u7528\u8fd9\u53f0\u673a\u5668,\u4f60\u9700\u8981\u7ed9\u5b83\u6301\u7eed\u4f9b\u5e94\u6781\u5bd2\u4e4b\u51db\u51b0.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH8w==",
                     "tooltip": "<strong>\u51bb\u50f5\u4e86...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a"
                 },
@@ -323,19 +323,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2036.png",
                     "x": 168.0,
                     "y": 96.0,
-                    "data": "\u70bd\u7131\u9ad8\u7089\u80fd\u4ee5\u96be\u4ee5\u7f6e\u4fe1\u7684\u901f\u5ea6\u5904\u7406\u7269\u54c1. \u60f3\u8981\u6b63\u5e38\u4f7f\u7528\u8fd9\u53f0\u673a\u5668,\u4f60\u9700\u8981\u7ed9\u5b83\u6301\u7eed\u4f9b\u5e94\u70c8\u7130\u4e4b\u70bd\u7131,\u8fd8\u5f97\u914d\u4e0a\u597d\u7684\u7ebf\u5708.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020,\u4f46\u9700\u8981\u4e24\u4e2aZPM\u7535\u8def\u677f.%n%n\u8bd1\u8005\u6ce8:\u70bd\u7131\u9ad8\u7089\u6ca1\u6709\u7535\u538b\u7b49\u7ea7\u5e26\u6765\u7684\u989d\u5916\u7089\u6e29\u5956\u52b1,\u5176\u4f59\u673a\u5236\u548c\u5de5\u4e1a\u9ad8\u7089\u4e00\u81f4.",
+                    "data": "\u70bd\u7131\u9ad8\u7089\u80fd\u4ee5\u96be\u4ee5\u7f6e\u4fe1\u7684\u901f\u5ea6\u5904\u7406\u7269\u54c1. \u60f3\u8981\u6b63\u5e38\u4f7f\u7528\u8fd9\u53f0\u673a\u5668,\u4f60\u9700\u8981\u7ed9\u5b83\u6301\u7eed\u4f9b\u5e94\u70c8\u7130\u4e4b\u70bd\u7131,\u8fd8\u5f97\u914d\u4e0a\u597d\u7684\u7ebf\u5708.%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020,\u4f46\u9700\u8981\u4e24\u4e2aZPM\u7535\u8def\u677f.[/note]%n%n\u8bd1\u8005\u6ce8:\u70bd\u7131\u9ad8\u7089\u6ca1\u6709\u7535\u538b\u7b49\u7ea7\u5e26\u6765\u7684\u989d\u5916\u7089\u6e29\u5956\u52b1,\u5176\u4f59\u673a\u5236\u548c\u5de5\u4e1a\u9ad8\u7089\u4e00\u81f4.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH9A==",
                     "tooltip": "<strong>\u4e0a\u5e1d\u7684\u953b\u9020\u53f0</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</br>\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a"
                 },
                 {
-                    "name": "High Voltage Multiblocks",
+                    "name": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6615881702968461094.png",
                     "x": 24.0,
                     "y": 48.0,
-                    "data": "Time to scale up production! In HV, a handful of new powerful multiblocks are available to you. In particular, take a look at the Large Chemical Reactor, which always perfectly overclocks, as well as the Distillation Tower, which will allow you to get all byproducts from distillation instead of targetting just one.",
+                    "data": "\u662f\u65f6\u5019\u6269\u5927\u751f\u4ea7\u89c4\u6a21\u4e86!\u5728HV\u9636\u6bb5\u4e2d,\u4f60\u53ef\u4ee5\u4f7f\u7528\u4e00\u4e9b\u65b0\u7684\u529f\u80fd\u5f3a\u5927\u7684\u591a\u65b9\u5757\u673a\u5668.\u7279\u522b\u662f\u5927\u578b\u5316\u5b66\u53cd\u5e94\u91dc,\u5b83\u603b\u80fd\u65e0\u635f\u8d85\u9891.\u6b64\u5916\u8fd8\u6709\u84b8\u998f\u5854,\u5b83\u80fd\u8ba9\u4f60\u4ece\u84b8\u998f\u4e2d\u83b7\u5f97\u6240\u6709\u526f\u4ea7\u7269,\u800c\u4e0d\u662f\u4ec5\u4ec5\u83b7\u5f97\u4e00\u79cd.",
                     "quest_id": "pKSx6HEUS0WkL6qkwo742g==",
-                    "tooltip": "<strong>High Voltage Multiblocks</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
                     "name": "\u7eff\u5de8\u4eba\u91cd\u62f3\u7c89\u788e!",
@@ -343,9 +343,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1421.png",
                     "x": 60.0,
                     "y": 156.0,
-                    "data": "\u5927\u89c4\u6a21\u7834\u574f! \u6216\u8005\u81f3\u5c11,\u53ef\u4ee5\u7c89\u788e\u5f88\u591a\u5f88\u591a\u7684\u77ff\u77f3. \u5efa\u9020\u4e00\u53f0\u5de5\u4e1a\u7c89\u788e\u673a,\u5904\u7406\u4f60\u83b7\u5f97\u7684\u6240\u6709\u77ff\u77f3.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020,\u4f46\u5b83\u9700\u8981ZPM\u7684\u7535\u8def\u677f. \u526f\u4ea7\u7269\u589e\u4ea7\u7ea6\u4e3a33\uff05.",
+                    "data": "\u5927\u89c4\u6a21\u7834\u574f! \u6216\u8005\u81f3\u5c11,\u53ef\u4ee5\u7c89\u788e\u5f88\u591a\u5f88\u591a\u7684\u77ff\u77f3. \u5efa\u9020\u4e00\u53f0\u5de5\u4e1a\u7c89\u788e\u673a\u6765\u5904\u7406\u4f60\u83b7\u5f97\u7684\u6240\u6709\u77ff\u77f3.\u5728IV\u9636\u6bb5,\u4f60\u53ef\u4ee5\u901a\u8fc7\u5347\u7ea7\u82af\u7247\u548c\u66f4\u597d\u7684\u673a\u68b0\u65b9\u5757\u6765\u5347\u7ea7\u5b83.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFjQ==",
-                    "tooltip": "<strong>\u7eff\u5de8\u4eba\u91cd\u62f3\u7c89\u788e!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u7eff\u5de8\u4eba\u91cd\u62f3\u7c89\u788e!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u5de5\u4e1a3D\u6253\u5370\u673a",
@@ -363,9 +363,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2040.png",
                     "x": -36.0,
                     "y": 180.0,
-                    "data": "\u539f\u6728\u5806\u6210\u4e86\u6d77?\u628a\u8fd9\u4e9b\u539f\u6728\u53d8\u6210\u6e05\u6d01\u71c3\u70e7\u7684\u6728\u70ad\u5427!\u5de5\u4e1a\u7126\u7089\u662f3x3x3\u7684\u591a\u65b9\u5757\u673a\u5668,\u8fd0\u884c\u8d77\u6765\u6bd4\u50bb\u5927\u4e2a\u70ed\u89e3\u7089\u5feb\u591a\u4e86.\u5de5\u4e1a\u7126\u7089\u81f3\u5c11\u670924\u5e76\u884c,\u4e00\u53f0\u9876\u5f97\u4e0a\u5b83\u4eec\u597d\u591a\u53f0.%n%n\u4ece\u73b0\u5728\u5f00\u59cb,\u4f60\u53ef\u4ee5\u8ba9\u70ed\u89e3\u7089\u9000\u4f11\u4e86,\u9664\u975e\u6709\u67d0\u4e9b\u975e\u5e38\u5feb\u7684\u914d\u65b9\u5b83\u4eec\u8fd8\u80fd\u8ddf\u4e0a.\u4e3e\u4e2a\u4f8b\u5b50,\u53ea\u8981\u4f60\u4e3a\u5de5\u4e1a\u7126\u7089\u4f9b\u7ed9\u8db3\u591f\u7684\u6c2e\u6c14,\u5b83\u53ef\u4ee5\u8f7b\u677e\u5403\u4e0b\u4e00\u6574\u4e2a\u6811\u573a\u7684\u539f\u6728\u4ea7\u51fa,\u5c06\u5176\u8fc5\u901f\u8f6c\u5316\u4e3a\u6728\u70ad!%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728EV\u9636\u6bb5\u5236\u9020,\u4e14\u65e0\u9700\u5408\u91d1\u51b6\u70bc\u7089.",
+                    "data": "\u5df2\u7ecf\u5728\u539f\u6728\u7684\u6d77\u6d0b\u4e2d\u6e38\u6cf3\u4e86?\u628a\u8fd9\u4e9b\u539f\u6728\u53d8\u6210\u6e05\u6d01\u71c3\u70e7\u7684\u6728\u70ad! \u5de5\u4e1a\u7126\u7089\u662f\u4e00\u4e2a3x3x3\u7684\u591a\u65b9\u5757\u7ed3\u6784,\u8fd0\u884c\u901f\u5ea6\u6bd4\u90a3\u4e9b\u5de8\u5927\u7684\u70ed\u89e3\u7089\u5feb\u591a\u4e86.\u4e00\u4e2a\u8fd9\u4e2a\u5c31\u53ef\u4ee5\u66ff\u6362\u6389\u597d\u51e0\u4e2a\u70ed\u89e3\u7089,\u56e0\u4e3a\u5b83\u6709\u9ad8\u8fbe24x\u7684\u5e76\u884c\u5ea6.%n%n\u4ece\u73b0\u5728\u8d77,\u4f60\u5c31\u53ef\u4ee5\u8ba9\u70ed\u89e3\u7089\u4eec\u9000\u5f79\u4e86,\u9664\u975e\u8fd8\u6709\u4ec0\u4e48\u975e\u5e38\u5feb\u7684\u914d\u65b9\u80fd\u8ba9\u5b83\u4eec\u7684\u5de5\u4f5c\u901f\u5ea6\u8ddf\u4e0a. \u4f8b\u5982,\u8981\u5c06\u6728\u6750\u8f6c\u5316\u4e3a\u6728\u70ad,\u53ea\u8981\u63d0\u4f9b\u8db3\u591f\u7684\u6c2e\u6c14,\u5de5\u4e1a\u7126\u7089\u5c31\u80fd\u6ee1\u8db3\u6574\u4e2a\u519c\u573a\u7684\u9700\u6c42!",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH-A==",
-                    "tooltip": "<strong>\u5de5\u4e1a\u7126\u70891</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u5de5\u4e1a\u7126\u70891</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u5de5\u4e1a\u953b\u9020\u9524",
@@ -378,14 +378,14 @@
                     "tooltip": "<strong>\u5de5\u4e1a\u953b\u9020\u9524</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
-                    "name": "Insane Voltage Multiblocks",
+                    "name": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6208773058821867190.png",
                     "x": 192.0,
                     "y": 216.0,
-                    "data": "Upon reaching the land of IV machinery, you can put together even more multis and speed up your automation!\n\nMany of the multiblocks from IV tier onwards use special alloys, which either need to be cooked like any ingots you've used before (in a Furnace or EBF), but there are also alloys which have to be made in the Alloy Blast Smelter (ABS), as a fluid, which then needs to be solidified.\n\nThe multis that need ABS alloys are further down. To unlock their quests, you will first need to craft the ABS itself. However, there is a large assortment of machines you can craft without it, just by having the respective IV singleblock equivalent and some other resources.\n\nThose will be here... but you might be able to find some more, if you look closely through NEI. Good luck!",
+                    "data": "\u5f53\u4f60\u5230\u8fbeIV\u673a\u68b0\u56fd\u5ea6,\u4f60\u53ef\u4ee5\u7ec4\u88c5\u66f4\u591a\u7684\u591a\u65b9\u5757\u673a\u5668\u5e76\u52a0\u901f\u4f60\u7684\u81ea\u52a8\u5316!%n%n\u4eceIV\u9636\u6bb5\u5f00\u59cb,\u5927\u591a\u6570\u591a\u65b9\u5757\u673a\u5668\u90fd\u9700\u8981\u7279\u6b8a\u7684\u5408\u91d1,\u50cf\u4f60\u4e4b\u524d\u7528\u8fc7\u7684\u91d1\u5c5e(\u5728\u7194\u7089\u6216\u8005\u5de5\u4e1a\u9ad8\u7089\u4e2d\u51b6\u70bc),\u8fd9\u4e9b\u7279\u6b8a\u7684\u5408\u91d1\u4e5f\u90fd\u9700\u8981\u51b6\u70bc,\u4f46\u662f\u6709\u4e9b\u5408\u91d1\u5fc5\u987b\u5728\u5408\u91d1\u51b6\u70bc\u7089\u4e2d\u5236\u6210\u6d41\u4f53,\u7136\u540e\u9700\u8981\u56fa\u5316.%n%n\u9700\u8981\u5408\u91d1\u51b6\u70bc\u7089\u7684\u591a\u65b9\u5757\u673a\u5668\u5728\u66f4\u540e\u9762. \u4e3a\u4e86\u89e3\u9501\u5b83\u4eec\u7684\u4efb\u52a1,\u4f60\u9700\u8981\u9996\u5148\u5408\u6210\u5408\u91d1\u51b6\u70bc\u7089.\u7136\u800c,\u6709\u4e0d\u9700\u8981\u5408\u91d1\u51b6\u70bc\u7089\u4e5f\u80fd\u5236\u4f5c\u8bb8\u591a\u673a\u5668,\u53ea\u9700\u8981\u76f8\u5e94\u7684IV\u5355\u65b9\u5757\u7684\u5bf9\u5e94\u673a\u5668\u4ee5\u53ca\u4e00\u4e9b\u5176\u4ed6\u8d44\u6e90.%n%n\u90fd\u5728\u8fd9\u91cc\u4e86...\u4f46\u5982\u679c\u4f60\u4ed4\u7ec6\u67e5\u770bNEI,\u4e5f\u8bb8\u8fd8\u80fd\u627e\u5230\u66f4\u591a.\u795d\u4f60\u597d\u8fd0!",
                     "quest_id": "RFgYQ7LAQD-p1gHMaeg5Sg==",
-                    "tooltip": "<strong>Insane Voltage Multiblocks</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c5\u9636\u6bb5(IV)</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c5\u9636\u6bb5(IV)</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u6211\u60f3\u6211\u4f1a\u751f\u75c5\u7684",
@@ -393,9 +393,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2028.png",
                     "x": 84.0,
                     "y": 252.0,
-                    "data": "\u7528\u591a\u65b9\u5757\u91c7\u77ff\u573a\u83b7\u5f97\u7684\u6570\u4ee5\u5343\u8ba1\u7684\u77ff\u77f3\u53ef\u4ee5\u4ea4\u7ed9\u5de5\u4e1a\u79bb\u5fc3\u673a\u5904\u7406.%n%n\u8bd1\u8005\u6ce8:\u522b\u542c\u4ed6\u778e\u8bf4,\u6839\u636e\u81ea\u5df1\u7684\u9700\u8981\u9009\u62e9\u6253\u7c89-\u79bb\u5fc3\u3001\u6d17\u77ff-\u6253\u7c89-\u79bb\u5fc3\u3001\u6d17\u77ff-\u70ed\u79bb-\u6253\u7c89\u8fd9\u4e9b\u5de5\u5e8f.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u7528\u591a\u65b9\u5757\u91c7\u77ff\u573a\u83b7\u5f97\u7684\u6570\u4ee5\u5343\u8ba1\u7684\u77ff\u77f3\u53ef\u4ee5\u4ea4\u7ed9\u5de5\u4e1a\u79bb\u5fc3\u673a\u5904\u7406.%n%n\u8bd1\u8005\u6ce8:\u522b\u542c\u4ed6\u778e\u8bf4,\u6839\u636e\u81ea\u5df1\u7684\u9700\u8981\u9009\u62e9\u6253\u7c89-\u79bb\u5fc3\u3001\u6d17\u77ff-\u6253\u7c89-\u79bb\u5fc3\u3001\u6d17\u77ff-\u70ed\u79bb-\u6253\u7c89\u8fd9\u4e9b\u5de5\u5e8f.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH7A==",
-                    "tooltip": "<strong>\u6211\u60f3\u6211\u4f1a\u751f\u75c5\u7684</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u6211\u60f3\u6211\u4f1a\u751f\u75c5\u7684</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u6211\u8981\u7684\u662f\u56fa\u4f53\u4e0d\u662f\u6db2\u4f53!",
@@ -403,9 +403,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2759.png",
                     "x": 228.0,
                     "y": 156.0,
-                    "data": "\u6709\u7684\u65f6\u5019\u6211\u4eec\u9700\u8981\u7684\u4e0d\u662f\u5408\u91d1\u51b6\u70bc\u7089. \u8fd9\u53f0\u673a\u5668\u4e5f\u4f7f\u7528\u7ebf\u5708.%n%n\u8bf7\u6ce8\u610f,\u8fd9\u662fGT\u5408\u91d1\u7089\u7684\u591a\u65b9\u5757\u7248\u672c,\u800c\u4e0d\u662fGT++\u5408\u91d1\u51b6\u70bc\u7089\u7684\u56fa\u4f53\u7248\u672c.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u6709\u7684\u65f6\u5019\u6211\u4eec\u9700\u8981\u7684\u4e0d\u662f\u5408\u91d1\u51b6\u70bc\u7089. \u8fd9\u53f0\u673a\u5668\u4e5f\u4f7f\u7528\u7ebf\u5708.%n%n\u8bf7\u6ce8\u610f,\u8fd9\u662fGT\u5408\u91d1\u7089\u7684\u591a\u65b9\u5757\u7248\u672c,\u800c\u4e0d\u662fGT++\u5408\u91d1\u51b6\u70bc\u7089\u7684\u56fa\u4f53\u7248\u672c.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKxw==",
-                    "tooltip": "<strong>\u6211\u8981\u7684\u662f\u56fa\u4f53\u4e0d\u662f\u6db2\u4f53!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u6211\u8981\u7684\u662f\u56fa\u4f53\u4e0d\u662f\u6db2\u4f53!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
                     "name": "\u8ba9\u6211\u5236\u9020\u4e00\u4e2a\u65b0\u7684\u5b87\u5b99...",
@@ -413,9 +413,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2758.png",
                     "x": 240.0,
                     "y": -144.0,
-                    "data": "\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u4e13\u7528\u4e8e\u751f\u6210UU-M\u548c\u5e9f\u6599.\u5b83\u4e5f\u662f\u6700\u96be\u5236\u9020\u7684GT++\u591a\u65b9\u5757\u673a\u5668\u4e4b\u4e00,\u4f46\u53ea\u8981\u8ba9\u5b83\u6b63\u5e38\u8fd0\u884c,\u4f60\u5c31\u53ef\u4ee5\u590d\u5236\u79cd\u7c7b\u7e41\u591a\u7684\u5404\u79cd\u6750\u6599.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728UV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u4e13\u7528\u4e8e\u751f\u6210UU-M\u548c\u5e9f\u6599.\u5b83\u4e5f\u662f\u6700\u96be\u5236\u9020\u7684GT++\u591a\u65b9\u5757\u673a\u5668\u4e4b\u4e00,\u4f46\u53ea\u8981\u8ba9\u5b83\u6b63\u5e38\u8fd0\u884c,\u4f60\u5c31\u53ef\u4ee5\u590d\u5236\u79cd\u7c7b\u7e41\u591a\u7684\u5404\u79cd\u6750\u6599.%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728UV\u9636\u6bb5\u5236\u9020.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKxg==",
-                    "tooltip": "<strong>\u8ba9\u6211\u5236\u9020\u4e00\u4e2a\u65b0\u7684\u5b87\u5b99...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u7b2c8\u9636\u6bb5(UV)"
+                    "tooltip": "<strong>\u8ba9\u6211\u5236\u9020\u4e00\u4e2a\u65b0\u7684\u5b87\u5b99...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u7b2c8\u9636\u6bb5(UV)"
                 },
                 {
                     "name": "\u5de8\u578b\u5408\u91d1\u51b6\u70bc\u7089",
@@ -423,9 +423,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/3285.png",
                     "x": -192.0,
                     "y": 48.0,
-                    "data": "\u5de8\u578b\u591a\u65b9\u5757\u673a\u5668\u548cGT++\u7684\u90aa\u6076\u7ed3\u5408\u4e00\u5b9a\u662f\u4e00\u4e9b\u75af\u5b50\u7684\u6770\u4f5c.\u5b83\u662f\u4e00\u53f0\u81f3\u591a256\u5e76\u884c\u7684\u7ec8\u6781\u5408\u91d1\u51b6\u70bc\u7089.\u5982\u679c\u4f60\u8db3\u591f\u4ed4\u7ec6\u7684\u89c2\u5bdf,\u4f60\u53ef\u4ee5\u53d1\u73b0\u4f7f\u7528\u8db3\u591f\u6602\u8d35\u7684\u7ebf\u5708\u53ef\u4ee5\u5e26\u6765\u51e0\u4e4e\u65e0\u6cd5\u53d1\u73b0\u7684\u901f\u5ea6\u63d0\u5347.%n%n\u73bb\u7483\u7684\u7b49\u7ea7\u9650\u5236\u4e86\u80fd\u6e90\u4ed3\u548c\u914d\u65b9\u7684\u7b49\u7ea7.\u548c\u5176\u4ed6\u591a\u65b9\u5757\u673a\u5668\u4e00\u6837,UEV\u73bb\u7483\u53ef\u4ee5\u89e3\u9501\u6240\u6709\u7b49\u7ea7,\u4f7f\u7528\u6fc0\u5149\u4ed3\u9700\u8981UV\u73bb\u7483.",
+                    "data": "\u5de8\u578b\u591a\u65b9\u5757\u673a\u5668\u548cGT++\u7684\u90aa\u6076\u7ed3\u5408\u4e00\u5b9a\u662f\u4e00\u4e9b\u75af\u5b50\u7684\u6770\u4f5c.\u5b83\u662f\u4e00\u53f0\u81f3\u591a256\u5e76\u884c\u7684\u7ec8\u6781\u5408\u91d1\u51b6\u70bc\u7089.\u4f7f\u7528\u66f4\u9ad8\u7ea7\u7684\u7ebf\u5708\u548c\u73bb\u7483\u540c\u6837\u4f1a\u63d0\u5347\u5904\u7406\u901f\u5ea6\u5e76\u964d\u4f4e\u80fd\u91cf\u6d88\u8017.%n%n\u73bb\u7483\u7684\u7b49\u7ea7\u9650\u5236\u4e86\u80fd\u6e90\u4ed3\u548c\u914d\u65b9\u7684\u7b49\u7ea7.\u548c\u5176\u4ed6\u591a\u65b9\u5757\u673a\u5668\u4e00\u6837,UEV\u73bb\u7483\u53ef\u4ee5\u89e3\u9501\u6240\u6709\u7b49\u7ea7,\u4f7f\u7528\u6fc0\u5149\u4ed3\u9700\u8981UV\u73bb\u7483.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAM1Q==",
-                    "tooltip": "<strong>\u5de8\u578b\u5408\u91d1\u51b6\u70bc\u7089</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania</br>UV\u80fd\u6e90\u4ed3"
+                    "tooltip": "<strong>\u5de8\u578b\u5408\u91d1\u51b6\u70bc\u7089</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!</br>UV\u80fd\u6e90\u4ed3"
                 },
                 {
                     "name": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
@@ -433,19 +433,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1416.png",
                     "x": 192.0,
                     "y": 48.0,
-                    "data": "\u6216\u8005\u662f\u5408\u91d1\u51b6\u70bc\u7089(Alloy Blast Smelter)\uff1f \u55ef,\u660e\u767d\u4e9b\u4e86. \u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u751f\u4ea7\u66f4\u5148\u8fdb\u7684GT++\u591a\u65b9\u5757,\u4ee5\u53ca\u9ad8\u7ea7\u710a\u6599\u6240\u9700\u7684\u9ad8\u7ea7\u5408\u91d1. \u5b83\u76f4\u63a5\u5c06\u91d1\u5c5e\u7194\u70bc\u6210\u6db2\u4f53. \u8fd9\u53f0\u673a\u5668\u751a\u81f3\u53ef\u4ee5\u66f4\u5feb\u5730\u7194\u5316\u94a8\u4e4b\u7c7b\u7684\u91d1\u5c5e! \u81f3\u5c11\u5728\u4f60\u7ed9\u5de5\u4e1a\u9ad8\u7089\u66f4\u6362\u66f4\u9ad8\u7ea7\u7ebf\u5708\u4e4b\u524d\u662f\u8fd9\u6837\u7684.%n%n\u53ea\u63a5\u53d71\u4e2a\u80fd\u6e90\u4ed3.%n%n\u73b0\u5728\u4f60\u89e3\u9501\u7684GT++\u591a\u65b9\u5757\u673a\u5668\u662f\u53ef\u9009\u7684,\u4e0d\u8fc7\u5b83\u4eec\u5747\u4e3a\u73b0\u6709\u5355\u65b9\u5757\u673a\u5668\u7684\u8d85\u5f3a\u5347\u7ea7.\u4e0d\u6b62\u63d0\u4f9b\u4e86\u66f4\u5feb\u7684\u901f\u5ea6,\u8fd8\u6709\u4e00\u4e9b\u9ad8\u7ea7\u529f\u80fd\uff1a\u6bd4\u5982\u65e0\u9700\u5355\u5143\u5373\u53ef\u7535\u89e3\u5316\u5408\u7269,\u4e00\u53f0\u591a\u65b9\u5757\u673a\u5668\u5373\u53ef\u652f\u6301\u8bb8\u591a\u4e0d\u540c\u6a21\u5934.\u5b83\u4eec\u8fd8\u81ea\u5e26\u8d85\u51c0\u95f4\u548c\u4f4e\u91cd\u529b\u73af\u5883.",
+                    "data": "\u6216\u8005\u662f\u5408\u91d1\u51b6\u70bc\u7089(Alloy Blast Smelter)\uff1f \u55ef,\u660e\u767d\u4e9b\u4e86. \u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u751f\u4ea7\u66f4\u5148\u8fdb\u7684\u591a\u65b9\u5757,\u4ee5\u53ca\u9ad8\u7ea7\u710a\u6599\u6240\u9700\u7684\u9ad8\u7ea7\u5408\u91d1. \u5b83\u76f4\u63a5\u5c06\u91d1\u5c5e\u7194\u70bc\u6210\u6db2\u4f53. \u8fd9\u53f0\u673a\u5668\u751a\u81f3\u53ef\u4ee5\u66f4\u5feb\u5730\u7194\u5316\u94a8\u4e4b\u7c7b\u7684\u91d1\u5c5e! \u81f3\u5c11\u5728\u4f60\u7ed9\u5de5\u4e1a\u9ad8\u7089\u66f4\u6362\u66f4\u9ad8\u7ea7\u7ebf\u5708\u4e4b\u524d\u662f\u8fd9\u6837\u7684.%n%n[note]\u53ea\u63a5\u53d71\u4e2a\u80fd\u6e90\u4ed3.[/note]%n%n[note]\u73b0\u5728\u4f60\u89e3\u9501\u7684\u591a\u65b9\u5757\u673a\u5668\u5927\u591a\u662f\u53ef\u9009\u7684,\u4e0d\u8fc7\u5b83\u4eec\u5747\u4e3a\u73b0\u6709\u5355\u65b9\u5757\u673a\u5668\u7684\u8d85\u5f3a\u5347\u7ea7.\u4e0d\u6b62\u63d0\u4f9b\u4e86\u66f4\u5feb\u7684\u901f\u5ea6,\u8fd8\u6709\u4e00\u4e9b\u9ad8\u7ea7\u529f\u80fd\uff1a\u6bd4\u5982\u65e0\u9700\u5355\u5143\u5373\u53ef\u7535\u89e3\u5316\u5408\u7269,\u4e00\u53f0\u591a\u65b9\u5757\u673a\u5668\u5373\u53ef\u652f\u6301\u8bb8\u591a\u4e0d\u540c\u6a21\u5934.\u5b83\u4eec\u8fd8\u81ea\u5e26\u8d85\u51c0\u95f4\u548c\u4f4e\u91cd\u529b\u73af\u5883.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFiA==",
-                    "tooltip": "<strong>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c5\u9636\u6bb5(IV)</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c5\u9636\u6bb5(IV)</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
-                    "name": "Mass Processing in LuV and Beyond",
+                    "name": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8199803816494517045.png",
                     "x": 192.0,
                     "y": -120.0,
-                    "data": "As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though. \n\nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.\n\nBe a true GT engineer and finish out your collection!",
+                    "data": "\u5f53\u4f60\u8fdb\u5165 LuV \u53ca\u66f4\u9ad8\u7535\u538b\u65f6\uff0c\u53ef\u7528\u7684\u5927\u89c4\u6a21\u5904\u7406\u591a\u65b9\u5757\u7ed3\u6784\u4f1a\u51cf\u5c11\uff0c\u56e0\u4e3a\u4f60\u4f1a\u7528\u65b0\u7684\u7cfb\u7edf\u66ff\u6362\u65e7\u7684\u88c5\u7f6e\uff0c\u5e76\u6269\u5927\u5df2\u7ecf\u5efa\u6210\u7684\u591a\u65b9\u5757\u7ed3\u6784\u3002\u7136\u800c\uff0c\u5728\u8fd9\u4e9b\u66f4\u9ad8\u7b49\u7ea7\u4e2d\u4ecd\u6709\u4e00\u4e9b\u91cd\u8981\u7684\u5347\u7ea7\u3002%n%n\u5343\u4e07\u4e0d\u8981\u9519\u8fc7\u7535\u8def\u88c5\u914d\u7ebf\uff0c\u5426\u5219\u4f60\u4ee5\u540e\u4f1a\u540e\u6094\u7684\u3002%n%n\u6210\u4e3a\u771f\u6b63\u7684 GT \u5de5\u7a0b\u5e08\uff0c\u5b8c\u6210\u4f60\u7684\u6536\u85cf\u5427\uff01",
                     "quest_id": "ECDllKcSQ4SONHHfkfO0yw==",
-                    "tooltip": "<strong>Mass Processing in LuV and Beyond</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c6\u9636\u6bb5(LuV)</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
+                    "tooltip": "<strong>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c6\u9636\u6bb5(LuV)</br>\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
                     "name": "\u8d8a\u5927\u8d8a\u597d",
@@ -453,39 +453,39 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2044.png",
                     "x": -192.0,
                     "y": 84.0,
-                    "data": "\u5bf9\u4e8e\u4e00\u4e2a\u9700\u8981\u70bc\u5236\u8352\u5510\u6570\u91cf\u6750\u6599\u7684\u4eba\u6765\u8bf4,\u8fd9\u53f0\u673a\u5668\u662f\u5b8c\u7f8e\u7684.  \u8fd9\u4e2a\u673a\u5668\u602a\u517d\u53ef\u4ee5\u540c\u65f6\u5904\u7406256\u4e2a\u914d\u65b9.%n%n\u73bb\u7483\u7b49\u7ea7(\u6bd4\u5982\u5728NEI\u641c\u7d22\"\u73bb\u7483\u7b49\u7ea7:HV\")\u9650\u5236\u4e86\u8fd9\u53f0\u673a\u5668\u7684\u6700\u9ad8\u80fd\u6e90\u4ed3\u7b49\u7ea7.%n%n\u4f60\u53ef\u4ee5\u901a\u8fc7\u87ba\u4e1d\u5200\u8c03\u6574\u5176\u4e3b\u65b9\u5757\u6765\u8bbe\u7f6e\u7535\u8def\u677f\u4f18\u5148\u7ea7.%n%n\u8bd1\u8005\u6ce8:\u8fd8\u53ef\u4ee5\u7528\u526a\u7ebf\u94b3\u53f3\u952e\u4e3b\u65b9\u5757\u542f\u7528\u72ec\u7acb\u8f93\u5165\u603b\u7ebf\u529f\u80fd.",
+                    "data": "\u5bf9\u4e8e\u4e00\u4e2a\u9700\u8981\u70bc\u5236\u8352\u5510\u6570\u91cf\u6750\u6599\u7684\u4eba\u6765\u8bf4,\u8fd9\u53f0\u673a\u5668\u662f\u5b8c\u7f8e\u7684.  \u8fd9\u4e2a\u673a\u5668\u602a\u517d\u53ef\u4ee5\u540c\u65f6\u5904\u7406256\u4e2a\u914d\u65b9.%n%n\u73bb\u7483\u7b49\u7ea7(\u6bd4\u5982\u5728NEI\u641c\u7d22\"\u73bb\u7483\u7b49\u7ea7:HV\")\u9650\u5236\u4e86\u8fd9\u53f0\u673a\u5668\u7684\u6700\u9ad8\u80fd\u6e90\u4ed3\u7b49\u7ea7.\u4f60\u751a\u81f3\u53ef\u4ee5\u4f7f\u7528TecTech\u7684\u591aA\u80fd\u6e90\u4ed3! %n%n\u8bd1\u8005\u6ce8:\u8fd8\u53ef\u4ee5\u7528\u526a\u7ebf\u94b3\u53f3\u952e\u4e3b\u65b9\u5757\u542f\u7528\u72ec\u7acb\u8f93\u5165\u603b\u7ebf\u529f\u80fd.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH_A==",
-                    "tooltip": "<strong>\u8d8a\u5927\u8d8a\u597d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania"
+                    "tooltip": "<strong>\u8d8a\u5927\u8d8a\u597d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!"
                 },
                 {
-                    "name": "Megalomania",
+                    "name": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8420616239779406480.png",
                     "x": -144.0,
                     "y": 48.0,
-                    "data": "In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:\n-They innately have 256 parallels.\n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.\n\n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization - consider whether or not you can actually make use of these before you go off building a Mega Blast Furnace in HV...[/note]",
+                    "data": "\u5728HV\u9636\u6bb5\u4e2d,\u4ece\u6280\u672f\u4e0a\u8bb2\u60a8\u73b0\u5728\u6709\u80fd\u529b\u5236\u9020\u67d0\u4e9b\u5de8\u578b\u591a\u65b9\u5757\u7ed3\u6784.\u8fd9\u4e9b\u7edd\u5bf9\u7684\u5de8\u65e0\u9738\u5c06\u628a\u60a8\u7684\u4ea7\u80fd\u63d0\u9ad8\u5230\u524d\u6240\u672a\u89c1\u7684\u6c34\u5e73,\u4f46\u8fd9\u662f\u6709\u4ee3\u4ef7\u7684.\u8fd9\u4e9b\u591a\u65b9\u5757\u673a\u5668\u6709\u4e24\u5927\u4f18\u52bf\uff1a%n-\u5b83\u4eec\u81ea\u5e26256\u5e76\u884c.%n-\u5b83\u4eec\u53ef\u4ee5\u4f7f\u7528TecTech\u591aA\u80fd\u6e90\u4ed3\u548c\u6fc0\u5149\u4ed3,\u8ba9\u60a8\u53ef\u4ee5\u5411\u5176\u4e2d\u6ce8\u5165\u5de8\u5927\u7684\u80fd\u91cf\u3002%n%n[note]\u8981\u60f3\u4ece\u8fd9\u4e9b\u5de8\u578b\u591a\u65b9\u5757\u673a\u5668\u4e2d\u83b7\u5f97\u771f\u6b63\u7684\u597d\u5904,\u60a8\u9700\u8981\u4f7f\u7528\u5927\u91cf\u7684\u7535\u529b\u6765\u5229\u7528\u5176\u8d85\u9ad8\u5e76\u884c\u6570\u7684\u4f18\u52bf--\u5728HV\u9636\u6bb5\u5efa\u9020\u5de8\u578b\u5de5\u4e1a\u9ad8\u7089\u4e4b\u524d,\u8bf7\u8003\u8651\u4e00\u4e0b\u60a8\u662f\u5426\u80fd\u771f\u6b63\u5145\u5206\u5229\u7528\u8fd9\u4e9b\u673a\u5668...[/note]%n",
                     "quest_id": "wGINqtSuSQKLI_Yk7hAdcA==",
-                    "tooltip": "<strong>Megalomania</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)"
+                    "tooltip": "<strong>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)"
                 },
                 {
-                    "name": "More steam, more pressure!",
+                    "name": "\u66f4\u591a\u84b8\u6c7d,\u66f4\u591a\u538b\u529b\uff01",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5991978432068446918.png",
                     "x": -24.0,
                     "y": -84.0,
-                    "data": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nOnce the multi forms, provide lots of steam to get lots of compressed items.",
+                    "data": "\u4f60\u5728\u84b8\u6c7d\u65f6\u4ee3\u662f\u600e\u4e48\u538b\u7f29\u4e1c\u897f\u7684?\u7b80\u5355,\u5728\u4e00\u4e2a\u5730\u65b9\u653e\u4e00\u5806\u84b8\u6c7d,\u5728\u9ad8\u538b\u4e0b,\u53ef\u4ee5\u65bd\u52a0\u4e00\u4e2a\u529b\u6765\u538b\u7f29\u4e1c\u897f...%n%n\u8ba9\u6211\u4eec\u4ec5\u4ec5\u662f\u628a\u5b83\u53d8\u5927.\u6709\u4e86\u5927\u578b\u84b8\u6c7d\u538b\u7f29\u673a,\u4f60\u5c31\u53ef\u4ee5\u62e5\u6709\u66f4\u5927\u89c4\u6a21\u7684\u538b\u7f29\u673a,\u7c7b\u4f3c\u5176\u4ed6\u84b8\u6c7d\u591a\u65b9\u5757\u673a\u5668.\u5982\u679c\u4f60\u89c9\u5f97\u538b\u7f29\u7684\u914d\u65b9\u8017\u65f6\u8fc7\u957f,\u8fd9\u5c06\u662f\u4e00\u4e2a\u5f88\u597d\u7684\u89e3\u51b3\u65b9\u6848.%n%n\u7b49\u5230\u591a\u65b9\u5757\u7ed3\u6784\u6210\u578b\u540e,\u8bf7\u63d0\u4f9b\u5927\u91cf\u84b8\u6c7d\u4ee5\u83b7\u5f97\u5927\u91cf\u538b\u7f29\u540e\u7684\u7269\u54c1.",
                     "quest_id": "Plg8vg0gS9Ks2Ddc5sIVOg==",
-                    "tooltip": "<strong>More steam, more pressure!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u66f4\u591a\u84b8\u6c7d,\u66f4\u591a\u538b\u529b\uff01</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
-                    "name": "Multiblock Revolution",
+                    "name": "\u591a\u65b9\u5757\u9769\u547d",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8198041923981670459.png",
                     "x": 24.0,
                     "y": -180.0,
-                    "data": "The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where the so-called multiblocks come in. There\u2019s a variety of steam multiblocks available to you - go have a look at the Mass Processing quest tab! \n\nThis tab introduces you to a wide range of extremely powerful multiblock machines that can replace your old, worn-out singleblocks (and some that can replace your old multiblocks!). Many of these new machines will require you to handle additional mechanics and requirements, but it will be worth it!\n\nHere are some terms you should be familiar with as you enter the world of multiblocks:\n\nOverclock (OC): \nIf a machine can handle at least 4 times the voltage that is required for a recipe, it will overclock - causing it to require 4x the EU/t but also run 2x as fast. This can happen multiple times!\n\nPerfect Overclock (Often phrased as \"Does not lose efficiency when overclocked):\nSome machines conditionally (or unconditionally) perform perfect overclocks: in this case, the machine will require 4x the EU/t, but it will run 4x as fast instead, leading to both increased speed and no net increase in the total eu usage!\n\nParallel (Often phrased as \"Processes x items\"): \nMachines which parallel act as if they are running multiple of themselves - that is to say, they are able to perform multiple of the same recipe at the same time, using the recipe's EU/t multiplied by the number of parallels. Machines which parallel will [warn]PRIORITIZE[/warn] this behavior over overclocking, which is good for you! Parallels are more efficient.\n\n[note]When working with multiblocks, if power is interrupted during operation, your inputs will be lost forever... careful![/note]",
+                    "data": "\u4f60\u4e00\u76f4\u5728\u4f7f\u7528\u7684\u84b8\u6c7d\u673a\u5668\u8868\u73b0\u826f\u597d,\u4f46\u603b\u6709\u4e00\u5929\u4f60\u9700\u8981\u5904\u7406\u66f4\u591a\u7684\u7269\u54c1.\u8fd9\u65f6\u5019,\u6240\u8c13\u7684\u591a\u65b9\u5757\u673a\u5668\u5c31\u6d3e\u4e0a\u7528\u573a\u4e86.\u6709\u591a\u79cd\u84b8\u6c7d\u591a\u65b9\u5757\u673a\u5668\u53ef\u4f9b\u4f60\u9009\u62e9\u2014\u2014\u5feb\u53bb\u770b\u770b\u201c\u5927\u89c4\u6a21\u52a0\u5de5\u201d\u4efb\u52a1\u680f\u5427!%n%n\u8fd9\u4e2a\u4efb\u52a1\u680f\u5c06\u5411\u4f60\u4ecb\u7ecd\u4e00\u7cfb\u5217\u6781\u5176\u5f3a\u5927\u7684\u591a\u65b9\u5757\u673a\u5668,\u5b83\u4eec\u53ef\u4ee5\u66ff\u4ee3\u4f60\u90a3\u4e9b\u9648\u65e7\u7684\u5355\u65b9\u5757\u673a\u5668(\u4ee5\u53ca\u4e00\u4e9b\u65e7\u7684\u591a\u65b9\u5757\u673a\u5668!).\u8fd9\u4e9b\u65b0\u673a\u5668\u4e2d\u7684\u8bb8\u591a\u9700\u8981\u4f60\u5904\u7406\u989d\u5916\u7684\u673a\u5236\u548c\u8981\u6c42,\u4f46\u7edd\u5bf9\u503c\u5f97\u4e00\u8bd5!%n%n\u5728\u8fdb\u5165\u591a\u65b9\u5757\u7684\u4e16\u754c\u4e4b\u524d,\u4f60\u9700\u8981\u719f\u6089\u4ee5\u4e0b\u672f\u8bed:%n%n\u8d85\u9891(OC):%n\u5982\u679c\u4e00\u53f0\u673a\u5668\u80fd\u591f\u5904\u7406\u81f3\u5c11\u4e3a\u914d\u65b9\u6240\u9700\u7535\u538b4\u500d\u7684\u7535\u538b,\u5b83\u5c06\u4f1a\u8d85\u9891\u2014\u2014\u5bfc\u81f4\u5176\u9700\u89814\u500d\u7684EU/t,\u4f46\u8fd0\u884c\u901f\u5ea6\u63d0\u9ad8\u52302\u500d.\u8fd9\u79cd\u60c5\u51b5\u53ef\u4ee5\u591a\u6b21\u53d1\u751f!%n%n\u65e0\u635f\u8d85\u9891(\u901a\u5e38\u8868\u8ff0\u4e3a\u201c\u8d85\u9891\u65f6\u6548\u7387\u4e0d\u4f1a\u964d\u4f4e\u201d):%n\u67d0\u4e9b\u673a\u5668\u5728\u6761\u4ef6\u5141\u8bb8\u65f6(\u6216\u65e0\u6761\u4ef6)\u6267\u884c\u65e0\u635f\u8d85\u9891:\u5728\u8fd9\u79cd\u60c5\u51b5\u4e0b,\u673a\u5668\u9700\u89814\u500d\u7684EU/t,\u4f46\u8fd0\u884c\u901f\u5ea6\u63d0\u9ad8\u52304\u500d,\u4ece\u800c\u65e2\u589e\u52a0\u4e86\u901f\u5ea6\u53c8\u6ca1\u6709\u603bEU\u6d88\u8017\u7684\u51c0\u589e\u91cf!%n%n\u5e76\u884c(\u901a\u5e38\u8868\u8ff0\u4e3a\u201c\u540c\u65f6\u5904\u7406x\u4e2a\u7269\u54c1\u201d):%n\u5e76\u884c\u5de5\u4f5c\u7684\u673a\u5668\u5c31\u50cf\u5728\u8fd0\u884c\u591a\u4e2a\u81ea\u8eab\u2014\u2014\u4e5f\u5c31\u662f\u8bf4,\u5b83\u4eec\u53ef\u4ee5\u540c\u65f6\u6267\u884c\u591a\u4e2a\u76f8\u540c\u7684\u914d\u65b9,\u4f7f\u7528\u914d\u65b9\u7684EU/t\u4e58\u4ee5\u5e76\u884c\u6570.\u673a\u5668\u4f1a[warn]\u4f18\u5148\u8003\u8651[/warn]\u5e76\u884c\u8fd9\u79cd\u884c\u4e3a\u800c\u4e0d\u662f\u8d85\u9891,\u8fd9\u5bf9\u4f60\u6709\u5229!\u5e76\u884c\u66f4\u52a0\u9ad8\u6548.%n%n[note]\u5f53\u4f7f\u7528\u591a\u65b9\u5757\u673a\u5668\u65f6,\u5982\u679c\u8fd0\u884c\u8fc7\u7a0b\u4e2d\u7535\u529b\u4e2d\u65ad,\u4f60\u7684\u8f93\u5165\u7269\u54c1\u5c06\u4f1a\u6c38\u4e45\u4e22\u5931\u2026\u2026\u5c0f\u5fc3![/note]",
                     "quest_id": "hEsmeH74S4aOOrROI1AHxQ==",
-                    "tooltip": "<strong>Multiblock Revolution</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u70bc!"
+                    "tooltip": "<strong>\u591a\u65b9\u5757\u9769\u547d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u70bc!"
                 },
                 {
                     "name": "\u5927\u7537\u5b69\u5927\u5973\u5b69\u7684\u5927\u73a9\u5177",
@@ -493,9 +493,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2031.png",
                     "x": 252.0,
                     "y": 180.0,
-                    "data": "\u6211\u4e0d\u60f3\u957f\u5927,\u6211\u60f3\u8ddf\u5927\u538b\u6a21\u673a\u73a9.%n\u4ee5\u9632\u4f60\u6ca1\u5728NEI\u770b\u8fc7\u4e3b\u65b9\u5757\u7684tooltip,\u63d0\u9192\u4e00\u4e0b:\u4f60\u53ef\u4ee5\u5728\u5de5\u4e1a\u538b\u6a21\u673a\u4e0a\u653e\u7f6e\u591a\u4e2a\u8f93\u5165\u603b\u7ebf,\u6bcf\u4e2a\u603b\u7ebf\u53ef\u653e\u5165\u4e0d\u540c\u7684\u6a21\u5934,\u8fdb\u5165\u76f8\u5e94\u603b\u7ebf\u7684\u6750\u6599\u4f1a\u88ab\u52a0\u5de5\u6210\u6a21\u5934\u5bf9\u5e94\u7684\u6210\u54c1.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u6211\u4e0d\u60f3\u957f\u5927,\u6211\u60f3\u8ddf\u5927\u538b\u6a21\u673a\u73a9.%n\u4ee5\u9632\u4f60\u6ca1\u5728NEI\u770b\u8fc7\u4e3b\u65b9\u5757\u7684tooltip,\u63d0\u9192\u4e00\u4e0b:\u4f60\u53ef\u4ee5\u5728\u5de5\u4e1a\u538b\u6a21\u673a\u4e0a\u653e\u7f6e\u591a\u4e2a\u8f93\u5165\u603b\u7ebf,\u6bcf\u4e2a\u603b\u7ebf\u53ef\u653e\u5165\u4e0d\u540c\u7684\u6a21\u5934,\u8fdb\u5165\u76f8\u5e94\u603b\u7ebf\u7684\u6750\u6599\u4f1a\u88ab\u52a0\u5de5\u6210\u6a21\u5934\u5bf9\u5e94\u7684\u6210\u54c1.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH7w==",
-                    "tooltip": "<strong>\u5927\u7537\u5b69\u5927\u5973\u5b69\u7684\u5927\u73a9\u5177</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u5927\u7537\u5b69\u5927\u5973\u5b69\u7684\u5927\u73a9\u5177</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
                     "name": "\u7cbe\u5bc6\u7ec4\u88c5\u673a",
@@ -503,19 +503,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/3090.png",
                     "x": 192.0,
                     "y": 276.0,
-                    "data": "\u7cbe\u5bc6\u7ec4\u88c5\u673a\u6709\u4e24\u79cd\u6a21\u5f0f\uff1a\u7cbe\u5bc6\u6a21\u5f0f\u548c\u5e38\u89c4\u6a21\u5f0f.%n%n\u7cbe\u5bc6\u6a21\u5f0f\u662f\u7528\u4e8e\u5236\u9020Good-Generator\u8fd9\u4e2amod\u4e2d\u7684\u67d0\u4e9b\u5148\u8fdb\u90e8\u4ef6.%n%n\u5e38\u89c4\u6a21\u5f0f\u5219\u7c7b\u4f3c\u591a\u65b9\u5757\u7248\u672c\u7684\u7ec4\u88c5\u673a.%n%n\u4f60\u4e0d\u80fd\u501f\u52a9\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u8df3\u79d1\u6280.\u9700\u8981\u901a\u8fc7\u5355\u65b9\u5757\u7ec4\u88c5\u673a\u6216GT++\u591a\u65b9\u5757\u7ec4\u88c5\u673a,\u624d\u80fd\u5236\u9020\u7b2c\u4e00\u4e2a\u9ad8\u9636\u80fd\u6e90\u4ed3,\u7136\u540e\u624d\u80fd\u628a\u5b83\u5b89\u88c5\u5728\u7cbe\u5bc6\u7ec4\u88c5\u673a\u4e0a.",
+                    "data": "\u7cbe\u5bc6\u7ec4\u88c5\u673a\u6709\u4e24\u79cd\u6a21\u5f0f\uff1a\u7cbe\u5bc6\u6a21\u5f0f\u548c\u5e38\u89c4\u6a21\u5f0f.%n%n\u7cbe\u5bc6\u6a21\u5f0f\u662f\u7528\u4e8e\u5236\u9020Good-Generator\u8fd9\u4e2amod\u4e2d\u7684\u67d0\u4e9b\u5148\u8fdb\u90e8\u4ef6.%n%n\u5e38\u89c4\u6a21\u5f0f\u5219\u7c7b\u4f3c\u591a\u65b9\u5757\u7248\u672c\u7684\u7ec4\u88c5\u673a.%n%n[note]\u4f60\u4e0d\u80fd\u501f\u52a9\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u8df3\u79d1\u6280.\u9700\u8981\u901a\u8fc7\u5355\u65b9\u5757\u7ec4\u88c5\u673a\u6216GT++\u591a\u65b9\u5757\u7ec4\u88c5\u673a,\u624d\u80fd\u5236\u9020\u7b2c\u4e00\u4e2a\u9ad8\u9636\u80fd\u6e90\u4ed3,\u7136\u540e\u624d\u80fd\u628a\u5b83\u5b89\u88c5\u5728\u7cbe\u5bc6\u7ec4\u88c5\u673a\u4e0a.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAMEg==",
-                    "tooltip": "<strong>\u7cbe\u5bc6\u7ec4\u88c5\u673a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>ASoC\u8fdb\u9636\u82af\u7247\u7ea7\u7cfb\u7edf</br>\u9540\u94d1\u94af</br>\u94f1\u9507\u5408\u91d1</br>Insane Voltage Multiblocks</br>IV\u80fd\u6e90\u4ed3"
+                    "tooltip": "<strong>\u7cbe\u5bc6\u7ec4\u88c5\u673a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>ASoC\u8fdb\u9636\u82af\u7247\u7ea7\u7cfb\u7edf</br>\u9540\u94d1\u94af</br>\u94f1\u9507\u5408\u91d1</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668</br>IV\u80fd\u6e90\u4ed3"
                 },
                 {
-                    "name": "Pressure washing!",
+                    "name": "\u6c14\u538b\u6d17\u6da4!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8419867822017820934.png",
                     "x": -24.0,
                     "y": -156.0,
-                    "data": "If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.\n\nIf you're tired of waiting forever for your ores to clean up, this is your fix!\n\nThis Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.",
+                    "data": "\u5982\u679c\u60a8\u4e00\u76f4\u5728\u5904\u7406\u6316\u6398\u5230\u7684\u77ff\u77f3,\u90a3\u4e48\u60a8\u4e00\u5b9a\u4f1a\u9047\u5230\u5404\u79cd\u5404\u6837\u7684\u7c89\u788e\u7684\u77ff\u77f3.\u7531\u4e8e\u8fd9\u4e9b\u77ff\u77f3\u6bd4\u8f83\u810f,\u60a8\u5fc5\u987b\u5c06\u5176\u6e05\u6d17\u5e72\u51c0,\u624d\u80fd\u83b7\u5f97\u67d0\u4e9b\u526f\u4ea7\u7269.\u4f46\u5982\u4f55\u6e05\u6d17\u8fd9\u4e9b\u788e\u77ff\u77f3\u5462?\u5f53\u7136\u662f\u4f7f\u7528\u5927\u578b\u84b8\u6c7d\u6d17\u77ff\u5382!\u53ea\u8981\u6709\u7a33\u5b9a\u7684\u84b8\u6c7d\u4f9b\u7ed9\u548c\u5c11\u91cf\u7684\u6c34,\u4f60\u5c31\u80fd\u6d17\u53bb\u6742\u8d28.\u5e76\u5728\u77ed\u65f6\u95f4\u5185\u5f97\u5230\u6d17\u51c0\u7684\u77ff\u77f3.%n%n\u5982\u679c\u4f60\u538c\u5026\u4e86\u957f\u65f6\u95f4\u7b49\u5f85\u6d17\u77ff,\u90a3\u4e48\u8fd9\u5c31\u662f\u4f60\u7684\u89e3\u51b3\u65b9\u6848!%n%n\u8fd9\u4e2a\u591a\u65b9\u5757\u7ed3\u6784\u6709\u4e24\u79cd\u6a21\u5f0f,\u9ed8\u8ba4\u7684\u6d17\u77ff\u673a\u6a21\u5f0f\u548c\u7b80\u6613\u6d17\u77ff\u6c60\u6a21\u5f0f.\u7b80\u6613\u6d17\u77ff\u6c60\u6a21\u5f0f\u5904\u7406\u77ff\u77f3\u7684\u901f\u5ea6\u8981\u5feb\u5f97\u591a,\u4f46\u4e0d\u4f1a\u4ea7\u751f\u526f\u4ea7\u7269.\u4e0e\u5176\u4ed6\u591a\u65b9\u5757\u7ed3\u6784\u4e00\u6837,\u53ef\u4ee5\u901a\u8fc7\u673a\u5668\u63a7\u5236\u5668UI\u4e2d\u7684\u76f8\u5e94\u6309\u94ae\u6216\u7528\u87ba\u4e1d\u5200\u53f3\u952e\u5355\u51fb\u63a7\u5236\u5668\u6765\u5207\u6362\u6a21\u5f0f.\u7531\u4e8e\u6240\u6709\u6d17\u77ff\u914d\u65b9\u90fd\u662fLV\u7535\u538b,\u56e0\u6b64\u8be5\u591a\u65b9\u5757\u7ed3\u6784\u53ef\u4ee5\u8fd0\u884c\u6240\u6709\u6d17\u77ff\u914d\u65b9.",
                     "quest_id": "zorY0c3BQuqLJp7ThOLG-g==",
-                    "tooltip": "<strong>Pressure washing!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u6c14\u538b\u6d17\u6da4!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
                     "name": "\u628a\u6240\u6709\u5de5\u4eba\u8d76\u51fa\u5de5\u4f5c\u5c97\u4f4d",
@@ -523,19 +523,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2054.png",
                     "x": 144.0,
                     "y": -96.0,
-                    "data": "\u5927\u89c4\u6a21\u81ea\u52a8\u88c5\u914d\u673a\u53ef\u4ee5\u4e3a\u4f60\u7ec4\u88c5\u5927\u91cf\u7684\u7269\u54c1. \u5b83\u7684\u8bbe\u8ba1\u521d\u8877\u662f\u5c06\u7ec4\u88c5\u673a\u3001\u62c6\u89e3\u673a\u548c\u81ea\u52a8\u5408\u6210\u673a\u7684\u529f\u80fd\u96c6\u6210\u5230\u4e00\u8d77.\u4f46\u662f,\u76ee\u524d\u53ea\u6709\u7ec4\u88c5\u673a\u6a21\u5f0f\u53ef\u7528.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728ZPM\u9636\u6bb5\u5236\u9020.%n%n\u867d\u8bf4\u76f8\u6bd4\u7cbe\u5bc6\u7ec4\u88c5\u673a,\u5b83\u6709\u8bb8\u591a\u7f3a\u70b9,\u6bd4\u65b9\u8bf4\u89e3\u9501\u65f6\u95f4\u665a\u3001\u5e76\u884c\u4e0d\u9ad8\u3001\u4e0d\u652f\u6301TecTech\u80fd\u6e90\u4ed3;\u4e0d\u8fc7\u6709\u4e00\u70b9\u662f\u5b83\u7684\u4f18\u52bf:\u5b83\u652f\u6301\u53cc\u80fd\u6e90\u4ed3\u5347\u538b,\u5408\u6210\u4e0b\u4e00\u9636\u6bb5\u7684\u7269\u54c1.",
+                    "data": "\u5927\u89c4\u6a21\u81ea\u52a8\u88c5\u914d\u673a\u53ef\u4ee5\u4e3a\u4f60\u7ec4\u88c5\u5927\u91cf\u7684\u7269\u54c1.\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728ZPM\u9636\u6bb5\u5236\u9020.%n%n[note]\u867d\u8bf4\u76f8\u6bd4\u7cbe\u5bc6\u7ec4\u88c5\u673a,\u5b83\u6709\u8bb8\u591a\u7f3a\u70b9,\u6bd4\u65b9\u8bf4\u89e3\u9501\u65f6\u95f4\u665a\u3001\u5e76\u884c\u4e0d\u9ad8\u3001\u4e0d\u652f\u6301TecTech\u80fd\u6e90\u4ed3;\u4e0d\u8fc7\u6709\u4e00\u70b9\u662f\u5b83\u7684\u4f18\u52bf:\u5b83\u652f\u6301\u53cc\u80fd\u6e90\u4ed3\u5347\u538b,\u5408\u6210\u4e0b\u4e00\u9636\u6bb5\u7684\u7269\u54c1.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAIBg==",
-                    "tooltip": "<strong>\u628a\u6240\u6709\u5de5\u4eba\u8d76\u51fa\u5de5\u4f5c\u5c97\u4f4d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u7b2c7\u9636\u6bb5(ZPM)"
+                    "tooltip": "<strong>\u628a\u6240\u6709\u5de5\u4eba\u8d76\u51fa\u5de5\u4f5c\u5c97\u4f4d</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u7b2c7\u9636\u6bb5(ZPM)"
                 },
                 {
-                    "name": "See You Lather",
+                    "name": "\u6211\u4eec\u7a0d\u540e\u518d\u89c1(See You Lather)",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6585475866071969942.png",
                     "x": -12.0,
                     "y": 156.0,
-                    "data": "Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:\nParallel = Item Pipe Casing Parallel + 2 * Voltage Tier, where LV is 1.\n\nAdditionally, it gains a speed boost on all recipes according to this formula:\nSpeed Boost = (Item Pipe Casing Speed Factor + Voltage Tier) / 4\nOr equivalently, the recipe time is multiplied by a factor of 4 / (Item Pipe Casing Factor + Voltage Tier).\n[note]Note that this can actually make the processing speed [warn]slower[/warn] if you use low tier item pipe casing and voltage.[/note]\n\nThe parallel and speed factor of the item casing is listed below:\nTin: 1 Parallel, 0.75 Speed Factor\nBrass: 1 Parallel, 0.8 Speed Factor\nElectrum: 2 Parallel, 0.9 Speed Factor\nPlatinum: 4 Parallel, 1 Speed Factor\nOsmium: 8 Parallel, 1.5 Speed Factor\nQuantium: 12 Parallel, 2 Speed Factor\nFluxed Electrum: 16 Parallel, 3 Speed Factor\nBlack Plutonium: 32 Parallel, 4 Speed Factor",
+                    "data": "\u4e00\u523b\u4e5f\u6ca1\u6709\u4e3a\u5efa\u9020AE\u7cfb\u7edf\u6240\u9700\u7684\u5927\u91cf\u77f3\u82f1\u6746\u53d1\u6101,\u7acb\u9a6c\u8d76\u5230\u73b0\u573a\u7684\u662f\u5de5\u4e1a\u7cbe\u5bc6\u8f66\u5e8a!%n%n[note]\u8fd9\u53f0\u591a\u65b9\u5757\u7684\u901f\u5ea6\u53d6\u51b3\u4e8e\u7269\u54c1\u7ba1\u9053\u65b9\u5757, \u4e14\u81f3\u5c11\u9700\u8981\u94c2\u7b49\u7ea7\u7684.[/note]",
                     "quest_id": "VJN1qfd5SjCkm7CXVd9Pag==",
-                    "tooltip": "<strong>See You Lather</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u6211\u4eec\u7a0d\u540e\u518d\u89c1(See You Lather)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u6447\u8d77\u6765...",
@@ -543,9 +543,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1420.png",
                     "x": -24.0,
                     "y": 24.0,
-                    "data": "\u4ece\u6d17\u51c0\u7684\u77ff\u77f3\u4e2d\u7b5b\u51fa...\u65e0\u8bba\u5982\u4f55,\u5de5\u4e1a\u7b5b\u9009\u673a\u4f1a\u663e\u8457\u63d0\u9ad8\u7b5b\u9009\u901f\u5ea6.\u4f60\u4f1a\u600e\u4e48\u5904\u7406\u8fd9\u4e9b\u5b9d\u77f3\u5462\uff1f%n%n\u5982\u679c\u4f60\u4e0d\u60f3\u7528\u53cc\u80fd\u6e90\u4ed3\u5347\u538b\u7684\u8bdd,\u5f97\u518d\u505a\u4e00\u4e2a\u673a\u68b0\u65b9\u5757.",
+                    "data": "\u4ece\u6d17\u51c0\u7684\u77ff\u77f3\u4e2d\u7b5b\u51fa...\u65e0\u8bba\u5982\u4f55,\u5de5\u4e1a\u7b5b\u9009\u673a\u4f1a\u663e\u8457\u63d0\u9ad8\u7b5b\u9009\u901f\u5ea6.\u4f60\u4f1a\u600e\u4e48\u5904\u7406\u8fd9\u4e9b\u5b9d\u77f3\u5462\uff1f%n%n[note]\u5982\u679c\u4f60\u4e0d\u60f3\u7528\u53cc\u80fd\u6e90\u4ed3\u5347\u538b\u7684\u8bdd,\u5f97\u518d\u505a\u4e00\u4e2a\u673a\u68b0\u65b9\u5757.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFjA==",
-                    "tooltip": "<strong>\u6447\u8d77\u6765...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5c06\u5b9d\u77f3\u4e0e\u7c89\u672b\u5206\u5f00</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>\u6447\u8d77\u6765...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5c06\u5b9d\u77f3\u4e0e\u7c89\u672b\u5206\u5f00</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
                     "name": "\u7194\u5316\u4e07\u7269...",
@@ -555,7 +555,7 @@
                     "y": 48.0,
                     "data": "...\u6709\u4e86\u8fd9\u9879\u4f1f\u5927\u7684\u53d1\u660e!\u53ea\u8981\u5347\u7ea7\u4f9b\u7535\u548c\u7ebf\u5708,\u5c31\u53ef\u4ee5\u7194\u70bc\u4e0d\u53ef\u80dc\u6570\u7684\u7269\u54c1.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAAVQ==",
-                    "tooltip": "<strong>\u7194\u5316\u4e07\u7269...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>High Voltage Multiblocks</br>\u9ad8\u7ea7\u7535\u8def\u677f"
+                    "tooltip": "<strong>\u7194\u5316\u4e07\u7269...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784</br>\u9ad8\u7ea7\u7535\u8def\u677f"
                 },
                 {
                     "name": "\u7ed5\u4e86\u4e00\u5708\u53c8\u4e00\u5708",
@@ -563,59 +563,59 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2037.png",
                     "x": 252.0,
                     "y": 216.0,
-                    "data": "\u60f3\u8981\u7ed5\u5730\u7403\u51e0\u5708\u7684\u5bfc\u7ebf?\u8bd5\u8bd5\u8fd9\u4e2a\u5427.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u60f3\u8981\u7ed5\u5730\u7403\u51e0\u5708\u7684\u5bfc\u7ebf?\u8bd5\u8bd5\u8fd9\u4e2a\u5427.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH9Q==",
-                    "tooltip": "<strong>\u7ed5\u4e86\u4e00\u5708\u53c8\u4e00\u5708</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u7ed5\u4e86\u4e00\u5708\u53c8\u4e00\u5708</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
-                    "name": "Steam Blender?",
+                    "name": "\u84b8\u6c7d\u6405\u62cc\u673a?",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5681445710078694276.png",
                     "x": 72.0,
                     "y": -120.0,
-                    "data": "Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Blender is the largest of these Steam Multiblocks and can handle your mixing needs for a while, having more parallel than an LV singleblock Mixer.\n\n[note]This Multiblock can only process recipes up to LV tier and is unable to process Fluid recipes.[/note]",
+                    "data": "\u65e2\u7136\u53ef\u4ee5\u7528\u84b8\u6c7d\u548c\u6d3b\u585e\u6765\u6df7\u5408\u7c89\u672b,\u4e3a\u4ec0\u4e48\u8fd8\u8981\u4f7f\u7528\u590d\u6742\u7684\u5bfc\u7ebf\u548c\u7535\u8def\u5462?\u5927\u578b\u84b8\u6c7d\u6405\u62cc\u673a\u662f\u8fd9\u4e9b\u84b8\u6c7d\u591a\u65b9\u5757\u4e2d\u6700\u5927\u7684\u4e00\u4e2a,\u53ef\u4ee5\u6ee1\u8db3\u60a8\u4e00\u6bb5\u65f6\u95f4\u7684\u6405\u62cc\u9700\u6c42,\u6bd4LV\u5355\u65b9\u5757\u6405\u62cc\u673a\u6709\u7740\u66f4\u591a\u7684\u5e76\u884c\u6570.%n%n[note]\u8be5\u591a\u65b9\u5757\u673a\u5668\u53ea\u80fd\u5904\u7406LV\u7ea7\u4ee5\u4e0b\u7684\u914d\u65b9\u5e76\u4e14\u65e0\u6cd5\u5904\u7406\u6d41\u4f53\u914d\u65b9.[/note]",
                     "quest_id": "WEwrzX4ZRkSxJ3M6cBesfA==",
-                    "tooltip": "<strong>Steam Blender?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u84b8\u6c7d\u6405\u62cc\u673a?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
-                    "name": "STEAM-POWERED BREAKTHROUGH",
+                    "name": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
                     "symbolSize": 62.400000000000006,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6003979525766501212.png",
                     "x": 24.0,
                     "y": -120.0,
-                    "data": "You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where Multiblocks come in.\n\nWhile these Multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less Steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the Steam provided is enough to sustain it.\n\nThey do however have some quirks that need to be taken care of:\n\n-These Multiblocks require very specific I/O blocks, use only those that are part of the quest \n-They process up to 8 items, where the Basic Tier is made of Bronze and High Pressure Tier is made of Steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)\n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the Controller Block\n\n[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some Multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these Multiblocks.[/note]",
+                    "data": "\u60a8\u73b0\u5728\u5e94\u8be5\u5df2\u7ecf\u6536\u96c6\u4e86\u4e0d\u5c11\u5355\u65b9\u5757\u84b8\u6c7d\u673a\u5668.\u867d\u7136\u8fd9\u4e9b\u673a\u5668\u53ef\u4ee5\u5e2e\u52a9\u60a8\u5904\u7406\u5c11\u91cf\u6750\u6599,\u4f46\u603b\u6709\u4e00\u5929\u60a8\u9700\u8981\u5904\u7406\u5927\u91cf\u7269\u54c1.\u8fd9\u5c31\u662f\u84b8\u6c7d\u591a\u65b9\u5757\u673a\u5668\u53d1\u6325\u4f5c\u7528\u7684\u5730\u65b9.%n%n\u867d\u7136\u591a\u65b9\u5757\u84b8\u6c7d\u673a\u5668\u7684\u6750\u6599\u6210\u672c\u8fdc\u9ad8\u4e8e\u5355\u65b9\u5757,\u4f46\u5b83\u4eec\u4e5f\u6709\u4e00\u4e9b\u4f18\u52bf\uff1a\u5b83\u4eec\u4f7f\u7528\u7684\u84b8\u6c7d\u66f4\u5c11,\u800c\u4e14\u53ef\u4ee5\u5e76\u884c\u5904\u7406\u914d\u65b9,\u8fd9\u610f\u5473\u7740\u5982\u679c\u63d0\u4f9b\u7684\u84b8\u6c7d\u8db3\u591f,\u4e00\u4e2a\u914d\u65b9\u5faa\u73af\u53ef\u4ee5\u540c\u65f6\u5236\u4f5c\u591a\u4e2a\u7269\u54c1.%n%n\u4e0d\u8fc7,\u5b83\u4eec\u4e5f\u6709\u4e00\u4e9b\u9700\u8981\u6ce8\u610f\u7684\u602a\u7656\uff1a%n%n-\u8fd9\u4e9b\u591a\u65b9\u5757\u9700\u8981\u975e\u5e38\u7279\u6b8a\u7684I/O\u65b9\u5757,\u53ea\u80fd\u4f7f\u7528\u4efb\u52a1\u4e2d\u7684\u663e\u793a\u7684\u90a3\u4e9b\u65b9\u5757.%n%n-\u5b83\u4eec\u6700\u591a\u53ef\u4ee5\u52a0\u5de58\u4ef6\u7269\u54c1,\u57fa\u7840\u7b49\u7ea7\u7684\u673a\u5668\u7531\u9752\u94dc\u5236\u6210,\u800c\u9ad8\u538b\u7b49\u7ea7\u7531\u94a2\u5236\u6210(\u67e5\u770bNEI\u4e2d\u7684\u591a\u65b9\u5757\u9884\u89c8,\u5b83\u4f1a\u663e\u793a\u4e0d\u540c\u7684\u7b49\u7ea7).%n-\u5982\u679c\u4f60\u6b63\u5728\u770b\u7740\u63a7\u5236\u5668\u65b9\u5757,\u53ef\u4ee5\u901a\u8fc7WAILA\u67e5\u770b\u673a\u5668\u7684\u7b49\u7ea7\u548c\u5e76\u884c\u5904\u7406\u7684\u6570\u91cf.%n%n[note]\u901a\u8fc7\u8fd9\u4e2a\u4efb\u52a1,\u4f60\u5df2\u7ecf\u5f00\u59cb\u4e86\u5927\u89c4\u6a21\u751f\u4ea7\u4e4b\u65c5.\u4e0d\u8fc7,\u5148\u522b\u9ad8\u5174\u5f97\u592a\u65e9.\u867d\u7136\u4e00\u4e9b\u591a\u65b9\u5757\u673a\u5668\u5728\u84b8\u6c7d\u65f6\u4ee3\u5c31\u53ef\u4ee5\u5236\u4f5c,\u4f46\u5927\u591a\u6570\u7684\u591a\u65b9\u5757\u673a\u5668\u8fd8\u662f\u53ea\u6709\u5728EV\u6216\u66f4\u9ad8\u7535\u538b\u7b49\u7ea7\u624d\u80fd\u89e3\u9501,\u5176\u4e2d\u4e5f\u5305\u62ec\u8fd9\u4e9b\u84b8\u6c7d\u591a\u65b9\u5757\u673a\u5668\u7684\u52a0\u5f3a\u7248.",
                     "quest_id": "quLxATDCQFWsrZRuh_gspA==",
-                    "tooltip": "<strong>STEAM-POWERED BREAKTHROUGH</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Multiblock Revolution"
+                    "tooltip": "<strong>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u591a\u65b9\u5757\u9769\u547d"
                 },
                 {
-                    "name": "Steam stomping!",
+                    "name": "\u84b8\u6c7d\u731b\u51fb!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7512596816828408986.png",
                     "x": 72.0,
                     "y": -156.0,
-                    "data": "While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Presser, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.\n\nThe Steam Presser can only process recipes up to LV Tier.",
+                    "data": "\u953b\u9020\u9524\u7684\u901f\u5ea6\u5df2\u7ecf\u76f8\u5f53\u5feb\u4e86,\u4e3a\u4ec0\u4e48\u4e0d\u5236\u9020\u8fd9\u4e2a\u5347\u7ea7\u7248,\u8ba9\u5b83\u53d8\u5f97\u66f4\u5feb?\u6709\u4e86\u5927\u578b\u84b8\u6c7d\u953b\u9020\u9524,\u4f60\u5c31\u53ef\u4ee5\u5728\u4efb\u4f55\u6750\u6599\u4e0a\u5145\u5206\u91ca\u653e\u84b8\u6c7d\u7684\u529b\u91cf.\u4f60\u53ef\u4ee5\u770b\u5230\u65b9\u5757\u5206\u5d29\u79bb\u6790,\u5404\u79cd\u6746\u88ab\u6324\u5728\u4e00\u8d77,\u901f\u5ea6\u6bd4\u4ee5\u5f80\u4efb\u4f55\u65f6\u5019\u90fd\u5feb----\u81f3\u5c11\u5728\u4f60\u83b7\u5f97\u66f4\u5148\u8fdb\u7684\u6280\u672f\u4e4b\u524d\u662f\u8fd9\u6837.%n%n\u8fd9\u53f0\u5927\u578b\u84b8\u6c7d\u953b\u9020\u9524\u53ea\u80fd\u5904\u7406LV\u7b49\u7ea7\u53ca\u4ee5\u4e0b\u7684\u914d\u65b9.",
                     "quest_id": "s6AEHSKiQe2XveT_oDZbZg==",
-                    "tooltip": "<strong>Steam stomping!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u84b8\u6c7d\u731b\u51fb!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
-                    "name": "\u84b8\u6c7d\u9636\u6bb5\u7684\u591a\u65b9\u5757? \u4e0d\u53ef\u80fd!",
+                    "name": "\u70ed\u6c14\u817e\u817e\u7684\u7c89\u788e\u673a",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2764.png",
                     "x": 72.0,
                     "y": -84.0,
-                    "data": "\u5b83\u662f\u84b8\u6c7d\u7814\u78e8\u673a\u7684\u591a\u65b9\u5757\u7248\u672c.\u4e00\u6b21\u53ea\u80fd\u540c\u65f6\u5904\u74068\u4e2a\u7269\u54c1,\u4e0d\u8fc7\u901f\u5ea6\u66f4\u5feb.%n%n\u8bf7\u6ce8\u610f,\u6b64\u591a\u65b9\u5757\u673a\u5668\u8981\u6c42\u975e\u5e38\u7279\u6b8a\u7684\u8f93\u5165/\u8f93\u51fa\u4ed3\u5ba4,\u522b\u5f04\u9519\u4e86.%n%nWIKI \u5927\u578b\u84b8\u6c7d\u7814\u78e8\u673a\uff1agtnh.huijiwiki.com/p/128",
+                    "data": "\u5b83\u662f\u4f60\u503c\u5f97\u4fe1\u8d56\u7684\u84b8\u6c7d\u7814\u78e8\u673a\u7684\u591a\u65b9\u5757\u7248\u672c.%n%n\u4f5c\u4e3a\u4e00\u4e2a3x3\u7684\u591a\u65b9\u5757\u7ed3\u6784,\u5982\u679c\u4f60\u5728\u84b8\u6c7d\u65f6\u4ee3,\u5b83\u7684\u9020\u4ef7\u53ef\u80fd\u5f88\u8d35.\u4f46\u662f\u5e73\u5747\u6bcf\u4e2a\u77ff\u77f3\u7684\u52a0\u5de5\u65f6\u95f4\u975e\u5e38\u77ed,\u4f60\u53ef\u4ee5\u7528\u5b83\u6765\u7ef4\u6301\u521d\u7ea7\u7684\u77ff\u7269\u5904\u7406\u7cfb\u7edf.%n%n\u5b83\u4f1a\u88abHV\u7814\u78e8\u673a\u6dd8\u6c70, \u56e0\u4e3aHV\u7814\u78e8\u673a\u89e3\u9501\u4e86\u989d\u5916\u7684\u8f93\u51fa\u69fd\u6765\u8f93\u51fa\u7814\u78e8\u7684\u526f\u4ea7\u7269, \u800c\u84b8\u6c7d\u7814\u78e8\u673a\u53ea\u4f1a\u4ea7\u51fa\u7b2c\u4e00\u683c\u7684\u4e3b\u8981\u4ea7\u7269. \u4e0d\u8fc7HV\u4e4b\u524d,\u5b83\u90fd\u5f88\u7ba1\u7528!  %n%n\u84b8\u6c7d\u7814\u78e8\u673a\u53ea\u80fd\u5904\u7406\u6700\u9ad8LV\u7b49\u7ea7\u7684\u914d\u65b9.%n%n \u4e2d\u6587WIKI \u5927\u578b\u84b8\u6c7d\u7814\u78e8\u673a\uff1a[url]https://gtnh.huijiwiki.com/p/128[/url]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKzA==",
-                    "tooltip": "<strong>\u84b8\u6c7d\u9636\u6bb5\u7684\u591a\u65b9\u5757? \u4e0d\u53ef\u80fd!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>STEAM-POWERED BREAKTHROUGH"
+                    "tooltip": "<strong>\u70ed\u6c14\u817e\u817e\u7684\u7c89\u788e\u673a</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
-                    "name": "Taking Things Apart",
+                    "name": "\u63d0\u53d6\u4e07\u7269",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8917357558952918000.png",
                     "x": -24.0,
                     "y": 48.0,
-                    "data": "You probably haven't thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.\n\n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]",
+                    "data": "\u60a8\u53ef\u80fd\u6709\u4e00\u6bb5\u65f6\u95f4\u6ca1\u6709\u5728\u610f\u8fc7\u63d0\u53d6\u673a\u4e86.\u60a8\u7684\u84b8\u6c7d\u63d0\u53d6\u673a\u662f\u5426\u8fd8\u5728\u67d0\u4e2a\u5730\u65b9\u79ef\u7070?\u597d\u5427.\u4f46\u5982\u679c\u60a8\u9700\u8981\u5feb\u901f\u63d0\u53d6\u7269\u54c1(\u53ef\u80fd\u662f\u5904\u7406\u6210\u5428\u82b1?),\u4f7f\u7528\u5de5\u4e1a\u63d0\u53d6\u673a\u597d\u4e86.%n%n[note]\u6839\u636e\u7ba1\u9053\u65b9\u5757\u7684\u4e0d\u540c\u7b49\u7ea7\u83b7\u53d6\u66f4\u591a\u7684\u5e76\u884c,\u56e0\u6b64\u5c3d\u91cf\u4f7f\u7528\u60a8\u80fd\u5236\u4f5c\u7684\u6700\u597d\u7684\u7ba1\u9053\u65b9\u5757.[/note]",
                     "quest_id": "XA467S8MQtCEPy6L23eEEA==",
-                    "tooltip": "<strong>Taking Things Apart</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>\u63d0\u53d6\u4e07\u7269</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
                     "name": "\u6d17\u77ff\u5382\u91cc\u7684\u77ff\u77f3...",
@@ -623,9 +623,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/1422.png",
                     "x": 24.0,
                     "y": 276.0,
-                    "data": "...\u5468\u800c\u590d\u59cb,24\u5c0f\u65f6\u8fd0\u4f5c. \u4e00\u4e2a\u5927\u578b\u7684\u6d17\u77ff\u5382\u53ef\u4ee5\u5c06\u4f60\u7684\u77ff\u77f3\u53d8\u5f97\u5e72\u51c0\u53c8\u6574\u6d01. \u901a\u8fc7\u87ba\u4e1d\u5200\u53ef\u5207\u6362\u6d17\u77ff/\u7b80\u6613\u6d17\u77ff\u6a21\u5f0f\u548c\u5316\u5b66\u6d78\u6d17\u6a21\u5f0f.%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "...\u5468\u800c\u590d\u59cb,24\u5c0f\u65f6\u8fd0\u4f5c. \u4e00\u4e2a\u5927\u578b\u7684\u6d17\u77ff\u5382\u53ef\u4ee5\u5c06\u4f60\u7684\u77ff\u77f3\u53d8\u5f97\u5e72\u51c0\u53c8\u6574\u6d01. \u901a\u8fc7\u87ba\u4e1d\u5200\u53ef\u5207\u6362\u6d17\u77ff/\u7b80\u6613\u6d17\u77ff\u6a21\u5f0f\u548c\u5316\u5b66\u6d78\u6d17\u6a21\u5f0f.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAFjg==",
-                    "tooltip": "<strong>\u6d17\u77ff\u5382\u91cc\u7684\u77ff\u77f3...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u6d17\u77ff\u5382\u91cc\u7684\u77ff\u77f3...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
                     "name": "\u5df4\u6bd4\u4f26\u5854",
@@ -635,27 +635,27 @@
                     "y": 84.0,
                     "data": "\u55ef...\u5982\u679c\u5c0664\u4e2a\u84b8\u998f\u5854\u5408\u4e3a\u4e00\u5ea7\u4f1a\u53d1\u751f\u4ec0\u4e48...?\u4f60\u61c2\u7684...\u4f60\u4f1a\u5f97\u5230\u4e00\u4e2a61\u5c42\u9ad8\u7684\u591a\u65b9\u5757\u7ed3\u6784.%n%n\u6b64\u591a\u65b9\u5757\u673a\u5668\u4e00\u6b21\u6700\u591a\u53ef\u4ee5\u5904\u7406256\u4e2a\u914d\u65b9.",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAJEA==",
-                    "tooltip": "<strong>\u5df4\u6bd4\u4f26\u5854</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Megalomania"
+                    "tooltip": "<strong>\u5df4\u6bd4\u4f26\u5854</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!"
                 },
                 {
-                    "name": "Under Pressure",
+                    "name": "\u538b\u529b\u4e4b\u4e0b",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7108514021348170205.png",
                     "x": -36.0,
                     "y": 252.0,
-                    "data": "Bigger, better, faster. The Large Electric Compressor does about what you would expect.",
+                    "data": "\u66f4\u5927,\u66f4\u597d,\u66f4\u5feb!\u8fd9\u53f0\u5927\u578b\u7535\u52a8\u538b\u7f29\u673a\u548c\u4f60\u9884\u6599\u7684\u5dee\u4e0d\u591a.",
                     "quest_id": "qDZZLi21TrmdWXwo_KimIw==",
-                    "tooltip": "<strong>Under Pressure</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Extreme Voltage Multiblocks"
+                    "tooltip": "<strong>\u538b\u529b\u4e4b\u4e0b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>EV\u591a\u65b9\u5757"
                 },
                 {
-                    "name": "...with the power of science!",
+                    "name": "...\u501f\u52a9\u79d1\u5b66\u7684\u529b\u91cf!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7992749153415472519.png",
                     "x": 240.0,
                     "y": -96.0,
-                    "data": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don't have anything else to do with it...\n\n[note]This multi is UV.[/note]",
+                    "data": "\u8fd9\u4e2a\u591a\u65b9\u5757\u7ed3\u6784\u53ef\u4ee5\u8ba9\u60a8\u4f7f\u7528\u8d28\u91cf\u53d1\u751f\u5668\u5236\u9020\u7684\u6240\u6709UU\u7269\u8d28\uff0c\u5e76\u4e0d\u662f\u8bf4\u60a8\u6ca1\u6709\u5176\u4ed6\u4e1c\u897f\u53ef\u4ee5\u7528\u5b83\u6765\u505a...%n%n[note]\u8fd9\u662f\u4e00\u4e2aUV\u7684\u591a\u65b9\u5757\u7ed3\u6784.[/note]",
                     "quest_id": "bLAFkZX-RHGRFAz-C93aeQ==",
-                    "tooltip": "<strong>...with the power of science!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Mass Processing in LuV and Beyond</br>\u7b2c8\u9636\u6bb5(UV)"
+                    "tooltip": "<strong>...\u501f\u52a9\u79d1\u5b66\u7684\u529b\u91cf!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5</br>\u7b2c8\u9636\u6bb5(UV)"
                 },
                 {
                     "name": "\u4f60\u95fb\u8d77\u6765\u50cf\u6389\u5230\u4e86\u9152\u6876\u91cc!",
@@ -663,19 +663,19 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/768.png",
                     "x": 72.0,
                     "y": 72.0,
-                    "data": "\u5728\u4f60\u5904\u7406\u88c2\u89e3\u71c3\u6599\u6216\u70ed\u89e3\u7089\u914d\u65b9\u65f6,\u8fd9\u4e2a\u72e0\u89d2\u8272\u4f1a\u6781\u5927\u5730\u63d0\u9ad8\u526f\u4ea7\u7387.\u5982\u6b64\u4e00\u6765\u4f60\u5c31\u53ef\u4ee5\u66f4\u6709\u6548\u7387\u7684\u5236\u9020\u5de5\u4e1aTNT\u3001\u5851\u6599\u3001\u805a\u56db\u6c1f\u4e59\u70ef,\u4ee5\u53ca\u5176\u4ed6\u5851\u6599\u4ea7\u54c1.\u4f60\u4e5f\u9700\u8981\u8fd9\u53f0\u673a\u5668\u6765\u5b8c\u6210\u4f60\u7684\u94c2\u7ebf.%n%n\u4f60\u9700\u8981\u5728\u8d85\u51c0\u95f4\u4e2d\u5236\u9020EV\u7535\u8def\u677f,\u7136\u540e\u624d\u80fd\u5236\u505a\u8fd9\u53f0\u673a\u5668.%n%n\u81f3\u4e8e\u4ed3\u5ba4,\u4f60\u53ef\u4ee5\u81ea\u7531\u9009\u62e9.\u4e00\u4e2aMV\u80fd\u6e90\u4ed3\u5c31\u53ef\u4ee5\u80dc\u4efb\u5927\u591a\u6570\u6709\u7528\u7684\u914d\u65b9.\u4e24\u4e2aMV\u80fd\u6e90\u4ed3\u6216\u8005\u4e00\u4e2aHV\u80fd\u6e90\u4ed3\u5c31\u53ef\u4ee5\u8986\u76d6\u9664\u4e86\u6c61\u67d3\u7269\u6216\u4e19\u916e\u5916\u51e0\u4e4e\u6240\u6709\u7684\u914d\u65b9.%n%n\u4f60\u8fd8\u9700\u8981\u4e00\u4e2a\u8f93\u5165\u4ed3\u3001\u81f3\u5c11\u4e94\u4e2a\u8f93\u51fa\u4ed3,\u4ee5\u53ca\u4e00\u4e2a\u8f93\u51fa\u603b\u7ebf\u7528\u4e8e\u6536\u96c6\u90a3\u4e9b\u56fa\u4f53\u4ea7\u51fa.%n%nPS\uff1a\u6211\u5728\u6570\u636e\u8868\u683c\u91cc\u5217\u51fa\u4e86\u6240\u6709\u7684\u84b8\u998f\u5854\u914d\u65b9,\u8fd9\u6837\u4f60\u67e5\u770b\u8d77\u6765\u4f1a\u66f4\u52a0\u65b9\u4fbf. \u73b0\u5728\u4f60\u53ef\u4ee5\u8f7b\u6613\u6bd4\u8f83\u9009\u62e9\u5904\u7406\u77f3\u6cb9\u7684\u8def\u7ebf\u4e86!",
+                    "data": "\u5728\u4f60\u5904\u7406\u88c2\u89e3\u71c3\u6599\u6216\u70ed\u89e3\u7089\u914d\u65b9\u65f6,\u8fd9\u4e2a\u72e0\u89d2\u8272\u4f1a\u6781\u5927\u5730\u63d0\u9ad8\u526f\u4ea7\u7387.\u5982\u6b64\u4e00\u6765\u4f60\u5c31\u53ef\u4ee5\u66f4\u6709\u6548\u7387\u7684\u5236\u9020\u5de5\u4e1aTNT\u3001\u5851\u6599\u3001\u805a\u56db\u6c1f\u4e59\u70ef,\u4ee5\u53ca\u5176\u4ed6\u5851\u6599\u4ea7\u54c1.\u4f60\u4e5f\u9700\u8981\u8fd9\u53f0\u673a\u5668\u6765\u5b8c\u6210\u4f60\u7684\u94c2\u7ebf.%n%n\u4f60\u9700\u8981\u5728\u8d85\u51c0\u95f4\u4e2d\u5236\u9020EV\u7535\u8def\u677f,\u7136\u540e\u624d\u80fd\u5236\u505a\u8fd9\u53f0\u673a\u5668.%n%n\u81f3\u4e8e\u4ed3\u5ba4,\u4f60\u53ef\u4ee5\u81ea\u7531\u9009\u62e9.\u4e00\u4e2aMV\u80fd\u6e90\u4ed3\u5c31\u53ef\u4ee5\u80dc\u4efb\u5927\u591a\u6570\u6709\u7528\u7684\u914d\u65b9.\u4e24\u4e2aMV\u80fd\u6e90\u4ed3\u6216\u8005\u4e00\u4e2aHV\u80fd\u6e90\u4ed3\u5c31\u53ef\u4ee5\u8986\u76d6\u9664\u4e86\u6c61\u67d3\u7269\u6216\u4e19\u916e\u5916\u51e0\u4e4e\u6240\u6709\u7684\u914d\u65b9.%n%n\u4f60\u8fd8\u9700\u8981\u4e00\u4e2a\u8f93\u5165\u4ed3\u3001\u81f3\u5c11\u4e94\u4e2a\u8f93\u51fa\u4ed3,\u4ee5\u53ca\u4e00\u4e2a\u8f93\u51fa\u603b\u7ebf\u7528\u4e8e\u6536\u96c6\u90a3\u4e9b\u56fa\u4f53\u4ea7\u51fa.%n%n[note]PS\uff1a\u6211\u5728\u6570\u636e\u8868\u683c\u91cc\u5217\u51fa\u4e86\u6240\u6709\u7684\u84b8\u998f\u5854\u914d\u65b9,\u8fd9\u6837\u4f60\u67e5\u770b\u8d77\u6765\u4f1a\u66f4\u52a0\u65b9\u4fbf. \u73b0\u5728\u4f60\u53ef\u4ee5\u8f7b\u6613\u6bd4\u8f83\u9009\u62e9\u5904\u7406\u77f3\u6cb9\u7684\u8def\u7ebf\u4e86![/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAADAA==",
-                    "tooltip": "<strong>\u4f60\u95fb\u8d77\u6765\u50cf\u6389\u5230\u4e86\u9152\u6876\u91cc!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>High Voltage Multiblocks"
+                    "tooltip": "<strong>\u4f60\u95fb\u8d77\u6765\u50cf\u6389\u5230\u4e86\u9152\u6876\u91cc!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c3\u9636\u6bb5(HV)</br>\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
-                    "name": "You've Gotta Keep 'Em Separated",
+                    "name": "\u5f97\u628a\u5b83\u4eec\u5206\u5f97\u8fdc\u8fdc\u7684",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9064898237805017210.png",
                     "x": 228.0,
                     "y": 276.0,
-                    "data": "When you need to polarize magnets or separate magnetic materials, look to the MFE! This multiblock requires an electromagnet to be inserted into its housing - better magnets, better bonuses. In IV, you'll be stuck with an Iron Electromagnet, though.\n\n[note]At the final tier of electromagnet, you can use TecTech multi-amp hatches. Might be good to remember when you're processing a certain magnetic material...[/note]",
+                    "data": "\u5f53\u60a8\u9700\u8981\u5c06\u4f60\u7684\u78c1\u4f53\u6781\u5316\u6216\u5c06\u5e26\u78c1\u6027\u7684\u77ff\u7269\u4e0e\u5176\u4ed6\u90e8\u5206\u5206\u79bb\u65f6,\u8bf7\u4f7f\u7528 MFE\uff01\u8fd9\u79cd\u591a\u65b9\u5757\u673a\u5668\u9700\u8981\u5c06\u7535\u78c1\u94c1\u653e\u5165\u5176\u4ed3\u5ba4\u4e2d--\u66f4\u597d\u7684\u7535\u78c1\u94c1\u5c06\u5e26\u6765\u66f4\u5f3a\u7684\u589e\u76ca.\u4e0d\u8fc7,\u5728 IV \u9636\u6bb5\u4e2d\u60a8\u5c06\u53ea\u80fd\u4f7f\u7528\u94c1\u5236\u7535\u78c1\u94c1.%n%n[note]\u5728\u653e\u5165\u6700\u9ad8\u7ea7\u7535\u78c1\u94c1\u7684\u65f6\u5019,\u4f60\u53ef\u4ee5\u5728\u8fd9\u53f0\u673a\u5668\u4e0a\u4f7f\u7528\u6765\u81eaTecTech\u591a\u5b89\u80fd\u6e90\u4ed3.\u5728\u52a0\u5de5\u67d0\u79cd\u78c1\u6027\u6750\u6599\u65f6,\u4e0d\u59a8\u8bb0\u4f4f\u8fd9\u4e00\u70b9...[/note]",
                     "quest_id": "bkEol9zuRiiCMwMUopFHhg==",
-                    "tooltip": "<strong>You've Gotta Keep 'Em Separated</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u5f97\u628a\u5b83\u4eec\u5206\u5f97\u8fdc\u8fdc\u7684</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
                     "name": "\u55de...\u55de...\u55de...",
@@ -683,9 +683,9 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2034.png",
                     "x": 132.0,
                     "y": 252.0,
-                    "data": "\u9700\u8981\u5927\u91cf\u7684\u6c27\u548c\u6c22,\u6216\u662f\u53ea\u662f\u60f3\u8981\u7535\u89e3\u6750\u6599\u83b7\u5f97\u6210\u5428\u7684\u94dd?%n%n\u8fd9\u53f0\u591a\u65b9\u5757\u673a\u5668\u53ef\u4ee5\u5728IV\u9636\u6bb5\u5236\u9020.",
+                    "data": "\u9700\u8981\u5927\u91cf\u7684\u6c27\u548c\u6c22,\u6216\u662f\u53ea\u662f\u60f3\u8981\u7535\u89e3\u6750\u6599\u83b7\u5f97\u6210\u5428\u7684\u94dd?",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAH8g==",
-                    "tooltip": "<strong>\u55de...\u55de...\u55de...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Insane Voltage Multiblocks"
+                    "tooltip": "<strong>\u55de...\u55de...\u55de...</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 }
             ],
             "edgeLabel": {
@@ -700,39 +700,39 @@
             "edgeSymbolSize": 10,
             "links": [
                 {
-                    "source": "Mass Processing in LuV and Beyond",
-                    "target": "Advanced Assembly Line"
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
+                    "target": "\u8fdb\u9636\u88c5\u914d\u7ebf"
                 },
                 {
                     "source": "\u88c5\u914d\u7ebf",
-                    "target": "Advanced Assembly Line"
+                    "target": "\u8fdb\u9636\u88c5\u914d\u7ebf"
                 },
                 {
                     "source": "\u7b2c6\u9636\u6bb5(LuV)",
-                    "target": "Advanced Assembly Line"
+                    "target": "\u8fdb\u9636\u88c5\u914d\u7ebf"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
-                    "target": "Advanced Autoclaving"
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
+                    "target": "\u8fdb\u9636\u5316\u5c18\u4e3a\u6676"
                 },
                 {
                     "source": "\u7b2c6\u9636\u6bb5(LuV)",
-                    "target": "Advanced Autoclaving"
+                    "target": "\u8fdb\u9636\u5316\u5c18\u4e3a\u6676"
                 },
                 {
                     "source": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
-                    "target": "An End to Deforestation"
+                    "target": "\u6ee5\u780d\u6ee5\u4f10\u7684\u7ec8\u7ed3"
                 },
                 {
                     "source": "\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a",
-                    "target": "An End to Deforestation"
+                    "target": "\u6ee5\u780d\u6ee5\u4f10\u7684\u7ec8\u7ed3"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
-                    "target": "An End to Deforestation"
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
+                    "target": "\u6ee5\u780d\u6ee5\u4f10\u7684\u7ec8\u7ed3"
                 },
                 {
-                    "source": "Megalomania",
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "target": "\u53e6\u4e00\u53f0\u591a\u65b9\u5757\u5316\u5b66\u53cd\u5e94\u91dc?"
                 },
                 {
@@ -740,15 +740,15 @@
                     "target": "\u53e6\u4e00\u53f0\u591a\u65b9\u5757\u5316\u5b66\u53cd\u5e94\u91dc?"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "A steam-powered whirl!"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u4e00\u53f0\u84b8\u6c7d\u9a71\u52a8\u7684\u79bb\u5fc3\u673a!"
                 },
                 {
                     "source": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
                     "target": "\u57fa\u5730\u706b\u5c71"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
                     "target": "\u6c90\u6d74\u5728\u7535\u6d41\u4e2d"
                 },
                 {
@@ -760,11 +760,11 @@
                     "target": "\u6405\u62cc/\u6405\u62cc/\u5de7\u514b\u529b"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u6405\u62cc/\u6405\u62cc/\u5de7\u514b\u529b"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u5f2f\u66f2\u3001\u8f8a\u538b"
                 },
                 {
@@ -788,19 +788,19 @@
                     "target": "\u7ed9\u6211\u4e00\u5927\u6876\u805a\u4e59\u70ef!"
                 },
                 {
-                    "source": "High Voltage Multiblocks",
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
                     "target": "\u7ed9\u6211\u4e00\u5927\u6876\u805a\u4e59\u70ef!"
                 },
                 {
-                    "source": "High Voltage Multiblocks",
-                    "target": "Can it!"
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
+                    "target": "\u628a\u5b83\u88c5\u8fdb\u7f50\u5b50\u91cc\uff01(Can it!)"
                 },
                 {
                     "source": "\u4f60\u89c9\u5f97\u53d1\u5c04\u5668\u5df2\u7ecf\u591f\u7cdf\u7cd5\u4e86\uff1f",
                     "target": "\u7535\u8def\u88c5\u914d\u7ebf"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
                     "target": "\u7535\u8def\u88c5\u914d\u7ebf"
                 },
                 {
@@ -817,30 +817,30 @@
                 },
                 {
                     "source": "\u538b\u7f29\u4e07\u7269",
-                    "target": "Clean Implosions?!"
+                    "target": "\u73af\u4fdd\u7684\u805a\u7206?!"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
-                    "target": "Clean Implosions?!"
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
+                    "target": "\u73af\u4fdd\u7684\u805a\u7206?!"
                 },
                 {
                     "source": "UHV\u8d85\u5bfc(2,097,152 EU/t)",
-                    "target": "Clean Implosions?!"
+                    "target": "\u73af\u4fdd\u7684\u805a\u7206?!"
                 },
                 {
                     "source": "\u91cf\u5b50\u5904\u7406\u5668\u4e3b\u673a",
                     "target": "\u771f\u7537\u4eba\u4ece\u6765\u4e0d\u56de\u5934\u770b\u7206\u70b8"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u771f\u7537\u4eba\u4ece\u6765\u4e0d\u56de\u5934\u770b\u7206\u70b8"
                 },
                 {
-                    "source": "Megalomania",
-                    "target": "Cracking the World"
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
+                    "target": "\u5c06\u4e16\u754c\u4e5f\u88c2\u89e3"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u65cb\u8f6c,\u8df3\u8dc3"
                 },
                 {
@@ -849,26 +849,26 @@
                 },
                 {
                     "source": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
-                    "target": "Engraving With Style"
+                    "target": "\u7cbe\u81f4\u8680\u523b"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
-                    "target": "Extraction Point"
+                    "source": "EV\u591a\u65b9\u5757",
+                    "target": "\u6211\u4eec\u5230\u64a4\u79bb(\u63d0\u53d6)\u70b9\u4e86!"
                 },
                 {
                     "source": "\u7b2c4\u9636\u6bb5(EV)",
-                    "target": "Extreme Voltage Multiblocks"
+                    "target": "EV\u591a\u65b9\u5757"
                 },
                 {
-                    "source": "High Voltage Multiblocks",
-                    "target": "Extreme Voltage Multiblocks"
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
+                    "target": "EV\u591a\u65b9\u5757"
                 },
                 {
                     "source": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
-                    "target": "Fits The Mold"
+                    "target": "\u9002\u5408\u4e0d\u540c\u6a21\u5177"
                 },
                 {
-                    "source": "Megalomania",
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "target": "\u51bb\u4f24!"
                 },
                 {
@@ -889,14 +889,14 @@
                 },
                 {
                     "source": "\u7b2c3\u9636\u6bb5(HV)",
-                    "target": "High Voltage Multiblocks"
+                    "target": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "High Voltage Multiblocks"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u7eff\u5de8\u4eba\u91cd\u62f3\u7c89\u788e!"
                 },
                 {
@@ -904,7 +904,7 @@
                     "target": "\u5de5\u4e1a3D\u6253\u5370\u673a"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u5de5\u4e1a\u7126\u70891"
                 },
                 {
@@ -913,22 +913,22 @@
                 },
                 {
                     "source": "\u7b2c5\u9636\u6bb5(IV)",
-                    "target": "Insane Voltage Multiblocks"
+                    "target": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
-                    "target": "Insane Voltage Multiblocks"
+                    "source": "EV\u591a\u65b9\u5757",
+                    "target": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u6211\u60f3\u6211\u4f1a\u751f\u75c5\u7684"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u6211\u8981\u7684\u662f\u56fa\u4f53\u4e0d\u662f\u6db2\u4f53!"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
                     "target": "\u8ba9\u6211\u5236\u9020\u4e00\u4e2a\u65b0\u7684\u5b87\u5b99..."
                 },
                 {
@@ -936,7 +936,7 @@
                     "target": "\u8ba9\u6211\u5236\u9020\u4e00\u4e2a\u65b0\u7684\u5b87\u5b99..."
                 },
                 {
-                    "source": "Megalomania",
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "target": "\u5de8\u578b\u5408\u91d1\u51b6\u70bc\u7089"
                 },
                 {
@@ -948,35 +948,35 @@
                     "target": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)"
                 },
                 {
                     "source": "\u7b2c6\u9636\u6bb5(LuV)",
-                    "target": "Mass Processing in LuV and Beyond"
+                    "target": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5"
                 },
                 {
                     "source": "\u91ce\u9e2d\u751f\u9508\u81ed\u81ed(Mallard Rust Smelly)",
-                    "target": "Mass Processing in LuV and Beyond"
+                    "target": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5"
                 },
                 {
-                    "source": "Megalomania",
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "target": "\u8d8a\u5927\u8d8a\u597d"
                 },
                 {
                     "source": "\u7b2c3\u9636\u6bb5(HV)",
-                    "target": "Megalomania"
+                    "target": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "More steam, more pressure!"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u66f4\u591a\u84b8\u6c7d,\u66f4\u591a\u538b\u529b\uff01"
                 },
                 {
                     "source": "\u7194\u70bc!",
-                    "target": "Multiblock Revolution"
+                    "target": "\u591a\u65b9\u5757\u9769\u547d"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u5927\u7537\u5b69\u5927\u5973\u5b69\u7684\u5927\u73a9\u5177"
                 },
                 {
@@ -992,7 +992,7 @@
                     "target": "\u7cbe\u5bc6\u7ec4\u88c5\u673a"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u7cbe\u5bc6\u7ec4\u88c5\u673a"
                 },
                 {
@@ -1000,11 +1000,11 @@
                     "target": "\u7cbe\u5bc6\u7ec4\u88c5\u673a"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "Pressure washing!"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u6c14\u538b\u6d17\u6da4!"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
                     "target": "\u628a\u6240\u6709\u5de5\u4eba\u8d76\u51fa\u5de5\u4f5c\u5c97\u4f4d"
                 },
                 {
@@ -1012,19 +1012,19 @@
                     "target": "\u628a\u6240\u6709\u5de5\u4eba\u8d76\u51fa\u5de5\u4f5c\u5c97\u4f4d"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
-                    "target": "See You Lather"
+                    "source": "EV\u591a\u65b9\u5757",
+                    "target": "\u6211\u4eec\u7a0d\u540e\u518d\u89c1(See You Lather)"
                 },
                 {
                     "source": "\u5c06\u5b9d\u77f3\u4e0e\u7c89\u672b\u5206\u5f00",
                     "target": "\u6447\u8d77\u6765..."
                 },
                 {
-                    "source": "High Voltage Multiblocks",
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
                     "target": "\u6447\u8d77\u6765..."
                 },
                 {
-                    "source": "High Voltage Multiblocks",
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
                     "target": "\u7194\u5316\u4e07\u7269..."
                 },
                 {
@@ -1032,63 +1032,63 @@
                     "target": "\u7194\u5316\u4e07\u7269..."
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u7ed5\u4e86\u4e00\u5708\u53c8\u4e00\u5708"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "Steam Blender?"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u84b8\u6c7d\u6405\u62cc\u673a?"
                 },
                 {
-                    "source": "Multiblock Revolution",
-                    "target": "STEAM-POWERED BREAKTHROUGH"
+                    "source": "\u591a\u65b9\u5757\u9769\u547d",
+                    "target": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "Steam stomping!"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u84b8\u6c7d\u731b\u51fb!"
                 },
                 {
-                    "source": "STEAM-POWERED BREAKTHROUGH",
-                    "target": "\u84b8\u6c7d\u9636\u6bb5\u7684\u591a\u65b9\u5757? \u4e0d\u53ef\u80fd!"
+                    "source": "\u84b8\u6c7d\u52a8\u529b\u7684\u7a81\u7834",
+                    "target": "\u70ed\u6c14\u817e\u817e\u7684\u7c89\u788e\u673a"
                 },
                 {
-                    "source": "High Voltage Multiblocks",
-                    "target": "Taking Things Apart"
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
+                    "target": "\u63d0\u53d6\u4e07\u7269"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
+                    "source": "EV\u591a\u65b9\u5757",
                     "target": "\u6d17\u77ff\u5382\u91cc\u7684\u77ff\u77f3..."
                 },
                 {
-                    "source": "Megalomania",
+                    "source": "\u6c38\u65e0\u6b62\u5883,\u5927\u5c31\u662f\u597d!",
                     "target": "\u5df4\u6bd4\u4f26\u5854"
                 },
                 {
-                    "source": "Extreme Voltage Multiblocks",
-                    "target": "Under Pressure"
+                    "source": "EV\u591a\u65b9\u5757",
+                    "target": "\u538b\u529b\u4e4b\u4e0b"
                 },
                 {
-                    "source": "Mass Processing in LuV and Beyond",
-                    "target": "...with the power of science!"
+                    "source": "LuV\u53ca\u4ee5\u4e0a\u7684\u5927\u6279\u91cf\u52a0\u5de5",
+                    "target": "...\u501f\u52a9\u79d1\u5b66\u7684\u529b\u91cf!"
                 },
                 {
                     "source": "\u7b2c8\u9636\u6bb5(UV)",
-                    "target": "...with the power of science!"
+                    "target": "...\u501f\u52a9\u79d1\u5b66\u7684\u529b\u91cf!"
                 },
                 {
                     "source": "\u7b2c3\u9636\u6bb5(HV)",
                     "target": "\u4f60\u95fb\u8d77\u6765\u50cf\u6389\u5230\u4e86\u9152\u6876\u91cc!"
                 },
                 {
-                    "source": "High Voltage Multiblocks",
+                    "source": "\u9ad8\u538b\u9636\u6bb5\u7684\u591a\u65b9\u5757\u7ed3\u6784",
                     "target": "\u4f60\u95fb\u8d77\u6765\u50cf\u6389\u5230\u4e86\u9152\u6876\u91cc!"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
-                    "target": "You've Gotta Keep 'Em Separated"
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
+                    "target": "\u5f97\u628a\u5b83\u4eec\u5206\u5f97\u8fdc\u8fdc\u7684"
                 },
                 {
-                    "source": "Insane Voltage Multiblocks",
+                    "source": "IV\u9636\u6bb5\u591a\u65b9\u5757\u673a\u5668",
                     "target": "\u55de...\u55de...\u55de..."
                 }
             ]

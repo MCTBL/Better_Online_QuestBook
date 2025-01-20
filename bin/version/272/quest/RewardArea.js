@@ -113,7 +113,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/858.png",
                     "x": 12.0,
                     "y": 156.0,
-                    "data": "\u6211\u9700\u8981\u4e00\u4e9b\u914d\u6599\u6765\u5e2e\u52a9\u6211\u8fdb\u884c\u7ec3\u4e60,\u4e0d\u8fc7\u5b83\u4eec\u65e0\u6cd5\u5728\u6211\u8fd9\u91cc\u79cd\u690d,\u4f60\u53ef\u4ee5\u63d0\u4f9b\u4e00\u4e9b\u5417? \u6211\u4f1a\u56de\u62a5\u4f60\u4e00\u4e9b\u6210\u54c1.%n%n\u53ea\u9700\u51d1\u9f50\u4e00\u7ec4\u5373\u53ef\u5b8c\u6210\u4efb\u52a1.",
+                    "data": "\u6211\u9700\u8981\u4e00\u4e9b\u914d\u6599\u6765\u5e2e\u52a9\u6211\u8fdb\u884c\u7ec3\u4e60,\u4e0d\u8fc7\u5b83\u4eec\u65e0\u6cd5\u5728\u6211\u8fd9\u91cc\u79cd\u690d,\u4f60\u53ef\u4ee5\u63d0\u4f9b\u4e00\u4e9b\u5417? \u6211\u4f1a\u56de\u62a5\u4f60\u4e00\u4e9b\u6210\u54c1.%n%n[note]\u53ea\u9700\u51d1\u9f50\u4e00\u7ec4\u5373\u53ef\u5b8c\u6210\u4efb\u52a1.[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAADWg==",
                     "tooltip": "<strong>\u53a8\u5e08\u8bad\u7ec3</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u53a8\u5177"
                 },
@@ -163,7 +163,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/680.png",
                     "x": 156.0,
                     "y": 156.0,
-                    "data": "\u4e09\u4e2a\u7f8e\u98df\u5956\u52b1\u5305\u53ef\u4ee5\u6362\u4e00\u4e2a\u66f4\u597d\u7684\u751c\u70b9\u5956\u52b1\u5305.%n%n\u4e0d\u8fc7,\u8fd9\u4e2a\u5956\u52b1\u5305\u91cc\u5934\u53ea\u6709\u68c9\u82b1\u7cd6,\u6240\u4ee5\u5176\u5b9e\u4e0d\u592a\u503c...",
+                    "data": "\u516d\u4e2a\u7f8e\u98df\u5956\u52b1\u5305\u53ef\u4ee5\u6362\u4e00\u4e2a\u66f4\u597d\u7684\u751c\u70b9\u5956\u52b1\u5305.%n%n[note]\u4e0d\u8fc7,\u8fd9\u4e2a\u5956\u52b1\u5305\u91cc\u5934\u53ea\u6709\u68c9\u82b1\u7cd6,\u6240\u4ee5\u5176\u5b9e\u4e0d\u592a\u503c...[/note]",
                     "quest_id": "AAAAAAAAAAAAAAAAAAACqA==",
                     "tooltip": "<strong>\u7f8e\u98df\u5956\u52b1 > \u751c\u70b9\u5956\u52b1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6b63\u9910\u5956\u52b1 > \u7f8e\u98df\u5956\u52b1"
                 },
@@ -195,7 +195,7 @@
                     "y": 12.0,
                     "data": "\u4e09\u4e2aLV\u65f6\u4ee3\u5956\u52b1",
                     "quest_id": "AAAAAAAAAAAAAAAAAAABuw==",
-                    "tooltip": "<strong>LV\u65f6\u4ee3\u5956\u52b1 > MV\u65f6\u4ee3\u5956\u52b1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c2\u9636(MV)"
+                    "tooltip": "<strong>LV\u65f6\u4ee3\u5956\u52b1 > MV\u65f6\u4ee3\u5956\u52b1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7b2c2\u9636\u6bb5(MV)"
                 },
                 {
                     "name": "\u5965\u672f\u8001\u624b\u5956\u52b1 > \u5965\u672f\u7cbe\u901a\u5956\u52b1",
@@ -213,7 +213,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/571.png",
                     "x": 156.0,
                     "y": 60.0,
-                    "data": "\u4e09\u4e2a\u5965\u672f\u5927\u5e08\u5956\u52b1",
+                    "data": "\u5341\u516d\u4e2a\u5965\u672f\u5927\u5e08\u5956\u52b1",
                     "quest_id": "AAAAAAAAAAAAAAAAAAACOw==",
                     "tooltip": "<strong>\u5965\u672f\u5927\u5e08\u5956\u52b1 > \u9b54\u5bfc\u5e08\u5956\u52b1</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u795e\u7684\u529b\u91cf"
                 },
@@ -388,7 +388,7 @@
                     "target": "IV\u5956\u52b1>LuV\u5956\u52b1."
                 },
                 {
-                    "source": "\u7b2c2\u9636(MV)",
+                    "source": "\u7b2c2\u9636\u6bb5(MV)",
                     "target": "LV\u65f6\u4ee3\u5956\u52b1 > MV\u65f6\u4ee3\u5956\u52b1"
                 },
                 {

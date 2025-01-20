@@ -58,44 +58,44 @@
             "focusNodeAdjacency": true,
             "data": [
                 {
-                    "name": "Assembling on Space Steroids",
+                    "name": "\u5728\u5b87\u5b99\u661f\u8fb0\u95f4\u7ec4\u88c5",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5622946374684694237.png",
                     "x": 336.0,
                     "y": 252.0,
-                    "data": "Has 64 parallels and consumes ~500b EU/t per module, expensive to run but absolutely worth it.",
+                    "data": "\u5b83\u6709\u7740\u9ad8\u8fbe64\u7684\u5e76\u884c\u6570,\u6bcf\u4e2a\u6a21\u5757\u53ef\u4ee5\u6d88\u8017\u5927\u7ea6500b EU/t.\u8fd0\u884c\u5b83\u7684\u6210\u672c\u9ad8\u6602,\u4f46\u786e\u5b9e\u503c\u5f97.",
                     "quest_id": "UVG21mYSQJex90gQWdkpIw==",
-                    "tooltip": "<strong>Assembling on Space Steroids</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Your Lord and Saviour, UXV CoAL"
+                    "tooltip": "<strong>\u5728\u5b87\u5b99\u661f\u8fb0\u95f4\u7ec4\u88c5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf"
                 },
                 {
-                    "name": "Eternity",
+                    "name": "\u6c38\u6052",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5606710145730409374.png",
                     "x": 132.0,
                     "y": 216.0,
-                    "data": "Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You\u2019ll also need it to make MHDCSM parts.\n\nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.\n\nThe QFT recipe has a 25% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.\n\n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right click the controller with a screwdriver.[/note]\n\n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don\u2019t you think?[/note]",
+                    "data": "\u8bf7\u52a1\u5fc5\u8003\u8651\u4f7f\u7528\u5b83\u6765\u6539\u8fdb\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28\u7684\u751f\u4ea7.\u4f60\u8fd8\u9700\u8981\u5b83\u6765\u5236\u9020MHDCSM(\u84dd\u6846\u5ca9\u6d46)\u90e8\u4ef6.%n%n\u8fd9\u4e2a\u751f\u4ea7\u5faa\u73af\u7684\u6572\u95e8\u7816\u662f\u968f\u673a\u4ea7\u751f\u4e14\u6602\u8d35\u7684.\u4e3a\u4e86\u91cf\u5b50\u64cd\u7eb5\u8005\u7684\u50ac\u5316\u5242\u548c\u59345\u6b21\u6447\u5956\u673a\u4f1a,\u4f60\u603b\u5171\u9700\u898120736L\u5b87\u5b99\u7d20.%n%n\u91cf\u5b50\u64cd\u7eb5\u8005\u7684\u914d\u65b9\u6bcf\u6b21\u5c1d\u8bd5\u670925%%\u7684\u51e0\u7387\u751f\u4ea7\u6c38\u6052.\u4f60\u4e5f\u8bb8\u5e94\u8be5\u7528\u7b49\u79bb\u5b50\u4f53\u6765\u5f00\u542f\u91cf\u5b50\u64cd\u7eb5\u8005\u7684\u805a\u7126\u6a21\u5f0f,\u5e76\u4e13\u6ce8\u4e8e\u751f\u4ea7\u6c38\u6052.%n%n[note]\u4f60\u77e5\u9053\u91cf\u5b50\u64cd\u7eb5\u8005\u6709\u6d41\u4f53\u6a21\u5f0f\u5417?\u5b83\u53ef\u4ee5\u7528\u6765\u63d0\u53d6\u7194\u878d\u8c03\u5f8b\u6e90\u91d1.\u53ea\u8981\u7528\u87ba\u4e1d\u5200\u53f3\u51fb\u63a7\u5236\u5668\u5c31\u53ef\u4ee5\u4e86.[/note]%n%n[note]\u7528\u6c38\u6052\u5757\u5efa\u9020\u4e00\u4e2a\u5b8c\u6574\u7684\u4fe1\u6807\u53ef\u80fd\u6709\u70b9\u5962\u4f88,\u4f60\u89c9\u5f97\u5462?[/note]%n%n",
                     "quest_id": "wGq5FvuuROyyMPbT_SkMYg==",
-                    "tooltip": "<strong>Eternity</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Magnetohydrodynamically Constrained Starmatter</br>Stellar Catalyst"
+                    "tooltip": "<strong>\u6c38\u6052</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28</br>\u6052\u661f\u50ac\u5316\u5242"
                 },
                 {
-                    "name": "Fabricating Solar Systems... in Parallel",
+                    "name": "\u5236\u9020\u592a\u9633\u7cfb...\u4f46\u662f\u5e76\u884c\u5316!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4851697106472398149.png",
                     "x": 336.0,
                     "y": 216.0,
-                    "data": "As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
+                    "data": "\u4f60\u53ef\u80fd\u5df2\u7ecf\u6ce8\u610f\u5230\u4e86,UXV\u90e8\u4ef6\u4e0e\u4f60\u76ee\u524d\u80fd\u751f\u4ea7\u7684\u5b87\u5b99\u7d20\u6570\u91cf\u76f8\u6bd4\u975e\u5e38\u6602\u8d35.%n%n\u4f7f\u7528\u661f\u9635\u5c06\u5141\u8bb8\u4f60\u5e76\u884c\u8fd0\u884c\u9e3f\u8499\u4e4b\u773c\u914d\u65b9.\u4f60\u53ef\u4ee5\u67e5\u770btooltip\u7b2c\u4e8c\u9875\u4e2d\u7684\u6570\u5b66\u516c\u5f0f\u8ba1\u7b97.%n%n\u5982\u679c\u60f3\u76f4\u63a5\u5f97\u5230\u7b54\u6848,\u4f60\u53ef\u4ee5\u4f7f\u7528\u8fd9\u4e2a\u8868\u683c\u6765\u8ba1\u7b97\uff1a[url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]\u6ce8\u610f,\u5982\u679c\u4f7f\u7528\u661f\u9635,\u9e3f\u8499\u4e4b\u773c\u5c06\u4f7f\u7528\u539f\u59cb\u6052\u661f\u7b49\u79bb\u5b50\u4f53,\u800c\u4e0d\u662f\u6c22\u6c14\u548c\u6c26\u6c14.[/warn]%n%n[note]\u786e\u4fdd\u4f60\u5df2\u7ecf\u53d1\u4e86\u8db3\u591f\u591a\u7684\u7535.[/note]",
                     "quest_id": "IGVryoMbRu28q08v4uwSuw==",
-                    "tooltip": "<strong>Fabricating Solar Systems... in Parallel</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Eternity"
+                    "tooltip": "<strong>\u5236\u9020\u592a\u9633\u7cfb...\u4f46\u662f\u5e76\u884c\u5316!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6c38\u6052"
                 },
                 {
-                    "name": "Magnetohydrodynamically Constrained Starmatter",
+                    "name": "\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5865034814944347891.png",
                     "x": 72.0,
                     "y": 252.0,
-                    "data": "Or MHDCSM for short.\n\nThis is your primary material for UXV components. It\u2019s tricky to make and extremely expensive, as all endgame materials should be.\n\nInstead of solidifying it directly, you need to coat Eternity parts with it.\n\nHave fun!",
+                    "data": "\u6216\u7b80\u79f0MHDCSM.%n%n\u8fd9\u662f\u60a8\u5236\u9020UXV\u90e8\u4ef6\u7684\u4e3b\u8981\u6750\u6599.\u5c31\u548c\u5176\u4ed6\u6240\u6709\u7684\u7ec8\u6781\u6750\u6599\u4e00\u6837,\u5b83\u7684\u5236\u9020\u975e\u5e38\u9ebb\u70e6,\u800c\u4e14\u4ef7\u683c\u6781\u5176\u6602\u8d35.%n%n\u60a8\u9700\u8981\u5728\u6c38\u6052\u90e8\u4ef6\u4e0a\u6d47\u7b51\u5b83,\u800c\u4e0d\u662f\u76f4\u63a5\u5c06\u5176\u56fa\u5316.%n%n\u795d\u4f60\u73a9\u5f97\u5f00\u5fc3!%n%n[note]\u8bd1\u8005\u6ce8:\u4e2d\u6587\u793e\u533a\u5e38\u7528\u84dd\u6846\u5ca9\u6d46\u79f0\u547c\u8be5\u7269\u8d28,\u4e3a\u4e66\u5199\u7b80\u4fbf,\u4efb\u52a1\u4e66\u5176\u4ed6\u7bc7\u7ae0\u4f1a\u79f0\u5176\u4e3a\u84dd\u6846\u5ca9\u6d46.[/note]",
                     "quest_id": "52Yelo6KSLGumzXo-_F5DQ==",
-                    "tooltip": "<strong>Magnetohydrodynamically Constrained Starmatter</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Finally, Universium!"
+                    "tooltip": "<strong>\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u6700\u540e--\u5b87\u5b99\u7d20\uff01"
                 },
                 {
                     "name": "Rule of Threes",
@@ -105,7 +105,7 @@
                     "y": 180.0,
                     "data": "The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.\n\n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]\n\n[note]Usage of a third ring requires the EE upgrade.[/note]",
                     "quest_id": "bHFEDKAiTwGxaiyZEsmdjg==",
-                    "tooltip": "<strong>Rule of Threes</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Your Lord and Saviour, UXV CoAL</br>Project Godforge"
+                    "tooltip": "<strong>Rule of Threes</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf</br>Project Godforge"
                 },
                 {
                     "name": "Simulating a Solar System",
@@ -115,7 +115,7 @@
                     "y": 252.0,
                     "data": "Almost as expensive as the real one, right? Not to worry, this stargate and the current are only just the beginning.\n\n[note]Our journey reaches the current end, entering the UXV, aka EOH era.\n\nThe year is 2023, and the game continues to be pushed further and further. The EOH exists now, along with machine parts up to UXV. Multiblocks have gained endless amounts of quality of life, including sub 1-tick OC, batch mode, void protection, and numerous AE2 additions like Crafting Input Buses, Stocking Hatches, Level Maintainers and more. Automation has never been easier, yet the goal has never been placed farther. Naquadah Fuel now has many tiers and can compete into the late-game, even competing with (now fixed) Dyson, but outclassed by the huge amount of power a maximized EOH can make (12.8 TEU/t!).\n\nInitially the stargate recipe seemed impossible, requiring months of runtime on hundreds of maximized EOHs, requiring some adjustments to be more realistic to attain. After this was changed, the race began again, this time between Johny709 and GDCloud. Johny burned out towards the end, and GDCloud was surpassed by a silent contender, StarStack, being the first to conquer this challenge on the 26th of June, 2023.\n\nBeyond just the first, this era marked the beginning of the Group Run Era, with large runs such as Ballers Run (setting this era into motion), Bee Run (affecting wide change on the NH project and its management as a whole), and Cell Run 2 (the fastest ever Stargate run, in only 73 days, popularizing many automation techniques like Level Maintained lines).\n\nAdditionally, this version saw the first player achieve GTNH Gods, reaching Stargate in a 3rd run, earned by GDCloud as a part of Cell Run 2 on the 23rd of June, 2024. Later this Stargate would see three others reach this goal, Ramspace on the 29th of September, 2024, and StaffiX and serenibyss in a group run on the 17th of November, 2024.\n\nP.S.: Here's the list as usual:\n-Many new processing multiblocks like HILE, Fluid Shaper, Industrial Autoclave, etc.\n-Forge of the Gods, Black Hole Compressor, Antimatter power generation, Precise Assembler T4\n-DTPF Convergence, Component Assembly Line tiered bonuses, Mega Vac Subspace Cooling, MK5 fusion skips for Metastable Oganesson\n-Wireless Data Hatches, Wireless Optical Hatches, Uncertainty Resolution\n-Artificial Universe Cells, smart blocking mode[/note]",
                     "quest_id": "hNdNrT_aSKaYi_TnT7cowA==",
-                    "tooltip": "<strong>Simulating a Solar System</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>UXV\u9636\u6bb5"
+                    "tooltip": "<strong>Simulating a Solar System</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u6210\u529f\u4e86!"
                 },
                 {
                     "name": "\u661f\u95e8\u5e95\u5ea7\u65b9\u5757",
@@ -133,7 +133,7 @@
                     "symbol": "image://version/272/quests_icons/QuestIcon/2576.png",
                     "x": 252.0,
                     "y": 120.0,
-                    "data": "\u60f3\u8981\u8ba9\u661f\u95e8\u53ef\u4ee5\u8de8\u7ef4\u5ea6\u8fd0\u884c,\u8fd9\u4e2a\u5347\u7ea7\u5fc5\u4e0d\u53ef\u5c0f,\u5b83\u53ef\u4ee5\u5728\u4f60\u62e5\u6709\u7b2c\u4e8c\u4e2a\u661f\u95e8\u540e\u62e8\u53f7\u8fde\u63a5...",
+                    "data": "\u60f3\u8981\u8ba9\u661f\u95e8\u53ef\u4ee5\u8de8\u7ef4\u5ea6\u8fd0\u884c,\u8fd9\u4e2a\u5347\u7ea7\u5fc5\u4e0d\u53ef\u5c11,\u5b83\u53ef\u4ee5\u5728\u4f60\u62e5\u6709\u7b2c\u4e8c\u4e2a\u661f\u95e8\u540e\u62e8\u53f7\u8fde\u63a5...",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKEA==",
                     "tooltip": "<strong>\u661f\u95e8\u5bfc\u6807\u5347\u7ea7</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5929\u5802\u4e4b\u95e8?"
                 },
@@ -175,17 +175,17 @@
                     "y": 144.0,
                     "data": "\u4f60\u9700\u8981\u5927\u91cf\u7684\u8fd9\u79cd\u65b9\u5757\u624d\u80fd\u6784\u6210\u5b8c\u6574\u7684\u661f\u95e8...",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAKDA==",
-                    "tooltip": "<strong>\u5929\u5802\u4e4b\u95e8?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>UXV\u9636\u6bb5</br>\u73cd\u60dc\u4f60\u81ea\u5df1"
+                    "tooltip": "<strong>\u5929\u5802\u4e4b\u95e8?</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u6210\u529f\u4e86!</br>\u73cd\u60dc\u4f60\u81ea\u5df1"
                 },
                 {
-                    "name": "Tier 13 (UXV)",
+                    "name": "\u7b2c13\u9636\u6bb5(UXV)",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6509950608256890330.png",
                     "x": 72.0,
                     "y": 180.0,
-                    "data": "Welcome to the final tier of NH (for now).\n\nWe hope you enjoy your stay, though be prepared for a lot of waiting.\n\nNow that you have a reliable way to make MHDCSM, it would be wise to upgrade your EOHs to T9 for the Universium boost.\n\nHave fun crafting 2 Stargates!\n\n[warn]This tier is far from complete. Expect changes.[/warn]",
+                    "data": "\u6b22\u8fce\u6765\u5230GTNH\u7684\u6700\u540e\u4e00\u4e2a\u7535\u538b\u7b49\u7ea7(\u6682\u65f6).%n%n\u505a\u597d\u957f\u4e45\u6302\u673a\u7684\u51c6\u5907,\u6211\u4eec\u5e0c\u671b\u60a8\u5728\u8fd9\u91cc\u73a9\u5f97\u6109\u5feb.%n%n\u73b0\u5728\u60a8\u6709\u4e86\u5236\u9020\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28\u7684\u53ef\u9760\u65b9\u6cd5,\u6700\u597d\u5c06\u60a8\u7684\u9e3f\u8499\u4e4b\u773c\u96c6\u7fa4\u5347\u7ea7\u5230T9\u6765\u83b7\u5f97\u5b87\u5b99\u7d20\u4ea7\u91cf\u7684\u63d0\u5347.%n%n\u5e0c\u671b\u4f60\u5728\u5408\u6210\u4e00\u5bf9\u661f\u95e8\u7684\u65f6\u5019\u53ef\u4ee5\u4eab\u53d7\u6e38\u620f!%n%n[warn]\u8fd9\u4e2a\u7535\u538b\u7b49\u7ea7\u8fdc\u672a\u5b8c\u6210.\u672a\u6765\u4f1a\u53d1\u751f\u6539\u53d8.[/warn]%n",
                     "quest_id": "7wI7VuLKRe6lqAJpuYKKJg==",
-                    "tooltip": "<strong>Tier 13 (UXV)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>Magnetohydrodynamically Constrained Starmatter</br>Eternity"
+                    "tooltip": "<strong>\u7b2c13\u9636\u6bb5(UXV)</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28</br>\u6c38\u6052"
                 },
                 {
                     "name": "\u4ec0\u4e48?\u4f60\u662f\u600e\u4e48\u505a\u5230\u7684?",
@@ -208,24 +208,24 @@
                     "tooltip": "<strong>\u4f60\u53ef\u80fd\u9700\u8981\u8fd9\u4e9b</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u5929\u5802\u4e4b\u95e8?"
                 },
                 {
-                    "name": "UXV\u9636\u6bb5",
+                    "name": "\u4f60\u6210\u529f\u4e86!",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3296.png",
                     "x": 204.0,
                     "y": 216.0,
                     "data": "\u613f\u68a6\u60f3\u5927\u5e08\u5782\u601c\u4e8e\u4f60\u7684\u7075\u9b42. \u4f60\u5df2\u7ecf\u62b5\u8fbe\u4e86\u6e38\u620f\u4e2d\u80fd\u5236\u4f5c\u7684\u6700\u9ad8\u7b49\u7ea7\uff01",
                     "quest_id": "AAAAAAAAAAAAAAAAAAAM4A==",
-                    "tooltip": "<strong>UXV\u9636\u6bb5</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>An Eye at the End of Time</br>Eternity</br>Magnetic Monopole Matter"
+                    "tooltip": "<strong>\u4f60\u6210\u529f\u4e86!</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4e00\u53ea\u4f4d\u4e8e\u65f6\u95f4\u5c3d\u5934\u7684\u773c\u775b</br>\u6c38\u6052</br>Magnetic Monopole Matter"
                 },
                 {
-                    "name": "Your Lord and Saviour, UXV CoAL",
+                    "name": "\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf",
                     "symbolSize": 31.200000000000003,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8646551172440344443.png",
                     "x": 276.0,
                     "y": 216.0,
-                    "data": "You want to rush this as soon as possible.\n\nEvery L of Universium matters.",
+                    "data": "\u4f60\u9700\u8981\u7aed\u5c3d\u6240\u80fd\u5c3d\u5feb\u505a\u51fa\u8fd9\u4e2a!%n%n\u6bcf\u4e00\u6ef4\u5b87\u5b99\u7d20\u90fd\u5f25\u8db3\u73cd\u8d35.",
                     "quest_id": "smCKxKkMSeyIAUeFInS4hQ==",
-                    "tooltip": "<strong>Your Lord and Saviour, UXV CoAL</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>UXV\u9636\u6bb5"
+                    "tooltip": "<strong>\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf</strong></br>\u524d\u7f6e\u4efb\u52a1\u9700\u6c42:</br>\u4f60\u6210\u529f\u4e86!"
                 }
             ],
             "edgeLabel": {
@@ -240,27 +240,27 @@
             "edgeSymbolSize": 10,
             "links": [
                 {
-                    "source": "Your Lord and Saviour, UXV CoAL",
-                    "target": "Assembling on Space Steroids"
+                    "source": "\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf",
+                    "target": "\u5728\u5b87\u5b99\u661f\u8fb0\u95f4\u7ec4\u88c5"
                 },
                 {
-                    "source": "Magnetohydrodynamically Constrained Starmatter",
-                    "target": "Eternity"
+                    "source": "\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28",
+                    "target": "\u6c38\u6052"
                 },
                 {
-                    "source": "Stellar Catalyst",
-                    "target": "Eternity"
+                    "source": "\u6052\u661f\u50ac\u5316\u5242",
+                    "target": "\u6c38\u6052"
                 },
                 {
-                    "source": "Eternity",
-                    "target": "Fabricating Solar Systems... in Parallel"
+                    "source": "\u6c38\u6052",
+                    "target": "\u5236\u9020\u592a\u9633\u7cfb...\u4f46\u662f\u5e76\u884c\u5316!"
                 },
                 {
-                    "source": "Finally, Universium!",
-                    "target": "Magnetohydrodynamically Constrained Starmatter"
+                    "source": "\u6700\u540e--\u5b87\u5b99\u7d20\uff01",
+                    "target": "\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28"
                 },
                 {
-                    "source": "Your Lord and Saviour, UXV CoAL",
+                    "source": "\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf",
                     "target": "Rule of Threes"
                 },
                 {
@@ -268,7 +268,7 @@
                     "target": "Rule of Threes"
                 },
                 {
-                    "source": "UXV\u9636\u6bb5",
+                    "source": "\u4f60\u6210\u529f\u4e86!",
                     "target": "Simulating a Solar System"
                 },
                 {
@@ -292,7 +292,7 @@
                     "target": "\u661f\u95e8\u5916\u73af\u65b9\u5757"
                 },
                 {
-                    "source": "UXV\u9636\u6bb5",
+                    "source": "\u4f60\u6210\u529f\u4e86!",
                     "target": "\u5929\u5802\u4e4b\u95e8?"
                 },
                 {
@@ -300,12 +300,12 @@
                     "target": "\u5929\u5802\u4e4b\u95e8?"
                 },
                 {
-                    "source": "Magnetohydrodynamically Constrained Starmatter",
-                    "target": "Tier 13 (UXV)"
+                    "source": "\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28",
+                    "target": "\u7b2c13\u9636\u6bb5(UXV)"
                 },
                 {
-                    "source": "Eternity",
-                    "target": "Tier 13 (UXV)"
+                    "source": "\u6c38\u6052",
+                    "target": "\u7b2c13\u9636\u6bb5(UXV)"
                 },
                 {
                     "source": "\u661f\u95e8\u5916\u73af\u65b9\u5757",
@@ -320,20 +320,20 @@
                     "target": "\u4f60\u53ef\u80fd\u9700\u8981\u8fd9\u4e9b"
                 },
                 {
-                    "source": "An Eye at the End of Time",
-                    "target": "UXV\u9636\u6bb5"
+                    "source": "\u4e00\u53ea\u4f4d\u4e8e\u65f6\u95f4\u5c3d\u5934\u7684\u773c\u775b",
+                    "target": "\u4f60\u6210\u529f\u4e86!"
                 },
                 {
-                    "source": "Eternity",
-                    "target": "UXV\u9636\u6bb5"
+                    "source": "\u6c38\u6052",
+                    "target": "\u4f60\u6210\u529f\u4e86!"
                 },
                 {
                     "source": "Magnetic Monopole Matter",
-                    "target": "UXV\u9636\u6bb5"
+                    "target": "\u4f60\u6210\u529f\u4e86!"
                 },
                 {
-                    "source": "UXV\u9636\u6bb5",
-                    "target": "Your Lord and Saviour, UXV CoAL"
+                    "source": "\u4f60\u6210\u529f\u4e86!",
+                    "target": "\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf"
                 }
             ]
         }
