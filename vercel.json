@@ -2,7 +2,15 @@
 	"version": 2,
 	"builds": [
 		{
-			"src": "src/*.ts",
+			"src": "src/Define.ts",
+			"use": "@vercel/node"
+		},
+		{
+			"src": "src/index.ts",
+			"use": "@vercel/node"
+		},
+		{
+			"src": "src/MainPage.ts",
 			"use": "@vercel/node"
 		}
 	]
