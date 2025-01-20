@@ -2,9 +2,9 @@
 	"version": 2,
 	"builds": [
 		{
-			"src": "src/index.ts",
-			"use": "@vercel/node",
-			"config": { "includeFiles": ["src/**"] }
-		}
+			"src": "package.json",
+			"use": "@vercel/static-build"
+		},
+		{ "src": "src/*.ts", "use": "@vercel/node" }
 	]
 }
