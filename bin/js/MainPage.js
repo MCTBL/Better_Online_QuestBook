@@ -1,0 +1,113 @@
+import { msgAction } from "./Define.js";
+import { ProjectConfig } from "./ProjectConfig.js";
+import { ProjectData } from "./ProjectData.js";
+export class MainPage {
+    constructor() {
+        this.questList = [];
+        this.buttonList = [];
+        this.showSidebar = true;
+        $(() => {
+            this.initPage();
+            this.addEvent();
+            this.loadList();
+        });
+    }
+    initPage() {
+        for (let i = 0; i < ProjectConfig.versionList.length; i++) {
+            let option = $("<option>", {
+                text: ProjectConfig.versionList[i],
+                value: ProjectConfig.versionList[i],
+            });
+            $("#versionSelect").append(option);
+        }
+    }
+    addEvent() {
+        addEventListener("message", (event) => {
+            this.onGetMessage(event);
+        });
+        $("#toggleSidebar").click(this.toggleSidebar);
+    }
+    //TODO 这里太挫了，需要重写
+    toggleSidebar() {
+        if (!this.showSidebar) {
+            $("#sidebar").animate({ left: "-280px" }, 500);
+            $("#mainPage").animate({
+                left: "0px",
+                width: "100%"
+            }, 500);
+            this.showSidebar = true;
+        }
+        else {
+            $("#sidebar").animate({ left: "0px" }, 500);
+            let width = $(window).width() - 280;
+            $("#mainPage").animate({
+                left: "280px",
+                width: width + "px"
+            }, 500);
+            this.showSidebar = false;
+        }
+    }
+    loadList() {
+        $.getJSON(ProjectData.getQuestLinePath(), (data) => {
+            this.questList = data;
+            this.questList.forEach((quest, index) => {
+                let button = this.createButton(index, quest);
+                $("#sidebar").append(button);
+                this.buttonList.push(button);
+            });
+        });
+    }
+    createButton(index, quest) {
+        const button = $("<button>", {
+            id: "btnQuest_" + index,
+            class: "questButton outline",
+            click: () => {
+                let data = { action: msgAction.init, data: quest.url };
+                this.sendMessageToIframe(data);
+            },
+        });
+        button.data("questData", quest);
+        const img = $("<img>", {
+            src: "./" +
+                ProjectData.getPath("") +
+                "/quests_icons/QuestLineIcon/" +
+                quest.url.split("/").pop().replace(".js", "") +
+                ".png",
+            class: "questIcon",
+        });
+        const txt = $("<span>", {
+            text: quest.title_zh ? quest.title_zh : quest.title,
+            class: "questText",
+        });
+        button.append(img);
+        button.append(txt);
+        return button;
+    }
+    onGetMessage(event) {
+        console.warn(event);
+        let data = event.data;
+        switch (data.action) {
+            case msgAction.ready:
+                this.initMainIframe();
+                break;
+        }
+    }
+    initMainIframe() {
+        let url = localStorage.getItem("mainIframeUrl");
+        if (url) {
+            let data = { action: msgAction.init, data: url };
+            this.sendMessageToIframe(data);
+        }
+        else {
+            let data = {
+                action: msgAction.init,
+                data: this.questList[0].url,
+            };
+            this.sendMessageToIframe(data);
+        }
+    }
+    sendMessageToIframe(msg) {
+        const iframe = $("#mainIframe")[0];
+        iframe.contentWindow.postMessage(msg, "*");
+    }
+}

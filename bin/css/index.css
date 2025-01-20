@@ -41,6 +41,11 @@ body {
 	height: 40px;
 	z-index: 4;
 	color: turquoise;
+	opacity: 0.7;
+}
+
+#toggleSidebar:hover {
+	opacity: 1;
 }
 
 #sidebar::-webkit-scrollbar {

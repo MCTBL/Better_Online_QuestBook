@@ -31,6 +31,8 @@ export class QuestListPage {
 			let data = { action: msgAction.ready, data: null };
 			this.sendMessageToMain(data);
 		});
+
+		//TODO 重写以下代码，并且把方法放到主域
 		// 绑定点击消失
 		document.getElementById("overlay")!.addEventListener("click", function () {
 			hidePopup();
@@ -86,7 +88,7 @@ export class QuestListPage {
 				{ renderer: "canvas" }
 			);
 		}
-
+		//TODO 重写以下代码，并且把方法放到主域
 		this.echarts.on("click", (params: any) => {
 			if (params.dataType === "node") {
 				// 写入任务id并隐藏
@@ -96,12 +98,14 @@ export class QuestListPage {
 				// 展示
 				showPopup(
 					"<h1>" +
-						params.data.name +
-						"</h1>" +
-						params.data.data.replaceAll("%n", "</br>")
+					params.data.name +
+					"</h1>" +
+					params.data.data.replaceAll("%n", "</br>")
 				);
 			}
 		});
+
+
 
 		if ((window as any).option_this_chart) {
 			this.echarts.setOption((window as any).option_this_chart);
