@@ -1,4 +1,4 @@
-import { m2qData, msgAction } from "./Define.js";
+import { dialogMsg, m2qData, msgAction } from "./Define.js";
 import { Utils } from "./Utils.js";
 
 function showPopup(content: string) {
@@ -27,7 +27,7 @@ export class QuestListPage {
 
 	init() {
 		$(() => {
-			this.onMessage();
+			this.onMessageFromMain();
 			let data = { action: msgAction.ready, data: null };
 			this.sendMessageToMain(data);
 		});
@@ -63,7 +63,7 @@ export class QuestListPage {
 		window.parent.postMessage(data, "*");
 	}
 
-	onMessage() {
+	onMessageFromMain() {
 		addEventListener("message", (event: MessageEvent) => {
 			let data: m2qData = event.data;
 			switch (data.action) {
@@ -102,6 +102,20 @@ export class QuestListPage {
 					"</h1>" +
 					params.data.data.replaceAll("%n", "</br>")
 				);
+
+				let data: dialogMsg =
+				{
+					content: params.data.data.replaceAll("%n", "</br>"),
+					caller: null,//TODO 这里不能传递方法和作用域，必须重写做一个dialog
+					sure: null,
+					cancel: null,
+					onlySure: true,
+					title: params.data.name,
+					sureMsg: "复制任务ID",
+					cancelMsg: "取消"
+				}
+				this.sendMessageToMain({ action: msgAction.showDialog, data: data });
+
 			}
 		});
 

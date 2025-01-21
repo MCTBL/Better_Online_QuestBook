@@ -20,7 +20,7 @@ export class QuestListPage {
     }
     init() {
         $(() => {
-            this.onMessage();
+            this.onMessageFromMain();
             let data = { action: msgAction.ready, data: null };
             this.sendMessageToMain(data);
         });
@@ -52,7 +52,7 @@ export class QuestListPage {
     sendMessageToMain(data) {
         window.parent.postMessage(data, "*");
     }
-    onMessage() {
+    onMessageFromMain() {
         addEventListener("message", (event) => {
             let data = event.data;
             switch (data.action) {
@@ -82,6 +82,17 @@ export class QuestListPage {
                     params.data.name +
                     "</h1>" +
                     params.data.data.replaceAll("%n", "</br>"));
+                let data = {
+                    content: params.data.data.replaceAll("%n", "</br>"),
+                    caller: null,
+                    sure: null,
+                    cancel: null,
+                    onlySure: true,
+                    title: params.data.name,
+                    sureMsg: "复制任务ID",
+                    cancelMsg: "取消"
+                };
+                this.sendMessageToMain({ action: msgAction.showDialog, data: data });
             }
         });
         if (window.option_this_chart) {

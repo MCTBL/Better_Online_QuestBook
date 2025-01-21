@@ -9,6 +9,17 @@ export enum msgAction {
 }
 
 
+export type dialogMsg = {
+	content: string,
+	caller: any,
+	sure: Function | null,
+	cancel: Function | null,
+	onlySure: boolean,
+	title: string,
+	sureMsg: string,
+	cancelMsg: string
+}
+
 /**对话框的class */
 export var myDialog =
 	`

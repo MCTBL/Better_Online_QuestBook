@@ -12,7 +12,7 @@ export class TipsMgr {
 
 		let dialog = this.dialog.get(0)! as HTMLDialogElement;
 
-		this.dialog.find("#dialogContent").text(content);
+		this.dialog.find(".dialogContent").text(content);
 		this.dialog.find("header p strong").text(title);
 		if (onlySure) {
 			this.dialog.find("footer button.secondary").hide();
