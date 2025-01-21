@@ -88,14 +88,15 @@ body {
 	position: static;
 	display: flex;
 	align-items: center;
+	color:#ffffff;
 }
 
 .selected{
-	background-color: #bd7735;
+	background-color: #433f39;
 }
 
 .unselected {
-	background-color: #f2ff7a;
+	background-color: #b89267;
 }
 
 .questIcon {
