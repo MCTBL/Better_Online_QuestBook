@@ -14,6 +14,10 @@ export class TipsMgr {
         else {
             this.dialog.find("footer button.secondary").show();
         }
+        this.dialog.find("article header button").off("click");
+        this.dialog.find("article header button").click(() => {
+            dialog.close();
+        });
         this.dialog.find("footer button").off("click");
         this.dialog.find("footer button").click((e) => {
             if ($(e.target).hasClass("secondary")) {
