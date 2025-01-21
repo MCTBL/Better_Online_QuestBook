@@ -1,0 +1,1124 @@
+{
+    "data": [
+        {
+            "name": "大丑蛇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/902.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "一般来说,制作你第一根法杖需要一个丑陋的生物.%n%n[note]想要在暮色森林中持续推进,你需要一步一个脚印依次完成成就.它们经常出bug,所以,请将BOSS的掉落物反复丢出、捡起.没错,有的时候首次捡起这些掉落物的时候,mod脑子一抽,我们都懂的.[/note]%n%n[note]另外,如果你不是使用近战攻击杀死BOSS的话,任务书3(BQ3)也有可能无法正确检测到击杀,所以想要完成这些任务的话(错失了第一次机会),请使用硬币章节买到的刷怪蛋,然后等到BOSS残血的时候跟他站撸吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADhg==",
+            "tooltip": "<strong>大丑蛇</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "冒险时间!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/903.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "在他在剩蛋节许愿之前阻止他!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADhw==",
+            "tooltip": "<strong>冒险时间!</strong></br>前置任务需求:</br>大丑蛇"
+        },
+        {
+            "name": "烈焰人:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/920.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "为了迈向第四阶段的行星,必须杀了烈焰使者老大!他就在谷神星的地牢里!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADmA==",
+            "tooltip": "<strong>烈焰人:进化</strong></br>前置任务需求:</br>爬行者:进化"
+        },
+        {
+            "name": "爬行者:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/919.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "不,这种普通的爬行者还不够让人讨厌,完全不够.那里有只进化的爬行者老大!它就是那把能让你登上另一个星球的钥匙(呃,它的确也有一把钥匙...)!(小行星带、一号小行星、木卫一、木卫二、木卫三、木卫四)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADlw==",
+            "tooltip": "<strong>爬行者:进化</strong></br>前置任务需求:</br>骷髅:进化"
+        },
+        {
+            "name": "水晶之王:啊咿...等等,什么？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/922.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "不是跟我开玩笑吧,一只水晶之王？不管怎样,它是你前往第6阶段行星的关键,它躲在土卫二附近.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADmg==",
+            "tooltip": "<strong>水晶之王:啊咿...等等,什么？</strong></br>前置任务需求:</br>恶魂:进化"
+        },
+        {
+            "name": "不要看他的眼睛!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/900.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "如果让这生物活着可能会坏事.然而洞穴中的矿石也是有价值的,但获取矿石和杀死它们没有直接因果关系.说真的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADhA==",
+            "tooltip": "<strong>不要看他的眼睛!</strong></br>前置任务需求:</br>我甚至不..."
+        },
+        {
+            "name": "末地守护者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/606.png",
+            "x": 540.0,
+            "y": 60.0,
+            "data": "如果你打算要...的话,猎杀一些末地守护者.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACXg==",
+            "tooltip": "<strong>末地守护者</strong></br>前置任务需求:</br>探索实验室岛"
+        },
+        {
+            "name": "恶魂:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/921.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "毛绒绒,更多的毛绒绒,地狱幽灵!那还有一个巨大的爱哭鬼.这家伙躲在木卫一的地牢里,得到那把钥匙,好让你能前往第五阶段的行星.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADmQ==",
+            "tooltip": "<strong>恶魂:进化</strong></br>前置任务需求:</br>烈焰人:进化"
+        },
+        {
+            "name": "向王欢呼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2111.png",
+            "x": 588.0,
+            "y": 12.0,
+            "data": "如果你是欧皇,能在旅途中遇到史莱姆王,那么将其杀死后,我会给你其中一件工具换上非常棒的部件(头).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIPw==",
+            "tooltip": "<strong>向王欢呼</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "嘿,那是一只友好的大黄蜂吗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2079.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "啊,不,它不是,它是下界黄蜂,把它干掉干掉干掉!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIHw==",
+            "tooltip": "<strong>嘿,那是一只友好的大黄蜂吗?</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "我甚至不...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/901.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "OK,这是个迷宫.还有,那是...牛头人战士.但弥诺陶洛斯到底是啥!？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADhQ==",
+            "tooltip": "<strong>我甚至不...</strong></br>前置任务需求:</br>冒险时间!"
+        },
+        {
+            "name": "猎杀芭芭雅嘎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/398.png",
+            "x": 684.0,
+            "y": 60.0,
+            "data": "芭芭雅嘎是一个女巫(或同名三姐妹之一),看上去是一个畸形和/或凶残的老妇人.她坐在一个臼中飞来飞去,挥舞着杵.她住在森林深处,据说是长有鸡脚的一间小屋里,屋外筑有用人头骨装饰的篱笆.芭芭雅嘎可以帮助或阻碍那些遇到或寻找她的人.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABjg==",
+            "tooltip": "<strong>猎杀芭芭雅嘎</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "猎杀恶魔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/404.png",
+            "x": 636.0,
+            "y": 12.0,
+            "data": "恶魔是强大的,邪恶的存在,它们生活在地狱般的维度中.到目前为止,还没有人在下界看到它们游荡,在那里它们的奴仆:恶魂、烈焰人和它们的变种似乎占主导地位.如果你没有保护自己的手段就遇到了恶魔,几乎等同于宣告了你的死亡.它们的攻击就像重型卡车一样强力,并需要巨量的伤害才能杀死它们.一些恶魔甚至可以射击火球!当然,它们还能免疫火焰伤害.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABlA==",
+            "tooltip": "<strong>猎杀恶魔</strong></br>前置任务需求:</br>睡鞋"
+        },
+        {
+            "name": "猎杀末影龙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/400.png",
+            "x": 588.0,
+            "y": 60.0,
+            "data": "这条龙必须死!如果给它足够长的时间,它会摧毁那些珍贵的末地石块!%n%n[note]PS：手持原版剑,按住Shift左键龙蛋即可采集.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABkA==",
+            "tooltip": "<strong>猎杀末影龙</strong></br>前置任务需求:</br>这就结束了？不,这是末地!"
+        },
+        {
+            "name": "猎杀角魔狩猎者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/399.png",
+            "x": 684.0,
+            "y": 12.0,
+            "data": "角魔狩猎者是狩猎者的一员,是角之神创造的强大实体.如果遇到一只角魔狩猎者,做好准备迎接一场艰苦的战斗吧,或者你也可以溜之大吉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABjw==",
+            "tooltip": "<strong>猎杀角魔狩猎者</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "杀戮:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/925.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "我猜你的PVE技术已经炉火纯青了对吧? 而你既然已经走到这里了,那不妨继续吧? 如果你想真正证明自己,继续挑战那些终极目标吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADnQ==",
+            "tooltip": "<strong>杀戮:进化</strong></br>前置任务需求:</br>杀戮时刻(凋灵)</br>冰雪奇缘let't go~let't go</br>秘密:一个很好的...</br>狼:进化"
+        },
+        {
+            "name": "猎杀痛苦之王",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/402.png",
+            "x": 636.0,
+            "y": 108.0,
+            "data": "痛苦之王是一个强大的恶魔,能够制造监狱来折磨受害者.那些愚蠢的召唤这些生物的人必须为一场艰苦的战斗做好准备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABkg==",
+            "tooltip": "<strong>猎杀痛苦之王</strong></br>前置任务需求:</br>痛苦之王"
+        },
+        {
+            "name": "猎杀莫哥和瓜哥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/403.png",
+            "x": 684.0,
+            "y": 108.0,
+            "data": "莫哥和瓜哥是妖精崇拜的神.他们可以派自己的化身去拜访女巫,他们利用他们的崇拜(有一个妖精主顾之雕像).谣传使用下界之星可能会引起他们的注意.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABkw==",
+            "tooltip": "<strong>猎杀莫哥和瓜哥</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "猎杀半羊人之影",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/401.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "半羊人是一个恶魔般的存在,据传他曾教过一批德国女巫与恶魔交易,并经常支配他们的手下. 根据巫术:酿造一书中描述的方法,熟练的巫师炼药锅可以召唤此恶魔的投影.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABkQ==",
+            "tooltip": "<strong>猎杀半羊人之影</strong></br>前置任务需求:</br>水心之酿"
+        },
+        {
+            "name": "冰雪奇缘let't go~let't go",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/906.png",
+            "x": 348.0,
+            "y": 12.0,
+            "data": "寒冷未曾困扰她.犯罪事实:无.但你知道的,剧情总要走下去嘛...%n%n[note]PS： 继续前进吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADig==",
+            "tooltip": "<strong>冰雪奇缘let't go~let't go</strong></br>前置任务需求:</br>雪怪.阿尔法,雪怪."
+        },
+        {
+            "name": "秘密:一个很好的...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/908.png",
+            "x": 396.0,
+            "y": 12.0,
+            "data": "嘿,你! 我想要那盏灯.我有一些东西给你作为回报. 反正你不需要它,是吧？%n%n[note]如果你想获得暮色的成就,请先取得成就再完成此任务.[/note]%n%n译者注: 使用灰烬烧灯烧毁荆棘后,触碰可能引发崩溃...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADjA==",
+            "tooltip": "<strong>秘密:一个很好的...</strong></br>前置任务需求:</br>触发灰烬烧灯"
+        },
+        {
+            "name": "秘密:为了生命的买卖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/917.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "兄弟,你肯定很忙吧,我这有些东西给你!给我你的心,我会让他们神奇地增强改善,让你可以更确实地使用它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADlQ==",
+            "tooltip": "<strong>秘密:为了生命的买卖</strong></br>前置任务需求:</br>触发生命"
+        },
+        {
+            "name": "骷髅:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/918.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "为了迈向更高的级别,并且登陆火星、火卫一,还有火卫二,你需要为自己建造一枚更强的火箭. 听说,有一只进化的骷髅掌握着这种设备的图纸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADlg==",
+            "tooltip": "<strong>骷髅:进化</strong></br>前置任务需求:</br>目标:月球"
+        },
+        {
+            "name": "消灭末影龙(再一次)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/607.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "如果你感到无聊,可以复活末影龙玩玩. 要是你胆大包天,可以去找混沌龙的麻烦. 不管怎样,只要猎杀其中一只,你就会得到丰厚的奖赏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACXw==",
+            "tooltip": "<strong>消灭末影龙(再一次)</strong></br>前置任务需求:</br>欢迎来到末地!"
+        },
+        {
+            "name": "消灭末影之眼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/605.png",
+            "x": 540.0,
+            "y": 12.0,
+            "data": "找到并杀死末影之眼,它们保护着高塔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACXQ==",
+            "tooltip": "<strong>消灭末影之眼</strong></br>前置任务需求:</br>末影之塔"
+        },
+        {
+            "name": "史莱姆:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/923.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "在我看来它长得跟神秘史莱姆没两样,你不这么觉得吗？在海卫八找到这位老兄.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADmw==",
+            "tooltip": "<strong>史莱姆:进化</strong></br>前置任务需求:</br>水晶之王:啊咿...等等,什么？"
+        },
+        {
+            "name": "巨大又毛绒绒的爱哭鬼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/905.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "它会飞,也会制造一些很好笑的声音,还有--他毛绒绒的!好吧,宰了他.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADiQ==",
+            "tooltip": "<strong>巨大又毛绒绒的爱哭鬼</strong></br>前置任务需求:</br>你会打电话给谁？"
+        },
+        {
+            "name": "无限的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/405.png",
+            "x": 636.0,
+            "y": 60.0,
+            "data": "你已经掌握了所有可能的东西. 而现在是时候给你的设备提供最后的推动力了. 无限蛋是你祭坛的正确补充. 这相当昂贵,但值得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABlQ==",
+            "tooltip": "<strong>无限的力量</strong></br>前置任务需求:</br>猎杀末影龙</br>猎杀半羊人之影</br>猎杀痛苦之王</br>猎杀莫哥和瓜哥</br>猎杀恶魔</br>猎杀芭芭雅嘎</br>猎杀角魔狩猎者</br>向王欢呼"
+        },
+        {
+            "name": "杀戮时刻(蝙蝠)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2073.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "...你期待过某种突袭而来的boss么?如果你算算自己会遭遇并杀死的蝙蝠,那么可能是的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIGQ==",
+            "tooltip": "<strong>杀戮时刻(蝙蝠)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(大角山羊)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2832.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "哦不,别是那可怜的大角山羊. 蓬松而鲜红,我在暮色森林内为你哀悼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALEA==",
+            "tooltip": "<strong>杀戮时刻(大角山羊)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(烈焰人)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/913.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "你应该小心这个任务,强烈推荐火焰保护.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADkQ==",
+            "tooltip": "<strong>杀戮时刻(烈焰人)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(鸡)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2443.png",
+            "x": 636.0,
+            "y": 156.0,
+            "data": "别叫了,没用的. 乖乖变成鸡汤吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJiw==",
+            "tooltip": "<strong>杀戮时刻(鸡)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(牛)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2441.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "我觉得需要一件新的皮大衣. 让我们宰几头牛.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJiQ==",
+            "tooltip": "<strong>杀戮时刻(牛)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(爬行者)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/909.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "那些没有经历过的人...你无法想象那是怎样的感觉:挖了几个钻石,你就突然在床上醒来,所有物品都没了!%n%n是时候反击了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADjQ==",
+            "tooltip": "<strong>杀戮时刻(爬行者)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(冰原狼)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2074.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "这些狼不喜欢你靠近它们或给它们骨头!一开始是中立的,但接近它们后,它们就会敌视你并变得极度危险.它们会马上把骨头从你身上扯下来!这些狼一般会出现在冰雪森林(snowy-forest)生物群系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIGg==",
+            "tooltip": "<strong>杀戮时刻(冰原狼)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(末影人)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/915.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "呃,花俏的传送珍珠.你需要它们.全部!现在!%n%n[note]PS：顶部的是普通末影人,底部的是特殊怪物mod版本.都怪mod特殊怪物(Special-Mobs),造就了许许多多稀奇古怪的末影人. HEE(极限末地生存)的末影人(比如愤怒的末影人)不计算在内. [/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADkw==",
+            "tooltip": "<strong>杀戮时刻(末影人)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(喷火甲虫)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2843.png",
+            "x": 108.0,
+            "y": 252.0,
+            "data": "喷火甲虫会在空心矿山和牛头人迷宫中生成.它会向附近的玩家喷火,而玩家暴露在火中每半秒会受到2点伤害.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALGw==",
+            "tooltip": "<strong>杀戮时刻(喷火甲虫)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(火傀儡)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2552.png",
+            "x": 492.0,
+            "y": 12.0,
+            "data": "哦,你掉出了这个世界,抱歉. 再试一次.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ-A==",
+            "tooltip": "<strong>杀戮时刻(火傀儡)</strong></br>前置任务需求:</br>探索燃烧岛屿"
+        },
+        {
+            "name": "杀戮时刻(恶魂)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/985.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "恶魂会向你发射爆炸性火球,但是如果你可以将他们扔过来的火球打回去的话它们也很脆弱. 你的护甲升级,火焰保护和爆炸保护!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD2Q==",
+            "tooltip": "<strong>杀戮时刻(恶魂)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(幽魂矿工)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2553.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "幽魂矿工是飞舞的魔鬼. 他们用大火箭将你射入深渊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ-Q==",
+            "tooltip": "<strong>杀戮时刻(幽魂矿工)</strong></br>前置任务需求:</br>探索燃烧岛屿"
+        },
+        {
+            "name": "杀戮时刻(地狱犬)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2075.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "虽然速度不快,但攻击性强,会用火. 建议,避免近战并给它们提供骨头.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIGw==",
+            "tooltip": "<strong>杀戮时刻(地狱犬)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(小恶魔)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2854.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "小恶魔是一种会在整个下界跑来跑去的橘色小动物.它们很和平不会攻击你. %n%n杀戮一些以获取皮革再打造防火护甲吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALJg==",
+            "tooltip": "<strong>杀戮时刻(小恶魔)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(地精)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2841.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "空心矿山中能找到地精刷怪笼. 在暮色森林的任何阴暗处,地精都有可能生成而且经常会一次生成一大群.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALGQ==",
+            "tooltip": "<strong>杀戮时刻(地精)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(岩浆怪)2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2851.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "有岩浆的地方,它们到处都是,还会用火球射你. %n从空中用弓箭或弩射杀,它们就是活靶子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALIw==",
+            "tooltip": "<strong>杀戮时刻(岩浆怪)2</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(虱)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2554.png",
+            "x": 492.0,
+            "y": 60.0,
+            "data": "到处都是虫子(bug)! 这些该死的混蛋. 最好快逃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ-g==",
+            "tooltip": "<strong>杀戮时刻(虱)</strong></br>前置任务需求:</br>探索腐化岛屿"
+        },
+        {
+            "name": "杀戮时刻(岩浆怪)1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2076.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "史莱姆的下界升级版!总是以精英怪的形态出现.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIHA==",
+            "tooltip": "<strong>杀戮时刻(岩浆怪)1</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(硝基爬行者)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2853.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "它们具有很高的爆炸性,而且炸出来的洞比普通爬行者大多了. %n它们的爆炸伤害也更高. 所以要小心!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALJQ==",
+            "tooltip": "<strong>杀戮时刻(硝基爬行者)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(企鹅)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2837.png",
+            "x": 588.0,
+            "y": 252.0,
+            "data": "当心地滑,别伤到可爱的企鹅!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALFQ==",
+            "tooltip": "<strong>杀戮时刻(企鹅)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(猪)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2442.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "打开了烤架,嗯... 我们需要更多的肉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJig==",
+            "tooltip": "<strong>杀戮时刻(猪)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(猪人)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/910.png",
+            "x": 396.0,
+            "y": 204.0,
+            "data": "\"僵尸猪人\"？那些僵尸在搞什么鬼？!也许晚上你必须把你的动物关好...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADjg==",
+            "tooltip": "<strong>杀戮时刻(猪人)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(枯萎甲虫)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2846.png",
+            "x": 12.0,
+            "y": 252.0,
+            "data": "枯萎甲虫生命值为20心,被其夹住会受到4心伤害. 它们会在最大的空心矿山、牛头人迷宫或黑暗高塔中生成. 枯萎甲虫会向你冲锋并夹住你的身体.当你被夹住时需要快速攻击并杀死它. 它们的移动速度非常快,特别是靠近岩浆、悬崖或其他敌人时,遭遇它们十分危险. 当通道很矮时,你被夹住后可能会窒息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALHg==",
+            "tooltip": "<strong>杀戮时刻(枯萎甲虫)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(兔子)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2835.png",
+            "x": 684.0,
+            "y": 204.0,
+            "data": "哦,这只小兔子多么可爱啊.  砰! .... 死了?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALEw==",
+            "tooltip": "<strong>杀戮时刻(兔子)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(乌鸦)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2836.png",
+            "x": 636.0,
+            "y": 252.0,
+            "data": "阿布拉卡达布拉 ... 把你的黑色羽毛给我.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALFA==",
+            "tooltip": "<strong>杀戮时刻(乌鸦)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(红帽地精)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2842.png",
+            "x": 156.0,
+            "y": 204.0,
+            "data": "红帽地精就是一只地精,不过它拿着铁镐,穿着铁靴子并且不断地咯咯地笑.它们会潜伏在空心矿山中,在地精骑士要塞也会偶尔生成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALGg==",
+            "tooltip": "<strong>杀戮时刻(红帽地精)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(灼热之眼)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2551.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "它们住在末地的燃烧岛屿上,不停地用火球射你. 为了生命安全,你最好快逃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ9w==",
+            "tooltip": "<strong>杀戮时刻(灼热之眼)</strong></br>前置任务需求:</br>探索燃烧岛屿"
+        },
+        {
+            "name": "杀戮时刻(羊)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2440.png",
+            "x": 492.0,
+            "y": 156.0,
+            "data": "哦不,别是那可怜的羊! 羊毛满是血,我好伤心.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJiA==",
+            "tooltip": "<strong>杀戮时刻(羊)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(蠹虫)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2078.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "小心,它们喜欢用与石头有关的方块来伪装和克隆自己!(只对原版方块有效)可以在地牢和山丘群系里找到.还可以在水栖爬行者生成的圆石球里找到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIHg==",
+            "tooltip": "<strong>杀戮时刻(蠹虫)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(骷髅)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/912.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "当你拿来射人的时候,箭矢棒棒的,但当你是被射的那个的时候,就不是什么好东西了.(提示:箭矢是绝佳的武器(telum)要素来源)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADkA==",
+            "tooltip": "<strong>杀戮时刻(骷髅)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(骷髅德鲁伊)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2840.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "骷髅德鲁伊非常危险,请当心. 在整个暮色森林中的小木屋里都可以找到它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALGA==",
+            "tooltip": "<strong>杀戮时刻(骷髅德鲁伊)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(史莱姆)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2077.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "又粘又弹!现在有很多变种. 跟我的小朋友打个招呼,柠檬片!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIHQ==",
+            "tooltip": "<strong>杀戮时刻(史莱姆)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(粘液甲虫)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2844.png",
+            "x": 60.0,
+            "y": 252.0,
+            "data": "粘液甲虫会在空心矿山和牛头人迷宫中生成.它会向玩家发射粘液弹,击中后造成8点伤害.它们的准度很夸张,而且当你尝试靠近它的时候,它会飞快地逃走.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALHA==",
+            "tooltip": "<strong>杀戮时刻(粘液甲虫)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(蜘蛛)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/911.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "呃呃呃啊!会爬墙的怪物,还毛茸茸的!杀了他们!快一点!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADjw==",
+            "tooltip": "<strong>杀戮时刻(蜘蛛)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(鱿鱼)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2445.png",
+            "x": 684.0,
+            "y": 156.0,
+            "data": "美味的鱿鱼. 我们正在做冬阴功海鲜汤(Tom Yum seafood).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJjQ==",
+            "tooltip": "<strong>杀戮时刻(鱿鱼)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(松鼠)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2838.png",
+            "x": 540.0,
+            "y": 252.0,
+            "data": "嗯~棍子上的美味松鼠!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALFg==",
+            "tooltip": "<strong>杀戮时刻(松鼠)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(集群蜘蛛)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2845.png",
+            "x": 12.0,
+            "y": 204.0,
+            "data": "在各个地标中,集群蜘蛛都会成群地生成,比如空心矿山、树洞和树篱迷宫. 有时,集群蜘蛛生成时会附带蜘蛛骑士. 集群蜘蛛生命值为3心,相对于绝大多数攻击来说都很脆弱. 它们的攻击性很强,但由于攻击力很弱,所以几乎造不成什么伤害.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALHQ==",
+            "tooltip": "<strong>杀戮时刻(集群蜘蛛)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(小鸟)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2839.png",
+            "x": 636.0,
+            "y": 204.0,
+            "data": "啾啾,啾啾,啾啾...啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALFw==",
+            "tooltip": "<strong>杀戮时刻(小鸟)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(野猪)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2834.png",
+            "x": 588.0,
+            "y": 204.0,
+            "data": "美味的烤野猪. 嗯...非常好吃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALEg==",
+            "tooltip": "<strong>杀戮时刻(野猪)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(野鹿)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2833.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "今年的圣诞节取消了,太遗憾了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALEQ==",
+            "tooltip": "<strong>杀戮时刻(野鹿)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(小精灵)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2852.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "它们会在下界的任何地方出现,同时也有刷怪笼.由于它们的移动速度不慢而且体积较小,所以远程射击可能较为困难.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALJA==",
+            "tooltip": "<strong>杀戮时刻(小精灵)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(女巫)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/537.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "女巫既可恨又危险,她们总是躲在远处向你扔药水.要小心!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACGQ==",
+            "tooltip": "<strong>杀戮时刻(女巫)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "杀戮时刻(凋灵骷髅)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/563.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "借尔项上头颅一用!!! <-- 这是每一个玩家看到凋灵骷髅心里想的吧.%n%n要是你还不知道的话,这里提一句,将4个灵魂沙摆成竖着的T形,然后在上头放3个凋灵骷髅头,你就能召唤出凋灵BOSS了. 别在你的基地里这么干.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACMw==",
+            "tooltip": "<strong>杀戮时刻(凋灵骷髅)</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "杀戮时刻(凋灵)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/916.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "收集了几个凋灵骷髅头之后,你觉得你应该需要再多做点事--那为什么不杀一个凋灵怪？不管怎样,你都需要一大堆下界之星...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADlA==",
+            "tooltip": "<strong>杀戮时刻(凋灵)</strong></br>前置任务需求:</br>杀戮时刻(凋灵骷髅)"
+        },
+        {
+            "name": "杀戮时刻(幽灵)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2847.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "暮色幽灵是漂浮的灵魂,并不会主动攻击玩家,但过于靠近会激怒它们. 要是被幽灵盯上了就很难把它们甩掉,因为它们会不懈的追逐你,且可以穿过方块. 暮色幽灵通常生成于大型空心矿山中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALHw==",
+            "tooltip": "<strong>杀戮时刻(幽灵)</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "杀戮时刻(僵尸)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/914.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "没人知道他们是谁,或是来自哪里.他们就是晚上很吵,而且蠢到连工作台都做不出来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADkg==",
+            "tooltip": "<strong>杀戮时刻(僵尸)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "你会打电话给谁？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/904.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "幻影克星!噢,等等...哎,管他的.啊,他们还掉了些不错的盔甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADiA==",
+            "tooltip": "<strong>你会打电话给谁？</strong></br>前置任务需求:</br>不要看他的眼睛!"
+        },
+        {
+            "name": "狼:进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/924.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "最后的区域...一只...狼...它甚至不是铁娘子乐团的粉丝欸？你在期待什么？一个超强王怪？呵呵,想太多.预算有限好吗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADnA==",
+            "tooltip": "<strong>狼:进化</strong></br>前置任务需求:</br>史莱姆:进化"
+        },
+        {
+            "name": "雪怪.阿尔法,雪怪.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/907.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "通缉:杀死阿尔法雪怪.%n犯罪行为:毫无理由暴力地向人们投掷冰块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADiw==",
+            "tooltip": "<strong>雪怪.阿尔法,雪怪.</strong></br>前置任务需求:</br>巨大又毛绒绒的爱哭鬼"
+        }
+    ],
+    "links": [
+        {
+            "source": "寻找答案",
+            "target": "大丑蛇"
+        },
+        {
+            "source": "大丑蛇",
+            "target": "冒险时间!"
+        },
+        {
+            "source": "爬行者:进化",
+            "target": "烈焰人:进化"
+        },
+        {
+            "source": "骷髅:进化",
+            "target": "爬行者:进化"
+        },
+        {
+            "source": "恶魂:进化",
+            "target": "水晶之王:啊咿...等等,什么？"
+        },
+        {
+            "source": "我甚至不...",
+            "target": "不要看他的眼睛!"
+        },
+        {
+            "source": "探索实验室岛",
+            "target": "末地守护者"
+        },
+        {
+            "source": "烈焰人:进化",
+            "target": "恶魂:进化"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "向王欢呼"
+        },
+        {
+            "source": "下界",
+            "target": "嘿,那是一只友好的大黄蜂吗?"
+        },
+        {
+            "source": "冒险时间!",
+            "target": "我甚至不..."
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "猎杀芭芭雅嘎"
+        },
+        {
+            "source": "睡鞋",
+            "target": "猎杀恶魔"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "猎杀末影龙"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "猎杀角魔狩猎者"
+        },
+        {
+            "source": "杀戮时刻(凋灵)",
+            "target": "杀戮:进化"
+        },
+        {
+            "source": "冰雪奇缘let't go~let't go",
+            "target": "杀戮:进化"
+        },
+        {
+            "source": "秘密:一个很好的...",
+            "target": "杀戮:进化"
+        },
+        {
+            "source": "狼:进化",
+            "target": "杀戮:进化"
+        },
+        {
+            "source": "痛苦之王",
+            "target": "猎杀痛苦之王"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "猎杀莫哥和瓜哥"
+        },
+        {
+            "source": "水心之酿",
+            "target": "猎杀半羊人之影"
+        },
+        {
+            "source": "雪怪.阿尔法,雪怪.",
+            "target": "冰雪奇缘let't go~let't go"
+        },
+        {
+            "source": "触发灰烬烧灯",
+            "target": "秘密:一个很好的..."
+        },
+        {
+            "source": "触发生命",
+            "target": "秘密:为了生命的买卖"
+        },
+        {
+            "source": "目标:月球",
+            "target": "骷髅:进化"
+        },
+        {
+            "source": "欢迎来到末地!",
+            "target": "消灭末影龙(再一次)"
+        },
+        {
+            "source": "末影之塔",
+            "target": "消灭末影之眼"
+        },
+        {
+            "source": "水晶之王:啊咿...等等,什么？",
+            "target": "史莱姆:进化"
+        },
+        {
+            "source": "你会打电话给谁？",
+            "target": "巨大又毛绒绒的爱哭鬼"
+        },
+        {
+            "source": "猎杀末影龙",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀半羊人之影",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀痛苦之王",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀莫哥和瓜哥",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀恶魔",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀芭芭雅嘎",
+            "target": "无限的力量"
+        },
+        {
+            "source": "猎杀角魔狩猎者",
+            "target": "无限的力量"
+        },
+        {
+            "source": "向王欢呼",
+            "target": "无限的力量"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(蝙蝠)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(大角山羊)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(烈焰人)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(鸡)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(牛)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(爬行者)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(冰原狼)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(末影人)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(喷火甲虫)"
+        },
+        {
+            "source": "探索燃烧岛屿",
+            "target": "杀戮时刻(火傀儡)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(恶魂)"
+        },
+        {
+            "source": "探索燃烧岛屿",
+            "target": "杀戮时刻(幽魂矿工)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(地狱犬)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(小恶魔)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(地精)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(岩浆怪)2"
+        },
+        {
+            "source": "探索腐化岛屿",
+            "target": "杀戮时刻(虱)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(岩浆怪)1"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(硝基爬行者)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(企鹅)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(猪)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(猪人)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(枯萎甲虫)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(兔子)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(乌鸦)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(红帽地精)"
+        },
+        {
+            "source": "探索燃烧岛屿",
+            "target": "杀戮时刻(灼热之眼)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(羊)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(蠹虫)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(骷髅)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(骷髅德鲁伊)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(史莱姆)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(粘液甲虫)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(蜘蛛)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(鱿鱼)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(松鼠)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(集群蜘蛛)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(小鸟)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(野猪)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(野鹿)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(小精灵)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(女巫)"
+        },
+        {
+            "source": "下界",
+            "target": "杀戮时刻(凋灵骷髅)"
+        },
+        {
+            "source": "杀戮时刻(凋灵骷髅)",
+            "target": "杀戮时刻(凋灵)"
+        },
+        {
+            "source": "寻找答案",
+            "target": "杀戮时刻(幽灵)"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "杀戮时刻(僵尸)"
+        },
+        {
+            "source": "不要看他的眼睛!",
+            "target": "你会打电话给谁？"
+        },
+        {
+            "source": "史莱姆:进化",
+            "target": "狼:进化"
+        },
+        {
+            "source": "巨大又毛绒绒的爱哭鬼",
+            "target": "雪怪.阿尔法,雪怪."
+        }
+    ]
+}

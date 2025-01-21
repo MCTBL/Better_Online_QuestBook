@@ -1,0 +1,1750 @@
+{
+    "data": [
+        {
+            "name": "高级热交换器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/797.png",
+            "x": 588.0,
+            "y": 372.0,
+            "data": "夜视镜需要高级热交换器来运作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADHQ==",
+            "tooltip": "<strong>高级热交换器</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>集成逻辑电路1"
+        },
+        {
+            "name": "进阶纳米重力胸甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/654.png",
+            "x": 396.0,
+            "y": 372.0,
+            "data": "将进阶电力喷气背包及纳米护甲组合,会得到进阶纳米重力胸甲.就可以拥有胸甲的防护能力,并可使用喷气背包自由的移动.%n%n[note]用起来跟进阶电力喷气背包一样.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjg==",
+            "tooltip": "<strong>进阶纳米重力胸甲</strong></br>前置任务需求:</br>碳皮肤</br>进阶电力喷气背包"
+        },
+        {
+            "name": "固若金汤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/171.png",
+            "x": 1020.0,
+            "y": 108.0,
+            "data": "防御反击下一波僵尸、爬行者和其他玩意儿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAqw==",
+            "tooltip": "<strong>固若金汤</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "几乎牢不可破",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/219.png",
+            "x": 1020.0,
+            "y": 204.0,
+            "data": "你可能已经不需要它了,但是既然你已经制作了这么多的墙,到了最后为什么不用一些最好的呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA2w==",
+            "tooltip": "<strong>几乎牢不可破</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "它永远不会损坏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/152.png",
+            "x": 828.0,
+            "y": 108.0,
+            "data": "使用天域之剑,你的杀手乔将永远运作下去...适当的附魔能让其更有效率,但这应该不成问题.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAmA==",
+            "tooltip": "<strong>它永远不会损坏</strong></br>前置任务需求:</br>自动化怪物农场</br>分割徽章(激活)"
+        },
+        {
+            "name": "天使之翼-结合!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1356.png",
+            "x": 420.0,
+            "y": 492.0,
+            "data": "最后一步是把量子盔甲和量子翅膀结合起来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFTA==",
+            "tooltip": "<strong>天使之翼-结合!</strong></br>前置任务需求:</br>量子胸甲"
+        },
+        {
+            "name": "阿迪特弩身",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1153.png",
+            "x": 876.0,
+            "y": 204.0,
+            "data": "为了让你的弩更加强大,我们需要用阿迪特这种材料来升级你的弩身. 你现在应该有上一个任务奖励的阿迪特锭.也可以去下界找点矿石用工业高炉处理成锭%n%n你还可以使用红石来升级你的弩的拉弓速度.不过前提是你的弩上面有一个升级槽位.%n%n不要用石英升级弩,这只会提高其近战伤害. 你需要用石英升级的是弩箭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgQ==",
+            "tooltip": "<strong>阿迪特弩身</strong></br>前置任务需求:</br>火焰弓弦"
+        },
+        {
+            "name": "护甲2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/685.png",
+            "x": 492.0,
+            "y": 108.0,
+            "data": "铁制护甲比皮革护甲好得多.特别是当你在夜晚出外探险的时候.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACrQ==",
+            "tooltip": "<strong>护甲2.0</strong></br>前置任务需求:</br>获得铁"
+        },
+        {
+            "name": "护甲 2.5",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/691.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "钢铁护甲的耐久度比铁、青铜,以及锁链护甲都高非常多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACsw==",
+            "tooltip": "<strong>护甲 2.5</strong></br>前置任务需求:</br>熔炼!</br>护甲2.0"
+        },
+        {
+            "name": "护甲模具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3075.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "能直接用熔融金属制造出护甲部件,谁还用板呀?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMAw==",
+            "tooltip": "<strong>护甲模具</strong></br>前置任务需求:</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "灵魂护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1848.png",
+            "x": 444.0,
+            "y": 240.0,
+            "data": "我找到了灵气的其他用途-制作灵魂之铁.用它制成的护甲比钻石护甲更好,且具有更高的可附魔性.%n%n它还会掉落治愈球,最近的玩家收到这些球后会得到治疗.%n%n不幸的是,它的副作用就是会使你变得透明.副作用?我觉得是增强啊!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHOA==",
+            "tooltip": "<strong>灵魂护甲</strong></br>前置任务需求:</br>复合背心</br>更多的热量 - 坎塔尔线圈"
+        },
+        {
+            "name": "最好的弩箭？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1525.png",
+            "x": 972.0,
+            "y": 252.0,
+            "data": "你在月球上发现的陨铁,当通过工业高炉(EBF)冶炼后,变成了这种惊人的陨钢,边缘非常锋利. 将陨钢固化在充能合金杆上以制作一种很棒的弩箭.再下一种弩箭你就得自己解决了.%n%n选用何种箭羽这个问题,就交给你自己了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF9Q==",
+            "tooltip": "<strong>最好的弩箭？</strong></br>前置任务需求:</br>目标:月球</br>充能合金"
+        },
+        {
+            "name": "最好的弩？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1526.png",
+            "x": 924.0,
+            "y": 252.0,
+            "data": "充能合金是一种令人惊叹的材料. 它重量轻,硬度高,非常适合制作弩臂. 它的拉弓速度稍慢,但仍然具有惊人的停止力和极高的弩箭速度. 与碳弩臂相比,耐久大幅度提高. 这种材料也可以制成出色的弩箭杆.也许你能找到合适的箭头？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF9g==",
+            "tooltip": "<strong>最好的弩？</strong></br>前置任务需求:</br>充能合金"
+        },
+        {
+            "name": "更好的弩箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1524.png",
+            "x": 972.0,
+            "y": 204.0,
+            "data": "如果你在MV阶段并且具有工业高炉(EBF),那么你可以使用钒钢作为箭头,制造新的镁铝合金弩箭.你的敌人会为你的力量而战栗.%n%n在NEI下搜索\"箭羽\",看看是否还有别的箭羽选择.%n%n祝你狩猎愉快!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF9A==",
+            "tooltip": "<strong>更好的弩箭</strong></br>前置任务需求:</br>流体固化器"
+        },
+        {
+            "name": "弓,箭,与箭袋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/661.png",
+            "x": 924.0,
+            "y": 60.0,
+            "data": "哇,你的第一把手制...咳咳...机器制弓.你发现可以将弓放在武器格子.现在是时候做些箭和一个箭袋了.%n%n想要将箭放入箭袋里,你需要把箭袋和一组箭放入合成栏.确保控制中的\"Special\"按键没有冲突.默认为Z.  当你选中弓时,按下Z来交换箭袋里的箭.%n%n虽然看起来这些可能毫无价值,但这些箭确实有特殊用途. 你真想跟你的朋友分享一块曲奇饼干,对吧?%n%n开始狩猎吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAClQ==",
+            "tooltip": "<strong>弓,箭,与箭袋</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "有点脆,但力道十足...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1485.png",
+            "x": 924.0,
+            "y": 204.0,
+            "data": "碳弩臂的耐久是镁铝合金弩臂的1/3,但伤害更高,射速更快.也就是说你得用更多的锭持续不断地维修你的弩臂,还要当心不要在战斗中将耐久消耗殆尽!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFzQ==",
+            "tooltip": "<strong>有点脆,但力道十足...</strong></br>前置任务需求:</br>转啊转啊转啊转...</br>镁铝合金弩"
+        },
+        {
+            "name": "青铜护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/687.png",
+            "x": 540.0,
+            "y": 108.0,
+            "data": "青铜护甲跟铁制护甲有相同的性能.同样的耐久,同样的护甲,以及同样的附魔潜力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACrw==",
+            "tooltip": "<strong>青铜护甲</strong></br>前置任务需求:</br>获得铁"
+        },
+        {
+            "name": "铜制标枪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/863.png",
+            "x": 876.0,
+            "y": 60.0,
+            "data": "铜制标枪的成本有些贵而且只有七次投掷机会,然而它是个不错的中距离武器.只要花费一个铜锭,就可以把标枪添进你的储备里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADXw==",
+            "tooltip": "<strong>铜制标枪</strong></br>前置任务需求:</br>做些更好的工具</br>希望你已经准备好了!"
+        },
+        {
+            "name": "烧死他们,全都烧死!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/159.png",
+            "x": 1212.0,
+            "y": 60.0,
+            "data": "嗯...酥脆的培根.如果你将中立的生物作为目标,会发生什么？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAnw==",
+            "tooltip": "<strong>烧死他们,全都烧死!</strong></br>前置任务需求:</br>2级炮塔基座"
+        },
+        {
+            "name": "碳纤零件",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/775.png",
+            "x": 492.0,
+            "y": 276.0,
+            "data": "这些零件是你最爱的纳米装甲所需要的.%n%n[note]想要真正完成纳米装甲,你还需要EV电路板和纳米晶体(请查看\"EU的存储与变压\"任务栏).[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADBw==",
+            "tooltip": "<strong>碳纤零件</strong></br>前置任务需求:</br>碳板</br>有机之道"
+        },
+        {
+            "name": "碳皮肤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/779.png",
+            "x": 492.0,
+            "y": 324.0,
+            "data": "现在你可以不用担心大部份的怪物了.纳米套将帮助你生存下来,并让你看起来很酷.你的旅程还没结束,旅行者,量子护甲还在等着你!%n%n[note]PS：纳米套同样有防化服的功能.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADCw==",
+            "tooltip": "<strong>碳皮肤</strong></br>前置任务需求:</br>纳米水晶</br>碳纤零件</br>看得更清楚"
+        },
+        {
+            "name": "复合背心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/692.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "将高级合金的强度与钢铁胸甲结合,将使你非常非常硬.现在你有双倍的耐久度,以及额外的1.5护甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACtA==",
+            "tooltip": "<strong>复合背心</strong></br>前置任务需求:</br>护甲2.0"
+        },
+        {
+            "name": "压缩戴斯护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1443.png",
+            "x": 540.0,
+            "y": 276.0,
+            "data": "压缩戴斯护甲比压缩钢护甲更耐用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFow==",
+            "tooltip": "<strong>压缩戴斯护甲</strong></br>前置任务需求:</br>压缩钢护甲</br>目标:火星"
+        },
+        {
+            "name": "压缩钢护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1442.png",
+            "x": 540.0,
+            "y": 240.0,
+            "data": "压缩钢护甲比钢护甲更耐用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFog==",
+            "tooltip": "<strong>压缩钢护甲</strong></br>前置任务需求:</br>压缩万物</br>复合背心"
+        },
+        {
+            "name": "压缩泰坦护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1444.png",
+            "x": 588.0,
+            "y": 276.0,
+            "data": "压缩泰坦护甲比压缩钢护甲更耐用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFpA==",
+            "tooltip": "<strong>压缩泰坦护甲</strong></br>前置任务需求:</br>目标:月球</br>压缩钢护甲"
+        },
+        {
+            "name": "驱逐爬行者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2116.png",
+            "x": 684.0,
+            "y": 324.0,
+            "data": "豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则斥力小于引力,它们就会爆炸!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIRA==",
+            "tooltip": "<strong>驱逐爬行者</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "玄钢护甲高级升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/997.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "你的玄钢护甲可以通过和多种物品相结合来增强他们的能力. 因此你需要一个铁砧和大量的经验值.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5Q==",
+            "tooltip": "<strong>玄钢护甲高级升级</strong></br>前置任务需求:</br>玄钢护甲基础升级"
+        },
+        {
+            "name": "玄钢护甲基础升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/991.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "为了升级玄钢护甲,你需要充能晶体和10级经验. 一些升级可以被直接应用,但更多高级升级需要先注能装甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD3w==",
+            "tooltip": "<strong>玄钢护甲基础升级</strong></br>前置任务需求:</br>卢克,我是你亲爹!(Luke, I'm Your Father)</br>充能晶体"
+        },
+        {
+            "name": "玄钢工具和武器的基础升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/998.png",
+            "x": 828.0,
+            "y": 204.0,
+            "data": "每升级一件玄钢工具或武器,你都需要一个充能晶体和10级经验. 升级需要在可靠的铁砧上面进行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5g==",
+            "tooltip": "<strong>玄钢工具和武器的基础升级</strong></br>前置任务需求:</br>充能晶体"
+        },
+        {
+            "name": "玄钢工具和武器的高级升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/999.png",
+            "x": 828.0,
+            "y": 252.0,
+            "data": "你的玄钢工具和武器可以通过增加电容器或者其他各种物品来升级. 每次升级都需要花费一定的经验值. 只有终结之剑和玄钢镐可以使用末影晶体升级,升级后可以获得旅行附魔,让这两个物品拥有和旅行权杖一样的能力.  所有工具和武器都可以通过电容器来升级(三种电容分别将电池容量提高到15万、25万和100万).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5w==",
+            "tooltip": "<strong>玄钢工具和武器的高级升级</strong></br>前置任务需求:</br>玄钢工具和武器的基础升级"
+        },
+        {
+            "name": "玄钢工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/140.png",
+            "x": 828.0,
+            "y": 156.0,
+            "data": "还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.%n%n这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.%n%n玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.%n%n玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.%n%n玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAjA==",
+            "tooltip": "<strong>玄钢工具</strong></br>前置任务需求:</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "钻石盾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/660.png",
+            "x": 588.0,
+            "y": 60.0,
+            "data": "你的铁盾已经破旧不堪了.用钻石大板制成新的盾牌吧,它可以持续格挡5秒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAClA==",
+            "tooltip": "<strong>钻石盾</strong></br>前置任务需求:</br>压出所有东西(Extrude all the things)"
+        },
+        {
+            "name": "钻石标枪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/659.png",
+            "x": 588.0,
+            "y": 12.0,
+            "data": "在MV阶段你可以升级你的铁标枪成钻石标枪.做一个钻石箭头,两个不锈钢螺丝钉,跟一个木标枪.%n%n这种标枪的耐久更加优秀.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACkw==",
+            "tooltip": "<strong>钻石标枪</strong></br>前置任务需求:</br>压出所有东西(Extrude all the things)"
+        },
+        {
+            "name": "不要玩食物!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/124.png",
+            "x": 1212.0,
+            "y": 12.0,
+            "data": "利用它来杀些僵尸.噢,只造成了一丁点伤害...但,呵呵,谁在乎啊？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAfA==",
+            "tooltip": "<strong>不要玩食物!</strong></br>前置任务需求:</br>炮塔基座"
+        },
+        {
+            "name": "别试着用它潜水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/799.png",
+            "x": 540.0,
+            "y": 372.0,
+            "data": "用组装机将防化头盔及纳米头盔结合,可以得到纳米潜水头盔.最好别试着用它潜水,因为你做不到.这是新的量子头盔的零件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADHw==",
+            "tooltip": "<strong>别试着用它潜水</strong></br>前置任务需求:</br>IV组装机</br>碳皮肤"
+        },
+        {
+            "name": "别试着穿它走路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/801.png",
+            "x": 492.0,
+            "y": 372.0,
+            "data": "用组装机将橡胶靴及纳米靴子结合,会得到纳米橡胶靴.最好别试着穿它走路,因为你做不到.这是新的量子靴子的零件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADIQ==",
+            "tooltip": "<strong>别试着穿它走路</strong></br>前置任务需求:</br>IV组装机</br>碳皮肤"
+        },
+        {
+            "name": "电动护目镜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1349.png",
+            "x": 348.0,
+            "y": 276.0,
+            "data": "当你戴着你的护目镜四处闲逛时,你注意到它们容易损坏.所以,给自己做个电动的吧,只需要再次充电!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFRQ==",
+            "tooltip": "<strong>电动护目镜</strong></br>前置任务需求:</br>我可以看到一切"
+        },
+        {
+            "name": "花俏的护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/690.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "并非真的比较好,但更花俏.锁链护甲是用钢环制作的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACsg==",
+            "tooltip": "<strong>花俏的护甲</strong></br>前置任务需求:</br>熔炼!</br>护甲2.0"
+        },
+        {
+            "name": "火焰弓弦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1152.png",
+            "x": 876.0,
+            "y": 156.0,
+            "data": "既然有了更好的金属那么我们也需要升级一下我们的弓弦. 如果你在下界没有得到过火线,那么你可以用上一个任务送的材料. 来制作一些火焰弓弦吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgA==",
+            "tooltip": "<strong>火焰弓弦</strong></br>前置任务需求:</br>镁铝合金弩"
+        },
+        {
+            "name": "小心!我要扔手雷了!(Fire in the hole)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/175.png",
+            "x": 1164.0,
+            "y": 108.0,
+            "data": "耶!还有什么能比用爆炸将怪物撕成碎片更加过瘾了呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAArw==",
+            "tooltip": "<strong>小心!我要扔手雷了!(Fire in the hole)</strong></br>前置任务需求:</br>3级炮台基座"
+        },
+        {
+            "name": "护目镜 > 9000",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1352.png",
+            "x": 348.0,
+            "y": 420.0,
+            "data": "当你在阳光下徘徊时,这个特殊的护目镜会自动充电. 多么方便!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFSA==",
+            "tooltip": "<strong>护目镜 > 9000</strong></br>前置任务需求:</br>量子护目镜</br>双重压缩太阳能"
+        },
+        {
+            "name": "重力胸甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/655.png",
+            "x": 468.0,
+            "y": 492.0,
+            "data": "重力胸甲由量子护甲、LuV变压器、终极蓝博顿电池背包、超导线缆、冷却核心、重力引擎、终极晶体电脑、致密铿铀板、蓝博顿能量球簇、力场发生器(IV)、电动马达(ZPM)、铿铀螺丝、熔融焊锡、熔融三钛组合而成.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.%n%n或者找找Wiki上怎么说(其他靠谱的教程也行).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjw==",
+            "tooltip": "<strong>重力胸甲</strong></br>前置任务需求:</br>制造三钛</br>量子胸甲"
+        },
+        {
+            "name": "更硬,更强,更快",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/155.png",
+            "x": 1020.0,
+            "y": 60.0,
+            "data": "不,实际上并不会更快.但它比1级的更耐用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAmw==",
+            "tooltip": "<strong>更硬,更强,更快</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "化身巨龙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2118.png",
+            "x": 780.0,
+            "y": 276.0,
+            "data": "龙背包给予你火焰保护、力量、夜视和生命回复效果.%n%n[note]它的功能的确很强大,但它也会消耗一个龙蛋,所以请确定你真的需要它,或者你有把握再做个龙蛋.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIRg==",
+            "tooltip": "<strong>化身巨龙</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "铱镀层",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/802.png",
+            "x": 492.0,
+            "y": 420.0,
+            "data": "将你的护甲全部镀上铱合金物品外壳,将赋予它们更佳的耐久度.你必须先使用量子水晶来启动这些量子装甲零件,才能穿上它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADIg==",
+            "tooltip": "<strong>铱镀层</strong></br>前置任务需求:</br>电镀护腿,别试着穿它</br>别试着穿它走路</br>进阶纳米重力胸甲</br>别试着用它潜水"
+        },
+        {
+            "name": "铁盾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/656.png",
+            "x": 636.0,
+            "y": 60.0,
+            "data": "你的皮盾已经用够久了.完成第一个工具后,挖些铁矿,然后制作一个精良的铁盾吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACkA==",
+            "tooltip": "<strong>铁盾</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "铁标枪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/658.png",
+            "x": 636.0,
+            "y": 12.0,
+            "data": "升级你的木标枪,使用两个钢螺丝钉为它加上铁箭头就变成铁标枪.%n%n铁标枪的耐久比石标枪更高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACkg==",
+            "tooltip": "<strong>铁标枪</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "皮革护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/686.png",
+            "x": 492.0,
+            "y": 60.0,
+            "data": "杀一些牛来取得足够的皮革,以便制作一套完整的皮革护甲.%n%n提示:你可以染色这套护甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACrg==",
+            "tooltip": "<strong>皮革护甲</strong></br>前置任务需求:</br>屠牛者"
+        },
+        {
+            "name": "卢克,我是你亲爹!(Luke, I'm Your Father)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/139.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "有了玄钢,你现在可以制作一套新的护甲了.它在开始的时候非常基础,但它以后可以升级以解锁强大的功能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAiw==",
+            "tooltip": "<strong>卢克,我是你亲爹!(Luke, I'm Your Father)</strong></br>前置任务需求:</br>复合背心</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "镁铝合金弩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1150.png",
+            "x": 924.0,
+            "y": 156.0,
+            "data": "是时候用你的镁铝合金来制作弩臂和弩身,并升级你陈旧的木弩了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfg==",
+            "tooltip": "<strong>镁铝合金弩</strong></br>前置任务需求:</br>工具装配台</br>新的合金-镁铝合金"
+        },
+        {
+            "name": "镁铝合金弩箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1154.png",
+            "x": 972.0,
+            "y": 156.0,
+            "data": "镁铝合金制作的弹药要比过去的弹药好很多.%n%n你还可以使用下界石英强化弩箭,让弩箭变得更加锋利.不过前提是弩箭上有一个空闲的升级槽位.%n%n在NEI上查询材料的参数,找一种弩箭的好材料吧.%n%n制造大部分弩箭时,你得用流体固化器而不是匠魂的浇铸台.而且重点在于你需要通过匠魂冶炼炉来获取熔融铁并注入流体固化器,注意不能直接用GT的熔融铁.%n%n如果你想捡起你射出的弩箭,你需要把匠魂的弩箭放在物品栏中.如果放在战备双持的物品栏里,则无法捡起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgg==",
+            "tooltip": "<strong>镁铝合金弩箭</strong></br>前置任务需求:</br>基础流体固化器</br>镁铝合金弩"
+        },
+        {
+            "name": "爱与和平,不要战争!(Make love,not war)自己体会",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/209.png",
+            "x": 1212.0,
+            "y": 156.0,
+            "data": "适合那些不想开杀戒的人,这个炮塔只会把目标传送出去而不会杀死他们. 但是这需要耗费大量的电力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA0Q==",
+            "tooltip": "<strong>爱与和平,不要战争!(Make love,not war)自己体会</strong></br>前置任务需求:</br>4级炮塔基座"
+        },
+        {
+            "name": "做一把好剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/473.png",
+            "x": 780.0,
+            "y": 60.0,
+            "data": "现在是时候做一把匠魂剑了!首先你需要制作剑刃、某种护手以及手柄.在匠魂冶炼炉里面熔化一些青铜来铸造这些零件.拿去工具组装台把它们装好,这样你就有你第一把匠魂的剑了.%n%n有4种护手,改变护手类型会得到不同类型的剑,请查阅匠魂手册以获取更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB2Q==",
+            "tooltip": "<strong>做一把好剑</strong></br>前置任务需求:</br>做些更好的工具</br>希望你已经准备好了!"
+        },
+        {
+            "name": "制造一柄西洋剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2897.png",
+            "x": 828.0,
+            "y": 60.0,
+            "data": "难以击败有护甲的敌人? 你只需要装备一柄无视护甲的西洋剑,不过它的伤害并不高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALUQ==",
+            "tooltip": "<strong>制造一柄西洋剑</strong></br>前置任务需求:</br>做些更好的工具</br>希望你已经准备好了!"
+        },
+        {
+            "name": "不用牛获得牛奶?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2117.png",
+            "x": 636.0,
+            "y": 324.0,
+            "data": "在存储栏里放小麦就可以让牛背包产生牛奶.懒人福音!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIRQ==",
+            "tooltip": "<strong>不用牛获得牛奶?</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "怪物驱逐器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8608697205657523381.png",
+            "x": 972.0,
+            "y": 12.0,
+            "data": "LV就能制作,怪物驱逐器在其工作范围内可以防止怪物生成.无需能量即可工作,但是有能量可以提升其工作范围.%n%n[note]你只需要其中一个就能完成任务.[/note]",
+            "quest_id": "tgH86mIERWKIh8OAleKrSw==",
+            "tooltip": "<strong>怪物驱逐器</strong></br>前置任务需求:</br>你会非常讨厌这个 #5"
+        },
+        {
+            "name": "纳米水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/790.png",
+            "x": 444.0,
+            "y": 324.0,
+            "data": "纳米水晶用于制作纳米装甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADFg==",
+            "tooltip": "<strong>纳米水晶</strong></br>前置任务需求:</br>能量水晶"
+        },
+        {
+            "name": "纳米护目镜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1350.png",
+            "x": 348.0,
+            "y": 324.0,
+            "data": "为间谍和想当间谍的人们准备的头号产品.纳米护目镜.你不想要这些吗？但是卖完了？加工一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFRg==",
+            "tooltip": "<strong>纳米护目镜</strong></br>前置任务需求:</br>电动护目镜</br>碳皮肤"
+        },
+        {
+            "name": "「有钱真好」护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/688.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "拥有黄金护甲也不错.它的耐久非常低,不过穿着黄金护甲可以使你看起来很高贵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACsA==",
+            "tooltip": "<strong>「有钱真好」护甲</strong></br>前置任务需求:</br>获得铁"
+        },
+        {
+            "name": "\"噢,魔法\"装甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1839.png",
+            "x": 684.0,
+            "y": 108.0,
+            "data": "铁木装甲是一种魔法装甲,会附带一些特殊的附魔.头盔附有水下速掘I,靴子附有摔落保护I,胸甲和护腿附有保护I.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHLw==",
+            "tooltip": "<strong>\"噢,魔法\"装甲</strong></br>前置任务需求:</br>铁木</br>铁木比普通木材好"
+        },
+        {
+            "name": "\"噢,魔法\"装甲II",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2057.png",
+            "x": 732.0,
+            "y": 108.0,
+            "data": "钢叶装甲是暮色森林装甲的下一阶.可在探索下界时提供很好的防护.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAICQ==",
+            "tooltip": "<strong>\"噢,魔法\"装甲II</strong></br>前置任务需求:</br>钢叶1</br>钢叶2"
+        },
+        {
+            "name": "\"噢,魔法\"装甲III",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2058.png",
+            "x": 780.0,
+            "y": 108.0,
+            "data": "骑士金属是暮色森林装甲的顶级金属.它没有自带附魔,但具有高耐久和高护甲值.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAICg==",
+            "tooltip": "<strong>\"噢,魔法\"装甲III</strong></br>前置任务需求:</br>骑士金属</br>我授予你骑士称号"
+        },
+        {
+            "name": "哼哼!(Oink!)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2139.png",
+            "x": 780.0,
+            "y": 324.0,
+            "data": "虽然猪背包本身没啥用,但它可以转化成非常有用的工具,通过一些正确的...刺激...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIWw==",
+            "tooltip": "<strong>哼哼!(Oink!)</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "闪亮亮的护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/689.png",
+            "x": 636.0,
+            "y": 108.0,
+            "data": "在原版中,钻石护甲是最好的护甲.但在这有很多更好的护甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACsQ==",
+            "tooltip": "<strong>闪亮亮的护甲</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "被动防御",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/121.png",
+            "x": 1020.0,
+            "y": 12.0,
+            "data": "围墙和栅栏是更加被动的基地防御.但说真的,这东西有什么意思？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAeQ==",
+            "tooltip": "<strong>被动防御</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "激光炮!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/222.png",
+            "x": 1164.0,
+            "y": 204.0,
+            "data": "激光炮不需要装填弹药,但是仍然能造成极高的伤害. 你唯一需要做的就是,为它提供大量的电力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA3g==",
+            "tooltip": "<strong>激光炮!</strong></br>前置任务需求:</br>5级炮塔基座"
+        },
+        {
+            "name": "电镀护腿,别试着穿它",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/800.png",
+            "x": 444.0,
+            "y": 372.0,
+            "data": "用组装机将不锈钢物品外壳及纳米护腿结合,会得到纳米镀层护腿.最好别试着穿上它们,因为做不到.这是新的量子护腿的零件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADIA==",
+            "tooltip": "<strong>电镀护腿,别试着穿它</strong></br>前置任务需求:</br>IV组装机</br>碳皮肤"
+        },
+        {
+            "name": "保护你的基地:第4级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/208.png",
+            "x": 1068.0,
+            "y": 156.0,
+            "data": "制作强大炮塔所使用的小部件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA0A==",
+            "tooltip": "<strong>保护你的基地:第4级</strong></br>前置任务需求:</br>第4级的墙和栅栏"
+        },
+        {
+            "name": "保护你的基地:第5级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/220.png",
+            "x": 1068.0,
+            "y": 204.0,
+            "data": "坚固的材料和强大的武器. 像磁轨炮啊激光炮啊什么的. 我想你很快就会想要这些东西的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA3A==",
+            "tooltip": "<strong>保护你的基地:第5级</strong></br>前置任务需求:</br>几乎牢不可破"
+        },
+        {
+            "name": "保护你的基地:第1级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/120.png",
+            "x": 1068.0,
+            "y": 12.0,
+            "data": "一个人要用适当的方式来保卫他的家.那么为什么不用炮塔来保卫安全呢？目前有2种炮塔可供选择:\"土豆\"和\"一次性物品\".我想你能猜到它们是用来干什么的,以及它们是如何工作的...(不,我不能)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAeA==",
+            "tooltip": "<strong>保护你的基地:第1级</strong></br>前置任务需求:</br>被动防御"
+        },
+        {
+            "name": "保护你的基地:第2级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/156.png",
+            "x": 1068.0,
+            "y": 60.0,
+            "data": "稍微好一点的防护措施.现在有了真枪实弹,不用再浪费食物啦.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAnA==",
+            "tooltip": "<strong>保护你的基地:第2级</strong></br>前置任务需求:</br>更硬,更强,更快"
+        },
+        {
+            "name": "保护你的基地:第3级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/172.png",
+            "x": 1068.0,
+            "y": 108.0,
+            "data": "来,让我们大声喊出来:R——P——G——!!Allahu akbar(安拉胡阿克巴)!!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAArA==",
+            "tooltip": "<strong>保护你的基地:第3级</strong></br>前置任务需求:</br>固若金汤"
+        },
+        {
+            "name": "量子装甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/803.png",
+            "x": 444.0,
+            "y": 420.0,
+            "data": "量子装甲是高阶且非常耐用的装甲,并有许多特色,如夜视、坠落减伤,及快速跑步.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADIw==",
+            "tooltip": "<strong>量子装甲</strong></br>前置任务需求:</br>铱镀层</br>量子水晶"
+        },
+        {
+            "name": "量子胸甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3143.png",
+            "x": 444.0,
+            "y": 456.0,
+            "data": "量子胸甲和它的前任一样能飞,但按着Shift+空格的时候你不会下降而是缓慢上升. 下一个等级--重力胸甲--能解决这一切问题.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMRw==",
+            "tooltip": "<strong>量子胸甲</strong></br>前置任务需求:</br>量子装甲"
+        },
+        {
+            "name": "量子水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/807.png",
+            "x": 396.0,
+            "y": 420.0,
+            "data": "你需要一些量子水晶,才能制造量子护甲. 将兰波顿水晶放入精密激光蚀刻机处理,可以制成量子水晶.不过你还得到达IV阶段.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADJw==",
+            "tooltip": "<strong>量子水晶</strong></br>前置任务需求:</br>兰波顿水晶</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "量子护目镜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1351.png",
+            "x": 348.0,
+            "y": 372.0,
+            "data": "随着科技的不断进步,你注意到原有的黑色护目镜与现在又白又亮的漂亮盔甲不太搭. 你决定做一个白色的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFRw==",
+            "tooltip": "<strong>量子护目镜</strong></br>前置任务需求:</br>量子装甲</br>纳米护目镜"
+        },
+        {
+            "name": "超电磁炮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/223.png",
+            "x": 1212.0,
+            "y": 204.0,
+            "data": "巨大的攻击力,和美妙的射击声. 我建议你为你的电磁炮加装射程和伤害的升级让它们变得更加强大!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA3w==",
+            "tooltip": "<strong>超电磁炮</strong></br>前置任务需求:</br>5级炮塔基座"
+        },
+        {
+            "name": "看穿你的箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2437.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "有了全息眼镜,你就能以类似全息投影的方式看穿箱子、桶和抽屉的库存了.%n%n[note]要是你丢失了免费的这个,应该能够再次制作另一个吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJhQ==",
+            "tooltip": "<strong>看穿你的箱子</strong></br>前置任务需求:</br>熔炼!</br>蕴魔石"
+        },
+        {
+            "name": "看得更清楚",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/776.png",
+            "x": 540.0,
+            "y": 324.0,
+            "data": "纳米头盔比较特殊. 只要有能量,它就可以为你提供夜视能力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADCA==",
+            "tooltip": "<strong>看得更清楚</strong></br>前置任务需求:</br>碳纤零件</br>探测镜片</br>高级热交换器"
+        },
+        {
+            "name": "像蝙蝠一样...\"看\"?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2113.png",
+            "x": 732.0,
+            "y": 324.0,
+            "data": "夜视是一个很棒的背包能力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIQQ==",
+            "tooltip": "<strong>像蝙蝠一样...\"看\"?</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "探测镜片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/796.png",
+            "x": 588.0,
+            "y": 324.0,
+            "data": "夜视镜需要特殊的探测镜片来运作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADHA==",
+            "tooltip": "<strong>探测镜片</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>高级电路板"
+        },
+        {
+            "name": "锋利:超过...5...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/11.png",
+            "x": 780.0,
+            "y": 12.0,
+            "data": "该做些有用的东西了：一把剑!%n%n现在你有了一把剑,你将在“杀戮时刻”任务栏中获得杀死怪物的奖励.当心,这个世界上的怪物会把你咬碎然后再吐出来!%n%n如果忘记了任务所在的位置,可以在\"游历四方\"任务栏中找到别的武器任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAACw==",
+            "tooltip": "<strong>锋利:超过...5...</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "举起盾牌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/446.png",
+            "x": 732.0,
+            "y": 60.0,
+            "data": "一只手拿着剑,你能用另一只手做什么？对,你需要一个盾牌.让我们做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABvg==",
+            "tooltip": "<strong>举起盾牌</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "皮盾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/448.png",
+            "x": 684.0,
+            "y": 60.0,
+            "data": "你的木盾很弱.所以你得换一个更好更坚固的皮质盾牌. 而这需要一些皮革,所以去找一些牛吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABwA==",
+            "tooltip": "<strong>皮盾</strong></br>前置任务需求:</br>举起盾牌"
+        },
+        {
+            "name": "让子弹飞一会儿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/158.png",
+            "x": 1164.0,
+            "y": 60.0,
+            "data": "它们打得真疼.已经警告过你了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAng==",
+            "tooltip": "<strong>让子弹飞一会儿</strong></br>前置任务需求:</br>2级炮塔基座"
+        },
+        {
+            "name": "有时生活是可怕而黑暗的-带上一个背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2112.png",
+            "x": 708.0,
+            "y": 276.0,
+            "data": "既然你到达了MV阶段,那么就可以制作探险背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,可以用快捷键打开,默认是B.检查你的\"选项\"-\"控制\".%n%n当放在地上时,可以右键打开,还能布置并使用睡袋.%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.%n%n[note]探险背包和直升机背包共用同一个槽位,所以你只能择一装备,或是交替使用.[/note]%n%n译者注:死亡时探险背包有几率消失,这个几率在有灼烧状态时非常大,所以不要放太贵重的物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIQA==",
+            "tooltip": "<strong>有时生活是可怕而黑暗的-带上一个背包</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "石头标枪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/657.png",
+            "x": 684.0,
+            "y": 12.0,
+            "data": "升级你的木标枪,使用铁螺丝钉为它加上石箭头就变成石头标枪.这标枪比木制的有更好的耐久度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACkQ==",
+            "tooltip": "<strong>石头标枪</strong></br>前置任务需求:</br>你的第一把'远程'武器</br>重要的工具"
+        },
+        {
+            "name": "像鱿鱼一样...\"游\"?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2114.png",
+            "x": 636.0,
+            "y": 276.0,
+            "data": "如果你想深潜或者进行水下探险,这种背包就是为你准备的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIQg==",
+            "tooltip": "<strong>像鱿鱼一样...\"游\"?</strong></br>前置任务需求:</br>有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "name": "这个炮台可能会比较有用",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/174.png",
+            "x": 1212.0,
+            "y": 108.0,
+            "data": "恩...可能会有点用,至少看着它运行还挺有趣? 备注:这个炮台不会造成伤害,但是可以将怪物困在原地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAArg==",
+            "tooltip": "<strong>这个炮台可能会比较有用</strong></br>前置任务需求:</br>3级炮台基座"
+        },
+        {
+            "name": "2级炮塔基座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/157.png",
+            "x": 1116.0,
+            "y": 60.0,
+            "data": "没什么好看的.继续...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAnQ==",
+            "tooltip": "<strong>2级炮塔基座</strong></br>前置任务需求:</br>保护你的基地:第2级"
+        },
+        {
+            "name": "3级炮台基座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/173.png",
+            "x": 1116.0,
+            "y": 108.0,
+            "data": "更多的存储,更多的能量,以及更多的升级插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAArQ==",
+            "tooltip": "<strong>3级炮台基座</strong></br>前置任务需求:</br>保护你的基地:第3级"
+        },
+        {
+            "name": "第4级的墙和栅栏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/211.png",
+            "x": 1020.0,
+            "y": 156.0,
+            "data": "再一次升级你的墙壁和栅栏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA0w==",
+            "tooltip": "<strong>第4级的墙和栅栏</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "旅行者的装备",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1781.png",
+            "x": 684.0,
+            "y": 156.0,
+            "data": "护目镜,翅膀,靴子,马甲,腰带和靴子这些装备本身并不特别.%n%n装备护目镜可以缩放,装备腰带会增加一个快捷栏,装备靴子会加强爬坡(自动爬上一格高的障碍物),装备旅行者之翼会有跳跃提升,装备马甲可以更快地游泳.%n%n像装备普通护甲一样,你也会得到护甲值.%n%n以后你可以将这些物品升级为更强大的物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG9Q==",
+            "tooltip": "<strong>旅行者的装备</strong></br>前置任务需求:</br>闪亮亮的护甲</br>切割成片</br>高级电路板"
+        },
+        {
+            "name": "旅行者手套升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1785.png",
+            "x": 732.0,
+            "y": 204.0,
+            "data": "将红石放在我的武器上使它更快.那么我为什么不直接把它放在我的手上呢!%n它会提高挖掘速度.%n%n提示:%n每件护甲都有3个用于升级的插槽.但手套有5个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG-Q==",
+            "tooltip": "<strong>旅行者手套升级</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "旅行者护目镜升级版",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1782.png",
+            "x": 588.0,
+            "y": 204.0,
+            "data": "夜视非常有用.如果你将护目镜与夜视药水(3:00,一次做3个),金萝卜和打火石在匠魂装配台中结合起来,就会得到夜视护目镜.记得把护目镜放在装配台的中间.%n%n提示:自动修复也可以添加到护目镜中.%n%n每件护甲都有3个用于升级的插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG9g==",
+            "tooltip": "<strong>旅行者护目镜升级版</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "旅行者靴子升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1786.png",
+            "x": 780.0,
+            "y": 204.0,
+            "data": "你的靴子可以配备一些升级,如水上步行,二重跳,铅靴或黏滑靴子.%n%n水上步行可以让你走过水.%n二重跳让你可以在空中再次跳跃.%n铅靴允许你在水下行走,防止你游泳,还可以获得额外空气.%n黏滑靴子可减少你受到的掉落伤害.%n%n提示:%n自动修复也可以添加到靴子上.%n%n每件护甲都有3个用于升级的插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG-g==",
+            "tooltip": "<strong>旅行者靴子升级</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "旅行者马甲升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1783.png",
+            "x": 636.0,
+            "y": 204.0,
+            "data": "你的马甲可以配备一些升级,比如完美闪避和隐形.%n完美闪避可以叠加3次,它使你更难被击中.%n隐形让你在潜行时别人看不见你.%n%n记得把马甲放在装配台的中间.%n%n提示:%n自动修复也可以添加到马甲中.%n%n每件护甲都有3个用于升级的插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG9w==",
+            "tooltip": "<strong>旅行者马甲升级</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "旅行者之翼升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1784.png",
+            "x": 684.0,
+            "y": 204.0,
+            "data": "你的旅行者之翼可以配备一些升级,比如羽落和二重跳.%n%n羽落让你可以在空中缓慢滑行.%n二重跳意味着你在空中可以再次跳跃.%n%n记得把旅行者之翼放在装配台的中间.%n%n提示:%n自动修复也可以添加到旅行者之翼中.%n%n每件护甲都有3个用于升级的插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG-A==",
+            "tooltip": "<strong>旅行者之翼升级</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "炮塔基座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/122.png",
+            "x": 1116.0,
+            "y": 12.0,
+            "data": "炮塔必须放在炮塔基座的顶部.只有最初放置基座的玩家可以访问和配置炮塔.所以别担心别人拿走了你的弹药.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAeg==",
+            "tooltip": "<strong>炮塔基座</strong></br>前置任务需求:</br>保护你的基地:第1级"
+        },
+        {
+            "name": "4级炮塔基座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/207.png",
+            "x": 1116.0,
+            "y": 156.0,
+            "data": "更大的索敌范围,更高的电量存储和更多的升级插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAzw==",
+            "tooltip": "<strong>4级炮塔基座</strong></br>前置任务需求:</br>保护你的基地:第4级"
+        },
+        {
+            "name": "5级炮塔基座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/221.png",
+            "x": 1116.0,
+            "y": 204.0,
+            "data": "这是最后一个了,我保证. 作为最强大的炮塔基座,你想知道它们是否可以帮助你对付一些\"危险\"的敌人.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA3Q==",
+            "tooltip": "<strong>5级炮塔基座</strong></br>前置任务需求:</br>保护你的基地:第5级"
+        },
+        {
+            "name": "强化升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/125.png",
+            "x": 1260.0,
+            "y": 12.0,
+            "data": "你的炮塔可能需要更多的空间来容纳更多的弹药,那为什么不做一个升级呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAfQ==",
+            "tooltip": "<strong>强化升级</strong></br>前置任务需求:</br>谁还需要那些泥土？</br>不要玩食物!"
+        },
+        {
+            "name": "赴汤蹈火",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2115.png",
+            "x": 780.0,
+            "y": 372.0,
+            "data": "僵尸猪人背包会提供火焰保护,这让下界变成坦途.想要获得它,你得想办法在背着猪背包的时候被闪电击中...  译者注:可以试试雷神之锤或者直接去找会放闪电的精英怪.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIQw==",
+            "tooltip": "<strong>赴汤蹈火</strong></br>前置任务需求:</br>哼哼!(Oink!)"
+        },
+        {
+            "name": "泥巴护甲？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/683.png",
+            "x": 492.0,
+            "y": 12.0,
+            "data": "如果你没有任何护甲,泥巴护甲至少比什么都没有好. 泥巴可以在某些湿地找到,也可以用泥土和水合成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACqw==",
+            "tooltip": "<strong>泥巴护甲？</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "谁还需要那些泥土？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/123.png",
+            "x": 1164.0,
+            "y": 12.0,
+            "data": "你可能丢了成吨的东西在你的基地周围地上.那么为什么不用它来杀死敌人呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAew==",
+            "tooltip": "<strong>谁还需要那些泥土？</strong></br>前置任务需求:</br>炮塔基座"
+        },
+        {
+            "name": "火箭炮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/210.png",
+            "x": 1164.0,
+            "y": 156.0,
+            "data": "什么时候可以使用火箭炮？是的火箭炮! 火箭发射炮塔可以自动搜索和摧毁敌人,并且在攻击的时候发出巨大的爆炸声!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA0g==",
+            "tooltip": "<strong>火箭炮</strong></br>前置任务需求:</br>4级炮塔基座"
+        },
+        {
+            "name": "木制护甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/684.png",
+            "x": 540.0,
+            "y": 12.0,
+            "data": "如果你没办法找到泥巴,你可以用木头制作非常简陋的护甲.砍一些树来做一套.同时你也会需要一个软锤,为此存一些木头吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACrA==",
+            "tooltip": "<strong>木制护甲</strong></br>前置任务需求:</br>软锤大冒险!"
+        },
+        {
+            "name": "铁质弩箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1156.png",
+            "x": 972.0,
+            "y": 108.0,
+            "data": "光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、耐酸铝或者钢装上你的箭头.%n更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n[warn]升级[/warn]:%n[note]下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEhA==",
+            "tooltip": "<strong>铁质弩箭</strong></br>前置任务需求:</br>木弩"
+        },
+        {
+            "name": "木弩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1151.png",
+            "x": 924.0,
+            "y": 108.0,
+            "data": "现在你可以制作更好的远程武器了. 使用木制的弩身和弩臂,并使用黑曜石坚韧绑定结(耐久III)来让弩更加坚固. 弩弦用用普通的材料制作就可以.%n%n在你的工具装配台上将这些部件组装起来.%n%n[warn]升级:[/warn]%n[note]红石-拉弓速度%n青金石-抢夺%n苔藓球-自我修复(这个在NEI中不会显示合成表,除非你解锁了魔导手册GTNH栏的相应研究)[/note]%n%n注意:某些怪物需要使用特定工具才能产生伤害.如果你怎么打它都不掉血,赶紧跑!!!然后找出哪种武器最适合杀死它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfw==",
+            "tooltip": "<strong>木弩</strong></br>前置任务需求:</br>工具装配台"
+        },
+        {
+            "name": "你的第一把骨弓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/862.png",
+            "x": 924.0,
+            "y": 12.0,
+            "data": "由于普通的弓箭需要在组装机中制造,而且普通的小怪不会掉落(精英怪有几率掉落).因此你需要一张可以长时间使用的弓.%n%n虽然可以用木头做,但是用骨头会好得多. 用骨头做2个弓臂,用线作出弓弦.而箭头可以用骨头和燧石,它轻得多,但是可能耐久方面比不上普通的箭.%n%n修复弓的方式和修复其他匠魂工具一样,而箭则可以通过工具台或者直接从地上将箭捡起来的方式来恢复数量.如果你想捡起你射出的箭,你需要把匠魂的箭放在物品栏中. 如果放在战备双持的物品栏里,则无法捡起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADXg==",
+            "tooltip": "<strong>你的第一把骨弓</strong></br>前置任务需求:</br>匠魂时间"
+        },
+        {
+            "name": "你的第一把燧石飞刀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/864.png",
+            "x": 876.0,
+            "y": 12.0,
+            "data": "骨弓对你来说太贵了？那就做把燧石飞刀吧!你需要燧石和木棒来做成12把刀.虽然它的耐久和伤害都非常低,但它还是能帮你从安全的距离杀死杂鱼.%n%n如果你想拾取你射出的飞刀,你需要把匠魂的飞刀放在你的物品栏中,如果飞刀在战备双持的物品栏里,则无法拾取。",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADYA==",
+            "tooltip": "<strong>你的第一把燧石飞刀</strong></br>前置任务需求:</br>匠魂时间"
+        },
+        {
+            "name": "你的第一把'远程'武器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/450.png",
+            "x": 732.0,
+            "y": 12.0,
+            "data": "现在你还无法制造原版的弓箭或者是匠魂的远程武器,但是你可以做一个长矛!%n%n有的精英怪可能用远程武器会好对付一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABwg==",
+            "tooltip": "<strong>你的第一把'远程'武器</strong></br>前置任务需求:</br>锋利:超过...5..."
+        }
+    ],
+    "links": [
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "高级热交换器"
+        },
+        {
+            "source": "集成逻辑电路1",
+            "target": "高级热交换器"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "进阶纳米重力胸甲"
+        },
+        {
+            "source": "进阶电力喷气背包",
+            "target": "进阶纳米重力胸甲"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "固若金汤"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "几乎牢不可破"
+        },
+        {
+            "source": "自动化怪物农场",
+            "target": "它永远不会损坏"
+        },
+        {
+            "source": "分割徽章(激活)",
+            "target": "它永远不会损坏"
+        },
+        {
+            "source": "量子胸甲",
+            "target": "天使之翼-结合!"
+        },
+        {
+            "source": "火焰弓弦",
+            "target": "阿迪特弩身"
+        },
+        {
+            "source": "获得铁",
+            "target": "护甲2.0"
+        },
+        {
+            "source": "熔炼!",
+            "target": "护甲 2.5"
+        },
+        {
+            "source": "护甲2.0",
+            "target": "护甲 2.5"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "护甲模具"
+        },
+        {
+            "source": "复合背心",
+            "target": "灵魂护甲"
+        },
+        {
+            "source": "更多的热量 - 坎塔尔线圈",
+            "target": "灵魂护甲"
+        },
+        {
+            "source": "目标:月球",
+            "target": "最好的弩箭？"
+        },
+        {
+            "source": "充能合金",
+            "target": "最好的弩箭？"
+        },
+        {
+            "source": "充能合金",
+            "target": "最好的弩？"
+        },
+        {
+            "source": "流体固化器",
+            "target": "更好的弩箭"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "弓,箭,与箭袋"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "有点脆,但力道十足..."
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "有点脆,但力道十足..."
+        },
+        {
+            "source": "获得铁",
+            "target": "青铜护甲"
+        },
+        {
+            "source": "做些更好的工具",
+            "target": "铜制标枪"
+        },
+        {
+            "source": "希望你已经准备好了!",
+            "target": "铜制标枪"
+        },
+        {
+            "source": "2级炮塔基座",
+            "target": "烧死他们,全都烧死!"
+        },
+        {
+            "source": "碳板",
+            "target": "碳纤零件"
+        },
+        {
+            "source": "有机之道",
+            "target": "碳纤零件"
+        },
+        {
+            "source": "纳米水晶",
+            "target": "碳皮肤"
+        },
+        {
+            "source": "碳纤零件",
+            "target": "碳皮肤"
+        },
+        {
+            "source": "看得更清楚",
+            "target": "碳皮肤"
+        },
+        {
+            "source": "护甲2.0",
+            "target": "复合背心"
+        },
+        {
+            "source": "压缩钢护甲",
+            "target": "压缩戴斯护甲"
+        },
+        {
+            "source": "目标:火星",
+            "target": "压缩戴斯护甲"
+        },
+        {
+            "source": "压缩万物",
+            "target": "压缩钢护甲"
+        },
+        {
+            "source": "复合背心",
+            "target": "压缩钢护甲"
+        },
+        {
+            "source": "目标:月球",
+            "target": "压缩泰坦护甲"
+        },
+        {
+            "source": "压缩钢护甲",
+            "target": "压缩泰坦护甲"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "驱逐爬行者"
+        },
+        {
+            "source": "玄钢护甲基础升级",
+            "target": "玄钢护甲高级升级"
+        },
+        {
+            "source": "卢克,我是你亲爹!(Luke, I'm Your Father)",
+            "target": "玄钢护甲基础升级"
+        },
+        {
+            "source": "充能晶体",
+            "target": "玄钢护甲基础升级"
+        },
+        {
+            "source": "充能晶体",
+            "target": "玄钢工具和武器的基础升级"
+        },
+        {
+            "source": "玄钢工具和武器的基础升级",
+            "target": "玄钢工具和武器的高级升级"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "玄钢工具"
+        },
+        {
+            "source": "压出所有东西(Extrude all the things)",
+            "target": "钻石盾"
+        },
+        {
+            "source": "压出所有东西(Extrude all the things)",
+            "target": "钻石标枪"
+        },
+        {
+            "source": "炮塔基座",
+            "target": "不要玩食物!"
+        },
+        {
+            "source": "IV组装机",
+            "target": "别试着用它潜水"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "别试着用它潜水"
+        },
+        {
+            "source": "IV组装机",
+            "target": "别试着穿它走路"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "别试着穿它走路"
+        },
+        {
+            "source": "我可以看到一切",
+            "target": "电动护目镜"
+        },
+        {
+            "source": "熔炼!",
+            "target": "花俏的护甲"
+        },
+        {
+            "source": "护甲2.0",
+            "target": "花俏的护甲"
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "火焰弓弦"
+        },
+        {
+            "source": "3级炮台基座",
+            "target": "小心!我要扔手雷了!(Fire in the hole)"
+        },
+        {
+            "source": "量子护目镜",
+            "target": "护目镜 > 9000"
+        },
+        {
+            "source": "双重压缩太阳能",
+            "target": "护目镜 > 9000"
+        },
+        {
+            "source": "制造三钛",
+            "target": "重力胸甲"
+        },
+        {
+            "source": "量子胸甲",
+            "target": "重力胸甲"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "更硬,更强,更快"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "化身巨龙"
+        },
+        {
+            "source": "电镀护腿,别试着穿它",
+            "target": "铱镀层"
+        },
+        {
+            "source": "别试着穿它走路",
+            "target": "铱镀层"
+        },
+        {
+            "source": "进阶纳米重力胸甲",
+            "target": "铱镀层"
+        },
+        {
+            "source": "别试着用它潜水",
+            "target": "铱镀层"
+        },
+        {
+            "source": "重要的工具",
+            "target": "铁盾"
+        },
+        {
+            "source": "熔炼!",
+            "target": "铁标枪"
+        },
+        {
+            "source": "屠牛者",
+            "target": "皮革护甲"
+        },
+        {
+            "source": "复合背心",
+            "target": "卢克,我是你亲爹!(Luke, I'm Your Father)"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "卢克,我是你亲爹!(Luke, I'm Your Father)"
+        },
+        {
+            "source": "工具装配台",
+            "target": "镁铝合金弩"
+        },
+        {
+            "source": "新的合金-镁铝合金",
+            "target": "镁铝合金弩"
+        },
+        {
+            "source": "基础流体固化器",
+            "target": "镁铝合金弩箭"
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "镁铝合金弩箭"
+        },
+        {
+            "source": "4级炮塔基座",
+            "target": "爱与和平,不要战争!(Make love,not war)自己体会"
+        },
+        {
+            "source": "做些更好的工具",
+            "target": "做一把好剑"
+        },
+        {
+            "source": "希望你已经准备好了!",
+            "target": "做一把好剑"
+        },
+        {
+            "source": "做些更好的工具",
+            "target": "制造一柄西洋剑"
+        },
+        {
+            "source": "希望你已经准备好了!",
+            "target": "制造一柄西洋剑"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "不用牛获得牛奶?"
+        },
+        {
+            "source": "你会非常讨厌这个 #5",
+            "target": "怪物驱逐器"
+        },
+        {
+            "source": "能量水晶",
+            "target": "纳米水晶"
+        },
+        {
+            "source": "电动护目镜",
+            "target": "纳米护目镜"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "纳米护目镜"
+        },
+        {
+            "source": "获得铁",
+            "target": "「有钱真好」护甲"
+        },
+        {
+            "source": "铁木",
+            "target": "\"噢,魔法\"装甲"
+        },
+        {
+            "source": "铁木比普通木材好",
+            "target": "\"噢,魔法\"装甲"
+        },
+        {
+            "source": "钢叶1",
+            "target": "\"噢,魔法\"装甲II"
+        },
+        {
+            "source": "钢叶2",
+            "target": "\"噢,魔法\"装甲II"
+        },
+        {
+            "source": "骑士金属",
+            "target": "\"噢,魔法\"装甲III"
+        },
+        {
+            "source": "我授予你骑士称号",
+            "target": "\"噢,魔法\"装甲III"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "哼哼!(Oink!)"
+        },
+        {
+            "source": "切割成片",
+            "target": "闪亮亮的护甲"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "被动防御"
+        },
+        {
+            "source": "5级炮塔基座",
+            "target": "激光炮!"
+        },
+        {
+            "source": "IV组装机",
+            "target": "电镀护腿,别试着穿它"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "电镀护腿,别试着穿它"
+        },
+        {
+            "source": "第4级的墙和栅栏",
+            "target": "保护你的基地:第4级"
+        },
+        {
+            "source": "几乎牢不可破",
+            "target": "保护你的基地:第5级"
+        },
+        {
+            "source": "被动防御",
+            "target": "保护你的基地:第1级"
+        },
+        {
+            "source": "更硬,更强,更快",
+            "target": "保护你的基地:第2级"
+        },
+        {
+            "source": "固若金汤",
+            "target": "保护你的基地:第3级"
+        },
+        {
+            "source": "铱镀层",
+            "target": "量子装甲"
+        },
+        {
+            "source": "量子水晶",
+            "target": "量子装甲"
+        },
+        {
+            "source": "量子装甲",
+            "target": "量子胸甲"
+        },
+        {
+            "source": "兰波顿水晶",
+            "target": "量子水晶"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "量子水晶"
+        },
+        {
+            "source": "量子装甲",
+            "target": "量子护目镜"
+        },
+        {
+            "source": "纳米护目镜",
+            "target": "量子护目镜"
+        },
+        {
+            "source": "5级炮塔基座",
+            "target": "超电磁炮"
+        },
+        {
+            "source": "熔炼!",
+            "target": "看穿你的箱子"
+        },
+        {
+            "source": "蕴魔石",
+            "target": "看穿你的箱子"
+        },
+        {
+            "source": "碳纤零件",
+            "target": "看得更清楚"
+        },
+        {
+            "source": "探测镜片",
+            "target": "看得更清楚"
+        },
+        {
+            "source": "高级热交换器",
+            "target": "看得更清楚"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "像蝙蝠一样...\"看\"?"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "探测镜片"
+        },
+        {
+            "source": "高级电路板",
+            "target": "探测镜片"
+        },
+        {
+            "source": "基本工具",
+            "target": "锋利:超过...5..."
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "举起盾牌"
+        },
+        {
+            "source": "举起盾牌",
+            "target": "皮盾"
+        },
+        {
+            "source": "2级炮塔基座",
+            "target": "让子弹飞一会儿"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "有时生活是可怕而黑暗的-带上一个背包"
+        },
+        {
+            "source": "你的第一把'远程'武器",
+            "target": "石头标枪"
+        },
+        {
+            "source": "重要的工具",
+            "target": "石头标枪"
+        },
+        {
+            "source": "有时生活是可怕而黑暗的-带上一个背包",
+            "target": "像鱿鱼一样...\"游\"?"
+        },
+        {
+            "source": "3级炮台基座",
+            "target": "这个炮台可能会比较有用"
+        },
+        {
+            "source": "保护你的基地:第2级",
+            "target": "2级炮塔基座"
+        },
+        {
+            "source": "保护你的基地:第3级",
+            "target": "3级炮台基座"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "第4级的墙和栅栏"
+        },
+        {
+            "source": "闪亮亮的护甲",
+            "target": "旅行者的装备"
+        },
+        {
+            "source": "切割成片",
+            "target": "旅行者的装备"
+        },
+        {
+            "source": "高级电路板",
+            "target": "旅行者的装备"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者手套升级"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者护目镜升级版"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者靴子升级"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者马甲升级"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者之翼升级"
+        },
+        {
+            "source": "保护你的基地:第1级",
+            "target": "炮塔基座"
+        },
+        {
+            "source": "保护你的基地:第4级",
+            "target": "4级炮塔基座"
+        },
+        {
+            "source": "保护你的基地:第5级",
+            "target": "5级炮塔基座"
+        },
+        {
+            "source": "谁还需要那些泥土？",
+            "target": "强化升级"
+        },
+        {
+            "source": "不要玩食物!",
+            "target": "强化升级"
+        },
+        {
+            "source": "哼哼!(Oink!)",
+            "target": "赴汤蹈火"
+        },
+        {
+            "source": "基本工具",
+            "target": "泥巴护甲？"
+        },
+        {
+            "source": "炮塔基座",
+            "target": "谁还需要那些泥土？"
+        },
+        {
+            "source": "4级炮塔基座",
+            "target": "火箭炮"
+        },
+        {
+            "source": "软锤大冒险!",
+            "target": "木制护甲"
+        },
+        {
+            "source": "木弩",
+            "target": "铁质弩箭"
+        },
+        {
+            "source": "工具装配台",
+            "target": "木弩"
+        },
+        {
+            "source": "匠魂时间",
+            "target": "你的第一把骨弓"
+        },
+        {
+            "source": "匠魂时间",
+            "target": "你的第一把燧石飞刀"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "你的第一把'远程'武器"
+        }
+    ]
+}

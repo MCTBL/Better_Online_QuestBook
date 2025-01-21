@@ -1,0 +1,1020 @@
+{
+    "data": [
+        {
+            "name": "熟练的神秘使",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/260.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究一些禁忌的事物不会产生什么问题...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABBA==",
+            "tooltip": "<strong>熟练的神秘使</strong></br>前置任务需求:</br>你已经出师了!"
+        },
+        {
+            "name": "高级节点稳定器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1383.png",
+            "x": 12.0,
+            "y": 120.0,
+            "data": "高级节点稳定器的作用类似于普通节点稳定器,但具有关键差异. 它仍然会阻止它影响的节点被耗尽,但节点仍然可以从其他较小的节点抽取要素. 它还有更高的几率来改善衰落和不稳定的节点. 缺点是它影响的任何节点的充能速度都会极慢极慢...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFZw==",
+            "tooltip": "<strong>高级节点稳定器</strong></br>前置任务需求:</br>把它带回家"
+        },
+        {
+            "name": "(几乎)自动化源质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/298.png",
+            "x": 252.0,
+            "y": 264.0,
+            "data": "结合源质监视和发射功能于一体.用一个镜子和一个聚合器你可以在任何地方来给注魔祭坛提供源质.(魔导手册自动化魔法)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABKg==",
+            "tooltip": "<strong>(几乎)自动化源质</strong></br>前置任务需求:</br>输送源质</br>源质监测"
+        },
+        {
+            "name": "神奇的盒子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2020.png",
+            "x": 492.0,
+            "y": 72.0,
+            "data": "末影箱子非常神奇.无论你制造了多少末影箱子,它们看起来都相互连接到同一维度.%n%n我可以在一处放入物品,然后再在另一处拿出它们!还可以对箱子顶部染色来限定频道,任何拥有相同颜色组合的末影箱子共享同一片空间.对箱子使用钻石可以将其锁定为你的私人箱子,并使用私人网络.%n%n空手Shift+右键可以移除钻石,让箱子重新回到公共网络中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH5A==",
+            "tooltip": "<strong>神奇的盒子</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "神奇的储罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2021.png",
+            "x": 540.0,
+            "y": 72.0,
+            "data": "这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!%n%n我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.%n%nShift+右键可以移除钻石,让储罐重新回到公共网络中.%n%n前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. %n%n如果大量使用末影储罐造成了FPS下降,试试在config\\EnderStorage.cfg里关闭底部特效(将disableFXTank设置为true).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH5Q==",
+            "tooltip": "<strong>神奇的储罐</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "可怕的魔法载体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/261.png",
+            "x": 564.0,
+            "y": 120.0,
+            "data": "更多...我想要更多! 一定有什么更强大、更古老的东西比九头蛇更加强大.%n%n这些眼泪...哇!我从来没有见过如此强大的东西. 可能...我可能可以用它来制作一根更强大的法杖？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABBQ==",
+            "tooltip": "<strong>可怕的魔法载体</strong></br>前置任务需求:</br>最后,一柄银树法杖"
+        },
+        {
+            "name": "\"护甲\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/286.png",
+            "x": 720.0,
+            "y": 144.0,
+            "data": "这种新金属是如此的...迷人.你在触摸它的时候感觉很舒服,既然这样为什么不用它们做一套新盔甲呢？ 什么,怕出问题？放心它一定会保护你的! (魔导手册邪术学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABHg==",
+            "tooltip": "<strong>\"护甲\"</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "最后,一柄银树法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/263.png",
+            "x": 516.0,
+            "y": 120.0,
+            "data": "我尝试把巫妖之骨和这个银树杖柄结合在一起.结果在几秒钟内它们就化成了一堆灰烬.我想我需要一种更好的魔导介质. 暮色森林的九头蛇有很强的再生能力-能再生整颗头颅! 她的血液里面一定含有大量的魔力.我想我们需要一点来完成我们的银树法杖.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABBw==",
+            "tooltip": "<strong>最后,一柄银树法杖</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "净化你的灵魂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1875.png",
+            "x": 12.0,
+            "y": 24.0,
+            "data": "神秘探险的灵魂火盆会存储你的永久扭曲.%n%n只要有火之要素(0.01-vis)和从下方供应的死亡(Mortuus)源质,灵魂火盆就会一直工作,即使你到了其他维度.把它关闭或是供能不足,所有扭曲就会重新回到你的体内,所以要当心.%n%n存储扭曲有一个缺点-污秽.你需要想个办法来解决这个问题.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHUw==",
+            "tooltip": "<strong>净化你的灵魂</strong></br>前置任务需求:</br>洗澡的时候打肥皂"
+        },
+        {
+            "name": "旅行伴侣",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2267.png",
+            "x": 12.0,
+            "y": 264.0,
+            "data": "感到孤单?箱子宝宝是一种简单的旅行伴侣,为你提供额外的空间.升级后(每个箱子)它可以为你提供一些不错的增益.与其他傀儡类似,你可以用傀儡铃铛将其重新变成掉落物捡起.它的脑子不太好用,所以很容易卡住.你可以通过GUI命令它在原地停留.只要区块在加载,即使被卡住它也会传送回你身边.它还能跟随你到其他维度.%n%n它会缓慢治疗自己,如果你手持食物(任何食物,甚至腐肉也可以)右键它,它就能更快地恢复.远离岩浆.%n%n傀儡升级效果:%n风:更快移动.%n地:多一行物品栏.%n火:攻击敌对生物,点燃它们.%n水:几乎无懈可击.只能由放置它的玩家打开或捡起.%n混沌:内部有空间时,拾取附近掉落物.%n秩序:捡起时可携带内部物品,并可嵌套进其他存储物(如箱子).别犯傻.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI2w==",
+            "tooltip": "<strong>旅行伴侣</strong></br>前置任务需求:</br>略胜一筹"
+        },
+        {
+            "name": "法杖自动充能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/277.png",
+            "x": 60.0,
+            "y": 72.0,
+            "data": "既然你找到了收集节点的方法. 那么再搞一个自动给法杖充能的装置怎么样？那不是很方便吗？ (魔导手册神秘学页面-法杖充能基座)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABFQ==",
+            "tooltip": "<strong>法杖自动充能</strong></br>前置任务需求:</br>把它带回家"
+        },
+        {
+            "name": "法师的权杖顶部有魔晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/887.png",
+            "x": 420.0,
+            "y": 216.0,
+            "data": "将杖芯两端装上杖端,再用和制作法杖一样的方式添上暮色森林怪物掉落物,以及一些螺丝,即可制成手杖. 权杖无法用于奥术工作台,但它可以储存同种材质法杖2.5倍的魔力. 它甚至可以作为近战武器. 它虽然无法获得武器的附魔,但伤害很可观且不会损失耐久(本来就没有耐久条→_→).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADdw==",
+            "tooltip": "<strong>法师的权杖顶部有魔晶</strong></br>前置任务需求:</br>魔法杖芯"
+        },
+        {
+            "name": "洗澡做SPA,自动去扭曲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1098.png",
+            "x": 156.0,
+            "y": 24.0,
+            "data": "在奥术浴场洗澡能够自动地临时去除扭曲效果. 记得把浴盐也带进浴场.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAESg==",
+            "tooltip": "<strong>洗澡做SPA,自动去扭曲</strong></br>前置任务需求:</br>沐浴更衣,远离扭曲烦恼"
+        },
+        {
+            "name": "沐浴更衣,远离扭曲烦恼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1097.png",
+            "x": 108.0,
+            "y": 24.0,
+            "data": "奥术石蕊试纸会告诉你你的扭曲到底有多高,那么要怎样才能摆脱这讨厌的扭曲效果呢？ 净化浴盐可以在短时间内帮你屏蔽掉扭曲效果. 把净化浴盐扔进一个1*1格的水里然后跳进去. 洗完澡之后你会感到放松一点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAESQ==",
+            "tooltip": "<strong>沐浴更衣,远离扭曲烦恼</strong></br>前置任务需求:</br>你想知道你现在的扭曲值么？"
+        },
+        {
+            "name": "信标",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1102.png",
+            "x": 252.0,
+            "y": 72.0,
+            "data": "你成为了一位熟练的神秘使,已经做好注魔合成信标的准备了! 信标的合成表可以在魔导手册GTNH页面中找到.在你的基地激活信标,获得各种有用的BUFF吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAETg==",
+            "tooltip": "<strong>信标</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "史上最好的法杖杖端...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/272.png",
+            "x": 156.0,
+            "y": 264.0,
+            "data": "当然!神秘锭! 还有什么东西能比这种神奇的金属能够更好地引导VIS呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABEA==",
+            "tooltip": "<strong>史上最好的法杖杖端...</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "把它带回家",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/276.png",
+            "x": 60.0,
+            "y": 120.0,
+            "data": "你的节点列表里面可能有许多的节点.但是四处奔波来给你的法杖充能不是一个熟练的神秘使所应该做的事情.移动节点不是什么很复杂的魔法,但是毫无疑问将节点带回家之后它们需要一些东西来保护它们脆弱的小身板. (魔导手册神秘学页面-节点稳定器)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABFA==",
+            "tooltip": "<strong>把它带回家</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "你真的能看到那些吗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2885.png",
+            "x": 300.0,
+            "y": 72.0,
+            "data": "如果你稍微涉入一点黑暗面的话,应该就能制作这些护目镜. 它们的魔力减免仅次于无尽头盔. 而且谁会去做无尽套呢?%n%n不过首先,你需要注魔和一些会带来扭曲的研究.%n%n如果你是个胆小鬼,也可以制造'摆脱死亡,游历四方'任务栏中的电子揭示护目镜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALRQ==",
+            "tooltip": "<strong>你真的能看到那些吗?</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "CV(Centi-vis)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/275.png",
+            "x": 60.0,
+            "y": 168.0,
+            "data": "许多高级机器需要提供VIS才可以让它们正常运转. 但是使用法杖来为机器提供VIS并不能达到预期的效果. 如果你能将撕开另一个维度的入口,并通过节点从中抽取能量怎么样? 这样干应该不会出问题的对吧? (魔导手册神秘学页面-掌控魔力)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABEw==",
+            "tooltip": "<strong>CV(Centi-vis)</strong></br>前置任务需求:</br>把它带回家"
+        },
+        {
+            "name": "CV中继",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/278.png",
+            "x": 108.0,
+            "y": 168.0,
+            "data": "你应该研究一些东西来传输和使用充能节点中喷发出来的VIS. (魔导手册中神秘学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABFg==",
+            "tooltip": "<strong>CV中继</strong></br>前置任务需求:</br>CV(Centi-vis)"
+        },
+        {
+            "name": "法杖强化: 魔子缓存",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1993.png",
+            "x": 300.0,
+            "y": 168.0,
+            "data": "将这个强化应用到法杖中会使法杖额外增加25％存储.但同时增加5％的不稳定性.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHyQ==",
+            "tooltip": "<strong>法杖强化: 魔子缓存</strong></br>前置任务需求:</br>法杖强化"
+        },
+        {
+            "name": "清理粘浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/300.png",
+            "x": 204.0,
+            "y": 360.0,
+            "data": "如果你经常进行注魔,那么你肯定很讨厌注魔过程中产生的咒波粘浆.净化铲可以帮你清理这些咒波粘浆,所以在注魔过程中这可是一个必不可少的工具!(魔导手册伪经)%n%n实际上,如果你对所做的注魔有充分的准备的话,可以让这东西完全无用武之地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABLA==",
+            "tooltip": "<strong>清理粘浆</strong></br>前置任务需求:</br>源质物品存储"
+        },
+        {
+            "name": "浓缩黑暗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/285.png",
+            "x": 684.0,
+            "y": 144.0,
+            "data": "由于某种原因,你决定给种子注入黑暗的力量. 这看起来很有前景.为什么？不知道...%n%n想要解锁邪术研究,你需要先让扭曲高于30才能解锁第一阶段,然后大于50的扭曲再解锁第二阶段. 不过临时扭曲不计算在内...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABHQ==",
+            "tooltip": "<strong>浓缩黑暗</strong></br>前置任务需求:</br>你已经出师了!"
+        },
+        {
+            "name": "创造更好的法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/265.png",
+            "x": 324.0,
+            "y": 120.0,
+            "data": "虽然你的宏伟之木法杖很不错,但是它的缺点也很明显-只能存储50点VIS.我试图使用缸中节点这个魔法来移动节点,但是失败了. 但是我发现了一些其他比较常见的材料可以用来制造一些新的法杖杖芯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABCQ==",
+            "tooltip": "<strong>创造更好的法杖</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "尖叫黑曜石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/305.png",
+            "x": 108.0,
+            "y": 72.0,
+            "data": "这个神奇的石头在你死后会找到你的灵魂,有些时候这很方便.把两个尖叫黑曜石垂直放置在一起,触摸它后你就可以把你的出生点设置到这个位置,而不需要一张床了.你可以想象一下如何使用它.(魔导手册神秘基础中的研究内容)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABMQ==",
+            "tooltip": "<strong>尖叫黑曜石</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "你想知道你现在的扭曲值么？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1055.png",
+            "x": 156.0,
+            "y": 72.0,
+            "data": "在进行了一些禁忌的研究之后,你的扭曲值增加了一些. 但是你想知道你目前的扭曲值到底有多高么？%n%n制作一些奥术石蕊试纸来测一测吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEHw==",
+            "tooltip": "<strong>你想知道你现在的扭曲值么？</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "祛魔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2068.png",
+            "x": 396.0,
+            "y": 24.0,
+            "data": "如果你发现一个物品或一本书有一个不错的附魔-但同时还有一堆垃圾附魔.使用祛魔台,你可以将这些附魔一个一个分离出来,封印到书中.将其用书架环绕起来,以减少对物品的损坏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIFA==",
+            "tooltip": "<strong>祛魔</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "附魔专家",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/304.png",
+            "x": 444.0,
+            "y": 72.0,
+            "data": "终极附魔设备--你可以使用渗透附魔台来选择你想要的附魔. 这个附魔台以VIS为动力,可以创造出你能想象到的最强大的附魔组合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABMA==",
+            "tooltip": "<strong>附魔专家</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "源质物品存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/295.png",
+            "x": 156.0,
+            "y": 312.0,
+            "data": "当然你可以使用很多的罐子来存储大量的源质,但是用箱子或者桶来存储固态的源质不是更方便吗？(魔导手册炼金术)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABJw==",
+            "tooltip": "<strong>源质物品存储</strong></br>前置任务需求:</br>史上最好的法杖杖端..."
+        },
+        {
+            "name": "源质监测",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/299.png",
+            "x": 252.0,
+            "y": 312.0,
+            "data": "一个一个去检查你的源质罐子是一个很麻烦的工作.在你想要连续进行多次注魔的时候这种问题更加突出. 幸运的是,源质聚合器可以帮助你来监视一个区域的罐子.用水晶之眼来绑定你想要监视区域的罐子.(魔导手册自动化魔法)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABKw==",
+            "tooltip": "<strong>源质监测</strong></br>前置任务需求:</br>源质物品存储"
+        },
+        {
+            "name": "输送源质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2855.png",
+            "x": 252.0,
+            "y": 216.0,
+            "data": "这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)%n%n你有一种直觉,拥有更强能量的金属会有非常有趣的用途..",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALJw==",
+            "tooltip": "<strong>输送源质</strong></br>前置任务需求:</br>魔镜的玻璃?"
+        },
+        {
+            "name": "找到钥匙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/283.png",
+            "x": 648.0,
+            "y": 288.0,
+            "data": "不!不不不不! 他们把它藏起来了! 我必须找到...找到钥匙!必须找到它! 我需要这个石板来打开大门!我的宝贝!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABGw==",
+            "tooltip": "<strong>找到钥匙</strong></br>前置任务需求:</br>黑暗的维度"
+        },
+        {
+            "name": "唾手可得的财富?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2411.png",
+            "x": 300.0,
+            "y": 24.0,
+            "data": "手持着元始魔力,你突然明白了耳语中的某些内容!它向你描述了一片土地,那片土地蕴含了无限的财富,只等你去攫取.你嘲笑这种无稽之谈,但显然如果你\"睁开眼睛\"并制作出某种錾制石刻,你就能在此处打开传送门.但是这只眼睛在说...这是什么?也许是钻研更高深黑暗魔法的钥匙!只有傻子才会相信这种胡言乱语.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJaw==",
+            "tooltip": "<strong>唾手可得的财富?</strong></br>前置任务需求:</br>元始魔力"
+        },
+        {
+            "name": "淦XXXXXXXXXX...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2412.png",
+            "x": 624.0,
+            "y": 240.0,
+            "data": "是了! 就是它! 眼睛! 你终于明白了,这太简单了! 无尽的财富,都是你的! 不对!这是哪里? 这里是空的? 为什么,你的财富哪去了? 唯一的原住民告诉你,所有这些早已随着时间的洪流消逝...但这毕竟意味着你已经到达了正确的位置! 只是在时间维度上出了点问题. 只要稍微调整一下传送门,你就可以在正确的时间到达正确的地点,并心安理得地享受这无尽的财富. 你怀疑这样的调整需要一些强大的物品...无尽的强大.%n%n同时,原主人搬走后,你就能拥有一个世界来存放自己的物品了.离开时,你好像瞥见了一只小恶魂,当然这只是幻觉? 不幸的是,随着时间的流逝,你离开的时候可能会陷入荒原.(通过传送门退出深渊世界后你将被传送到世界出生点)%n%n为了制造一台能够带你来到正确时间和地点的机器,你不得不撸起袖子,在现有技术实力下做到极限. (做好准备后,请查看\"终极目标\"任务栏)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJbA==",
+            "tooltip": "<strong>淦XXXXXXXXXX...</strong></br>前置任务需求:</br>他们看到我,他们看着我!"
+        },
+        {
+            "name": "治疗你的节点",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2064.png",
+            "x": 60.0,
+            "y": 216.0,
+            "data": "许多野生节点都有损伤,同时打碎缸中节点也可能会造成损伤.节点操纵仪可以帮助你将节点恢复到最大强度,并提升它们的再充能速度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIEA==",
+            "tooltip": "<strong>治疗你的节点</strong></br>前置任务需求:</br>CV(Centi-vis)"
+        },
+        {
+            "name": "无视它们眼中的光芒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3272.png",
+            "x": 12.0,
+            "y": 360.0,
+            "data": "这不是个好主意,但不应成为你停下来的理由.不过是有脑子的傀儡罢了,能出什么问题?%n%n你只需完成其中一项要求即可.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMyA==",
+            "tooltip": "<strong>无视它们眼中的光芒</strong></br>前置任务需求:</br>这是最好的?"
+        },
+        {
+            "name": "升级你的核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1401.png",
+            "x": 12.0,
+            "y": 216.0,
+            "data": "尝试为你的震击核心添加潜能. 在3级时,你可以添加闪电链或冲击波.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFeQ==",
+            "tooltip": "<strong>升级你的核心</strong></br>前置任务需求:</br>升级你的法杖核心"
+        },
+        {
+            "name": "让我们试试这个",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/288.png",
+            "x": 720.0,
+            "y": 96.0,
+            "data": "凡人.哼! 他们对真正的力量能了解多少？ 那个声音告诉我,如果我想继续前进我需要关注异域和黑暗. 那么食物怎么样？ (详细信息参考魔导手册神秘扭曲学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABIA==",
+            "tooltip": "<strong>让我们试试这个</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "小帮手",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/291.png",
+            "x": 108.0,
+            "y": 264.0,
+            "data": "一个优雅的神秘使从来不会亲自干那些粗重的活计.他们一般都有小帮手.在你的指挥下傀儡可以帮助你做任何简单的工作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABIw==",
+            "tooltip": "<strong>小帮手</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "魔法-物品传输",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/297.png",
+            "x": 204.0,
+            "y": 216.0,
+            "data": "它的合成很麻烦,但可用于传送物品.请查看魔导手册以获取更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABKQ==",
+            "tooltip": "<strong>魔法-物品传输</strong></br>前置任务需求:</br>魔镜的玻璃?"
+        },
+        {
+            "name": "魔镜的玻璃?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2857.png",
+            "x": 204.0,
+            "y": 168.0,
+            "data": "这种玻璃看起来用途挺多的,可能包括,传输物品或源质?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALKQ==",
+            "tooltip": "<strong>魔镜的玻璃?</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "魔法杖芯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/878.png",
+            "x": 444.0,
+            "y": 168.0,
+            "data": "杖柄可进一步合成:两个(匹配的)杖柄通过元始魔力结合起来,再加上魔法水晶簇即可制成杖芯.(虽然合成表形式都一样,但每种杖芯都需要分别研究.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADbg==",
+            "tooltip": "<strong>魔法杖芯</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "name": "魔法\"手权杖\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1191.png",
+            "x": 468.0,
+            "y": 216.0,
+            "data": "将权杖合成表中的杖柄换成杖芯,就可以制作出一种奇怪的混合体,融合了手杖(staff)与权杖(scepter)(有时被称为\"手权杖\"(staffter)). 这种产物无法安装核心也无法放入奥术工作台,但它仍然可以用于激活结构(如注魔祭坛),或是作为拥有修复附魔装备的\"vis电池\",它还能为符文护盾充能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEpw==",
+            "tooltip": "<strong>魔法\"手权杖\"</strong></br>前置任务需求:</br>魔法杖芯"
+        },
+        {
+            "name": "完成新法杖所需的更具活性的螺丝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/266.png",
+            "x": 444.0,
+            "y": 120.0,
+            "data": "由于这些杖柄可以容纳更多的魔力,因此,当我尝试使用那些不锈钢螺丝固定这些杖柄的时候,它们都融化了. 所以我需要一种新材料,可以兼容这些活性能量的材料,我想我应该试试充能合金.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABCg==",
+            "tooltip": "<strong>完成新法杖所需的更具活性的螺丝</strong></br>前置任务需求:</br>太多杖芯可选！"
+        },
+        {
+            "name": "都不简单",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/301.png",
+            "x": 204.0,
+            "y": 264.0,
+            "data": "请注意!这些火焰都是十分危险的.但是你难道不想在下界拥有一片雪地嘛？%n%n在服务器上应该禁用火焰蔓延,以防止产生巨量的延迟进而导致服务器崩溃. (几种火焰的详情参考魔导手册中魔法工匠部分)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABLQ==",
+            "tooltip": "<strong>都不简单</strong></br>前置任务需求:</br>史上最好的法杖杖端..."
+        },
+        {
+            "name": "......还是?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8023933740364275001.png",
+            "x": 108.0,
+            "y": 312.0,
+            "data": "这对杖端比神秘锭还要更好!",
+            "quest_id": "LIZCdBLfQquQpULGmFDixw==",
+            "tooltip": "<strong>......还是?</strong></br>前置任务需求:</br>史上最好的法杖杖端...</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "奥利哈钢螺丝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1402.png",
+            "x": 516.0,
+            "y": 168.0,
+            "data": "末影螺丝很好,但是如果通过它们的vis太多,它们似乎会破裂. 做一些奥利哈钢螺丝吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFeg==",
+            "tooltip": "<strong>奥利哈钢螺丝</strong></br>前置任务需求:</br>反应堆材料"
+        },
+        {
+            "name": "升级你的法杖核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1382.png",
+            "x": 12.0,
+            "y": 168.0,
+            "data": "核心镶饰台需要经验等级和vis才能升级核心. 每个核心可以升级五次,每次升级的经验消耗等级和vis消耗增加8. 某些升级只能在某些级别应用(通常仅在级别3),而其他升级则具有必备升级. 像朴素和潜能这样的一些升级可以多次应用. 所有升级都是永久性的,目前无法删除它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFZg==",
+            "tooltip": "<strong>升级你的法杖核心</strong></br>前置任务需求:</br>CV(Centi-vis)"
+        },
+        {
+            "name": "清除...你的部分扭曲?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2773.png",
+            "x": 648.0,
+            "y": 96.0,
+            "data": "这种制作起来很麻烦,且只在你拥有50+扭曲时才生效的玩意,不过要是你为箱子里到处乱动的物品而大感头痛的话,它还是有点用的.请查看魔导手册中\"神秘扭曲学\"章节,其中详细介绍了它及相关物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK1Q==",
+            "tooltip": "<strong>清除...你的部分扭曲?</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "清除你的扭曲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/833.png",
+            "x": 684.0,
+            "y": 96.0,
+            "data": "随着时间的推移,你身上所积累的扭曲开始成为一个让你头痛的问题. 使用浴盐和驱邪肥皂也只是一种暂时的解决办法.要真正的摆脱扭曲,你需要一些包含更加强大力量的东西,一滴纯净泪水. 如果你帮我收集一些东西,我可以给你一滴. 好好想想在什么时候使用它,因为如果你想通过研究来解锁这个物品,那可是非常漫长的过程.%n%nPS：铱锇合金需要LuV级的供能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADQQ==",
+            "tooltip": "<strong>清除你的扭曲</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "挑战极限",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/303.png",
+            "x": 444.0,
+            "y": 24.0,
+            "data": "普通的附魔会有极限,比如说时运最高是3级. 但是作为神秘使,你可以利用魔法突破这一限制,至少强那么一点点；比如说你可以创造出时运4的附魔. 但是这个过程也是有局限性的,在魔导手册神秘基础学这一章中你可以获得更多相关信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABLw==",
+            "tooltip": "<strong>挑战极限</strong></br>前置任务需求:</br>附魔专家"
+        },
+        {
+            "name": "反应堆材料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/274.png",
+            "x": 564.0,
+            "y": 168.0,
+            "data": "这个东西挺有趣...也许我可以用它来作为法杖的控制装置.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABEg==",
+            "tooltip": "<strong>反应堆材料</strong></br>前置任务需求:</br>可怕的魔法载体"
+        },
+        {
+            "name": "真的(真的!)黑暗魔法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/281.png",
+            "x": 732.0,
+            "y": 192.0,
+            "data": "傻瓜.我说他们是一群傻瓜! 他们什么都不知道!这本书会指引我.是的!是的!我的宝贝. 它将让我们拥有更加强大的力量!  可在本地的书商买到,或击杀血腥骑士、血腥主教掉落获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABGQ==",
+            "tooltip": "<strong>真的(真的!)黑暗魔法</strong></br>前置任务需求:</br>秘密"
+        },
+        {
+            "name": "秘密",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/282.png",
+            "x": 672.0,
+            "y": 192.0,
+            "data": "我感觉到了!是的,是的是的是的是的!!!!!! 我们将获得更大的力量,力量!!!!我的宝贝!. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去! 邪术教徒们知道这个秘密.我会将他们撕成碎片...嘿嘿嘿他们会告诉我的!%n%n注意:你可能需要一个刷怪笼,你下一个任务所需的书,掉落几率不太高. 另外,它们由邪术祭坛生成,且不会重复生成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABGg==",
+            "tooltip": "<strong>秘密</strong></br>前置任务需求:</br>\"护甲\""
+        },
+        {
+            "name": "她放弃了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/273.png",
+            "x": 564.0,
+            "y": 216.0,
+            "data": "冰雪女王有强大的魔法力量,但是她的血却似乎很普通. 不过我确信我能用这个来作为新的魔法媒介.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABEQ==",
+            "tooltip": "<strong>她放弃了</strong></br>前置任务需求:</br>反应堆材料"
+        },
+        {
+            "name": "略胜一筹",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/292.png",
+            "x": 60.0,
+            "y": 264.0,
+            "data": "木头傀儡会比稻草傀儡稍好一点,但还是很弱.不过这些小东西还是蛮适合农场的工作的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABJA==",
+            "tooltip": "<strong>略胜一筹</strong></br>前置任务需求:</br>小帮手"
+        },
+        {
+            "name": "太多杖芯可选！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3208.png",
+            "x": 384.0,
+            "y": 120.0,
+            "data": "下个杖芯有太多可选！六种可选的要素杖芯是寒霜,烈焰,白骨,黑曜石,甘蔗和石英.他们都十分相似.%n%n剩下两种可选的杖芯会更有趣一些.转化杖柄不仅有相同的要素容量,而且更容易制作！它还有一个令它更易充能的能力.%n%n最后,神秘杖芯有比其他几种稍高的要素容量.但也比其他的杖芯更难制作.考虑到你的材料支出,你也许并不能立马制作出它,而是要先去制作其他种类的杖芯.%n%n你只需要做其中的一个来完成任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMiA==",
+            "tooltip": "<strong>太多杖芯可选！</strong></br>前置任务需求:</br>创造更好的法杖"
+        },
+        {
+            "name": "伪逆徽章",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1105.png",
+            "x": 252.0,
+            "y": 24.0,
+            "data": "伪逆徽章的仪式要比激活分割徽章的仪式要困难得多.进行过这个仪式之后你的徽章将变得异常稳定,用其制作出的金属锭也不会爆炸,且徽章的耐久无限.%n%n这个仪式需要在末地进行. 仪式是通过在末地一片比较平坦的区域放置一个信标,周围环绕上螺旋状的红石和线(右键放置),并且在信标四个面正对方向的线外各放一个箱子.然后在每个箱子内放入一下这些物品:%n%n北:石头,玻璃,木炭,金锭,铁锭,烤猪排,烤牛排,硬化粘土,烤鸡肉,仙人掌绿,烤土豆,烤鱼.%n南:泥土,草方块,沙子,沙砾,粘土,以及原版矿石每种一个.%n东:12种效果不同的药水.%n西:12张不同的唱片.%n%n手持激活的分割徽章Shift右击信标可以得到当前仪式的进行进度.%n%n最后在仪式中心杀死一个铁傀儡,如果仪式成功,将会发生一次爆炸,并摧毁信标和箱子,并且末地里将会出现100只各种各样自带加速buff并仇恨锁定玩家的怪物,你需要将它们全部杀光.在没有完成仪式之前如果玩家离开末地或者死亡,仪式将会失败,你必须重新进行仪式. 击杀够足够数量的怪物后,分割徽章将会变得稳定. 伪逆徽章可以无限使用,合成的\"莫比乌斯\"稳定/不稳定\"锭\"将不会爆炸,并且可以使用任意方式进行合成,还可以叠加到64个一组.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEUQ==",
+            "tooltip": "<strong>伪逆徽章</strong></br>前置任务需求:</br>咕噜...咕噜...咕噜...</br>这就结束了？不,这是末地!</br>信标"
+        },
+        {
+            "name": "棍棒和石头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/293.png",
+            "x": 60.0,
+            "y": 312.0,
+            "data": "要打断你的骨头!这些像石头一样硬的家伙(在这里插入观众的笑声)会尽可能的保护你的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABJQ==",
+            "tooltip": "<strong>棍棒和石头</strong></br>前置任务需求:</br>略胜一筹"
+        },
+        {
+            "name": "洗澡的时候打肥皂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1099.png",
+            "x": 60.0,
+            "y": 24.0,
+            "data": "这种肥皂很特别.它会祛除临时扭曲,还有小概率祛除一些粘性扭曲. 记得先洗个澡,这会提高祛除粘性扭曲的几率.%n%n提示:你需要用凿子处理一下油脂块才能让合成表生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAESw==",
+            "tooltip": "<strong>洗澡的时候打肥皂</strong></br>前置任务需求:</br>沐浴更衣,远离扭曲烦恼"
+        },
+        {
+            "name": "箱子太重了,难以携带",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2022.png",
+            "x": 492.0,
+            "y": 24.0,
+            "data": "不想带着末影箱子然后不停地放下、破坏、拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH5g==",
+            "tooltip": "<strong>箱子太重了,难以携带</strong></br>前置任务需求:</br>神奇的盒子"
+        },
+        {
+            "name": "基础元素",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/296.png",
+            "x": 156.0,
+            "y": 360.0,
+            "data": "当然,你知道如何获得那些基础的源质类型,但你知道...对吧？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABKA==",
+            "tooltip": "<strong>基础元素</strong></br>前置任务需求:</br>源质物品存储"
+        },
+        {
+            "name": "这是最好的?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/294.png",
+            "x": 12.0,
+            "y": 312.0,
+            "data": "很高的耐久,能携带大量的物品.神秘傀儡被认为是\"顶级\"的傀儡.不过你确定还有更好的傀儡...  注意:直接使用压缩机生产的神秘锭块无法用于炼金制作傀儡,你需要使用凿子处理一下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABJg==",
+            "tooltip": "<strong>这是最好的?</strong></br>前置任务需求:</br>棍棒和石头"
+        },
+        {
+            "name": "黑暗的维度",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/279.png",
+            "x": 744.0,
+            "y": 240.0,
+            "data": "我找到去那个维度的方法了...我的宝贝.我找到啦!!!!!! 只要4个美味的眼睛,还有一些魔法力量来打开传送门.那扇秘密的传送门,他们一直没有发现. 那扇门一直在哪里!一直在哪里... 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABFw==",
+            "tooltip": "<strong>黑暗的维度</strong></br>前置任务需求:</br>他们看到我,他们看着我!"
+        },
+        {
+            "name": "创造天地的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/284.png",
+            "x": 756.0,
+            "y": 288.0,
+            "data": "什么？我...我在这里干什么？我在哪里？这是什么地方？哦...我的头好痛! (你刚刚发现这颗散发着波动的珍珠似乎治愈了你的大脑...或者祛除了什么东西.可能是一种非常非常古老的陷阱,来驱逐那些心术不正的人)  /iskamiunlocked命令将会告诉你是否解锁了Kami.  如果没有,尝试研究神秘撬棍和咒灵之剑. 或是原版页面、神秘工匠页面上的研究. 解锁Kami与其他mod没啥关系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABHA==",
+            "tooltip": "<strong>创造天地的力量</strong></br>前置任务需求:</br>找到钥匙"
+        },
+        {
+            "name": "他们看到我,他们看着我!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/280.png",
+            "x": 660.0,
+            "y": 240.0,
+            "data": "眼睛.对,眼睛! 宝贝我需要眼睛. 不是毛茸茸的蜘蛛的眼睛.是可口的邪术之眼! 我要从邪术教徒的尸体上面得到它!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABGA==",
+            "tooltip": "<strong>他们看到我,他们看着我!</strong></br>前置任务需求:</br>真的(真的!)黑暗魔法"
+        },
+        {
+            "name": "有用的树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/306.png",
+            "x": 204.0,
+            "y": 72.0,
+            "data": "虽然和其他植物类似,但是这几种树有一些特别的能力,可以吸引各种\"友好\"或者\"不友好\"的生物. (前提是你没有将他们种植在荒凉的生物群系)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABMg==",
+            "tooltip": "<strong>有用的树</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "法杖强化: Vis隧道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1994.png",
+            "x": 300.0,
+            "y": 216.0,
+            "data": "将这个强化应用到法杖将使法杖减少10％的vis消耗.但同时增加5％的不稳定性.  我不确定这东西能否正常工作,但试试看吧,然后把你的实验结果告诉我,好吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHyg==",
+            "tooltip": "<strong>法杖强化: Vis隧道</strong></br>前置任务需求:</br>法杖强化"
+        },
+        {
+            "name": "法杖强化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1992.png",
+            "x": 252.0,
+            "y": 168.0,
+            "data": "神秘力学(Thaumic-Machina)提供了不少法杖强化.这些有用的法杖强化可以提升法杖的容量,降低vis消耗,或者提供其他有趣的效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHyA==",
+            "tooltip": "<strong>法杖强化</strong></br>前置任务需求:</br>魔镜的玻璃?</br>充能合金"
+        },
+        {
+            "name": "还有哪里可能出问题？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/287.png",
+            "x": 648.0,
+            "y": 144.0,
+            "data": "在一个方块内存储256点源质？这就是我所说的存储! 我确实听到了一些奇怪的声音,但是我想那没什么特别的... (魔导手册邪术学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABHw==",
+            "tooltip": "<strong>还有哪里可能出问题？</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "谁需要朋友?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2268.png",
+            "x": 396.0,
+            "y": 168.0,
+            "data": "行李箱总比笨重老旧的箱子宝宝好.它会自动拾取周围的掉落物,帮你在挖掘时节省时间.它近乎无懈可击,包括在岩浆中.它会像一只热切的小狗一样跟着你,直到世界的尽头-但在改换维度之前,你可能需要把它捡起来.雷击可提供更多空间.Shift+右键将会把它变成物品(携带内部物品).在魔导手册,GTNH章节寻找它的相关研究.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI3A==",
+            "tooltip": "<strong>谁需要朋友?</strong></br>前置任务需求:</br>完成新法杖所需的更具活性的螺丝"
+        }
+    ],
+    "links": [
+        {
+            "source": "你已经出师了!",
+            "target": "熟练的神秘使"
+        },
+        {
+            "source": "把它带回家",
+            "target": "高级节点稳定器"
+        },
+        {
+            "source": "输送源质",
+            "target": "(几乎)自动化源质"
+        },
+        {
+            "source": "源质监测",
+            "target": "(几乎)自动化源质"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "神奇的盒子"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "神奇的储罐"
+        },
+        {
+            "source": "最后,一柄银树法杖",
+            "target": "可怕的魔法载体"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "\"护甲\""
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "最后,一柄银树法杖"
+        },
+        {
+            "source": "洗澡的时候打肥皂",
+            "target": "净化你的灵魂"
+        },
+        {
+            "source": "略胜一筹",
+            "target": "旅行伴侣"
+        },
+        {
+            "source": "把它带回家",
+            "target": "法杖自动充能"
+        },
+        {
+            "source": "魔法杖芯",
+            "target": "法师的权杖顶部有魔晶"
+        },
+        {
+            "source": "沐浴更衣,远离扭曲烦恼",
+            "target": "洗澡做SPA,自动去扭曲"
+        },
+        {
+            "source": "你想知道你现在的扭曲值么？",
+            "target": "沐浴更衣,远离扭曲烦恼"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "信标"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "史上最好的法杖杖端..."
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "把它带回家"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "你真的能看到那些吗?"
+        },
+        {
+            "source": "把它带回家",
+            "target": "CV(Centi-vis)"
+        },
+        {
+            "source": "CV(Centi-vis)",
+            "target": "CV中继"
+        },
+        {
+            "source": "法杖强化",
+            "target": "法杖强化: 魔子缓存"
+        },
+        {
+            "source": "源质物品存储",
+            "target": "清理粘浆"
+        },
+        {
+            "source": "你已经出师了!",
+            "target": "浓缩黑暗"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "创造更好的法杖"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "尖叫黑曜石"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "你想知道你现在的扭曲值么？"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "祛魔"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "附魔专家"
+        },
+        {
+            "source": "史上最好的法杖杖端...",
+            "target": "源质物品存储"
+        },
+        {
+            "source": "源质物品存储",
+            "target": "源质监测"
+        },
+        {
+            "source": "魔镜的玻璃?",
+            "target": "输送源质"
+        },
+        {
+            "source": "黑暗的维度",
+            "target": "找到钥匙"
+        },
+        {
+            "source": "元始魔力",
+            "target": "唾手可得的财富?"
+        },
+        {
+            "source": "他们看到我,他们看着我!",
+            "target": "淦XXXXXXXXXX..."
+        },
+        {
+            "source": "CV(Centi-vis)",
+            "target": "治疗你的节点"
+        },
+        {
+            "source": "这是最好的?",
+            "target": "无视它们眼中的光芒"
+        },
+        {
+            "source": "升级你的法杖核心",
+            "target": "升级你的核心"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "让我们试试这个"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "小帮手"
+        },
+        {
+            "source": "魔镜的玻璃?",
+            "target": "魔法-物品传输"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "魔镜的玻璃?"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "魔法杖芯"
+        },
+        {
+            "source": "魔法杖芯",
+            "target": "魔法\"手权杖\""
+        },
+        {
+            "source": "太多杖芯可选！",
+            "target": "完成新法杖所需的更具活性的螺丝"
+        },
+        {
+            "source": "史上最好的法杖杖端...",
+            "target": "都不简单"
+        },
+        {
+            "source": "史上最好的法杖杖端...",
+            "target": "......还是?"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "......还是?"
+        },
+        {
+            "source": "反应堆材料",
+            "target": "奥利哈钢螺丝"
+        },
+        {
+            "source": "CV(Centi-vis)",
+            "target": "升级你的法杖核心"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "清除...你的部分扭曲?"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "清除你的扭曲"
+        },
+        {
+            "source": "附魔专家",
+            "target": "挑战极限"
+        },
+        {
+            "source": "可怕的魔法载体",
+            "target": "反应堆材料"
+        },
+        {
+            "source": "秘密",
+            "target": "真的(真的!)黑暗魔法"
+        },
+        {
+            "source": "\"护甲\"",
+            "target": "秘密"
+        },
+        {
+            "source": "反应堆材料",
+            "target": "她放弃了"
+        },
+        {
+            "source": "小帮手",
+            "target": "略胜一筹"
+        },
+        {
+            "source": "创造更好的法杖",
+            "target": "太多杖芯可选！"
+        },
+        {
+            "source": "咕噜...咕噜...咕噜...",
+            "target": "伪逆徽章"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "伪逆徽章"
+        },
+        {
+            "source": "信标",
+            "target": "伪逆徽章"
+        },
+        {
+            "source": "略胜一筹",
+            "target": "棍棒和石头"
+        },
+        {
+            "source": "沐浴更衣,远离扭曲烦恼",
+            "target": "洗澡的时候打肥皂"
+        },
+        {
+            "source": "神奇的盒子",
+            "target": "箱子太重了,难以携带"
+        },
+        {
+            "source": "源质物品存储",
+            "target": "基础元素"
+        },
+        {
+            "source": "棍棒和石头",
+            "target": "这是最好的?"
+        },
+        {
+            "source": "他们看到我,他们看着我!",
+            "target": "黑暗的维度"
+        },
+        {
+            "source": "找到钥匙",
+            "target": "创造天地的力量"
+        },
+        {
+            "source": "真的(真的!)黑暗魔法",
+            "target": "他们看到我,他们看着我!"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "有用的树"
+        },
+        {
+            "source": "法杖强化",
+            "target": "法杖强化: Vis隧道"
+        },
+        {
+            "source": "魔镜的玻璃?",
+            "target": "法杖强化"
+        },
+        {
+            "source": "充能合金",
+            "target": "法杖强化"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "还有哪里可能出问题？"
+        },
+        {
+            "source": "完成新法杖所需的更具活性的螺丝",
+            "target": "谁需要朋友?"
+        }
+    ]
+}

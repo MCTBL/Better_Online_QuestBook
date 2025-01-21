@@ -1,6 +1,8 @@
 node_modules
 .vscode
+bin/js
 tmp/DefaultQuests
 tmp/lang/
 tmp/html/
 tmp/js/
+tmp/json/

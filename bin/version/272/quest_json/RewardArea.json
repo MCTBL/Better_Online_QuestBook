@@ -1,0 +1,376 @@
+{
+    "data": [
+        {
+            "name": "基础奖励 > 蒸汽时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/441.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "三个基础奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABuQ==",
+            "tooltip": "<strong>基础奖励 > 蒸汽时代奖励</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "蜜蜂高级奖励 > 蜜蜂专业奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/575.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "三个蜜蜂高级奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACPw==",
+            "tooltip": "<strong>蜜蜂高级奖励 > 蜜蜂专业奖励</strong></br>前置任务需求:</br>百万蜜蜂</br>诱变机</br>基因采样机"
+        },
+        {
+            "name": "蜜蜂基础奖励 > 蜜蜂高级奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/574.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "三个蜜蜂基础奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACPg==",
+            "tooltip": "<strong>蜜蜂基础奖励 > 蜜蜂高级奖励</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "血魔法老手奖励 > 血魔法精通奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/573.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "三个血魔法老手奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACPQ==",
+            "tooltip": "<strong>血魔法老手奖励 > 血魔法精通奖励</strong></br>前置任务需求:</br>第三阶-石板"
+        },
+        {
+            "name": "血魔法新手奖励 > 血魔法老手奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/572.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "三个血魔法新手奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACPA==",
+            "tooltip": "<strong>血魔法新手奖励 > 血魔法老手奖励</strong></br>前置任务需求:</br>付出最高的代价"
+        },
+        {
+            "name": "厨师训练",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/858.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "我需要一些配料来帮助我进行练习,不过它们无法在我这里种植,你可以提供一些吗? 我会回报你一些成品.%n%n[note]只需凑齐一组即可完成任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADWg==",
+            "tooltip": "<strong>厨师训练</strong></br>前置任务需求:</br>厨具"
+        },
+        {
+            "name": "EV时代奖励 > IV时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/449.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "三个EV时代奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABwQ==",
+            "tooltip": "<strong>EV时代奖励 > IV时代奖励</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "快餐奖励 > 正餐奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/678.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "三个快餐奖励包可以换一个更好的正餐奖励包.什么时候正餐成更好的了？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACpg==",
+            "tooltip": "<strong>快餐奖励 > 正餐奖励</strong></br>前置任务需求:</br>小麦时刻"
+        },
+        {
+            "name": "高级林业奖励 > 专业林业奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/565.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "三个高级林业奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACNQ==",
+            "tooltip": "<strong>高级林业奖励 > 专业林业奖励</strong></br>前置任务需求:</br>中型电子板</br>大型电子板</br>先进电子板"
+        },
+        {
+            "name": "基础林业奖励 > 高级林业奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/564.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "三个基础林业奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACNA==",
+            "tooltip": "<strong>基础林业奖励 > 高级林业奖励</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "美食奖励 > 甜点奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/680.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "六个美食奖励包可以换一个更好的甜点奖励包.%n%n[note]不过,这个奖励包里头只有棉花糖,所以其实不太值...[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACqA==",
+            "tooltip": "<strong>美食奖励 > 甜点奖励</strong></br>前置任务需求:</br>正餐奖励 > 美食奖励"
+        },
+        {
+            "name": "HV时代奖励 > EV时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/447.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "三个HV时代奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABvw==",
+            "tooltip": "<strong>HV时代奖励 > EV时代奖励</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "IV奖励>LuV奖励.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1690.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "三个IV奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGmg==",
+            "tooltip": "<strong>IV奖励>LuV奖励.</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "LV时代奖励 > MV时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/443.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "三个LV时代奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABuw==",
+            "tooltip": "<strong>LV时代奖励 > MV时代奖励</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "奥术老手奖励 > 奥术精通奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/569.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "三个奥术老手奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACOQ==",
+            "tooltip": "<strong>奥术老手奖励 > 奥术精通奖励</strong></br>前置任务需求:</br>熟练的神秘使"
+        },
+        {
+            "name": "奥术大师奖励 > 魔导师奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/571.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "十六个奥术大师奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACOw==",
+            "tooltip": "<strong>奥术大师奖励 > 魔导师奖励</strong></br>前置任务需求:</br>神的力量"
+        },
+        {
+            "name": "奥术精通奖励 > 奥术大师奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/570.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "三个奥术精通奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACOg==",
+            "tooltip": "<strong>奥术精通奖励 > 奥术大师奖励</strong></br>前置任务需求:</br>浓缩黑暗"
+        },
+        {
+            "name": "奥术新手奖励 > 奥术老手奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/568.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "三个奥术新手奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACOA==",
+            "tooltip": "<strong>奥术新手奖励 > 奥术老手奖励</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "MV时代奖励 > HV时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/445.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "三个MV时代奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABvQ==",
+            "tooltip": "<strong>MV时代奖励 > HV时代奖励</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "正餐奖励 > 美食奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/679.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "三个正餐奖励包可以换一个更好的美食奖励包.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACpw==",
+            "tooltip": "<strong>正餐奖励 > 美食奖励</strong></br>前置任务需求:</br>厨具</br>美味烤面包"
+        },
+        {
+            "name": "火星奖励 > 小行星奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/567.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "三个火星奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACNw==",
+            "tooltip": "<strong>火星奖励 > 小行星奖励</strong></br>前置任务需求:</br>月球奖励 > 火星奖励"
+        },
+        {
+            "name": "月球奖励 > 火星奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/566.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "三个月球奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACNg==",
+            "tooltip": "<strong>月球奖励 > 火星奖励</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "蒸汽时代奖励 > LV时代奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/439.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "三个蒸汽时代奖励",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABtw==",
+            "tooltip": "<strong>蒸汽时代奖励 > LV时代奖励</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "交通运输类-2奖励 > 交通运输类-1奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/682.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "三个交通运输类-2奖励包可以换一个更好的交通运输类-1奖励包.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACqg==",
+            "tooltip": "<strong>交通运输类-2奖励 > 交通运输类-1奖励</strong></br>前置任务需求:</br>交通运输类-3奖励 > 交通运输类-2奖励"
+        },
+        {
+            "name": "交通运输类-3奖励 > 交通运输类-2奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/681.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "三个交通运输类-3奖励包可以换一个更好的交通运输类-2奖励包.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACqQ==",
+            "tooltip": "<strong>交通运输类-3奖励 > 交通运输类-2奖励</strong></br>前置任务需求:</br>矿车"
+        }
+    ],
+    "links": [
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "基础奖励 > 蒸汽时代奖励"
+        },
+        {
+            "source": "百万蜜蜂",
+            "target": "蜜蜂高级奖励 > 蜜蜂专业奖励"
+        },
+        {
+            "source": "诱变机",
+            "target": "蜜蜂高级奖励 > 蜜蜂专业奖励"
+        },
+        {
+            "source": "基因采样机",
+            "target": "蜜蜂高级奖励 > 蜜蜂专业奖励"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "蜜蜂基础奖励 > 蜜蜂高级奖励"
+        },
+        {
+            "source": "第三阶-石板",
+            "target": "血魔法老手奖励 > 血魔法精通奖励"
+        },
+        {
+            "source": "付出最高的代价",
+            "target": "血魔法新手奖励 > 血魔法老手奖励"
+        },
+        {
+            "source": "厨具",
+            "target": "厨师训练"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "EV时代奖励 > IV时代奖励"
+        },
+        {
+            "source": "小麦时刻",
+            "target": "快餐奖励 > 正餐奖励"
+        },
+        {
+            "source": "中型电子板",
+            "target": "高级林业奖励 > 专业林业奖励"
+        },
+        {
+            "source": "大型电子板",
+            "target": "高级林业奖励 > 专业林业奖励"
+        },
+        {
+            "source": "先进电子板",
+            "target": "高级林业奖励 > 专业林业奖励"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "基础林业奖励 > 高级林业奖励"
+        },
+        {
+            "source": "正餐奖励 > 美食奖励",
+            "target": "美食奖励 > 甜点奖励"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "HV时代奖励 > EV时代奖励"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "IV奖励>LuV奖励."
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "LV时代奖励 > MV时代奖励"
+        },
+        {
+            "source": "熟练的神秘使",
+            "target": "奥术老手奖励 > 奥术精通奖励"
+        },
+        {
+            "source": "神的力量",
+            "target": "奥术大师奖励 > 魔导师奖励"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "奥术精通奖励 > 奥术大师奖励"
+        },
+        {
+            "source": "寻找答案",
+            "target": "奥术新手奖励 > 奥术老手奖励"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "MV时代奖励 > HV时代奖励"
+        },
+        {
+            "source": "厨具",
+            "target": "正餐奖励 > 美食奖励"
+        },
+        {
+            "source": "美味烤面包",
+            "target": "正餐奖励 > 美食奖励"
+        },
+        {
+            "source": "月球奖励 > 火星奖励",
+            "target": "火星奖励 > 小行星奖励"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "月球奖励 > 火星奖励"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "蒸汽时代奖励 > LV时代奖励"
+        },
+        {
+            "source": "交通运输类-3奖励 > 交通运输类-2奖励",
+            "target": "交通运输类-2奖励 > 交通运输类-1奖励"
+        },
+        {
+            "source": "矿车",
+            "target": "交通运输类-3奖励 > 交通运输类-2奖励"
+        }
+    ]
+}

@@ -1,0 +1,2308 @@
+{
+    "data": [
+        {
+            "name": "秋叶原(Akihabra)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1653.png",
+            "x": 348.0,
+            "y": 168.0,
+            "data": "厌倦了与每个村民逐一交谈以确定他们的交易？ 贸易站将向你展示该地区村民的所有可用交易.%n%n你需要组装机才能制作它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGdQ==",
+            "tooltip": "<strong>秋叶原(Akihabra)</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "铅辛万苦找到铅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/608.png",
+            "x": 396.0,
+            "y": 360.0,
+            "data": "做电池的下一步是收集铅.请查看'魔法学徒'任务栏中的铅相关任务获取更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACYA==",
+            "tooltip": "<strong>铅辛万苦找到铅</strong></br>前置任务需求:</br>黝铜矿 、辉锑矿、及铜矿"
+        },
+        {
+            "name": "合金炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/116.png",
+            "x": 744.0,
+            "y": 336.0,
+            "data": "将你的蒸汽合金炉升级到LV.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAdA==",
+            "tooltip": "<strong>合金炉</strong></br>前置任务需求:</br>更多蒸汽!</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "铝储罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2979.png",
+            "x": 828.0,
+            "y": 108.0,
+            "data": "如果你的双层铝板有富余的话,可以造个新储罐,单方块容量96,000L.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALow==",
+            "tooltip": "<strong>铝储罐</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "分析地层",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/767.png",
+            "x": 1188.0,
+            "y": 408.0,
+            "data": "厌倦了手动寻找矿脉?想要找到一个能抽一辈子的大油田?地震勘探者会用一本厚书告诉你附近区块有什么矿石,8x8区块下方是否有油田及其储量.无需供电.%n%n想要确定这个区域中有何种石油或天然气,你需要扫描地层.手持2个火药桶,4个硝化甘油单元,16个TNT或8个ITNT对地震勘探者右键.正确使用时不会炸到玩家的.这是特性!在放置好地震勘探者后最好等几秒再使用爆炸物.否则...[warn]Boom![/warn] 主世界有四种类型的石油以及天然气.在你制作了油气钻机之后,请查看提示和技巧中的任务. %n%n1)手持爆炸物右键.%n2)在动画结束后,对地震勘探者使用一个闪存以提取数据.每个闪存会保存一份结果.%n3)接下来,你需要将闪存放进一台扫描仪进行分析.%n4)将分析结果闪存放在打印机的右下角插槽中,然后在左上槽位放三张纸,确保至少有144mB的墨水在里面.%n5)将打印好的书页取出,将之与皮革放入至少有20mB精制胶水的组装机中.%n%n[note]锵锵锵-锵~[/note] 现在你有了一本记载你所扫描区块范围的数据书.可视化勘探(VisualProspecting)将在你拿到数据书时将信息添加到你的地图.%n%n闪存在现在对你来说并不容易(或不可能)制造,所以别弄丢了.在完成工作后,你可以将其置于合成台来擦除上面的数据. %n%n矿石位置以区块中心坐标给出.但显示有矿石的区块不一定为矿脉中心.请实地查看以确定矿脉中心. 更高阶的勘探者会扫描更多区块.如果你单纯只想寻找地下流体的话,建议使用低阶的勘探者,这样得到的勘探结果书不会太厚...%n%n译者注:现在只要打开书,旅行地图上就会标记勘探出的矿脉和地下流体,打开地图页面,切换到对应模式就能看到.%n%n每种地下流体田范围均为8x8区块,一共64区块.其生成机制为,从(0,0)区块向东向南延伸8区块,以此类推.不过地下流体田并非每个区块都会生成.而生成的储量会在+/-25％之间浮动.勘探报告书中的储量数值区间为,勘探范围内每个区块储量的最大值和最小值.勘探报告会显示以勘探者所在区域为中心的3x3块流体田(换句话说:9个8x8区块范围).流体田的显示储量与可抽出的总量之间的换算比较复杂,包括开采速度也很难在此详细讲解,请查看wiki(或百科)获取更多信息.总之,任何储量超过300的流体田都挺不错的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC_w==",
+            "tooltip": "<strong>分析地层</strong></br>前置任务需求:</br>扫描蜜蜂、种子以及更多"
+        },
+        {
+            "name": "新合金-钴黄铜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/541.png",
+            "x": 480.0,
+            "y": 264.0,
+            "data": "如果你想把钻石块切成板,那就需要一种叫做钴黄铜的新合金.%n%n首先你需要用锌(仅存在于主世界贫瘠矿、下界的闪锌矿、锡或黝铜矿的离心副产物中)和铜来冶炼黄铜,然后将之与铝和钴粉(钴是多种矿石的副产物,也可以直接到末地寻找散矿,或是到暮色森林寻找辉钴矿脉)搅拌.%n%n既然你已经走了这么远,那我们相信你有能力自己查NEI和矿脉的数据表格,找到你想要的矿脉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACHQ==",
+            "tooltip": "<strong>新合金-钴黄铜</strong></br>前置任务需求:</br>你会讨厌它们的#1"
+        },
+        {
+            "name": "新的合金-镁铝合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1149.png",
+            "x": 792.0,
+            "y": 684.0,
+            "data": "想知道现在为什么需要镁铝合金?我们不是用这种合金制造GT的机器,而是为了更新你的弩箭.%n%n你之前应该已经获得了一些铝粉. 一旦你有了工业高炉或MV电解机,获得铝就会变得更容易.%n%n在你的合金炉中把二者结合,就可以得到镁铝合金了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfQ==",
+            "tooltip": "<strong>新的合金-镁铝合金</strong></br>前置任务需求:</br>基础压模机</br>镁"
+        },
+        {
+            "name": "锑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/598.png",
+            "x": 396.0,
+            "y": 312.0,
+            "data": "要得到电池所需的锑,最有效率的方法是用砖高炉或工业高炉处理辉锑粉,烧掉其中的杂质(硫),获得更多的锑.如果想留着这些硫的话,你也可以离心辉锑粉.要是辉锑实在不够,离心黝铜矿粉也可以.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACVg==",
+            "tooltip": "<strong>锑</strong></br>前置任务需求:</br>黝铜矿 、辉锑矿、及铜矿"
+        },
+        {
+            "name": "阿迪特和钴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1131.png",
+            "x": 972.0,
+            "y": 528.0,
+            "data": "如果你比较闲的话,可以试试在下界找一些阿迪特和钴矿石.%n%n你听说一种只有在另一片土地上(暮色森林)才能找到的特殊木材,这种木材制造的工具非常坚固,足以开采阿迪特和钴矿石.%n%n请记住,你需要用工业高炉来加工这些矿物,然后才能用它们来制作工具.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEaw==",
+            "tooltip": "<strong>阿迪特和钴</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>下界"
+        },
+        {
+            "name": "阿迪特弩身",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1153.png",
+            "x": 840.0,
+            "y": 636.0,
+            "data": "为了让你的弩更加强大,我们需要用阿迪特这种材料来升级你的弩身. 你现在应该有上一个任务奖励的阿迪特锭.也可以去下界找点矿石用工业高炉处理成锭%n%n你还可以使用红石来升级你的弩的拉弓速度.不过前提是你的弩上面有一个升级槽位.%n%n不要用石英升级弩,这只会提高其近战伤害. 你需要用石英升级的是弩箭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgQ==",
+            "tooltip": "<strong>阿迪特弩身</strong></br>前置任务需求:</br>火焰弓弦"
+        },
+        {
+            "name": "真正锋利的锯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/540.png",
+            "x": 396.0,
+            "y": 264.0,
+            "data": "将钴黄铜和钻石粉组合在一起,你可以得到一片非常锋利的锯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACHA==",
+            "tooltip": "<strong>真正锋利的锯片</strong></br>前置任务需求:</br>新合金-钴黄铜"
+        },
+        {
+            "name": "自动化合成",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2142.png",
+            "x": 540.0,
+            "y": 228.0,
+            "data": "BC的自动合成台是一种简易的自动化系统.  你可以在网格中用虚拟物品摆出合成表,然后在物品栏放入原料.它们就会以缓慢的速度转化为成品.虽然不快,且没有并行,但它的确支持自动化-只有在合成表中的物品才能进入物品栏. 它无需供能即可工作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIXg==",
+            "tooltip": "<strong>自动化合成</strong></br>前置任务需求:</br>工作台2.0</br>你会讨厌它们的#1"
+        },
+        {
+            "name": "电动锄",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/939.png",
+            "x": 204.0,
+            "y": 120.0,
+            "data": "你的锄头现在肯定已经磨坏了!为什么不制作一个永远不会损坏的电动锄头呢？ (有不稳定的锄头不知道这个东西有什么存在的意义23333)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADqw==",
+            "tooltip": "<strong>电动锄</strong></br>前置任务需求:</br>IC2电池"
+        },
+        {
+            "name": "电动树脂提取机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/938.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "如果你厌倦了制作大量的木质龙头来提取树脂,那么一台使用电力永远不会损坏的工具一定十分和你心意.让我们来制作一个电动树脂提取机吧!%n%n(如果你在寻找更好的方法获取粘性树脂,可以考虑IC2作物中的粘性甘蔗(Stickreed).将作物架摆成X型,并在其上种植甘蔗,中间留有空位,然后在每个空位上摆放两个作物架. 如果想了解更多信息,请查看作物任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADqg==",
+            "tooltip": "<strong>电动树脂提取机</strong></br>前置任务需求:</br>IC2电池"
+        },
+        {
+            "name": "自动挖矿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/930.png",
+            "x": 1140.0,
+            "y": 264.0,
+            "data": "LV阶段的自动采矿设备.这台非常实用的机器可以帮你挖出深埋的矿石,在下界尤其有用,它可以让你远离岩浆还有愤怒的猪人.%n%n在机器的GUI的左侧放置两组采矿管道.每根管道可以向下1格,使采矿机可以挖深一格. 如果采矿机摆得比较高(Y大于64),可能需要更多的管道.%n%n这台机器只需要8EU/t的功率就能工作,所以要是你不想再弄个发电机的话,用LV电池箱供电就足够了.%n%n它会以自己为中心在17x17格的范围内搜索矿石(可用螺丝刀调整范围).还有增产1的奖励!对贫瘠矿尤其有效!%n%n别忘了遮雨!这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了! 要是你想让它在你离开的时间里持续工作,还需要加载相应区块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADog==",
+            "tooltip": "<strong>自动挖矿</strong></br>前置任务需求:</br>你会非常讨厌这个 #6"
+        },
+        {
+            "name": "复仇者联盟,组装!",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/97.png",
+            "x": 948.0,
+            "y": 600.0,
+            "data": "电影粉丝绝对必须拥有它.哦,当然要用来做所有的东西. 有非常多的配方,用组装机生产会比手搓造价低得多,还有的必须使用组装机,所以尽快制造一台吧!%n%n你可以使用GUI中的电池插槽和其他额外的插槽来存储未使用的编程电路.%n%n如果你完成了第一章节的银树任务,在制造出组装机后,就可以去暮色森林了. 请查看\"魔法学徒\"任务栏获取更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAYQ==",
+            "tooltip": "<strong>复仇者联盟,组装!</strong></br>前置任务需求:</br>你会讨厌它们的#4"
+        },
+        {
+            "name": "基础电弧炉",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/662.png",
+            "x": 300.0,
+            "y": 564.0,
+            "data": "电弧炉是另一个回收方式,不同于打粉机回收物品成为粉,电弧炉还可以制造锻铁、退火铜以及玻璃(MV以后).电弧炉回收物品获得的是锭,有时候还有一些其他材料. 而且电弧炉在LV阶段就有全部的4个槽位.电弧炉运行时需要氧气与3A的电流.%n%n请忽略等离子电弧炉.%n%n另外别想着给基础电弧炉通1A-MV,这会把它炸了的!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAClg==",
+            "tooltip": "<strong>基础电弧炉</strong></br>前置任务需求:</br>基础装罐机"
+        },
+        {
+            "name": "基础装罐机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/624.png",
+            "x": 300.0,
+            "y": 492.0,
+            "data": "装罐机主要用来装填电池,为单元装填固体(通常装粉,不太常用),或是用任意食物装填锡罐(HV+).%n%nLV-HV阶段,你可以用它装填出钠、镉和锂电池.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACcA==",
+            "tooltip": "<strong>基础装罐机</strong></br>前置任务需求:</br>电池合金"
+        },
+        {
+            "name": "基础电路组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/795.png",
+            "x": 1068.0,
+            "y": 408.0,
+            "data": "高级电路板(HV)需要一台LV级电路组装机.用它来合成基础的电路板(LV)和不错的电路板(MV),可以大幅度提升效率.%n%n但是,所有的电路组装机都需要比其他机器所需求的更高一级的电路板.这意味着你需要用MV电路板来替代你现在一直在用的LV电路板.我知道你想要它,制造一台吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADGw==",
+            "tooltip": "<strong>基础电路组装机</strong></br>前置任务需求:</br>你会非常讨厌这个 #5</br>你会讨厌它们的#4</br>进阶电子电路(Good Circuits.)"
+        },
+        {
+            "name": "基础流体固化器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1155.png",
+            "x": 696.0,
+            "y": 576.0,
+            "data": "如果你想让液体变成固体,就需要流体固化器.这台机器可以很方便地处理化学反应釜中出产的熔融橡胶.这台机器也可以用于制作弩箭的箭头.%n%n记住,GT的流体和匠魂(冶炼炉)的不同.你以后主要处理的是GT流体.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgw==",
+            "tooltip": "<strong>基础流体固化器</strong></br>前置任务需求:</br>熔融红石?</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "基础怪物防护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/118.png",
+            "x": 888.0,
+            "y": 540.0,
+            "data": "在你基地附近生成的怪物太烦人了,特别是当你碰到火焰爬行者的时候.幸运的是,有一种方法可以阻止它们生成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAdg==",
+            "tooltip": "<strong>基础怪物防护</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "基础洗矿厂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/538.png",
+            "x": 696.0,
+            "y": 480.0,
+            "data": "使用粉碎机处理矿物可以使你获得了双倍的产量.但是如果你想获得更多,那么你就需要制造一台洗矿厂来清洗那些非常珍贵的矿石,以获得更多的产物.%n%n请注意,洗矿厂需要用水,而且慢得令人痛苦.%n%n请放入粉碎的矿石.%n%n[note]如果你想要的话,也可以考虑蒸汽多方块机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACGg==",
+            "tooltip": "<strong>基础洗矿厂</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "基础运输:液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/115.png",
+            "x": 648.0,
+            "y": 240.0,
+            "data": "就像物品节点一样,液体节点转移液体.最棒的一点可能是:它们可以使用同一根传输管道!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAcw==",
+            "tooltip": "<strong>基础运输:液体</strong></br>前置任务需求:</br>基础运输管道"
+        },
+        {
+            "name": "基础运输:物品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/114.png",
+            "x": 648.0,
+            "y": 192.0,
+            "data": "为了传输物品,你需要所谓的\"节点\"————用于将物品推入管道系统.之后你将接触到能够从管道连接到的容器中抽取物品的节点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAcg==",
+            "tooltip": "<strong>基础运输:物品</strong></br>前置任务需求:</br>基础运输管道"
+        },
+        {
+            "name": "基础运输管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/113.png",
+            "x": 696.0,
+            "y": 240.0,
+            "data": "这些管道非常简单,它们本身不会做任何事情.但是结合传输节点,你很快会发现它们有多棒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAcQ==",
+            "tooltip": "<strong>基础运输管道</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "电池合金",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/609.png",
+            "x": 300.0,
+            "y": 336.0,
+            "data": "使用合金炉/搅拌机混合锑跟铅,可以得到电池合金.%n将其与一些锡线缆组合就可以得到小型电池外壳.%n%n小型",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACYQ==",
+            "tooltip": "<strong>电池合金</strong></br>前置任务需求:</br>铅辛万苦找到铅</br>锑"
+        },
+        {
+            "name": "经验!经验!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1035.png",
+            "x": 348.0,
+            "y": 48.0,
+            "data": "想要用美味的XP来提高你的等级？ 将存储液态XP的水槽置于你的上方,并安装这个方便的经验莲蓬头,从水槽中取出XP.%n%n这会造成延迟,请勿让太多的经验球掉落. 使用红石信号来关闭它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAECw==",
+            "tooltip": "<strong>经验!经验!</strong></br>前置任务需求:</br>不用锉刀了"
+        },
+        {
+            "name": "镓和砷的更好来源",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1796.png",
+            "x": 1224.0,
+            "y": 168.0,
+            "data": "有许多方式来增产镓.%n%n1.培育锌蜜蜂,将获得的镓蜂窝和氢氯酸反应.这种蜜蜂不需要太多的蜜蜂育种进度,并且处理其蜂窝只要LV电压.%n%n2.将热力离心后的矿石放入HV粉碎机,你就有10％的几率获得镓粉.%n%n3.月球上有丰富的铝土矿,从那里面提取镓吧.%n%n4.击杀暮色森林中的红帽地精.另外,哥布林会掉落砷.%n%n5.神秘炼金复制粒.这个操作要求涉足禁忌研究,所以你可能不太会选择它.%n%n6.种植IC作物,收获锌叶子,它会使你的一份锌或闪锌粉碎矿石变成四份洗净粉碎矿石.%n%n至于砷,暮色森林中的辉钴矿是不错的来源, 参见任务\"钴和砷从辉钴来\".n%n使用IC作物镍叶子可以使其增产四倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHBA==",
+            "tooltip": "<strong>镓和砷的更好来源</strong></br>前置任务需求:</br>砷化镓晶体"
+        },
+        {
+            "name": "生物群系无处不在,但不是你想要的那个？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1510.png",
+            "x": 912.0,
+            "y": 660.0,
+            "data": "厌倦了在地图上到处找竹林或热带雨林？急需粘土粉,需要找到峡谷或平顶山生物群系?生物群系指南针将引导你找到其搜索范围内你所需的生物群系.%n%n译者注:服务器慎用!%n%n指南针菜单栏有一下功能:%n* 当模式为\"排序方式: 名字\"时,你可以用名字或者部分名字来筛选列表. 搜索是不分大小写的.%n* 你可以按关键词以及其组合搜索.例如,名字: bamboo, 气候: 温暖, 基础高度: -1.8, 标签: forest. %n所有可用的关键词: %n名字,%n气候 [地狱, 炎热, 温暖, 正常, 寒冷, 酷寒], %n基础高度 | bh (小数,可以是负的),%n高度偏差 | hv (小数),%n降水量 | rain (小数), %n温度 | temp (小数), %n湿度 [湿润, 正常, 干燥],%n标签.%n%n需要注意的几点:%n* 其他维度的生物群系也会显示在列表里,但只需要注意本维度的生物群系即可.%n* 通常,整个列表包括了不会被\"真实世界生成模组\"生成的生物群系, 比如 Sunflower Plains. %n* 半径(Radius)10000意思是在范围内找不到该生物群系. 这种情况下,在初始搜索后,其菜单将仅显示半径为10k的生物群落. 使用 Shift+右键 再次查看整个列表.  %n* 你可以换个地方重新尝试搜索 - 搜索范围是半径10k.%n* 各种mod添加的人造生物群系也会在列表中显示,如果你只想找Natural自己的群系,可以移除它们.%n* 在同一类别下有许多不同'版本'的生物群系,所以如果你想要为热带蜂寻找热带生物群系,实际上有许多选择.%n* 对于那些不介意搜索时界面卡住的人,可以在配置中修改半径. HUD显示位置也可以在配置中修改.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF5g==",
+            "tooltip": "<strong>生物群系无处不在,但不是你想要的那个？</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "Black and Decker(美国一家著名电动工具公司)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1537.png",
+            "x": 240.0,
+            "y": 300.0,
+            "data": "厌倦了因为工具时不时坏掉而不得不一直更换？ 现在已经有了钢,是时候制作电动版的螺丝刀和扳手了! 像电池一样给它们充电,它们的使用寿命比正常版本的工具长得多.%n%n你可以使用锂电池,如果预算紧缺,用镉电池/钠电池也行,这不会减少它们的能量容量.  以后,脉冲合金可以制造出耐久出色的优质工具. 不过还会有更多你可能会使用的优秀工具材料,所以看着NEI自己挑吧! %n%n同样也有MV和HV版本的电动工具,但它们分别要求你能制造铝或不锈钢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGAQ==",
+            "tooltip": "<strong>Black and Decker(美国一家著名电动工具公司)</strong></br>前置任务需求:</br>电池合金</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "工业酿造",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1273.png",
+            "x": 636.0,
+            "y": 336.0,
+            "data": "如果你想要啤酒或酒精,我建议你建造其中一种. 你可能已经注意到,如果不发展神秘时代的话,你就造不出酿造台. 但不要害怕,你仍然可以在地牢或高塔中的秘密房间内的箱子里找到它们. 继续地搜索...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE-Q==",
+            "tooltip": "<strong>工业酿造</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "有点脆,但力道十足...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1485.png",
+            "x": 696.0,
+            "y": 684.0,
+            "data": "碳弩臂的耐久是镁铝合金弩臂的1/3,但伤害更高,射速更快.也就是说你得用更多的锭持续不断地维修你的弩臂,还要当心不要在战斗中将耐久消耗殆尽!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFzQ==",
+            "tooltip": "<strong>有点脆,但力道十足...</strong></br>前置任务需求:</br>转啊转啊转啊转...</br>镁铝合金弩"
+        },
+        {
+            "name": "丁烷和丙烷",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/840.png",
+            "x": 408.0,
+            "y": 576.0,
+            "data": "你可以从你的蒸馏产物中,通过裂化和蒸馏手段,提取出很多不同的流体,比如丁烷、丁烯、丁二烯、苯、乙烷、乙烯、氦、氢、甲烷、辛烷、丙烷、丙烯、甲苯,以及轻燃油、重燃油、石脑油. 某些时候你还可以将这些产物再次裂化.它们相当一部分只能用于发电. 请查看数据表格,获取此任务没有的更多信息.%n%n现在,获取一些丁烷和丙烷吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADSA==",
+            "tooltip": "<strong>丁烷和丙烷</strong></br>前置任务需求:</br>石脑油1</br>炼油气</br>轻燃油1</br>重燃油1"
+        },
+        {
+            "name": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/543.png",
+            "x": 600.0,
+            "y": 576.0,
+            "data": "想制造高十六烷值柴油、塑料或者一些化学染料么？如果想的话就制造一台化学反应釜.%n%n你可以在GUI中的电池槽或其他额外槽内放置物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACHw==",
+            "tooltip": "<strong>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...</strong></br>前置任务需求:</br>更多蒸汽!"
+        },
+        {
+            "name": "线缆二极管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1821.png",
+            "x": 1224.0,
+            "y": 540.0,
+            "data": "有时候你只需要一个二极管,无论是为了防止电流在复杂的能量系统中回流而造成烧线,或是在Thermos服务器的区块边缘. 制作一个4A二极管,我会送你个2A的!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHHQ==",
+            "tooltip": "<strong>线缆二极管</strong></br>前置任务需求:</br>二极管1"
+        },
+        {
+            "name": "镉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/623.png",
+            "x": 240.0,
+            "y": 444.0,
+            "data": "你可以从闪锌中获取镉(离心或热离).稍后你还可以通过GT++的矿石处理线从稀土中获取镉. 我不关心你的获取方式,只需要给我弄来点镉就行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACbw==",
+            "tooltip": "<strong>镉</strong></br>前置任务需求:</br>电池合金"
+        },
+        {
+            "name": "量产退火铜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1172.png",
+            "x": 240.0,
+            "y": 588.0,
+            "data": "相比在工业高炉中生产退火铜,使用电弧炉在耗能和速度上都要出色很多. 退火铜是一种优良的导体,使用它制作的MV阶段的导线每格只会损失1EU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAElA==",
+            "tooltip": "<strong>量产退火铜</strong></br>前置任务需求:</br>基础电弧炉"
+        },
+        {
+            "name": "化学浸洗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1499.png",
+            "x": 672.0,
+            "y": 336.0,
+            "data": "等等,什么？你想从矿石中获得更多副产物吗？还是用更便宜的方式造纸？好吧,化学浸洗是你的不二之选!%n%n你必须提供汞等流体,以从矿石中提取不同的产物,如镍,银,铜和铂(以铂金属粉的形式).%n%n至于生产纸张,你只需要一些水和木浆. 也许你会发现它的更多用途!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF2w==",
+            "tooltip": "<strong>化学浸洗</strong></br>前置任务需求:</br>你会讨厌它们的#1</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "橡胶化学制程",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/726.png",
+            "x": 576.0,
+            "y": 624.0,
+            "data": "制作绝缘线缆的一个更高效率的方法,是在化学反应釜中制作熔融橡胶,然后可以在组装机中将之裹在未绝缘导线上,制成线缆. 当你将两台机器放在一起,按下化学反应釜的'Fluid Auto-Output(流体自动输出)'按钮,就可以直接将熔融橡胶送进组装机.记得用扳手将反应机的输出口调到正确的方向. 也别忘了在组装机中使用正确的编程电路.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC1g==",
+            "tooltip": "<strong>橡胶化学制程</strong></br>前置任务需求:</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "氯,你最好的新朋友",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2697.png",
+            "x": 192.0,
+            "y": 372.0,
+            "data": "氯是一种在整个游戏过程中大量使用的流体,所以你不妨现在就习惯收集它.%n%n你可以电解盐、岩盐、方钠石(终于有用了!)或者盐水. 因为你需要的量非常庞大,不妨考虑用第一个超级缸来容纳它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKiQ==",
+            "tooltip": "<strong>氯,你最好的新朋友</strong></br>前置任务需求:</br>获得钠和锂"
+        },
+        {
+            "name": "选择,选择",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2143.png",
+            "x": 840.0,
+            "y": 300.0,
+            "data": "想要有个燃料选择图?好吧,我们没有这玩意,但可以提供建议.  你可以用蒸汽一直用到IV,但过了MV之后会很痛苦.%n%n在LV阶段,你就可以开始炼油,制取轻燃油(内燃发电机)或炼油气(燃气轮机),这两种燃料也可以一直用到EV.或者你也可以在半流质发电机中使用杂酚油.%n%n如果你坚持绿色能源的话,到了MV阶段后你可以从蒸汽转向苯(燃气轮机)-一种从原木中获取的可再生燃料.另一种可再生燃料是用鱼油或种子油制成的生物柴油(内燃发电机).种子油可由潘马斯的花生、IC2作物油菜或林业树木果实坚果制取.%n%n在MV阶段你还可以在轻燃油中加入重燃油,升级为柴油.  当你到达HV阶段后,柴油或生物柴油可升级为高十六烷值柴油.  而到EV阶段,你可以制造高辛烷值汽油(HOG),但工序很复杂,且与高十六烷值柴油走的路线不同,所以你需要重新规划整个石油处理系统.%n%nEV阶段会解锁大型燃气轮机、大型蒸汽涡轮、大型高压蒸汽涡轮和大型内燃引擎,它们比之前的版本更具效率.前三者需要配合涡轮.%n%n你还可以使用核反应堆或风力、水力动能.%n%n对于低功率系统,或是有志于实现太阳能自动化的玩家,在MV阶段可以开始制作太阳能覆盖板.%n%n译者注:高阶太阳能的成本越来越高,不建议作为主要能源.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIXw==",
+            "tooltip": "<strong>选择,选择</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "电路编程",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2047.png",
+            "x": 924.0,
+            "y": 96.0,
+            "data": "有的机器有超多配方.为了避免冲突,很多配方都加入了编程电路.编程电路在加工中不会被消耗.%n%n现在,在这个整合包中,所有的单方块GT机器GUI右下角都有一个图标,代表了\"虚拟电路板\".shift+左击,或是使用滚轮可以选择你需要的电路编号.这样你就不需要放入实际的编程电路了.多方块机器的输入总线现在也支持虚拟电路板.%n%n不过有些情况下你也需要用到实际物品形式的编程电路.可以将LV电路板放入合成栏,得到编程电路.然后可用以下几种方式编程:%n%n1)用NEI找到正确的编程电路的合成表并使用;%n%n2)当物品栏中有螺丝刀(电动的也可以)时,可以手持编程电路右击打开再编程界面.%n%n3)使用Bartworks的电路编程器.它只有MV级别的.但它不消耗耐久,只需要充电使用.%n%n4)使用GT++的电路编程器.它不便携,也只有MV级别的(译者注:不需要电).但是可以用它进行自动化.%n%n%n这儿的任务目标只是个例子来展示有哪些编程电路,只要你理解了编程电路的运作方式,就可以直接勾选复选框完成任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH_w==",
+            "tooltip": "<strong>电路编程</strong></br>前置任务需求:</br>卷板机万岁"
+        },
+        {
+            "name": "钴和砷从辉钴来",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2914.png",
+            "x": 924.0,
+            "y": 528.0,
+            "data": "在下界找不到钴矿石?不想在暮色森林枯燥地寻找铁木(其实这很简单)?%n%n现在你可以用工业高炉直接加工获得钴了,只要将从暮色森林挖来的辉钴矿与氧气同时注入高炉即可. 这个过程稍微有些复杂,不过你还可以同时获得砷.%n%n中压之后,你也可以,同时也应该直接将其电解, 毕竟这样产率更高(当然会损失一点碳).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALYg==",
+            "tooltip": "<strong>钴和砷从辉钴来</strong></br>前置任务需求:</br>工业高炉时代"
+        },
+        {
+            "name": "压缩机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/544.png",
+            "x": 792.0,
+            "y": 480.0,
+            "data": "这是一台压缩机但这并不意味着它的材质紧凑...%n%n强烈建议入手一台,因为电力压缩机的效率要比老式的蒸汽压缩机效率高太多了.[note]如果你想要的话,也可以考虑蒸汽多方块机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACIA==",
+            "tooltip": "<strong>压缩机</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "Craftsman曾是品质的代名词",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1911.png",
+            "x": 552.0,
+            "y": 660.0,
+            "data": "现在你有了一台工业高炉,可以制作钒钢GT工具了.钒钢工具有192k的耐久,将伴随你很长时间.%n%n译者注:CRAFTSMAN是美国知名的工具品牌,长期内一直以品质著称,但近些年评价有所下滑.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHdw==",
+            "tooltip": "<strong>Craftsman曾是品质的代名词</strong></br>前置任务需求:</br>转啊转啊转啊转...</br>工业高炉时代"
+        },
+        {
+            "name": "切割成片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/102.png",
+            "x": 396.0,
+            "y": 168.0,
+            "data": "绝对必要的机器.能以最高效率,将杆切成螺栓,板切成外壳,原木切成木板.完全值回票价!%n%n可以使用水、蒸馏水或润滑油来辅助切割. 如果条件允许,推荐使用润滑油,这是最佳选择.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAZg==",
+            "tooltip": "<strong>切割成片</strong></br>前置任务需求:</br>真正锋利的锯片"
+        },
+        {
+            "name": "大马士革钢2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2915.png",
+            "x": 600.0,
+            "y": 660.0,
+            "data": "大马士革钢是你当前阶段可以获得的,最硬的材料之一.是时候搓上一组了.%n%n虽然现在你无法用搅拌机制造大马士革钢粉,不过还有个手搓配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALYw==",
+            "tooltip": "<strong>大马士革钢2</strong></br>前置任务需求:</br>转啊转啊转啊转...</br>工业高炉时代"
+        },
+        {
+            "name": "去死吧,剪线钳!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/90.png",
+            "x": 696.0,
+            "y": 132.0,
+            "data": "这应该是你首先要制作的机器之一.你可以通过它用每个锭得到2根导线.你可以把导线再次放进这个机器来获得4根细导线,或是切换编程电路板(3号)以直接加工锭得到细导线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAWg==",
+            "tooltip": "<strong>去死吧,剪线钳!</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "钻石箱子...哦,闪闪发亮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1094.png",
+            "x": 348.0,
+            "y": 132.0,
+            "data": "在你制造了一台切割机之后,你可以切割一些钻石板来制作108格的大号新箱子了!%n%n[note]就像之前的其他箱子一样,你也可以使用升级物品.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAERg==",
+            "tooltip": "<strong>钻石箱子...哦,闪闪发亮</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "钻石锥刺",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1285.png",
+            "x": 348.0,
+            "y": 84.0,
+            "data": "钻石锥刺会伤害除底部以外的任何一侧触碰的怪物(或者你自己!). 受到+7攻击伤害,钻石锥刺的伤害与钻石剑一样多. 怪物不会绕着方块走来走去,而是会试图越过它,好像它是一个普通的固体块. 大多数爆炸都不会破坏钻石锥刺,因为它具有非常高的爆炸抗性.%n%n钻石锥刺也可以附魔常规钻石剑所能获得的所有附魔. 这包括抢夺,锋利,其功能与剑上的完全相同. 有趣的是,被钻石锥刺杀死的怪物会掉落经验,好像被玩家杀死一样.%n%n还有弱化版本,但谁会用呢? 假如你碰巧需要最后一击,可能得用木锥刺.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFBQ==",
+            "tooltip": "<strong>钻石锥刺</strong></br>前置任务需求:</br>不用锉刀了</br>哦!闪闪发光(不是白金!)"
+        },
+        {
+            "name": "钻石储罐...哦,闪闪发亮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1091.png",
+            "x": 444.0,
+            "y": 168.0,
+            "data": "在你制造了一台切割机之后,就可以切割一些钻石板来制作容量为64,000L的储罐了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEQw==",
+            "tooltip": "<strong>钻石储罐...哦,闪闪发亮</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "二极管1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/747.png",
+            "x": 1224.0,
+            "y": 492.0,
+            "data": "优质的电子电路板需要二极管.有两种主要方法可以制造它们.你可以将砷化镓晶体打粉后与细铜导线和熔融玻璃结合来获得二极管.等到你拥有了太阳能级硅后,你就能在工业高炉中制造单晶硅,处理得到硅晶圆. 请注意,晶圆可以大大提高镓和砷的利用效率,因此即使减少晶圆数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC6w==",
+            "tooltip": "<strong>二极管1</strong></br>前置任务需求:</br>砷化镓晶体"
+        },
+        {
+            "name": "化尘为晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/771.png",
+            "x": 744.0,
+            "y": 528.0,
+            "data": "使用高压釜将你的粉制作成晶体状态.你可以用碳粉制作出生碳纤维,还可以做些别的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADAw==",
+            "tooltip": "<strong>化尘为晶</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "电离粉末",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/542.png",
+            "x": 948.0,
+            "y": 216.0,
+            "data": "使用电解机的力量,你可以好好对付那些在矿物处理过程中留下来的一些粉末了. 不管怎么说.没有催化剂,没有电解质,电解机在啥都没有的情况下可以完全电离,别问我它是怎么做到的,它就是强!%n%n除此之外,这是非常重要的机器,它可以把一些物品和流体处理出更有用的成分.一个基本的例子是电解水,这对你来说完全是免费的,可以得到两种在游戏过程中非常有用的流体——氢气和氧气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACHg==",
+            "tooltip": "<strong>电离粉末</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "电炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1887.png",
+            "x": 828.0,
+            "y": 180.0,
+            "data": "它就是...更快一点的熔炉? 但需要耗能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHXw==",
+            "tooltip": "<strong>电炉</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "电力粉碎机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/94.png",
+            "x": 936.0,
+            "y": 336.0,
+            "data": "强烈推荐做一个,因为在消耗煤/蒸汽方面,使用电力研磨东西的效率要高得多.%n%n粉碎机还有额外的产物槽,首次出现是在HV阶段,然后在EV和IV分别再多一个槽. 第二个槽会出产更多的副产物,非常非常有用. 第三个槽会出产矿石材质对应的粉. 第四个槽基本上只有在回收物品时会用上.[note]如果你想要的话,也可以考虑蒸汽多方块机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAXg==",
+            "tooltip": "<strong>电力粉碎机</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "空电池(蓝石)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/646.png",
+            "x": 240.0,
+            "y": 492.0,
+            "data": "空电池这种蓝石电池专门用于PR的机器跟喷气背包中.蓝石粉由红石跟琥珀金粉搅拌而成,或者直接在下界挖矿获取.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAChg==",
+            "tooltip": "<strong>空电池(蓝石)</strong></br>前置任务需求:</br>基础装罐机"
+        },
+        {
+            "name": "空单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1160.png",
+            "x": 924.0,
+            "y": 24.0,
+            "data": "要制作空单元需要用到卷板机,不过记得将编程电路调整到12,否则你会得到金属箔,而不是空单元. 等你拥有LV压模机之后,你就可以直接用锭制造单元了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEiA==",
+            "tooltip": "<strong>空单元</strong></br>前置任务需求:</br>卷板机万岁"
+        },
+        {
+            "name": "电路基板1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/748.png",
+            "x": 1068.0,
+            "y": 600.0,
+            "data": "进阶电路基板需要先用木浆与精制胶水制成酚醛树脂电路板,再加上金线缆就可以完成.%n%n请查看NEI,还有更有效率的方式制造它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC7A==",
+            "tooltip": "<strong>电路基板1</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>胶水1"
+        },
+        {
+            "name": "末影人冶炼炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1865.png",
+            "x": 948.0,
+            "y": 672.0,
+            "data": "需要末影珍珠?杀戮末影人来获取珍珠实在是危险.你可以换种方式,把一只末影人放进装有熔融液体的冶炼炉,然后使用宝石铸模将所获的流体导出,你就能安全地获得末影珍珠了.%n%n末影人的生命值越高,就可以在里面待得更久,你就能获得越多的珍珠.  如果你能找到一只有再生属性的末影人,或是末影人刷怪笼,你将再也不缺珍珠了.稍后你甚至能制作EIO的电动刷怪笼来按需生产末影人. 也可以直接把冶炼炉建在末地,然后往里面丢末影人.%n%n对再生末影人使用命名牌可以防止其被刷掉.  你需要让在冶炼炉中的末影人看不到天空,否则它就能传送离开.%n%n如果你没能找到再生末影人,你也可以用硬币买些末影人刷怪蛋.说不定你就幸运地刷出了再生末影人呢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHSQ==",
+            "tooltip": "<strong>末影人冶炼炉</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>胶水1"
+        },
+        {
+            "name": "引爆液体获取能量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/532.png",
+            "x": 840.0,
+            "y": 336.0,
+            "data": "内燃发电机可以燃烧几种流体产生EU,而且只有需要的时候才会消耗燃料.其中某些流体更受欢迎,而石油处理线从LV到EV的每个阶段,均有一种不同的流体燃料.%n%n首先,LV阶段为轻燃油.相比石油本身,轻燃油的发电价值要高得多,所以你应该将石油进行蒸馏并脱硫,以获得纯净的轻燃油并将其用于发电.这是目前基地的最佳供能方案,并且轻燃油在下一阶段还可以进一步升级. 等你制造了泵并找到了一些石油,请查看\"石油工业\"任务栏以获取更多信息.%n%n如果你正在计划着搭建石油处理线,相信我,这将是你最常用的发电机类型.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACFA==",
+            "tooltip": "<strong>引爆液体获取能量</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "更快地传输蒸汽",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2849.png",
+            "x": 696.0,
+            "y": 528.0,
+            "data": "你是否觉得蒸汽传输速度太慢了?LV电动泵每秒只能传输640mB蒸汽,太让你失望了?%n是时候制造一种比电动泵快32倍的特殊模块了,LV蒸汽阀!%n%n蒸汽阀只对蒸汽有效,且与RC蓄水器阀门(底部)速度一致.%n%n还有MV、HV、EV和IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALIQ==",
+            "tooltip": "<strong>更快地传输蒸汽</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "更快地生产钢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/663.png",
+            "x": 240.0,
+            "y": 552.0,
+            "data": "生产钢的一个更快的方法是,使用电弧炉将铁锭(或粉)制作成锻铁锭.然后将之粉碎成锻铁粉.最后在工业高炉(EBF)中快速炼成钢.%n%n当然,你需要提供足够的氧气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAClw==",
+            "tooltip": "<strong>更快地生产钢</strong></br>前置任务需求:</br>基础电弧炉"
+        },
+        {
+            "name": "发酵酿酒!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1274.png",
+            "x": 744.0,
+            "y": 480.0,
+            "data": "还有什么比迟缓药水更好？酿造制酒!做一台来酿造啤酒,朗姆酒,甚至伏特加酒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE-g==",
+            "tooltip": "<strong>发酵酿酒!</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "沃土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2393.png",
+            "x": 624.0,
+            "y": 624.0,
+            "data": "你可以使用化学反应釜制造沃土.它的tick速度比正常农田快,这样作物就会更快成熟.它还可以在无水情况下用于耕种,且在其上跳跃也不会损坏它.%n%n可在其上种植IC2作物,但没有加速效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJWQ==",
+            "tooltip": "<strong>沃土</strong></br>前置任务需求:</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "火焰弓弦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1152.png",
+            "x": 792.0,
+            "y": 636.0,
+            "data": "既然有了更好的金属那么我们也需要升级一下我们的弓弦. 如果你在下界没有得到过火线,那么你可以用上一个任务送的材料. 来制作一些火焰弓弦吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgA==",
+            "tooltip": "<strong>火焰弓弦</strong></br>前置任务需求:</br>镁铝合金弩"
+        },
+        {
+            "name": "让世界充满液体...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1846.png",
+            "x": 744.0,
+            "y": 384.0,
+            "data": "想要造个人工湖?试试液闸吧,它会用你给的任何液体填满世界(低于液闸本身). 请注意,如果填充范围很大,会造成一定的延迟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHNg==",
+            "tooltip": "<strong>让世界充满液体...</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "流体灌装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/617.png",
+            "x": 300.0,
+            "y": 216.0,
+            "data": "流体灌装机曾经主要用于装填空单元、一次性电池、冷却单元等. 它被需要只是因为与流体单元的直接交互存在限制. %n%n现在一切都变得更简单了,单元也总是按照预期工作.所以你可能并不需要它了,甚至是在操作熔融红石的情况下. %n%n但是,如果你想用电动的锄或提取器,你得在流体罐装器中制作IC2电池.%n%n另一件趣事是,流体灌装机可以当成流体去罐装器,也许以后你可以用它来给打火机加油.(任意有内部流体存储的机器其实都可以...).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACaQ==",
+            "tooltip": "<strong>流体灌装机</strong></br>前置任务需求:</br>电池合金"
+        },
+        {
+            "name": "砷化镓晶体",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/836.png",
+            "x": 1224.0,
+            "y": 216.0,
+            "data": "二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓.%n%n在当前阶段,闪锌和锌是镓的主要来源.你可以用热力离心机从锌矿石中获取镓.%n%n你可以在Y轴5-20的硫矿脉中找到闪锌矿石,也可以在主世界或者下界Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿石.不过显然你不会在主世界寻找这种贫瘠矿的. 你最好带着匠魂的镐子,并且在镐子上面附魔一个时运从而增加产量(可能这是寻找方解石途中获得的青金石的最好用途).或者如果你不在意速度问题的话,可以使用采矿机.%n%n-电解闪锌矿有9.17％的几率可以出产镓粉,最好塞一堆到电解机里--要是运气不好,你可能一个镓粉都拿不到.%n-粉碎的锌矿石可以洗矿-热离或锻造锤-离心.但粉碎矿作为掉落物不算太常见,而含杂矿出不了镓.%n%n你还可以培育锌蜜蜂,它有小概率生产出镓蜂窝.%n%n你可以在下界Y轴15-85的范围内你能找到贫瘠的雄黄矿石.离心雄黄粉可获得砷.%n%n砷的另一来源是匠魂在下界生成的钴矿石或暮色森林中的辉钴,你可以用工业高炉来处理它们.你还需要把你的工具的采掘等级升级到至少阿迪特等级,或是制作一个铁木镐子才能开采钴矿石(其实LV采矿机也可以).%n%n另外一个获取镓和砷的方法是用经验桶合成.(实在找不到的话)%n%n将这两种粉在工业高炉中煅烧结合,即可制得砷化镓晶体.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADRA==",
+            "tooltip": "<strong>砷化镓晶体</strong></br>前置任务需求:</br>工业高炉时代</br>电离粉末"
+        },
+        {
+            "name": "准备好,第2阶段,MV",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/103.png",
+            "x": 768.0,
+            "y": 120.0,
+            "data": "想要进一步发展,你需要铝,非常多的铝.但现在只需要8个铝锭就可以完成这个任务.%n%n你的第一个选择是氧化铝粉.粘土可能也是最好的氧化铝来源.但那需要MV级机器,在攒够铝粉,完成准备工作之前,你需要寻找替代方案.目前,你能通过离心处理矿石获得的多种含杂粉;或是通过在工业高炉中用碳粉配合熔炼红宝石、蓝宝石或绿色蓝宝石,都可以获得它.请查看多方块任务栏内的工业高炉(EBF)任务.%n%n你还需要用工业高炉将氧化铝转化为铝锭.为了这一步你需要冰晶石,去暮色森林找找个冰晶石矿脉吧. 相关任务是魔法学徒页面中的\"铅、方铅、银和冰晶石\".%n%n你的第二个选择是使用铝粉.但是你还不能直接冶炼铝粉,即便拥有工业高炉也不行.这需要更高的炉温. 现在,你要么用匠魂的冶炼厂,要么用GT的压缩机将粉处理成生铝,然后将其在工业高炉中熔炼成锭. 请查看第0阶段的任务,寻找几种获取铝粉的选择.%n%n等你把这些都完成了之后,这个阶段也就差不多了,不过你还需要不错的电路板(MV)才能解锁下一阶段.%n%n不要忘了看看\"摆脱死亡\"和\"游历四方\"任务栏里解锁的新任务.%n%n[note]如果你在更新到2.1.1.4之前探索过暮色森林,在已生成区块中是无法找到冰晶石的,需要探索新的区块.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAZw==",
+            "tooltip": "<strong>准备好,第2阶段,MV</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "胶水1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/745.png",
+            "x": 948.0,
+            "y": 720.0,
+            "data": "为了获得\"进阶电路基板\",你需要胶水或者精致胶水.%n%n你可以通过离心粘性树脂或者蒸馏胶水获得精致胶水,可以得到一些胶水.注意这是GT胶水,并非匠魂胶水.%n%n另外,你也可以从史莱姆树中提取胶水,史莱姆树可以在天上的史莱姆空岛找到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC6Q==",
+            "tooltip": "<strong>胶水1</strong></br>前置任务需求:</br>熔融红石?</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "进阶电子电路(Good Circuits.)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/717.png",
+            "x": 1068.0,
+            "y": 492.0,
+            "data": "进阶电子电路是基础电子电路的改良版.它是MV等级的电路板,是所有MV机器的必要组件.%n%n想要开启MV时代,你还需要建造一台工业高炉并完成铝任务,因为所有东西都需要铝.%n%n此任务也会解锁红石计划的任务,红石计划是可选的早期自动化方案之一.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACzQ==",
+            "tooltip": "<strong>进阶电子电路(Good Circuits.)</strong></br>前置任务需求:</br>二极管1</br>电路基板1"
+        },
+        {
+            "name": "抓住它们",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/117.png",
+            "x": 1008.0,
+            "y": 540.0,
+            "data": "当然,你可以用小麦/土豆/胡萝卜,拐骗动物跟随你回到你的基地,但那样太无聊了.黄金套索才是转移动物的正确姿势.%n%n你可以对任意被动型生物使用黄金套索,比如把村民带回基地,或是带着一匹马过河.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAdQ==",
+            "tooltip": "<strong>抓住它们</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "GT-MV储罐...已经?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/892.png",
+            "x": 600.0,
+            "y": 528.0,
+            "data": "中压流体储罐可以储存128桶,或者说128,000L流体. 制作它需要青铜板、钢板、玄钢板、青铜流体管道和一个LV级别的电动泵.由于需要用到工业高炉,这个造价有点令人头疼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADfA==",
+            "tooltip": "<strong>GT-MV储罐...已经?</strong></br>前置任务需求:</br>GT储罐,LV版</br>工业高炉时代"
+        },
+        {
+            "name": "GT储罐,LV版",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/891.png",
+            "x": 600.0,
+            "y": 480.0,
+            "data": "低压流体储罐可以储存64桶,或者说64,000L流体. 制作它需要铁板、青铜板、钢板、巨型粘土管道和一个LV级别的电动泵,所以说会有点小贵. 考虑到这一点,如果你只需要基础的输入/输出功能的话,那还是ULV版比较划算.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADew==",
+            "tooltip": "<strong>GT储罐,LV版</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "处理资源就像个Bo$$ #1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7131856560517868006.png",
+            "x": 1008.0,
+            "y": 444.0,
+            "data": "人类工程学的一大巅峰已被你掌握!%n%n这台机器可以让你根据机器配方的类型来筛选物品,让你轻松地实现自动化.只需简单的将任意类型的一台机器放进GUI中便可创建一个过滤器,举个例子,研磨机会让过滤器只接受可以被研磨的物品.也可以用它来创建一个反转过滤名单(GUI中的一个按钮)来排除所有可被这台机器处理的物品.%n%n[note]是时候来点矿物处理自动化了么?[/note]",
+            "quest_id": "53iZp0DzRzidBo4-kUsWGg==",
+            "tooltip": "<strong>处理资源就像个Bo$$ #1</strong></br>前置任务需求:</br>你会讨厌它们的#4"
+        },
+        {
+            "name": "处理资源就像个Bo$$ #2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8716647126264214083.png",
+            "x": 972.0,
+            "y": 468.0,
+            "data": "人类工程技术的巅峰之作,尽在掌握!%n%n这个机器允许你过滤九个物品,并只能按照设定好的方式输出.%n这台机器让你可以自动化类似电解配方这类需求物品数量不固定的配方,否则系统很容易被卡住%n%n[note]是时候做一些矿物处理自动化了?[/note]%n[note]当你进入MV阶段并解锁更多电解配方时这台机器会发挥巨大作用![/note]",
+            "quest_id": "JRrD8MoLRuCHCD-fFpeNvQ==",
+            "tooltip": "<strong>处理资源就像个Bo$$ #2</strong></br>前置任务需求:</br>你会讨厌它们的#4"
+        },
+        {
+            "name": "自动化处理小撮粉末",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/839.png",
+            "x": 1008.0,
+            "y": 372.0,
+            "data": "你是不是很讨厌手动压缩这些小撮的各种粉末？好,让我来给你们演示一下如何让这种工作实现自动化.使用一种类型的过滤器和物品缓存器(或者HV的超级缓存器)和打包机,这样就能让你摆脱合成小撮粉末的工作了.物品缓存器可以容纳9组小撮粉,超级缓存器则是256组,完全够用了.你可以用螺丝刀右键输出面调整输出模式.调成9,以一次输出9个小撮粉,刚好够给打包机合成完整粉末.%n%n超级缓存器可能会造成延迟,所以让它们保持尽可能空.如果你在用多方块打包机,请将缓存器从存储模式改为传输模式.%n%n WIKI 打包机：gtnh.huijiwiki.com/p/317",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADRw==",
+            "tooltip": "<strong>自动化处理小撮粉末</strong></br>前置任务需求:</br>你会讨厌它们的#4"
+        },
+        {
+            "name": "重燃油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/552.png",
+            "x": 504.0,
+            "y": 528.0,
+            "data": "同样,含硫重燃油也可以在化学反应釜中和氢气反应得到不含硫的重燃油和硫化氢,脱硫的重燃油1单位(1000mB)的燃烧值也将提高到240KEU.%n%n除此之外,重燃油也是制取MV阶段更高级的燃料--柴油的原料,它还能蒸馏得到三种很有用的流体:苯、甲苯、苯酚.%n%n如果你想使用重油作为能源，你可能需要使用半流质发电机，而不能像轻燃油或柴油那样使用内燃发电机。%n%n坦白来说,从普通石油中提炼出重燃油并不是特别高效. 用重油提炼会比较好,到MV之后,油砂可以离心出重油. 再将处理得到的重燃油和轻燃油搅拌,即可获得柴油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACKA==",
+            "tooltip": "<strong>重燃油1</strong></br>前置任务需求:</br>H代表氢...字母表的其余部分太复杂了!</br>含硫重燃油</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "含硫重燃油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/551.png",
+            "x": 504.0,
+            "y": 480.0,
+            "data": "将你的石油提炼成含硫重燃油吧,这种燃料燃烧值比较低,1单位(1000mB)理论燃烧值也仅有40KEU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACJw==",
+            "tooltip": "<strong>含硫重燃油</strong></br>前置任务需求:</br>石油提纯"
+        },
+        {
+            "name": "嗨男爵,你的石油黑金现况如何？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/546.png",
+            "x": 576.0,
+            "y": 408.0,
+            "data": "在你的旅程中看过些庞大的石油井.现在做台泵将这些黑金收集进容器吧!石油可以直接用于内燃发电机(现场为泵供电,也许吧?),或者提炼成其他更好的燃料或合成原料. 开采石油需要使用采矿管道.%n%n记得带上发电机或电池箱(当然要装满电池)为泵供电.由于技术的进步,泵可以在顶部自动输出.  泵可堆叠,这样它们会工作得更快.这种情况下,石油必须用电动泵覆盖板或其他方式(导管之类的)从最底部的泵中抽出.%n%n油泉在地表喷出得越高,说明储量越多!但是如果使用LV泵,你最好选择那些比较低的油泉,因为LV泵的范围可能不够.把那些高油泉留着用MV或HV泵抽吧.%n%n不论是用泵抽油还是用采矿机,都需要采矿管道. 当采矿管道撞到底部(或路上的什么),如果已经没有流体需要收集,泵会开始回收管道. 使用软锤关闭时,泵也会回收管道. 如果有需要,比如快速收集一定范围内的岩浆,你可以用螺丝刀调节泵的工作范围.%n%n这些泵和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把泵放哪了!%n%n[note]等到抽干了这类实体的石油之后,你需要转向:%n1)油砂,不过它的最佳用途是制造重油%n2)热解炉处理原木获取副产%n4)生物培养缸(EV+)%n5)作物%n6)蜜蜂%n7)基岩下的虚拟油气田. 不同维度会生成不同的地下流体,可以使用多方块钻井获取它们,MV+即可制造.[/note] %n%n[note]在MV之前，重油只能制作润滑油或塞进半流质发电机。蒸馏重油需要MV蒸馏室。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACIg==",
+            "tooltip": "<strong>嗨男爵,你的石油黑金现况如何？</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "这里有几吨油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2986.png",
+            "x": 528.0,
+            "y": 432.0,
+            "data": "[note]这里石油任务线的内容分到了两个章节-关于获取所有提纯产物的部分在LV章节,关于如何处理利用石油的部分在\"石油工业\"章节,本任务就是后者的一部分.[/note]%n%n欢迎你! 在此任务线中,我们将为你展示石油处理的不同路线,以获取所有可以从石油中提取的有用物品、流体. 石油处理有许多步骤,而这些步骤从LV(低压)开始解锁,到IV(强导压)全部解锁,而处理的产物在这些电压以及更高电压都十分重要.%n%n石油处理产物不单可以用作能源,还是许多化工制品的重要原料.随着科技的进步,处理速度会更快,处理产物会更加丰富,同时你还可以升级此前的产线. 此任务线非本整合包必须主线,但如果你相信它,它也不会让你失望.%n%n获取初始石油的最佳方式就是抽取地表油泉.无需深挖,只需要在油泉上方放置泵,再配上一台发电机提供能量,即可轻松获取石油. 刚开始的时候,你可以直接用石油发电,不过这样效率不高,建议稍后处理得到燃油后更换发电燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALqg==",
+            "tooltip": "<strong>这里有几吨油</strong></br>前置任务需求:</br>嗨男爵,你的石油黑金现况如何？</br>石油提纯"
+        },
+        {
+            "name": "嘿,DJ,搅起来!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/554.png",
+            "x": 828.0,
+            "y": 216.0,
+            "data": "搅拌机是非常有用的设备,他可以搅拌各种各样的液体或者固体(有助于防止在合成时粉末掉到地上),而且大多数搅拌配方都比手动配方划算!%n%nEV+的版本会多3个槽,这种只有6个槽.%n%n[note]你可以在GUI中的电池槽或其他额外槽内放置任何你想放的东西.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACKg==",
+            "tooltip": "<strong>嘿,DJ,搅起来!</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "H代表氢...字母表的其余部分太复杂了!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/550.png",
+            "x": 480.0,
+            "y": 624.0,
+            "data": "用离心机处理黄褐铁矿石或者棕褐铁矿石,即可获得一些氢气,或者在电解机里面电解水也可以,不过可能比较费电.%n%n你可能想寻找更多其他获取氢气的方法.不过其中部分得在很久之后才能解锁.%n%n例如：水化或电解甲烷(生物来源)、电解水或盐水、将钠与水混合,或是后期直接从气态巨行星抽取氢气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACJg==",
+            "tooltip": "<strong>H代表氢...字母表的其余部分太复杂了!</strong></br>前置任务需求:</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "获得钠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/621.png",
+            "x": 240.0,
+            "y": 408.0,
+            "data": "另一个钠的来源是海绿石矿石跟海绿石矿砂,你可以在Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACbQ==",
+            "tooltip": "<strong>获得钠</strong></br>前置任务需求:</br>电池合金"
+        },
+        {
+            "name": "获得钠和锂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/622.png",
+            "x": 240.0,
+            "y": 372.0,
+            "data": "盐矿脉能在主世界的Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACbg==",
+            "tooltip": "<strong>获得钠和锂</strong></br>前置任务需求:</br>电池合金"
+        },
+        {
+            "name": "氢气、甲烷或者一些屁(天然气)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/533.png",
+            "x": 792.0,
+            "y": 336.0,
+            "data": "在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.离心橡胶树原木可以获得60mB的甲烷,还有许多其他作物也可以用这种方式产出甲烷.%n%n使用这些发电机的主要发电产线是苯,但那需要MV级机器.%n%n如果你正在计划着搭建可再生能源线,相信我,这将是你最常用的发电机类型.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACFQ==",
+            "tooltip": "<strong>氢气、甲烷或者一些屁(天然气)</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "IC2电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/620.png",
+            "x": 204.0,
+            "y": 180.0,
+            "data": "有些配方会用到IC2电池,将你的小型电池外壳填充熔融红石,即可获得充电电池.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACbA==",
+            "tooltip": "<strong>IC2电池</strong></br>前置任务需求:</br>流体灌装机"
+        },
+        {
+            "name": "我猜它是喷墨机?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1792.png",
+            "x": 1188.0,
+            "y": 360.0,
+            "data": "当你使用地震勘探者时,你需要扫描仪和打印机来将你所勘探的--可口的矿石与美味的液体--数据制作成一本书.  将墨囊放入流体提取机可获得墨水.用通用流体单元或管道转移它吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHAA==",
+            "tooltip": "<strong>我猜它是喷墨机?</strong></br>前置任务需求:</br>分析地层"
+        },
+        {
+            "name": "Keeping things organized",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8788923125695859609.png",
+            "x": 888.0,
+            "y": 576.0,
+            "data": "Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!\n\nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:\n\nBasic Item Holder: 9 slots\nGood Item Holder: 12 slots\nAdvanced Item Holder: 15 slots\n\n[note]If that's still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]",
+            "quest_id": "b47jlBoHTFGGB3j7nq60Zw==",
+            "tooltip": "<strong>Keeping things organized</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "轻燃油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/549.png",
+            "x": 552.0,
+            "y": 528.0,
+            "data": "在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mB)理论燃烧值有305KEU.%n%n而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池,还有许许多多用途,硫酸永远不嫌多!%n%n在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.%n%n你可以在化学反应釜中用蒸汽将其裂化,然后蒸馏以获取乙烯,进一步加工得到聚乙烯.但是制取乙烯的话,炼油气更棒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACJQ==",
+            "tooltip": "<strong>轻燃油1</strong></br>前置任务需求:</br>含硫轻燃油</br>H代表氢...字母表的其余部分太复杂了!</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "含硫轻燃油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/548.png",
+            "x": 552.0,
+            "y": 480.0,
+            "data": "将你的石油提炼成含硫轻燃油吧,这种燃料燃烧值比较低,1单位(1000mB)理论燃烧值仅有40KEU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACJA==",
+            "tooltip": "<strong>含硫轻燃油</strong></br>前置任务需求:</br>石油提纯"
+        },
+        {
+            "name": "锂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1167.png",
+            "x": 192.0,
+            "y": 408.0,
+            "data": "锂粉可以通过洗矿厂洗涤锂云母矿石或者离心锂辉石矿石得到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEjw==",
+            "tooltip": "<strong>锂</strong></br>前置任务需求:</br>获得钠和锂"
+        },
+        {
+            "name": "长距离流体管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2444.png",
+            "x": 600.0,
+            "y": 360.0,
+            "data": "你是否梦想过能将原油从遥远的油田直接传送回基地?%n%n现在这个梦想实现了. 在起点和终点使用长距离流体管道控制方块连上你的设备.在两点之间用相应流体管道方块连接-起止点之间的距离必须超过64格(4+区块).同时,每条长距离流体管道只允许存在一个起点和一个终点.%n%n想要让一条长距离流体管道正常工作,你需要将起始控制方块的箭头面朝自己,同时在对侧放置管道方块.在箭头面(输入面箭头向内)贴上泵,并设置为输入模式.它就会尝试抽取流体输向末端的控制方块. 没有输入/输出速度限制,只取决于外部输入/接收速度.%n%n在管道末端与起始端相反.%n%n用区块加载器或其他手段加载起始端和末端的区块,这样流体就会直接\"传送\"回家了.%n%n途中的管道无需加载. %n%n当然,随着科技进步,后面你可能会用末影储罐来真正地传送流体,甚至还可以跨维度传送.%n%n整套长距离流体管道几乎不会产生延迟(lag),所以如果你想要降低自己基地延时的话,完全可以将其运用于基地之中的流体传输.%n%n WIKI 长距离管道：gtnh.huijiwiki.com/p/941",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJjA==",
+            "tooltip": "<strong>长距离流体管道</strong></br>前置任务需求:</br>嗨男爵,你的石油黑金现况如何？"
+        },
+        {
+            "name": "长距离物品管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2850.png",
+            "x": 1188.0,
+            "y": 264.0,
+            "data": "你是否梦想过能将物品从遥远的矿脉直接传送回基地??%n%n现在这个梦想实现了.在起点和终点使用长距离流体管道控制方块连上你的设备.在两点之间用相应物品管道方块连接.同时,每条长距离物品管道只允许存在一个起点和一个终点-起止点之间的距离必须超过64格(4+区块).%n%n想要让一条长距离物品管道正常工作,你需要将起始控制方块的箭头面朝自己,同时在对侧放置管道方块.在箭头面(输入面箭头向内)贴上传送带,并设置为输入模式.它就会尝试抽取物品输向末端的控制方块. 没有输入/输出速度限制,只取决于外部输入/接收速度.%n%n在管道末端与起始端相反.%n%n用区块加载器或其他手段加载起始端和末端的区块,这样物品就会直接\"传送\"回家了.%n%n途中的管道无需加载. %n%n当然,随着科技进步,后面你可能会用高级末影箱子来真正地传送物品,甚至还可以跨维度传送.%n%n整套长距离物品管道几乎不会产生延迟(lag),所以如果你想要降低自己基地延时的话,完全可以将其运用于基地之中的物品传输.%n%n中文WIKI 长距离管道：[url]https://gtnh.huijiwiki.com/p/941[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALIg==",
+            "tooltip": "<strong>长距离物品管道</strong></br>前置任务需求:</br>自动挖矿"
+        },
+        {
+            "name": "无损低压线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1136.png",
+            "x": 1008.0,
+            "y": 624.0,
+            "data": "在32EU/t的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量.%n%n红石合金是一种新的合金,需要使用工业高炉烧制. 将红石、硅粉和煤粉混合,虽然用手也可以,但用搅拌机效果更佳.%n%n[note]别把它和红色合金弄混了,那是ULV的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcA==",
+            "tooltip": "<strong>无损低压线缆</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>工业高炉时代"
+        },
+        {
+            "name": "液化石油气(LPG)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/640.png",
+            "x": 360.0,
+            "y": 576.0,
+            "data": "离心炼油气可以得到液化石油气,其燃烧值为320KEU,与石脑油相同. *这也是另一个得到甲烷并最终制成环氧氯丙烷的方法.(目前配方为离心丙烷与丁烷)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACgA==",
+            "tooltip": "<strong>液化石油气(LPG)</strong></br>前置任务需求:</br>丁烷和丙烷"
+        },
+        {
+            "name": "润滑油2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1084.png",
+            "x": 516.0,
+            "y": 336.0,
+            "data": "使用润滑油代替水或者蒸馏水,可以减少切割机在生产板材过程中的耗能并提高切割速度.%n%n你可以通过蒸馏种子油、鱼油或者杂酚油来获得润滑油(蒸馏室或后面的蒸馏塔).如果你能造出酿造室,那么加入滑石或红石可以在每次运行中获得更多的润滑油.%n%n低阶能源仓需要润滑油单元来制造,所以囤积一些润滑油单元,然后将剩下的用来给切割机加速吧.%n%n译者注:其实高阶能源仓还是要润滑油,只是要的不是单元-_-",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEPA==",
+            "tooltip": "<strong>润滑油2</strong></br>前置任务需求:</br>石油提纯</br>工业酿造"
+        },
+        {
+            "name": "进阶锅炉[LV]",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1134.png",
+            "x": 396.0,
+            "y": 396.0,
+            "data": "GT++中的LV进阶锅炉可以比高压锅炉更加高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n*还有MV和HV版本.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEbg==",
+            "tooltip": "<strong>进阶锅炉[LV]</strong></br>前置任务需求:</br>铅辛万苦找到铅"
+        },
+        {
+            "name": "基础压模机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/673.png",
+            "x": 864.0,
+            "y": 684.0,
+            "data": "LV时代的压模机并不是很有用.但你可以用它来制作下一阶的船、更有效率地制作橡胶片、制作单元或者制作某些匠魂的工具部件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACoQ==",
+            "tooltip": "<strong>基础压模机</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "机器GUI流体输入/输出",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2858.png",
+            "x": 696.0,
+            "y": 300.0,
+            "data": "感谢开发组不懈的努力,现在我们可以使用单元,直接在机器的GUI中输入/输出流体.只需要手持单元或是其他装有流体的容器,点击机器的流体槽即可.%n%n有几点需要考虑:%n1) 左键会尝试装满/倒空光标所指的[所有]流体容器.%n2) 右键会尝试装满/倒空光标所指的[一个]流体容器.%n3) 支持所有可在标准GT储罐(比如超级缸或XX电压储罐)使用的流体容器,包括但不限于:水瓶、原版桶、IC2单元、通用流体单元、容量瓶、大型流体单元、高压流体储罐,等等.%n4) 如果流体容器支持,可以不装满(1000L或熔融的144L).%n5) 请记住,GUI输入不会检查此流体是否为机器/配方的有效流体.%n6) 不支持焦黑储罐或Crops++的酒,欢迎来提供兼容性代码.%n7) 想要使用EIO的储罐,需要先放置再拿起来才能正常使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALKg==",
+            "tooltip": "<strong>机器GUI流体输入/输出</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "镁铝合金弩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1150.png",
+            "x": 744.0,
+            "y": 636.0,
+            "data": "是时候用你的镁铝合金来制作弩臂和弩身,并升级你陈旧的木弩了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfg==",
+            "tooltip": "<strong>镁铝合金弩</strong></br>前置任务需求:</br>工具装配台</br>新的合金-镁铝合金"
+        },
+        {
+            "name": "镁铝合金弩箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1154.png",
+            "x": 696.0,
+            "y": 636.0,
+            "data": "镁铝合金制作的弹药要比过去的弹药好很多.%n%n你还可以使用下界石英强化弩箭,让弩箭变得更加锋利.不过前提是弩箭上有一个空闲的升级槽位.%n%n在NEI上查询材料的参数,找一种弩箭的好材料吧.%n%n制造大部分弩箭时,你得用流体固化器而不是匠魂的浇铸台.而且重点在于你需要通过匠魂冶炼炉来获取熔融铁并注入流体固化器,注意不能直接用GT的熔融铁.%n%n如果你想捡起你射出的弩箭,你需要把匠魂的弩箭放在物品栏中.如果放在战备双持的物品栏里,则无法捡起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEgg==",
+            "tooltip": "<strong>镁铝合金弩箭</strong></br>前置任务需求:</br>基础流体固化器</br>镁铝合金弩"
+        },
+        {
+            "name": "镁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1540.png",
+            "x": 744.0,
+            "y": 684.0,
+            "data": "菱镁矿是镁的来源,可以在暮色森林Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGBA==",
+            "tooltip": "<strong>镁</strong></br>前置任务需求:</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "磁化你的金属杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/587.png",
+            "x": 600.0,
+            "y": 144.0,
+            "data": "你需要一台磁化机来制作磁化钢杆.为你的线圈制作一些吧. MV马达和MV仓室必须磁化机,所以你最好赶紧做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACSw==",
+            "tooltip": "<strong>磁化你的金属杆</strong></br>前置任务需求:</br>节约红石"
+        },
+        {
+            "name": "磁铁 ≠ 魔法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2891.png",
+            "x": 240.0,
+            "y": 336.0,
+            "data": "厌倦了跟着矿石或者其他方块跑来跑去? 使用磁铁吧! 虽然它的范围有限,但谁在乎呢?你只要记得开启它就行.%n%n等到HV阶段,如果你还需要磁铁的话,可以将其升级为更好的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALSw==",
+            "tooltip": "<strong>磁铁 ≠ 魔法</strong></br>前置任务需求:</br>电池合金</br>可充电电池：锂"
+        },
+        {
+            "name": "汞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/616.png",
+            "x": 204.0,
+            "y": 216.0,
+            "data": "要得到汞,可以离心红石.如果你在红石矿脉或蕴魔石矿脉中找到朱砂矿,也可以使用朱砂矿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACaA==",
+            "tooltip": "<strong>汞</strong></br>前置任务需求:</br>流体灌装机"
+        },
+        {
+            "name": "甲烷1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/644.png",
+            "x": 360.0,
+            "y": 528.0,
+            "data": "蒸馏某些\"精炼气体\",可以得到甲烷. 还有许多方法(并且可能是更好的办法)可以得到甲烷.%n%n在后面的阶段,你会需要这个的,例如用来制备聚四氟乙烯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAChA==",
+            "tooltip": "<strong>甲烷1</strong></br>前置任务需求:</br>炼油气"
+        },
+        {
+            "name": "云母矿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2983.png",
+            "x": 792.0,
+            "y": 192.0,
+            "data": "云母是非常稀有而又很有用的矿石.它是制造线圈(用于工业高炉)的必需品, 除了白铜线圈有个替代配方以外. %n要是你实在找不到云母矿脉的话,试着做出探矿仪之后去找找吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALpw==",
+            "tooltip": "<strong>云母矿</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "Mjolnir(雷神之锤)!!! (电力锻造锤)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/101.png",
+            "x": 792.0,
+            "y": 432.0,
+            "data": "非必须品,但比蒸汽锻造锤快得多,并可以自动化.如果你觉得洗矿太慢,使用这台锻造锤吧.[note]如果你想要的话,也可以考虑蒸汽多方块机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAZQ==",
+            "tooltip": "<strong>Mjolnir(雷神之锤)!!! (电力锻造锤)</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "熔融红石?",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/579.png",
+            "x": 792.0,
+            "y": 576.0,
+            "data": "你听说有些配方需要熔融红石,而得到熔融红石的方法就是使用流体提取机.让我们来制作一台.%n%n如果你想将熔融红石装进单元,用GT储罐是不行的,得用流体灌装机. 为什么? 因为所以.%n%n幸好,大部分流体都正常,除了熔融红石、裂化流体,以及其他一些流体不行. 或者直接用通用流体单元装就没这么多事了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACQw==",
+            "tooltip": "<strong>熔融红石?</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "石脑油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/641.png",
+            "x": 456.0,
+            "y": 528.0,
+            "data": "你可以将含硫石脑油处理成石脑油.石脑油在燃气发电机中有220,000EU的燃烧值.%n%n石脑油可以加工成乙烯,并最终制成聚乙烯,不过炼油气和轻燃油也能产出乙烯,你可以自己决定用哪种.%n%n如果EV阶段以后你选择制作高辛烷值汽油,将会需要大量的石脑油. 它也可以加工成聚己内酰胺--这种材料现在没什么用,但过不久就可能派上用场了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACgQ==",
+            "tooltip": "<strong>石脑油1</strong></br>前置任务需求:</br>H代表氢...字母表的其余部分太复杂了!</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...</br>含硫石脑油"
+        },
+        {
+            "name": "N代表氮...字母表又罢工了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/555.png",
+            "x": 540.0,
+            "y": 708.0,
+            "data": "你可以通过离心压缩空气单元来获得一些氮气. 因为这个过程涉及到将空气压缩到空单元中,再离心空气单元.因此生产氮气的速度特别慢,尤其在低压阶段. 由于在中压阶段你需要很多的铝.所以记得没事的时候多囤积一些氮气.%n%n将空单元放入压缩机,即可获得压缩空气单元,它含有2000L空气,不像普通单元只装1000L.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACKw==",
+            "tooltip": "<strong>N代表氮...字母表又罢工了!</strong></br>前置任务需求:</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "节点升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1599.png",
+            "x": 600.0,
+            "y": 192.0,
+            "data": "节点可以进行许多升级. 现在,尝试制作节点升级:世界交互(WIU). 有了它,你可以设置简单的自动化.%n%n在连接到工作台的传输节点中放置一个WIU.工作台另一侧的3x3区域就会被视为合成栏. 将物品放在另一侧的库存中,如果它们的合成表有效,WIU将制作它. 为了加快速度,你需要等到HV阶段,用不锈钢制作节点升级:速度提升.%n%n另外,当你将一个节点放在一块圆石上,并在紧邻圆石放置岩浆和水,再在节点中放入WIU,它就能自动为你出产圆石.使用升级提升每次获取数量和速度.%n%n[warn]在GTNH,WIU无法制造无限水.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGPw==",
+            "tooltip": "<strong>节点升级</strong></br>前置任务需求:</br>基础运输:物品"
+        },
+        {
+            "name": "不用锉刀了",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/98.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "为什么要耗费一个完整的锭来制作杆？而且还需要使用一种消耗耐久的工具,导致花费了更多的金属锭. 有了这个小装置,你所需要的所有的杆都会被完整地加工出来(只是暂时的,MV压模机是杆的下一步加工手段).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAYg==",
+            "tooltip": "<strong>不用锉刀了</strong></br>前置任务需求:</br>卷板机万岁"
+        },
+        {
+            "name": "油砂或是别的什么获得重油的方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1791.png",
+            "x": 648.0,
+            "y": 660.0,
+            "data": "油砂是获得石油、重油的另一种方式.可能你很幸运,在高山群系里找到了油砂矿脉.使用离心机,你可以从油砂中获得重油和沙子.%n%n油砂矿脉可以在Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG_w==",
+            "tooltip": "<strong>油砂或是别的什么获得重油的方式</strong></br>前置任务需求:</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "个人锚",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1528.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "让我们制作一些个人锚. 你需要双重金板,黑曜石板,钻石板和末影珍珠.可加载3x3区块.你需要用加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).个人锚还可用末影碎片供能1小时.%n%n个人锚只有在玩家在线时才有效.%n%n被动锚在玩家登录后即生效,直到服务器重启才会失效.%n%n世界锚只要服务器运行,就一直有效.重启后仍然可以即刻生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF-A==",
+            "tooltip": "<strong>个人锚</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "便携式刷怪笼...？酷!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/626.png",
+            "x": 396.0,
+            "y": 120.0,
+            "data": "你想移动刷怪笼,并建造一个怪物农场吗？只要有钻石手推车就办得到. 在耐久耗尽前,你可以搬动6个刷怪笼,就目前而言已经完全足够.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACcg==",
+            "tooltip": "<strong>便携式刷怪笼...？酷!</strong></br>前置任务需求:</br>不用锉刀了</br>杀戮时刻(凋灵)</br>切割成片</br>哦!闪闪发光(不是白金!)"
+        },
+        {
+            "name": "便携储罐太小了？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1519.png",
+            "x": 924.0,
+            "y": 60.0,
+            "data": "用大型钢流体单元替代怎么样？每个都可以容纳8000L流体,最大堆叠64. 不幸的是,你只能在机器中填充或倒空它们 - 比如GT机器(GUI)或者储罐 - 但是,一格能装8*64桶液体还是非常不错的!%n%n大型流体单元不能像BC储罐一样直接放置到地上,也不能像小单元一样把流体直接倒出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF7w==",
+            "tooltip": "<strong>便携储罐太小了？</strong></br>前置任务需求:</br>卷板机万岁"
+        },
+        {
+            "name": "冲压万物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/100.png",
+            "x": 792.0,
+            "y": 384.0,
+            "data": "使用基础冲压机床,你可以制作不同的食品、玻璃箭头和一些红石计划(Project-Red)部件. 在MV/HV阶段,你可以制造转子、各种AE组件,并复制你的模具和模头.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAZA==",
+            "tooltip": "<strong>冲压万物</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "刷石机过气了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2861.png",
+            "x": 888.0,
+            "y": 480.0,
+            "data": "想要大量的圆石、石头或者黑曜石? 那么这台机器很适合你!%n%n圆石: 机器两侧放上水和岩浆.%n石头: 机器侧面放上水,顶部放上岩浆.%n黑曜石: 随便水和岩浆怎么放,机器内需要供给红石,并且需要将虚拟电路板调成1号.%n%n当然,还要给它供能. 如果不想在圆石上浪费电力,你也可以用ExU的传输节点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALLQ==",
+            "tooltip": "<strong>刷石机过气了</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "处理赛特斯石英",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/716.png",
+            "x": 1104.0,
+            "y": 264.0,
+            "data": "为了制造发射器和传感器,你需要获取一些赛特斯石英.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACzA==",
+            "tooltip": "<strong>处理赛特斯石英</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV</br>石英岩矿脉"
+        },
+        {
+            "name": "石英岩矿脉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1166.png",
+            "x": 1008.0,
+            "y": 288.0,
+            "data": "下界有各种各样的石英.找到一个石英岩矿脉.你可以在Y轴80-120的范围发现它. 可能找起来比较麻烦,因为通常这个高度范围都是空气,你所能做的就是坚持寻找.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEjg==",
+            "tooltip": "<strong>石英岩矿脉</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "炼油气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/643.png",
+            "x": 408.0,
+            "y": 528.0,
+            "data": "在化学反应釜中使用氢气提炼你的含硫气体,可得到炼油气.其有较佳的燃烧值160,000EU.曾经,它是石油中最没用的组分,但现在你可以先将其蒸汽裂化,再蒸馏以获取大量乙烯.%n%n现在你得在化学反应釜中裂化,不过以后会有一台专门用于裂化的多方块机器--石油裂化机.要获取最佳的乙烯产出,你要将其重度蒸汽裂化,与此同时你也能获得大量甲烷.%n%n译者注:氢气裂化炼油气可以蒸馏出大量氦气,这在以后可能会很有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACgw==",
+            "tooltip": "<strong>炼油气</strong></br>前置任务需求:</br>含硫炼油气</br>H代表氢...字母表的其余部分太复杂了!</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "转啊转啊转啊转...",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/539.png",
+            "x": 600.0,
+            "y": 720.0,
+            "data": "在将你的矿石处理成为洁净矿粉后,你可以将它们离心以获得更多的副产物. 此外,你可以用这台机器将许多物品处理成更加有用的副产品,例如粘性树脂和砖粉.%n%n如果你需要某种物品/流体,检查NEI中离心机和电解机的配方总是很有用的.也许你可以从基地里已有的东西中得到更多!%n%n[note]如果你还是更喜欢用蒸汽多方块的话,就使用复选框吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACGw==",
+            "tooltip": "<strong>转啊转啊转啊转...</strong></br>前置任务需求:</br>更多蒸汽!"
+        },
+        {
+            "name": "卷板机万岁",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/105.png",
+            "x": 864.0,
+            "y": 60.0,
+            "data": "不同于合金炉的3锭出2板,卷板机可以1:1地生产各种金属板. 这可以节约大量的金属,所以尽快制造一台吧.%n%n还有,如果需要制造箔的话,只需将板再次通过卷板机即可. 此外,不同电路板还代表了不同模式,稍后你就会发现了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAaQ==",
+            "tooltip": "<strong>卷板机万岁</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "节约红石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/96.png",
+            "x": 648.0,
+            "y": 144.0,
+            "data": "厌倦使用四个红石制做一个磁化铁杆了吗？好消息!使用磁化机不需要红石,只需要通电,你不一定要接上导线,这台机器使用电池也能运作得很好(耗电很低).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAYA==",
+            "tooltip": "<strong>节约红石</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "扫描蜜蜂、种子以及更多",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/531.png",
+            "x": 1140.0,
+            "y": 408.0,
+            "data": "自动化扫描你的蜜蜂和种子.对于作物来说,在你获得便携式扫描仪(它需要下阶段才可做的HV电路板)之前,这是目前唯一你可以得到作物状态的方法.%n%n在后面,这台机器可以用于扫描高级机器零件的装配线资料,或者将UU物质生产资料写入数据球.带有勘探数据的闪存也需要用到扫描仪.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACEw==",
+            "tooltip": "<strong>扫描蜜蜂、种子以及更多</strong></br>前置任务需求:</br>你会非常讨厌这个 #5</br>你会非常讨厌这个 #6</br>进阶电子电路(Good Circuits.)"
+        },
+        {
+            "name": "筛选机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/869.png",
+            "x": 888.0,
+            "y": 336.0,
+            "data": "你需要无瑕或精致的钻石、绿宝石、红宝石或其他宝石吗？或是你对更多的燧石、煤炭,以及一些非矿物出产更感兴趣？那么,是时候做一台筛选机了.%n%n你可以寻找贫瘠锌矿石(查看NEI)或到下界寻找闪锌矿.%n%n由于筛选机只接受洗净的矿粉,不过你也可以把粉碎矿石丢入装有水的坩埚内,即可轻松获得它.%n%n[note]注意你需要聚乙烯来制作这台机器![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADZQ==",
+            "tooltip": "<strong>筛选机</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "简易洗矿池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/898.png",
+            "x": 648.0,
+            "y": 480.0,
+            "data": "实在懒得弄一台洗矿机,却又对无法自动作业的炼药锅感到厌烦了？那么简单的洗矿场正是你所需要的!它比普通洗矿机快得多.当然,你什么副产物都得不到,但是管它呢!%n%nUV以及以下的每个电压都有简单洗矿场,但HV之后版本的速度并没有太大长进.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADgg==",
+            "tooltip": "<strong>简易洗矿池</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "钠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1168.png",
+            "x": 192.0,
+            "y": 444.0,
+            "data": "通过洗矿厂洗涤海绿石矿石或者矿砂可以得到钠,还有通过电解盐也可以得到钠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEkA==",
+            "tooltip": "<strong>钠</strong></br>前置任务需求:</br>获得钠</br>获得钠和锂"
+        },
+        {
+            "name": "提取装置...不错",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/545.png",
+            "x": 744.0,
+            "y": 432.0,
+            "data": "我希望你不要想我现在正在想你在想什么...%n%n强烈建议入手一台,因为电力提取机的效率要比老式的蒸汽提取机效率高太多了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACIQ==",
+            "tooltip": "<strong>提取装置...不错</strong></br>前置任务需求:</br>你会讨厌它们的#2"
+        },
+        {
+            "name": "硫酸1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/618.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "用化学反应釜搅拌硫化氢跟水,可以得到用于一次性电池的硫酸. 不过现在你得先造点二氧化硫.%n%n不过要是你之前制作过一些轻燃油的话,你也许有剩下些硫化氢,而它也可以转化为硫酸(只需经过一点点步骤).如果你把它自动化了,那肯定多得没地方放. 而当你有了大型化学反应釜之后,就可以直接将硫化氢制成硫酸了. 请注意别只把硫酸用于一次性电池,它还有许多其他用途.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACag==",
+            "tooltip": "<strong>硫酸1</strong></br>前置任务需求:</br>流体灌装机"
+        },
+        {
+            "name": "含硫炼油气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/642.png",
+            "x": 408.0,
+            "y": 480.0,
+            "data": "另一样你可以从石油中蒸馏出来的燃气是含硫炼油气,燃值为25KEU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACgg==",
+            "tooltip": "<strong>含硫炼油气</strong></br>前置任务需求:</br>石油提纯"
+        },
+        {
+            "name": "含硫石脑油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/639.png",
+            "x": 456.0,
+            "y": 480.0,
+            "data": "另一样你可以从石油中蒸馏出的东西是含硫石脑油.在燃气发电机中每单元有40000EU的燃烧值.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACfw==",
+            "tooltip": "<strong>含硫石脑油</strong></br>前置任务需求:</br>石油提纯"
+        },
+        {
+            "name": "黝铜矿 、辉锑矿、及铜矿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/597.png",
+            "x": 444.0,
+            "y": 336.0,
+            "data": "你可能会疑惑为何需要黝铜矿,或辉锑矿.主要是可以离心出锑,用于制做电池. 电池存储能量,这样就算你的发电忽高忽低,电池还能提供一个稳定的输出.%n%n可以在Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACVQ==",
+            "tooltip": "<strong>黝铜矿 、辉锑矿、及铜矿</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV</br>下界"
+        },
+        {
+            "name": "热力离心机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/599.png",
+            "x": 1272.0,
+            "y": 216.0,
+            "data": "想从粉碎矿石或者纯净矿石粉中获得不同的副产物,热力离心机是个选择.%n%n热力离心机还是回收IC2核反应堆产物-枯竭燃料棒的唯一方式.%n%n它还可以从粉碎锌矿石中获取一点点镓,这是不错的电路板上二极管的必需品. 打粉离心过后的闪锌矿,在粉碎机第二格内也有几率出现镓.%n%n如果你无法稳定提供2A的LV电能,等你到达MV后,将MV变压成LV再使用它吧.%n%n在LV阶段,你也可以通过不同的方法获得相同的矿石副产物.热力离心机,只有和HV以上研磨机结合使用,才会显出其真正的价值.%n%n[warn]直接将MV电压输入LV机器,就算机器消耗不止1A也会导致爆炸,所以请勿这样操作.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACVw==",
+            "tooltip": "<strong>热力离心机</strong></br>前置任务需求:</br>砷化镓晶体"
+        },
+        {
+            "name": "把垃圾都扔了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1863.png",
+            "x": 1008.0,
+            "y": 576.0,
+            "data": "已经有好几个抽屉的圆石了?虚空掉落物过滤器可升级为自动销毁拾取的任何物品.  圆石、泥土、箭、树苗等等.当你没有足够的空间放垃圾的时候它很有用.%n%n至于怎么使用,你需要右键我送你的物品过滤器,将你需要销毁的物品加入过滤表中.再右键虚空掉落物过滤器,然后将设置好的物品过滤器放进去.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHRw==",
+            "tooltip": "<strong>把垃圾都扔了</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "是时候抽干下界了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1090.png",
+            "x": 552.0,
+            "y": 360.0,
+            "data": "泵不仅仅能抽石油和水.你还可以到下界去抽岩浆湖里面的岩浆!别忘了带上一些储罐或流体单元.%n%n当你达到HV后,可以从岩浆中获得硅、镁、钙、金、铝、锰、钽和氧.%n%n将你用来抽油的LV泵更新换代成MV泵,留下来的LV泵就废物利用来抽岩浆吧.如果你还玩了神秘或者血魔法,它们还有轻松且无限地获取岩浆的方法.%n%n[note]你得用ULV缸加单元,或BC储罐加手推车来搬运岩浆.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEQg==",
+            "tooltip": "<strong>是时候抽干下界了</strong></br>前置任务需求:</br>移动你的储罐、箱子和桶</br>嗨男爵,你的石油黑金现况如何？"
+        },
+        {
+            "name": "液体太多了??",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1918.png",
+            "x": 888.0,
+            "y": 624.0,
+            "data": "那是不可能的!如果你真的想摆脱那些实在太多的液体,制作一个流体垃圾桶吧.你可以把多余的杂酚油或者别的什么统统倒进去.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHfg==",
+            "tooltip": "<strong>液体太多了??</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "Vroooooom...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/962.png",
+            "x": 444.0,
+            "y": 120.0,
+            "data": "厌倦了站在周围从你的钻石锥刺上收集所有的掉落物和经验球？%n%n做一个虚空漏斗,吸收所有的掉落物和经验球. 将经验送入罐中储存.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADwg==",
+            "tooltip": "<strong>Vroooooom...</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "欢迎来到第1阶段,LV",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/88.png",
+            "x": 768.0,
+            "y": 264.0,
+            "data": "哎呀,你好呢!看来你已经进入了电气时代.但是,请不要扔了你的蒸汽机器.在进入MV阶段之前,你可能还需要使用它们一段时间.%n%n为了让你自己更轻松些,首先你需要专注于制作轧线机和卷板机...否则在制作那些机器部件时你会很痛苦的.%n%n在此之后,磁化机、组装机、车床和化学反应釜+流体固化器(用于橡胶)都可以帮助你降低造价.%n%nLV机器比比蒸汽设备更节能,因为蒸汽设备将蒸汽转为能量的效率是50%%,而LV蒸汽涡轮机的效率为85%%. %n%nULV?不存在的. %n%n中文WIKI电力机器：[url]https://gtnh.huijiwiki.com/p/769[/url]（请看电力机器部分）",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAWA==",
+            "tooltip": "<strong>欢迎来到第1阶段,LV</strong></br>前置任务需求:</br>更多蒸汽!"
+        },
+        {
+            "name": "流体都去哪了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2403.png",
+            "x": 984.0,
+            "y": 660.0,
+            "data": "当你在后期流体过剩时,这东西会很有用.这种溢流阀覆盖板可让你调整超级缸这类储罐的存储量.你可以将其贴在较小的储罐上,该储罐的流体通向一个较大的储罐,当较大储罐装满时,流体就会积蓄在较小的储罐里.积蓄的流体超过了覆盖板设置的数值时,它将开始销毁流体.%n%n对于自己搭建的空气离心系统经常由于氮气过量而停下,你是不是非常头痛呢?这是个好办法!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJYw==",
+            "tooltip": "<strong>流体都去哪了?</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "你会讨厌它们的#1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/91.png",
+            "x": 588.0,
+            "y": 264.0,
+            "data": "第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出,你就会需要一个. %n%n跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.%n%n空手Shift+右键覆盖板可访问其GUI.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAWw==",
+            "tooltip": "<strong>你会讨厌它们的#1</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "你会讨厌它们的#4",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/92.png",
+            "x": 948.0,
+            "y": 408.0,
+            "data": "第四种你非常需要的东西,而且它合成起来令人非常痛苦.可能是目前为止最蛋疼的东西了,而且你还大量需要.%n%n和传送带工作方式类似,但可以指定物品槽,用螺丝刀可以调整槽位.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAXA==",
+            "tooltip": "<strong>你会讨厌它们的#4</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "你会讨厌它们的#2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/93.png",
+            "x": 672.0,
+            "y": 408.0,
+            "data": "第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它.%n%n可贴在流体管道或GT机器/方块上.使用螺丝刀进行调整.无法用于机器正面. 当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.%n%n使用扳手拆除机器或管道,会保留贴在上面的覆盖板.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.%n%n它还可以进一步升级为可以精确控制流体传输速度的流体校准器.%n%n空手Shift+右键覆盖板可访问其GUI!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAXQ==",
+            "tooltip": "<strong>你会讨厌它们的#2</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "你会讨厌它们的#3",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/95.png",
+            "x": 864.0,
+            "y": 408.0,
+            "data": "活塞,但是它是\"电动的\". 这是你将来要合成很多很多的第三件东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAXw==",
+            "tooltip": "<strong>你会讨厌它们的#3</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "你会非常讨厌这个 #6",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/530.png",
+            "x": 1140.0,
+            "y": 324.0,
+            "data": "第六种你需要很多的部件. 用于制造扫描仪和地震勘探者.%n%n[note]顺便提一句,理论上还有一种部件--力场发生器--但它需要用到更高阶的电路板,并且在后期之前并不算常用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACEg==",
+            "tooltip": "<strong>你会非常讨厌这个 #6</strong></br>前置任务需求:</br>处理赛特斯石英"
+        },
+        {
+            "name": "你会非常讨厌这个 #5",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/529.png",
+            "x": 1068.0,
+            "y": 324.0,
+            "data": "在制造微波炉、扫描仪和最重要的电路组装机还有精密激光蚀刻机的时候你会需要这个东西.%n%n幸运的是,发射器和传感器不像其他部件那样需要那么多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACEQ==",
+            "tooltip": "<strong>你会非常讨厌这个 #5</strong></br>前置任务需求:</br>处理赛特斯石英"
+        },
+        {
+            "name": "你的魔法之路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/104.png",
+            "x": 828.0,
+            "y": 144.0,
+            "data": "现在你炼出了铝,可以开始研究魔法了.如果你还没解锁神秘任务,试着找到银树树苗跟宏伟之树树苗.%n%n你还可以使用硬币购买这些树苗.如果你仍未找到的话,这就去看看吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAaA==",
+            "tooltip": "<strong>你的魔法之路</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "石油提纯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/547.png",
+            "x": 480.0,
+            "y": 408.0,
+            "data": "用石油做内燃发电机的燃料是一种非常低效率且浪费的事情(1桶石油燃烧后仅提供20,000EU的电量).是时候提纯石油了!%n%n你需要用编程电路选择某一种需要的产物.之后的多方块蒸馏塔可以获得所有产物,但离现在还有一段距离.%n%n你还可以蒸馏出许多其他流体!有两种流体很有用,但蒸馏需要很长时间,所以你最好提前做好它们的自动化.这两种流体分别是:%n润滑油(来自杂酚油)和蒸馏水(来自水).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACIw==",
+            "tooltip": "<strong>石油提纯</strong></br>前置任务需求:</br>嗨男爵,你的石油黑金现况如何？</br>你会讨厌它们的#2"
+        }
+    ],
+    "links": [
+        {
+            "source": "切割成片",
+            "target": "秋叶原(Akihabra)"
+        },
+        {
+            "source": "黝铜矿 、辉锑矿、及铜矿",
+            "target": "铅辛万苦找到铅"
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "合金炉"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "合金炉"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "铝储罐"
+        },
+        {
+            "source": "扫描蜜蜂、种子以及更多",
+            "target": "分析地层"
+        },
+        {
+            "source": "你会讨厌它们的#1",
+            "target": "新合金-钴黄铜"
+        },
+        {
+            "source": "基础压模机",
+            "target": "新的合金-镁铝合金"
+        },
+        {
+            "source": "镁",
+            "target": "新的合金-镁铝合金"
+        },
+        {
+            "source": "黝铜矿 、辉锑矿、及铜矿",
+            "target": "锑"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "阿迪特和钴"
+        },
+        {
+            "source": "下界",
+            "target": "阿迪特和钴"
+        },
+        {
+            "source": "火焰弓弦",
+            "target": "阿迪特弩身"
+        },
+        {
+            "source": "新合金-钴黄铜",
+            "target": "真正锋利的锯片"
+        },
+        {
+            "source": "工作台2.0",
+            "target": "自动化合成"
+        },
+        {
+            "source": "你会讨厌它们的#1",
+            "target": "自动化合成"
+        },
+        {
+            "source": "IC2电池",
+            "target": "电动锄"
+        },
+        {
+            "source": "IC2电池",
+            "target": "电动树脂提取机"
+        },
+        {
+            "source": "你会非常讨厌这个 #6",
+            "target": "自动挖矿"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "复仇者联盟,组装!"
+        },
+        {
+            "source": "基础装罐机",
+            "target": "基础电弧炉"
+        },
+        {
+            "source": "电池合金",
+            "target": "基础装罐机"
+        },
+        {
+            "source": "你会非常讨厌这个 #5",
+            "target": "基础电路组装机"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "基础电路组装机"
+        },
+        {
+            "source": "进阶电子电路(Good Circuits.)",
+            "target": "基础电路组装机"
+        },
+        {
+            "source": "熔融红石?",
+            "target": "基础流体固化器"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "基础流体固化器"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "基础怪物防护"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "基础洗矿厂"
+        },
+        {
+            "source": "基础运输管道",
+            "target": "基础运输:液体"
+        },
+        {
+            "source": "基础运输管道",
+            "target": "基础运输:物品"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "基础运输管道"
+        },
+        {
+            "source": "铅辛万苦找到铅",
+            "target": "电池合金"
+        },
+        {
+            "source": "锑",
+            "target": "电池合金"
+        },
+        {
+            "source": "不用锉刀了",
+            "target": "经验!经验!"
+        },
+        {
+            "source": "砷化镓晶体",
+            "target": "镓和砷的更好来源"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "生物群系无处不在,但不是你想要的那个？"
+        },
+        {
+            "source": "电池合金",
+            "target": "Black and Decker(美国一家著名电动工具公司)"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "Black and Decker(美国一家著名电动工具公司)"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "工业酿造"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "有点脆,但力道十足..."
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "有点脆,但力道十足..."
+        },
+        {
+            "source": "石脑油1",
+            "target": "丁烷和丙烷"
+        },
+        {
+            "source": "炼油气",
+            "target": "丁烷和丙烷"
+        },
+        {
+            "source": "轻燃油1",
+            "target": "丁烷和丙烷"
+        },
+        {
+            "source": "重燃油1",
+            "target": "丁烷和丙烷"
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "source": "二极管1",
+            "target": "线缆二极管"
+        },
+        {
+            "source": "电池合金",
+            "target": "镉"
+        },
+        {
+            "source": "基础电弧炉",
+            "target": "量产退火铜"
+        },
+        {
+            "source": "你会讨厌它们的#1",
+            "target": "化学浸洗"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "化学浸洗"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "橡胶化学制程"
+        },
+        {
+            "source": "获得钠和锂",
+            "target": "氯,你最好的新朋友"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "选择,选择"
+        },
+        {
+            "source": "卷板机万岁",
+            "target": "电路编程"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "钴和砷从辉钴来"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "压缩机"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "Craftsman曾是品质的代名词"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "Craftsman曾是品质的代名词"
+        },
+        {
+            "source": "真正锋利的锯片",
+            "target": "切割成片"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "大马士革钢2"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "大马士革钢2"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "去死吧,剪线钳!"
+        },
+        {
+            "source": "切割成片",
+            "target": "钻石箱子...哦,闪闪发亮"
+        },
+        {
+            "source": "不用锉刀了",
+            "target": "钻石锥刺"
+        },
+        {
+            "source": "哦!闪闪发光(不是白金!)",
+            "target": "钻石锥刺"
+        },
+        {
+            "source": "切割成片",
+            "target": "钻石储罐...哦,闪闪发亮"
+        },
+        {
+            "source": "砷化镓晶体",
+            "target": "二极管1"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "化尘为晶"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "电离粉末"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "电炉"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "电力粉碎机"
+        },
+        {
+            "source": "基础装罐机",
+            "target": "空电池(蓝石)"
+        },
+        {
+            "source": "卷板机万岁",
+            "target": "空单元"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "电路基板1"
+        },
+        {
+            "source": "胶水1",
+            "target": "电路基板1"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "末影人冶炼炉"
+        },
+        {
+            "source": "胶水1",
+            "target": "末影人冶炼炉"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "引爆液体获取能量"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "更快地传输蒸汽"
+        },
+        {
+            "source": "基础电弧炉",
+            "target": "更快地生产钢"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "发酵酿酒!"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "沃土"
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "火焰弓弦"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "让世界充满液体..."
+        },
+        {
+            "source": "电池合金",
+            "target": "流体灌装机"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "砷化镓晶体"
+        },
+        {
+            "source": "电离粉末",
+            "target": "砷化镓晶体"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "准备好,第2阶段,MV"
+        },
+        {
+            "source": "熔融红石?",
+            "target": "胶水1"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "胶水1"
+        },
+        {
+            "source": "二极管1",
+            "target": "进阶电子电路(Good Circuits.)"
+        },
+        {
+            "source": "电路基板1",
+            "target": "进阶电子电路(Good Circuits.)"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "抓住它们"
+        },
+        {
+            "source": "GT储罐,LV版",
+            "target": "GT-MV储罐...已经?"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "GT-MV储罐...已经?"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "GT储罐,LV版"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "处理资源就像个Bo$$ #1"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "处理资源就像个Bo$$ #2"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "自动化处理小撮粉末"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "重燃油1"
+        },
+        {
+            "source": "含硫重燃油",
+            "target": "重燃油1"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "重燃油1"
+        },
+        {
+            "source": "石油提纯",
+            "target": "含硫重燃油"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "嗨男爵,你的石油黑金现况如何？"
+        },
+        {
+            "source": "嗨男爵,你的石油黑金现况如何？",
+            "target": "这里有几吨油"
+        },
+        {
+            "source": "石油提纯",
+            "target": "这里有几吨油"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "嘿,DJ,搅起来!"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "H代表氢...字母表的其余部分太复杂了!"
+        },
+        {
+            "source": "电池合金",
+            "target": "获得钠"
+        },
+        {
+            "source": "电池合金",
+            "target": "获得钠和锂"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "氢气、甲烷或者一些屁(天然气)"
+        },
+        {
+            "source": "流体灌装机",
+            "target": "IC2电池"
+        },
+        {
+            "source": "分析地层",
+            "target": "我猜它是喷墨机?"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "Keeping things organized"
+        },
+        {
+            "source": "含硫轻燃油",
+            "target": "轻燃油1"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "轻燃油1"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "轻燃油1"
+        },
+        {
+            "source": "石油提纯",
+            "target": "含硫轻燃油"
+        },
+        {
+            "source": "获得钠和锂",
+            "target": "锂"
+        },
+        {
+            "source": "嗨男爵,你的石油黑金现况如何？",
+            "target": "长距离流体管道"
+        },
+        {
+            "source": "自动挖矿",
+            "target": "长距离物品管道"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "无损低压线缆"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "无损低压线缆"
+        },
+        {
+            "source": "丁烷和丙烷",
+            "target": "液化石油气(LPG)"
+        },
+        {
+            "source": "石油提纯",
+            "target": "润滑油2"
+        },
+        {
+            "source": "工业酿造",
+            "target": "润滑油2"
+        },
+        {
+            "source": "铅辛万苦找到铅",
+            "target": "进阶锅炉[LV]"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "基础压模机"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "机器GUI流体输入/输出"
+        },
+        {
+            "source": "工具装配台",
+            "target": "镁铝合金弩"
+        },
+        {
+            "source": "新的合金-镁铝合金",
+            "target": "镁铝合金弩"
+        },
+        {
+            "source": "基础流体固化器",
+            "target": "镁铝合金弩箭"
+        },
+        {
+            "source": "镁铝合金弩",
+            "target": "镁铝合金弩箭"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "镁"
+        },
+        {
+            "source": "节约红石",
+            "target": "磁化你的金属杆"
+        },
+        {
+            "source": "电池合金",
+            "target": "磁铁 ≠ 魔法"
+        },
+        {
+            "source": "可充电电池：锂",
+            "target": "磁铁 ≠ 魔法"
+        },
+        {
+            "source": "流体灌装机",
+            "target": "汞"
+        },
+        {
+            "source": "炼油气",
+            "target": "甲烷1"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "云母矿"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "Mjolnir(雷神之锤)!!! (电力锻造锤)"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "熔融红石?"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "石脑油1"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "石脑油1"
+        },
+        {
+            "source": "含硫石脑油",
+            "target": "石脑油1"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "N代表氮...字母表又罢工了!"
+        },
+        {
+            "source": "基础运输:物品",
+            "target": "节点升级"
+        },
+        {
+            "source": "卷板机万岁",
+            "target": "不用锉刀了"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "油砂或是别的什么获得重油的方式"
+        },
+        {
+            "source": "切割成片",
+            "target": "个人锚"
+        },
+        {
+            "source": "不用锉刀了",
+            "target": "便携式刷怪笼...？酷!"
+        },
+        {
+            "source": "杀戮时刻(凋灵)",
+            "target": "便携式刷怪笼...？酷!"
+        },
+        {
+            "source": "切割成片",
+            "target": "便携式刷怪笼...？酷!"
+        },
+        {
+            "source": "哦!闪闪发光(不是白金!)",
+            "target": "便携式刷怪笼...？酷!"
+        },
+        {
+            "source": "卷板机万岁",
+            "target": "便携储罐太小了？"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "冲压万物"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "刷石机过气了"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "处理赛特斯石英"
+        },
+        {
+            "source": "石英岩矿脉",
+            "target": "处理赛特斯石英"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "石英岩矿脉"
+        },
+        {
+            "source": "含硫炼油气",
+            "target": "炼油气"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "炼油气"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "炼油气"
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "转啊转啊转啊转..."
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "卷板机万岁"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "节约红石"
+        },
+        {
+            "source": "你会非常讨厌这个 #5",
+            "target": "扫描蜜蜂、种子以及更多"
+        },
+        {
+            "source": "你会非常讨厌这个 #6",
+            "target": "扫描蜜蜂、种子以及更多"
+        },
+        {
+            "source": "进阶电子电路(Good Circuits.)",
+            "target": "扫描蜜蜂、种子以及更多"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "筛选机"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "简易洗矿池"
+        },
+        {
+            "source": "获得钠",
+            "target": "钠"
+        },
+        {
+            "source": "获得钠和锂",
+            "target": "钠"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "提取装置...不错"
+        },
+        {
+            "source": "流体灌装机",
+            "target": "硫酸1"
+        },
+        {
+            "source": "石油提纯",
+            "target": "含硫炼油气"
+        },
+        {
+            "source": "石油提纯",
+            "target": "含硫石脑油"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "黝铜矿 、辉锑矿、及铜矿"
+        },
+        {
+            "source": "下界",
+            "target": "黝铜矿 、辉锑矿、及铜矿"
+        },
+        {
+            "source": "砷化镓晶体",
+            "target": "热力离心机"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "把垃圾都扔了"
+        },
+        {
+            "source": "移动你的储罐、箱子和桶",
+            "target": "是时候抽干下界了"
+        },
+        {
+            "source": "嗨男爵,你的石油黑金现况如何？",
+            "target": "是时候抽干下界了"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "液体太多了??"
+        },
+        {
+            "source": "切割成片",
+            "target": "Vroooooom..."
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "欢迎来到第1阶段,LV"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "流体都去哪了?"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "你会讨厌它们的#1"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "你会讨厌它们的#4"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "你会讨厌它们的#2"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "你会讨厌它们的#3"
+        },
+        {
+            "source": "处理赛特斯石英",
+            "target": "你会非常讨厌这个 #6"
+        },
+        {
+            "source": "处理赛特斯石英",
+            "target": "你会非常讨厌这个 #5"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "你的魔法之路"
+        },
+        {
+            "source": "嗨男爵,你的石油黑金现况如何？",
+            "target": "石油提纯"
+        },
+        {
+            "source": "你会讨厌它们的#2",
+            "target": "石油提纯"
+        }
+    ]
+}

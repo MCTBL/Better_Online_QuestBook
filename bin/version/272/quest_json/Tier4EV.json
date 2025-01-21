@@ -1,0 +1,1392 @@
+{
+    "data": [
+        {
+            "name": "高级胶水",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/459.png",
+            "x": 546.0,
+            "y": 90.0,
+            "data": "将其与丙酮或乙酸甲酯结合,就可以得到高级胶水了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAByw==",
+            "tooltip": "<strong>高级胶水</strong></br>前置任务需求:</br>聚乙酸乙烯酯"
+        },
+        {
+            "name": "进阶钛铁矿处理",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2562.png",
+            "x": 396.0,
+            "y": 144.0,
+            "data": "要尽可能多的获取钛铁矿粉,你需要在EV化学浸洗器中使用硫酸处理粉碎的钛铁矿.硫酸可以被完全回收.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKAg==",
+            "tooltip": "<strong>进阶钛铁矿处理</strong></br>前置任务需求:</br>EV化学浸洗机"
+        },
+        {
+            "name": "高级怪物防护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/200.png",
+            "x": 720.0,
+            "y": 228.0,
+            "data": "卓越火炬和奢华吊顶灯类似,可以阻止很大范围内刷怪.所以一个卓越火炬可能就能保护你的整个基地. 卓越火炬的有效范围是,水平方向半径64格,竖直方向上下32格.%n%n[note]但别忘了怪物仍然可以跟着你回家![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAyA==",
+            "tooltip": "<strong>高级怪物防护</strong></br>前置任务需求:</br>QED(Quit Exhaling Dusts)"
+        },
+        {
+            "name": "合适的能源",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/190.png",
+            "x": 816.0,
+            "y": 288.0,
+            "data": "不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级你的电网,至少对高炉供电系统进行升级. 所以让我们来使用强大的能源:核能!%n%n如果你想了解反应堆的工作原理,请参考英特网以及 [url]https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases[/url] 这里的核电计算器%n%n提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍!!!请确保在高级中将计算器设置为GTNH模式.另外,所有部件悬停显示的都是基础数据(x10之前).%n%n在[url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url] 可以获知更多GTNH核反应堆信息. 目前1920EU/t的钍堆应该是最佳选择.%n%nWIKI 核反应堆：[url]gtnh.huijiwiki.com/p/977[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAvg==",
+            "tooltip": "<strong>合适的能源</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "回到步骤1",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2302.png",
+            "x": 654.0,
+            "y": 450.0,
+            "data": "可以通过加热精炼铂盐以蒸发掉最后剩余的杂质.现在,你再一次获得了铂金属粉,又可以再次回到第一步,进行溶解了.%n%n[note]在你的工业高炉底层添加一个输出仓,用于回收氯再利用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI_g==",
+            "tooltip": "<strong>回到步骤1</strong></br>前置任务需求:</br>铂盐回收</br>铂处理,步骤1"
+        },
+        {
+            "name": "基础核燃料:钍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/193.png",
+            "x": 816.0,
+            "y": 336.0,
+            "data": "钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍).甚至在烧完后还会返还1/3的钍! 所以用钍可以做一个完美的\"一劳永逸\"的电力供应装置.%n%n[warn]请注意:当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的原料.%n虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAwQ==",
+            "tooltip": "<strong>基础核燃料:钍</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "更大的筒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2391.png",
+            "x": 396.0,
+            "y": 252.0,
+            "data": "现在你有了筒,想让它更大吗?%n%n如果想的话,你最好开始收集或制作数以万计的圆石.并根据自己的喜好制造炸药.%n%n首先用编程电路1在组装机中压缩圆石,然后将其聚爆压缩,不断重复直到获得四重压缩圆石.这样做四次后,再将它与钻石块一起放入组装机,即可制成基岩锭.%n%n然后将整个过程再重复5次,你就能制作出基岩筒了.%n%n超过64k桶的便携流体存储.非常适合你新造的采矿场!%n%n[note]如果你想偷懒的话,在大后期会有基岩矿,不过到那时你应该也用不上这些筒了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJVw==",
+            "tooltip": "<strong>更大的筒</strong></br>前置任务需求:</br>想加入乐队吗？"
+        },
+        {
+            "name": "双酚A",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1230.png",
+            "x": 606.0,
+            "y": 150.0,
+            "data": "制作环氧树脂的化工原料之一. 在化学反应釜中结合苯酚、丙酮、氢氯酸制取.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEzg==",
+            "tooltip": "<strong>双酚A</strong></br>前置任务需求:</br>苯酚1"
+        },
+        {
+            "name": "蓝钢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1263.png",
+            "x": 720.0,
+            "y": 264.0,
+            "data": "阳光化合物电池外壳是用蓝钢制成的,蓝钢是钢、黑钢、黄铜和玫瑰金的搅拌物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE7w==",
+            "tooltip": "<strong>蓝钢</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "用纯能量创造新材料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1879.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "你可以使用扫描仪,扫描特定物品(请查看复制机的NEI配方),并将元素信息储存到数据球,这样你就可以用复制机复制这些元素了. 基于不同元素,这一过程会消耗不同数量的UU-M及时间. 而扫描过程也极其漫长.%n%n你可能需要复制的元素包括:%n铟%n铂系金属比如铱和锇%n液态空气蒸馏的极稀有产物氖、氪、氙%n鿫%n%n对于某些元素(鿫),这可能是唯一可以量产的方式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHVw==",
+            "tooltip": "<strong>用纯能量创造新材料</strong></br>前置任务需求:</br>力场发生器(MV)"
+        },
+        {
+            "name": "关键材料",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1891.png",
+            "x": 252.0,
+            "y": 456.0,
+            "data": "钨钢是你不可或缺的一种材料,但你首先得在火星上找到戴斯、白钨、钨酸盐三者混合的矿脉.请搜索Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHYw==",
+            "tooltip": "<strong>关键材料</strong></br>前置任务需求:</br>目标:火星"
+        },
+        {
+            "name": "EV切割机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2018.png",
+            "x": 456.0,
+            "y": 372.0,
+            "data": "既然已经到达EV阶段了,你就需要更先进的切割机.最好做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH4g==",
+            "tooltip": "<strong>EV切割机</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "数据球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1878.png",
+            "x": 96.0,
+            "y": 24.0,
+            "data": "数据球是高阶的闪存,用于记录复制信息或是作为数据存储器使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHVg==",
+            "tooltip": "<strong>数据球</strong></br>前置任务需求:</br>纳米处理器</br>铂处理,步骤4"
+        },
+        {
+            "name": "处理辐射",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2210.png",
+            "x": 864.0,
+            "y": 180.0,
+            "data": "放射性材料会造成两种辐射效果.一种是大量的标准debuff.这些可通过常规方法移除,比如牛奶、大地疣或别的方法.%n%n另一种效果就是独一无二的辐射状态.你拿着放射性材料越久,这个状态越有可能出现.强放射性材料会带来数分钟的这种致命状态.生命恢复效果可能会延迟不可避免的死亡,但大多数提供生命恢复效果的源没有足够快或足够长的时间来维持你的生命.你可以尝试使用防身护身符来摆脱辐射状态.你应该通过月球之旅获得了一个,要是没有,你就得深入研究神秘来自己制作一个了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIog==",
+            "tooltip": "<strong>处理辐射</strong></br>前置任务需求:</br>HEV Mk III 防护系统"
+        },
+        {
+            "name": "对二氯苯",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2448.png",
+            "x": 654.0,
+            "y": 390.0,
+            "data": "你需要付出更多的努力才能制造出更高阶的线缆. 让我们从对二氯苯开始吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJkA==",
+            "tooltip": "<strong>对二氯苯</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "目标:火卫二",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/188.png",
+            "x": 48.0,
+            "y": 456.0,
+            "data": "实际上,从其他两个星球上面你可以找到现阶段所需的所有矿石,但到火卫二转转有什么不好呢?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAvA==",
+            "tooltip": "<strong>目标:火卫二</strong></br>前置任务需求:</br>EV力场发生器"
+        },
+        {
+            "name": "目标:火星",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/186.png",
+            "x": 252.0,
+            "y": 372.0,
+            "data": "你在火星可以找到一些新的矿物,比如说钨、铀和戴斯. 从铀-238里可以离心出铀-235和钚-239,而有必要的情况下,钚-239还可以离心出钚-241.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAug==",
+            "tooltip": "<strong>目标:火星</strong></br>前置任务需求:</br>第4阶段(EV)</br>EV力场发生器"
+        },
+        {
+            "name": "目标:火卫一",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/187.png",
+            "x": 144.0,
+            "y": 456.0,
+            "data": "火卫一上有不少新矿物,收集一些吧!%n%n[note]坦白说,除了地牢以外,现阶段的所有矿石都可以在火卫一找到.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAuw==",
+            "tooltip": "<strong>目标:火卫一</strong></br>前置任务需求:</br>EV力场发生器"
+        },
+        {
+            "name": "二联燃料棒,双倍的快乐(double the fun(fuel))",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1899.png",
+            "x": 816.0,
+            "y": 372.0,
+            "data": "需要更多能量?何不将燃料棒结合起来?二联燃料棒可以产生更多能量(并不一定是双倍,这因燃料棒类型而异)以及更多热量(同样非双倍),却只占用一个格子.你需要更复杂的设计来处理它们,但你已经准备好了,对吧?%n%n所以何不更进一步,双倍双倍后变为四倍(4x)?四联燃料棒会产生更多更多的能量和热量,其他工作原理基本相同(在大多数情况下).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHaw==",
+            "tooltip": "<strong>二联燃料棒,双倍的快乐(double the fun(fuel))</strong></br>前置任务需求:</br>基础核燃料:钍"
+        },
+        {
+            "name": "富集龙蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1658.png",
+            "x": 360.0,
+            "y": 468.0,
+            "data": "下一步是在末影蛋中加入龙尘(或龙锭粉)和末影粘浆,以得到富集龙蛋. 这个过程需要一段时间.在开始此过程之前,你的超净间必须100％清洁.(或是使用大型化学反应釜.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGeg==",
+            "tooltip": "<strong>富集龙蛋</strong></br>前置任务需求:</br>末影蛋"
+        },
+        {
+            "name": "龙蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1659.png",
+            "x": 312.0,
+            "y": 468.0,
+            "data": "制造龙蛋的最后一步是为富集龙蛋加入熔融末影和龙之心(作为催化剂,不会消耗). 这个过程需要一段时间.在开始此过程之前,你的超净间必须100％清洁.(或是使用大型化学反应釜.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGew==",
+            "tooltip": "<strong>龙蛋</strong></br>前置任务需求:</br>富集龙蛋"
+        },
+        {
+            "name": "基因突变蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1656.png",
+            "x": 360.0,
+            "y": 372.0,
+            "data": "在你找到一种方法使菌泥更强大并研发出诱变剂后,尝试将大鸡蛋浸泡在其中. 你需要等待一段时间. 下一步是将你的大鸡蛋,一堆铀238(一定要穿好你的防化服)和诱变剂放入化学反应釜.在开始此过程之前,你的超净间必须100％清洁.(或是使用大型化学反应釜.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGeA==",
+            "tooltip": "<strong>基因突变蛋</strong></br>前置任务需求:</br>邦德先生,一个龙蛋是不够的"
+        },
+        {
+            "name": "精英纳米电脑",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1251.png",
+            "x": 144.0,
+            "y": 192.0,
+            "data": "精英纳米电脑是IV级的电路.%n生产过程中同样需要保证全程无尘.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE4w==",
+            "tooltip": "<strong>精英纳米电脑</strong></br>前置任务需求:</br>纳米处理器集群"
+        },
+        {
+            "name": "高级电路基板",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1234.png",
+            "x": 426.0,
+            "y": 18.0,
+            "data": "首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后再使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路基板了. 以上制作过程都需要用到化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE0g==",
+            "tooltip": "<strong>高级电路基板</strong></br>前置任务需求:</br>环氧化物"
+        },
+        {
+            "name": "纤维强化电路基板",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1677.png",
+            "x": 750.0,
+            "y": 90.0,
+            "data": "将纤维强化的环氧树脂片、铝箔和硫酸进行反应,可以获得纤维强化电路基板. 再添加充能金属箔和三氯化铁/过硫酸钠,就可以制造出精制电路基板.%n%n[note]有了这些新基板,你就可以制造兰波顿能量球了.或是升级兰波顿超级电容库(LSC),或是向着处理阵列再进一步. 这种基板也可在IV阶段,用于搭建下一级电路板产线.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGjQ==",
+            "tooltip": "<strong>纤维强化电路基板</strong></br>前置任务需求:</br>纤维强化环氧树脂片"
+        },
+        {
+            "name": "末影蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1657.png",
+            "x": 360.0,
+            "y": 420.0,
+            "data": "下一步,你必须给你的基因突变蛋注入终末锭粉和熔融末影珍珠,以获得一个末影蛋. 这个过程需要一段时间.在开始此过程之前,你的超净间必须100％清洁.(或是使用大型化学反应釜.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGeQ==",
+            "tooltip": "<strong>末影蛋</strong></br>前置任务需求:</br>基因突变蛋"
+        },
+        {
+            "name": "环氧氯丙烷",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1228.png",
+            "x": 666.0,
+            "y": 150.0,
+            "data": "环氧氯丙烷是制作环氧树脂的化工原料之一. 到如今这个地步,你应该有足够的经验来根据NEI确定哪条路径是最适合你自己的了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEzA==",
+            "tooltip": "<strong>环氧氯丙烷</strong></br>前置任务需求:</br>第4阶段(EV)</br>次氯酸"
+        },
+        {
+            "name": "环氧化物",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1224.png",
+            "x": 606.0,
+            "y": 18.0,
+            "data": "环氧化物可以用来制作高级电路基板.你需要将环氧氯丙烷、双酚A和氢氧化钠进行反应,可以制取出环氧树脂.%n%n在其他东西上,你还会用到熔融状态,请自行查看NEI.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEyA==",
+            "tooltip": "<strong>环氧化物</strong></br>前置任务需求:</br>环氧氯丙烷</br>双酚A"
+        },
+        {
+            "name": "EV组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1406.png",
+            "x": 480.0,
+            "y": 120.0,
+            "data": "EV组装机是制作兰波顿水晶、线圈的必需品.其余配方的工作速度是HV组装机的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFfg==",
+            "tooltip": "<strong>EV组装机</strong></br>前置任务需求:</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "EV化学浸洗机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1252.png",
+            "x": 408.0,
+            "y": 192.0,
+            "data": "制作量子之眼需要用到HV+级别或以上的化学浸洗机.最好做一个EV的,这样你也可以更好的处理钛铁矿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE5A==",
+            "tooltip": "<strong>EV化学浸洗机</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "EV级化学反应釜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1242.png",
+            "x": 672.0,
+            "y": 264.0,
+            "data": "EV级别的化学反应釜可以让你生产铟,同时大大加快生产氡的速度.如果你已经造了大型化学反应釜,可以直接升压使用.%n%n[note]完成任意要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE2g==",
+            "tooltip": "<strong>EV级化学反应釜</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "EV级电路组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1223.png",
+            "x": 228.0,
+            "y": 108.0,
+            "data": "EV电路组装机需要IV电路板参与合成.有了这台机器,你就能制造更加先进的电路板了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAExw==",
+            "tooltip": "<strong>EV级电路组装机</strong></br>前置任务需求:</br>EV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "name": "EV力场发生器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5984592636755449553.png",
+            "x": 144.0,
+            "y": 372.0,
+            "data": "可以用力场发生器来做你的第一个量子箱或者量子缸了.但记得留两个用来制作T2火箭.%n%n[note]注:组装机配方更节省资源.[/note]",
+            "quest_id": "Jna1jgAySNSs8nS0YMXpLw==",
+            "tooltip": "<strong>EV力场发生器</strong></br>前置任务需求:</br>HSS-G</br>纳米处理器主机"
+        },
+        {
+            "name": "EV精密激光蚀刻机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1407.png",
+            "x": 360.0,
+            "y": 108.0,
+            "data": "制造量子晶体需要EV精密激光蚀刻机. 其他配方的速度是HV精密激光蚀刻机的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFfw==",
+            "tooltip": "<strong>EV精密激光蚀刻机</strong></br>前置任务需求:</br>EV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "name": "EV超导(2048 EU/t)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1408.png",
+            "x": 192.0,
+            "y": 540.0,
+            "data": "无损的EV超导导线怎么样？Uraniumtriplatinide(EV超导)是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有线损为0的超导导线.%n%n在高压搅拌机中搅拌铀238和铂. 制得的粗胚粉需要用带有钛铂钒线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氦,钨钢流体管道和IV泵组合在一起,以获得2048EU/t超导导线.%n%n[note]当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己.[/note]%n%n译者注:这是GTNH中唯一现实存在、有据可查的超导.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFgA==",
+            "tooltip": "<strong>EV超导(2048 EU/t)</strong></br>前置任务需求:</br>纯铀矿石</br>沥青铀矿(核燃料)</br>钨钢"
+        },
+        {
+            "name": "极限搅拌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8426991409753954133.png",
+            "x": 528.0,
+            "y": 396.0,
+            "data": "好吧,也许它并不像任务名称所暗示的那样极限,但它确实可以完成工作.%n%n反正你总需要一台搅拌机,为什么不现在就做一台,节省一些搅拌的时间呢?",
+            "quest_id": "kQL8JceoSMSLDU_2AFjoqw==",
+            "tooltip": "<strong>极限搅拌</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "纤维强化环氧树脂片",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1676.png",
+            "x": 750.0,
+            "y": 18.0,
+            "data": "更先进的电路板需要纤维强化环氧树脂片. 将玻璃纤维与环氧树脂混合起来,可以获得这种纤维强化的薄片. 或者,你可以使用碳纤维. 我们之所以要你做个这是因为...重新写任务太麻烦了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGjA==",
+            "tooltip": "<strong>纤维强化环氧树脂片</strong></br>前置任务需求:</br>玻璃纤维"
+        },
+        {
+            "name": "四种流体在一个仓里!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7598566101277288092.png",
+            "x": 648.0,
+            "y": 336.0,
+            "data": "现在您已经进入了EV级别,可以使用四重输入舱.这些舱室可以在一个舱室中容纳四种不同的液体,从而节省了多方块机器中的宝贵空间.%n%n非常适合放在您的工业高炉中.%n",
+            "quest_id": "JkWQZxq_TECWjHhjywrZZA==",
+            "tooltip": "<strong>四种流体在一个仓里!</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "玻璃纤维",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1675.png",
+            "x": 678.0,
+            "y": 18.0,
+            "data": "玻璃纤维用来制作纤维强化电路基板.[note]用于下一阶的电路板.[/note]%n%n硼砂可以从盐矿中提取出来.将其电解以获得硼并将其与玻璃粉搅拌制成硼玻璃粉.%n%n制出的锭可以在线材轧机或压模机(推荐)中制成玻璃纤维.%n%n硼玻璃还可以用来制造更高级的玻璃,解锁更高级的培养缸配方,或者用来搭建其他多方块结构.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGiw==",
+            "tooltip": "<strong>玻璃纤维</strong></br>前置任务需求:</br>环氧化物"
+        },
+        {
+            "name": "石墨烯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/394.png",
+            "x": 480.0,
+            "y": 48.0,
+            "data": "IV马达需要石墨烯来制作.石墨烯是一种只有一层原子薄的材料.它有非常良好的电性能.你不得不现在做一点石墨烯来得到IV马达,你可以使用强大的粘合剂,把单层材料从石墨上拉下来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABig==",
+            "tooltip": "<strong>石墨烯</strong></br>前置任务需求:</br>高级胶水</br>EV组装机"
+        },
+        {
+            "name": "HEV Mk III 防护系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/189.png",
+            "x": 864.0,
+            "y": 216.0,
+            "data": "接下来你会接触到一些有污染甚至很危险的东西. 你可能会在这里跟许多肮脏的东西打交道,所以你要做好最坏的打算.%n%n要是不做好防护,某些物品会给你带来辐射状态.辐射状态的持续时间取决于物品种类.有的物品给你的辐射状态持续时间超长甚至**.**,这将杀死你,因为你无法摆脱这种状态只能等死.%n%n另一些物品将会给你带来一些常见异常状态(debuff),而不是直接辐射状态.这样就还可以抢救,比如牛奶、大地疣、水蜜蜂等.%n%n如果你穿了一套防化服(别忘了橡胶靴子!),那就不会受到任何辐射debuff影响. 其他有防化服功能(Provides-full-hazmat-protection)的套装也有这个效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAvQ==",
+            "tooltip": "<strong>HEV Mk III 防护系统</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "更高阶的线缆",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2450.png",
+            "x": 714.0,
+            "y": 450.0,
+            "data": "你需要使用聚苯硫醚箔和硅橡胶才能制造出更高阶的线缆. 在IV阶段,你还需要钨和铂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJkg==",
+            "tooltip": "<strong>更高阶的线缆</strong></br>前置任务需求:</br>硅橡胶片</br>聚苯硫醚"
+        },
+        {
+            "name": "HSS-G",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1491.png",
+            "x": 198.0,
+            "y": 294.0,
+            "data": "在制造了IV组装机后,你可以用高速钢-G(HSS-G)锭为你的工业高炉换上新的线圈了.这种锭在LuV阶段会更重要.但是目前这两样东西都还很遥远.你只需要在制造下一个火箭时做一点.%n%n为了找到钼矿脉,你可能需要制作一个高质量的范围大的探矿仪,",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF0w==",
+            "tooltip": "<strong>HSS-G</strong></br>前置任务需求:</br>升级钛铂钒合金线圈</br>积少成钨钢"
+        },
+        {
+            "name": "次氯酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/859.png",
+            "x": 672.0,
+            "y": 192.0,
+            "data": "次氯酸需要水、氯和一些汞.%n%n可用于酸性发电机,或制成环氧氯丙烷.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADWw==",
+            "tooltip": "<strong>次氯酸</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "反应堆扩容",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/195.png",
+            "x": 816.0,
+            "y": 240.0,
+            "data": "想要释放反应堆全部的潜力,你就需要给你的反应堆加装6个反应仓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAww==",
+            "tooltip": "<strong>反应堆扩容</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "铟",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1005.png",
+            "x": 516.0,
+            "y": 360.0,
+            "data": "在EV阶段你需要铟来制作HV级别的太阳能板.但是铟无法通过矿石获得[note](除了在罗斯上有极小储量)[/note].%n%n你还可以通过EV级的化学反应釜制备铟. 首先你需要将洗干净的方铅矿和闪锌矿在化学反应釜中和硫酸进行反应得到铟富集溶液,然后在铟富集溶液中加入铝粉再次进行反应后才能得到一点点铟粉. 后面铟的用量会很大,所以请尽快完成铟的自动化生产.%n%n剩下的铅锌溶液还能分离回收铅、锌、银、硫和水. 所以其实也不能说矿石中绝对不能获得铟,只是经过的步骤多了点,产量少了点而已.%n%n WIKI 铟产线：gtnh.huijiwiki.com/p/1146",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD7Q==",
+            "tooltip": "<strong>铟</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "积少成钨钢",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2390.png",
+            "x": 258.0,
+            "y": 294.0,
+            "data": "好吧,现在你可以:%n%n1) 配合一些碳粉,将三氧化钨在工业高炉中处理成热钨锭%n2) 继续制成钨钢%n%n我们需要的是钨钢,所以将三氧化钨与氢气在工业高炉中煅烧,脱去氧.%n%n再将获得纯钨与钢搅拌混合,获得钨钢粉.钨钢粉在工业高炉中熔炼后再冷冻,获得钨钢锭.%n%n你不会想熔炼全部的钨钢粉,因为你需要它们用来做HSS-G!%n%n[note]请注意,三氧化钨->钨锭,这一处理可以缩短烧制时间.纯钨粉没法这么做. 到IV阶段你需要成吨的钨和钨钢,所以尽量缩短烧制时间是有必要的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJVg==",
+            "tooltip": "<strong>积少成钨钢</strong></br>前置任务需求:</br>升级钛铂钒合金线圈</br>钨酸锂处理 - 第2步"
+        },
+        {
+            "name": "兰波顿粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/805.png",
+            "x": 432.0,
+            "y": 108.0,
+            "data": "为制作兰波顿水晶,你需要搅拌能量水晶粉及青金石粉.请查看\"EU的存储与变压\"任务栏中关于兰波顿水晶与兰波顿超级电容库的细节.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADJQ==",
+            "tooltip": "<strong>兰波顿粉</strong></br>前置任务需求:</br>能量水晶</br>EV组装机"
+        },
+        {
+            "name": "监视你的反应堆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/194.png",
+            "x": 816.0,
+            "y": 204.0,
+            "data": "现在你已经初步掌握了控制反应堆的一些基本知识,可以建立自己的发电站了.时刻了解你的反应堆的运行状态十分重要(或者可能你仅仅是看中了这个漂亮的大屏幕...).我这里有些东西可以帮助到你.%n%n对着你想要监视的方块使用传感工具,然后把得到的卡片放在显示面板中. 接下来,选择要显示的信息条目.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAwg==",
+            "tooltip": "<strong>监视你的反应堆</strong></br>前置任务需求:</br>反应堆扩容"
+        },
+        {
+            "name": "需要更多的电力,先生!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2023.png",
+            "x": 456.0,
+            "y": 456.0,
+            "data": "工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓供电,以保持它们持续运行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH5w==",
+            "tooltip": "<strong>需要更多的电力,先生!</strong></br>前置任务需求:</br>EV切割机</br>积少成钨钢"
+        },
+        {
+            "name": "热交换",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/196.png",
+            "x": 864.0,
+            "y": 324.0,
+            "data": "反应堆的温度会升高.因此你需要将燃料棒的温度转移到其他什么地方去.%n热交换器可以实现这种功能,你应该每一种热交换器都制造一个,并且试一试哪一种更适合你的反应堆.%n%n你可以通读wiki后试着理解反应堆的工作原理,或者直接抄作业...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxA==",
+            "tooltip": "<strong>热交换</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "力场发生器(MV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1880.png",
+            "x": 60.0,
+            "y": 24.0,
+            "data": "力场发生器是一种强大但昂贵的设备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHWA==",
+            "tooltip": "<strong>力场发生器(MV)</strong></br>前置任务需求:</br>数据球"
+        },
+        {
+            "name": "纳米晶圆和CPU",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1249.png",
+            "x": 354.0,
+            "y": 18.0,
+            "data": "纳米CPU晶圆是由CPU晶圆,添加生碳纤维,再与熔融萤石进行反应后得到的一种纳米级CPU晶圆. 切割纳米CPU晶圆就可以得到纳米CPU了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE4Q==",
+            "tooltip": "<strong>纳米晶圆和CPU</strong></br>前置任务需求:</br>高级电路基板</br>中央处理器(CPU)"
+        },
+        {
+            "name": "纳米处理器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1248.png",
+            "x": 144.0,
+            "y": 24.0,
+            "data": "这里是纳米系列电路板.它们最大的意义就在于通过前三种,套娃出最后一种电路板,它们都叫同一个名字(在这里就是纳米).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE4A==",
+            "tooltip": "<strong>纳米处理器</strong></br>前置任务需求:</br>纳米晶圆和CPU</br>EV级电路组装机"
+        },
+        {
+            "name": "纳米处理器集群",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1250.png",
+            "x": 144.0,
+            "y": 108.0,
+            "data": "纳米处理器集群是EV级电路.%n生产过程中同样需要保证全程无尘.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE4g==",
+            "tooltip": "<strong>纳米处理器集群</strong></br>前置任务需求:</br>纳米处理器"
+        },
+        {
+            "name": "纳米处理器主机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1261.png",
+            "x": 144.0,
+            "y": 276.0,
+            "data": "纳米处理器主机是你能制造的第一种LuV级电路板,也是EV时代生产的电路板系列中的最后一个.为了合成2阶火箭并抵达火星,火卫一和火卫二,你需要制作8个纳米处理器主机.%n%n在那之后,你将更加容易进入IV时代,但你还需要额外两个电路板去制作IV电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE7Q==",
+            "tooltip": "<strong>纳米处理器主机</strong></br>前置任务需求:</br>精英纳米电脑"
+        },
+        {
+            "name": "愿再无爆炸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1902.png",
+            "x": 864.0,
+            "y": 288.0,
+            "data": "有了核(弹)反应堆之后,你对基地的破坏能力突破了天际...你可以把反应堆放得远远的(20区块远),或是用防爆材料将反应堆围个严严实实.%n%nEIO的石英玻璃不再好用,忘了它们吧.请使用GTNH认证的镀层防爆石系列!  其他的可选防爆材料还包括神秘的守卫者玻璃.根据你的反应堆威力,可能需要多层防爆石,请在创造模式测试. 记得转角部位也需要闭合起来-否则爆炸会从转角的缝隙处漏出来. 至于怎么把电导出来...只要给线缆来几个90°拐弯就好了,因为爆炸是走直线的.%n%n[note]有六种镀层防爆石,具体请查看NEI[/note].%n%n[note]好吧,好吧,你不必忘记石英玻璃,我会给你一些的.也许你可以用它挡雨.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbg==",
+            "tooltip": "<strong>愿再无爆炸</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "邦德先生,一个龙蛋是不够的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1655.png",
+            "x": 312.0,
+            "y": 372.0,
+            "data": "龙蛋是非常罕见的,只有在龙死后才会掉落.让我告诉你如何从怪物蛋重新制造出这个强大的物品.%n%n让我们从第一步开始.使用怪物蛋(随意选择,如果没有,可以在“硬币”任务栏购买),培养基和细菌来制作大鸡蛋. 这个过程需要一段时间.确保你的超净间100％清洁,否则你将会有失去物品的风险.(译者注:其实超净间的洁净度只在配方开始的一瞬间有效,那时已经决定了这次处理是否会吞产物)(或是使用大型化学反应釜.)  如果你还没去过火星,你必须等到去过之后,再进行下一步的诱变.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGdw==",
+            "tooltip": "<strong>邦德先生,一个龙蛋是不够的</strong></br>前置任务需求:</br>末影之眼2</br>目标:火星</br>超净间"
+        },
+        {
+            "name": "其他矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1244.png",
+            "x": 96.0,
+            "y": 456.0,
+            "data": "在这些星球上还可以找到一些其他矿石(其中有些老实说没啥用),当前阶段最有可能用到的在右边列出. 还有龙矿、玉、芒硝、坦桑石、温特姆和幽冥剧毒结晶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE3A==",
+            "tooltip": "<strong>其他矿石</strong></br>前置任务需求:</br>目标:火卫一</br>目标:火卫二"
+        },
+        {
+            "name": "苯酚1",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1229.png",
+            "x": 606.0,
+            "y": 210.0,
+            "data": "制取苯酚最简单的方法就是通过蒸馏室蒸馏重燃油. 当然还可以通过异丙苯和和氧气反应,水、氯、苯反应,或是蒸馏通过热解炉获取的木焦油等多种方式获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEzQ==",
+            "tooltip": "<strong>苯酚1</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "铂处理,步骤4",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2296.png",
+            "x": 582.0,
+            "y": 570.0,
+            "data": "氯化铂?这就是我说的更高效的铂处理方式,其获取纯铂的效率远高于直接熔炼!不用担心,只需将氯化铂与钙反应即可获得纯铂,而钙和氯还可以循环利用!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI-A==",
+            "tooltip": "<strong>铂处理,步骤4</strong></br>前置任务需求:</br>铂处理,步骤3"
+        },
+        {
+            "name": "铂处理,步骤3",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2297.png",
+            "x": 582.0,
+            "y": 510.0,
+            "data": "万岁!我的所有铂金属粉都变成液态的了...是时候添加第二种化学物质使粉末重结晶了.%n%n接下来不同的产物有不同的处理方式:%n%n再沉淀铂: 进入步骤4,即最后一步.%n铂盐: 进入回收步骤.%n富钯氨: 与铂渣类似,留到IV再处理. 不过你想的话,也可以现在就处理它们,但你目前其实不需要它们的产物.%n其他: 可回收.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI-Q==",
+            "tooltip": "<strong>铂处理,步骤3</strong></br>前置任务需求:</br>铂处理,步骤2b</br>铂处理,步骤2a"
+        },
+        {
+            "name": "铂处理,步骤2b",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2299.png",
+            "x": 582.0,
+            "y": 450.0,
+            "data": "现在,你已经获得了所需的所有化学品.那么,首先将所有铂金属粉用王水溶解.同时,你还会获得一些铂渣粉.这种高浓缩的粉末中含有多种稀有金属,如铱、锇、铑和钌.在IV以上的阶段,你会需要这些金属的,所以现在就开始囤积它们吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI-w==",
+            "tooltip": "<strong>铂处理,步骤2b</strong></br>前置任务需求:</br>铂处理,步骤1"
+        },
+        {
+            "name": "铂处理,步骤1",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2300.png",
+            "x": 582.0,
+            "y": 390.0,
+            "data": "王水-酸中之王-是一种可以溶解铂的化学物质.这是铂处理的理想溶剂.制备一些吧.%n%n你已经搭好了整条自动化铂线,不想再一个个走这些单元任务了? 手持任意一组铂线的最终产物粉,即可跳过相应的任务线.%n%n译者注:GTNH的王水组成并不科学.现实中的王水是由浓硝酸:浓盐酸",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI_A==",
+            "tooltip": "<strong>铂处理,步骤1</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "铂处理,步骤2a",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2301.png",
+            "x": 522.0,
+            "y": 450.0,
+            "data": "氯化铵是一种化学物质,可用于将溶解的铂以纯净态析出,你需要制备一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI_Q==",
+            "tooltip": "<strong>铂处理,步骤2a</strong></br>前置任务需求:</br>铂处理,步骤1"
+        },
+        {
+            "name": "铂盐回收",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2298.png",
+            "x": 654.0,
+            "y": 510.0,
+            "data": "什么,回收?太蠢了.我只想销毁这些东西!--这可能就是你现在的想法,但你需要知道,铂盐中的铂含量仍然很高.我们应该对其进行回收,以从中获取尽可能多的铂!%n%n筛选可以获得精炼铂盐.出产几率为95％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI-g==",
+            "tooltip": "<strong>铂盐回收</strong></br>前置任务需求:</br>铂处理,步骤3"
+        },
+        {
+            "name": "EV阶段,与粉共舞",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2980.png",
+            "x": 438.0,
+            "y": 294.0,
+            "data": "EV高压釜用于处理钨以及其他高阶材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALpA==",
+            "tooltip": "<strong>EV阶段,与粉共舞</strong></br>前置任务需求:</br>粉碎星球"
+        },
+        {
+            "name": "聚苯硫醚",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2449.png",
+            "x": 714.0,
+            "y": 390.0,
+            "data": "将对二氯苯与硫化钠加上氧气反应,你就能获得聚苯硫醚了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJkQ==",
+            "tooltip": "<strong>聚苯硫醚</strong></br>前置任务需求:</br>对二氯苯</br>硫化钠"
+        },
+        {
+            "name": "聚乙酸乙烯酯",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/460.png",
+            "x": 546.0,
+            "y": 150.0,
+            "data": "你现在已经知道聚合是怎么完成的了.用空气或氧气,还有可选的四氯化钛来获得聚乙酸乙烯酯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABzA==",
+            "tooltip": "<strong>聚乙酸乙烯酯</strong></br>前置任务需求:</br>乙酸乙烯酯"
+        },
+        {
+            "name": "便携式洞穴?便携式区块怎么样!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1847.png",
+            "x": 312.0,
+            "y": 420.0,
+            "data": "通过进一步研究,我发现了用灵魂之铁制作的灵魂之匙可以打开一个袖珍维度(通灵世界).这个维度只有一个区块宽,但非常适合从遥远的星球上回收矿石,或是作为一场艰苦战斗后的避难所. 将其作为传送中心也是个好主意...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHNw==",
+            "tooltip": "<strong>便携式洞穴?便携式区块怎么样!</strong></br>前置任务需求:</br>目标:火星"
+        },
+        {
+            "name": "来自核能的太阳之力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3074.png",
+            "x": 864.0,
+            "y": 360.0,
+            "data": "你的老伙计单方块分子重组仪已经一去不回了.那么如何获取阳光化合物呢? 有几种方法,不过在EV阶段,你只有让萤石在核电中接受辐射,再将其转化为阳光化合物这一条路.%n%n将萤石燃料棒放置在IC2反应堆中的任意燃料棒旁,萤石燃料棒会缓慢充能.充能速度为每秒`(相邻燃料棒数量)*(向下取整(当前堆温/3000)+1)`.在此情况下,一根二联燃料棒等于两根燃料棒,而一根四联燃料棒等于四根燃料棒,萤石燃料棒不会产生热能,也不会使其他组件产生热能,在IC2核电模拟器中,你可以将萤石燃料棒当成反应堆隔板.%n%n正如你所见,充能速度是直接与堆温和燃料棒数量成正比的,在极端情况下,你可以在不到半分钟的时间内完全充能一根萤石燃料棒,并每10秒输出一个阳光化合物(平均来说,因为每个燃料棒的充能速度因其位置而异),但那会需要相当多的资源.还需要你用一台真空冷冻机来为冷却单元降温,并使反应堆在66000+的堆温下运行.明智地平衡你的资源和需求.不管怎样,如果你需要快速充能,这是一个在IC2核电模拟器上可行的方案:%n%nerp",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMAg==",
+            "tooltip": "<strong>来自核能的太阳之力</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "粉碎星球",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/212.png",
+            "x": 498.0,
+            "y": 294.0,
+            "data": "就是字面的意思. 你可以把大部分的行星岩石扔到粉碎机里打碎,这些被打碎的粉通过离心有一定几率产出很多有用的金属或其他玩意.基于星球不同而产出不同. 这需要不少能量,但是我确信可以帮助到你.%n%n想要获得钨酸锂,你可以离心之前粉碎的月尘,或是用HV以上的粉碎机粉碎末地石并将其离心,也可以离心末影粘浆(然后发现离心后不返还桶...).%n%n如果想要制造火箭的话,在能够去出产此矿石的星球之前,你得通过以上方式获取一点.然而,请注意你需要一台具有钛铂钒线圈的工业高炉来将钨钢粉熔炼为锭!%n%n[note]完成任务之一即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA1A==",
+            "tooltip": "<strong>粉碎星球</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "纯铀矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1415.png",
+            "x": 144.0,
+            "y": 540.0,
+            "data": "如果你想要为核反应堆收集纯铀矿石,那就需要到火卫二或火卫一开采它们.它们的生成高度在20-30.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFhw==",
+            "tooltip": "<strong>纯铀矿石</strong></br>前置任务需求:</br>目标:火卫一</br>目标:火卫二"
+        },
+        {
+            "name": "量子之眼",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1247.png",
+            "x": 312.0,
+            "y": 192.0,
+            "data": "生产EV发射器和传感器需要用到量子之眼,通过化学浸洗机将末影之眼浸泡在氡中就可以得到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE3w==",
+            "tooltip": "<strong>量子之眼</strong></br>前置任务需求:</br>氡衰变</br>氡循环"
+        },
+        {
+            "name": "QED(Quit Exhaling Dusts)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/199.png",
+            "x": 672.0,
+            "y": 228.0,
+            "data": "QED可以制造的东西十分有限,我直接在此列举:%n%n卓越火炬: 防止怪物生成.%n末影采石场,及其配套的末影路标: 用于标记末影采石场的工作范围. 不同于采矿场,末影采石场会挖掘范围内的所有方块,是获取各种星球石头/泥土的最佳方式.%n末影岩浆泵: 用于在下界抽岩浆,延迟比较小.%n传输节点(能量)/(高能): 传输RF,所以...没啥用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxw==",
+            "tooltip": "<strong>QED(Quit Exhaling Dusts)</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "氡衰变",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1480.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "氡是EV发射器和传感器中量子之眼的合成原料之一(IV阶段的量子之星也需要).%n%n你可以将洗净的钍矿石,沥青铀矿石,晶质铀矿石或铀-238矿石放入筛选机获取镭-226.需要在背包里保留4500秒(75分钟)完成衰变,在衰变完成前你会获得debuff,除非你穿上全身防护服.相反,制作一个铅封盒将镭放在里面等待衰变是一个不错的注意.%n%n钍矿石可以从下届获取,但其他三种矿石需要2阶火箭才能获取.然而,钍矿石中获得镭的概率要小得多,所以你需要大量的钍才能继续.%n%n在完成衰变后,你可以通过电解获得氡并制作下一个电路板系列.但是,在得到钚-239前,你还不能进行氡循环.%n%n另外,晶质铀矿脉可以在火卫一、火卫二或谷神星找到.%n%n[note]完成一个要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFyA==",
+            "tooltip": "<strong>氡衰变</strong></br>前置任务需求:</br>EV化学浸洗机"
+        },
+        {
+            "name": "氡循环",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1241.png",
+            "x": 360.0,
+            "y": 192.0,
+            "data": "氡是制作量子之眼和量子之星的原材料之一.量子之眼和量子之星分别是生产EV和IV的发射器传感器重要的原材料.%n%n首先你需要找到一个沥青铀矿脉,并/或回收核反应堆中的钚239和铀238.%n%n沥青铀矿脉可在火星和火卫一上找到.%n%n译者注:当前只有这俩星球可以找到,后面还有许多星球都有沥青油矿脉,详情参考NEI.%n%n有了钚和铀之后,使用大型化学反应釜的产氡配方,循环使用钚-239即可源源不断地获得氡了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE2Q==",
+            "tooltip": "<strong>氡循环</strong></br>前置任务需求:</br>EV化学浸洗机"
+        },
+        {
+            "name": "沥青铀矿(核燃料)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1243.png",
+            "x": 192.0,
+            "y": 456.0,
+            "data": "沥青铀矿脉可以为你的核反应堆提供不纯的放射性核燃料(铀或钚). 你可以在火星和火卫一Y轴30-60的范围内找到沥青铀矿脉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE2w==",
+            "tooltip": "<strong>沥青铀矿(核燃料)</strong></br>前置任务需求:</br>目标:火星</br>目标:火卫一"
+        },
+        {
+            "name": "硫化钠",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1652.png",
+            "x": 714.0,
+            "y": 330.0,
+            "data": "将硫和钠结合即可获得硫化钠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGdA==",
+            "tooltip": "<strong>硫化钠</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "第4阶段(EV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/176.png",
+            "x": 576.0,
+            "y": 288.0,
+            "data": "这一阶段的主要目标是制造一个2阶火箭并成功登陆火星. 由于你的机器陆续都会到达EV级别,基地的整体耗电量也有了大幅度的提高.因此你需要重新考虑一下你的发电配置. 这一阶段将有发电相关的任务来让你确保基地的电力供应.  \"多方块结构\"任务栏中有一些任务对你有帮助:大型燃气涡轮、大型内燃引擎和采矿场.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAsA==",
+            "tooltip": "<strong>第4阶段(EV)</strong></br>前置任务需求:</br>工作站,你的第一种EV电路板</br>总算能炼钛了"
+        },
+        {
+            "name": "钨酸锂处理 - 第2步",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2890.png",
+            "x": 318.0,
+            "y": 294.0,
+            "data": "下一步是三氧化钨. 请注意,所有氯化钙都能完全循环利用. 如果一起处理了白钨矿,你会需要一台电解机的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALSg==",
+            "tooltip": "<strong>钨酸锂处理 - 第2步</strong></br>前置任务需求:</br>钨酸锂处理 - 第1步"
+        },
+        {
+            "name": "钨酸锂处理 - 第1步",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2889.png",
+            "x": 378.0,
+            "y": 294.0,
+            "data": "首先,让我们把钨酸锂转化为白钨. 要是你直接挖到了白钨,那就跳过这一步.%n%n请注意,如果你正在处理罗斯128b(a)上挖到的钨酸锰或钨铁,第一步会略有不同.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALSQ==",
+            "tooltip": "<strong>钨酸锂处理 - 第1步</strong></br>前置任务需求:</br>EV阶段,与粉共舞"
+        },
+        {
+            "name": "钨钢",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/861.png",
+            "x": 252.0,
+            "y": 540.0,
+            "data": "下一阶段的所有机器都需要钨钢.你能准备好足够进阶的钨钢吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADXQ==",
+            "tooltip": "<strong>钨钢</strong></br>前置任务需求:</br>关键材料</br>极限搅拌</br>升级钛铂钒合金线圈"
+        },
+        {
+            "name": "很抱歉,没有贫铀弹",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1900.png",
+            "x": 816.0,
+            "y": 408.0,
+            "data": "燃料棒结束一个周期后会变为枯竭的燃料棒.你可以将其热离以回收部分材料. 根据燃料棒的不同,获得的物品也不同,请查看NEI或wiki以获取详细信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbA==",
+            "tooltip": "<strong>很抱歉,没有贫铀弹</strong></br>前置任务需求:</br>二联燃料棒,双倍的快乐(double the fun(fuel))"
+        },
+        {
+            "name": "散热1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/197.png",
+            "x": 864.0,
+            "y": 252.0,
+            "data": "你不能让热量聚集在反应堆内部,最终你需要将反应堆内部的热量散发的大气中. 不同的散热片有不同的散热能力,你需要找出哪一种散热片适合用在你设计的反应堆中. 与其他任务一样,要么通读wiki后试着理解反应堆的工作原理,要么直接抄作业...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxQ==",
+            "tooltip": "<strong>散热1</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "乙酸乙烯酯",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/461.png",
+            "x": 546.0,
+            "y": 210.0,
+            "data": "这种有机物只是一块垫脚石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABzQ==",
+            "tooltip": "<strong>乙酸乙烯酯</strong></br>前置任务需求:</br>第4阶段(EV)</br>乙酸"
+        },
+        {
+            "name": "想加入乐队吗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1474.png",
+            "x": 444.0,
+            "y": 252.0,
+            "data": "或者至少和drum(多义:鼓、筒)一起玩？ 如果你在制造火箭和隔热套装后有额外的陨铁,请将其变成陨钢并用它制作一些筒. 这些筒可以容纳256桶流体,且拆卸后可保留内部流体.%n%n另外,你知道不,它还能当做单元一样使用!试试用筒来在超级缸之间装运流体吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFwg==",
+            "tooltip": "<strong>想加入乐队吗？</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "水,快",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2722.png",
+            "x": 432.0,
+            "y": 144.0,
+            "data": "远程接口(Remote-IO)的蓄水箱类似无尽之壶,其输出水的速度只取决于你能抽多快,但这个方块的六个面都可以输出.%n%n您可以进一步将其升级为蓄水仓,它可以直接用作多方块机器的输入仓.用蒸馏塔生产大量蒸馏水从未如此简单!%n%n也许这些大量的水可以浓缩成有用的东西......",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKog==",
+            "tooltip": "<strong>水,快</strong></br>前置任务需求:</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "这盒子里有什么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1925.png",
+            "x": 300.0,
+            "y": 252.0,
+            "data": "厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n[note]你可能无法通过shift+单击快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.(不能用世界加速器)[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHhQ==",
+            "tooltip": "<strong>这盒子里有什么?</strong></br>前置任务需求:</br>氡衰变"
+        },
+        {
+            "name": "EV阶段你最讨厌的另外2个物品",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1246.png",
+            "x": 312.0,
+            "y": 108.0,
+            "data": "一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE3g==",
+            "tooltip": "<strong>EV阶段你最讨厌的另外2个物品</strong></br>前置任务需求:</br>量子之眼"
+        },
+        {
+            "name": "EV阶段让你讨厌的4个物品",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1245.png",
+            "x": 480.0,
+            "y": 192.0,
+            "data": "泵、活塞、传送带、机械臂在EV阶段依然很重要,每样做一个样品吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE3Q==",
+            "tooltip": "<strong>EV阶段让你讨厌的4个物品</strong></br>前置任务需求:</br>第4阶段(EV)"
+        }
+    ],
+    "links": [
+        {
+            "source": "聚乙酸乙烯酯",
+            "target": "高级胶水"
+        },
+        {
+            "source": "EV化学浸洗机",
+            "target": "进阶钛铁矿处理"
+        },
+        {
+            "source": "QED(Quit Exhaling Dusts)",
+            "target": "高级怪物防护"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "合适的能源"
+        },
+        {
+            "source": "铂盐回收",
+            "target": "回到步骤1"
+        },
+        {
+            "source": "铂处理,步骤1",
+            "target": "回到步骤1"
+        },
+        {
+            "source": "合适的能源",
+            "target": "基础核燃料:钍"
+        },
+        {
+            "source": "想加入乐队吗？",
+            "target": "更大的筒"
+        },
+        {
+            "source": "苯酚1",
+            "target": "双酚A"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "蓝钢"
+        },
+        {
+            "source": "力场发生器(MV)",
+            "target": "用纯能量创造新材料"
+        },
+        {
+            "source": "目标:火星",
+            "target": "关键材料"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV切割机"
+        },
+        {
+            "source": "纳米处理器",
+            "target": "数据球"
+        },
+        {
+            "source": "铂处理,步骤4",
+            "target": "数据球"
+        },
+        {
+            "source": "HEV Mk III 防护系统",
+            "target": "处理辐射"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "对二氯苯"
+        },
+        {
+            "source": "EV力场发生器",
+            "target": "目标:火卫二"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "目标:火星"
+        },
+        {
+            "source": "EV力场发生器",
+            "target": "目标:火星"
+        },
+        {
+            "source": "EV力场发生器",
+            "target": "目标:火卫一"
+        },
+        {
+            "source": "基础核燃料:钍",
+            "target": "二联燃料棒,双倍的快乐(double the fun(fuel))"
+        },
+        {
+            "source": "末影蛋",
+            "target": "富集龙蛋"
+        },
+        {
+            "source": "富集龙蛋",
+            "target": "龙蛋"
+        },
+        {
+            "source": "邦德先生,一个龙蛋是不够的",
+            "target": "基因突变蛋"
+        },
+        {
+            "source": "纳米处理器集群",
+            "target": "精英纳米电脑"
+        },
+        {
+            "source": "环氧化物",
+            "target": "高级电路基板"
+        },
+        {
+            "source": "纤维强化环氧树脂片",
+            "target": "纤维强化电路基板"
+        },
+        {
+            "source": "基因突变蛋",
+            "target": "末影蛋"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "环氧氯丙烷"
+        },
+        {
+            "source": "次氯酸",
+            "target": "环氧氯丙烷"
+        },
+        {
+            "source": "环氧氯丙烷",
+            "target": "环氧化物"
+        },
+        {
+            "source": "双酚A",
+            "target": "环氧化物"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "EV组装机"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV化学浸洗机"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV级化学反应釜"
+        },
+        {
+            "source": "EV阶段你最讨厌的另外2个物品",
+            "target": "EV级电路组装机"
+        },
+        {
+            "source": "HSS-G",
+            "target": "EV力场发生器"
+        },
+        {
+            "source": "纳米处理器主机",
+            "target": "EV力场发生器"
+        },
+        {
+            "source": "EV阶段你最讨厌的另外2个物品",
+            "target": "EV精密激光蚀刻机"
+        },
+        {
+            "source": "纯铀矿石",
+            "target": "EV超导(2048 EU/t)"
+        },
+        {
+            "source": "沥青铀矿(核燃料)",
+            "target": "EV超导(2048 EU/t)"
+        },
+        {
+            "source": "钨钢",
+            "target": "EV超导(2048 EU/t)"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "极限搅拌"
+        },
+        {
+            "source": "玻璃纤维",
+            "target": "纤维强化环氧树脂片"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "四种流体在一个仓里!"
+        },
+        {
+            "source": "环氧化物",
+            "target": "玻璃纤维"
+        },
+        {
+            "source": "高级胶水",
+            "target": "石墨烯"
+        },
+        {
+            "source": "EV组装机",
+            "target": "石墨烯"
+        },
+        {
+            "source": "合适的能源",
+            "target": "HEV Mk III 防护系统"
+        },
+        {
+            "source": "硅橡胶片",
+            "target": "更高阶的线缆"
+        },
+        {
+            "source": "聚苯硫醚",
+            "target": "更高阶的线缆"
+        },
+        {
+            "source": "升级钛铂钒合金线圈",
+            "target": "HSS-G"
+        },
+        {
+            "source": "积少成钨钢",
+            "target": "HSS-G"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "次氯酸"
+        },
+        {
+            "source": "合适的能源",
+            "target": "反应堆扩容"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "铟"
+        },
+        {
+            "source": "升级钛铂钒合金线圈",
+            "target": "积少成钨钢"
+        },
+        {
+            "source": "钨酸锂处理 - 第2步",
+            "target": "积少成钨钢"
+        },
+        {
+            "source": "能量水晶",
+            "target": "兰波顿粉"
+        },
+        {
+            "source": "EV组装机",
+            "target": "兰波顿粉"
+        },
+        {
+            "source": "反应堆扩容",
+            "target": "监视你的反应堆"
+        },
+        {
+            "source": "EV切割机",
+            "target": "需要更多的电力,先生!"
+        },
+        {
+            "source": "积少成钨钢",
+            "target": "需要更多的电力,先生!"
+        },
+        {
+            "source": "合适的能源",
+            "target": "热交换"
+        },
+        {
+            "source": "数据球",
+            "target": "力场发生器(MV)"
+        },
+        {
+            "source": "高级电路基板",
+            "target": "纳米晶圆和CPU"
+        },
+        {
+            "source": "中央处理器(CPU)",
+            "target": "纳米晶圆和CPU"
+        },
+        {
+            "source": "纳米晶圆和CPU",
+            "target": "纳米处理器"
+        },
+        {
+            "source": "EV级电路组装机",
+            "target": "纳米处理器"
+        },
+        {
+            "source": "纳米处理器",
+            "target": "纳米处理器集群"
+        },
+        {
+            "source": "精英纳米电脑",
+            "target": "纳米处理器主机"
+        },
+        {
+            "source": "合适的能源",
+            "target": "愿再无爆炸"
+        },
+        {
+            "source": "末影之眼2",
+            "target": "邦德先生,一个龙蛋是不够的"
+        },
+        {
+            "source": "目标:火星",
+            "target": "邦德先生,一个龙蛋是不够的"
+        },
+        {
+            "source": "超净间",
+            "target": "邦德先生,一个龙蛋是不够的"
+        },
+        {
+            "source": "目标:火卫一",
+            "target": "其他矿石"
+        },
+        {
+            "source": "目标:火卫二",
+            "target": "其他矿石"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "苯酚1"
+        },
+        {
+            "source": "铂处理,步骤3",
+            "target": "铂处理,步骤4"
+        },
+        {
+            "source": "铂处理,步骤2b",
+            "target": "铂处理,步骤3"
+        },
+        {
+            "source": "铂处理,步骤2a",
+            "target": "铂处理,步骤3"
+        },
+        {
+            "source": "铂处理,步骤1",
+            "target": "铂处理,步骤2b"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "铂处理,步骤1"
+        },
+        {
+            "source": "铂处理,步骤1",
+            "target": "铂处理,步骤2a"
+        },
+        {
+            "source": "铂处理,步骤3",
+            "target": "铂盐回收"
+        },
+        {
+            "source": "粉碎星球",
+            "target": "EV阶段,与粉共舞"
+        },
+        {
+            "source": "对二氯苯",
+            "target": "聚苯硫醚"
+        },
+        {
+            "source": "硫化钠",
+            "target": "聚苯硫醚"
+        },
+        {
+            "source": "乙酸乙烯酯",
+            "target": "聚乙酸乙烯酯"
+        },
+        {
+            "source": "目标:火星",
+            "target": "便携式洞穴?便携式区块怎么样!"
+        },
+        {
+            "source": "合适的能源",
+            "target": "来自核能的太阳之力"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "粉碎星球"
+        },
+        {
+            "source": "目标:火卫一",
+            "target": "纯铀矿石"
+        },
+        {
+            "source": "目标:火卫二",
+            "target": "纯铀矿石"
+        },
+        {
+            "source": "氡衰变",
+            "target": "量子之眼"
+        },
+        {
+            "source": "氡循环",
+            "target": "量子之眼"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "QED(Quit Exhaling Dusts)"
+        },
+        {
+            "source": "EV化学浸洗机",
+            "target": "氡衰变"
+        },
+        {
+            "source": "EV化学浸洗机",
+            "target": "氡循环"
+        },
+        {
+            "source": "目标:火星",
+            "target": "沥青铀矿(核燃料)"
+        },
+        {
+            "source": "目标:火卫一",
+            "target": "沥青铀矿(核燃料)"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "硫化钠"
+        },
+        {
+            "source": "工作站,你的第一种EV电路板",
+            "target": "第4阶段(EV)"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "第4阶段(EV)"
+        },
+        {
+            "source": "钨酸锂处理 - 第1步",
+            "target": "钨酸锂处理 - 第2步"
+        },
+        {
+            "source": "EV阶段,与粉共舞",
+            "target": "钨酸锂处理 - 第1步"
+        },
+        {
+            "source": "关键材料",
+            "target": "钨钢"
+        },
+        {
+            "source": "极限搅拌",
+            "target": "钨钢"
+        },
+        {
+            "source": "升级钛铂钒合金线圈",
+            "target": "钨钢"
+        },
+        {
+            "source": "二联燃料棒,双倍的快乐(double the fun(fuel))",
+            "target": "很抱歉,没有贫铀弹"
+        },
+        {
+            "source": "合适的能源",
+            "target": "散热1"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "乙酸乙烯酯"
+        },
+        {
+            "source": "乙酸",
+            "target": "乙酸乙烯酯"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "想加入乐队吗？"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "水,快"
+        },
+        {
+            "source": "氡衰变",
+            "target": "这盒子里有什么?"
+        },
+        {
+            "source": "量子之眼",
+            "target": "EV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV阶段让你讨厌的4个物品"
+        }
+    ]
+}

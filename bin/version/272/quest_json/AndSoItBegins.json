@@ -1,0 +1,626 @@
+{
+    "data": [
+        {
+            "name": "长夜漫漫,独身一人",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1495.png",
+            "x": 192.0,
+            "y": 36.0,
+            "data": "感谢我们的超绝开发者们,每次更新之后你都不再需要用命令方块重载任务书了.这意味着每次更新到新版本的GTNH之后都会自动获得所有新任务!是不是很方便?%n%n如果出于某些原因你想要手动重载任务书,你可以在聊天框输入 /bq_admin default load 来达成目的.这需要管理员权限.%n%n这里还有一本任务书备用,以防你已经丢失了最初生成的那本.别忘了,如果你没有修改按键绑定.随时可以按下波浪号 (~) 键查看任务书.%n%n某些命令方块仍用于特定任务,但它们不涉及普通玩家,因为它们是管理员专用的,无法合成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF1w==",
+            "tooltip": "<strong>长夜漫漫,独身一人</strong></br>前置任务需求:</br>合成时间"
+        },
+        {
+            "name": "备份你的存档...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1501.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "整合包加入了AromaBackup-mod用于备份你的存档.你可以在它的配置目录'config\\aroma1997'中根据需要调整备份位置,备份频率,保留的备份数量等等.你也可以用其他mod进行备份,比如ServerUtilities,或者甚至可以通过外部程序进行备份.请勿同时使用多个备份手段,否则它会莫名耗尽硬盘空间,增大CPU负担.%n%n如果你需要从备份中还原,默认情况下,请到.minecraft\\backups目录下寻找AB的备份,而非游戏存档目录下.%n%n不过别忘了,大多数的备份方式不会备份旅行地图和TC节点追踪信息,所以请自行备份这些内容. 另外,神秘的数据也有点小bug,会丢失已扫描要素和魔导手册数据,所以也可以考虑备份一下此文件,文件位置在'saves\\<世界名称>\\playerdata\\<玩家名>.thaum'.%n%n如果你需要把游戏迁移到另一个磁盘或者另一台电脑,不要忘记迁移所有的备份文件,而不只是存档文件夹. %n%n译者注:你还可以到官方的wiki https://gtnh.miraheze.org/ 查看可自行添加的mod列表,同时进修你的游戏理解. wiki中有许多非常有用的信息,还有先行者的经验之谈,尤其对新手来说,不容错过.%n%n 中文WIKI 可添加MOD：gtnh.huijiwiki.com/p/386",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF3Q==",
+            "tooltip": "<strong>备份你的存档...</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "土豆的三种吃法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/442.png",
+            "x": 396.0,
+            "y": 276.0,
+            "data": "生吃土豆是不健康的!你可能已经注意到了.有些土豆又绿又有毒.如果你有一个熔炉,你可以做美味的烤土豆作为另一种食物替代品.把烤土豆串在一根棍子上,它将更加美味可口.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABug==",
+            "tooltip": "<strong>土豆的三种吃法</strong></br>前置任务需求:</br>着火了,着火了,爷爷,着火了!"
+        },
+        {
+            "name": "竹栅栏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/946.png",
+            "x": 384.0,
+            "y": 36.0,
+            "data": "也许你很走运,开局就碰到一片竹林.%n竹子是非常有用的,长得也很快,而且破坏最底部的方块即可让整根竹子变为掉落物. %n%n竹子还可以当做木棍用,或者将竹杆插在地上,它会长到3格高以保护你的基地.%n%n如果你不想在栅栏上花费材料,也可以使用浆果灌木.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADsg==",
+            "tooltip": "<strong>竹栅栏</strong></br>前置任务需求:</br>储存之日"
+        },
+        {
+            "name": "什锦莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/470.png",
+            "x": 468.0,
+            "y": 132.0,
+            "data": "嗯...这些浆果能做什么呢？直接吃掉？可能你会发现浆果提供的饱食度很低,那么让我们种植一些不同种类的莓丛,然后把它们制作成什锦莓吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB1g==",
+            "tooltip": "<strong>什锦莓</strong></br>前置任务需求:</br>收集一些浆果"
+        },
+        {
+            "name": "更好的任务？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1500.png",
+            "x": 48.0,
+            "y": 156.0,
+            "data": "对于任务书,更好的任务(Better-Questing)mod有许多有用的命令.你需要开启作弊模式来使用这些命令.%n%n/bq_admin default load%n在更新完整合包之后用这个命令来更更新任务书.这个命令会从文件重载任务数据库.你的存档中的任务书版本可能和更新后的整合包中的不同.%n%n/bq_admin edit%n打开/关闭编辑模式.右键点击任务可以打开一个菜单来共享它或者复制它的ID.%n%n/bq_admin reset all <玩家>%n重置所有任务. 当你想要重新开始或是正在编辑任务书时,请使用这个命令. 当你在服务器上,需要后缀玩家指定重置目标,如果是单机那就可以跳过这部分.%n%n/bq_admin reset <任务ID> <玩家>%n重置指定的任务,由任务ID指定. 不过有时候直接进入编辑模式然后使用编辑工具重置任务更简单.%n%n/bq_admin complete <任务ID> <玩家>%n完成指定任务,与重置类似. 完成后可以正常获取任务奖励.当任务损坏无法正常完成时,请使用此命令,然后到Github进行反馈,但是请先看看是否已有issue.%n%n/bq_admin default save%n编辑任务书后保存更改. %n%n/bq_copyquests <已完成任务的玩家> <新玩家>%n如果你想要和队伍中的其他玩家同步任务进度,请使用这个命令.不过这样他不能从这些任务中获取奖励!%n%n/bq_admin hardcore%n启用任务书极限模式.开局3条命,祝你好运. 可在杀戮时刻任务栏获取额外的生命红心.%n%n除了消耗类型的任务外,如果一个人完成了任务,队伍中的每个人都会同时完成该任务.但是如果有人后来加入了你的队伍,你需要通过上面的/bq_copyquests或者手动让他们先达到任务前置要求.否则,你完成的任务将不会计入他们,因为他们没有满足该任务的要求.%n%n如果你的单人游戏未开启作弊模式,可以在ESC的界面,打开\"对局域网开放\",启用作弊. 不过这会使暂停不可用,所以你得考虑过后重新加载你的世界. 如果你是在私人服务器上,那么可以直接在后台使用这些命令,不过需要去掉\"/\". 你还可以编辑level.dat文件,把'allowCommands'设为1. 记得先备份,然后再编辑level.dat文件.%n%n[warn]为了妥善保存任务,你必须在打开游戏的时候登录Mojang帐户. 抱歉,这是此mod的限制.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF3A==",
+            "tooltip": "<strong>更好的任务？</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "你听到胡萝卜成熟的声音了么？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/484.png",
+            "x": 432.0,
+            "y": 36.0,
+            "data": "你已经厌倦了等待胡萝卜成熟的漫长过程？%n%n骨粉会帮助你的作物在几秒钟就成熟.%n%n砍一些树以获得一些骨粉奖励.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB5A==",
+            "tooltip": "<strong>你听到胡萝卜成熟的声音了么？</strong></br>前置任务需求:</br>一分耕耘..."
+        },
+        {
+            "name": "陷入蛛网",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1843.png",
+            "x": 156.0,
+            "y": 240.0,
+            "data": "一些蜘蛛有着令人讨厌的词条:%n%n女巫蜘蛛(Witch-spider)会反射弹射物伤害.如果你看到他们背后的红X,你得换上你的近战武器,然后准备肉搏吧.  %n%n育母蜘蛛(Mother-spider)死亡时会生下许多小蜘蛛,其中的一些可能是精英怪.  %n%n飞行蜘蛛(Flying-spider)可以逮住大意的飞行者.  %n%n幽灵蜘蛛(Ghost-spider)是隐身的,而且能穿过薄墙.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHMw==",
+            "tooltip": "<strong>陷入蛛网</strong></br>前置任务需求:</br>爬行者梦魇"
+        },
+        {
+            "name": "收集一些浆果",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/469.png",
+            "x": 432.0,
+            "y": 132.0,
+            "data": "你还在等着胡萝卜长大么？出去找一些灌木和浆果吧!%n%n浆果是很好的食物来源. 并且你可以把这些灌木围在你的房子周围做一堵墙,这可以防止那些想进入你的房子并且想杀死你的怪物们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB1Q==",
+            "tooltip": "<strong>收集一些浆果</strong></br>前置任务需求:</br>一分耕耘..."
+        },
+        {
+            "name": "奶牛应该Moo!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1475.png",
+            "x": 192.0,
+            "y": 300.0,
+            "data": "什么...? 你注意到,有时你一杀死怪物,甚至只是牛或鸡,它就爆炸了!这太疯狂了! %n%n要阻止爆炸,请使用合适的GT小刀或GT屠刀来完成最后一击. 用木棍和燧石制作一柄燧石小刀. %n%n要查看其配方,请查看普通的小刀是如何合成的--NEI会给你显示很多页.你需要的配方应该会在最后一页.可以通过鼠标滚轮来快速切换页面.%n%n[note]此外,你还可以通过搜索栏搜索特定的工具材料,当前你需要搜索的是燧石[/note]%n%n作为奖励,这里有一个铁小刀,当你的燧石小刀磨坏之后就可以用它了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFww==",
+            "tooltip": "<strong>奶牛应该Moo!</strong></br>前置任务需求:</br>息止安所(这不清真)"
+        },
+        {
+            "name": "合成时间",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1204.png",
+            "x": 192.0,
+            "y": 84.0,
+            "data": "是时候解锁3x3的工作台了. 拿一些燧石和原木去制造一个!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEtA==",
+            "tooltip": "<strong>合成时间</strong></br>前置任务需求:</br>燧石在哪儿？"
+        },
+        {
+            "name": "爬行者梦魇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1842.png",
+            "x": 192.0,
+            "y": 240.0,
+            "data": "爬行者会让你很难受. %n%n水栖爬行者(Drowning-Creeper)-当它爆炸时,会把你包围在一个装满水的圆石球里.这些圆石不止困住你那么简单,其中还满是蠹虫!而且这些蠹虫全是精英怪!处理这种情况的最佳方式就是第一时间从上方或者下方逃离.如果你必须清理这个圆石球,首先清理其中的水.然后将其用泥土构造的壕沟围起来,这会让蠹虫无法逃出,无所遁形.然后随便你放尖竹钉、流沙还是岩浆(灵魂玻璃也行)来处理它们.修建一堵带有1x1窗户的围墙,然后再处理圆石球-带有钓竿的蠹虫更是非常危险.  %n%n末影爬行者(Ender-Creeper)-爆炸后将你短距离随机传送-可能传送至深深的地底.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHMg==",
+            "tooltip": "<strong>爬行者梦魇</strong></br>前置任务需求:</br>怪物屠宰\"智者\"手册"
+        },
+        {
+            "name": "错误:太多按键需要绑定",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2145.png",
+            "x": 84.0,
+            "y": 12.0,
+            "data": "错误:需要绑定的按键太多,而键盘只有104个按键.%n%n整合包中有大量的快捷键.为了防止冲突,大部分快捷键默认未绑定,只有游戏初期必备的快捷键才会绑定好.值得注意的是NEI所绑定的按键只能在NEI设置界面调整,并不与其余按键在同一处.%n以下就是这些快捷键:%n%n%nBetterQuesting%nGRAVE (译者注:'~'键) - 打开任务书%n%nBattlegear%nR - 切换双持栏 - 放置武器的第二快捷栏%n%nDraconic Evolution%nV - 将手持物品贴到准星所指方块上%n%nJourneymap%nB - 创建导航点%nCtrl+B - 打开导航点管理界面%nJ - 打开全屏地图%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIYQ==",
+            "tooltip": "<strong>错误:太多按键需要绑定</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "还需要更多挑战?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/397.png",
+            "x": 636.0,
+            "y": 360.0,
+            "data": "你已经把大部分整合包都玩了几遍?也许你甚至还做了一个星门?或者你想找点不同的东西?别担心,我们还有更多的建议:%n%n- 极限模式. 无论是MC原版的极限模式, 还是BQ的极限模式(它更宽容一点)都可以.也许这听起来不可能,但确实已经有人在原版极限模式下到达了UEV+.这显然不适合所有人,但如果你想挑战的话,做好将会重启几次的准备.%n%n -绝对不做火箭.是的,这就是所谓的不上天挑战,现在这个模式已经得到了一定程度上的支持,你能做到这个包里几乎所有可以做的事情.你可以使用蜜蜂、农作物还有血魔法的流星作为主要资源来源.但是需要注意的是,这个挑战相当折磨,而且耗时不菲.例如,你可能会需要收集大量铝矿沙砾来获得你的第一个钛.%n%n- 空岛.是的这也被称作为折磨花园,无疑是非常残酷的.没有实际支持空岛的版本,但一些玩家已经发现为了迁移至空岛所需的最少的变化.试试去问问,或在官方discord频道中搜索所有的细节.但不要指望这个尝试会带来什么乐趣.%n%n- 速通.一些玩家已经开始设计基础规则并开始尝试记录速通到一个前期的目标,例如焦炉.问问周围或在官方discord频道搜索一下细节.也许你只是想看看他们是怎么做的?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABjQ==",
+            "tooltip": "<strong>还需要更多挑战?</strong></br>前置任务需求:</br>目标"
+        },
+        {
+            "name": "着火了,着火了,爷爷,着火了!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/9.png",
+            "x": 360.0,
+            "y": 228.0,
+            "data": "该烧一些木料了不是吗？虽然你不能用这玩意儿烧出木炭,但你肯定很快™就能找到它的用法.%n%n译者注:\"很快(tm)\"或\"很快™\",原文为\"soon(tm)\"/\"soon™\".用于指某件事应该很快就会到来,但迟迟不来,所以在单词后面加上商标,表明已经说过很多次\"soon\"了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAACQ==",
+            "tooltip": "<strong>着火了,着火了,爷爷,着火了!</strong></br>前置任务需求:</br>得到石头"
+        },
+        {
+            "name": "蓬松的红色羊毛",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/12.png",
+            "x": 336.0,
+            "y": 288.0,
+            "data": "史诗任务：屠杀绵羊!(顺便捡些羊毛,不用我说你也知道那可以用来做成床吧.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAADA==",
+            "tooltip": "<strong>蓬松的红色羊毛</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "花样小吃",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/471.png",
+            "x": 432.0,
+            "y": 276.0,
+            "data": "你可能发现了,一直吃一种食物很不健康而且越吃越难吃. 一些食物比如说茶叶可以放进炉子里进一步处理. 所以休息一下吧,喝杯茶,再吃一些美味的葡萄干,哈哈这真不错.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB1w==",
+            "tooltip": "<strong>花样小吃</strong></br>前置任务需求:</br>土豆的三种吃法"
+        },
+        {
+            "name": "得到石头",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/8.png",
+            "x": 360.0,
+            "y": 156.0,
+            "data": "看看你闪亮的燧石镐!%n%n是时候开采一些圆石了.耶!你甚至还可以修一下你那泥巴火柴盒!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAACA==",
+            "tooltip": "<strong>得到石头</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "目标",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/396.png",
+            "x": 588.0,
+            "y": 360.0,
+            "data": "GTNH是一个有漫长旅途的整合包,有大量的自定义内容和超过三千个任务来指引你前进.%n%n我们建议在每个阶段都设定一个小目标,看看你的旅程能走多远.%n%n游戏后期的最终目标是制造一两个星门,但是星门的配方非常离谱,只有极少数玩家做出来过.%n%n如果你需要一个大目标,我么建议看看其他不那么疯狂的东西.%n如果你是第一次玩这个整合包,不如尝试争取上一次月球.%n如果你还没有做过装配线自动化,不妨试试这个挑战.%n又或者制作一个T8火箭,这是最后一个常规火箭,你需要UHV来制作它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABjA==",
+            "tooltip": "<strong>目标</strong></br>前置任务需求:</br>好累...必须...睡觉..."
+        },
+        {
+            "name": "加载区块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2874.png",
+            "x": 84.0,
+            "y": 156.0,
+            "data": "Minecraft是以区块为单位运作的 - 每个区块的范围是从基岩到天空的16x16区域. 你周围的区块会被模拟,或者说被加载. 如果一个区块没有被加载, 在其内部任何事都不会发生 - 作物不会生长,机器不会工作.因此,当你需要外出探索时,让基地中的区块保持加载. 之后即使你待在基地里,你也还是需要让区块保持加载,避免机器因加载问题而爆炸,尤其是多方块机器%n%n你可以有多种方法保持区块加载.%n%n1) 使用ServerUtilities. 默认配置下,你无法加载区块.如果你在单人模式或私人服务器内游玩,可以随意修改配置.%n%n2) 使用四种RC的锚. 虽然你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低TPS,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. %n%n3) 使用GT++的区块加载机.需要EU.%n%n4) 使用某种能加载自身所在区块的方块,这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此类方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.%n%n不要使用chicken chunks来获取类似锚的方块,它的bug非常多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALOg==",
+            "tooltip": "<strong>加载区块</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "主要任务和次要任务",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/4.png",
+            "x": 240.0,
+            "y": 84.0,
+            "data": "现在,你可能会发现这两个新任务有一些不同之处.%n%n带有锯齿状边缘的任务是主线任务-它与其他的主线任务之间以粗线条相连.一般来讲,你必须完成主线任务才可以解锁下一阶段任务以及推进任务线. 如果发现自己卡任务了,请回到上一个阶段并寻找未完成的主线任务.%n%n而另一个任务是可选任务.可选任务不会解锁新的任务阶段,但是一般会介绍有用的物品或者产线.%n%n(译者注: 如果在游戏过程中发现本阶段已经没有明确的主线任务,那么你可以试着完成一些其他页面的主线任务来解锁更多的任务.)%n%n这些硬币能干什么?你可以在“硬币、硬币、硬币”章节中使用它们购买物品-解锁这个章节后,你可以在任务书章节列表最底部看见它!%n%n万一你周围的生物群系不太好,这里有足够的硬币来购买树苗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAABA==",
+            "tooltip": "<strong>主要任务和次要任务</strong></br>前置任务需求:</br>合成时间"
+        },
+        {
+            "name": "怪物陷阱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/865.png",
+            "x": 336.0,
+            "y": 36.0,
+            "data": "如果你很走运,出生点在沙漠或雨林生物群系,那么你可以找到一些流沙. %n%n搜集一堆这玩意,然后挖个小洞用流沙填满它,这样就能保护你的\"泥土\"小屋了. 当心别自己掉进去了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADYQ==",
+            "tooltip": "<strong>怪物陷阱</strong></br>前置任务需求:</br>储存之日"
+        },
+        {
+            "name": "怪物屠宰\"智者\"手册",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1841.png",
+            "x": 228.0,
+            "y": 240.0,
+            "data": "可能你还没注意,这个世界充满着精英怪,地狱级难度.与原版不同,在这里玩家必须保持清醒,并注意他们正在战斗的怪物.这里有几点提示.%n%n如果精英怪有复仇属性,不要用你的高伤害弩去射它!%n%n高生命值且有再生属性的怪物很难杀.更糟的是,如果是女巫,她还能治疗自己.在这些情况下,你最好跑得远远的,或者用灵魂瓶来捕捉它然后扔进事先准备好的陷阱里.%n%n当心那些拿着钓竿的僵尸-它们会把你拉过去.不要小看穿着护甲拿着弓的僵尸-它们会射你! 译者注:看到带着护目镜的骷髅最好找掩体,它的射速带来的击退让你很难靠近它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHMQ==",
+            "tooltip": "<strong>怪物屠宰\"智者\"手册</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "蘑菇岛?为什么有这么多蘑菇岛?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1834.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "GTNH整合包使用真实世界生成(Realistic World Generator, RWG).%n%n如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.如果你有这个问题,你最好去重新生成一下世界.%n%n如果你在服务器中遇到这个问题,将“level-type",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHKg==",
+            "tooltip": "<strong>蘑菇岛?为什么有这么多蘑菇岛?</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "角落里的数字?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2406.png",
+            "x": 48.0,
+            "y": 12.0,
+            "data": "那些角落里的一坨是什么?那是In-Game-Info (游戏内信息,IGI). 一些信息在当前很有用,而有些则会在之后的游戏进程中有用.%n%n目前,最重要的信息是判断你是否在矿脉中心区块.稍后的任务将详细讲解它的含义.%n%n如果你想隐藏IGI的信息,请在聊天框中输入\"/igi disable\". 如果想要再次打开,输入\"/igi enable\". %n%n命令\"/igi config\"将打开配置界面,在这里你可以设置它的位置,字体大小等.%n%n命令\"/xu_tps\"将会打开Extra-Utilities的MSPT(每tick毫秒数)和TPS (每秒tick数)表.%nTPS是衡量你的服务器运行状况的指标.理想情况下TPS",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJZg==",
+            "tooltip": "<strong>角落里的数字?</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "橡树不是苹果树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/440.png",
+            "x": 240.0,
+            "y": 120.0,
+            "data": "长苹果的橡树？到底是谁把它加进来的？%n你可以找到一种方法来把苹果和橡树树苗结合成苹果树苗.试着种植一些苹果树来获得永久的食物来源.  你完成这个任务后,注意剩余的任务栏. 一个新的任务栏\"硬币,硬币,硬币\"将会解锁.  每过几个任务,你都可以翻翻所有的任务栏,以确保能及时看到其他任务栏中偶然解锁的新任务!有很多任务栏,所以一定要向下滚动!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABuA==",
+            "tooltip": "<strong>橡树不是苹果树</strong></br>前置任务需求:</br>主要任务和次要任务"
+        },
+        {
+            "name": "百变猪排",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1844.png",
+            "x": 120.0,
+            "y": 240.0,
+            "data": "唯一需要注意的僵尸猪人就是吸血鬼猪人(Vampire-Pigman).它几乎不会受到任何伤害,除非你用木剑,或是有一把魔法剑.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHNA==",
+            "tooltip": "<strong>百变猪排</strong></br>前置任务需求:</br>陷入蛛网"
+        },
+        {
+            "name": "息止安所(这不清真)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/10.png",
+            "x": 240.0,
+            "y": 300.0,
+            "data": "狩猎时间!去杀一些猪来取得肉.如果你用燧石工具杀了他们,它们会掉熟猪排.虽然现在并不是很好吃...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAACg==",
+            "tooltip": "<strong>息止安所(这不清真)</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "锋利:超过...5...",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/11.png",
+            "x": 288.0,
+            "y": 192.0,
+            "data": "该做些有用的东西了：一把剑!%n%n现在你有了一把剑,你将在“杀戮时刻”任务栏中获得杀死怪物的奖励.当心,这个世界上的怪物会把你咬碎然后再吐出来!%n%n如果忘记了任务所在的位置,可以在\"游历四方\"任务栏中找到别的武器任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAACw==",
+            "tooltip": "<strong>锋利:超过...5...</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "举起盾牌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/446.png",
+            "x": 228.0,
+            "y": 192.0,
+            "data": "一只手拿着剑,你能用另一只手做什么？对,你需要一个盾牌.让我们做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABvg==",
+            "tooltip": "<strong>举起盾牌</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "皮盾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/448.png",
+            "x": 192.0,
+            "y": 192.0,
+            "data": "你的木盾很弱.所以你得换一个更好更坚固的皮质盾牌. 而这需要一些皮革,所以去找一些牛吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABwA==",
+            "tooltip": "<strong>皮盾</strong></br>前置任务需求:</br>举起盾牌"
+        },
+        {
+            "name": "软锤大冒险!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/444.png",
+            "x": 432.0,
+            "y": 228.0,
+            "data": "你现在有一些西瓜和南瓜.但是你能用他们做些什么？%n%n除了吃...你还可以砸碎它们获得一些种子!好,让我们做一个软锤,这个工具以后可能还能用来做点别的事情.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABvA==",
+            "tooltip": "<strong>软锤大冒险!</strong></br>前置任务需求:</br>着火了,着火了,爷爷,着火了!"
+        },
+        {
+            "name": "好累...必须...睡觉...",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/13.png",
+            "x": 516.0,
+            "y": 360.0,
+            "data": "睡觉时间到,这也是这个初阶教程的终点.%n%n恭喜!你完成了新手任务!你已经独自建造了属于自己的第一个窝,现在应该也拥有了一个稳定的食物来源.%n%n期待在第0阶见到你!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAADQ==",
+            "tooltip": "<strong>好累...必须...睡觉...</strong></br>前置任务需求:</br>蓬松的红色羊毛</br>软锤大冒险!"
+        },
+        {
+            "name": "在高温下保持凉爽",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1856.png",
+            "x": 432.0,
+            "y": 168.0,
+            "data": "如果你碰巧找到了雪原生物群系,你就能获得雪来制作美味的冰沙.这可比单独吃浆果更有饱腹感.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHQA==",
+            "tooltip": "<strong>在高温下保持凉爽</strong></br>前置任务需求:</br>收集一些浆果</br>软锤大冒险!"
+        },
+        {
+            "name": "木棍与石头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2.png",
+            "x": 108.0,
+            "y": 84.0,
+            "data": "你真幸运!这本书有内置的阅读灯光. 这样你就能在漫漫长夜里静静阅读,但现在你还需要完成一些基础工作. 当黑夜结束,你就能离开避难所了,去收集一些沙砾和木材吧. %n%n记住,你需要食物. 去寻找潘马斯的菜园,记得留下种子.另外,通过右键点击可以得到菜园本身. 如果你把它种在别的什么地方,它将会自我增殖出同样的菜园,直到达到这片区域内的数量上限为止.%n%n请确保认真阅读第一个任务引出的信息任务,它们非常重要!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAAg==",
+            "tooltip": "<strong>木棍与石头</strong></br>前置任务需求:</br>你的第一个夜晚"
+        },
+        {
+            "name": "储存之日",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3.png",
+            "x": 360.0,
+            "y": 84.0,
+            "data": "现在你有了工具并准备出发去收集各种资源,是时候为这些资源准备一些存储空间了. %n拿些木头来做一个箱子,你需要4个原木,4块木板和1个燧石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAAw==",
+            "tooltip": "<strong>储存之日</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "到20楼时和我说一声",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1849.png",
+            "x": 288.0,
+            "y": 36.0,
+            "data": "跳上跳下很累人,并会使你感到饥饿.%n为了降低你的食物消耗,你可能需要制作一些楼梯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHOQ==",
+            "tooltip": "<strong>到20楼时和我说一声</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "基本工具",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/5.png",
+            "x": 288.0,
+            "y": 84.0,
+            "data": "现在你有一个避难所、工作台和一个存放杂物的地方.该做一些基本工具了,除非你想继续空手撸树.%n%n建议先做铲子,以便更轻松地获取燧石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAABQ==",
+            "tooltip": "<strong>基本工具</strong></br>前置任务需求:</br>主要任务和次要任务"
+        },
+        {
+            "name": "这啥玩意儿？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/14.png",
+            "x": 48.0,
+            "y": 360.0,
+            "data": "你已经看过很多树了,而其中有几棵看起来很特殊,你很确信它们的功用绝对不只是拿来盖房子或是烧成木炭.你非常肯定,这些东西会非常重要,很快™.%n%n想要找到它们,最佳选择是魔法森林,要是你找不着的话,也可以试试花园或者樱桃树林.或是随意闲逛.%n%n要是这些都找不到的话,你可以去\"硬币\"任务栏买点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAADg==",
+            "tooltip": "<strong>这啥玩意儿？</strong></br>前置任务需求:</br>好累...必须...睡觉..."
+        },
+        {
+            "name": "...一分收获",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/7.png",
+            "x": 516.0,
+            "y": 84.0,
+            "data": "如果你读到了先前的任务并种下了胡萝卜,那你就没事了.%n%n同时,你也应该把更多的水果和蔬菜变成种子,并扩大你的农场以获得稳定的食物供应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAABw==",
+            "tooltip": "<strong>...一分收获</strong></br>前置任务需求:</br>一分耕耘..."
+        },
+        {
+            "name": "燧石在哪儿？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1.png",
+            "x": 144.0,
+            "y": 84.0,
+            "data": "你可能已经注意到了,当你收集沙砾的时候,没有燧石掉落？%n%n好吧,这里有一个...配方.查阅NEI中燧石的配方,并且做一些出来!%n%n当你打开物品栏时, NEI物品栏会出现在屏幕底部.而搜索结果会出现在屏幕的右边部分.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAAQ==",
+            "tooltip": "<strong>燧石在哪儿？</strong></br>前置任务需求:</br>木棍与石头"
+        },
+        {
+            "name": "一分耕耘...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/6.png",
+            "x": 432.0,
+            "y": 84.0,
+            "data": "你不能一直从任务书中得到食物奖励吧,所以是时候解决这个问题了.%n%n既然你已经合成了一把锄头,就去附近找点水开一块田吧.在此整合包,你只能在水源附近开垦农田.在这里用些木棍换点胡萝卜吧,这样你就可以开始经营自己的农场了.%n%n想要获得其他的种子,你需要对远离水源的草地使用锄头.你还能同时获得一些巫术种子,把它们储存起来以备后用.  %n%n别忘了开垦一片棉花田,这是前期的关键资源.%n%n你还可以从村庄里抄出一堆种子,或是寻找潘马斯的菜园.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAABg==",
+            "tooltip": "<strong>一分耕耘...</strong></br>前置任务需求:</br>基本工具"
+        },
+        {
+            "name": "你的第一把'远程'武器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/450.png",
+            "x": 228.0,
+            "y": 156.0,
+            "data": "现在你还无法制造原版的弓箭或者是匠魂的远程武器,但是你可以做一个长矛!%n%n有的精英怪可能用远程武器会好对付一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABwg==",
+            "tooltip": "<strong>你的第一把'远程'武器</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "你的第一个夜晚",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/0.png",
+            "x": 48.0,
+            "y": 84.0,
+            "data": "你好,新员工,欢迎来到GTNH!%n%n先别忙着享受温暖的阳光了,因为大概十分钟之后太阳就会落山,而且和原版Minecraft不同,这里的黑夜伸手不见五指.不过那些恐怖的怪物还是能找到你的. 所以你的第一项任务是寻找食物和避难所,平安度过夜晚. 好在你将在本章任务结束时拥有一张床来改善一下你的生活质量. %n%n至于这本书?你不需要留着这本书,即使没带在身上也可以用\"~\"键打开任务书...当然先得把那个碍事的键位冲突解决了.%n%n如果你需要进一步帮助,或者只是想找个地方闲逛聊天,都可以到我们的Discord服务器:[url]https://discord.gg/gtnh[/url] -这些链接是可以点击的.请在#role-select频道选择自己的科技等级-这能帮助别人根据你的情况给出合适的建议.%n%n我们的官方wiki上也有许多GTNH的主题帖:[url]https://wiki.gtnewhorizons.com/wiki/Main_Page[/url] 某些机器设备确实非常复杂,仅靠任务书稍显不足,wiki可以提供更加详细的解释,以及图片. 另外,如果你感觉任务书上的指导还不够,可以看一下wiki上的\"beginner's-guides\"初学者指南. wiki上还有可选mod列表,适用于那些想要玩点花的人.%n%n另外,在这里[url]https://bit.ly/gtnh-datasheets[/url] 还有你所需要的所有数据.%n%n如果你的整合包是通过[warn]CurseForge[/warn]的启动器启动,整合包可能无法稳定运行.Curse启动器无法稳定运行整合包内我们修改过的部分mod.所以当你遇到任何问题,最佳解决方式是先尝试换个启动器,比如MultiMC、Prism或是Technic.wiki同样包括这部分教程. 最新整合包版本会在Discord的#announcements频道发布,或带着!download指令.%n%n希望在读这一大段话的时候,你没被怪物嚼碎了.%n%n译者注：汉化包下载地址:[url]https://github.com/Kiwi233/Translation-of-GTNH[/url]%n%nGTNH新手解答群:QQ群号: 188712741 %n%n关于中文WIKI：%n主页：[url]https://gtnh.huijiwiki.com[/url] %n参与编辑：[url]https://gtnh.huijiwiki.com/p/111[/url]%n可添加MOD：[url]https://gtnh.huijiwiki.com/p/386[/url]%n常见问题解答：[url]https://gtnh.huijiwiki.com/p/240[/url]%n新手建议：[url]https://gtnh.huijiwiki.com/p/60070[/url]%n小技巧：[url]https://gtnh.huijiwiki.com/p/1357[/url]%n%n也可以搜索MC模组百科：[url]https://www.mcmod.cn[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAAA==",
+            "tooltip": "<strong>你的第一个夜晚</strong></br>前置任务需求:</br>"
+        }
+    ],
+    "links": [
+        {
+            "source": "合成时间",
+            "target": "长夜漫漫,独身一人"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "备份你的存档..."
+        },
+        {
+            "source": "着火了,着火了,爷爷,着火了!",
+            "target": "土豆的三种吃法"
+        },
+        {
+            "source": "储存之日",
+            "target": "竹栅栏"
+        },
+        {
+            "source": "收集一些浆果",
+            "target": "什锦莓"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "更好的任务？"
+        },
+        {
+            "source": "一分耕耘...",
+            "target": "你听到胡萝卜成熟的声音了么？"
+        },
+        {
+            "source": "爬行者梦魇",
+            "target": "陷入蛛网"
+        },
+        {
+            "source": "一分耕耘...",
+            "target": "收集一些浆果"
+        },
+        {
+            "source": "息止安所(这不清真)",
+            "target": "奶牛应该Moo!"
+        },
+        {
+            "source": "燧石在哪儿？",
+            "target": "合成时间"
+        },
+        {
+            "source": "怪物屠宰\"智者\"手册",
+            "target": "爬行者梦魇"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "错误:太多按键需要绑定"
+        },
+        {
+            "source": "目标",
+            "target": "还需要更多挑战?"
+        },
+        {
+            "source": "得到石头",
+            "target": "着火了,着火了,爷爷,着火了!"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "蓬松的红色羊毛"
+        },
+        {
+            "source": "土豆的三种吃法",
+            "target": "花样小吃"
+        },
+        {
+            "source": "基本工具",
+            "target": "得到石头"
+        },
+        {
+            "source": "好累...必须...睡觉...",
+            "target": "目标"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "加载区块"
+        },
+        {
+            "source": "合成时间",
+            "target": "主要任务和次要任务"
+        },
+        {
+            "source": "储存之日",
+            "target": "怪物陷阱"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "怪物屠宰\"智者\"手册"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "蘑菇岛?为什么有这么多蘑菇岛?"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "角落里的数字?"
+        },
+        {
+            "source": "主要任务和次要任务",
+            "target": "橡树不是苹果树"
+        },
+        {
+            "source": "陷入蛛网",
+            "target": "百变猪排"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "息止安所(这不清真)"
+        },
+        {
+            "source": "基本工具",
+            "target": "锋利:超过...5..."
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "举起盾牌"
+        },
+        {
+            "source": "举起盾牌",
+            "target": "皮盾"
+        },
+        {
+            "source": "着火了,着火了,爷爷,着火了!",
+            "target": "软锤大冒险!"
+        },
+        {
+            "source": "蓬松的红色羊毛",
+            "target": "好累...必须...睡觉..."
+        },
+        {
+            "source": "软锤大冒险!",
+            "target": "好累...必须...睡觉..."
+        },
+        {
+            "source": "收集一些浆果",
+            "target": "在高温下保持凉爽"
+        },
+        {
+            "source": "软锤大冒险!",
+            "target": "在高温下保持凉爽"
+        },
+        {
+            "source": "你的第一个夜晚",
+            "target": "木棍与石头"
+        },
+        {
+            "source": "基本工具",
+            "target": "储存之日"
+        },
+        {
+            "source": "基本工具",
+            "target": "到20楼时和我说一声"
+        },
+        {
+            "source": "主要任务和次要任务",
+            "target": "基本工具"
+        },
+        {
+            "source": "好累...必须...睡觉...",
+            "target": "这啥玩意儿？"
+        },
+        {
+            "source": "一分耕耘...",
+            "target": "...一分收获"
+        },
+        {
+            "source": "木棍与石头",
+            "target": "燧石在哪儿？"
+        },
+        {
+            "source": "基本工具",
+            "target": "一分耕耘..."
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "你的第一把'远程'武器"
+        }
+    ]
+}

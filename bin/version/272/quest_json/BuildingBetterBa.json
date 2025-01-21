@@ -1,0 +1,990 @@
+{
+    "data": [
+        {
+            "name": "又多了80种新颜色给你玩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1958.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "当你种植原版花,在其成熟后.用剪刀收割获得幼苗-可以重新种植繁殖.破坏花就会获得一朵成熟的花.用工作台处理这花,你就能获得染料.%n%n想要杂交,你需要将花与空花土相邻种植.留神杂草.最后一个小幼苗就会开始生长.%n%n记住,做这些事情时要在地下或是封闭空间,否则TPS会让你后悔的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHpg==",
+            "tooltip": "<strong>又多了80种新颜色给你玩</strong></br>前置任务需求:</br>除草种花"
+        },
+        {
+            "name": "更好的凿子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1935.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "如果你想装饰基地,就需要一把更好的凿子.  黑曜石凿子比起铁凿子来说一个顶俩.钻石凿子能打十个,但需要LV切割机才能制作.%n%n普通:256%n黑曜石:512%n钻石:2560%n基岩:32767%n%n显然,越硬的材质越耐用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHjw==",
+            "tooltip": "<strong>更好的凿子</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "一项现代科技",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8955940478007720167.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "混凝土.哦不，是汉麻混凝土!通过GTNH Chisel模组带来的一项全新的现代技术.一共有16种颜色.%n%n在Chisel中还有很多其他漂亮的方块.只需要在NEI中输入\"@chisel\"然后看一看.",
+            "quest_id": "VFVruPLHQAeDthuV-s7HGQ==",
+            "tooltip": "<strong>一项现代科技</strong></br>前置任务需求:</br>植物球"
+        },
+        {
+            "name": "弧光灯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1464.png",
+            "x": 156.0,
+            "y": 252.0,
+            "data": "弧光灯是一种非常明亮的灯. 它是指向性的————意味着它会在所朝向的方向投射更亮的光线. 可以使用标准扳手旋转其朝向.%n%n包括弧光灯在内,靠近光源的方块的亮度为:%n%n红石火把:3-6%n火把:9-12%n萤石:10-13%n弧光灯:13-14%n%n弧光灯可以照亮相当大的区域--例如整个房间--使其光照等级为14:几乎和白昼时一样明亮.%n%n弧光灯也具有主动驱逐怪物的有趣特性. 它的光线不仅可以防止怪物在附近生成,而且无比明亮,以至于怪物靠近它们,就会转身走开. 这种怪物驱逐效果被证实可用于:僵尸、骷髅、爬行者、进化的僵尸、进化的骷髅、进化的爬行者. 它也适用于其他类型的怪物(需要确认). 但它对蜘蛛(它们不怕阳光)或boss怪没有影响.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFuA==",
+            "tooltip": "<strong>弧光灯</strong></br>前置任务需求:</br>3阶火箭"
+        },
+        {
+            "name": "基地太大？我为你准备好了一些东西!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/952.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "为了防止污染或者防止机器爆炸你可能会将你的基地设备放置的十分分散,这样来回移动真的很累,所以何不制造一些混凝土加快移动速度呢?%n%n尝试去采集一些大理石.大理石磨成粉末后离心可以获得很多方解石,在搅拌机里加水将它和石粉、粘土粉、石英砂搅拌.接下来搅拌物输出到一个流体固化器中使其固化为混凝土块.%n%n在这些混凝土块上你会走的更快.并且你可以将它们合成为混凝土砖,混凝土砖可以阻止怪物生成.%n%n提示:10桶湿混凝土可以合成160块混凝土.它们还可以用凿子加工成不同的样式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADuA==",
+            "tooltip": "<strong>基地太大？我为你准备好了一些东西!</strong></br>前置任务需求:</br>基础流体固化器</br>嘿,DJ,搅起来!</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "基础方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1942.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "凿子提供种类繁多的方块.在NEI中搜索\"chisel\"可以找到一页又一页的结果.这里有个小例子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHlg==",
+            "tooltip": "<strong>基础方块</strong></br>前置任务需求:</br>更好的凿子"
+        },
+        {
+            "name": "基础建筑之杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1945.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "石质建筑之杖的唯一优点就是便宜.它无法提供太多的模式,也不能用太久.但你可以成吨地制作它.%n%n至于使用,只需瞄准方块(物品栏中有更多同样的方块),就会显示出将会摆放的轮廓,右键即可实现摆放.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHmQ==",
+            "tooltip": "<strong>基础建筑之杖</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "基础的红石计划:照明",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1973.png",
+            "x": 60.0,
+            "y": 252.0,
+            "data": "基础的红石计划:照明的灯只需要LV的搅拌机就能制作了.  普通版本的需要红石信号才能开启.而反相版本的则是只在没有红石信号时开启.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHtQ==",
+            "tooltip": "<strong>基础的红石计划:照明</strong></br>前置任务需求:</br>嘿,DJ,搅起来!"
+        },
+        {
+            "name": "更好的EIO?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1981.png",
+            "x": 60.0,
+            "y": 300.0,
+            "data": "EIO的电灯和无线电灯可以照亮最多10格,而普通火把只能照亮7格.你需要离心液态空气才能过去制作灯泡所需的气体.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHvQ==",
+            "tooltip": "<strong>更好的EIO?</strong></br>前置任务需求:</br>终结..."
+        },
+        {
+            "name": "植物学",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1952.png",
+            "x": 396.0,
+            "y": 12.0,
+            "data": "植物学(Botany)这个mod为方块和玻璃提供了更多颜色,以及简单的瓷砖图案,或者用瓷砖作坊做出更复杂的图案.  现在,你需要做个铁质泥铲.%n%n这个mod会产生大量的蝴蝶,所以务必把你的花园放在地下或者玻璃房子里.蝴蝶会在你的领地周围扩散开来,感染树叶并产生更多的蝴蝶,造成延迟...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHoA==",
+            "tooltip": "<strong>植物学</strong></br>前置任务需求:</br>给羊理理发"
+        },
+        {
+            "name": "轻松建筑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/601.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "手动放置方块有时非常单调乏味.如果能一次放九个不是很好吗？好消息,准备好下列各种建筑方块,然后我会给你些好东西.%n%n你也可以用不稳定金属锭自己造一个(或做个更好的).%n%n你也可以将其升级为其他版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACWQ==",
+            "tooltip": "<strong>轻松建筑</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "造个大家伙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1983.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "你可以的!建筑指导仪可以为你显示某些简单几何图形的轮廓.你需要给它红石信号才能激活它.  译者注:你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHvw==",
+            "tooltip": "<strong>造个大家伙</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>不用锉刀了"
+        },
+        {
+            "name": "木匠方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2160.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "另一个自定义方块系统! 木匠方块(Carpenter's-blocks)制作出来时是空白的,放置到世界后,在其上可应用简单方块的材质.这些方块不能是方块实体(即没有NBT),所以植物学的方块无法使用,但GT石头(例如红色花岗岩)、任意染色粘土或原版草方块可以使用.凿子处理的某些样式的玻璃可用,并且Ztones的方块和染色玻璃也可用.%n%n木匠卷闸门需要顶上有个方块,以便门能从上面落下来,但几乎可以扩成任何长度.卷闸门旁边任何一个方块上的红石信号都可以打开或关闭卷闸门.打开/关闭将在多个垂直门之间传递,所以你可以安装非方形的门.空手潜行+右键可修改门的开关极性.%n%n木匠压力盘仅限玩家激活,是完美的基地门激活装置.%n%n木匠活板门必须对准方块侧面才能放置.它可以让你免受坩埚...副产物的困扰.%n%n还有更多形状可供选择,在NEI搜索\"木匠\"来查看这些选项.%n%n木匠凿可以给已经改变材质的木匠方块添加一层纹路.%n%n木匠锤有许多功能. 以下列表格式为:(木匠)对象物品-左键效果-右键效果-潜行右键效果.%n门、卷闸门、活板门-向上切换样式-向下切换样式-切换木门/铁门开关方式.%n栅栏-无-切换样式-无.%n床-向上切换样式-向下切换样式-回到初始样式.%n按钮、拉杆-切换输出信号(反相)-无-无.%n折叠方块-降低某一角-升高某一角-无.%n阳光传感器-切换输出信号(反相)-切换灵敏性-切换灵敏性.%n压力盘-切换输出信号(反相)-切换触发条件-切换触发条件.%n栅栏门-无-切换样式-无.%n梯子-向上切换样式-向下切换样式-向下切换样式.%n保险箱-切换正面朝向(面向玩家)-切换物品存放-切换锁/解锁.%n楔形斜坡、楼梯-转向-切换样式-切换样式.%n火把-切换样式-切换样式-切换样式.%n瓷砖-向上切换样式-向下切换样式-同一样式内图案旋转.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIcA==",
+            "tooltip": "<strong>木匠方块</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "栈桥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3294.png",
+            "x": 108.0,
+            "y": 300.0,
+            "data": "栈桥Mod添加了多种装饰性方块来装饰你的工厂.%n%n脚手架和施工脚手架对于你可以飞行之前的空中建造很有用.它们像梯子一样可以攀爬,并在轻击时立刻破坏掉落.及时在攀爬时松开移动键,也不好从脚手架上摔落.如果使用固体方块右击施工脚手架,脚手架将会被替换为该固体方块.%n%n栈桥可以相互连接形成一条宽阔的通道.可以通过警示胶带和霓虹灯装饰栈桥,后者可以提供昏暗的照明.%n%n笼式扶梯可以让你上下移动而不会摔落,并且比原版梯子快得多.%n%n支柱只是一个装饰性方块,它们可以在任意方向互相连接,并向具有梯子的功能.%n%n坚实铁轨可以让矿车在没有方块支撑的情况下通过.使用焊枪右键坚实铁轨可以永久为其充能,而不需要红石火把.如果你还没有足够的娱乐项目,用它们建造一个过山车吧!%n%n焊枪可以让你通过右键单击移除栈桥的栏杆或地板.用焊枪可以在栈桥栏杆上打开一个允许你进出的通道,但不要违反\"安全生产管理条例\".GT或Forge兼容的扳手也有相同的功能,所以你没有必要制作焊枪.%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM3g==",
+            "tooltip": "<strong>栈桥</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "陶瓷",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1960.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "用一些粘土和染料,你可以制作染色粘土.将染色粘土烧制,你就能获得基础的陶瓷块.如果你想要造出一片拥有均匀过度颜色的区域,这些方块会很有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHqA==",
+            "tooltip": "<strong>陶瓷</strong></br>前置任务需求:</br>又多了80种新颜色给你玩"
+        },
+        {
+            "name": "雕凿万物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1939.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "如果,因为某些原因,你需要雕凿大量物品,自动雕刻机正是你所需要的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHkw==",
+            "tooltip": "<strong>雕凿万物</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>更好的凿子"
+        },
+        {
+            "name": "尽可能快地凿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1940.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "自动雕刻机实在太慢了.制作一些升级,让它快点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHlA==",
+            "tooltip": "<strong>尽可能快地凿</strong></br>前置任务需求:</br>雕凿万物"
+        },
+        {
+            "name": "紧凑的存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6848797731239430532.png",
+            "x": 12.0,
+            "y": 396.0,
+            "data": "现在你已经有了越来越多的铜储备,你感觉你的木箱子太小了,不能存下你的所有东西. %n%n[note]是时候将你的木箱子升级为铜箱子了!更高等级的箱子可以通过升级组件方便地进行升级,但并不是所有等级的箱子都可以通过这种方法直接升级.试试看\"箱子升级：木>铜\",虽然用这种方式将木箱子升级到高级的箱子并不会更加便宜.[/note]%n%n[note]升级后相邻的箱子不再能连接组成更大的箱子.[/note]",
+            "quest_id": "QNsm_wc0QO2g9C6_-vj2fA==",
+            "tooltip": "<strong>紧凑的存储</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "混凝土和GT石头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1944.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "凿子还可以把混凝土和GT石头做成有趣的新方块.某些GT石头甚至还可以阻止怪物在其上生成.GT混凝土可让你跑得更快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHmA==",
+            "tooltip": "<strong>混凝土和GT石头</strong></br>前置任务需求:</br>嘿,DJ,搅起来!</br>更好的凿子"
+        },
+        {
+            "name": "水晶箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5235602628658218321.png",
+            "x": 156.0,
+            "y": 360.0,
+            "data": "你已经制作了一个可以让你看到里面内容的箱子，是不是很有用？%n%n[note]就像之前的箱子一样，你也可以用合适的升级物品来升级它。",
+            "quest_id": "e-VLKN-JSRK3V2cmDbm6rw==",
+            "tooltip": "<strong>水晶箱子</strong></br>前置任务需求:</br>钻石箱子...哦,闪闪发亮"
+        },
+        {
+            "name": "玄钢箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8724598716517898559.png",
+            "x": 192.0,
+            "y": 396.0,
+            "data": "拥抱黑暗后,你可以获得新的更大的玄钢箱子.也许将来会有另一种升级方式?%n%n[note]就像之前的箱子一样,你也可以使用合适的升级物品来升级到玄钢箱子.[/note]%n",
+            "quest_id": "t6xRGFm_S2SG6_-xNh8mwQ==",
+            "tooltip": "<strong>玄钢箱子</strong></br>前置任务需求:</br>钻石箱子...哦,闪闪发亮</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "钻石箱子...哦,闪闪发亮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1094.png",
+            "x": 156.0,
+            "y": 396.0,
+            "data": "在你制造了一台切割机之后,你可以切割一些钻石板来制作108格的大号新箱子了!%n%n[note]就像之前的其他箱子一样,你也可以使用升级物品.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAERg==",
+            "tooltip": "<strong>钻石箱子...哦,闪闪发亮</strong></br>前置任务需求:</br>切割成片"
+        },
+        {
+            "name": "这玩意还能用么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1964.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "谁来告诉我?Wiki上关于这,除了\"花园\"其他啥词条也没有.  也许可以做一些,然后把它们贴在一个林业树场的林业电路板上?谁在乎,祝你好运.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHrA==",
+            "tooltip": "<strong>这玩意还能用么?</strong></br>前置任务需求:</br>陶瓷"
+        },
+        {
+            "name": "EIO的灯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1980.png",
+            "x": 12.0,
+            "y": 300.0,
+            "data": "EIO也有自己的灯.这些灯的半径能达到8格,而正常火把只有7格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHvA==",
+            "tooltip": "<strong>EIO的灯</strong></br>前置任务需求:</br>工业高炉时代"
+        },
+        {
+            "name": "更加更加紧凑的存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1095.png",
+            "x": 84.0,
+            "y": 396.0,
+            "data": "如果你找到了足够多的黄金,那么你可以继续升级你的箱子.黄金箱子拥有9x9的存储空间.[note]你有一个过小的铁箱子吗?通过升级组件将其升级到金箱子.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAERw==",
+            "tooltip": "<strong>更加更加紧凑的存储</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "萤石2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1972.png",
+            "x": 12.0,
+            "y": 204.0,
+            "data": "你已经到过下界并收集了萤石.除了合成用途,你还可以用它来照明.你可以将萤石涂色(不幸的是,在1.7.10,不支持彩光)或者用手锯将其切成小粒,这样既能照明又不占太大地方.%n%n你能找到或培育出多种能出产萤石的植物,比如辉光花.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHtA==",
+            "tooltip": "<strong>萤石2</strong></br>前置任务需求:</br>压缩材料</br>下界"
+        },
+        {
+            "name": "花哨的红石计划:照明",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1974.png",
+            "x": 12.0,
+            "y": 252.0,
+            "data": "花哨的红石计划:照明的灯、灯笼和灯具需要冲压机床和组装机才能制造.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHtg==",
+            "tooltip": "<strong>花哨的红石计划:照明</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>冲压万物"
+        },
+        {
+            "name": "精致灯笼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1971.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "收藏馆(BiblioCraft)mod提供各种精致灯笼. 还能用蜡杨梅或者蜂蜡制作蜡烛.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHsw==",
+            "tooltip": "<strong>精致灯笼</strong></br>前置任务需求:</br>提取原料</br>压缩材料"
+        },
+        {
+            "name": "花哨的木头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1968.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "有了木材作坊,你可以做出许多花哨的木头.你可以使用原版、林业、更多树mod中的各种木板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHsA==",
+            "tooltip": "<strong>花哨的木头</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "更快、更好、更\"建筑\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1984.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "强化建筑指导仪提供了更有特征的指导.最重要的是,你可以手持你想要放置的方块右键这台机器任意白色部分,然后这个方块就会被放置在世界中.你需要提供红石信号来激活这台机器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHwA==",
+            "tooltip": "<strong>更快、更好、更\"建筑\"</strong></br>前置任务需求:</br>复仇者联盟2,组装!</br>造个大家伙"
+        },
+        {
+            "name": "寻花",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1953.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "想要开始植物学这个mod,你需要找一些花.然后用你的泥铲把泥土变成普通花土.然后将你找到的花种在这些普通花土上,这样它们会变成植物学这个mod的花.  如果你已经达到了MV阶段,查看\"人来疯(蜂)\"任务栏以获知基因工程(注意与基因工业区分)方面的信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHoQ==",
+            "tooltip": "<strong>寻花</strong></br>前置任务需求:</br>植物学"
+        },
+        {
+            "name": "平面灯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1976.png",
+            "x": 108.0,
+            "y": 252.0,
+            "data": "这些Ztones中简单的灯有漂亮、柔和的灯形.我喜欢将它们用在天花板上,营造出办公室的感觉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHuA==",
+            "tooltip": "<strong>平面灯</strong></br>前置任务需求:</br>基础的红石计划:照明"
+        },
+        {
+            "name": "有趣的聚会方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1943.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "这里还有一些真正时髦的方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHlw==",
+            "tooltip": "<strong>有趣的聚会方块</strong></br>前置任务需求:</br>更好的凿子"
+        },
+        {
+            "name": "五颜六色的玻璃",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1959.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "种类丰富的染料带来了颜色丰富的玻璃.只有一点需要注意-不同于普通玻璃,这些玻璃不防火.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHpw==",
+            "tooltip": "<strong>五颜六色的玻璃</strong></br>前置任务需求:</br>又多了80种新颜色给你玩"
+        },
+        {
+            "name": "玻璃作坊",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1965.png",
+            "x": 444.0,
+            "y": 204.0,
+            "data": "想要定制玻璃的形状和配置?玻璃作坊可以提供一些独一无二的图案然后把它们印在你的窗户上.你需要做些玻璃配件,来把玻璃聚在一起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHrQ==",
+            "tooltip": "<strong>玻璃作坊</strong></br>前置任务需求:</br>五颜六色的玻璃"
+        },
+        {
+            "name": "萤石&凿子火把,太空使用评估",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1977.png",
+            "x": 156.0,
+            "y": 204.0,
+            "data": "当你离开地球,探索星空时,你需要最优秀的火把-可以在无氧环境使用的火把.为此,你需要萤石火把.你可以用凿子将这些火把做成各种样式.这种火把已被证实可在深空使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHuQ==",
+            "tooltip": "<strong>萤石&凿子火把,太空使用评估</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "工业3D打印机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/387.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "需要大量的凿制方块?这台机器很适合你.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABgw==",
+            "tooltip": "<strong>工业3D打印机</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "追踪你的发现(花)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2105.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "这个实用的设备将追踪记录你迄今为止发现的花及其特性.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIOQ==",
+            "tooltip": "<strong>追踪你的发现(花)</strong></br>前置任务需求:</br>除草种花"
+        },
+        {
+            "name": "除草种花",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1956.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "没人喜欢杂草.除草剂可以为你的花土除草.%n%n骨粉可促进花卉发芽,使其更快成熟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHpA==",
+            "tooltip": "<strong>除草种花</strong></br>前置任务需求:</br>粉末的力量(Powder Power)"
+        },
+        {
+            "name": "不用电,照亮一大片区域",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1978.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "如果你有相当大的一片区域需要照明,而你又不想用电,那可以试试这些泛光灯.它们可以使用熔炉的燃料,包括方块和压缩方块.制作时确实需要一些电子元件.  它可以发出一道长距离的光束,也可以放出短距离的光锥.使用扳手切换模式,Shift+右键可使其反相.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHug==",
+            "tooltip": "<strong>不用电,照亮一大片区域</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>你的第一个电子电路"
+        },
+        {
+            "name": "用电照亮一大片区域",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1979.png",
+            "x": 252.0,
+            "y": 252.0,
+            "data": "你现在已经有了真空冷冻机,可以将压缩空气单元液化并离心它们以获得稀有气体.你需要这些稀有气体来制作白炽灯.只要有电,这些灯就会射出光束或更短更宽的光锥.使用扳手切换模式,Shift+右键可使其反相.%n%n推荐先给EIO电容库供电,电容库用RF为这类设备供能,而不是直接用GT-EU供能,因为它们无法在GT的电流包系统下正常工作,就算只需要1RF,它们也会消耗掉一整个EU电流包.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHuw==",
+            "tooltip": "<strong>用电照亮一大片区域</strong></br>前置任务需求:</br>终结..."
+        },
+        {
+            "name": "点亮它!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1370.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "奥术灯创造了额外的光源,其作用类似于火把,但其范围为半径为16格的球体.不同于一般光源的是,奥术灯的光可以穿墙,或者别的任何阻碍.这个特性可能很有用...唯一的缺点,它会照亮你不需要照亮的地方,比如说工业高炉内部.%n%n当连接到奥术钻探机的底部时,奥术灯获得额外的能力:它将照亮奥术钻探机所挖掘的隧道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFWg==",
+            "tooltip": "<strong>点亮它!</strong></br>前置任务需求:</br>我该到哪找琥珀?"
+        },
+        {
+            "name": "就像手里拿着个县扩展办公室",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1957.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "土壤检测计将告诉你花土的状态-干燥性、肥沃度等.你可以对花土使用各种粉末来调整其属性,满足花的需求.%n%n译者注:县扩展办公室(County-Extension-Offices)是美国国家农药信息中心(NPIC)在各县设置的一种机构,办公室可以提供有关园艺、农业和害虫防治问题的相关咨询.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHpQ==",
+            "tooltip": "<strong>就像手里拿着个县扩展办公室</strong></br>前置任务需求:</br>除草种花"
+        },
+        {
+            "name": "妈妈快看!没有火把!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1969.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "厌倦了基地里只有火把照明?这一系列任务将会为你展示各种各样的照明手段,一定让你漂亮的基地亮亮堂堂的.%n%n首先,铁路mod的灯笼.这些灯笼有各种材质,包括各种石头和金属.石头做的灯笼合成起来并不太难.有个优点或者说缺点:这些灯笼是固体方块-你不能穿过它们,它们也不会像沙子那样掉落.在NEI中搜索\"灯笼\"来寻找更多材质.现在做起来有点麻烦,但稍后你可以用组装机非常简单地制作它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHsQ==",
+            "tooltip": "<strong>妈妈快看!没有火把!</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "低阶建筑之杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1946.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "铁质建筑之杖比石质的能用更久,并有些不同模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHmg==",
+            "tooltip": "<strong>低阶建筑之杖</strong></br>前置任务需求:</br>基础建筑之杖"
+        },
+        {
+            "name": "理清楚你家那堆意大利面吧",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2138.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "没人喜欢一团糟的基地.你可以制作一个喷漆罐然后填充化学染料-由硫酸制备而来,用喷漆罐给你的地毯、线缆、导线和机器上色,让它们井井有条. 不过现在,有几个免费赠品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIWg==",
+            "tooltip": "<strong>理清楚你家那堆意大利面吧</strong></br>前置任务需求:</br>复仇者联盟,组装!"
+        },
+        {
+            "name": "中阶建筑之杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1947.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "下一阶的建筑之杖是钻石建筑之杖,拥有所有的有趣模式.只是用的时候要当心,一不小心放下一大片方块会令人很不愉快!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHmw==",
+            "tooltip": "<strong>中阶建筑之杖</strong></br>前置任务需求:</br>低阶建筑之杖"
+        },
+        {
+            "name": "锤子越多,麻烦越多",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1966.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "没错,是时候看看别的锤子了. 木工大师锤使你能够旋转许多方块.%n%n潜行使用可以垂直旋转方块.%n%n为什么低阶的锤子叫大师锤?谁知道??%n%n译者注:标题原文是\"Mo' Hammers Mo' Problems\",来源于美国说唱歌手The Notorious B.I.G.的歌曲名\"Mo' Money,Mo' Problems\",亦是一句俚语,意为\"金钱越多麻烦越多\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHrg==",
+            "tooltip": "<strong>锤子越多,麻烦越多</strong></br>前置任务需求:</br>花哨的木头</br>瓷砖作坊</br>玻璃作坊"
+        },
+        {
+            "name": "更加紧凑的存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1085.png",
+            "x": 48.0,
+            "y": 396.0,
+            "data": "现在你已经有了越来越多的铁储备,你感觉你的铜箱子太小了,不能存下你的所有东西. %n%n[note]你有一个过小的铜箱子吗?通过升级组件将其升级到铁箱子.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEPQ==",
+            "tooltip": "<strong>更加紧凑的存储</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "更像 Ouch-i-tect",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1986.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "建筑师锯台可以将大部分整立方体方块加工成各种令人惊叹的形状.%n%n用木工锤右键可将方块旋转90度.用木工锤Shift+右键可更改底面的方向.%n%n凿子有许多方式来改变方块的结构. 某些块自动与相邻方块形成连接.可以通过手持凿子右键你想改变的面附近,来禁用或重新启用自动连接.%n%n某些方块可以塞入第二材料.用凿子右键方块的中心,可以取出第二材料.%n%n你还可以用凿子右键原版玻璃、玻璃板、萤石或冰块来无损采集它们.%n%n译者注:原文Ouch-i-tect是Architect(建筑)的谐音.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHwg==",
+            "tooltip": "<strong>更像 Ouch-i-tect</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "研钵和瓷砖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1961.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "要制作瓷砖图案,你需要把你的陶瓷块做成瓷砖.首先做个研钵,然后把它和陶瓷块在工作台中按照3块+1钵摆放,然后你就会获得瓷砖了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHqQ==",
+            "tooltip": "<strong>研钵和瓷砖</strong></br>前置任务需求:</br>陶瓷"
+        },
+        {
+            "name": "我的宿敌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1941.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "凿子对付楼梯时有点弱.要是有更多种类的楼梯就好了,稍后我会为你展示如何将任意方块做成楼梯.%n%n你还可以在NEI中搜索\"楼梯\",寻找其他mod的楼梯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHlQ==",
+            "tooltip": "<strong>我的宿敌</strong></br>前置任务需求:</br>更好的凿子"
+        },
+        {
+            "name": "需要一个地方来存放所有这些矿石？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1517.png",
+            "x": 228.0,
+            "y": 396.0,
+            "data": "...最后,箱子的最终形态,即使被破坏了,里面的物品还是会保留!这样物品运输就会变得简单得多!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF7Q==",
+            "tooltip": "<strong>需要一个地方来存放所有这些矿石？</strong></br>前置任务需求:</br>HV自动采矿机</br>黑曜石箱子</br>玄钢箱子"
+        },
+        {
+            "name": "不想接受你机器提供的ASMR服务?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1948.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "要是你机器发出的声音快把你逼疯了,你可以添加静音升级让它们闭嘴.%n%n注意:这也意味着你将不会听到跳电的声音.  另外,一旦添加了这个升级就无法移除了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHnA==",
+            "tooltip": "<strong>不想接受你机器提供的ASMR服务?</strong></br>前置任务需求:</br>熔融聚乙烯"
+        },
+        {
+            "name": "黑曜石箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5548813088822417447.png",
+            "x": 156.0,
+            "y": 432.0,
+            "data": "将钻石箱子与黑曜石结合起来，使你能够制作一个防爆箱！%n%n[note]就像之前的箱子一样，你也可以用合适的升级物品来升级它。",
+            "quest_id": "QMlw6Z67T5-y_qflA7On2Q==",
+            "tooltip": "<strong>黑曜石箱子</strong></br>前置任务需求:</br>钻石箱子...哦,闪闪发亮"
+        },
+        {
+            "name": "覆盖万物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1967.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "镶板作坊可为你制作木地板之类的板子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHrw==",
+            "tooltip": "<strong>覆盖万物</strong></br>前置任务需求:</br>花哨的木头"
+        },
+        {
+            "name": "粉末的力量(Powder Power)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1955.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "植物学利用各种粉末来提高花土属性.%n%n提高PH值-灰烬粉、木浆粉%n降低PH值-覆盖物粉、硫磺粉%n提高肥沃度-肥料粉、堆肥粉",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHow==",
+            "tooltip": "<strong>粉末的力量(Powder Power)</strong></br>前置任务需求:</br>寻花"
+        },
+        {
+            "name": "功能性红石计划灯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1975.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "红石计划提供了两种特殊的灯,可以用作按钮.  普通的按钮一直保持点亮.反馈照明按钮会在收到红石信号时点亮.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHtw==",
+            "tooltip": "<strong>功能性红石计划灯</strong></br>前置任务需求:</br>嘿,DJ,搅起来!"
+        },
+        {
+            "name": "第二把锯--手锯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1970.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "forge小方块(Forge-Microblocks)mod对制作定制部件非常有用.手锯有几个等级的材质.如果你给我一把铁手锯,我会送你一把钻石手锯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHsg==",
+            "tooltip": "<strong>第二把锯--手锯</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "一些方便的用法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1938.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "匠魂凿子没有太多用处,但这里有几个有趣的用法.使用NEI查看其它装饰用途.你还可以做些半砖,使怪物无法在其上生成.%n%n在褐岩块铺的路上行走会比在粗质褐岩块铺的稍微快一点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHkg==",
+            "tooltip": "<strong>一些方便的用法</strong></br>前置任务需求:</br>合适的工具"
+        },
+        {
+            "name": "钢箱子?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8598415503288479283.png",
+            "x": 120.0,
+            "y": 396.0,
+            "data": "钢箱子的造价明显高于金箱,容量也更小,但可用于某些特殊合成配方.%n",
+            "quest_id": "V4jinTYRSueIrEqn90dRzQ==",
+            "tooltip": "<strong>钢箱子?</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "合适的工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1936.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "匠魂有自己的类似凿子的工具,用于改变匠魂方块的样式.  用处不多,但如果你查查NEI,你就能发现这还是能做不少事的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHkA==",
+            "tooltip": "<strong>合适的工具</strong></br>前置任务需求:</br>匠魂方块"
+        },
+        {
+            "name": "瓷砖图案",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1962.png",
+            "x": 396.0,
+            "y": 252.0,
+            "data": "现在你有了瓷砖,你可以制作一些简单的图案.在工作台中排成2x2,红/黄或黄/红,可制作出方格瓷砖.将这些方格瓷砖再摆成2x2可获得方格更小的方格瓷砖.去Binnie的wiki页面上(Botany)看看你还能用瓷砖做出哪些图案.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHqg==",
+            "tooltip": "<strong>瓷砖图案</strong></br>前置任务需求:</br>研钵和瓷砖"
+        },
+        {
+            "name": "瓷砖作坊",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1963.png",
+            "x": 396.0,
+            "y": 204.0,
+            "data": "瓷砖作坊可以将单色陶瓷块做成各种有漂亮图案的方块.%n%n与名字相反,在这里处理的是陶瓷块,而不是瓷砖.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHqw==",
+            "tooltip": "<strong>瓷砖作坊</strong></br>前置任务需求:</br>陶瓷"
+        },
+        {
+            "name": "匠魂方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1937.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "匠魂提供了几种有用的方块.将锡和沙砾放入冶炼厂,获得的粗质褐岩块会让你移动速度稍微提高一点.圆石可做成焦黑石头,可用于构建冶炼厂的墙壁,而无需使用粘土.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHkQ==",
+            "tooltip": "<strong>匠魂方块</strong></br>前置任务需求:</br>希望你已经准备好了!"
+        },
+        {
+            "name": "门后有什么#3?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1982.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "更多门(MalisisDoors)mod可以让你见识各种奇思妙想的定制门.%n%n用玩家探测覆盖板开门比起用按钮或压力板开门好多了...不过造价有点...倒霉.%n%n或许你可以找到这台方块混合器的用法,它太奇怪了并且无法正确工作.我正打算把它扔了呢.%n%n还有一些可合成的更多门mod的物品,查看NEI吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHvg==",
+            "tooltip": "<strong>门后有什么#3?</strong></br>前置任务需求:</br>你会讨厌它们的#1"
+        }
+    ],
+    "links": [
+        {
+            "source": "除草种花",
+            "target": "又多了80种新颜色给你玩"
+        },
+        {
+            "source": "压缩材料",
+            "target": "更好的凿子"
+        },
+        {
+            "source": "植物球",
+            "target": "一项现代科技"
+        },
+        {
+            "source": "3阶火箭",
+            "target": "弧光灯"
+        },
+        {
+            "source": "基础流体固化器",
+            "target": "基地太大？我为你准备好了一些东西!"
+        },
+        {
+            "source": "嘿,DJ,搅起来!",
+            "target": "基地太大？我为你准备好了一些东西!"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "基地太大？我为你准备好了一些东西!"
+        },
+        {
+            "source": "更好的凿子",
+            "target": "基础方块"
+        },
+        {
+            "source": "压缩材料",
+            "target": "基础建筑之杖"
+        },
+        {
+            "source": "嘿,DJ,搅起来!",
+            "target": "基础的红石计划:照明"
+        },
+        {
+            "source": "终结...",
+            "target": "更好的EIO?"
+        },
+        {
+            "source": "给羊理理发",
+            "target": "植物学"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "轻松建筑"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "造个大家伙"
+        },
+        {
+            "source": "不用锉刀了",
+            "target": "造个大家伙"
+        },
+        {
+            "source": "重要的工具",
+            "target": "木匠方块"
+        },
+        {
+            "source": "熔炼!",
+            "target": "栈桥"
+        },
+        {
+            "source": "又多了80种新颜色给你玩",
+            "target": "陶瓷"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "雕凿万物"
+        },
+        {
+            "source": "更好的凿子",
+            "target": "雕凿万物"
+        },
+        {
+            "source": "雕凿万物",
+            "target": "尽可能快地凿"
+        },
+        {
+            "source": "重要的工具",
+            "target": "紧凑的存储"
+        },
+        {
+            "source": "嘿,DJ,搅起来!",
+            "target": "混凝土和GT石头"
+        },
+        {
+            "source": "更好的凿子",
+            "target": "混凝土和GT石头"
+        },
+        {
+            "source": "钻石箱子...哦,闪闪发亮",
+            "target": "水晶箱子"
+        },
+        {
+            "source": "钻石箱子...哦,闪闪发亮",
+            "target": "玄钢箱子"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "玄钢箱子"
+        },
+        {
+            "source": "切割成片",
+            "target": "钻石箱子...哦,闪闪发亮"
+        },
+        {
+            "source": "陶瓷",
+            "target": "这玩意还能用么?"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "EIO的灯"
+        },
+        {
+            "source": "重要的工具",
+            "target": "更加更加紧凑的存储"
+        },
+        {
+            "source": "压缩材料",
+            "target": "萤石2"
+        },
+        {
+            "source": "下界",
+            "target": "萤石2"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "花哨的红石计划:照明"
+        },
+        {
+            "source": "冲压万物",
+            "target": "花哨的红石计划:照明"
+        },
+        {
+            "source": "提取原料",
+            "target": "精致灯笼"
+        },
+        {
+            "source": "压缩材料",
+            "target": "精致灯笼"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "花哨的木头"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "更快、更好、更\"建筑\""
+        },
+        {
+            "source": "造个大家伙",
+            "target": "更快、更好、更\"建筑\""
+        },
+        {
+            "source": "植物学",
+            "target": "寻花"
+        },
+        {
+            "source": "基础的红石计划:照明",
+            "target": "平面灯"
+        },
+        {
+            "source": "更好的凿子",
+            "target": "有趣的聚会方块"
+        },
+        {
+            "source": "又多了80种新颜色给你玩",
+            "target": "五颜六色的玻璃"
+        },
+        {
+            "source": "五颜六色的玻璃",
+            "target": "玻璃作坊"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "萤石&凿子火把,太空使用评估"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "工业3D打印机"
+        },
+        {
+            "source": "除草种花",
+            "target": "追踪你的发现(花)"
+        },
+        {
+            "source": "粉末的力量(Powder Power)",
+            "target": "除草种花"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "不用电,照亮一大片区域"
+        },
+        {
+            "source": "你的第一个电子电路",
+            "target": "不用电,照亮一大片区域"
+        },
+        {
+            "source": "终结...",
+            "target": "用电照亮一大片区域"
+        },
+        {
+            "source": "我该到哪找琥珀?",
+            "target": "点亮它!"
+        },
+        {
+            "source": "除草种花",
+            "target": "就像手里拿着个县扩展办公室"
+        },
+        {
+            "source": "重要的工具",
+            "target": "妈妈快看!没有火把!"
+        },
+        {
+            "source": "基础建筑之杖",
+            "target": "低阶建筑之杖"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "理清楚你家那堆意大利面吧"
+        },
+        {
+            "source": "低阶建筑之杖",
+            "target": "中阶建筑之杖"
+        },
+        {
+            "source": "花哨的木头",
+            "target": "锤子越多,麻烦越多"
+        },
+        {
+            "source": "瓷砖作坊",
+            "target": "锤子越多,麻烦越多"
+        },
+        {
+            "source": "玻璃作坊",
+            "target": "锤子越多,麻烦越多"
+        },
+        {
+            "source": "重要的工具",
+            "target": "更加紧凑的存储"
+        },
+        {
+            "source": "重要的工具",
+            "target": "更像 Ouch-i-tect"
+        },
+        {
+            "source": "陶瓷",
+            "target": "研钵和瓷砖"
+        },
+        {
+            "source": "更好的凿子",
+            "target": "我的宿敌"
+        },
+        {
+            "source": "HV自动采矿机",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "黑曜石箱子",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "玄钢箱子",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "熔融聚乙烯",
+            "target": "不想接受你机器提供的ASMR服务?"
+        },
+        {
+            "source": "钻石箱子...哦,闪闪发亮",
+            "target": "黑曜石箱子"
+        },
+        {
+            "source": "花哨的木头",
+            "target": "覆盖万物"
+        },
+        {
+            "source": "寻花",
+            "target": "粉末的力量(Powder Power)"
+        },
+        {
+            "source": "嘿,DJ,搅起来!",
+            "target": "功能性红石计划灯"
+        },
+        {
+            "source": "重要的工具",
+            "target": "第二把锯--手锯"
+        },
+        {
+            "source": "合适的工具",
+            "target": "一些方便的用法"
+        },
+        {
+            "source": "熔炼!",
+            "target": "钢箱子?"
+        },
+        {
+            "source": "匠魂方块",
+            "target": "合适的工具"
+        },
+        {
+            "source": "研钵和瓷砖",
+            "target": "瓷砖图案"
+        },
+        {
+            "source": "陶瓷",
+            "target": "瓷砖作坊"
+        },
+        {
+            "source": "希望你已经准备好了!",
+            "target": "匠魂方块"
+        },
+        {
+            "source": "你会讨厌它们的#1",
+            "target": "门后有什么#3?"
+        }
+    ]
+}

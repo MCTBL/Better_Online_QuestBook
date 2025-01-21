@@ -1,0 +1,2242 @@
+{
+    "data": [
+        {
+            "name": "乙酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/852.png",
+            "x": 528.0,
+            "y": 420.0,
+            "data": "乙酸可以由氧气和乙烯制成.或由生物质、木醋酸或醋制成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADVA==",
+            "tooltip": "<strong>乙酸</strong></br>前置任务需求:</br>O似乎是氧</br>乙烯"
+        },
+        {
+            "name": "进阶离心机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1322.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "MV离心机比LV离心机工作速度快2倍,电力消耗高4倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFKg==",
+            "tooltip": "<strong>进阶离心机</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "高级电路板",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/838.png",
+            "x": 612.0,
+            "y": 564.0,
+            "data": "最后,HV电路板.制造它需要不错的集成电路、集成逻辑电路、RAM、晶体管、细琥珀金导线和铜螺栓.%n%n另外,随着科技提升,电路板的造价会随之降低,不过需要在HV之后才能享受到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADRg==",
+            "tooltip": "<strong>高级电路板</strong></br>前置任务需求:</br>晶体管1</br>不错的集成电路"
+        },
+        {
+            "name": "进阶压缩机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1320.png",
+            "x": 480.0,
+            "y": 108.0,
+            "data": "MV压缩机比LV压缩机工作速度快2倍,电力消耗高4倍. 这可能是个好主意,但也有可能不是. 为什么呢?4倍的功率意味着双倍的消耗,只是更快一些. 有些情况下,过高的超频可能会得不偿失(比如燃料生产线). 讽刺吧,我知道,你可以用多个机器,稍后还有处理阵列或相应多方块机器.%n%n当然,如果是其他加工过程,这种超频带来的提速可能是值得的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFKA==",
+            "tooltip": "<strong>进阶压缩机</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "进阶流体提取机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1324.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "MV流体提取机比LV流体提取机工作速度快2倍,电力消耗高4倍. %n%n生物柴油的原料需要种子油或鱼油. 顾名思义,种子出产种子油,鱼出产鱼油,需要的就是流体提取机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFLA==",
+            "tooltip": "<strong>进阶流体提取机</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "进阶研磨机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1321.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "MV研磨机比LV研磨机工作速度快2倍,电力消耗高4倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFKQ==",
+            "tooltip": "<strong>进阶研磨机</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "你想要的所有作物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1518.png",
+            "x": 792.0,
+            "y": 132.0,
+            "data": "厌倦了手动使用骨粉或肥料？ 洒水器可以提高作物生长速度. 骨粉或肥料将使其更快地发挥作用.%n%n[note]注意:洒水器对IC2作物架上的作物无效.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF7g==",
+            "tooltip": "<strong>你想要的所有作物</strong></br>前置任务需求:</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "将那些区块,变成一行",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2014.png",
+            "x": 1032.0,
+            "y": 276.0,
+            "data": "有时你不需要加载3x3区块,但需要加载一条长长的线.这对铁路线或长距离输电线很有用.  拱卫之锚可以胜任这项工作.  手持撬棍右键区块加载器以激活它.然后沿直线走出,放置拱卫之锚,手持撬棍右键.这样,最多25x1的区块将会保持加载.%n%n相比于一路正常加载3x3区块,这样节省得多,但还是要多多囤积末影珍珠和区块加载币.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH3g==",
+            "tooltip": "<strong>将那些区块,变成一行</strong></br>前置任务需求:</br>区块加载"
+        },
+        {
+            "name": "我们只是风中的尘土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1850.png",
+            "x": 648.0,
+            "y": 216.0,
+            "data": "寻找你的怪物农场中流水的替代品? 使用风扇将生物或是物品吹向你想要的地方. 使用红石信号激活它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHOg==",
+            "tooltip": "<strong>我们只是风中的尘土</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "新的合金-魂金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/166.png",
+            "x": 840.0,
+            "y": 480.0,
+            "data": "一些...\"邪恶\"用途的机器.你可能认为它们是一种\"魔法\"类型设备.但是不管怎么样,你需要一种新的合金:\"魂金\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAApg==",
+            "tooltip": "<strong>新的合金-魂金</strong></br>前置任务需求:</br>复仇者联盟2,组装!"
+        },
+        {
+            "name": "你准备好迈向HV了吗？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/749.png",
+            "x": 72.0,
+            "y": 348.0,
+            "data": "不锈钢会是HV阶段的主要原材料.你需要一台MV搅拌机来制作不锈钢粉.%n%n锰:锰铝榴石、软锰矿和钽铁矿的处理副产物;直接电解还可以获取更多.另一种来源是从石榴石矿砂或是铁铝榴石中获得石榴石粉.如果你实在找不到的话,可以在硬币任务栏买点矿石.%n%n铬:可以从红宝石粉中离心出来.如果红石矿脉伴生的红宝石不够多的话,可以离心红石作为补充.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC7Q==",
+            "tooltip": "<strong>你准备好迈向HV了吗？</strong></br>前置任务需求:</br>MV阶段的搅拌"
+        },
+        {
+            "name": "一个灵魂的容器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/168.png",
+            "x": 840.0,
+            "y": 516.0,
+            "data": "稍后的HV阶段EIO机器会用到灵魂瓶.而现在,你发现使用灵魂瓶可以很容易地将那些可怕的怪物安排得明明白白...灵魂瓶是可重复使用的容器.只要右键点击任何活的实体就能窃取它的灵魂.再次右键可以将其重新释放出来.%n%n现在你有一个大胆的想法...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAqA==",
+            "tooltip": "<strong>一个灵魂的容器</strong></br>前置任务需求:</br>新的合金-魂金"
+        },
+        {
+            "name": "MV自动采矿机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/931.png",
+            "x": 852.0,
+            "y": 228.0,
+            "data": "MV采矿机同样可以帮助你挖出地下的矿石,而且做得更好. 同样,在机器的GUI的左侧放置两组挖矿管道. MV采矿机需要32EU/t的供能才能工作.它可以在以自己为中心33x33格的范围内搜索矿石(可用螺丝刀调整范围),并且可以比LV级别的采矿机速度快上2倍.还有增产2的奖励!对贫瘠矿尤其有效...%n%n别忘了遮雨!这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADow==",
+            "tooltip": "<strong>MV自动采矿机</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3</br>MV阶段你也会讨厌这个#6"
+        },
+        {
+            "name": "复仇者联盟2,组装!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1598.png",
+            "x": 864.0,
+            "y": 420.0,
+            "data": "是时候制造组装机的MV版本了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGPg==",
+            "tooltip": "<strong>复仇者联盟2,组装!</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #4</br>MV阶段你会讨厌这个 #1"
+        },
+        {
+            "name": "哔...哔...哔...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1917.png",
+            "x": 660.0,
+            "y": 24.0,
+            "data": "实时了解你的超净间是否需要维护非常重要.仅仅亮灯怕是不够,何不试试蜂鸣器呢?即使你在128米外它都能让你听到.%n%n[warn]警告:可能会吓尿你→_→[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHfQ==",
+            "tooltip": "<strong>哔...哔...哔...</strong></br>前置任务需求:</br>当你需要时,那个勤杂工在哪?"
+        },
+        {
+            "name": "更好的工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1910.png",
+            "x": 996.0,
+            "y": 372.0,
+            "data": "现在你有了一台MV压模机,你可以制作下一阶的匠魂工具了-钒钢锤头和大马士革钢手柄.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHdg==",
+            "tooltip": "<strong>更好的工具</strong></br>前置任务需求:</br>压出所有东西(Extrude all the things)"
+        },
+        {
+            "name": "糠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/733.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "植物团块必须经过离心变成糠--生物质的基础原料.你需要一至二台MV离心机来运作新的生产线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC3Q==",
+            "tooltip": "<strong>糠</strong></br>前置任务需求:</br>植物团块"
+        },
+        {
+            "name": "生物柴油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/845.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "你可以使用甲醇、乙醇、种子油或者鱼油来制作生物柴油.每单位(1000mB)的生物柴油燃烧后能产生320,000EU的电力,低于普通的柴油,但这是可再生能源.柴油和生物柴油都可以驱动内燃发电机,而且柴油和生物柴油都可以在搅拌机中搅拌四硝基甲烷得到高十六烷值柴油.在生产生物柴油的过程中你能获得一些甘油副产物,把他们收集起来,这样就可以为你以后制造用于生产炸药的硝化甘油或者环氧树脂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADTQ==",
+            "tooltip": "<strong>生物柴油1</strong></br>前置任务需求:</br>种子油</br>氢氧化钠1</br>鱼油</br>甲醇</br>乙醇1"
+        },
+        {
+            "name": "生物质燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/730.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "你现在使用蒸汽、杂酚油,可能还有石油及其副产物来发电.是时候开始制造并使用生物柴油了.%n%n第一步是用有机材料制造植物球.你可以使用小麦、甘蔗、苹果、树苗或者...几乎任何作物. 靛蓝花(Indigo-blossoms)的产出比是4:1,这与其他IC2作物不同,除此之外也没啥别的用了. 不过实际上大家基本都会用树苗,因为你总会需要一个树场的.%n%n确保你有一座自动化林业多方块农场、史蒂夫矿车农场,或IC2作物架配合收割机.因为你需要大量的生物质原料,用于持续地制造生物柴油.%n%n提示:榛子是生物柴油的终极来源.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC2g==",
+            "tooltip": "<strong>生物质燃料</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "生物质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1323.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "不管你选用IC2还是GT来制作生物质,水和糠都是必须的材料.%n%n你还可以用热解炉制造生物质,而且更有效率.%n%n请注意,林业还有自己的生物质.也可以制成类似的发酵生物质.请自行选择生产哪种生物质.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFKw==",
+            "tooltip": "<strong>生物质</strong></br>前置任务需求:</br>方法一:IC2流体/固体装罐机</br>路线三：热解炉</br>方法二:酿造"
+        },
+        {
+            "name": "生物有机网",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/774.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "如果你想保护环境,可以用高压釜将16个植物球制成未加工的生物纤维.可以使用下列液体:  -生物质:33％几率. -甲醇:50％几率. -柴油:90％几率. -高十六烷值柴油:100％几率.  然而,想要通过这种方法制造碳板,你还需要工业高炉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADBg==",
+            "tooltip": "<strong>生物有机网</strong></br>前置任务需求:</br>化尘为晶</br>植物球"
+        },
+        {
+            "name": "电解硼砂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2043.png",
+            "x": 504.0,
+            "y": 276.0,
+            "data": "有了MV电解机,你就能从硼砂中电解出硼.这种元素稍后可用于制作硼玻璃和玻璃纤维,但现在你可以用它来制作有精确容量的容量瓶.这对某些只需少量流体的配方很有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH-w==",
+            "tooltip": "<strong>电解硼砂</strong></br>前置任务需求:</br>电解万物"
+        },
+        {
+            "name": "酿造液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/142.png",
+            "x": 1080.0,
+            "y": 228.0,
+            "data": "这种机器不仅能够酿造更强大的可燃液体,还可用于酿造营养精华液,可能很快™就有用了.%n%n配方有许多可选物品,请注意,不同物品的产率不同. 请根据自己的情况自行选择.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAjg==",
+            "tooltip": "<strong>酿造液体</strong></br>前置任务需求:</br>简易RF能源:液体"
+        },
+        {
+            "name": "囚禁一个恶魔————凋灵屠宰场",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1527.png",
+            "x": 888.0,
+            "y": 84.0,
+            "data": "曾经想要抓只凋灵,但搭建囚牢的唯一的选择是不可移动的基岩？ 既然能合成玄钢,那么你就可以制造加强黑曜石,凋灵炸不动它. 如果你有电动刷怪笼提供凋灵骷髅头,那么加强黑曜石构成的囚牢对于手动杀死甚至自动化屠宰凋灵很有用.%n%n[note]提示:与原版黑曜石不同,加强黑曜石可以通过活塞移动,这可能会派上用场.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF9w==",
+            "tooltip": "<strong>囚禁一个恶魔————凋灵屠宰场</strong></br>前置任务需求:</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "碳板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/778.png",
+            "x": 564.0,
+            "y": 456.0,
+            "data": "碳板可用于合成一堆东西,包括最终的纳米装甲.请查看\"摆脱死亡,游历四方\"章节.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADCg==",
+            "tooltip": "<strong>碳板</strong></br>前置任务需求:</br>生碳网"
+        },
+        {
+            "name": "化学脱水机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1614.png",
+            "x": 924.0,
+            "y": 396.0,
+            "data": "将你的葡萄脱水制成葡萄干.或是在MV阶段制作一些苯乙烯,苯或乙烯. 无论用来做什么,这个机器不容错过.  化学脱水机还可以处理晾干架的配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGTg==",
+            "tooltip": "<strong>化学脱水机</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #4"
+        },
+        {
+            "name": "化学课,第二部分",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1744.png",
+            "x": 564.0,
+            "y": 264.0,
+            "data": "更高级的配方如聚乙烯需要MV化学反应釜.而处理LV配方速度变为原来的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG0A==",
+            "tooltip": "<strong>化学课,第二部分</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "电解粘土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/760.png",
+            "x": 348.0,
+            "y": 324.0,
+            "data": "翻阅NEI的过程中,你应该发现了电解粘土可以为你带来氧化铝、二氧化硅、钠和锂粉.还有水...不过你应该会直接销毁,对吧? 在峡谷(canyon)、台原(mesa)和稀树沙漠(lush-desert)生物群系可以找到大量的有色粘土块,将之研磨成粘土粉.%n%n在MV阶段,有非常多的方式获取氧化铝,足以支持你达到EV阶段.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC-A==",
+            "tooltip": "<strong>电解粘土</strong></br>前置任务需求:</br>电解万物"
+        },
+        {
+            "name": "来到黑暗面...(Come to the Dark Side...)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/138.png",
+            "x": 840.0,
+            "y": 132.0,
+            "data": "....我们有饼干.(...we have cookies.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAig==",
+            "tooltip": "<strong>来到黑暗面...(Come to the Dark Side...)</strong></br>前置任务需求:</br>IO,IO,我们去EnderIO"
+        },
+        {
+            "name": "导管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/134.png",
+            "x": 1032.0,
+            "y": 132.0,
+            "data": "这可能是多种传输方式中最棒的一种,每一种都做一些吧.而且每种(除了物品导管)都有更高级的导管.%n%n[note]等你科技到了,还有ME导管.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAhg==",
+            "tooltip": "<strong>导管</strong></br>前置任务需求:</br>IO,IO,我们去EnderIO"
+        },
+        {
+            "name": "冷却液",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3073.png",
+            "x": 264.0,
+            "y": 636.0,
+            "data": "使用MV搅拌机,混合水/蒸馏水与青金石粉,制造你的第一桶冷却液吧.%n%n使用蒸馏水可以节省青金石粉,同时大幅提升处理速度.%n%n[warn]要是你不想用蒸馏水, 你就得用多得多的青金石粉. [/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMAQ==",
+            "tooltip": "<strong>冷却液</strong></br>前置任务需求:</br>MV阶段的搅拌</br>冷却坎塔尔合金"
+        },
+        {
+            "name": "冷却坎塔尔合金",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3071.png",
+            "x": 192.0,
+            "y": 564.0,
+            "data": "使用MV化学浸洗机,可以将热坎塔尔合金锭冷却下来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL_w==",
+            "tooltip": "<strong>冷却坎塔尔合金</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #2</br>MV阶段你会讨厌这个 #1"
+        },
+        {
+            "name": "咳咳咳-需要处理下污染了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1417.png",
+            "x": 120.0,
+            "y": 564.0,
+            "data": "鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面...是时候处理垃圾、净化空气了.%n%n小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.%n%n译者注: 如果去过末地的话,终末涡轮是不错的选择.%n%n用螺丝刀单击+/-标志可以改变污染探测仪的设置. 另外,通常来说,更好(更大)的涡轮,清理污染效果就越好. 代码太复杂,无法在此处进行详细说明,但基本上就是这样. 发电越多的涡轮",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFiQ==",
+            "tooltip": "<strong>咳咳咳-需要处理下污染了!</strong></br>前置任务需求:</br>不锈钢太难烧了？"
+        },
+        {
+            "name": "玄钢箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8724598716517898559.png",
+            "x": 888.0,
+            "y": 132.0,
+            "data": "拥抱黑暗后,你可以获得新的更大的玄钢箱子.也许将来会有另一种升级方式?%n%n[note]就像之前的箱子一样,你也可以使用合适的升级物品来升级到玄钢箱子.[/note]%n",
+            "quest_id": "t6xRGFm_S2SG6_-xNh8mwQ==",
+            "tooltip": "<strong>玄钢箱子</strong></br>前置任务需求:</br>钻石箱子...哦,闪闪发亮</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "玄钢管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/953.png",
+            "x": 840.0,
+            "y": 84.0,
+            "data": "玄钢流体管道的容量要比你可能正在使用的青铜、钢或是粗青铜合金流体管道的容量大得多.请确认自己扳手可以搞定采掘等级3的材料,不然就无法拆除这些管道了.%n%n[note]如果你用不着的话,也可以直接回收这些管道. 不是所有管道都需要足够大或者足够耐热.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADuQ==",
+            "tooltip": "<strong>玄钢管道</strong></br>前置任务需求:</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "玄钢工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/140.png",
+            "x": 792.0,
+            "y": 84.0,
+            "data": "还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.%n%n这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.%n%n玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.%n%n玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.%n%n玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAjA==",
+            "tooltip": "<strong>玄钢工具</strong></br>前置任务需求:</br>来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "name": "你用完了黄金或者红石？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1093.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "你已经用完了你的黄金或者红石储备？如果你已经建设好了辉光花农场的话.你可以通过离心萤石粉来获得小堆的红石和金粉. 红石也是获得铝和铬的很好途径. 在HV阶段,你会用到成吨的金,在此之前早做储备是个好主意.%n%n[note]其实有许多植物都可以出产萤石,挑一种你喜欢的吧![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAERQ==",
+            "tooltip": "<strong>你用完了黄金或者红石？</strong></br>前置任务需求:</br>进阶离心机"
+        },
+        {
+            "name": "柴油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/553.png",
+            "x": 144.0,
+            "y": 384.0,
+            "data": "当你能制造MV搅拌机之后,就可以将5份轻燃油单元和1份重燃油单元搅拌,获得6份柴油单元. 柴油是一种十分强大的燃料,1单元的柴油(1000mB)在内燃发电机中理论上能提供480KEU的电量!忽略搅拌耗电,简单计算一下,相当于把原来的1,525KEU搅拌一下,就变为了2,880KEU.血赚!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACKQ==",
+            "tooltip": "<strong>柴油1</strong></br>前置任务需求:</br>轻燃油1</br>重燃油1</br>MV阶段的搅拌"
+        },
+        {
+            "name": "你觉得你是非酋?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1914.png",
+            "x": 612.0,
+            "y": 156.0,
+            "data": "好吧,再也不会了!给我一些绿宝石和一本空白的书,我会给你一本能用来拓印的时运I附魔书.复制几次后,你可以在铁砧中将几本时运I结合起来变成时运II.然后再复制,最后你就能获得时运III的附魔书了!%n%n有了时运III,再加上各种特定物品你就可以将自己的战利品袋升级为时运III的战利品袋,这将会移除垃圾奖励,带来更多的好东西!%n%n灵魂绑定是另一个有用的附魔,在你死亡时,它会使拥有该附魔的物品留在你的身上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHeg==",
+            "tooltip": "<strong>你觉得你是非酋?</strong></br>前置任务需求:</br>你受够了?我打赌你觉得报纸早就死了!"
+        },
+        {
+            "name": "电解万物",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/126.png",
+            "x": 444.0,
+            "y": 276.0,
+            "data": "自从开始磨粉,洗矿和离心矿石后,你收集了很多粉末,但啥也干不了. 现在是时候从这些粉末中获取有用的材料了.%n%n这台机器在你的MV阶段非常重要.如果你找到了一个含有成千上万粘土的生物群系,你可以用这台机器配合一些其他机器把粘土进行处理成钠,锂,硅,铝和氧!%n%n译者注:格雷的电解机一点都不电解!这分明是原子剥离机...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAfg==",
+            "tooltip": "<strong>电解万物</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "塑料电路基板1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1015.png",
+            "x": 780.0,
+            "y": 504.0,
+            "data": "塑料电路基板首先需要使用硫酸和塑料板来制造塑料基板. 然后在基板上添加铜箔并通过氯化铁或者过硫酸钠处理后可以得到塑料电路基板. 之后它们的造价会随着科技提升而越来越低.%n%n[warn]塑料电路基板用于HV阶段制造的电路板.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD9w==",
+            "tooltip": "<strong>塑料电路基板1</strong></br>前置任务需求:</br>氯化铁1</br>过硫酸钠1"
+        },
+        {
+            "name": "乙醇1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/844.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "乙醇可以作为内燃发电机的燃料.每单位(1000mB)的乙醇可以产生192,000EU的电力.乙醇也是制造生物柴油或者其他液体(如乙烯)的重要原料",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADTA==",
+            "tooltip": "<strong>乙醇1</strong></br>前置任务需求:</br>发酵生物质1"
+        },
+        {
+            "name": "乙烯酮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/850.png",
+            "x": 528.0,
+            "y": 456.0,
+            "data": "希望你在生产燃料的过程中留下了一些硫酸.要是没留的话,就多做一点吧,硫酸永远不嫌多.在化学反应釜中乙酸和硫酸将发生反应得到乙烯酮.%n%n留点乙烯酮到HV,你会需要它来合成四硝基甲烷,最终制成高十六烷值柴油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADUg==",
+            "tooltip": "<strong>乙烯酮</strong></br>前置任务需求:</br>化学课,第二部分</br>乙酸"
+        },
+        {
+            "name": "乙烯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/847.png",
+            "x": 612.0,
+            "y": 348.0,
+            "data": "你可以用很多不同的方法来制造乙烯.%n%n-乙醇和硫酸在化学反应釜中反应%n-化学脱水乙醇%n-在蒸馏室中蒸馏各种气体(比如木炭气)%n-也可以在化学反应釜中使用氢气或蒸汽裂解石脑油、燃油和炼油气%n- 在石油工业章节获得更多信息%n%n[note]你今后所需要的乙烯可远不止四个单元这么点，多多留意。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADTw==",
+            "tooltip": "<strong>乙烯</strong></br>前置任务需求:</br>化学课,第二部分</br>第2阶段(MV)"
+        },
+        {
+            "name": "真正的稀土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2409.png",
+            "x": 924.0,
+            "y": 432.0,
+            "data": "此前你可能忽视了稀土的处理,但你相信新的脱水机可以为你提供比以前更多的材料,物有所值. 首先,你需要使用一些硫酸在化学浸洗机中溶解杂质,留下粉碎的稀土(I)矿石.之后你需要像正常矿物处理一样处理它,直到获得稀土(I)粉.%n%n再将其放入化学脱水机中,你将获得一系列奇怪的物质,能够辨认的只有其中一部分.但如果你将这些物质电解或再次脱水,就有可能得到一些有用的材料.这可能会消耗大量的稀土,但你已经屯了很多了,对吧?你至少需要204个稀土.%n%n你相信如果拥有更强大的酸和机器,你就能从稀土中提取更多有价值的材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJaQ==",
+            "tooltip": "<strong>真正的稀土</strong></br>前置任务需求:</br>化学脱水机"
+        },
+        {
+            "name": "压出所有东西(Extrude all the things)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/740.png",
+            "x": 948.0,
+            "y": 348.0,
+            "data": "现在你达到了MV阶段,制作杆、管道、线缆,以及其它许多零件该有更好的产出比了.大部份的压模机配方都超过32EU/t,所以最好制作一台MV压模机.做好机器之后你还需要制作对应零件的模头.%n%n这里并未列举所有模头,记得根据自己的需要检查一下.%n%n[note]大部份格雷添加的匠魂工具部件都由压模机制作. 鉴于它们的实用性,为了平衡,其加工时间都很长.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC5A==",
+            "tooltip": "<strong>压出所有东西(Extrude all the things)</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "发酵生物质1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/736.png",
+            "x": 156.0,
+            "y": 204.0,
+            "data": "使用MV发酵槽,你可以制造发酵生物质.这是制作甲烷(methane)、乙醇(ethanol)和甲醇(methanol)的基础原料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC4A==",
+            "tooltip": "<strong>发酵生物质1</strong></br>前置任务需求:</br>生物质</br>路线三：热解炉"
+        },
+        {
+            "name": "火石矿/粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1279.png",
+            "x": 816.0,
+            "y": 228.0,
+            "data": "BC里面的建筑机和填充机都要用到火石.不幸的是火石只会在下界岩浆湖的底部生成...%n%n不过这里有一些提示可能会帮助到你:%n%n-火石只会在6格深以上的岩浆湖中生成,并且它只会取代地狱岩,所以一个充满了灵魂沙的峡谷是绝对不会产生火石的.你能想到检查岩浆深度,并获知底部有什么的方法吗?%n-或者,如果你可以让自己的脑袋保持在岩浆上方正确的高度,并找到一个正确的角度,你就能直接看到岩浆湖的底部-当然,一个可以悬停的背包是必不可少的.%n-...或者直接把鼠标移到旅行者地图上查看生物群系. 地狱(Hell)就是默认的地狱岩地形.%n%n只要在GT采矿机的工作范围内,火石也可以直接被挖出来.%n%n火石矿石或火石都会不断点燃身边的方块,因此找到后马上将它们收纳到背包里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE_w==",
+            "tooltip": "<strong>火石矿/粉</strong></br>前置任务需求:</br>MV自动采矿机"
+        },
+        {
+            "name": "火焰水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/149.png",
+            "x": 1128.0,
+            "y": 228.0,
+            "data": "太糟了,你不能饮用它. 在燃烧发电机中使用时,它能产出80RF/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAlQ==",
+            "tooltip": "<strong>火焰水</strong></br>前置任务需求:</br>酿造液体"
+        },
+        {
+            "name": "第一块坎塔尔合金锭",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3072.png",
+            "x": 264.0,
+            "y": 564.0,
+            "data": "你制成了你的第一块坎塔尔合金锭.是时候多造一些,升级你的工业高炉了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMAA==",
+            "tooltip": "<strong>第一块坎塔尔合金锭</strong></br>前置任务需求:</br>冷却液</br>MV级能源仓</br>冷却坎塔尔合金"
+        },
+        {
+            "name": "鱼油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1544.png",
+            "x": 204.0,
+            "y": 300.0,
+            "data": "为了生产生物柴油,你需要生产一些种子油或者是鱼油,将它们和甲醇或者乙醇搅拌就可以得到生物柴油. 因此你需要一个能快速从种子中压榨出种子油或是把鱼变成鱼油的机器,嗯...进阶流体提取机就不错.%n%n[note]有传言说有一种鱼形状的奇怪作物...%n%n你也可以看看\"捕鱼,农业,烹饪\"任务栏,抓些鱼来提取鱼油也是不错的选择.[/warn]%n%n译者注:这种奇怪的作物我猜是金鱼草(GoldfishPlant).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGCA==",
+            "tooltip": "<strong>鱼油</strong></br>前置任务需求:</br>进阶流体提取机"
+        },
+        {
+            "name": "流体固化器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/951.png",
+            "x": 696.0,
+            "y": 348.0,
+            "data": "使用各种类型的模具(板、棒之类的),可以使用流体固化器来制作很多不同的物品.%n%n模具≠模头. 所以你需要准备好两套.如果现在造不起的话,可以先准备好最重要的几种模具/模头.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADtw==",
+            "tooltip": "<strong>流体固化器</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #2"
+        },
+        {
+            "name": "甘油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1226.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "甘油是生产生物柴油的副产物,但它真的很有用. 在EV阶段,甘油可以用来制造环氧树脂,以及...我猜还有炸药. 但是TNT和工业TNT(iTNT)是更好的选择.%n%n[note]PS： 炸药并不是必需品,而环氧树脂有其他的制造方式,如果你并不想要生物柴油的话.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEyg==",
+            "tooltip": "<strong>甘油</strong></br>前置任务需求:</br>生物柴油1"
+        },
+        {
+            "name": "不错的集成电路",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/793.png",
+            "x": 516.0,
+            "y": 564.0,
+            "data": "话说,你之前试过看看电路板的矿辞吗? 你可以从矿辞中看出电路板的等级.%n电路板等级有: 简单的(ULV)、基础的(LV)、不错的(MV)、进阶(HV)、等等. %n%n现在,去制造不错的集成电路吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADGQ==",
+            "tooltip": "<strong>不错的集成电路</strong></br>前置任务需求:</br>集成逻辑电路1"
+        },
+        {
+            "name": "有研磨头总比没有好",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2086.png",
+            "x": 984.0,
+            "y": 36.0,
+            "data": "虽然SAG研磨机没有研磨头也能用,而燧石研磨头只能节省一点点能量.但如果你想见识见识SAG研磨机的真本事,你得用钻石或钨研磨头.  制作一个钻石研磨头,我会给你个钨的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIJg==",
+            "tooltip": "<strong>有研磨头总比没有好</strong></br>前置任务需求:</br>一种矿物处理..."
+        },
+        {
+            "name": "GT储罐,HV版",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/894.png",
+            "x": 648.0,
+            "y": 252.0,
+            "data": "高压流体储罐可以储存256桶,或者说256000L流体. 制作它需要铝板、玄钢板、真空管、MV级电动泵和一个钢流体管道.这个造价也很令人头疼,所以非必要的情况下,不建议制造它. 这是储罐的最高版本,接下来,它将被超级缸替代. 实际上你现在就能制造超级缸了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADfg==",
+            "tooltip": "<strong>GT储罐,HV版</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #2"
+        },
+        {
+            "name": "你受够了?我打赌你觉得报纸早就死了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1913.png",
+            "x": 648.0,
+            "y": 156.0,
+            "data": "排版台和拓印机使你能复制附魔书.这个过程有点复杂,所以你最好查查Bibliocraft这个mod的wiki.复制附魔书需要大量的经验,所以是时候去刷刷经验了...%n%n复制时运III附魔书需要40+等级的经验.请注意,wiki提到过,只支持原版墨囊.%n%n[note]你还需要一些神秘锭.你可以研究神秘时代,也可以在奖励箱中碰碰运气,或是尝试培育魔法金属莓(Magic-Metal-Berry)这种杂交作物.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHeQ==",
+            "tooltip": "<strong>你受够了?我打赌你觉得报纸早就死了!</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "胶水留痕(Hangover From All That Glue)?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2736.png",
+            "x": 612.0,
+            "y": 468.0,
+            "data": "贴片元件是更高级的电路板部件. 它们是EV+系列电路板的必需品,且制造成本更低(搭配合适的材料).你需要MV组装机和聚乙烯才能生产它们. 目前,贴片电阻可能是你唯一可以轻松制造的贴片元件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKsA==",
+            "tooltip": "<strong>胶水留痕(Hangover From All That Glue)?</strong></br>前置任务需求:</br>熔融聚乙烯</br>复仇者联盟2,组装!"
+        },
+        {
+            "name": "氢氯酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1227.png",
+            "x": 696.0,
+            "y": 552.0,
+            "data": "氢氯酸不只是生产过硫酸钠的副产物,还是HV/EV阶段生产环氧树脂的重要化工原料.它还能用于成产蜂窝.%n%n你还可以直接用氢和氯合成氢氯酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEyw==",
+            "tooltip": "<strong>氢氯酸</strong></br>前置任务需求:</br>氯化铁1</br>过硫酸钠1</br>三氯硅烷"
+        },
+        {
+            "name": "烈酒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/150.png",
+            "x": 1080.0,
+            "y": 276.0,
+            "data": "最低级的,可再生的可燃液体.产出60RF/t,但可以实现自动化的\"绿色\"能源.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAlg==",
+            "tooltip": "<strong>烈酒</strong></br>前置任务需求:</br>酿造液体"
+        },
+        {
+            "name": "集成逻辑电路和RAM芯片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/837.png",
+            "x": 336.0,
+            "y": 492.0,
+            "data": "先进的电路板需要集成逻辑电路和RAM芯片,你可以通过切割集成逻辑电路晶圆和RAM芯片晶圆来获得他们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADRQ==",
+            "tooltip": "<strong>集成逻辑电路和RAM芯片</strong></br>前置任务需求:</br>MV精密激光蚀刻机"
+        },
+        {
+            "name": "升级导管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/136.png",
+            "x": 1080.0,
+            "y": 132.0,
+            "data": "导管本身是非常棒的,但你可以做得更好.通过使用过滤器和速度升级,你可以更好地控制它们的工作和工作速度.%n%n[note]PS：不过你现在一个都做不出来.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAiA==",
+            "tooltip": "<strong>升级导管</strong></br>前置任务需求:</br>导管"
+        },
+        {
+            "name": "我需要来一杯.敬更多的铬.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2975.png",
+            "x": 276.0,
+            "y": 300.0,
+            "data": "处理红宝石矿石最有效的方法,优于电解.%n%n[note]记得在NEI中查看处理蓝宝石和绿色蓝宝石的类似工艺[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALnw==",
+            "tooltip": "<strong>我需要来一杯.敬更多的铬.</strong></br>前置任务需求:</br>氢氧化钠1</br>进阶离心机</br>MV阶段的搅拌"
+        },
+        {
+            "name": "集成逻辑电路1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/794.png",
+            "x": 444.0,
+            "y": 564.0,
+            "data": "想要制造HV机器,就需要HV电路板.你能制造的第一种HV电路板是IC2的高级电路板. 你需要先制造LV电路,然后套娃制造MV电路,最后再次套娃制成HV电路.递归合成!始于LV集成逻辑电路板. 而且你不能用IC2的基础电路板套娃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADGg==",
+            "tooltip": "<strong>集成逻辑电路1</strong></br>前置任务需求:</br>集成逻辑电路和RAM芯片</br>基础电路组装机"
+        },
+        {
+            "name": "IO,IO,我们去EnderIO",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/128.png",
+            "x": 840.0,
+            "y": 180.0,
+            "data": "你之前可能已经用过末影接口的东西了.对很多事情来说,它都是非常有用的.但在这里,很多合成表都变了,而且对于类似矿物处理的事,它们也难以胜任了. 让我们看看它能提供些什么. 请注意,另外一半需要等到HV阶段才能解锁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAgA==",
+            "tooltip": "<strong>IO,IO,我们去EnderIO</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "氯化铁1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1020.png",
+            "x": 780.0,
+            "y": 420.0,
+            "data": "氯化铁可以用于蚀刻电路基板.%n想要制取这种液体,你首先需要用氢气和氯气制取氢氯酸,然后再将氢氯酸和铁粉在化学反应釜中混合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD_A==",
+            "tooltip": "<strong>氯化铁1</strong></br>前置任务需求:</br>熔融塑料"
+        },
+        {
+            "name": "大型铝流体单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1520.png",
+            "x": 876.0,
+            "y": 480.0,
+            "data": "512桶还无法满足你？ 大型铝流体单元每个可容纳32桶流体,最大堆叠64. 一格能装32*64桶液体？ 那可是半个超级缸I!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF8A==",
+            "tooltip": "<strong>大型铝流体单元</strong></br>前置任务需求:</br>复仇者联盟2,组装!"
+        },
+        {
+            "name": "机器框架",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/129.png",
+            "x": 984.0,
+            "y": 132.0,
+            "data": "所有末影接口的机器都需要机器框架,它的合成配方跟以前几乎是一样的,除了你需要的是板而不是锭.但这应该不成问题...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAgQ==",
+            "tooltip": "<strong>机器框架</strong></br>前置任务需求:</br>钽矿石"
+        },
+        {
+            "name": "更好的蒸馏室",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3069.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "想要更快地生产甲醇和乙醇,制造一台MV蒸馏室吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL_Q==",
+            "tooltip": "<strong>更好的蒸馏室</strong></br>前置任务需求:</br>发酵生物质1"
+        },
+        {
+            "name": "变得漂亮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/137.png",
+            "x": 1032.0,
+            "y": 84.0,
+            "data": "虽然导管本身已经很棒了,但如果你想的话,也可以隐藏它们. 有两种类型的导管框架,基础的和硬化的. 基础的简单易用,而硬化的能够抵御爆炸和工具的挖掘. 你得用以太扳手才能拆除它.%n%n你得先在喷涂机中对框架进行喷涂-在漆刷处放置你想要的外观方块,再在左侧放上框架. 当然,喷涂机需要供能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAiQ==",
+            "tooltip": "<strong>变得漂亮</strong></br>前置任务需求:</br>机器框架</br>导管"
+        },
+        {
+            "name": "甲烷2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/842.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "甲烷可以在燃气轮机中作为燃料使用,每单位(1000mB)的甲烷可以产生104,000EU的电力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADSg==",
+            "tooltip": "<strong>甲烷2</strong></br>前置任务需求:</br>发酵生物质1"
+        },
+        {
+            "name": "甲醇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/843.png",
+            "x": 156.0,
+            "y": 252.0,
+            "data": "甲醇可以作为内燃发电机的燃料.每单位(1000mB)的甲醇可以产生84,000EU的电力. 甲醇也是制造生物柴油或者其他液体(如氯甲烷、乙酸甲酯、二甲胺)的重要原料.它也用于制造某种火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADSw==",
+            "tooltip": "<strong>甲醇</strong></br>前置任务需求:</br>发酵生物质1"
+        },
+        {
+            "name": "MV阶段的搅拌",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/751.png",
+            "x": 192.0,
+            "y": 348.0,
+            "data": "想要进阶HV阶段,MV搅拌机不容错过.同时还解锁了柴油这一更强燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC7w==",
+            "tooltip": "<strong>MV阶段的搅拌</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "熔融塑料",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/750.png",
+            "x": 696.0,
+            "y": 420.0,
+            "data": "熔融聚乙烯可以在化学反应釜中制造,使用乙烯跟压缩空气单元或氧单元反应--使用氧可以增产50％.使用模具(板)在流体固化器中制成塑料片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC7g==",
+            "tooltip": "<strong>熔融塑料</strong></br>前置任务需求:</br>熔融聚乙烯</br>流体固化器"
+        },
+        {
+            "name": "熔融聚乙烯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/759.png",
+            "x": 612.0,
+            "y": 420.0,
+            "data": "聚乙烯由乙烯和氧气在化学反应釜中制成.%n一个熔融聚乙烯单元为144L聚乙烯,刚好是一个条或者板的量.%n如果你需要更精确的容量,你可以使用容量瓶,容量瓶需要硼(电解硼砂).%n%n手持单元的时候,你可能会受到伤害.记得戴上手套,或者把手套掉个个. 所有的熔融单元都会产生伤害,并且只能容纳144L,像一些金属材料、塑料等都是熔融单元. 抱歉,流体提取,无论这是什么意思.%n%n发现有些残留? 试试搋子,或者你材料足够的话,可以使用12个乙烯单元加上84个氧单元刚好制成125单元聚乙烯.%n%n译者注:可以用通用流体单元绕过这些熔融单元,可以正常容纳1000L,且不会有伤害.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC9w==",
+            "tooltip": "<strong>熔融聚乙烯</strong></br>前置任务需求:</br>O似乎是氧</br>乙烯"
+        },
+        {
+            "name": "单晶硅",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/782.png",
+            "x": 336.0,
+            "y": 420.0,
+            "data": "制造晶圆之前,你必须先制造单晶硅.这一工序需要在工业高炉加入太阳能级硅粉以及一个小型砷化镓晶体,用时450秒.每个单晶硅可以制成16个晶圆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADDg==",
+            "tooltip": "<strong>单晶硅</strong></br>前置任务需求:</br>砷化镓晶体</br>太阳能级硅"
+        },
+        {
+            "name": "进阶锅炉[MV]",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1898.png",
+            "x": 144.0,
+            "y": 444.0,
+            "data": "GT++的进阶锅炉[MV],相对LV版本,可以更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHag==",
+            "tooltip": "<strong>进阶锅炉[MV]</strong></br>前置任务需求:</br>不锈钢与工业高炉"
+        },
+        {
+            "name": "进阶卷板机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1081.png",
+            "x": 948.0,
+            "y": 276.0,
+            "data": "有了进阶卷板机,你可以直接制作双重、三重或是更多层的金属板,这是你制作HV阶段的第一枚火箭所必需的. %n%n也可以制作致密板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEOQ==",
+            "tooltip": "<strong>进阶卷板机</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "MV级能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/754.png",
+            "x": 192.0,
+            "y": 492.0,
+            "data": "有些原料如不锈钢,需要480EU/t.你的LV级能源仓已经不敷使用.制造至少两个MV级能源仓,来将你的工业高炉升级到HV.%n如果你没有所需的超低功率IC,先做点晶圆吧.%n%n[note]顺便一提,如果多方块的配方哪怕只超过了某个电压等级1A功率1EU,你也必须使用第二个能源仓为其供能.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC8g==",
+            "tooltip": "<strong>MV级能源仓</strong></br>前置任务需求:</br>润滑油2</br>超低功率IC</br>工业高炉时代"
+        },
+        {
+            "name": "MV马达",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1867.png",
+            "x": 696.0,
+            "y": 180.0,
+            "data": "大部分中压机器都需要MV马达.如果你还没造两极磁化机的话,回到LV阶段找到合成它的任务吧. MV马达需要磁化钢杆和铝杆,2x白铜导线和铜线缆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHSw==",
+            "tooltip": "<strong>MV马达</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "MV精密激光蚀刻机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/791.png",
+            "x": 264.0,
+            "y": 492.0,
+            "data": "制造高级电路需要一台MV精密激光蚀刻机,制造一台吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADFw==",
+            "tooltip": "<strong>MV精密激光蚀刻机</strong></br>前置任务需求:</br>MV阶段你也会讨厌这个#5</br>硅晶圆"
+        },
+        {
+            "name": "MV超导(128 EU/t)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1404.png",
+            "x": 108.0,
+            "y": 420.0,
+            "data": "无损的MV超导导线怎么样？Pentacadmiummagnesiumhexaoxide(MV超导)是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有线损为0的超导导线.%n%n在搅拌机中搅拌镉,镁和氧. 制得的粗胚粉需要用带有坎塔尔合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氦、不锈钢流体管道和MV泵组合在一起,以获得128EU/t的超导导线.%n%n[note]当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己. 另外请注意,虽然这些超导导线是\"导线\",但碰到它们不会触电受伤.[/note]%n%n译者注:如果你试图在互联网上搜索GTNH的超导材料,可能会找到一个叫做\"Superconductors\"的网站,给出了很多种高温超导材料,这正是GTNH前期超导的灵感来源.但是最好别相信那上面的\"研究成果\",因为这是个民科网站.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFfA==",
+            "tooltip": "<strong>MV超导(128 EU/t)</strong></br>前置任务需求:</br>终结...</br>不锈钢与工业高炉</br>更多的热量 - 坎塔尔线圈"
+        },
+        {
+            "name": "O似乎是氧",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/846.png",
+            "x": 528.0,
+            "y": 348.0,
+            "data": "氧气可以通过很多种方式得到.你可以通过离心机离心黄褐铁矿石或者棕褐铁矿石得到氧气,它们都是很容易找到的矿物.或者你可以通过电解锡石矿砂、糖、水或者其他的富氧矿物来制取氧气.%n%n稍后,电解水或离心空气可能将成为你的主要氧气来源.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADTg==",
+            "tooltip": "<strong>O似乎是氧</strong></br>前置任务需求:</br>电解万物"
+        },
+        {
+            "name": "百万归一",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1907.png",
+            "x": 972.0,
+            "y": 228.0,
+            "data": "还是四百万归一?想要存储无穷无尽的圆石?石粉?树苗?超级箱正是你所需要的东西.一个最简单的超级箱I就可以存储四百万物品,放轻松.你可以一次手动取出一组64个物品,或是使用传送带之类的快速抽取.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHcw==",
+            "tooltip": "<strong>百万归一</strong></br>前置任务需求:</br>进阶卷板机"
+        },
+        {
+            "name": "一种矿物处理...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/145.png",
+            "x": 984.0,
+            "y": 84.0,
+            "data": "研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?%n%nHV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头!SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!%n%nSAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.%n%n甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.%n%n换句话说,在这方面,GT的研磨机还在后头拍马追赶呢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAkQ==",
+            "tooltip": "<strong>一种矿物处理...</strong></br>前置任务需求:</br>机器框架"
+        },
+        {
+            "name": "有机之道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/780.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "生物碳板由生物有机网制成.将生碳板放入工业高炉来制造碳板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADDA==",
+            "tooltip": "<strong>有机之道</strong></br>前置任务需求:</br>生物有机网"
+        },
+        {
+            "name": "区块加载",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1180.png",
+            "x": 996.0,
+            "y": 276.0,
+            "data": "让我们制造一些锚来保持区块加载吧.制作锚所需的致密板可以使用MV卷板机生产. 这些锚可以加载3x3区块,你需要加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n个人锚只有在玩家在线时才有效.%n%n被动锚在玩家登录后即生效,直到服务器重启才会失效.%n%n[warn]世界锚[/warn]只要服务器运行,就一直有效.重启后仍然可以即刻生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEnA==",
+            "tooltip": "<strong>区块加载</strong></br>前置任务需求:</br>进阶卷板机"
+        },
+        {
+            "name": "管道,管道无处不在",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1736.png",
+            "x": 996.0,
+            "y": 324.0,
+            "data": "现在你已经进入MV,你将需要开始自动化流程. 如聚乙烯、氧气、氮气、氢气、橡胶、木炭等.更快的物品管道将有助于在你的基地内快速运输物品. 现在,使用你的漂亮的新压模机来制作一些黄铜物品管道.%n%n奖励-加固物品管道-允许你确定目的地的优先级(利用路由值).在处理路径时,加固管道另一侧的位置与普通管道相比远得多. 当你想要让溢出(或不匹配)的物品去其他地方时非常方便!%n%n至于更高等级,在NEI中查找\"* item pipe\",或者直接查看数据表格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGyA==",
+            "tooltip": "<strong>管道,管道无处不在</strong></br>前置任务需求:</br>压出所有东西(Extrude all the things)"
+        },
+        {
+            "name": "植物球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/731.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "下一步,你需要压缩小麦生产植物球.%n%nMV压缩机比LV的快一倍.你可能认为用MV压缩机是个不错的主意.那你就[warn]错了[/warn]. 为什么?请记住,它的耗电是LV的4倍.这意味着你需要花费4倍的EU,而得到的回报EU没有变化,仅仅加快了速度.最后这一套产线收获的是EU赤字.很讽刺吧,我懂的. 你还可以用多个机器(我喜欢),稍后还能用处理阵列或多方块机器(如果有的话). 这适用于所有燃料生产线,这是基础理论.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC2w==",
+            "tooltip": "<strong>植物球</strong></br>前置任务需求:</br>生物质燃料"
+        },
+        {
+            "name": "植物团块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/732.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "将植物球磨碎成为植物团块,便于进一步的加工. 在LV及MV阶段你每次只能得到一个植物团块,而在HV阶段由于有额外槽位,你可以得到两个.IV研磨机则可以给你最多四个,额外两个产物分别是50％及25％几率. 但这点增产与投入的电力成本不成比例.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC3A==",
+            "tooltip": "<strong>植物团块</strong></br>前置任务需求:</br>植物球"
+        },
+        {
+            "name": "聚氯乙烯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1873.png",
+            "x": 612.0,
+            "y": 264.0,
+            "data": "聚氯乙烯是熔融状态的PVC(Poly-Vinyl-Chloride). 你需要氯乙烯和氧气来制备聚氯乙烯. 稍后你会需要用它来制作贴片电容.%n%n想要让你的反应釜干干净净,你就要连做两次,或者选择那个8秒的配方重复三次. 一个单元的熔融聚氯乙烯为144L,恰好是一个条或片的量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHUQ==",
+            "tooltip": "<strong>聚氯乙烯</strong></br>前置任务需求:</br>氯乙烯"
+        },
+        {
+            "name": "便携探矿仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1482.png",
+            "x": 732.0,
+            "y": 60.0,
+            "data": "随着技术的发展,你找到了一种寻找矿石的方式.%n%n很不幸,现有技术还无法使其可修复或可充电,所以每次它损坏后你都得做个新的.电压等级越高效果越好,用材越好耐久越高.%n%n它不像地震勘探者一样需要制作成书,感谢Visual-Prospecting,你可以在地图上看到扫描结果.%n%n很难选择制作MV探矿仪的好材料.这里给你提供几个建议: 对应阶段,材料,探测范围,和它们的平均可探测矿脉数量:%n%nLV-钒钢-3x3-50%nMV-钒钢-3x3-213%nHV-脉冲合金-5x5-299%nEV-暗影金属-7x7-1080%nIV-奥利哈钢-7x7-2649%n%n如你所见,随着科技等级的提升,探矿仪越来越好用,所以当你觉得需要一个的时候,不要犹豫直接搓准没错,用的材料越高越好.%n%n祝你好运!%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFyg==",
+            "tooltip": "<strong>便携探矿仪</strong></br>前置任务需求:</br>MV阶段你也会讨厌这个#6"
+        },
+        {
+            "name": "便携式储罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/130.png",
+            "x": 1032.0,
+            "y": 180.0,
+            "data": "在此之前,你还要用手推车带着BC储罐来携带液体到处跑,这事干起来真叫一个痛苦,还慢. 而这些EIO的流体箱能够自己输出/抽进流体,因为它们内置了一些由魔法能源驱动的泵,真方便.%n%n高压流体箱具有两倍的容积.%n%n[note]但是要小心,它会吞掉水单元,不会返还空单元.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAgg==",
+            "tooltip": "<strong>便携式储罐</strong></br>前置任务需求:</br>机器框架"
+        },
+        {
+            "name": "太阳能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/933.png",
+            "x": 276.0,
+            "y": 372.0,
+            "data": "现在我们应该研究一些别的可再生能源了.让我们从太阳能开始,最低等级的太阳能板发电量是1EU/t.这些太阳能板可以作为大部分GT机器的覆盖板使用,让这些机器能从太阳中获取能源(但前提是它可以看见太阳,即顶部没有不透明遮挡).%n%n千万记住挡雨,在机器上方放一层玻璃,也别忘了机器紧邻的方块也不能淋雨.%n%n[note]铝铁板需要MV冲压机床.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpQ==",
+            "tooltip": "<strong>太阳能</strong></br>前置任务需求:</br>硅晶圆"
+        },
+        {
+            "name": "太阳之力(ULV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/935.png",
+            "x": 276.0,
+            "y": 336.0,
+            "data": "把一块基础太阳能板和一个ULV机器方块放入MV级别的组装机中,组装机将会把它们组装为一个ULV等级的太阳能发电机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpw==",
+            "tooltip": "<strong>太阳之力(ULV)1x1</strong></br>前置任务需求:</br>太阳能"
+        },
+        {
+            "name": "太阳之力(ULV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/934.png",
+            "x": 312.0,
+            "y": 372.0,
+            "data": "下一个等级的太阳能板等级是ULV级,他们可以提供8EU/t的能源.同样他们也可以作为大部分格雷机器的覆盖板使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpg==",
+            "tooltip": "<strong>太阳之力(ULV)</strong></br>前置任务需求:</br>太阳能"
+        },
+        {
+            "name": "压制MV阶段的一切",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1547.png",
+            "x": 888.0,
+            "y": 228.0,
+            "data": "使用MV冲压机床,你可以制造用于太阳能电池板的铝铁板,用于涡轮的涡轮扇叶和Logistics-Pipes的一些物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGCw==",
+            "tooltip": "<strong>压制MV阶段的一切</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "聚氯乙烯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1874.png",
+            "x": 612.0,
+            "y": 228.0,
+            "data": "聚氯乙烯片可用于合成不错的PVC物品管道,也能用于制造贴片元件(制成箔)、塑料电路基板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHUg==",
+            "tooltip": "<strong>聚氯乙烯片</strong></br>前置任务需求:</br>聚氯乙烯"
+        },
+        {
+            "name": "生碳网",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/773.png",
+            "x": 564.0,
+            "y": 420.0,
+            "data": "这种制造碳板的方法是在高压釜中加入碳粉.有四种不同的可用流体.%n%n每个时代都有各自的最佳方案：LV时代,使用熔融聚乙烯会得到1个碳纤维;MV时代,使用聚四氟乙烯会得到2个;HV时代,使用环氧树脂会得到4个;EV时代,使用聚苯并咪唑可以得到16个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADBQ==",
+            "tooltip": "<strong>生碳网</strong></br>前置任务需求:</br>熔融聚乙烯"
+        },
+        {
+            "name": "生硅粉",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3211.png",
+            "x": 444.0,
+            "y": 348.0,
+            "data": "所有单晶硅(以及晶圆、芯片和电路)的制造都需要硅.因此,硅是一种非常重要的材料.%n%n使用新造的电解机,你可以从许多不同来源获得生硅粉.或者,你也可以离心红石.你还可以在化学反应釜中,将镁粉与二氧化硅进行反应,然后在电解机中回收镁,这同时会给你带来大量的氧气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMiw==",
+            "tooltip": "<strong>生硅粉</strong></br>前置任务需求:</br>二氧化硅</br>电解万物"
+        },
+        {
+            "name": "基础电容库",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/604.png",
+            "x": 936.0,
+            "y": 84.0,
+            "data": "基础电容库是一种RF电池,可以存储RF能量. 将多个电容库组成一个更大的结构可以存储更多的能量-它们将合并成一个电池.%n%n如果不想用GUI的话,你还可以用剪线钳或以太扳手修改电容库任意面的模式.其中一个模式可以显示输入/输出的RF,但这个模式要求电容库高宽比要高一点.(1:1时可能显示不完全)%n%n电容库非常适合与RF机器连接.虽然GT电线可以将EU转化为RF,但GT电线输电为每A整包输送. EIO的机器可以恰到好处地接收能量,但基因工业的机器却做不到,会浪费一包中的大部分电力,所以遇上非EIO机器需要用到RF,就用电容库来转换一下吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACXA==",
+            "tooltip": "<strong>基础电容库</strong></br>前置任务需求:</br>机器框架"
+        },
+        {
+            "name": "电解红宝石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/757.png",
+            "x": 348.0,
+            "y": 288.0,
+            "data": "电解红宝石可以获取铬和一点点铝.要是你感觉红宝石不太够,可以离心红石.%n%n铝和氧的另一个优秀来源是红色花岗岩粉.你可以从\"捕鱼,农业,烹饪\"任务栏中的IC2作物红石芯草(red-stonelillies)中获得这些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC9Q==",
+            "tooltip": "<strong>电解红宝石</strong></br>前置任务需求:</br>电解万物"
+        },
+        {
+            "name": "头疼(Salty)的硅产线?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3214.png",
+            "x": 384.0,
+            "y": 420.0,
+            "data": "如果你对提纯硅所需的各种资源感到头疼的话,我这有个好消息! 你可以通过电解处理产物盐(Salt),回收所有的氯和钠!%n%n%n[warn]当然也可以使用锌来代替钠，第一步反应会慢一点，但回收锌粉速度远比用钠要快。[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMjg==",
+            "tooltip": "<strong>头疼(Salty)的硅产线?</strong></br>前置任务需求:</br>四氯化硅 续"
+        },
+        {
+            "name": "种子油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/848.png",
+            "x": 108.0,
+            "y": 300.0,
+            "data": "潘马斯的花生也是不错的种子油来源,而且可以用洒水器加速其生长. 或者可以用IC2的杂交作物油菜(Rape).其它的选择还有林业的各种坚果,比如榛子、灰核桃、或者坚果之王:椰子. 当然普通的作物种子也可以压榨出种子油,比如小麦种子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADUA==",
+            "tooltip": "<strong>种子油</strong></br>前置任务需求:</br>进阶流体提取机"
+        },
+        {
+            "name": "二氧化硅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1819.png",
+            "x": 384.0,
+            "y": 348.0,
+            "data": "为自己准备一些二氧化硅吧! 将其配合碳粉在工业高炉中熔炼,是获取生硅锭的最佳方式.生硅锭有多种用途,不过最重要的用途就是将其再次打粉,获得生硅粉. 你还可以借助铝或镁,对二氧化硅进行化学处理,将其转化为生硅粉.%n%n离心玻璃粉或是电解沙子都可以轻易获得二氧化硅.%n%n如果你手上只有生硅粉,又急需二氧化硅,可以使用电弧炉或高压釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHGw==",
+            "tooltip": "<strong>二氧化硅</strong></br>前置任务需求:</br>电解万物"
+        },
+        {
+            "name": "硅板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/752.png",
+            "x": 444.0,
+            "y": 636.0,
+            "data": "高级电路板需要晶体管,由高纯硅板、细锡导线,及熔融聚乙烯制成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC8A==",
+            "tooltip": "<strong>硅板</strong></br>前置任务需求:</br>太阳能级锭"
+        },
+        {
+            "name": "太阳能级硅",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1788.png",
+            "x": 444.0,
+            "y": 492.0,
+            "data": "无论你选择了哪条路线,你现在肯定有了太阳能级硅粉.你想把它冶炼成锭,再压成板来制作晶体管,但你还需要一些去制造单晶硅.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG_A==",
+            "tooltip": "<strong>太阳能级硅</strong></br>前置任务需求:</br>三氯硅烷 续</br>四氯化硅 续"
+        },
+        {
+            "name": "四氯化硅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3212.png",
+            "x": 420.0,
+            "y": 396.0,
+            "data": "然而,你获得的生硅粉还不够纯净!我们需要继续努力.这里有两种合理的选择.让我们先在这里看下第一种.别担心,这只需要简单的两步处理.首先,让我们先在化学反应釜中将其与一些氯进行反应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMjA==",
+            "tooltip": "<strong>四氯化硅</strong></br>前置任务需求:</br>生硅粉"
+        },
+        {
+            "name": "四氯化硅 续",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3213.png",
+            "x": 420.0,
+            "y": 444.0,
+            "data": "第二步,让我们将四氯化硅与钠粉结合起来.好耶!硅粉现在被净化到了太阳能级!%n%n在这个过程中,氯和钠是不会损失的.要重新获得它们,只需要将最后得到的盐电解,并将其送回化学反应釜,让它继续参与将生硅转化为太阳能级硅的完整循环.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMjQ==",
+            "tooltip": "<strong>四氯化硅 续</strong></br>前置任务需求:</br>四氯化硅"
+        },
+        {
+            "name": "硅晶圆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/792.png",
+            "x": 264.0,
+            "y": 420.0,
+            "data": "将单晶硅放入板材切割机处理,可以获得硅晶圆. 你最好赶紧制作一台MV切割机,之后制作RAM、IC,及其它芯片时都会用到它.%n%n如果你手上已经有了聚乙烯的话,使用晶圆制造二极管的产率会更高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADGA==",
+            "tooltip": "<strong>硅晶圆</strong></br>前置任务需求:</br>单晶硅"
+        },
+        {
+            "name": "简单的液体转移",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/154.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "就像物品转运器一样,液体转运器转移液体.相同的使用限制,1格距离,液体转运器也可以升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAmg==",
+            "tooltip": "<strong>简单的液体转移</strong></br>前置任务需求:</br>简单的物品转移"
+        },
+        {
+            "name": "简单的物品转移",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/153.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "转运器只能在1格的距离内转移物品.但它们相当便宜,是构建紧凑型机组的好帮手.它们包括一个简单的过滤系统,且支持多种输入和输出!萤石将使其转移速度更快 - 尝试发现其他升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAmQ==",
+            "tooltip": "<strong>简单的物品转移</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "简易RF能源:液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/132.png",
+            "x": 1080.0,
+            "y": 180.0,
+            "data": "这台发电机需要作为冷却剂的水和作为燃料的可燃液体,它发电的功率取决于使用的液体.%n%n流体           燃烧时间(ticks/mB)    输出功率(RF/tick)    输出能量(RF/mB) %n油             5                     30                   150%n烈酒           6                     60                   360%n乙醇           15                    40                   600 %n火焰水         15                    80                   1200%n柴油           25                    60                   1500%n%n[note]火箭燃料已禁用.[note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAhA==",
+            "tooltip": "<strong>简易RF能源:液体</strong></br>前置任务需求:</br>便携式储罐"
+        },
+        {
+            "name": "简易RF能源:固体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/131.png",
+            "x": 936.0,
+            "y": 180.0,
+            "data": "这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多重压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.%n%nGT导线和变压器可以将EU转换为RF,却无法逆向转换.请注意,eNet修改了GT电网,要求至少包含一个GT用电器-一个匹配电压的机器外壳即可.%n%n而EIO机器、GT导线和线缆可以淋雨.%n%n这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题(除了热电子加工台). 或使用电容库中转.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAgw==",
+            "tooltip": "<strong>简易RF能源:固体</strong></br>前置任务需求:</br>机器框架"
+        },
+        {
+            "name": "熔炼合金(alloy)(熔炼所有乐趣(all-joy))",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/143.png",
+            "x": 984.0,
+            "y": 180.0,
+            "data": "这种合金炉可以帮你生产各种石英玻璃和纯净玻璃.%n%n但是它不能制造EIO的各种合金,你需要搅拌机和(可能)工业高炉才能制造它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAjw==",
+            "tooltip": "<strong>熔炼合金(alloy)(熔炼所有乐趣(all-joy))</strong></br>前置任务需求:</br>机器框架"
+        },
+        {
+            "name": "氢氧化钠1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/849.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "你需要制造一些氢氧化钠(用于生物柴油及其他),你可以在化学反应釜中通过钠和水的反应得到氢氧化钠.也可以先将盐和水搅拌成盐水,然后通过在电解机中电解盐水来得到它.%n%n氢氧化钠也用于进阶的铝生产.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADUQ==",
+            "tooltip": "<strong>氢氧化钠1</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "过硫酸钠1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1021.png",
+            "x": 696.0,
+            "y": 504.0,
+            "data": "过硫酸钠可以通过电解硫酸氢钠粉末获得. 而硫酸氢钠则是通过盐和硫酸在化学反应釜中反应得到. 你可以使用过硫酸钠来蚀刻电路板,而生产硫酸氢钠产生的副产物氢氯酸则可以作为日后生产环氧树脂的基础原料使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD_Q==",
+            "tooltip": "<strong>过硫酸钠1</strong></br>前置任务需求:</br>熔融塑料"
+        },
+        {
+            "name": "太阳能级锭",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/746.png",
+            "x": 336.0,
+            "y": 564.0,
+            "data": "想要将你的太阳能级粉,转化为太阳能级锭,你需要一台至少坎塔尔合金线圈的工业高炉,并将产出的热锭在化学浸洗机中冷却.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC6g==",
+            "tooltip": "<strong>太阳能级锭</strong></br>前置任务需求:</br>第一块坎塔尔合金锭</br>冷却液</br>太阳能级硅</br>工业高炉时代"
+        },
+        {
+            "name": "加速缓慢的机器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2110.png",
+            "x": 960.0,
+            "y": 396.0,
+            "data": "许多mod没有加速缓慢机器的方法.为此,你需要一台GT世界加速器.但是它会消耗大量电力,所以你的电力基础设施最好做好准备.tooltip会列出可提供的性能提升.对于基于方块的加速,世界加速器可以提供范围加速.对于实体方块(大多数机器),它只能加速紧贴自己的方块,而且需要使用螺丝刀切换模式.此模式将消耗双倍的能量.%n%n[warn]加速器对GT机器无效![/warn]对于GT,真的想加速的话,数量和升压才是王道.%n%n你可以使用扳手来切换加速倍率. 倍率将会先变为最小值,然后每次右键提升一个等级. 它将消耗该等级的能量(并进行加速),机制与GT超频一致,2x速度,4x耗能.%n%n*虽然tooltip上说8A,但这是它的最大可接收电流,而不是使用电流. 在方块模式(默认)下3A,在实体方块(TE)模式下6A.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIPg==",
+            "tooltip": "<strong>加速缓慢的机器</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #4"
+        },
+        {
+            "name": "不锈钢与工业高炉",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/753.png",
+            "x": 72.0,
+            "y": 492.0,
+            "data": "不锈钢锭需要在工业高炉中进行烧制方可获得,炉温要求1700K.%n%n需要480EU/t烧制80秒,如果加入氧气则需要60秒. 如果条件允许,请尽量为高炉提供保护气,这可以节省大量的能源,另外你也需要用到大量的不锈钢. 石油裂化机、大型蒸汽涡轮、蒸馏塔都是吃不锈钢大户.单单一座蒸馏塔就会消耗几组不锈钢,而你需要远远不止一座蒸馏塔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC8Q==",
+            "tooltip": "<strong>不锈钢与工业高炉</strong></br>前置任务需求:</br>MV级能源仓</br>你准备好迈向HV了吗？"
+        },
+        {
+            "name": "不锈钢太难烧了？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1494.png",
+            "x": 72.0,
+            "y": 564.0,
+            "data": "是时候起第二台高炉了!%n%n你可以通过3种方式更快地制造锭: 更好的线圈,更高等级的能源仓或更多的高炉.%n%n工业高炉(EBF)可以共用机械方块、消声仓和输入/输出仓(总线),但不能共用维护仓(不过自动维护仓可以共用).在供电充足的前提下,可以尝试共用能源仓.所以当你有两台MV高炉时,只用一个MV能源仓可能是无法运行的(考虑线损). 不过这种情况随着电压提高就基本没有了,放心大胆共用能源仓吧.另外,处理阵列的输入最好不要共用,容易出问题...如果你一定要共用,记得关闭输入总线的过滤(螺丝刀右键输入总线).%n%n请记住,高炉的污染非常严重,如果同时有两台工业高炉(EBF)运行,很快你家的污染就会爆表! 请注意高污染效应.使用最好的消声仓,不要将工业高炉(EBF)放在与农田附近,也不要与其他高污染机器(如热解炉和大型锅炉)放在相同区块中.%n%n你可以使用你能造的任何线圈,但要是手头还缺云母的话,你可能需要着手开始寻找了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF1g==",
+            "tooltip": "<strong>不锈钢太难烧了？</strong></br>前置任务需求:</br>不锈钢与工业高炉"
+        },
+        {
+            "name": "超级缸 I",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/944.png",
+            "x": 648.0,
+            "y": 312.0,
+            "data": "超级缸的工作方式与之前小一点的GT储罐一致,只是装得更多. 准确来说是4000,000L.  在现阶段,建议只给需要大量储存的流体配备超级缸. 要制作超级缸I你需要先制造一个密封机械方块I,这个东西需要钢板和大型聚乙烯管道.制造超级缸I的其他材料还包括4块电路板、2块铝板、1块脉冲铁板和1个MV级电动泵.这个造价当前来说还是很贵的.%n%n现在你可以在一个超级缸里存储5x5x5体积的RC钢质蓄水器存储的液体了.%n%n[note]超级缸和量子缸现在加入了大量实用功能.你可以用扳手拆除超级缸并拾取,这么做并不会销毁其中的液体.不过拿着超级缸会给你很严重的debuff(量子缸不会),所以最好准备些牛奶(译者注:或者大地疣.)如果你确实想要销毁流体,可以在拆除之前使用GUI内的全部销毁按钮，或将其放入工作台合成一下以清除掉内部数据信息.%n%n超级缸现在还有了几种可选功能:自动输出流体,锁定流体,溢出销毁模式,或是完全销毁模式.所有这些都集成在了一个简洁美观的GUI中.不得不说,这真是极其重量级的更新.[/note](译者注:重量级的,原文为IMPACTful,一语双关,还表明了这些功能都是从IMPACT整合包\"借\"来的.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADsA==",
+            "tooltip": "<strong>超级缸 I</strong></br>前置任务需求:</br>熔融聚乙烯</br>MV阶段你会讨厌这个 #2"
+        },
+        {
+            "name": "钽矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1835.png",
+            "x": 888.0,
+            "y": 180.0,
+            "data": "钽用来制作GT的电容(可选)和EIO的电容,它还是铌的一种来源.%n你能在主世界Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHKw==",
+            "tooltip": "<strong>钽矿石</strong></br>前置任务需求:</br>IO,IO,我们去EnderIO"
+        },
+        {
+            "name": "美味的...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/148.png",
+            "x": 1032.0,
+            "y": 228.0,
+            "data": "嗯,是的...好吧,你确信它在...某一天...最终...会有一些用途的,大概.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAlA==",
+            "tooltip": "<strong>美味的...</strong></br>前置任务需求:</br>酿造液体"
+        },
+        {
+            "name": "只有一个人能活下来...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1643.png",
+            "x": 888.0,
+            "y": 36.0,
+            "data": "...所以砍掉它们的脑袋吧. %n%n用你的工具为自己锻造一柄劈刀吧,然后收集一些凋灵骷髅头. %n%n[warn]如果你难以找到凋灵骷髅,等你到HV后,就可以在下界放置一个骷髅电动刷怪笼.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGaw==",
+            "tooltip": "<strong>只有一个人能活下来...</strong></br>前置任务需求:</br>囚禁一个恶魔————凋灵屠宰场"
+        },
+        {
+            "name": "第2阶段(MV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1148.png",
+            "x": 444.0,
+            "y": 180.0,
+            "data": "MV机器外壳需要铝,每个MV机器的组件也需要铝,所以请让你的工业高炉保持运行.%n%n这里有一些起步的建议:%n- MV电解机可以让铝的获取更容易.%n- MV压模机让制作组件更加便宜.%n- MV采矿机可以节约你的时间.  %n%n不知道你是否还记得'安全第一'这个任务,关于接错电压的细节描述? %n简而言之就是把MV电送到LV机器会把它炸掉.%n让MV电流通过LV线缆会熔毁线缆,造成的火焰也可能引发机器爆炸. %n另外,用高电压机器加工低电压配方(不包括ULV,ULV配方视为LV),会进行超频. 超频会消耗4倍的功率,缩短一半的加工时间.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfA==",
+            "tooltip": "<strong>第2阶段(MV)</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>准备好,第2阶段,MV</br>工业高炉时代</br>进阶电子电路(Good Circuits.)</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)..."
+        },
+        {
+            "name": "物品太多? 不存在的!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2414.png",
+            "x": 924.0,
+            "y": 228.0,
+            "data": "东西太多放不下? 只要把这个坏小子拍在抽屉上,你放入的所有物品超出最大储量的物品都将自动销毁! 与抽屉管理器结合使用效果更佳.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJbg==",
+            "tooltip": "<strong>物品太多? 不存在的!</strong></br>前置任务需求:</br>进阶卷板机"
+        },
+        {
+            "name": "汞太多了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2253.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "一小时又一小时...一天又一天...一周又一周...你为了红宝石(铬)处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.%n%n你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能白嫖点电.%n%n译者注:使用汞化学浸洗处理某些矿物可以增产.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIzQ==",
+            "tooltip": "<strong>汞太多了?</strong></br>前置任务需求:</br>你用完了黄金或者红石？"
+        },
+        {
+            "name": "晶体管1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/785.png",
+            "x": 516.0,
+            "y": 636.0,
+            "data": "为了进入下一个阶段,我们需要高级电路板. 而为了制造高级电路板,你需要一些晶体管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADEQ==",
+            "tooltip": "<strong>晶体管1</strong></br>前置任务需求:</br>硅板"
+        },
+        {
+            "name": "三氯硅烷",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1549.png",
+            "x": 468.0,
+            "y": 396.0,
+            "data": "第二条路线可能更好!只需要两个单方块化学反应釜,你就可以制作太阳能级硅.第一步,制作一些三氯硅烷.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGDQ==",
+            "tooltip": "<strong>三氯硅烷</strong></br>前置任务需求:</br>生硅粉"
+        },
+        {
+            "name": "三氯硅烷 续",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1492.png",
+            "x": 468.0,
+            "y": 444.0,
+            "data": "在第二个化学反应釜中，再次通入氢气就可以获得纯化的太阳能级硅.你还可以拿回所有的氢氯酸.%n%n也许你可以自动化这个过程?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF1A==",
+            "tooltip": "<strong>三氯硅烷 续</strong></br>前置任务需求:</br>三氯硅烷"
+        },
+        {
+            "name": "超低功率IC",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1868.png",
+            "x": 192.0,
+            "y": 420.0,
+            "data": "MV能源仓需要超低功率IC.去制造一些吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHTA==",
+            "tooltip": "<strong>超低功率IC</strong></br>前置任务需求:</br>硅晶圆"
+        },
+        {
+            "name": "散热2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/206.png",
+            "x": 216.0,
+            "y": 636.0,
+            "data": "使用散热片,可以让你在科技水平不高时回收热冷却液.只要将散热片作为覆盖板贴在任何储存IC2热冷却液的GT方块上,并在前面放上一格水就行了.最简单的可能就是GT储罐或者流体管道.在能制造大型热交换机或者真空冷冻机之前,这可能对你会有些帮助.%n%n高级/超频散热片比普通的散热片快得多,不过你现在还做不了.而且它们在前面一格是空气时也能工作,但是普通散热片前面必须是水.另外,显而易见,不论哪种散热片,前面一格放上水时的工作速度都比只有空气时更快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAzg==",
+            "tooltip": "<strong>散热2</strong></br>前置任务需求:</br>冷却液"
+        },
+        {
+            "name": "氯乙烯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1872.png",
+            "x": 612.0,
+            "y": 300.0,
+            "data": "氯乙烯是制作先进的PVC物品管道的基础产品.PVC物品管道用于合成LuV机器或超级缸II的密封机械方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHUA==",
+            "tooltip": "<strong>氯乙烯</strong></br>前置任务需求:</br>乙烯"
+        },
+        {
+            "name": "方法一:IC2流体/固体装罐机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/734.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "第一个制作生物质的方法是使用IC2流体/固体装罐机.一桶水以及一个糠可以制成一桶的生物质.%n%n[warn]这个选择并不真的推荐. 你应该关注GT机器, 而不是IC2的. 它与普通单元的交互也有一些问题,你可能需要使用通用流体单元.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC3g==",
+            "tooltip": "<strong>方法一:IC2流体/固体装罐机</strong></br>前置任务需求:</br>糠"
+        },
+        {
+            "name": "路线三：热解炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3070.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "使用GT的热解炉,你可以享受升级线圈带来的速度加成.%n%n你还可以避开发酵槽.请查看NEI决定哪条路最适合你. GT++的工业焦炉也可以做到这一点.%n%n(你只需提交其中之一)%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL_g==",
+            "tooltip": "<strong>路线三：热解炉</strong></br>前置任务需求:</br>糠"
+        },
+        {
+            "name": "方法二:酿造",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/735.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "如果你比较走运,找到了一个酿造台;或者已经开始探索神秘时代mod,有能力制作一个酿造台的话,就可以用1000mB水加上一个糠得到1000mB生物质.换用蒸馏水后,产率更高且速度更快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC3w==",
+            "tooltip": "<strong>方法二:酿造</strong></br>前置任务需求:</br>糠"
+        },
+        {
+            "name": "欢迎来到大苯环神教",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2141.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "要是你到了MV还在使用蒸汽,你可能想知道如何继续生存下去,并走得更远.一种选择是改用轻燃料,这在LV就讲过了.  另一种选择就是用苯.苯是由木焦油制成的.有两条路可以走,都从种树收获原木开始.%n%n一条路是使用焦炉或高级焦炉制造木炭,流体提取得到木焦油. 然后蒸馏木焦油制取苯. 这种方法产生较少污染,不过获得的苯也会比较少.%n%n第二条路就是使用多方块热解炉(加入氮气速度更快),直接生产木炭和木焦油.流体提取木炭以获得额外的木焦油. 接下来的步骤同上. 此方法会在热解炉这步产生污染,但每个原木可获得更多的苯.%n%n多余的木焦油也可以制成甲苯-爆炸物的一个关键成分,你以后会需要它的(尤其在制造火箭的时候).%n%n如果选择产出木炭副产,那么你可以获得大量有用的副产物,但这需要4座蒸馏塔.%n%n[note]之后你可以使用工业焦炉来获得更高的效率.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIXQ==",
+            "tooltip": "<strong>欢迎来到大苯环神教</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "当你需要时,那个勤杂工在哪?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1916.png",
+            "x": 660.0,
+            "y": 60.0,
+            "data": "维护提示覆盖板在其所附着的控制器需要维护时,会发出红石信号.这对你要在HV阶段建造的超净间非常有用,因为维护问题会降低洁净度,造成一定比例的产物被销毁.%n%n对于超净间,你可以将这个覆盖板贴在控制器的底部或顶部.对于别的机器,你可能需要贴在侧面且不挡住正面.这种情况下,你可以用电烙铁加上细焊锡导线右键覆盖板,这样它就能发出强红石信号穿过相邻的方块了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHfA==",
+            "tooltip": "<strong>当你需要时,那个勤杂工在哪?</strong></br>前置任务需求:</br>MV阶段你也会讨厌这个#5"
+        },
+        {
+            "name": "另一种扳手",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/135.png",
+            "x": 1080.0,
+            "y": 84.0,
+            "data": "以太扳手不仅仅是一个普通的扳手.在握住它的同时,你可以在管道类型之间切换,允许你从许多渠道中移除一个特定类型的管道,按住Ctrl+滚动鼠标滚轮可以切换模式.即使你无法接触到管道的另一侧,Shift+左键也可以打开配置接口.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAhw==",
+            "tooltip": "<strong>另一种扳手</strong></br>前置任务需求:</br>导管"
+        },
+        {
+            "name": "MV阶段你会讨厌这个 #2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/893.png",
+            "x": 696.0,
+            "y": 276.0,
+            "data": "这个物品你在MV阶段会用到很多很多,如果你想从你的储罐中提取液体或者想让电解机或者离心机同时输出液体和物品的话,那么你就需要一个.%n%n提示:电动泵需要作为GT流体管道或者GT机器的覆盖板使用,用螺丝刀右击可以改变它的工作模式.当然,现在直接空手Shift+右键显示GUI更加方便.%n%n电动泵还可以在组装机内升级为流体校准器,以便精确的控制流体传输的速度.%n%n译者注:流体校准器比较适用于蒸汽轮机或燃气轮机这类消耗速度较快的多方块机器,等离子涡轮需要用到的是IC流体流量调节机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADfQ==",
+            "tooltip": "<strong>MV阶段你会讨厌这个 #2</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "MV阶段你会讨厌这个 #1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/895.png",
+            "x": 780.0,
+            "y": 276.0,
+            "data": "在MV阶段你也需要很多这个东西.如果你想从箱子中或桶中取出物品那么你就需要用到它.比LV的更快,有一定的实用性.%n%n提示:用一些GT物品管道或机器连接它,用螺丝刀右击它可以改变它的工作模式.当然,现在直接空手Shift+右键显示GUI更加方便.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADfw==",
+            "tooltip": "<strong>MV阶段你会讨厌这个 #1</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "MV阶段你会讨厌这个 #3",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/896.png",
+            "x": 864.0,
+            "y": 276.0,
+            "data": "多囤积一些材料吧,未来你会制造很多电动活塞的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADgA==",
+            "tooltip": "<strong>MV阶段你会讨厌这个 #3</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "MV阶段你会讨厌这个 #4",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/897.png",
+            "x": 864.0,
+            "y": 348.0,
+            "data": "在MV阶段你会需要大量的机械臂,这也是一件很痛苦的工作.可以说是有史以来最痛苦的事情(笑).%n%n提示:机械臂就像一个传送带,但是它可以精确的从容器中提取某一个槽位的物品.用螺丝刀右击来调整机械臂对应的槽位.当然,现在直接空手Shift+右键显示GUI更加方便.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADgQ==",
+            "tooltip": "<strong>MV阶段你会讨厌这个 #4</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "MV阶段你也会讨厌这个#5",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1478.png",
+            "x": 660.0,
+            "y": 108.0,
+            "data": "在制造微波炉、扫描仪和最重要的电路组装机还有精密激光蚀刻机的时候你会需要这个东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFxg==",
+            "tooltip": "<strong>MV阶段你也会讨厌这个#5</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "MV阶段你也会讨厌这个#6",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1477.png",
+            "x": 732.0,
+            "y": 108.0,
+            "data": "为了制造扫描仪和地震勘探者,你需要很多第六种配件...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFxQ==",
+            "tooltip": "<strong>MV阶段你也会讨厌这个#6</strong></br>前置任务需求:</br>MV马达"
+        }
+    ],
+    "links": [
+        {
+            "source": "O似乎是氧",
+            "target": "乙酸"
+        },
+        {
+            "source": "乙烯",
+            "target": "乙酸"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "进阶离心机"
+        },
+        {
+            "source": "晶体管1",
+            "target": "高级电路板"
+        },
+        {
+            "source": "不错的集成电路",
+            "target": "高级电路板"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "进阶压缩机"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "进阶流体提取机"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "进阶研磨机"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "你想要的所有作物"
+        },
+        {
+            "source": "区块加载",
+            "target": "将那些区块,变成一行"
+        },
+        {
+            "source": "MV马达",
+            "target": "我们只是风中的尘土"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "新的合金-魂金"
+        },
+        {
+            "source": "MV阶段的搅拌",
+            "target": "你准备好迈向HV了吗？"
+        },
+        {
+            "source": "新的合金-魂金",
+            "target": "一个灵魂的容器"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "MV自动采矿机"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#6",
+            "target": "MV自动采矿机"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #4",
+            "target": "复仇者联盟2,组装!"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #1",
+            "target": "复仇者联盟2,组装!"
+        },
+        {
+            "source": "当你需要时,那个勤杂工在哪?",
+            "target": "哔...哔...哔..."
+        },
+        {
+            "source": "压出所有东西(Extrude all the things)",
+            "target": "更好的工具"
+        },
+        {
+            "source": "植物团块",
+            "target": "糠"
+        },
+        {
+            "source": "种子油",
+            "target": "生物柴油1"
+        },
+        {
+            "source": "氢氧化钠1",
+            "target": "生物柴油1"
+        },
+        {
+            "source": "鱼油",
+            "target": "生物柴油1"
+        },
+        {
+            "source": "甲醇",
+            "target": "生物柴油1"
+        },
+        {
+            "source": "乙醇1",
+            "target": "生物柴油1"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "生物质燃料"
+        },
+        {
+            "source": "方法一:IC2流体/固体装罐机",
+            "target": "生物质"
+        },
+        {
+            "source": "路线三：热解炉",
+            "target": "生物质"
+        },
+        {
+            "source": "方法二:酿造",
+            "target": "生物质"
+        },
+        {
+            "source": "化尘为晶",
+            "target": "生物有机网"
+        },
+        {
+            "source": "植物球",
+            "target": "生物有机网"
+        },
+        {
+            "source": "电解万物",
+            "target": "电解硼砂"
+        },
+        {
+            "source": "简易RF能源:液体",
+            "target": "酿造液体"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "囚禁一个恶魔————凋灵屠宰场"
+        },
+        {
+            "source": "生碳网",
+            "target": "碳板"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #4",
+            "target": "化学脱水机"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "化学课,第二部分"
+        },
+        {
+            "source": "电解万物",
+            "target": "电解粘土"
+        },
+        {
+            "source": "IO,IO,我们去EnderIO",
+            "target": "来到黑暗面...(Come to the Dark Side...)"
+        },
+        {
+            "source": "IO,IO,我们去EnderIO",
+            "target": "导管"
+        },
+        {
+            "source": "MV阶段的搅拌",
+            "target": "冷却液"
+        },
+        {
+            "source": "冷却坎塔尔合金",
+            "target": "冷却液"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #2",
+            "target": "冷却坎塔尔合金"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #1",
+            "target": "冷却坎塔尔合金"
+        },
+        {
+            "source": "不锈钢太难烧了？",
+            "target": "咳咳咳-需要处理下污染了!"
+        },
+        {
+            "source": "钻石箱子...哦,闪闪发亮",
+            "target": "玄钢箱子"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "玄钢箱子"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "玄钢管道"
+        },
+        {
+            "source": "来到黑暗面...(Come to the Dark Side...)",
+            "target": "玄钢工具"
+        },
+        {
+            "source": "进阶离心机",
+            "target": "你用完了黄金或者红石？"
+        },
+        {
+            "source": "轻燃油1",
+            "target": "柴油1"
+        },
+        {
+            "source": "重燃油1",
+            "target": "柴油1"
+        },
+        {
+            "source": "MV阶段的搅拌",
+            "target": "柴油1"
+        },
+        {
+            "source": "你受够了?我打赌你觉得报纸早就死了!",
+            "target": "你觉得你是非酋?"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "电解万物"
+        },
+        {
+            "source": "氯化铁1",
+            "target": "塑料电路基板1"
+        },
+        {
+            "source": "过硫酸钠1",
+            "target": "塑料电路基板1"
+        },
+        {
+            "source": "发酵生物质1",
+            "target": "乙醇1"
+        },
+        {
+            "source": "化学课,第二部分",
+            "target": "乙烯酮"
+        },
+        {
+            "source": "乙酸",
+            "target": "乙烯酮"
+        },
+        {
+            "source": "化学课,第二部分",
+            "target": "乙烯"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "乙烯"
+        },
+        {
+            "source": "化学脱水机",
+            "target": "真正的稀土"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "压出所有东西(Extrude all the things)"
+        },
+        {
+            "source": "生物质",
+            "target": "发酵生物质1"
+        },
+        {
+            "source": "路线三：热解炉",
+            "target": "发酵生物质1"
+        },
+        {
+            "source": "MV自动采矿机",
+            "target": "火石矿/粉"
+        },
+        {
+            "source": "酿造液体",
+            "target": "火焰水"
+        },
+        {
+            "source": "冷却液",
+            "target": "第一块坎塔尔合金锭"
+        },
+        {
+            "source": "MV级能源仓",
+            "target": "第一块坎塔尔合金锭"
+        },
+        {
+            "source": "冷却坎塔尔合金",
+            "target": "第一块坎塔尔合金锭"
+        },
+        {
+            "source": "进阶流体提取机",
+            "target": "鱼油"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #2",
+            "target": "流体固化器"
+        },
+        {
+            "source": "生物柴油1",
+            "target": "甘油"
+        },
+        {
+            "source": "集成逻辑电路1",
+            "target": "不错的集成电路"
+        },
+        {
+            "source": "一种矿物处理...",
+            "target": "有研磨头总比没有好"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #2",
+            "target": "GT储罐,HV版"
+        },
+        {
+            "source": "MV马达",
+            "target": "你受够了?我打赌你觉得报纸早就死了!"
+        },
+        {
+            "source": "熔融聚乙烯",
+            "target": "胶水留痕(Hangover From All That Glue)?"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "胶水留痕(Hangover From All That Glue)?"
+        },
+        {
+            "source": "氯化铁1",
+            "target": "氢氯酸"
+        },
+        {
+            "source": "过硫酸钠1",
+            "target": "氢氯酸"
+        },
+        {
+            "source": "三氯硅烷",
+            "target": "氢氯酸"
+        },
+        {
+            "source": "酿造液体",
+            "target": "烈酒"
+        },
+        {
+            "source": "MV精密激光蚀刻机",
+            "target": "集成逻辑电路和RAM芯片"
+        },
+        {
+            "source": "导管",
+            "target": "升级导管"
+        },
+        {
+            "source": "氢氧化钠1",
+            "target": "我需要来一杯.敬更多的铬."
+        },
+        {
+            "source": "进阶离心机",
+            "target": "我需要来一杯.敬更多的铬."
+        },
+        {
+            "source": "MV阶段的搅拌",
+            "target": "我需要来一杯.敬更多的铬."
+        },
+        {
+            "source": "集成逻辑电路和RAM芯片",
+            "target": "集成逻辑电路1"
+        },
+        {
+            "source": "基础电路组装机",
+            "target": "集成逻辑电路1"
+        },
+        {
+            "source": "MV马达",
+            "target": "IO,IO,我们去EnderIO"
+        },
+        {
+            "source": "熔融塑料",
+            "target": "氯化铁1"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "大型铝流体单元"
+        },
+        {
+            "source": "钽矿石",
+            "target": "机器框架"
+        },
+        {
+            "source": "发酵生物质1",
+            "target": "更好的蒸馏室"
+        },
+        {
+            "source": "机器框架",
+            "target": "变得漂亮"
+        },
+        {
+            "source": "导管",
+            "target": "变得漂亮"
+        },
+        {
+            "source": "发酵生物质1",
+            "target": "甲烷2"
+        },
+        {
+            "source": "发酵生物质1",
+            "target": "甲醇"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段的搅拌"
+        },
+        {
+            "source": "熔融聚乙烯",
+            "target": "熔融塑料"
+        },
+        {
+            "source": "流体固化器",
+            "target": "熔融塑料"
+        },
+        {
+            "source": "O似乎是氧",
+            "target": "熔融聚乙烯"
+        },
+        {
+            "source": "乙烯",
+            "target": "熔融聚乙烯"
+        },
+        {
+            "source": "砷化镓晶体",
+            "target": "单晶硅"
+        },
+        {
+            "source": "太阳能级硅",
+            "target": "单晶硅"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "进阶锅炉[MV]"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "进阶卷板机"
+        },
+        {
+            "source": "润滑油2",
+            "target": "MV级能源仓"
+        },
+        {
+            "source": "超低功率IC",
+            "target": "MV级能源仓"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "MV级能源仓"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "MV马达"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#5",
+            "target": "MV精密激光蚀刻机"
+        },
+        {
+            "source": "硅晶圆",
+            "target": "MV精密激光蚀刻机"
+        },
+        {
+            "source": "终结...",
+            "target": "MV超导(128 EU/t)"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "MV超导(128 EU/t)"
+        },
+        {
+            "source": "更多的热量 - 坎塔尔线圈",
+            "target": "MV超导(128 EU/t)"
+        },
+        {
+            "source": "电解万物",
+            "target": "O似乎是氧"
+        },
+        {
+            "source": "进阶卷板机",
+            "target": "百万归一"
+        },
+        {
+            "source": "机器框架",
+            "target": "一种矿物处理..."
+        },
+        {
+            "source": "生物有机网",
+            "target": "有机之道"
+        },
+        {
+            "source": "进阶卷板机",
+            "target": "区块加载"
+        },
+        {
+            "source": "压出所有东西(Extrude all the things)",
+            "target": "管道,管道无处不在"
+        },
+        {
+            "source": "生物质燃料",
+            "target": "植物球"
+        },
+        {
+            "source": "植物球",
+            "target": "植物团块"
+        },
+        {
+            "source": "氯乙烯",
+            "target": "聚氯乙烯"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#6",
+            "target": "便携探矿仪"
+        },
+        {
+            "source": "机器框架",
+            "target": "便携式储罐"
+        },
+        {
+            "source": "硅晶圆",
+            "target": "太阳能"
+        },
+        {
+            "source": "太阳能",
+            "target": "太阳之力(ULV)1x1"
+        },
+        {
+            "source": "太阳能",
+            "target": "太阳之力(ULV)"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "压制MV阶段的一切"
+        },
+        {
+            "source": "聚氯乙烯",
+            "target": "聚氯乙烯片"
+        },
+        {
+            "source": "熔融聚乙烯",
+            "target": "生碳网"
+        },
+        {
+            "source": "二氧化硅",
+            "target": "生硅粉"
+        },
+        {
+            "source": "电解万物",
+            "target": "生硅粉"
+        },
+        {
+            "source": "机器框架",
+            "target": "基础电容库"
+        },
+        {
+            "source": "电解万物",
+            "target": "电解红宝石"
+        },
+        {
+            "source": "四氯化硅 续",
+            "target": "头疼(Salty)的硅产线?"
+        },
+        {
+            "source": "进阶流体提取机",
+            "target": "种子油"
+        },
+        {
+            "source": "电解万物",
+            "target": "二氧化硅"
+        },
+        {
+            "source": "太阳能级锭",
+            "target": "硅板"
+        },
+        {
+            "source": "三氯硅烷 续",
+            "target": "太阳能级硅"
+        },
+        {
+            "source": "四氯化硅 续",
+            "target": "太阳能级硅"
+        },
+        {
+            "source": "生硅粉",
+            "target": "四氯化硅"
+        },
+        {
+            "source": "四氯化硅",
+            "target": "四氯化硅 续"
+        },
+        {
+            "source": "单晶硅",
+            "target": "硅晶圆"
+        },
+        {
+            "source": "简单的物品转移",
+            "target": "简单的液体转移"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "简单的物品转移"
+        },
+        {
+            "source": "便携式储罐",
+            "target": "简易RF能源:液体"
+        },
+        {
+            "source": "机器框架",
+            "target": "简易RF能源:固体"
+        },
+        {
+            "source": "机器框架",
+            "target": "熔炼合金(alloy)(熔炼所有乐趣(all-joy))"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氢氧化钠1"
+        },
+        {
+            "source": "熔融塑料",
+            "target": "过硫酸钠1"
+        },
+        {
+            "source": "第一块坎塔尔合金锭",
+            "target": "太阳能级锭"
+        },
+        {
+            "source": "冷却液",
+            "target": "太阳能级锭"
+        },
+        {
+            "source": "太阳能级硅",
+            "target": "太阳能级锭"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "太阳能级锭"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #4",
+            "target": "加速缓慢的机器"
+        },
+        {
+            "source": "MV级能源仓",
+            "target": "不锈钢与工业高炉"
+        },
+        {
+            "source": "你准备好迈向HV了吗？",
+            "target": "不锈钢与工业高炉"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "不锈钢太难烧了？"
+        },
+        {
+            "source": "熔融聚乙烯",
+            "target": "超级缸 I"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #2",
+            "target": "超级缸 I"
+        },
+        {
+            "source": "IO,IO,我们去EnderIO",
+            "target": "钽矿石"
+        },
+        {
+            "source": "酿造液体",
+            "target": "美味的..."
+        },
+        {
+            "source": "囚禁一个恶魔————凋灵屠宰场",
+            "target": "只有一个人能活下来..."
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "第2阶段(MV)"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "第2阶段(MV)"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "第2阶段(MV)"
+        },
+        {
+            "source": "进阶电子电路(Good Circuits.)",
+            "target": "第2阶段(MV)"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "第2阶段(MV)"
+        },
+        {
+            "source": "进阶卷板机",
+            "target": "物品太多? 不存在的!"
+        },
+        {
+            "source": "你用完了黄金或者红石？",
+            "target": "汞太多了?"
+        },
+        {
+            "source": "硅板",
+            "target": "晶体管1"
+        },
+        {
+            "source": "生硅粉",
+            "target": "三氯硅烷"
+        },
+        {
+            "source": "三氯硅烷",
+            "target": "三氯硅烷 续"
+        },
+        {
+            "source": "硅晶圆",
+            "target": "超低功率IC"
+        },
+        {
+            "source": "冷却液",
+            "target": "散热2"
+        },
+        {
+            "source": "乙烯",
+            "target": "氯乙烯"
+        },
+        {
+            "source": "糠",
+            "target": "方法一:IC2流体/固体装罐机"
+        },
+        {
+            "source": "糠",
+            "target": "路线三：热解炉"
+        },
+        {
+            "source": "糠",
+            "target": "方法二:酿造"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "欢迎来到大苯环神教"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#5",
+            "target": "当你需要时,那个勤杂工在哪?"
+        },
+        {
+            "source": "导管",
+            "target": "另一种扳手"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段你会讨厌这个 #2"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段你会讨厌这个 #1"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段你会讨厌这个 #3"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "MV阶段你会讨厌这个 #4"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段你也会讨厌这个#5"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV阶段你也会讨厌这个#6"
+        }
+    ]
+}

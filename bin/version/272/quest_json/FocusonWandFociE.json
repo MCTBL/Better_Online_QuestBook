@@ -1,0 +1,614 @@
+{
+    "data": [
+        {
+            "name": "合适的武器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/289.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "我应该有一把称手的兵器,某种可以向敌人发射来自地狱生物的兵器.(魔导手册神秘学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABIQ==",
+            "tooltip": "<strong>合适的武器</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!</br>火石矿/粉"
+        },
+        {
+            "name": "掉出神界,坠入人间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1346.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "你听说一个流言,有一件强大的武器,掉出阿斯加德(Asgard),坠入了地球.这就是那件神秘的物品吗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFQg==",
+            "tooltip": "<strong>掉出神界,坠入人间</strong></br>前置任务需求:</br>触发:雷神之锤"
+        },
+        {
+            "name": "电动锄头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1357.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "虽然普通的锄头容易破碎,但我们有一个不会坏的!制作这个,然后进行充电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFTQ==",
+            "tooltip": "<strong>电动锄头</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "电力->魔法(EU->VIS)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1358.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "该设备允许你使用EU为法杖充能,但每点Vis恢复的消耗为10000EU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFTg==",
+            "tooltip": "<strong>电力->魔法(EU->VIS)</strong></br>前置任务需求:</br>前往小行星和其他三阶星球的路上</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "按住B键以阻止!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1359.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "此核心可以阻挡任何传入的伤害. 如果你正在和一个对你来说太强大的敌人进行战斗,那就偷偷溜走!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFTw==",
+            "tooltip": "<strong>按住B键以阻止!</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!</br>升级镍铬合金线圈"
+        },
+        {
+            "name": "反应堆屏障 2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1360.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "护盾方块-防爆-一次性使用. 制作几个将你的反应堆包裹起来!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFUA==",
+            "tooltip": "<strong>反应堆屏障 2.0</strong></br>前置任务需求:</br>按住B键以阻止!"
+        },
+        {
+            "name": "可充电的笔与墨",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1354.png",
+            "x": 348.0,
+            "y": 12.0,
+            "data": "你厌倦了所有的墨水,你也不想用自己的血？制造这个高科技笔与墨吧,这将使你的研究更容易!把这玩意看作一个HV工具-在任意HV机器的电池槽充电,或是用HV电池箱充电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFSg==",
+            "tooltip": "<strong>可充电的笔与墨</strong></br>前置任务需求:</br>能量水晶</br>书写工具"
+        },
+        {
+            "name": "修好了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1347.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "不幸的是,锤子坏了.但是你有修复它的技能和知识,不是吗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFQw==",
+            "tooltip": "<strong>修好了!</strong></br>前置任务需求:</br>搞什么鬼...？</br>掉出神界,坠入人间</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "点燃闪耀之光...?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1353.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "黄色的!颜色多么难看!我要紫色的闪耀之光!给我一些,你会交换到一些不错的玩意.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFSQ==",
+            "tooltip": "<strong>点燃闪耀之光...?</strong></br>前置任务需求:</br>火把的代替品"
+        },
+        {
+            "name": "高压雷神之锤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1348.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "给你的雷神之锤附加的调整改变了它.现在你可以召唤一些守护雪人来帮助你了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFRA==",
+            "tooltip": "<strong>高压雷神之锤</strong></br>前置任务需求:</br>修好了!"
+        },
+        {
+            "name": "魔戒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1362.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "你找到了,一枚由强大的黑巫师锻造的戒指.一种奇怪的感觉告诉你:穿上它.戒指似乎也在向你耳语...%n%n[note]不过你最好别这么做.除非你想获得大量的扭曲,凋灵在你的屁股后面生成,然后把你的基地炸上天.[/note]%n%n魔戒会使你隐身且无敌,但同时这枚戒指也会不断收集扭曲,并反馈到你身上.佩戴1小时后,增量会明显变快,所以除非你有的是纯净泪水,不要长时间佩戴.这枚戒指还会带来其他状态,同时戴上后想拿下来就不是那么简单的事情了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFUg==",
+            "tooltip": "<strong>魔戒</strong></br>前置任务需求:</br>触发:魔戒"
+        },
+        {
+            "name": "法杖核心:闪烁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1400.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "法杖核心:闪烁是一个非常强大的核心,只要目标距离你不到50个方块,点击就可以传送. 而且由于没有传送冷却时间,你可以非常快速地旅行. 每次施法消耗3vis混沌要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFeA==",
+            "tooltip": "<strong>法杖核心:闪烁</strong></br>前置任务需求:</br>法杖核心:便携式洞穴"
+        },
+        {
+            "name": "法杖核心:邪术",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1396.png",
+            "x": 156.0,
+            "y": 204.0,
+            "data": "法杖核心:邪术允许玩家发射类似邪术守卫发射的射弹. 可以使用潜能,朴素,明晰,扩散和腐蚀进行升级. 每次发射都会让玩家获得临时扭曲.但如果核心有明晰升级,就不会发生这种情况. 使用扩散升级核心将改变其射击模式,从单个射弹变为短程黑色气体,就像火焰喷射器. 每次施法消耗0.2vis火+0.2vis混沌要素. 使用腐蚀升级时,每次施放都需要额外增加0.2vis水+0.3vis火之要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFdA==",
+            "tooltip": "<strong>法杖核心:邪术</strong></br>前置任务需求:</br>法杖核心:便携式洞穴</br>创造天地的力量"
+        },
+        {
+            "name": "法杖核心:转移",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1385.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "法杖核心:转移允许玩家采集和放置任何方块,甚至是方块实体和通常无法获得的东西,如充能灵气节点、充能节点、刷怪笼、已种植的IC作物等等.%n%n[warn]请勿随意使用,移动不该移动的方块,比如半边门、多方块结构的一部分,这很容易损坏存档. 换句话说,如果你是单人玩家,在备份完毕后可以为所以为,只要出问题了别找我们就行.[/warn]%n%n[note]移动充能节点会造成一次咒波大爆炸,请谨慎使用.[/note]%n%n它消耗:%n5vis秩序+5vis混沌+1vis地之要素采集任何固体方块.%n25vis秩序+25vis混沌+5vis地之要素可以采集任何实体方块(例如箱子).%n100vis秩序+100vis混沌+20vis地之要素采集刷怪笼.%n%n这个核心可以在核心镶饰台升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFaQ==",
+            "tooltip": "<strong>法杖核心:转移</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!</br>法杖核心:更替"
+        },
+        {
+            "name": "法杖核心:震荡",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1388.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "法杖核心:震荡可以在任何法杖上装备. 它可以保护施法者免受\"普通\"弹丸的攻击,如箭,雪球和魔药. 可以通过F键(默认键位)循环当前在玩家背包中的核心来启用此核心. 核心在使用时消耗存储在法杖中的0.04vis风和0.08vis秩序要素.%n%n此核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFbA==",
+            "tooltip": "<strong>法杖核心:震荡</strong></br>前置任务需求:</br>法杖核心:升腾"
+        },
+        {
+            "name": "法杖核心:伊芙利特之辉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1384.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "法杖核心:伊芙利特之辉是一个法杖核心,当它指向并射击方块时,它会像熔炉那样熔炼那些方块. 它射出的光束类似于采掘核心. 每次使用消耗0.45vis火和0.12vis混沌要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFaA==",
+            "tooltip": "<strong>法杖核心:伊芙利特之辉</strong></br>前置任务需求:</br>奥法工作台</br>法杖核心:火焰</br>法杖核心:采掘"
+        },
+        {
+            "name": "法杖核心:末影裂痕",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1389.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "法杖核心:末影裂痕是一个法杖核心,当玩家使用它右键点击时,可以远程打开原版末影箱子. 使用时,核心消耗0.9vis秩序+0.9vis混沌要素.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFbQ==",
+            "tooltip": "<strong>法杖核心:末影裂痕</strong></br>前置任务需求:</br>法杖核心:便携式洞穴"
+        },
+        {
+            "name": "法杖核心:更替",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1375.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "法杖核心:更替是由神秘时代4添加的法杖核心.它用于通过玩家背包中的方块来替换世界中的方块. shift加右键选择替换原材料,左键将目标方块替换成选定的方块,右键将与目标方块同种类的方块替换成选定方块(5x5区块,与空气接触). 更替效果可穿墙,也可深入洞中,所以使用的时候要当心. 在核心镶饰台上升级核心可以扩展此范围. 每次使用消耗0.05秩序、0.05混沌和0.05土之要素.%n%n这个核心可以在核心镶饰台升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFXw==",
+            "tooltip": "<strong>法杖核心:更替</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:采掘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1373.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "法杖核心:采掘装配到法杖上,挖掘时会发出一束绿光,从远处开采任何硬度的方块(除了像基岩这样的方块).%n%n它的基础消耗是开采方块时0.15vis/t土之要素. 它也用于操作奥术钻探机.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFXQ==",
+            "tooltip": "<strong>法杖核心:采掘</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:经验抽取",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1391.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "法杖核心:经验抽取,将以15xp/t的速度消耗玩家的经验,以相当快的速度恢复魔力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFbw==",
+            "tooltip": "<strong>法杖核心:经验抽取</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:火焰",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1372.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "法杖核心:火焰是一个基本的法杖核心. 当配备法杖时,通过按住鼠标右键,它将能够发出短程锥形火焰. 它的基础消耗是每秒0.1vis/t火之要素. 可以在核心镶饰台上升级该核心.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFXA==",
+            "tooltip": "<strong>法杖核心:火焰</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:寒霜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1376.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "法杖核心:寒霜,当装备到法杖上时,它将发射一个冰球,如果目标的硬度足够高,冰球可以在方块块和怪物身上反弹. 它会对怪物施加缓慢效果、冻结水并凝固岩浆. 它的基础消耗为每次发射0.05水、0.02火和0.02混沌要素.%n%n这个核心可以在核心镶饰台升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFYA==",
+            "tooltip": "<strong>法杖核心:寒霜</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:法师之锤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1399.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "法杖核心:法师之锤可以被任何法杖装备,并且可以增加最多15颗心的攻击伤害. 它可以升级朴素,潜能和嗜血. 每次使用此核心的攻击都需要0.5vis混沌要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFdw==",
+            "tooltip": "<strong>法杖核心:法师之锤</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:愈合",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1386.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "法杖核心:愈合是一个法杖核心,通过消耗Vis慢慢修补施法者的伤口. 核心每消耗0.45vis水和0.45vis地之要素,治疗半心(1点生命值).%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFag==",
+            "tooltip": "<strong>法杖核心:愈合</strong></br>前置任务需求:</br>法杖核心:岩精的诅咒</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:天气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1398.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "法杖核心:天气任何法杖都可以装备. 在雨天使用时会停止下雨,在晴朗的天气使用时,会开始下雨. 每次施法都会花费每个种类要素10vis并且会使施法者在30秒内无法使用任何其他核心.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFdg==",
+            "tooltip": "<strong>法杖核心:天气</strong></br>前置任务需求:</br>法杖核心:寒霜</br>创造天地的力量</br>法杖核心:震击"
+        },
+        {
+            "name": "法杖核心:岩精的诅咒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1380.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "法杖核心:岩精的诅咒是一种罕见的法杖核心,不能由玩家制作. 它只能从岩精获得--无论是通过交易,还是通过击杀掉落.(如果受到攻击,岩精会用它来对付你!) 每次射击的消耗是0.1vis混沌、0.1vis地和0.1vis水之要素. 核心沿着一条明亮的蓝绿色轨迹射出一小团能量. 这种导弹受到重力的影响,所以射击需要\"弧形\"才能击中远处的目标. 当这团能量击中怪物时,它会造成一心伤害,并随机对目标造成几种效果之一:中毒,虚弱或缓慢. 对核心进行5级升级可以立即给予所有效果.%n%n此核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFZA==",
+            "tooltip": "<strong>法杖核心:岩精的诅咒</strong></br>前置任务需求:</br>你的第一根法杖"
+        },
+        {
+            "name": "法杖核心:便携式洞穴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1378.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "法杖核心:便携式洞穴,装配到法杖上后,可在目标方块上创建一个临时的3x3通道,通道长32个方块. 有些方块无法通过,比如基岩. 它的基础消耗是每次释放0.1vis水和0.1vis混沌要素.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFYg==",
+            "tooltip": "<strong>法杖核心:便携式洞穴</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:元始",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1381.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "法杖核心:元始装上法杖后,右键可发射一个带着元始能量的球体. 这个球体在撞击时爆炸,并且有小几率造成其他效果,例如在撞击点产生污染或节点. 它的基础消耗每tick都会变化.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFZQ==",
+            "tooltip": "<strong>法杖核心:元始</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:阴影之束",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1392.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "法杖核心:阴影之束射出一束能量,可被任何阻挡物反射并对光束所经过的一切生物造成伤害. 光束传播的距离相当短(其实不短). 消耗0.15vis风+0.25vis秩序+0.25vis混沌要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFcA==",
+            "tooltip": "<strong>法杖核心:阴影之束</strong></br>前置任务需求:</br>法杖核心:震荡</br>法杖核心:采掘</br>Fuuuuuu...sion(融合)!</br>法杖核心:震击"
+        },
+        {
+            "name": "法杖核心:震击",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1374.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "法杖核心:震击装备到法杖上后,会在按下鼠标右键时射出一道闪电. 它瞄准最近的怪物/玩家. 它的基础消耗是0.25vis/t风之要素.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFXg==",
+            "tooltip": "<strong>法杖核心:震击</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:腐化激波",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1394.png",
+            "x": 12.0,
+            "y": 204.0,
+            "data": "法杖核心:腐化激波将在施法者周围释放出一股强大的冲击波,可传出15-20个方块并伤害半径内的所有怪物,且将怪物击飞(与击退II效果相同). 使用此核心后,施法者将无法使用任何其他魔法15秒.核心可以升级朴素和增广,每个级别的增广将为冲击波半径增加1个方块. 每次施法消耗10vis水+5vis秩序+10vis地+10vis混沌要素. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFcg==",
+            "tooltip": "<strong>法杖核心:腐化激波</strong></br>前置任务需求:</br>法杖核心:腐化风暴"
+        },
+        {
+            "name": "法杖核心:腐化风暴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1393.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "法杖核心:腐化风暴可以在任何法杖上装备,可发出一股受污染的粒子,这些粒子会在短距离内对任何物质造成伤害,并使污染毒素持续5秒. 除非有抗体(Antibody)升级,否则核心还会对施法者造成持续10秒的咒流III. 核心可以升级朴素,潜能,增广,抗体(Antibody)和腐蚀. 每次施法消耗0.1vis水+0.1vis混沌要素. 这个核心可以在核心镶饰台升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFcQ==",
+            "tooltip": "<strong>法杖核心:腐化风暴</strong></br>前置任务需求:</br>法杖核心:岩精的诅咒</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:念力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1390.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "法杖核心:念力是一个法杖核心,可以向法杖指向的方向移动附近的物体,例如丢弃的物品,箭等,如果你在使用它时按住Shift键,也可以让移动方向朝向自己. 使用时每tick消耗0.05vis风+0.05vis混沌要素.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFbg==",
+            "tooltip": "<strong>法杖核心:念力</strong></br>前置任务需求:</br>法杖核心:升腾</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1397.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "法杖核心:时间 任何法杖都可以装备. 白天使用时,会将时间设定为黄昏. 在夜间使用时,会将时间设置为日出. 每次施法都需要花费10vis所有种类要素,并且会让玩家在30秒内无法使用任何其他核心. 译者注:使用时间核心获得的夜晚均为满月.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFdQ==",
+            "tooltip": "<strong>法杖核心:时间</strong></br>前置任务需求:</br>法杖核心:便携式洞穴</br>创造天地的力量"
+        },
+        {
+            "name": "法杖核心:升腾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1387.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "法杖核心:升腾是一个法杖核心,推动玩家朝着他们所面对的方向前进. 使用时,核心每次激活消耗0.15vis风之要素.%n%n此核心可在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFaw==",
+            "tooltip": "<strong>法杖核心:升腾</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "法杖核心:魔力碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1395.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "法杖核心:魔力碎片可以在任何法杖上装备. 装备后,右键单击以制造一个能造成2-5点伤害的魔力碎片. 这种抛射物可以在固体方块上反弹. 如果目标在10秒内未被击中,则魔力碎片消失. 这种核心可以升级朴素,潜能和持续. 这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFcw==",
+            "tooltip": "<strong>法杖核心:魔力碎片</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "法杖核心:守护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1377.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "法杖核心:守护,可以用来创造\"守护方块\".使用一根法杖或权杖右击需要保护的方块,就可以施加守护.这会使方块无法被其他玩家破坏或对其做出更不恰当的行为,直到通过用法杖再次右击它来解除守护.如果你试图对着玻璃使用守护核心,它会破坏玻璃.另有一种被称为守卫者玻璃的方块,请查找\"奥术守护\"研究.你也无法对实体方块(如GT机器)使用守护核心.请注意,只有对方块进行守护的玩家才能将其保护状态取消.%n%n守护方块是完全坚不可摧的,当所有者或其他玩家试图打破它时,会产生类似于符文阻挡的粒子效果.此外,受到重力影响的方块(如沙子和沙砾)在受到保护时不会掉落.保护方块不会受到红石和活塞等外部影响. 破坏受保护方块的唯一方法是通过所有者使用手中的法杖右键单击其本身.守卫一个方块需要花费0.1vis水,0.25vis秩序和0.25vis地之要素.%n%n特别注意:被守护的方块会发光.%n%n这个核心可以在核心镶饰台上升级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFYQ==",
+            "tooltip": "<strong>法杖核心:守护</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "搞什么鬼...？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1361.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "你找到了一个黄色的发光球. 以后可能会有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFUQ==",
+            "tooltip": "<strong>搞什么鬼...？</strong></br>前置任务需求:</br>触发:球状物"
+        }
+    ],
+    "links": [
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "合适的武器"
+        },
+        {
+            "source": "火石矿/粉",
+            "target": "合适的武器"
+        },
+        {
+            "source": "触发:雷神之锤",
+            "target": "掉出神界,坠入人间"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "电动锄头"
+        },
+        {
+            "source": "前往小行星和其他三阶星球的路上",
+            "target": "电力->魔法(EU->VIS)"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "电力->魔法(EU->VIS)"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "按住B键以阻止!"
+        },
+        {
+            "source": "升级镍铬合金线圈",
+            "target": "按住B键以阻止!"
+        },
+        {
+            "source": "按住B键以阻止!",
+            "target": "反应堆屏障 2.0"
+        },
+        {
+            "source": "能量水晶",
+            "target": "可充电的笔与墨"
+        },
+        {
+            "source": "书写工具",
+            "target": "可充电的笔与墨"
+        },
+        {
+            "source": "搞什么鬼...？",
+            "target": "修好了!"
+        },
+        {
+            "source": "掉出神界,坠入人间",
+            "target": "修好了!"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "修好了!"
+        },
+        {
+            "source": "火把的代替品",
+            "target": "点燃闪耀之光...?"
+        },
+        {
+            "source": "修好了!",
+            "target": "高压雷神之锤"
+        },
+        {
+            "source": "触发:魔戒",
+            "target": "魔戒"
+        },
+        {
+            "source": "法杖核心:便携式洞穴",
+            "target": "法杖核心:闪烁"
+        },
+        {
+            "source": "法杖核心:便携式洞穴",
+            "target": "法杖核心:邪术"
+        },
+        {
+            "source": "创造天地的力量",
+            "target": "法杖核心:邪术"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:转移"
+        },
+        {
+            "source": "法杖核心:更替",
+            "target": "法杖核心:转移"
+        },
+        {
+            "source": "法杖核心:升腾",
+            "target": "法杖核心:震荡"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:伊芙利特之辉"
+        },
+        {
+            "source": "法杖核心:火焰",
+            "target": "法杖核心:伊芙利特之辉"
+        },
+        {
+            "source": "法杖核心:采掘",
+            "target": "法杖核心:伊芙利特之辉"
+        },
+        {
+            "source": "法杖核心:便携式洞穴",
+            "target": "法杖核心:末影裂痕"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:更替"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:采掘"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:经验抽取"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:火焰"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:寒霜"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:法师之锤"
+        },
+        {
+            "source": "法杖核心:岩精的诅咒",
+            "target": "法杖核心:愈合"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:愈合"
+        },
+        {
+            "source": "法杖核心:寒霜",
+            "target": "法杖核心:天气"
+        },
+        {
+            "source": "创造天地的力量",
+            "target": "法杖核心:天气"
+        },
+        {
+            "source": "法杖核心:震击",
+            "target": "法杖核心:天气"
+        },
+        {
+            "source": "你的第一根法杖",
+            "target": "法杖核心:岩精的诅咒"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:便携式洞穴"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:元始"
+        },
+        {
+            "source": "法杖核心:震荡",
+            "target": "法杖核心:阴影之束"
+        },
+        {
+            "source": "法杖核心:采掘",
+            "target": "法杖核心:阴影之束"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:阴影之束"
+        },
+        {
+            "source": "法杖核心:震击",
+            "target": "法杖核心:阴影之束"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:震击"
+        },
+        {
+            "source": "法杖核心:腐化风暴",
+            "target": "法杖核心:腐化激波"
+        },
+        {
+            "source": "法杖核心:岩精的诅咒",
+            "target": "法杖核心:腐化风暴"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:腐化风暴"
+        },
+        {
+            "source": "法杖核心:升腾",
+            "target": "法杖核心:念力"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:念力"
+        },
+        {
+            "source": "法杖核心:便携式洞穴",
+            "target": "法杖核心:时间"
+        },
+        {
+            "source": "创造天地的力量",
+            "target": "法杖核心:时间"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:升腾"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "法杖核心:魔力碎片"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "法杖核心:守护"
+        },
+        {
+            "source": "触发:球状物",
+            "target": "搞什么鬼...？"
+        }
+    ]
+}

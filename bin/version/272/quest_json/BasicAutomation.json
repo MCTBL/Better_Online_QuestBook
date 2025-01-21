@@ -1,0 +1,540 @@
+{
+    "data": [
+        {
+            "name": "高级探测轨道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1553.png",
+            "x": 216.0,
+            "y": 12.0,
+            "data": "有了货物管理器之后,还需要一个特定的轨道,矿车就可以与之交互. 只需将高级探测轨道放在货物管理器旁边,根据其所在侧面的颜色,你必须调整货物管理器GUI中的设置.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGEQ==",
+            "tooltip": "<strong>高级探测轨道</strong></br>前置任务需求:</br>自动装(卸)载"
+        },
+        {
+            "name": "简单的矿车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/111.png",
+            "x": 324.0,
+            "y": 108.0,
+            "data": "为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.%n%n警告: 不受保护的矿车可能会被雷电击中而脱轨.用玻璃(或任何固体方块)遮盖该区域,以防矿车消失.%n%n另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAbw==",
+            "tooltip": "<strong>简单的矿车</strong></br>前置任务需求:</br>第一个自动化"
+        },
+        {
+            "name": "自动装(卸)载",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/108.png",
+            "x": 216.0,
+            "y": 60.0,
+            "data": "你可以手动填充和清空你的矿车,但自动化转移物品更方便,不是吗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAbA==",
+            "tooltip": "<strong>自动装(卸)载</strong></br>前置任务需求:</br>第一个自动化"
+        },
+        {
+            "name": "矿车模块:煤炭引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/107.png",
+            "x": 324.0,
+            "y": 156.0,
+            "data": "你的矿车显然需要能量.矿车可以通过太阳能或岩浆供能.但现在你只能用简单的煤炭引擎.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAaw==",
+            "tooltip": "<strong>矿车模块:煤炭引擎</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:挖掘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1209.png",
+            "x": 264.0,
+            "y": 60.0,
+            "data": "想试一试让矿车来挖掘么？用铁做的钻头是最便宜的代替品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEuQ==",
+            "tooltip": "<strong>矿车模块:挖掘</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:农业",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/109.png",
+            "x": 384.0,
+            "y": 60.0,
+            "data": "不幸的是,基础农业模块除了小麦以外什么都不能种.它并不贵,也许是最便宜的自动化食物生产方法.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAbQ==",
+            "tooltip": "<strong>矿车模块:农业</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:更多的存储空间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1211.png",
+            "x": 432.0,
+            "y": 108.0,
+            "data": "矿车不但可以侧挂箱子,上面、前面和矿车内部都可以增加存储空间. 不过有些地方是预留给工具的,所以箱子无法放到那里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEuw==",
+            "tooltip": "<strong>矿车模块:更多的存储空间</strong></br>前置任务需求:</br>矿车模块:储存"
+        },
+        {
+            "name": "矿车模块:太阳能引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1208.png",
+            "x": 264.0,
+            "y": 156.0,
+            "data": "你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 如果你造了太阳能电池板,你可以用太阳能来为你的矿车充电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEuA==",
+            "tooltip": "<strong>矿车模块:太阳能引擎</strong></br>前置任务需求:</br>太阳能</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:储存",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/110.png",
+            "x": 384.0,
+            "y": 108.0,
+            "data": "一个基础的矿车不能容纳任何物品,所以你需要附上特殊的箱子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAbg==",
+            "tooltip": "<strong>矿车模块:储存</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:地热引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1210.png",
+            "x": 384.0,
+            "y": 156.0,
+            "data": "你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 试着用岩浆来驱动矿车吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEug==",
+            "tooltip": "<strong>矿车模块:地热引擎</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "矿车模块:伐木",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/112.png",
+            "x": 324.0,
+            "y": 60.0,
+            "data": "基础伐木机用一段时间之后就会坏,但是你永远都不需要更换它.它可以很容易地用钻石修复.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAcA==",
+            "tooltip": "<strong>矿车模块:伐木</strong></br>前置任务需求:</br>简单的矿车"
+        },
+        {
+            "name": "芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1626.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "现在你需要制作一些芯片用于那些接口管道. 这些芯片还无法直接使用,但这是制作其他芯片的材料.%n%n现在是时候找找IC作物以获取你所需的染料了.%n%n[note]如果NEI左侧的书签栏挡住你了,可以将其关闭(O),直到我们修复这个问题.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGWg==",
+            "tooltip": "<strong>芯片</strong></br>前置任务需求:</br>与东西互动"
+        },
+        {
+            "name": "物品合成芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1633.png",
+            "x": 60.0,
+            "y": 240.0,
+            "data": "物品合成芯片完全符合它的名字.它不仅仅适用于工作台合成.你还可以将它与GT机器一起使用.只需在它的设置里\"Matrix\"选项,类似AE样板终端,左侧为工作台合成表或机器输入,右侧为成品输出. 它们的重要用途之一就是与流体储罐或超级缸一起使用,以填充单元. %n%n%n[note]虽然这些芯片对你的逻辑管道系统很有用,但它很快就会变成一个延迟制造机,所以小心使用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGYQ==",
+            "tooltip": "<strong>物品合成芯片</strong></br>前置任务需求:</br>物品广播芯片"
+        },
+        {
+            "name": "处理硫化氢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1640.png",
+            "x": 60.0,
+            "y": 288.0,
+            "data": "现在让我们将所有硫化氢转化为硫酸. 将化学反应釜连接到电源,水和物品接口管道.插入物品响应芯片,设置为接受硫化氢单元,然后插入物品抽取芯片,设置为抽取空单元.在蒸馏室中蒸馏稀硫酸并将产物储存在超级缸中. %n%n恭喜你!你现在可以完全石油自动脱硫,自动生产氢气和氧气,还可以储存所有硫酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGaA==",
+            "tooltip": "<strong>处理硫化氢</strong></br>前置任务需求:</br>石油脱硫"
+        },
+        {
+            "name": "石油脱硫自动化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1636.png",
+            "x": 108.0,
+            "y": 240.0,
+            "data": "该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯片,就回到这里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGZA==",
+            "tooltip": "<strong>石油脱硫自动化</strong></br>前置任务需求:</br>物品堆栈维护芯片</br>物品合成芯片"
+        },
+        {
+            "name": "石油脱硫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1639.png",
+            "x": 108.0,
+            "y": 288.0,
+            "data": "现在是时候开始实际脱硫了. 使用你选择的化学反应釜,填充含硫轻燃油并将其连接到电源. 现在连接一个路由接口管道,插入物品堆栈维护芯片,设置为始终保留4个氢单元.然后插入物品抽取芯片,设置为抽取硫化氢单元和空单元.%n%n最后去你的储氢超级缸,插入一个物品合成芯片,设置为用一个空单元合成一个氢单元.%n%n你的石油脱硫自动化就完成了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGZw==",
+            "tooltip": "<strong>石油脱硫</strong></br>前置任务需求:</br>电解水"
+        },
+        {
+            "name": "还有人会用吗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2718.png",
+            "x": 324.0,
+            "y": 204.0,
+            "data": "如果你正在用,那么它们就不错,我猜. 至少听起来像这么回事?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKng==",
+            "tooltip": "<strong>还有人会用吗?</strong></br>前置任务需求:</br>一锭在手,无尽力量</br>矿车模块:太阳能引擎</br>矿车模块:地热引擎</br>矿车模块:煤炭引擎"
+        },
+        {
+            "name": "动态物品响应芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1629.png",
+            "x": 144.0,
+            "y": 96.0,
+            "data": "动态物品响应芯片功能与物品响应芯片类似,但不是由你设置它接受的物品,它会接受箱子中存在的物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGXQ==",
+            "tooltip": "<strong>动态物品响应芯片</strong></br>前置任务需求:</br>物品响应芯片"
+        },
+        {
+            "name": "电解水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1638.png",
+            "x": 156.0,
+            "y": 288.0,
+            "data": "现在让我们自动将水电解成氧气和氢气. 你需要氢气来处理大量的东西,包括脱硫,获得钨以及用于硝酸生产. 氧气也是有用的,因为我确信你在制造钢时注意到了这一点. %n%n如何设置它: %n%n放下电解机并将其连接到水和电.将2个超级缸放在附近.设置电解机以产生氢气和氧单元.使用普通的GT流体管道将氢气输出到一个超级缸中.那就是你的储氢缸了.现在将路由接口管道连接到所有3台机器.  %n%n对于连接电解机的物品堆栈维护芯片设置,始终在机器内保存2个空单元.还应放入物品抽取芯片,并设置过滤抽取氧单元. %n%n现在储存氧气,将物品响应芯片设置为接受氧单元,而物品抽取芯片设置为抽取空单元. %n%n现在将一些空单元放入你的默认储存箱中,不要忘记在那里还要插入一个物品广播芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGZg==",
+            "tooltip": "<strong>电解水</strong></br>前置任务需求:</br>储存液体"
+        },
+        {
+            "name": "进一步自动化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1552.png",
+            "x": 264.0,
+            "y": 12.0,
+            "data": "如果你想从货物管理器中装载或卸载许多不同的物品,管道可能会变得非常混乱. 你可以将外部分配器放置在货物管理器旁边,它将帮助你访问货物管理器,可在分配器GUI中指定的不同栏位.抽出物品非常方便!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGEA==",
+            "tooltip": "<strong>进一步自动化</strong></br>前置任务需求:</br>自动装(卸)载"
+        },
+        {
+            "name": "与东西互动",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1625.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "这一切都很好,但这些管道都没有连接到箱子和机器. 我该怎么办呢？ 我很高兴听到你的提问. 你需要一种特殊的管道. 这是用来连接机器和箱子的. 你必须用我们即将制作的芯片来设置它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGWQ==",
+            "tooltip": "<strong>与东西互动</strong></br>前置任务需求:</br>交叉点"
+        },
+        {
+            "name": "物品广播芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1631.png",
+            "x": 60.0,
+            "y": 192.0,
+            "data": "物品广播芯片告诉管道系统中的每个设备,此芯片所连接的库存中有哪些物品,如果有设备需要什么,它会发送给那些设备. 右键单击它以设置要传输的物品. 如果留空并设置为黑名单模式(*blacklisted),它将传输所有物品. 建议将物品广播芯片与物品过载响应芯片结合使用. 这样溢出的物品会存放入缓存箱子中,但是你的系统的其余设备仍可使用这些物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGXw==",
+            "tooltip": "<strong>物品广播芯片</strong></br>前置任务需求:</br>物品抽取芯片"
+        },
+        {
+            "name": "物品抽取芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1630.png",
+            "x": 60.0,
+            "y": 144.0,
+            "data": "该芯片将从连接库存中抽取物品. 然后,抽取的物品会查找带有物品响应芯片的管道,其中是否有可用的空闲空间.如果它们没有找到,它们将转到物品过载响应芯片所在的默认存储箱. 如果你想要抽取所有物品,请将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGXg==",
+            "tooltip": "<strong>物品抽取芯片</strong></br>前置任务需求:</br>物品响应芯片</br>物品过载响应芯片"
+        },
+        {
+            "name": "物品过载响应芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1628.png",
+            "x": 24.0,
+            "y": 96.0,
+            "data": "该芯片可将物品存储到连接的库存(如箱子)中.它为没有其他地方可去的物品指定存储空间. 强烈建议在每个管道系统中都有一个默认存储空间,否则会发生不好的事情. 最适合搭配一些大箱子(如钻石箱子).%n%n看起来这玩意有点bug,所以先做一个试试,别一下做太多.%n%n你可能必须用一个普通的物品响应芯片然后手动添加那些可能过载的物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGXA==",
+            "tooltip": "<strong>物品过载响应芯片</strong></br>前置任务需求:</br>芯片"
+        },
+        {
+            "name": "物品响应芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1627.png",
+            "x": 96.0,
+            "y": 96.0,
+            "data": "该芯片可将物品存储到连接的库存(如箱子)中. 它只会存储过滤(Filter)设置的物品. 这种芯片不会主动请求物品,它们仅作为物品的目的地.%n你可以通过右键单击芯片打开菜单. 在那里你可以设置它接受哪些物品以及优先级. 物品将首先转到具有更高优先级的物品响应芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGWw==",
+            "tooltip": "<strong>物品响应芯片</strong></br>前置任务需求:</br>芯片"
+        },
+        {
+            "name": "物品堆栈维护芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1632.png",
+            "x": 108.0,
+            "y": 192.0,
+            "data": "物品堆栈维护芯片会查看所连接的库存并保留一定数量的物品. 如果该物品被移除,如果系统内有这种物品,并且可以被发送,它将每隔几秒钟就向物品广播芯片发送请求. 基本上就像一个讨厌的孩子.%n%n不过它真的很有用. 例如你想要一个总会有64块圆石和泥土的箱子,如果你拿走它们会马上补充？这家伙就非常适合这份工作. 这对于一些机器保留库存来说非常棒.  连接到GT机器时,3x3的左上槽相当于机器的左侧槽.  想要化学反应釜始终保留3个氢单元,你只需要加入氮就可以制作氨么,它就很合适. 这里有些芯片给你.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGYA==",
+            "tooltip": "<strong>物品堆栈维护芯片</strong></br>前置任务需求:</br>物品广播芯片"
+        },
+        {
+            "name": "交叉点",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1624.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "那么我们如何处理交叉点呢？ 我们使用这种交错管道.它们很聪明,它们会把所有东西送到需要去的地方,所以如果你建立一个管道系统,一定要把这种管道放在交叉点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGWA==",
+            "tooltip": "<strong>交叉点</strong></br>前置任务需求:</br>让我们做些管道"
+        },
+        {
+            "name": "让我们做些管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1623.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "首先,我们需要一些管道来连接各种东西. 不要在交叉点使用这些管道,否则物品将随机选择哪条路径,而你显然不希望这样.%n%n[note]请注意,红石计划的自动化可能会造成延迟,所以在服务器上尽量不要大规模使用,等到解锁AE后再开始你的全面自动化计划吧. 在单机的话就随你了,但别忘了AE的功能更加强大.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGVw==",
+            "tooltip": "<strong>让我们做些管道</strong></br>前置任务需求:</br>你的第一个电子电路"
+        },
+        {
+            "name": "更多的树种",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1551.png",
+            "x": 324.0,
+            "y": 12.0,
+            "data": "标准的木材切割机(史蒂夫矿车)只能砍伐(和重新种植)原版树. 如果你想使用其他mod的树苗,那么这个插件会派上用场. 谁知道-也许你已经厌倦了用木龙头点击橡胶树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGDw==",
+            "tooltip": "<strong>更多的树种</strong></br>前置任务需求:</br>矿车模块:伐木</br>第2阶段(MV)"
+        },
+        {
+            "name": "路由需求管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1634.png",
+            "x": 12.0,
+            "y": 192.0,
+            "data": "这个管道让你从系统中请求物品.它可显示系统中所有可用的物品(包括物品广播芯片,以及可以通过物品合成芯片合成的产物).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGYg==",
+            "tooltip": "<strong>路由需求管道</strong></br>前置任务需求:</br>物品广播芯片"
+        },
+        {
+            "name": "对脱硫自动化的奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1642.png",
+            "x": 12.0,
+            "y": 288.0,
+            "data": "如果你已经正确地完成了所有事情,那么最大的好处就是让你的东西自动化了.但是这里还有更多的奖励. %n%n后面几步就是自动化制造聚乙烯和硝酸. %n%n使用物品堆栈维护芯片,你可以随时保留一定数量的物品,当你取出单元,在其他地方使用时,你的自动化系统将自动生产更多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGag==",
+            "tooltip": "<strong>对脱硫自动化的奖励</strong></br>前置任务需求:</br>处理硫化氢"
+        },
+        {
+            "name": "简单的存储系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1635.png",
+            "x": 12.0,
+            "y": 240.0,
+            "data": "[warn]在抽屉管理器上使用大量的输入/输出设备将会严重影响TPS! 如果你在公共服务器上,请勿使用抽屉阵列,否则你的抽屉阵列可能会被删除,而你会被封禁.[/warn]%n%n是时候构建一个简单的系统来存储你的东西了. 放下抽屉管理器并将抽屉放在其周围.将路由接口管道连接到抽屉管理器,并将动态物品响应芯片和物品广播芯片放入其中.不要忘记设置物品广播芯片传输所有物品(将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted)). 现在如果你有一个箱子,连接着路由口管道且管道已插入物品抽取芯片,你就可以从你的存储系统中请求物品,而你放入的所有物品都将被分类存入存储系统中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGYw==",
+            "tooltip": "<strong>简单的存储系统</strong></br>前置任务需求:</br>路由需求管道"
+        },
+        {
+            "name": "小奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1641.png",
+            "x": 156.0,
+            "y": 192.0,
+            "data": "这是制作所有芯片的小奖励.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGaQ==",
+            "tooltip": "<strong>小奖励</strong></br>前置任务需求:</br>物品堆栈维护芯片"
+        },
+        {
+            "name": "储存液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1637.png",
+            "x": 156.0,
+            "y": 240.0,
+            "data": "首先,我们应该在一些地方存放我们将使用的所有液体. 需要3个超级缸.%n%n如果你对它们的用途感兴趣:%n1为氧气%n1为氢气%n1为硫酸",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGZQ==",
+            "tooltip": "<strong>储存液体</strong></br>前置任务需求:</br>石油提纯</br>石油脱硫自动化"
+        },
+        {
+            "name": "第一个自动化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/106.png",
+            "x": 216.0,
+            "y": 108.0,
+            "data": "好吧,也许不是第一种自动化.但一定是最浪漫的!首先,你需要一台矿车组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAag==",
+            "tooltip": "<strong>第一个自动化</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>熔融红石?</br>你会讨厌它们的#1</br>你会讨厌它们的#4"
+        }
+    ],
+    "links": [
+        {
+            "source": "自动装(卸)载",
+            "target": "高级探测轨道"
+        },
+        {
+            "source": "第一个自动化",
+            "target": "简单的矿车"
+        },
+        {
+            "source": "第一个自动化",
+            "target": "自动装(卸)载"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:煤炭引擎"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:挖掘"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:农业"
+        },
+        {
+            "source": "矿车模块:储存",
+            "target": "矿车模块:更多的存储空间"
+        },
+        {
+            "source": "太阳能",
+            "target": "矿车模块:太阳能引擎"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:太阳能引擎"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:储存"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:地热引擎"
+        },
+        {
+            "source": "简单的矿车",
+            "target": "矿车模块:伐木"
+        },
+        {
+            "source": "与东西互动",
+            "target": "芯片"
+        },
+        {
+            "source": "物品广播芯片",
+            "target": "物品合成芯片"
+        },
+        {
+            "source": "石油脱硫",
+            "target": "处理硫化氢"
+        },
+        {
+            "source": "物品堆栈维护芯片",
+            "target": "石油脱硫自动化"
+        },
+        {
+            "source": "物品合成芯片",
+            "target": "石油脱硫自动化"
+        },
+        {
+            "source": "电解水",
+            "target": "石油脱硫"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "还有人会用吗?"
+        },
+        {
+            "source": "矿车模块:太阳能引擎",
+            "target": "还有人会用吗?"
+        },
+        {
+            "source": "矿车模块:地热引擎",
+            "target": "还有人会用吗?"
+        },
+        {
+            "source": "矿车模块:煤炭引擎",
+            "target": "还有人会用吗?"
+        },
+        {
+            "source": "物品响应芯片",
+            "target": "动态物品响应芯片"
+        },
+        {
+            "source": "储存液体",
+            "target": "电解水"
+        },
+        {
+            "source": "自动装(卸)载",
+            "target": "进一步自动化"
+        },
+        {
+            "source": "交叉点",
+            "target": "与东西互动"
+        },
+        {
+            "source": "物品抽取芯片",
+            "target": "物品广播芯片"
+        },
+        {
+            "source": "物品响应芯片",
+            "target": "物品抽取芯片"
+        },
+        {
+            "source": "物品过载响应芯片",
+            "target": "物品抽取芯片"
+        },
+        {
+            "source": "芯片",
+            "target": "物品过载响应芯片"
+        },
+        {
+            "source": "芯片",
+            "target": "物品响应芯片"
+        },
+        {
+            "source": "物品广播芯片",
+            "target": "物品堆栈维护芯片"
+        },
+        {
+            "source": "让我们做些管道",
+            "target": "交叉点"
+        },
+        {
+            "source": "你的第一个电子电路",
+            "target": "让我们做些管道"
+        },
+        {
+            "source": "矿车模块:伐木",
+            "target": "更多的树种"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "更多的树种"
+        },
+        {
+            "source": "物品广播芯片",
+            "target": "路由需求管道"
+        },
+        {
+            "source": "处理硫化氢",
+            "target": "对脱硫自动化的奖励"
+        },
+        {
+            "source": "路由需求管道",
+            "target": "简单的存储系统"
+        },
+        {
+            "source": "物品堆栈维护芯片",
+            "target": "小奖励"
+        },
+        {
+            "source": "石油提纯",
+            "target": "储存液体"
+        },
+        {
+            "source": "石油脱硫自动化",
+            "target": "储存液体"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "第一个自动化"
+        },
+        {
+            "source": "熔融红石?",
+            "target": "第一个自动化"
+        },
+        {
+            "source": "你会讨厌它们的#1",
+            "target": "第一个自动化"
+        },
+        {
+            "source": "你会讨厌它们的#4",
+            "target": "第一个自动化"
+        }
+    ]
+}

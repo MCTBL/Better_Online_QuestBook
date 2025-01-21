@@ -1,0 +1,2002 @@
+{
+    "data": [
+        {
+            "name": "2-硝基氯苯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1693.png",
+            "x": 528.0,
+            "y": 696.0,
+            "data": "下一步是在化学反应釜中将硝酸混酸与氯苯搅拌,得到2-硝基氯苯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGnQ==",
+            "tooltip": "<strong>2-硝基氯苯</strong></br>前置任务需求:</br>聚苯并咪唑</br>硝酸混酸"
+        },
+        {
+            "name": "3,3-二氨基联苯胺",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1695.png",
+            "x": 612.0,
+            "y": 780.0,
+            "data": "在IV化学反应釜中将3,3-二氯联苯胺与氨和锌搅拌,得到3,3-二氨基联苯胺.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGnw==",
+            "tooltip": "<strong>3,3-二氨基联苯胺</strong></br>前置任务需求:</br>3,3-二氯联苯胺"
+        },
+        {
+            "name": "3,3-二氯联苯胺",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1694.png",
+            "x": 528.0,
+            "y": 780.0,
+            "data": "在EV化学反应釜中,将2-硝基氯苯与铜粉搅拌,得到3,3-二氯联苯胺.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGng==",
+            "tooltip": "<strong>3,3-二氯联苯胺</strong></br>前置任务需求:</br>2-硝基氯苯"
+        },
+        {
+            "name": "来点筛选",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3055.png",
+            "x": 1332.0,
+            "y": 780.0,
+            "data": "现在,你可以筛出来一些放射性杂质了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL7w==",
+            "tooltip": "<strong>来点筛选</strong></br>前置任务需求:</br>现在进行硝化"
+        },
+        {
+            "name": "你快搞定铑了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2327.png",
+            "x": 1164.0,
+            "y": 36.0,
+            "data": "将溶液放入化学反应釜中,在其旋转时进行加热.这样你就能从溶液中获得粉末,100％无结块!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJFw==",
+            "tooltip": "<strong>你快搞定铑了</strong></br>前置任务需求:</br>重新解决纯度问题"
+        },
+        {
+            "name": "另一种需要头疼的酸!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2309.png",
+            "x": 1248.0,
+            "y": 480.0,
+            "data": "甲酸,也称为蚁酸,是一种相当简单的有机酸.在钯处理中的最后一步大量需要这种甲酸,所以,成吨地制备甲酸吧!硫酸钠可循环利用.%n%n先制备硫酸钠,然后是甲酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJBQ==",
+            "tooltip": "<strong>另一种需要头疼的酸!</strong></br>前置任务需求:</br>金属盐是最糟糕的!"
+        },
+        {
+            "name": "另一个吃盐的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2324.png",
+            "x": 1080.0,
+            "y": 204.0,
+            "data": "嘿,你为什么这样看着我?还没完呐.准备更多的氯和盐来处理你的铑吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJFA==",
+            "tooltip": "<strong>另一个吃盐的</strong></br>前置任务需求:</br>但是...这很贵!"
+        },
+        {
+            "name": "氩",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1666.png",
+            "x": 420.0,
+            "y": 444.0,
+            "data": "要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体). 不同于直接离心压缩空气单元,你需要先将其在真空冷冻机内转化成液态空气单元,这样才能更有效地离心.%n%n你还可以制造进气仓替代压缩机,效果碾压.%n%n除非你对某些稀有气体感兴趣,不然的话不用在意蒸馏塔的配方,它比不上离心配方. 蒸馏塔蒸馏液态空气还要求液态空气仓(只对液态空气有效)和巨型输出仓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGgg==",
+            "tooltip": "<strong>氩</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "筛选,筛选!我的筛选王国!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3065.png",
+            "x": 1248.0,
+            "y": 1032.0,
+            "data": "现在,筛选(或者说过滤)硝酸浸出混合物,即可从中获取二氧化铈.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL-Q==",
+            "tooltip": "<strong>筛选,筛选!我的筛选王国!</strong></br>前置任务需求:</br>浸出浓缩物"
+        },
+        {
+            "name": "A Small Reward: The Infinite Spray Can",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8746080893915019949.png",
+            "x": 576.0,
+            "y": 156.0,
+            "data": "Congratulations! You have completed the Platinum Line. Not many players have the perseverance to accomplish this task. A small reward is in order!\n\nThe [note]Infinite Spray Can[/note] never runs out of paint, and contains all sixteen colors (as well as solvent!) Of course, line mode and Ring of Loki support are included. There are also many convenience features. Middle click to open a color choice GUI. Middle click a painted block to copy its color to the spray can. Left click to cycle the active color (sneak to go backwards.) Sneak middle click to lock the can; while locked, you can't accidentally change the color. Sneak middle click to unlock. \n\nNaturally, you'll have to craft the infinite spray can yourself. It's a Dire Crafting recipe, so hopefully you have a dire crafting table. It requires a lot of platinum line materials, of course. And, apparently, a rainbow cactus, so a small detour into magic will be necessary. And a bunch of random-looking AE2 parts. And an IV world accelerator. And... a fence?\n\nIs this really a reward?",
+            "quest_id": "n22vWzZHSu6Gn63EBV1FUw==",
+            "tooltip": "<strong>A Small Reward: The Infinite Spray Can</strong></br>前置任务需求:</br>铱</br>钯"
+        },
+        {
+            "name": "ASoC进阶芯片级系统",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1685.png",
+            "x": -24.0,
+            "y": 648.0,
+            "data": "ASOC,全称为先进片上系统.它会用于一款全新的多方块机器,精密组装机.%n%n与SoC一样,ASoC也将用于制造更便宜的HV和EV电路.%n%n不过,您需要等到ZPM才能制造出更便宜的EV电路%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGlQ==",
+            "tooltip": "<strong>ASoC进阶芯片级系统</strong></br>前置任务需求:</br>硅岩掺杂的晶圆</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "但是...这很贵!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2323.png",
+            "x": 1080.0,
+            "y": 288.0,
+            "data": "以前收集锌可能不是一件令人愉快的任务,但在这里,它只是用作催化剂,所以不会被消耗.%n%n电解硫酸锌,你可以获得返还的硫和4000L氧气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJEw==",
+            "tooltip": "<strong>但是...这很贵!</strong></br>前置任务需求:</br>气体变成液体"
+        },
+        {
+            "name": "木卫四之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1533.png",
+            "x": 348.0,
+            "y": 648.0,
+            "data": "木卫四冰是4阶火箭所需的材料. 找找Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF_Q==",
+            "tooltip": "<strong>木卫四之旅</strong></br>前置任务需求:</br>前往小行星和其他三阶星球的路上"
+        },
+        {
+            "name": "谷神星之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1538.png",
+            "x": 276.0,
+            "y": 648.0,
+            "data": "你可以在谷神星上找到木卫四上除去木卫四冰之外的其他矿石,但真正的目标是地牢和贫瘠矿：硅岩和量子.%n%n硅岩可用于制造更高效的单晶硅,以及ZPM阶段需要用到的成吨部件.%n%n量子用于制造5阶火箭以及GT中最高通量的物品管道.%n%n[note]别忘了带上你的采矿场,以最大化矿石产量.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGAg==",
+            "tooltip": "<strong>谷神星之旅</strong></br>前置任务需求:</br>前往小行星和其他三阶星球的路上"
+        },
+        {
+            "name": "廉价的低压电路",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1712.png",
+            "x": 72.0,
+            "y": 564.0,
+            "data": "使用EV电路组装机和SoC,你现在可以以更低的价格制造微型处理器.%n%n请注意,这种电路板无法套娃成MV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGsA==",
+            "tooltip": "<strong>廉价的低压电路</strong></br>前置任务需求:</br>SoC-芯片级的系统!</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "更便宜的MV电路",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1674.png",
+            "x": 24.0,
+            "y": 516.0,
+            "data": "使用IV电路组装机和SoC,你现在可以用更低的成本制造集成处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGig==",
+            "tooltip": "<strong>更便宜的MV电路</strong></br>前置任务需求:</br>IV电路组装机</br>SoC-芯片级的系统!</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "化学浸洗!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3057.png",
+            "x": 1332.0,
+            "y": 864.0,
+            "data": "是的,这真是一条全方位的处理线.再一次,你需要用到硝酸铵. 这只是再次提醒那些尚未制造专门的硝酸自动化设施的玩家 :P",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL8Q==",
+            "tooltip": "<strong>化学浸洗!</strong></br>前置任务需求:</br>来点筛选"
+        },
+        {
+            "name": "IV化学反应釜",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1696.png",
+            "x": 696.0,
+            "y": 480.0,
+            "data": "高级化学配方需要IV化学反应釜.%n%n或者你也可以给你的大型化学反应釜换上两个EV能源仓或是一个IV能源仓.%n%n[note]...在你完成铂系处理后. 玩得开心![/note]%n%n如果你错过了这些任务,或是忘记提交,手持一组铂线的最终产物粉,即可跳过中间的任务.%n%n类似的,你还可以跳过PBI,但这回你得拿着256个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGoA==",
+            "tooltip": "<strong>IV化学反应釜</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "三氧化铬",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1704.png",
+            "x": 852.0,
+            "y": 612.0,
+            "data": "三氧化铬分两步由铬和氧制成. 你需要先制备出二氧化铬,然后才能制备出三氧化铬.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGqA==",
+            "tooltip": "<strong>三氧化铬</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "同类者,聚集!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2315.png",
+            "x": 828.0,
+            "y": 372.0,
+            "data": "酸性锇溶液浓度不足以直接提取出锇. 使用蒸馏塔进行蒸馏,就可以获得更浓缩的锇溶液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJCw==",
+            "tooltip": "<strong>同类者,聚集!</strong></br>前置任务需求:</br>最后一次分离-铱&锇"
+        },
+        {
+            "name": "与草酸结合",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3067.png",
+            "x": 1416.0,
+            "y": 948.0,
+            "data": "将获得的氯化铈与草酸进行反应,即可制得草酸铈.而草酸铈可以在稍后进行煅烧(当然,是在工业高炉中进行),转化成另一种铈的氧化物--氧化铈(III).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL-w==",
+            "tooltip": "<strong>与草酸结合</strong></br>前置任务需求:</br>草酸"
+        },
+        {
+            "name": "浓缩钐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4993634693115988771.png",
+            "x": 996.0,
+            "y": 864.0,
+            "data": "用草酸将钐离子沉淀下来。然后用氢氯酸洗涤草酸钐，得到氯化钐（不纯）。这氯化钐粉便是提取钐的基础材料了。%n%n从材料里分离钐这儿有两种方法，一种适用当前IV阶段，一种稍后在LuV阶段解锁。",
+            "quest_id": "ZXyJX8zNTQW6swu0OsE03Q==",
+            "tooltip": "<strong>浓缩钐</strong></br>前置任务需求:</br>更多钐 !"
+        },
+        {
+            "name": "冷静一下",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2884.png",
+            "x": 828.0,
+            "y": 36.0,
+            "data": "在这一步,你只需要将四氧化钌通过一台流体固化器,把它...固化一下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALRA==",
+            "tooltip": "<strong>冷静一下</strong></br>前置任务需求:</br>为什么,Bart,为什么?"
+        },
+        {
+            "name": "稀释,再一次",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3053.png",
+            "x": 1164.0,
+            "y": 780.0,
+            "data": "那些硫酸盐可不会自己稀释!%n%n可以从每块独居石中获得更多的流体,你不喜欢什么?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL7Q==",
+            "tooltip": "<strong>稀释,再一次</strong></br>前置任务需求:</br>筛出好东西"
+        },
+        {
+            "name": "邻二甲苯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1701.png",
+            "x": 696.0,
+            "y": 612.0,
+            "data": "邻二甲苯可以用木焦油蒸馏或在化学反应釜中使用苯和甲烷反应合成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGpQ==",
+            "tooltip": "<strong>邻二甲苯</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "间苯二甲酸二苯酯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1698.png",
+            "x": 696.0,
+            "y": 696.0,
+            "data": "搅拌硫酸,邻苯二甲酸和苯酚得到间苯二甲酸二苯酯.需要IV化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGog==",
+            "tooltip": "<strong>间苯二甲酸二苯酯</strong></br>前置任务需求:</br>苯酚2</br>邻苯二甲酸"
+        },
+        {
+            "name": "溶解铱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2316.png",
+            "x": 828.0,
+            "y": 120.0,
+            "data": "用氢氯酸溶解二氧化铱,制得酸性铱溶液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJDA==",
+            "tooltip": "<strong>溶解铱</strong></br>前置任务需求:</br>取出泥渣获得铱"
+        },
+        {
+            "name": "烘干真棒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3062.png",
+            "x": 1164.0,
+            "y": 864.0,
+            "data": "你的浓缩粉实在太潮湿了!需要在工业高炉中烘干它们.%n%n谢天谢地,这种加工并不困难.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL9g==",
+            "tooltip": "<strong>烘干真棒</strong></br>前置任务需求:</br>筛,还是不筛?(To Sift, or Not to Sift?)"
+        },
+        {
+            "name": "工业高炉时间2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3049.png",
+            "x": 1248.0,
+            "y": 612.0,
+            "data": "处理的下一步,就是将你制得的溶液配合镁粉,放入工业高炉中进行煅烧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL6Q==",
+            "tooltip": "<strong>工业高炉时间2</strong></br>前置任务需求:</br>铪处理线"
+        },
+        {
+            "name": "氧化铕(EuO)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3082.png",
+            "x": 1164.0,
+            "y": 1116.0,
+            "data": "独居石中含铕?%n%n然而,在你获得一些真的铕之前,暂时没有办法处理它们,所以现在继续前进吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMCg==",
+            "tooltip": "<strong>氧化铕(EuO)</strong></br>前置任务需求:</br>铁磁性不太强..."
+        },
+        {
+            "name": "木卫二之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1534.png",
+            "x": 276.0,
+            "y": 492.0,
+            "data": "你在木卫二上可以找到深铅,它是4阶火箭所需的材料. 找找Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF_g==",
+            "tooltip": "<strong>木卫二之旅</strong></br>前置任务需求:</br>前往小行星和其他三阶星球的路上"
+        },
+        {
+            "name": "更更好的磁化杆",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2918.png",
+            "x": 264.0,
+            "y": 444.0,
+            "data": "与之前类似,下一阶段的马达需要更好的磁化杆. 想要制造磁化钐杆,你得先做好这个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALZg==",
+            "tooltip": "<strong>更更好的磁化杆</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "需要更多的氯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2319.png",
+            "x": 744.0,
+            "y": 120.0,
+            "data": "将酸性铱溶液与氯化铵混合,你将获得一些氯化铱,而氯化铱很容易处理成铱.你快完成了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJDw==",
+            "tooltip": "<strong>需要更多的氯</strong></br>前置任务需求:</br>溶解铱"
+        },
+        {
+            "name": "最后,真正的铪",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3052.png",
+            "x": 1416.0,
+            "y": 612.0,
+            "data": "到现在为止还挺简单的对吧?%n%n铪是制作气涤塔的一个组件, 如果你深入了液态氟钍反应堆,它会非常有用.%n%n同时你还可以回收一半的碘.另外,所谓废料也别扔了.之后可能还会有用,特别是如果有人给出好的思路 wink wink nudge nudge",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL7A==",
+            "tooltip": "<strong>最后,真正的铪</strong></br>前置任务需求:</br>我们不是在经营农场!"
+        },
+        {
+            "name": "最后,钐!",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3088.png",
+            "x": 1500.0,
+            "y": 1116.0,
+            "data": "(以及钆)%n%n简单吧?别担心,还有氟碳镧铈处理线等着你呢,应该能满足你对复杂产线的渴望吧!%n%n钐可用于满足你从LuV到UHV不断增长的磁化钐棒需求,而钆则在遥远的游戏后期用于制造强大的压缩聚变反应堆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMEA==",
+            "tooltip": "<strong>最后,钐!</strong></br>前置任务需求:</br>分离这些最后的微粒"
+        },
+        {
+            "name": "最后一次分离-铱&锇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2312.png",
+            "x": 828.0,
+            "y": 288.0,
+            "data": "锇和铱的提取非常棘手.你需要加热并使用氢氯酸才能将其从稀有金属渣中提取出来,不过我们已经接近尾声了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJCA==",
+            "tooltip": "<strong>最后一次分离-铱&锇</strong></br>前置任务需求:</br>第二次分离-钌"
+        },
+        {
+            "name": "第一次分离-铑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2305.png",
+            "x": 996.0,
+            "y": 372.0,
+            "data": "铂系处理线(简称铂线)是一个多步的,复杂的链式过程. 鉴于它的复杂性,以及对铂系金属的大量需求,建议搭建一个自动化生产线一直运行. 看了这些任务之后,你应该能更好地理解这一点. 也有可能你已经搭好了,那么就抽出产物完成任务吧,随你怎么办.%n%n作为获取铑、钌、铱和锇的第一步,我们需要将铑与其他金属分离,借助之前生产的焦硫酸钾,在工业高炉中将其蒸发为气态混合物.%n%n这一步处理流体的量非常烦人,都怪Bart.%n%n[warn]硫酸铑的输出仓需要放在底部![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJAQ==",
+            "tooltip": "<strong>第一次分离-铑</strong></br>前置任务需求:</br>铂系处理-其他所有金属"
+        },
+        {
+            "name": "气体变成液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2322.png",
+            "x": 1080.0,
+            "y": 372.0,
+            "data": "将硫酸铑溶解到水中,获得硫酸铑溶液,以及一些浸出渣和熔融钾.%n%n你可以回收大概相当于13个锭的钾,需要流体固化再打粉,以备再次使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJEg==",
+            "tooltip": "<strong>气体变成液体</strong></br>前置任务需求:</br>第一次分离-铑"
+        },
+        {
+            "name": "冷冻硝酸盐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3080.png",
+            "x": 1248.0,
+            "y": 1116.0,
+            "data": "是的,你没看错：一条带真空冷冻机的处理线!%n%n想要分离某些更...顽固的元素,需要极度低温.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMCA==",
+            "tooltip": "<strong>冷冻硝酸盐</strong></br>前置任务需求:</br>筛选,筛选!我的筛选王国!"
+        },
+        {
+            "name": "在IV阶段获取钐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6274099661929415720.png",
+            "x": 948.0,
+            "y": 948.0,
+            "data": "将氯化钐粉与氯化钠粉混合在一起,再交给电解机处理,就可以分离出钐了.%n%n钠和氯都可以完全回收.%n%n此外还有一些没啥用的副产物,可能以后会有用吧.",
+            "quest_id": "CW9oIeA0ShWo7euZXUx72A==",
+            "tooltip": "<strong>在IV阶段获取钐</strong></br>前置任务需求:</br>浓缩钐"
+        },
+        {
+            "name": "在LuV阶段获取钐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6160583425153700818.png",
+            "x": 1044.0,
+            "y": 948.0,
+            "data": "如果你搞定了ZPM能源（或者LuV能源仓双仓升压），这个方法应该会更好。%n%n熔融氯化钐，再用镧在蒸馏塔中还原氯化钐。然后电解回收氯化镧。",
+            "quest_id": "tu5Lk_jKQR-qgTYD1o3sLg==",
+            "tooltip": "<strong>在LuV阶段获取钐</strong></br>前置任务需求:</br>浓缩钐</br>LuV能源仓"
+        },
+        {
+            "name": "发光物质",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3076.png",
+            "x": 216.0,
+            "y": 444.0,
+            "data": "另一种获取阳光化合物的方法：只需要把一堆堆夜光珊瑚配合上一点点UU物质,一起丢进高压釜中,然后看脸.%n%n你可以使用IC2作物农场,或是用任何种类的萤石农场配合GT++藻类农场.%n%n另外,如果能够充分利用夜光珊瑚或是萤石,你就可以无限获取类似金、红石、汞,等等资源.%n%n[note]大型加工厂可以大大加快处理速度,不过它的造价也同样高昂.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMBA==",
+            "tooltip": "<strong>发光物质</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "铪处理线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3047.png",
+            "x": 1164.0,
+            "y": 612.0,
+            "data": "铪处理在此存在关键分支.依循这一条小任务线可以获得更多信息.%n%n首先,你需要将氧化铪与氢氯酸放在一起反应.%n%n然后,类似锆,更多用到的是溶液而非粉末.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL5w==",
+            "tooltip": "<strong>铪处理线</strong></br>前置任务需求:</br>氧化铪-氧化锆混合物"
+        },
+        {
+            "name": "加热!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2881.png",
+            "x": 912.0,
+            "y": 120.0,
+            "data": "你可以在新的流体加热器中制作热四氧化钌溶液,所以继续努力吧！",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALQQ==",
+            "tooltip": "<strong>加热!</strong></br>前置任务需求:</br>盐到哪里去了?"
+        },
+        {
+            "name": "HSS-S",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1665.png",
+            "x": 624.0,
+            "y": 288.0,
+            "data": "现在你有了HSS-G,是时候制作HSS-S了. 这种新型合金是许多LuV配方的重要组成部分.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGgQ==",
+            "tooltip": "<strong>HSS-S</strong></br>前置任务需求:</br>铱</br>HSS-G</br>锇"
+        },
+        {
+            "name": "一个维度，一套输入总线",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6601301260503824958.png",
+            "x": 84.0,
+            "y": 420.0,
+            "data": "这个特殊的输入总线十分的珍贵，在一个维度内，所有同一个频道的共享输入总线共同交互同一个内容物空间。%n%n多方块机器籍此可以共享同一套物品输入系统。%n%n手持闪存左键共享输入总线可以复制其配置，右键粘贴。%n",
+            "quest_id": "VCXYSn_PTZ6kY3d6kFTFwg==",
+            "tooltip": "<strong>一个维度，一套输入总线</strong></br>前置任务需求:</br>最后--聚苯并咪唑!</br>在IV中你会讨厌之5和6"
+        },
+        {
+            "name": "木卫一之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2698.png",
+            "x": 420.0,
+            "y": 696.0,
+            "data": "此阶段的矿脉,如果在水星上找不到,那么在木卫一上肯定可以找到. 软锰矿脉可出产铌,而深空秘银和褐铜可以出产钐.在这里还可以找到注魔金矿脉.%n%n[note]与金星类似,这里还有火石的贫瘠矿.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKig==",
+            "tooltip": "<strong>木卫一之旅</strong></br>前置任务需求:</br>在前往4阶星球的路上"
+        },
+        {
+            "name": "铱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2321.png",
+            "x": 624.0,
+            "y": 204.0,
+            "data": "将钙添加到氯化铱中,最终得到纯净的铱.%n%n剩下的金属泥渣粉可以丢到离心机中,获取镍和铜,同时氯化钙在进行电解之前,需要先在流体固化器中进行固化,电解后获得钙和氯.%n%n另外,这一步需要EV,也是铱处理唯一需要EV的一步,所以如果你在之前就需要铱的话,可以早早开始.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJEQ==",
+            "tooltip": "<strong>铱</strong></br>前置任务需求:</br>需要更多的氯"
+        },
+        {
+            "name": "IV组装机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1890.png",
+            "x": 432.0,
+            "y": 204.0,
+            "data": "想要制作新线圈,或是HV太阳能覆盖板,你需要富集阳光化合物,做一台IV组装机吧!  它比EV组装机快一倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHYg==",
+            "tooltip": "<strong>IV组装机</strong></br>前置任务需求:</br>在IV你会讨厌之1-4"
+        },
+        {
+            "name": "IV电路组装机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1669.png",
+            "x": 24.0,
+            "y": 468.0,
+            "data": "IV电路组装机可以让你轻松制作MV电路板,以及单步EV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGhQ==",
+            "tooltip": "<strong>IV电路组装机</strong></br>前置任务需求:</br>在IV中你会讨厌之5和6"
+        },
+        {
+            "name": "IV能源仓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2830.png",
+            "x": 516.0,
+            "y": 204.0,
+            "data": "为你的多方块机器升级能源同时推进科技发展.%n%n你需要用钒镓合金制造高功率IC晶圆,然后用IV切割机处理(要是你没做工业切割机的话).%n%n[note]希望铂系让你玩得开心,lol.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALDg==",
+            "tooltip": "<strong>IV能源仓</strong></br>前置任务需求:</br>IV超导(8192 EU/t)</br>铱</br>IV组装机"
+        },
+        {
+            "name": "IV搅拌机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1410.png",
+            "x": 516.0,
+            "y": 372.0,
+            "data": "IV搅拌机可以搅拌高速钢-S粉等合金,也是制作IV超导所必需的.%n%n你也可以检查GT++任务页,并做一个多方块搅拌机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFgg==",
+            "tooltip": "<strong>IV搅拌机</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "IV超导(8192 EU/t)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1409.png",
+            "x": 516.0,
+            "y": 288.0,
+            "data": "无损的IV超导导线怎么样？Vanadiumtriindinide(IV超导)是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有线损为0的超导导线.%n%n在高压搅拌机中搅拌钒和铟. 制得的粗胚粉需要用带有HSS-G线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氦和铌钛流体管道和IV泵组合在一起,以获得你的8192EU/t超导导线.%n%n自IV以上,超导导线将加入一些合成中,成为强制要求.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFgQ==",
+            "tooltip": "<strong>IV超导(8192 EU/t)</strong></br>前置任务需求:</br>IV搅拌机</br>铌钛合金</br>HSS-G</br>升级高速钢-G线圈</br>铟"
+        },
+        {
+            "name": "继续焊接!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2667.png",
+            "x": 348.0,
+            "y": 120.0,
+            "data": "一段时间以来,你一直在使用一种非常基础的焊料合金.是时候升级了! 这种焊料会用于装配线合成配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKaw==",
+            "tooltip": "<strong>继续焊接!</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "浸出浓缩物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3064.png",
+            "x": 1164.0,
+            "y": 1032.0,
+            "data": "这里有两个选择：你可以将硝酸浸出混合物与水混合,得到相对较低的产率;或是选择把水换成富铈混合物,得到双倍的产率.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL-A==",
+            "tooltip": "<strong>浸出浓缩物</strong></br>前置任务需求:</br>硝化时间...再一次"
+        },
+        {
+            "name": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1416.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,明白些了. 这台多方块机器可以生产更先进的多方块,以及高级焊料所需的高级合金. 它直接将金属熔炼成液体. 这台机器甚至可以更快地熔化钨之类的金属! 至少在你给工业高炉更换更高级线圈之前是这样的.%n%n[note]只接受1个能源仓.[/note]%n%n[note]现在你解锁的多方块机器大多是可选的,不过它们均为现有单方块机器的超强升级.不止提供了更快的速度,还有一些高级功能：比如无需单元即可电解化合物,一台多方块机器即可支持许多不同模头.它们还自带超净间和低重力环境.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFiA==",
+            "tooltip": "<strong>野鸭生锈臭臭(Mallard Rust Smelly)</strong></br>前置任务需求:</br>第5阶段(IV)</br>IV阶段多方块机器"
+        },
+        {
+            "name": "大型量子电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1706.png",
+            "x": 144.0,
+            "y": 204.0,
+            "data": "大型量子电脑是一个LuV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGqg==",
+            "tooltip": "<strong>大型量子电脑</strong></br>前置任务需求:</br>量子处理器集群"
+        },
+        {
+            "name": "水星之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1716.png",
+            "x": 420.0,
+            "y": 780.0,
+            "data": "这个星球上唯一有趣的矿石是来自贫瘠矿的深渊铁.多收集点吧,你需要从中获取三元金属.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGtA==",
+            "tooltip": "<strong>水星之旅</strong></br>前置任务需求:</br>在前往4阶星球的路上"
+        },
+        {
+            "name": "独居石",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3043.png",
+            "x": 1080.0,
+            "y": 612.0,
+            "data": "欢迎来到镧系处理!%n这将是一次有趣的旅行,不管你喜欢与否 :P%n%n首先获得一些独居石,当然这只够开始,%n因为后面你会需要成吨的独居石才能真正获得这条任务线的所有奖励.%n%n然后,你需要将独居石与硝酸在煮解池内混合,%n获得其浊溶液.%n是的没错,镧系处理非常消耗硝酸!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL4w==",
+            "tooltip": "<strong>独居石</strong></br>前置任务需求:</br>获得独居石浊溶液</br>第5阶段(IV)"
+        },
+        {
+            "name": "更多钐 !",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7080110298779658056.png",
+            "x": 996.0,
+            "y": 780.0,
+            "data": "如果你搞到了稳定的钐矿来源，精处理这些钐矿资源应该是获取钐的最好方式。%n%n第一步先准备钐精粉或粉碎钐矿石（现在你应该还得不到钐矿石），用在煮解池里硝酸煮溶这些矿资源，得到钐稀土浊溶液。钍和磷则以固体渣粉的形式保留下来。%n%n然后转移到溶解罐中继续用硝酸浸泡，将不溶的粉末仔细过滤出来，主要是铈。%n%n然后加水调节pH值。",
+            "quest_id": "u_-8t2IvRnydvmUx_qdYuA==",
+            "tooltip": "<strong>更多钐 !</strong></br>前置任务需求:</br>另一条路"
+        },
+        {
+            "name": "硅岩掺杂的单晶硅1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1670.png",
+            "x": 108.0,
+            "y": 648.0,
+            "data": "要制造更先进的晶圆,首先需要制作硅岩掺杂的单晶硅. 该过程需要750秒,并且需要将太阳能级硅块、硅岩锭和砷化镓晶体放入工业高炉中进行熔炼. 你可以从每个单晶硅中切割获得64个晶圆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGhg==",
+            "tooltip": "<strong>硅岩掺杂的单晶硅1</strong></br>前置任务需求:</br>你的第一块硅岩锭"
+        },
+        {
+            "name": "硅岩掺杂的晶圆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1671.png",
+            "x": 24.0,
+            "y": 648.0,
+            "data": "为了制造一些硅岩掺杂的晶圆,将硅岩掺杂的单晶硅置于切割机中. 这种先进的晶圆和芯片需要HV切割机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGhw==",
+            "tooltip": "<strong>硅岩掺杂的晶圆</strong></br>前置任务需求:</br>硅岩掺杂的单晶硅1"
+        },
+        {
+            "name": "铌钛合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1522.png",
+            "x": 432.0,
+            "y": 288.0,
+            "data": "在LuV阶段,铌钛合金变得非常重要.它需要EV搅拌机和拥有钛铂钒线圈的工业高炉制作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF8g==",
+            "tooltip": "<strong>铌钛合金</strong></br>前置任务需求:</br>第5阶段(IV)</br>升级钛铂钒合金线圈"
+        },
+        {
+            "name": "硝酸混酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1692.png",
+            "x": 528.0,
+            "y": 612.0,
+            "data": "我们还需要硝酸混酸. 我们可以用硝酸和硫酸来制作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGnA==",
+            "tooltip": "<strong>硝酸混酸</strong></br>前置任务需求:</br>聚苯并咪唑"
+        },
+        {
+            "name": "硝化时间...再一次",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3063.png",
+            "x": 1164.0,
+            "y": 948.0,
+            "data": "想要进一步处理这些干燥粉,你还需要投入更多硝酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL9w==",
+            "tooltip": "<strong>硝化时间...再一次</strong></br>前置任务需求:</br>烘干真棒"
+        },
+        {
+            "name": "铁磁性不太强...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3081.png",
+            "x": 1332.0,
+            "y": 1116.0,
+            "data": "...但是足够电磁离析机将其分离.%n%n现在,你获得了氧化铕(III)和一些更稀有的稀土,我们称之为罕土.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMCQ==",
+            "tooltip": "<strong>铁磁性不太强...</strong></br>前置任务需求:</br>冷冻硝酸盐"
+        },
+        {
+            "name": "现在进行硝化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3054.png",
+            "x": 1248.0,
+            "y": 780.0,
+            "data": "下一步你需要用到硝酸铵(又要跟硝酸打交道了!),还有稀释硫酸独居石.%n将两者在大型化学反应釜中进行反应.%n%n流体产物就那么简单地消失在虚空中.最好不要担心它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL7g==",
+            "tooltip": "<strong>现在进行硝化</strong></br>前置任务需求:</br>稀释,再一次"
+        },
+        {
+            "name": "前往小行星和其他三阶星球的路上",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/215.png",
+            "x": 348.0,
+            "y": 564.0,
+            "data": "这一阶段我想应该是\"到达其他的星球\"并且拥有IV电压的机器. 当进入了这个阶段后,你的发电机应该已经发挥了几乎全部的潜能.去某些星球上采集一些珍贵的矿石可以帮助提高你的发电能力.%n%n当然,小行星上也有硅岩,任君采撷.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA1w==",
+            "tooltip": "<strong>前往小行星和其他三阶星球的路上</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "在前往4阶星球的路上",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1715.png",
+            "x": 348.0,
+            "y": 732.0,
+            "data": "4阶星球是木卫一(在那里你会发现下一个地牢),金星(需要太空服)和水星.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGsw==",
+            "tooltip": "<strong>在前往4阶星球的路上</strong></br>前置任务需求:</br>装配线</br>木卫四之旅"
+        },
+        {
+            "name": "铱锇合金",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2331.png",
+            "x": 744.0,
+            "y": 204.0,
+            "data": "铱锇合金是一种相当昂贵的合金. 你需要用它来合成纯净泪水,以彻底摆脱扭曲. 同时,铱锇合金也是ZPM发射器和传感器的原材料之一.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJGw==",
+            "tooltip": "<strong>铱锇合金</strong></br>前置任务需求:</br>铱</br>锇"
+        },
+        {
+            "name": "锇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2317.png",
+            "x": 744.0,
+            "y": 372.0,
+            "data": "你已浓缩了溶液,现在是时候从中收集固体锇了.继续吧,将其与氢氯酸混合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJDQ==",
+            "tooltip": "<strong>锇</strong></br>前置任务需求:</br>同类者,聚集!"
+        },
+        {
+            "name": "草酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3068.png",
+            "x": 1416.0,
+            "y": 1032.0,
+            "data": "目前草酸真的仅适用于铈处理.继续前进并制备一点草酸吧.%n%n有多种方法可以制取草酸,请查阅NEI并选择最适合自己的方法吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL_A==",
+            "tooltip": "<strong>草酸</strong></br>前置任务需求:</br>铈处理开始"
+        },
+        {
+            "name": "钯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2878.png",
+            "x": 1248.0,
+            "y": 372.0,
+            "data": "最后,向再沉淀钯中加入甲酸,获取纯净的钯,以及一些可以循环利用的产物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALPg==",
+            "tooltip": "<strong>钯</strong></br>前置任务需求:</br>另一种需要头疼的酸!</br>再沉...什么?"
+        },
+        {
+            "name": "钯处理",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2303.png",
+            "x": 1080.0,
+            "y": 480.0,
+            "data": "钯是一种相当有用的铂系金属,是所有LuV机器的必需材料.%n%n本任务线将帮助你弄清楚如何高效地处理它.%n%n首先,你需要将部分(约一半)富钯氨处理成钯盐粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI_w==",
+            "tooltip": "<strong>钯处理</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "苯酚2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1699.png",
+            "x": 612.0,
+            "y": 696.0,
+            "data": "你可以通过不同的方式获得苯酚,要是你手头没有的话,不妨尝试用氯苯和水合成一些.%n%n译者注:木焦油/重燃油可产出苯酚.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGow==",
+            "tooltip": "<strong>苯酚2</strong></br>前置任务需求:</br>聚苯并咪唑"
+        },
+        {
+            "name": "邻苯二甲酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1700.png",
+            "x": 780.0,
+            "y": 696.0,
+            "data": "要获得邻苯二甲酸,你需要在EV化学反应釜中混合邻二甲苯,重铬酸钾和氧气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGpA==",
+            "tooltip": "<strong>邻苯二甲酸</strong></br>前置任务需求:</br>邻二甲苯</br>重铬酸钾"
+        },
+        {
+            "name": "铂系处理-其他所有金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2304.png",
+            "x": 912.0,
+            "y": 372.0,
+            "data": "目前为止,你已经使用这种简单的方法处理了不少铂,你应该获得了不少铂渣粉.%n%n现在我们在这里处理这些铂渣粉并从中获得余下的稀有金属.但是要做到这一点,我们再多走几步制备焦硫酸钾,并将其提取为熔融状态.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJAA==",
+            "tooltip": "<strong>铂系处理-其他所有金属</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "聚苯并咪唑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1691.png",
+            "x": 612.0,
+            "y": 612.0,
+            "data": "聚苯并咪唑(简称PBI)是用于ZPM机器外壳和高级太阳能电池板的合成纤维,它还能提高某些其他物品的合成效率. 制作它有很多步骤. 让我们从基本原料开始.  首先,我们用苯和氯制造一些氯苯. 另外,别忘了完成IV阶段的其他非铂系化学任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGmw==",
+            "tooltip": "<strong>聚苯并咪唑</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "最后--聚苯并咪唑!",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1697.png",
+            "x": 696.0,
+            "y": 780.0,
+            "data": "3,3-二氨基联苯胺和间苯二甲酸二苯酯最终会制成熔融聚苯并咪唑. 使用板模具来获得聚苯并咪唑板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGoQ==",
+            "tooltip": "<strong>最后--聚苯并咪唑!</strong></br>前置任务需求:</br>间苯二甲酸二苯酯</br>3,3-二氨基联苯胺"
+        },
+        {
+            "name": "重铬酸钾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1702.png",
+            "x": 852.0,
+            "y": 696.0,
+            "data": "硝酸钾和三氧化铬在HV化学反应釜中反应可制得重铬酸钾.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGpg==",
+            "tooltip": "<strong>重铬酸钾</strong></br>前置任务需求:</br>硝酸钾</br>三氧化铬"
+        },
+        {
+            "name": "硝酸钾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1703.png",
+            "x": 780.0,
+            "y": 612.0,
+            "data": "硝酸钾由钾和硝酸制成.%n如果你有硝石,你也可以用它制成硝酸钾.%n%n%n硝酸钾只能被合成，然而硝石有多种不同的来源%n选择你想要的产线，只需一个硝酸钾粉即可完成此任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGpw==",
+            "tooltip": "<strong>硝酸钾</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "QBit晶圆和芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1679.png",
+            "x": 24.0,
+            "y": 372.0,
+            "data": "QBit晶圆由纳米CPU晶圆、量子之眼配合砷化镓制得,也可以用纳米CPU晶圆、磷化铟镓配合氡制备. 再将其切割,制成QBit处理器芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGjw==",
+            "tooltip": "<strong>QBit晶圆和芯片</strong></br>前置任务需求:</br>纳米晶圆和CPU</br>IV电路组装机"
+        },
+        {
+            "name": "量子处理器集群",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1705.png",
+            "x": 24.0,
+            "y": 204.0,
+            "data": "量子处理器集群是一个IV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGqQ==",
+            "tooltip": "<strong>量子处理器集群</strong></br>前置任务需求:</br>单步EV电路"
+        },
+        {
+            "name": "量子处理器主机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1707.png",
+            "x": 144.0,
+            "y": 288.0,
+            "data": "量子处理器主机是你可以制作的第一个ZPM电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGqw==",
+            "tooltip": "<strong>量子处理器主机</strong></br>前置任务需求:</br>大型量子电脑"
+        },
+        {
+            "name": "量子之星",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1539.png",
+            "x": 144.0,
+            "y": 372.0,
+            "data": "IV的发射器与传感器合成时需要量子之星. 将你的下界之星放入装有氡的HV化学浸洗机.  期待你的自动化氡产线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGAw==",
+            "tooltip": "<strong>量子之星</strong></br>前置任务需求:</br>在IV你会讨厌之1-4"
+        },
+        {
+            "name": "取出泥渣获得铱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2313.png",
+            "x": 828.0,
+            "y": 204.0,
+            "data": "将铱与无用的泥渣分离非常容易.只需在高炉中加热即可完成此步骤.剩下的泥渣粉可以离心成金和二氧化硅.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJCQ==",
+            "tooltip": "<strong>取出泥渣获得铱</strong></br>前置任务需求:</br>最后一次分离-铱&锇"
+        },
+        {
+            "name": "再沉...什么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2310.png",
+            "x": 1164.0,
+            "y": 372.0,
+            "data": "再沉淀!意为从溶液/悬浊液中分离出固体,然后再次溶解,并再次分离.%n%n将富钯氨与钯金属粉结合,会再次得到钯盐粉,同时还有再沉淀钯.%n%n从此你就能跳过第一步了,因为这样也能得到钯盐粉,而且更多. 不过你确实需要找到一种自动化处理粉末的方法.%n%n然后,将甲酸添加到该混合物中即可获得纯钯.%n%n你可以将其用于匠魂武器,也可以留待以后使用.%n%n要是你的富钯氨不够用了,将钯金属粉与氨反应即可直接获得富钯氨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJBg==",
+            "tooltip": "<strong>再沉...什么?</strong></br>前置任务需求:</br>金属盐是最糟糕的!"
+        },
+        {
+            "name": "重新解决纯度问题",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2307.png",
+            "x": 1080.0,
+            "y": 36.0,
+            "data": "嗯,筛选机表现不错,你筛去了很多杂质,但同时,筛选出了些新的...是时候用水过滤掉它们了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJAw==",
+            "tooltip": "<strong>重新解决纯度问题</strong></br>前置任务需求:</br>筛选很棒"
+        },
+        {
+            "name": "铑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2328.png",
+            "x": 1248.0,
+            "y": 36.0,
+            "data": "铑处理的最后一步.你还可以回收一些氯和氨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJGA==",
+            "tooltip": "<strong>铑</strong></br>前置任务需求:</br>你快搞定铑了"
+        },
+        {
+            "name": "镀铑钯",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2329.png",
+            "x": 1248.0,
+            "y": 204.0,
+            "data": "镀铑钯用于制造LuV机械方块.你已经知道该如何制造它了,现在需要的就是进行自动化并制造出一批出来,你会用到它们的.%n%n它其实是合金,为什么叫镀铑钯呢?我也不知道!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJGQ==",
+            "tooltip": "<strong>镀铑钯</strong></br>前置任务需求:</br>铑</br>钯"
+        },
+        {
+            "name": "罗斯128b之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2311.png",
+            "x": 276.0,
+            "y": 564.0,
+            "data": "罗斯128b是一颗很棒且宜居的星球,不会生成怪物(包括任何形式的敌对生物).星球上有多种新的矿脉,有传言说那里会有古代文明的遗迹,还有一些遗留下的机器.你可以在星系地图的底部找到该星球.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJBw==",
+            "tooltip": "<strong>罗斯128b之旅</strong></br>前置任务需求:</br>前往小行星和其他三阶星球的路上"
+        },
+        {
+            "name": "钌铱合金?",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2330.png",
+            "x": 624.0,
+            "y": 36.0,
+            "data": "钌与铱结合会产生一种非常特殊的金属,主要用于LuV部件.%n%n你会需要一大堆钌铱合金的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJGg==",
+            "tooltip": "<strong>钌铱合金?</strong></br>前置任务需求:</br>铱</br>钌"
+        },
+        {
+            "name": "钌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2318.png",
+            "x": 744.0,
+            "y": 36.0,
+            "data": "制取钌的最后一步就是将之前获得的粉末与氢氯酸反应.除了钌,产物还有氯和水.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJDg==",
+            "tooltip": "<strong>钌</strong></br>前置任务需求:</br>冷静一下"
+        },
+        {
+            "name": "盐不能在水中储存?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2879.png",
+            "x": 1080.0,
+            "y": 120.0,
+            "data": "使用搅拌机,将铑盐溶解在水中,获取铑盐溶液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALPw==",
+            "tooltip": "<strong>盐不能在水中储存?</strong></br>前置任务需求:</br>另一个吃盐的"
+        },
+        {
+            "name": "金属盐是最糟糕的!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2308.png",
+            "x": 1164.0,
+            "y": 480.0,
+            "data": "现在,你获得了钯盐,但盐对你毫无用处,所以你需要将其机械筛分,获取钯金属粉.不过成功筛得粉的几率为95％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJBA==",
+            "tooltip": "<strong>金属盐是最糟糕的!</strong></br>前置任务需求:</br>钯处理"
+        },
+        {
+            "name": "钐,另一条路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3083.png",
+            "x": 996.0,
+            "y": 696.0,
+            "data": "现在,只需要离心你的浓缩粉末就能获得钐了.同时,你还获得了一点方钍石,真棒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMCw==",
+            "tooltip": "<strong>钐,另一条路</strong></br>前置任务需求:</br>另一条路"
+        },
+        {
+            "name": "饱和需求",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3085.png",
+            "x": 1416.0,
+            "y": 1200.0,
+            "data": "你快成功了!%n%n现在你需要将其与丙酮混合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMDQ==",
+            "tooltip": "<strong>饱和需求</strong></br>前置任务需求:</br>另一部分"
+        },
+        {
+            "name": "第二次分离-钌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2306.png",
+            "x": 912.0,
+            "y": 288.0,
+            "data": "链式过程的下一步,我们将从浸出渣中分离出钌. 请记住,你既可以从铂渣也可以从硫酸铑溶液中获取它.%n%n这一步需要硝石和盐水. 你可以选择抽取盐水井、挖硝石矿,也可以选择自己制造它们. 鉴于需要的硝石数量非常庞大,建议自动化制造它们.%n%n至于蒸汽,你可以直接销毁它们,或是回收留着制造热四氧化钌溶液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJAg==",
+            "tooltip": "<strong>第二次分离-钌</strong></br>前置任务需求:</br>第一次分离-铑"
+        },
+        {
+            "name": "分离这些最后的微粒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3086.png",
+            "x": 1416.0,
+            "y": 1116.0,
+            "data": "现在,该把剩下的一起离心了.同时你可以从中回收一些氯甲烷,不错吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMDg==",
+            "tooltip": "<strong>分离这些最后的微粒</strong></br>前置任务需求:</br>饱和需求"
+        },
+        {
+            "name": "筛出好东西",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3046.png",
+            "x": 1080.0,
+            "y": 780.0,
+            "data": "是的,你没看错,筛选流体的配方!这里的很多材料都并非其最佳来源,但总比没有好.%n%n另外,硫酸独居石其实也并不是实际的化合物,仅仅作为一个术语,代指稀土的各种硫酸盐集合体.%n%n由于不想让大家担心其余产物的几率问题,所以本任务只要求主产物即可.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL5g==",
+            "tooltip": "<strong>筛出好东西</strong></br>前置任务需求:</br>稀释泥浆"
+        },
+        {
+            "name": "筛选很棒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2326.png",
+            "x": 996.0,
+            "y": 36.0,
+            "data": "筛选硝酸铑以获取铑滤饼粉.出产概率为95％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJFg==",
+            "tooltip": "<strong>筛选很棒</strong></br>前置任务需求:</br>那是我的盐!"
+        },
+        {
+            "name": "单步EV电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1678.png",
+            "x": 24.0,
+            "y": 288.0,
+            "data": "量子处理器是你通过单步合成制造EV电路的第一次机会.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGjg==",
+            "tooltip": "<strong>单步EV电路</strong></br>前置任务需求:</br>纤维强化电路基板</br>QBit晶圆和芯片"
+        },
+        {
+            "name": "SoC-芯片级的系统!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1673.png",
+            "x": 24.0,
+            "y": 564.0,
+            "data": "为了压低LV和MV电路的成本,你需要SoC.芯片级的系统.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGiQ==",
+            "tooltip": "<strong>SoC-芯片级的系统!</strong></br>前置任务需求:</br>硅岩掺杂的晶圆</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "硝酸钠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2880.png",
+            "x": 996.0,
+            "y": 204.0,
+            "data": "进一步处理铑需要用到硝酸钠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALQA==",
+            "tooltip": "<strong>硝酸钠</strong></br>前置任务需求:</br>盐不能在水中储存?"
+        },
+        {
+            "name": "超大型总线",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7903790571940902730.png",
+            "x": 312.0,
+            "y": 444.0,
+            "data": "输入和输出总线不够用?%n%n将总线升级到超级总线,享受更多槽位.",
+            "quest_id": "Mt25IP2aShSSUBhZ1GGItg==",
+            "tooltip": "<strong>超大型总线</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "另一部分",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3084.png",
+            "x": 1332.0,
+            "y": 1200.0,
+            "data": "被这些名字整疲了是吧?希望如此.%n%n现在轮到了氯化与加热,以对所得粉进一步分离.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMDA==",
+            "tooltip": "<strong>另一部分</strong></br>前置任务需求:</br>铁磁性不太强..."
+        },
+        {
+            "name": "另一条路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3087.png",
+            "x": 996.0,
+            "y": 612.0,
+            "data": "你必然还会挖到不少钐矿石,最终囤下成吨的粉.这里有两种选择：其一包含在独居石处理线中,并且产量更高;另一种更简单,但产量较低.%n我们在这里先讲一下后者.%n%n最终你可能还会完全切换到独居石选项,但现在,用这种方式进行一定的补充是个好主意.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMDw==",
+            "tooltip": "<strong>另一条路</strong></br>前置任务需求:</br>IV化学反应釜"
+        },
+        {
+            "name": "那是我的盐!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2325.png",
+            "x": 996.0,
+            "y": 120.0,
+            "data": "将铑盐溶液与硝酸钠反应,获取硝酸铑.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJFQ==",
+            "tooltip": "<strong>那是我的盐!</strong></br>前置任务需求:</br>硝酸钠</br>盐不能在水中储存?"
+        },
+        {
+            "name": "明智的选择",
+            "symbolSize": 23.400000000000002,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8885151988130024871.png",
+            "x": 270.0,
+            "y": 162.0,
+            "data": "所以你选择了明智的两步加工方案?%n%n很好的选择.%n%n开始时,你需要创建一个钛级化工厂,至少HV级机器外壳.  可以是 HV 级外壳,因为两个 HV 级能量仓可以将多方块机器超频到 EV 级.%n%n完成后,放入硼砂粉.然后在第二步中向你的钍粉中加入一些蒸馏水.%n%n然后,你就能轻松地获得钍 232 粉.",
+            "quest_id": "SIqmtgRmTj-EsZlXpCdyWQ==",
+            "tooltip": "<strong>明智的选择</strong></br>前置任务需求:</br>钍-232?"
+        },
+        {
+            "name": "铈处理开始",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3066.png",
+            "x": 1332.0,
+            "y": 1032.0,
+            "data": "这条任务线将会指导你获取元素铈.%n%n首先,将二氧化铈与氯化铵进行反应,制取一些氯化铈.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL-g==",
+            "tooltip": "<strong>铈处理开始</strong></br>前置任务需求:</br>筛选,筛选!我的筛选王国!"
+        },
+        {
+            "name": "这可能不太值",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3056.png",
+            "x": 1416.0,
+            "y": 780.0,
+            "data": "你可以直接用高炉煅烧获得的磷酸钍滤饼粉,以继续完成处理链,不过最终的产量不高...%n%n不过,如果你的资源充足,何乐而不为?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL8A==",
+            "tooltip": "<strong>这可能不太值</strong></br>前置任务需求:</br>来点筛选"
+        },
+        {
+            "name": "钍-232?",
+            "symbolSize": 23.400000000000002,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8869557855426175810.png",
+            "x": 270.0,
+            "y": 210.0,
+            "data": "所以你正在查看钍 232，并想知道如何制造它? %n%n你可以用很长的配方以可怕的几率将其离心, 但有更好的方法来获得它. %n%n更好的方法是通过三个不同的处理路径进行合成, 第三条路径在未来使用中子活化器获得聚变后的阶段解锁. %n%n第一条路径需要你可能还不熟悉的化工厂, 但它很快会变得必要以制造用于三级或更高级别的火箭的火箭燃料.此路径是最快的, 只需两个步骤即可获得钍-232,但需要硼砂,而硼砂只能(目前)通过开采盐矿脉得到的副产物或通过蜜蜂获得(如果你已经有了,可能是更好的选择)%n%n第二条路径是六步处理链, 需要化学反应釜, 离心机和电力高炉.尽管处理过程更长,但它提供了更好的转化率(75%%,而不是化工厂的25%%),相比于硼砂,它需要硝酸(如果考虑到回收，4000L硝酸/粉)和100L氟/粉.%n%n无论哪种方式, 我都会建议使用AE2FC, 因为它支持按需进行流体合成, 这将有助于两个处理链. %n",
+            "quest_id": "nNTmwkdsQgyE6QAfmIwcvg==",
+            "tooltip": "<strong>钍-232?</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "钍与磷酸盐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3058.png",
+            "x": 1416.0,
+            "y": 696.0,
+            "data": "现在,将所获得的精粉热力离心,你就可以获得钍和磷酸盐粉.告诉过你产量不高...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL8g==",
+            "tooltip": "<strong>钍与磷酸盐</strong></br>前置任务需求:</br>这可能不太值"
+        },
+        {
+            "name": "第5阶段(IV)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/213.png",
+            "x": 348.0,
+            "y": 372.0,
+            "data": "在IV阶段,你需要钨钢制造机器. 你应该造访火星和它的卫星:火卫一和火卫二.%n%n记得将你的工业高炉线圈升级为钛铂钒线圈.%n%n到目前为止你应该已经精通了格雷科技,前提是如果你还没有清理过格雷机器在你家里留下的大坑...%n%n好多GT++多方块结构在这个阶段都已经陆续解锁.记得先准备一台合金冶炼炉,并检查GT++任务页.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA1Q==",
+            "tooltip": "<strong>第5阶段(IV)</strong></br>前置任务需求:</br>第4阶段(EV)</br>处理器主机,你的第一种IV电路板</br>石墨烯</br>钨钢"
+        },
+        {
+            "name": "筛,还是不筛?(To Sift, or Not to Sift?)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3059.png",
+            "x": 1248.0,
+            "y": 864.0,
+            "data": "真正的问题是,是谁想出这些筛选合成表的?%n%n你可以从中获得一些铀,所以这个合成表还不算太糟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL8w==",
+            "tooltip": "<strong>筛,还是不筛?(To Sift, or Not to Sift?)</strong></br>前置任务需求:</br>化学浸洗!"
+        },
+        {
+            "name": "万用镐：金刚杵",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6298089791773258108.png",
+            "x": 516.0,
+            "y": 144.0,
+            "data": "此工具可以很快的开采方块,包括格雷科技方块或电缆.使用左键单击将照常开采方块,而启用精确模式将允许您右键单击以逐个获取方块,同时还可以应用精准采集.%n%n[note]要启用精确模式,手持金刚杵并按下模式切换键 + 右键单击​​.[/note]",
+            "quest_id": "VoQ7oLYhTjuomLCz_ddOhA==",
+            "tooltip": "<strong>万用镐：金刚杵</strong></br>前置任务需求:</br>铱</br>IV超导(8192 EU/t)"
+        },
+        {
+            "name": "铀?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3061.png",
+            "x": 1332.0,
+            "y": 948.0,
+            "data": "...再筛选所获得的粉,你可以获得铀-238/235粉.你确实能够从中获得一些铀-235,所以并不是完全浪费时间,希望吧...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL9Q==",
+            "tooltip": "<strong>铀?</strong></br>前置任务需求:</br>铀滤渣"
+        },
+        {
+            "name": "铀滤渣",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3060.png",
+            "x": 1248.0,
+            "y": 948.0,
+            "data": "稍后,你可以用一些氢氟酸处理这些铀滤渣粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL9A==",
+            "tooltip": "<strong>铀滤渣</strong></br>前置任务需求:</br>筛,还是不筛?(To Sift, or Not to Sift?)"
+        },
+        {
+            "name": "金星之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1717.png",
+            "x": 276.0,
+            "y": 780.0,
+            "data": "金星有3种新矿脉,量子锭和金红石是最重要的.如果你之前还没采够硅岩的话,这里也有.%n%n[note]如果你仍然需要的话,这里也有火石贫瘠矿.[/note]%n%n警告! 金星需要穿戴提供宇航服功能的全套护甲, 否则你会在到达金星时被杀死!! %n%n查看太空竞赛任务章节以获得更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGtQ==",
+            "tooltip": "<strong>金星之旅</strong></br>前置任务需求:</br>在前往4阶星球的路上"
+        },
+        {
+            "name": "等下你确定?",
+            "symbolSize": 24.7,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6939821207402967394.png",
+            "x": 211.0,
+            "y": 211.0,
+            "data": "出于一些原因你选择了电力高炉的方案。%n%n那么就准备做一条产线吧。%n%n首先你需要让钍粉与氢氟酸和八桶硝酸反应。希望你有硝酸产线。%n%n然后硝酸钍与氢氧化钠反应制备氢氧化钍，再与更多的氢氟酸反应制成四氟化钍。%n%n然后转移到离心机来分离普通的钍和钍-232。可惜钍-232仍然还是液体形式，所以你将需要把它和氯化锌与钙粉共同放进高炉中处理。%n%n最后再把锌钍合金锭用高炉煅烧来分离出钍-232粉并回收液态的锌。%n%n希望你和电高炉法产钍-232产线玩得愉快。",
+            "quest_id": "fvz-5lJaRAqfsM1hcAYOng==",
+            "tooltip": "<strong>等下你确定?</strong></br>前置任务需求:</br>钍-232?"
+        },
+        {
+            "name": "稀释泥浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3044.png",
+            "x": 1080.0,
+            "y": 696.0,
+            "data": "煮解池的产物还是太过浓稠,你还需要用水在溶解罐中对其进行稀释.%n%n有趣的事实：配方中的硝石仅仅是为了便于搜索而添加的!%n%n在稀释过程中,你还会得到一些锆和铪.这两者在之后都会用到,所以千万不要随手销毁了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL5A==",
+            "tooltip": "<strong>稀释泥浆</strong></br>前置任务需求:</br>独居石"
+        },
+        {
+            "name": "我们不是在经营农场!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3051.png",
+            "x": 1332.0,
+            "y": 612.0,
+            "data": "...低纯铪是什么东西?%n%n好吧,你需要的当然是纯度最高的铪,所以不能简单地加点镁粉高炉煅烧,还需要一些其他工序.%n%n继续前进吧,加入一些碘进行反应.要是你还不确定怎么获取碘,看看海藻灰吧. (提示：需要看的是小堆粉哦)%n%n注意：反应中可使用流体状态的碘或者碘粉,所以,要完成任务,你只需要其中之一,也可都不用!%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL6w==",
+            "tooltip": "<strong>我们不是在经营农场!</strong></br>前置任务需求:</br>工业高炉时间2"
+        },
+        {
+            "name": "盐到哪里去了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2314.png",
+            "x": 912.0,
+            "y": 204.0,
+            "data": "将氯气与钌酸钠反应即可制得四氧化钌溶液.%n%n译者注:溶剂哪来的...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJCg==",
+            "tooltip": "<strong>盐到哪里去了?</strong></br>前置任务需求:</br>第二次分离-钌"
+        },
+        {
+            "name": "为什么,Bart,为什么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2883.png",
+            "x": 912.0,
+            "y": 36.0,
+            "data": "带上你的热四氧化钌溶液,使用蒸馏塔对其进行蒸馏,获取四氧化钌,以及盐和水.%n%n但是,这一步的数量非常烦人.你需要运行5次才能得到一个单元的量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALQw==",
+            "tooltip": "<strong>为什么,Bart,为什么?</strong></br>前置任务需求:</br>加热!"
+        },
+        {
+            "name": "这铈在开玩笑吧?(You Can't Be Cerious!)",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3079.png",
+            "x": 1416.0,
+            "y": 864.0,
+            "data": "一语双关对吧?%n%n现在,你可以电解氧化铈(III)获取纯净的元素铈粉了.%n%n哦,还有氧,不过谁在乎呢?%n%n这种好用的材料在许多不同的多方块机器中都很有用,这些机器将在以后的阶段中解锁,比如精密组装机、大型元素复制机以及化工厂的更好的机器外壳(用于制作新的火箭燃料).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMBw==",
+            "tooltip": "<strong>这铈在开玩笑吧?(You Can't Be Cerious!)</strong></br>前置任务需求:</br>与草酸结合"
+        },
+        {
+            "name": "在IV中你会讨厌之5和6",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1414.png",
+            "x": 144.0,
+            "y": 468.0,
+            "data": "一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFhg==",
+            "tooltip": "<strong>在IV中你会讨厌之5和6</strong></br>前置任务需求:</br>量子之星"
+        },
+        {
+            "name": "在IV你会讨厌之1-4",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1413.png",
+            "x": 240.0,
+            "y": 372.0,
+            "data": "泵,活塞,传送带和机械臂是IV中最需要的机器部件.每样都做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFhQ==",
+            "tooltip": "<strong>在IV你会讨厌之1-4</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "你的第一块硅岩锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1667.png",
+            "x": 192.0,
+            "y": 648.0,
+            "data": "你可能已经注意到,现在你无法直接从硅岩矿石中获得硅岩粉了,它只能出产氧化硅岩混合物(NOM)粉,真让人恼火.%n%n完整的硅岩处理线非常复杂,尤其在IV阶段,我相信在完成了铂系处理线、聚苯并咪唑(PBI)线,以及镧系处理线之后,你不会想在短时间内再搭一条线.%n%n幸好,你可以在工业高炉(EBF)中直接熔炼氧化硅岩混合物粉,获得硅岩粒,但这样没什么效率,会损失其中的副产物.%n%n[note]PS：氧化硅岩混合物有时候也叫\"氧化硅岩金属混合物\",缩写为Nq-MOM. [/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGgw==",
+            "tooltip": "<strong>你的第一块硅岩锭</strong></br>前置任务需求:</br>谷神星之旅"
+        },
+        {
+            "name": "钇钡铜氧合金",
+            "symbolSize": 15.600000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1718.png",
+            "x": 276.0,
+            "y": 300.0,
+            "data": "在LuV阶段中,钇钡铜氧变得更加重要. 它需要EV搅拌机和钛铂钒线圈的工业高炉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGtg==",
+            "tooltip": "<strong>钇钡铜氧合金</strong></br>前置任务需求:</br>第5阶段(IV)</br>升级钛铂钒合金线圈"
+        },
+        {
+            "name": "氧化铪-氧化锆混合物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3045.png",
+            "x": 1164.0,
+            "y": 696.0,
+            "data": "这个过程有点复杂,所以我会指导你完成它.首先,将从溶解罐中获得的粉进行离心.%n%n铪和锆都是难溶金属,类似于钛和锆,%n所以它们的处理过程比较相似. %n%n译者注:我猜他想说的是\"类似于铌和钽\"...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL5Q==",
+            "tooltip": "<strong>氧化铪-氧化锆混合物</strong></br>前置任务需求:</br>稀释泥浆"
+        },
+        {
+            "name": "锆锭",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3050.png",
+            "x": 1332.0,
+            "y": 696.0,
+            "data": "只需要将四氯化锆溶液配合镁粉,放入工业高炉中进行煅烧,然后就大功告成了!%n%n锆在很多不同多方块机器中都有用到,例如工业搅拌机以及你可能已经做过了的合金冶炼炉.它还可以用于制造浓缩棒,为你的核反应堆提供额外的提升.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL6g==",
+            "tooltip": "<strong>锆锭</strong></br>前置任务需求:</br>锆处理线"
+        },
+        {
+            "name": "锆处理线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3048.png",
+            "x": 1248.0,
+            "y": 696.0,
+            "data": "锆处理线的开端,同样是将氧化锆与氢氯酸进行反应.%n%n氧化锆粉本身基本没用,不过...做成溶液就有相当多的可能了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL6A==",
+            "tooltip": "<strong>锆处理线</strong></br>前置任务需求:</br>氧化铪-氧化锆混合物"
+        }
+    ],
+    "links": [
+        {
+            "source": "聚苯并咪唑",
+            "target": "2-硝基氯苯"
+        },
+        {
+            "source": "硝酸混酸",
+            "target": "2-硝基氯苯"
+        },
+        {
+            "source": "3,3-二氯联苯胺",
+            "target": "3,3-二氨基联苯胺"
+        },
+        {
+            "source": "2-硝基氯苯",
+            "target": "3,3-二氯联苯胺"
+        },
+        {
+            "source": "现在进行硝化",
+            "target": "来点筛选"
+        },
+        {
+            "source": "重新解决纯度问题",
+            "target": "你快搞定铑了"
+        },
+        {
+            "source": "金属盐是最糟糕的!",
+            "target": "另一种需要头疼的酸!"
+        },
+        {
+            "source": "但是...这很贵!",
+            "target": "另一个吃盐的"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "氩"
+        },
+        {
+            "source": "浸出浓缩物",
+            "target": "筛选,筛选!我的筛选王国!"
+        },
+        {
+            "source": "铱",
+            "target": "A Small Reward: The Infinite Spray Can"
+        },
+        {
+            "source": "钯",
+            "target": "A Small Reward: The Infinite Spray Can"
+        },
+        {
+            "source": "硅岩掺杂的晶圆",
+            "target": "ASoC进阶芯片级系统"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "ASoC进阶芯片级系统"
+        },
+        {
+            "source": "气体变成液体",
+            "target": "但是...这很贵!"
+        },
+        {
+            "source": "前往小行星和其他三阶星球的路上",
+            "target": "木卫四之旅"
+        },
+        {
+            "source": "前往小行星和其他三阶星球的路上",
+            "target": "谷神星之旅"
+        },
+        {
+            "source": "SoC-芯片级的系统!",
+            "target": "廉价的低压电路"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "廉价的低压电路"
+        },
+        {
+            "source": "IV电路组装机",
+            "target": "更便宜的MV电路"
+        },
+        {
+            "source": "SoC-芯片级的系统!",
+            "target": "更便宜的MV电路"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "更便宜的MV电路"
+        },
+        {
+            "source": "来点筛选",
+            "target": "化学浸洗!"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "IV化学反应釜"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "三氧化铬"
+        },
+        {
+            "source": "最后一次分离-铱&锇",
+            "target": "同类者,聚集!"
+        },
+        {
+            "source": "草酸",
+            "target": "与草酸结合"
+        },
+        {
+            "source": "更多钐 !",
+            "target": "浓缩钐"
+        },
+        {
+            "source": "为什么,Bart,为什么?",
+            "target": "冷静一下"
+        },
+        {
+            "source": "筛出好东西",
+            "target": "稀释,再一次"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "邻二甲苯"
+        },
+        {
+            "source": "苯酚2",
+            "target": "间苯二甲酸二苯酯"
+        },
+        {
+            "source": "邻苯二甲酸",
+            "target": "间苯二甲酸二苯酯"
+        },
+        {
+            "source": "取出泥渣获得铱",
+            "target": "溶解铱"
+        },
+        {
+            "source": "筛,还是不筛?(To Sift, or Not to Sift?)",
+            "target": "烘干真棒"
+        },
+        {
+            "source": "铪处理线",
+            "target": "工业高炉时间2"
+        },
+        {
+            "source": "铁磁性不太强...",
+            "target": "氧化铕(EuO)"
+        },
+        {
+            "source": "前往小行星和其他三阶星球的路上",
+            "target": "木卫二之旅"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "更更好的磁化杆"
+        },
+        {
+            "source": "溶解铱",
+            "target": "需要更多的氯"
+        },
+        {
+            "source": "我们不是在经营农场!",
+            "target": "最后,真正的铪"
+        },
+        {
+            "source": "分离这些最后的微粒",
+            "target": "最后,钐!"
+        },
+        {
+            "source": "第二次分离-钌",
+            "target": "最后一次分离-铱&锇"
+        },
+        {
+            "source": "铂系处理-其他所有金属",
+            "target": "第一次分离-铑"
+        },
+        {
+            "source": "第一次分离-铑",
+            "target": "气体变成液体"
+        },
+        {
+            "source": "筛选,筛选!我的筛选王国!",
+            "target": "冷冻硝酸盐"
+        },
+        {
+            "source": "浓缩钐",
+            "target": "在IV阶段获取钐"
+        },
+        {
+            "source": "浓缩钐",
+            "target": "在LuV阶段获取钐"
+        },
+        {
+            "source": "LuV能源仓",
+            "target": "在LuV阶段获取钐"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "发光物质"
+        },
+        {
+            "source": "氧化铪-氧化锆混合物",
+            "target": "铪处理线"
+        },
+        {
+            "source": "盐到哪里去了?",
+            "target": "加热!"
+        },
+        {
+            "source": "铱",
+            "target": "HSS-S"
+        },
+        {
+            "source": "HSS-G",
+            "target": "HSS-S"
+        },
+        {
+            "source": "锇",
+            "target": "HSS-S"
+        },
+        {
+            "source": "最后--聚苯并咪唑!",
+            "target": "一个维度，一套输入总线"
+        },
+        {
+            "source": "在IV中你会讨厌之5和6",
+            "target": "一个维度，一套输入总线"
+        },
+        {
+            "source": "在前往4阶星球的路上",
+            "target": "木卫一之旅"
+        },
+        {
+            "source": "需要更多的氯",
+            "target": "铱"
+        },
+        {
+            "source": "在IV你会讨厌之1-4",
+            "target": "IV组装机"
+        },
+        {
+            "source": "在IV中你会讨厌之5和6",
+            "target": "IV电路组装机"
+        },
+        {
+            "source": "IV超导(8192 EU/t)",
+            "target": "IV能源仓"
+        },
+        {
+            "source": "铱",
+            "target": "IV能源仓"
+        },
+        {
+            "source": "IV组装机",
+            "target": "IV能源仓"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "IV搅拌机"
+        },
+        {
+            "source": "IV搅拌机",
+            "target": "IV超导(8192 EU/t)"
+        },
+        {
+            "source": "铌钛合金",
+            "target": "IV超导(8192 EU/t)"
+        },
+        {
+            "source": "HSS-G",
+            "target": "IV超导(8192 EU/t)"
+        },
+        {
+            "source": "升级高速钢-G线圈",
+            "target": "IV超导(8192 EU/t)"
+        },
+        {
+            "source": "铟",
+            "target": "IV超导(8192 EU/t)"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "继续焊接!"
+        },
+        {
+            "source": "硝化时间...再一次",
+            "target": "浸出浓缩物"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "source": "量子处理器集群",
+            "target": "大型量子电脑"
+        },
+        {
+            "source": "在前往4阶星球的路上",
+            "target": "水星之旅"
+        },
+        {
+            "source": "获得独居石浊溶液",
+            "target": "独居石"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "独居石"
+        },
+        {
+            "source": "另一条路",
+            "target": "更多钐 !"
+        },
+        {
+            "source": "你的第一块硅岩锭",
+            "target": "硅岩掺杂的单晶硅1"
+        },
+        {
+            "source": "硅岩掺杂的单晶硅1",
+            "target": "硅岩掺杂的晶圆"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "铌钛合金"
+        },
+        {
+            "source": "升级钛铂钒合金线圈",
+            "target": "铌钛合金"
+        },
+        {
+            "source": "聚苯并咪唑",
+            "target": "硝酸混酸"
+        },
+        {
+            "source": "烘干真棒",
+            "target": "硝化时间...再一次"
+        },
+        {
+            "source": "冷冻硝酸盐",
+            "target": "铁磁性不太强..."
+        },
+        {
+            "source": "稀释,再一次",
+            "target": "现在进行硝化"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "前往小行星和其他三阶星球的路上"
+        },
+        {
+            "source": "装配线",
+            "target": "在前往4阶星球的路上"
+        },
+        {
+            "source": "木卫四之旅",
+            "target": "在前往4阶星球的路上"
+        },
+        {
+            "source": "铱",
+            "target": "铱锇合金"
+        },
+        {
+            "source": "锇",
+            "target": "铱锇合金"
+        },
+        {
+            "source": "同类者,聚集!",
+            "target": "锇"
+        },
+        {
+            "source": "铈处理开始",
+            "target": "草酸"
+        },
+        {
+            "source": "另一种需要头疼的酸!",
+            "target": "钯"
+        },
+        {
+            "source": "再沉...什么?",
+            "target": "钯"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "钯处理"
+        },
+        {
+            "source": "聚苯并咪唑",
+            "target": "苯酚2"
+        },
+        {
+            "source": "邻二甲苯",
+            "target": "邻苯二甲酸"
+        },
+        {
+            "source": "重铬酸钾",
+            "target": "邻苯二甲酸"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "铂系处理-其他所有金属"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "聚苯并咪唑"
+        },
+        {
+            "source": "间苯二甲酸二苯酯",
+            "target": "最后--聚苯并咪唑!"
+        },
+        {
+            "source": "3,3-二氨基联苯胺",
+            "target": "最后--聚苯并咪唑!"
+        },
+        {
+            "source": "硝酸钾",
+            "target": "重铬酸钾"
+        },
+        {
+            "source": "三氧化铬",
+            "target": "重铬酸钾"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "硝酸钾"
+        },
+        {
+            "source": "纳米晶圆和CPU",
+            "target": "QBit晶圆和芯片"
+        },
+        {
+            "source": "IV电路组装机",
+            "target": "QBit晶圆和芯片"
+        },
+        {
+            "source": "单步EV电路",
+            "target": "量子处理器集群"
+        },
+        {
+            "source": "大型量子电脑",
+            "target": "量子处理器主机"
+        },
+        {
+            "source": "在IV你会讨厌之1-4",
+            "target": "量子之星"
+        },
+        {
+            "source": "最后一次分离-铱&锇",
+            "target": "取出泥渣获得铱"
+        },
+        {
+            "source": "金属盐是最糟糕的!",
+            "target": "再沉...什么?"
+        },
+        {
+            "source": "筛选很棒",
+            "target": "重新解决纯度问题"
+        },
+        {
+            "source": "你快搞定铑了",
+            "target": "铑"
+        },
+        {
+            "source": "铑",
+            "target": "镀铑钯"
+        },
+        {
+            "source": "钯",
+            "target": "镀铑钯"
+        },
+        {
+            "source": "前往小行星和其他三阶星球的路上",
+            "target": "罗斯128b之旅"
+        },
+        {
+            "source": "铱",
+            "target": "钌铱合金?"
+        },
+        {
+            "source": "钌",
+            "target": "钌铱合金?"
+        },
+        {
+            "source": "冷静一下",
+            "target": "钌"
+        },
+        {
+            "source": "另一个吃盐的",
+            "target": "盐不能在水中储存?"
+        },
+        {
+            "source": "钯处理",
+            "target": "金属盐是最糟糕的!"
+        },
+        {
+            "source": "另一条路",
+            "target": "钐,另一条路"
+        },
+        {
+            "source": "另一部分",
+            "target": "饱和需求"
+        },
+        {
+            "source": "第一次分离-铑",
+            "target": "第二次分离-钌"
+        },
+        {
+            "source": "饱和需求",
+            "target": "分离这些最后的微粒"
+        },
+        {
+            "source": "稀释泥浆",
+            "target": "筛出好东西"
+        },
+        {
+            "source": "那是我的盐!",
+            "target": "筛选很棒"
+        },
+        {
+            "source": "纤维强化电路基板",
+            "target": "单步EV电路"
+        },
+        {
+            "source": "QBit晶圆和芯片",
+            "target": "单步EV电路"
+        },
+        {
+            "source": "硅岩掺杂的晶圆",
+            "target": "SoC-芯片级的系统!"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "SoC-芯片级的系统!"
+        },
+        {
+            "source": "盐不能在水中储存?",
+            "target": "硝酸钠"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "超大型总线"
+        },
+        {
+            "source": "铁磁性不太强...",
+            "target": "另一部分"
+        },
+        {
+            "source": "IV化学反应釜",
+            "target": "另一条路"
+        },
+        {
+            "source": "硝酸钠",
+            "target": "那是我的盐!"
+        },
+        {
+            "source": "盐不能在水中储存?",
+            "target": "那是我的盐!"
+        },
+        {
+            "source": "钍-232?",
+            "target": "明智的选择"
+        },
+        {
+            "source": "筛选,筛选!我的筛选王国!",
+            "target": "铈处理开始"
+        },
+        {
+            "source": "来点筛选",
+            "target": "这可能不太值"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "钍-232?"
+        },
+        {
+            "source": "这可能不太值",
+            "target": "钍与磷酸盐"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "第5阶段(IV)"
+        },
+        {
+            "source": "处理器主机,你的第一种IV电路板",
+            "target": "第5阶段(IV)"
+        },
+        {
+            "source": "石墨烯",
+            "target": "第5阶段(IV)"
+        },
+        {
+            "source": "钨钢",
+            "target": "第5阶段(IV)"
+        },
+        {
+            "source": "化学浸洗!",
+            "target": "筛,还是不筛?(To Sift, or Not to Sift?)"
+        },
+        {
+            "source": "铱",
+            "target": "万用镐：金刚杵"
+        },
+        {
+            "source": "IV超导(8192 EU/t)",
+            "target": "万用镐：金刚杵"
+        },
+        {
+            "source": "铀滤渣",
+            "target": "铀?"
+        },
+        {
+            "source": "筛,还是不筛?(To Sift, or Not to Sift?)",
+            "target": "铀滤渣"
+        },
+        {
+            "source": "在前往4阶星球的路上",
+            "target": "金星之旅"
+        },
+        {
+            "source": "钍-232?",
+            "target": "等下你确定?"
+        },
+        {
+            "source": "独居石",
+            "target": "稀释泥浆"
+        },
+        {
+            "source": "工业高炉时间2",
+            "target": "我们不是在经营农场!"
+        },
+        {
+            "source": "第二次分离-钌",
+            "target": "盐到哪里去了?"
+        },
+        {
+            "source": "加热!",
+            "target": "为什么,Bart,为什么?"
+        },
+        {
+            "source": "与草酸结合",
+            "target": "这铈在开玩笑吧?(You Can't Be Cerious!)"
+        },
+        {
+            "source": "量子之星",
+            "target": "在IV中你会讨厌之5和6"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "在IV你会讨厌之1-4"
+        },
+        {
+            "source": "谷神星之旅",
+            "target": "你的第一块硅岩锭"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "钇钡铜氧合金"
+        },
+        {
+            "source": "升级钛铂钒合金线圈",
+            "target": "钇钡铜氧合金"
+        },
+        {
+            "source": "稀释泥浆",
+            "target": "氧化铪-氧化锆混合物"
+        },
+        {
+            "source": "锆处理线",
+            "target": "锆锭"
+        },
+        {
+            "source": "氧化铪-氧化锆混合物",
+            "target": "锆处理线"
+        }
+    ]
+}

@@ -1,0 +1,1370 @@
+{
+    "data": [
+        {
+            "name": "在一条黑暗的道路上走下去...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1651.png",
+            "x": 516.0,
+            "y": 432.0,
+            "data": "...但是一条充满超乎想象的强大力量的道路. 仰视吧,战栗吧,凡人们!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGcw==",
+            "tooltip": "<strong>在一条黑暗的道路上走下去...</strong></br>前置任务需求:</br>需要一顶大帽子..."
+        },
+        {
+            "name": "另一个巫师炼药锅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1587.png",
+            "x": 864.0,
+            "y": 240.0,
+            "data": "在我们有足够的硬币之后,我们可以制作巫师炼药锅并将其转换到精神世界.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGMw==",
+            "tooltip": "<strong>另一个巫师炼药锅</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "你Grassping我说的了吗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2421.png",
+            "x": 24.0,
+            "y": 156.0,
+            "data": "想要获得擒拿草(Grassper),首先,你得在一格水的上方放置一个箱子,然后在箱子周围四个基本方位放置草. 最后,用你的变异枝条右键箱子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJdQ==",
+            "tooltip": "<strong>你Grassping我说的了吗?</strong></br>前置任务需求:</br>变异枝条</br>改变生物群系的困难方法"
+        },
+        {
+            "name": "仪祭匕首",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2341.png",
+            "x": 312.0,
+            "y": 240.0,
+            "data": "仪祭匕首是巫师使用的一种礼仪用刀,既可以收集特殊的食材,也可以进行一些仪式.它的一般属性与金剑一致(伤害,附魔等),但它同时具备铁剑的耐久.可用金锭修复.%n%n仪祭匕首的主要用途是收集巫术中使用的特殊原料(它将显著提高怪物掉落此类原料的几率)(例如蝙蝠之毛,狗之舌等).使用它击杀亡灵生物还有小几率掉落幽灵粉末.  当仅有原版Minecraft和巫术mod(且不使用其他模组)时,使用仪祭匕首杀死骷髅是获取骷髅头颅的唯一方式,掉落几率约为5％(头颅是祭坛的重要升级).使用仪祭匕首还有较小几率获得其他头颅(从怪物或玩家身上).掠夺附魔可增加所有掉落几率.%n%n仪祭匕首无法提高凋灵骷髅头颅的掉落几率,只能通过掠夺附魔这种常规方式提高.%n%n某些圆环仪式需要用到仪祭匕首,不过在仪式过程中不会消耗它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJJQ==",
+            "tooltip": "<strong>仪祭匕首</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "调谐之石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1568.png",
+            "x": 228.0,
+            "y": 168.0,
+            "data": "调谐之石,是一种在火热的介质中注入天然魔力的钻石. 调谐之石可以将非魔法装置与世界上存在的魔法流联系起来,并且是制作蒸馏塔,水壶,祭坛核心和娃娃台子的主要成分之一.%n%n调谐之石的另一个主要用途是,当附近没有祭坛可用时,它可作为圆环法阵的便携式能源. 要这样做之前,必须向调谐之石充能.(充能仪式)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGIA==",
+            "tooltip": "<strong>调谐之石</strong></br>前置任务需求:</br>魔力之息"
+        },
+        {
+            "name": "成为一个吸血鬼,打扮得像个花花公子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/349.png",
+            "x": 468.0,
+            "y": 408.0,
+            "data": "有时候打扮花哨的衣服会很麻烦.然而,如果你证明自己是有价值的,你就可以得到一套免费的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABXQ==",
+            "tooltip": "<strong>成为一个吸血鬼,打扮得像个花花公子</strong></br>前置任务需求:</br>光轮1999(Nimbus 1999)"
+        },
+        {
+            "name": "更好的梦魇防护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1579.png",
+            "x": 756.0,
+            "y": 192.0,
+            "data": "奇思妙想咒符是保护自己免受噩梦给你带来的一些debuff的唯一方法. 它需要在玩家的背包中才能运作. 奇思妙想咒符是用木棍和幻想线团制作的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGKw==",
+            "tooltip": "<strong>更好的梦魇防护</strong></br>前置任务需求:</br>梦中幻想线团2"
+        },
+        {
+            "name": "嗜血: \"该隐\"之剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/348.png",
+            "x": 504.0,
+            "y": 222.0,
+            "data": "提供2两种功能:风格.还有...啊,是的...吸血鬼有用的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABXA==",
+            "tooltip": "<strong>嗜血: \"该隐\"之剑</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "嗜血: 恶魂之泪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/343.png",
+            "x": 468.0,
+            "y": 240.0,
+            "data": "如果你打不到恶魂,却还想要精炼邪恶的话...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABVw==",
+            "tooltip": "<strong>嗜血: 恶魂之泪</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "嗜血: 女巫之爪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/344.png",
+            "x": 576.0,
+            "y": 216.0,
+            "data": "万一你不喜欢地狱女巫...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABWA==",
+            "tooltip": "<strong>嗜血: 女巫之爪</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "嗜血: 蝙蝠之毛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/347.png",
+            "x": 612.0,
+            "y": 252.0,
+            "data": "要是实在没有打到的话...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABWw==",
+            "tooltip": "<strong>嗜血: 蝙蝠之毛</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "书籍是给书呆子看的...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1649.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "...还有性感的男性图书馆员.(...And sexy male librarians.)什么鬼... 聪明的巫师想要学习他们的方法.制作第一批巫术书籍吧,或是洗劫几个村庄找齐它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGcQ==",
+            "tooltip": "<strong>书籍是给书呆子看的...</strong></br>前置任务需求:</br>被火烧伤和...</br>...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "name": "水心之酿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1584.png",
+            "x": 708.0,
+            "y": 288.0,
+            "data": "水心之酿以液体形式捕捉精神世界的本质.它只能在精神世界中酿造!  水心之酿可以扔到地面上,瓶子会爆裂产生液体(然后可以用桶收集此液体). 站在此液体中会对大多数生物产生轻微的治疗效果.恶魔或亡灵生物将被削弱.站在此液体中的噩梦将失去其无敌效果! 夜魇之织梦者附近有水心之酿液体时,每个液体方块(最多3个)会使噩梦几率降低10％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGMA==",
+            "tooltip": "<strong>水心之酿</strong></br>前置任务需求:</br>梦中祭坛</br>梦中水壶</br>梦中幻想线团2"
+        },
+        {
+            "name": "爱之酿药水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1562.png",
+            "x": 396.0,
+            "y": 180.0,
+            "data": "爱之酿药水是一种可投掷药水,可以让牲畜和村民们发♂情. 当用于动物时,所有被击中的动物就会像被喂食一样,同时它们的繁殖冷却时间会被重置. 当用于村民时,两个(或更多)村民必须被相同的爱之酿药水击中. 对于一群两个或两个以上被迷惑的僵尸(用腾升之酿药水制造或用炼狱注魔技能迷惑),可能会使他们发情,配对成功会产生一个小僵尸. 爱之酿药水也会使这些僵尸成为僵尸村民.而僵尸村民可以使用常规方法或通过举行富饶仪式变回村民. 使用巫术:酿造&注魔一书中的合成表,在水壶中制造爱之酿药水.提示:戴着巫师帽(和/或穿着巫师袍)收取药水,以获得更多的药水而不仅仅是三个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGGg==",
+            "tooltip": "<strong>爱之酿药水</strong></br>前置任务需求:</br>也许能用来熬汤!"
+        },
+        {
+            "name": "...巫师炼药锅,咕噜咕噜噜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/334.png",
+            "x": 312.0,
+            "y": 72.0,
+            "data": "你需要做的第二件事就是巫师炼药锅.它被用来处理大多数基本物品,比如转生粉. 巫师炼药锅需要用到受魔之膏,这需要MV以上的搅拌机才能制造.%n%n用受魔之膏涂抹在普通炼药锅上,可将其转化为巫师炼药锅,然后就能炼制有趣的药水与物品了.将不同的巫术种子与水在搅拌机内混合即可得到受魔之膏.%n%n在用巫师炼药锅酿造药水、进行仪式或制造物品之前,首先需要将其装满水. 可以手动加入三桶水、使用管道泵入水、或者用内含无限水的发射器.%n%n装满水后,还需要把水烧沸.唯一方式就是在巫师炼药锅下方点上一堆火. 以地狱岩为基即可让火一直燃烧,就算火灭了,只要让它重新燃烧并加热沸腾就可以继续反应,不会有任何损失(不像水壶酿药,中断会造成损失!).%n%n在水沸腾之后,就可以将各种原料[依次]投入炼药锅. 巫术:酿造这本书列出了所有原料,及其在酿造药水中的作用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABTg==",
+            "tooltip": "<strong>...巫师炼药锅,咕噜咕噜噜</strong></br>前置任务需求:</br>巫术种子</br>被火烧伤和..."
+        },
+        {
+            "name": "圣餐杯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2340.png",
+            "x": 348.0,
+            "y": 120.0,
+            "data": "圣餐杯可升级祭坛,提升其可容纳的魔力上限.圣餐杯将其魔力上限在基础容量上提高1倍.%n%n而圣餐杯(填满的)可提高2倍.同一时间,祭坛上只有一个圣餐杯会生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJJA==",
+            "tooltip": "<strong>圣餐杯</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "用巫术改变生物群系",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2417.png",
+            "x": 120.0,
+            "y": 264.0,
+            "data": "使用巫术来改变生物群系有两种方法,简单的和困难的,选一种(或是两种都试试). 记得先准备一台巫术的蒸馏塔!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJcQ==",
+            "tooltip": "<strong>用巫术改变生物群系</strong></br>前置任务需求:</br>我不去就山,让山来就我"
+        },
+        {
+            "name": "圆环法阵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/339.png",
+            "x": 468.0,
+            "y": 372.0,
+            "data": "对于圆环法阵,你需要...显然是圆环.你可以使用4种粉笔,当然你需要所有的粉笔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABUw==",
+            "tooltip": "<strong>圆环法阵</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "恶魔契约",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2334.png",
+            "x": 204.0,
+            "y": 372.0,
+            "data": "一份可让死者复活的羊皮纸上书写着恶魔契约.契约以其所涉之人的鲜血订立.%n%n普通的恶魔契约用于与烈焰小鬼(Flame-Imps)达成交易.这种基础的恶魔契约是用含有巫师本人血的巫媒制成的.%n%n当要使用恶魔法术时,恶魔契约需使用相应试剂制作,然后使用含有目标血液的巫媒进行标记.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJHg==",
+            "tooltip": "<strong>恶魔契约</strong></br>前置任务需求:</br>巫媒"
+        },
+        {
+            "name": "钻石熏气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1574.png",
+            "x": 528.0,
+            "y": 516.0,
+            "data": "钻石熏气是一种成分,它是根据书(巫术:蒸馏)中的配方,使用钻石在蒸馏塔中进行蒸馏而制成的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGJg==",
+            "tooltip": "<strong>钻石熏气</strong></br>前置任务需求:</br>浓硫酸"
+        },
+        {
+            "name": "挖得更快!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1580.png",
+            "x": 840.0,
+            "y": 444.0,
+            "data": "铁臂之织梦者将提升玩家挖掘速度,当他们从良好的夜晚睡眠中醒来时. 如果铁壁之织梦者被附近的夜魇之织梦者摧毁,那么它将为玩家附加挖掘速度减速效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGLA==",
+            "tooltip": "<strong>挖得更快!</strong></br>前置任务需求:</br>梦中幻想线团1"
+        },
+        {
+            "name": "蒸馏塔1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1571.png",
+            "x": 528.0,
+            "y": 336.0,
+            "data": "巫师使用的蒸馏塔是用于蒸馏魔法成分的设备. 它不像普通的蒸馏塔,因为它使用从附近的祭坛获得的能量来加热自身. 蒸馏塔必须在距离祭坛大约14-16格的范围内才能从中获取能量-如果没有能量可用,界面上会显示一个小图标.%n%n一种或两种成分被一起蒸馏,最多会产生四个产物. 还需要提供一些粘土罐来捕获部分或全部蒸馏产物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGIw==",
+            "tooltip": "<strong>蒸馏塔1</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "不要这么用力摇!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/337.png",
+            "x": 348.0,
+            "y": 36.0,
+            "data": "与硝酸不同,这东西不会爆炸.但你还是不应该太用力摇...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABUQ==",
+            "tooltip": "<strong>不要这么用力摇!</strong></br>前置任务需求:</br>...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "name": "不要碰针!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/335.png",
+            "x": 540.0,
+            "y": 288.0,
+            "data": "虽然本身不具有很多配方,但它所具有的少数配方对于你进一步巫术发展非常重要.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABTw==",
+            "tooltip": "<strong>不要碰针!</strong></br>前置任务需求:</br>起得很早"
+        },
+        {
+            "name": "梦中蒸馏塔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1586.png",
+            "x": 828.0,
+            "y": 228.0,
+            "data": "你或许也需要另一座蒸馏塔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGMg==",
+            "tooltip": "<strong>梦中蒸馏塔</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "梦中转生粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1590.png",
+            "x": 864.0,
+            "y": 192.0,
+            "data": "去找一些鸡肉和鸡蛋,在你的巫师烤炉里燃烧以获得一些角魔之息,并种下一些曼德拉草. 做一堆转生粉,以获得一些巫术树苗. 燧石锄足以用来种植.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGNg==",
+            "tooltip": "<strong>梦中转生粉</strong></br>前置任务需求:</br>我们需要另一个巫师烤炉</br>另一个巫师炼药锅"
+        },
+        {
+            "name": "黄金之梦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3271.png",
+            "x": 804.0,
+            "y": 276.0,
+            "data": "做个发财梦.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMxw==",
+            "tooltip": "<strong>黄金之梦</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "早起的鸟儿得到了...噩梦？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1566.png",
+            "x": 516.0,
+            "y": 156.0,
+            "data": "你很早就醒来了,因为在精神世界中,梦魇总是追着你.%n%n你还没有做好准备. 让我们先拿一些东西,然后再次进入,以获得一些纤细/干扰棉花.%n%n如果你尚未解锁酿造台,得先去解锁. 查看魔法学徒章节中的任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGHg==",
+            "tooltip": "<strong>早起的鸟儿得到了...噩梦？</strong></br>前置任务需求:</br>精神世界-噩梦"
+        },
+        {
+            "name": "树人嫩芽",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2338.png",
+            "x": 180.0,
+            "y": 108.0,
+            "data": "杀死树人会掉落树人嫩芽.而树人嫩芽可用于制作变异枝条和神秘枝条.%n%n当大量砍伐山梨树、山楂树和赤杨树时有几率生成树人.%n%n很难通过常规手段杀死树人,但是由于某些原因,某些工具对树人格外有效.%n%n杀死树人还有几率掉落暮色的苔藓和超多生物群系的苔藓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJIg==",
+            "tooltip": "<strong>树人嫩芽</strong></br>前置任务需求:</br>变异的树苗"
+        },
+        {
+            "name": "梦中角魔之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1591.png",
+            "x": 912.0,
+            "y": 216.0,
+            "data": "为了以后的使用,做一些角魔之息吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGNw==",
+            "tooltip": "<strong>梦中角魔之息</strong></br>前置任务需求:</br>我们需要另一个巫师烤炉"
+        },
+        {
+            "name": "角魔之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1554.png",
+            "x": 96.0,
+            "y": 84.0,
+            "data": "角魔之息是许多合成表中使用的成分. 在巫师烤炉中燃烧橡树树苗,可以随机获得.%n%n燃烧树苗后,你也会得到木灰.这些木灰很有用,不要把它们随便乱扔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGEg==",
+            "tooltip": "<strong>角魔之息</strong></br>前置任务需求:</br>被火烧伤和..."
+        },
+        {
+            "name": "梦中幻想线团1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1578.png",
+            "x": 840.0,
+            "y": 384.0,
+            "data": "使用转轮从纤细棉花中纺出幻想线团.它是用来酿造水心之酿的成分. 水心之酿只能在精神世界中酿造.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGKg==",
+            "tooltip": "<strong>梦中幻想线团1</strong></br>前置任务需求:</br>晚点叫醒我"
+        },
+        {
+            "name": "梦中幻想线团2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1595.png",
+            "x": 744.0,
+            "y": 240.0,
+            "data": "使用转轮从纤细棉花中纺出幻想线团.它是用来酿造水心之酿的成分. 水心之酿只能在精神世界中酿造.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGOw==",
+            "tooltip": "<strong>梦中幻想线团2</strong></br>前置任务需求:</br>黄金之梦</br>梦中祭坛</br>编织你的梦(梦中转轮)"
+        },
+        {
+            "name": "最后,绑定爱宠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2424.png",
+            "x": 60.0,
+            "y": 360.0,
+            "data": "现在你有了蟾蜍和猫头鹰,除此之外你还可以选择猫作为你的爱宠. 为啥我们不直接绑定猫,还费了半天搞出蟾蜍和猫头鹰呢? 其实,无论如何你都会用到这两种生物的,而且谁不喜欢能有多种选择呢? 想要进行绑定仪式(圆环法阵第6页),你需要蒸馏出一些恶魔之血. 现在就做,顺便把剩下所需的物品都准备好.%n%n准备完毕后,再确认一下祭坛有足够的能量,你就能开始绑定仪式了. 你要知道不同爱宠能为你提供不同的增益. 查看官方wiki获取详细信息.%n%n译者注:%n猫爱宠增益:%n提升诅咒仪式威力,移除诅咒更轻松. 使玩家能进行腐化娃娃之咒仪式、能酿造诅咒跳跃之酿.%n%n猫头鹰爱宠增益:%n提升魔法扫帚的操控性. 使玩家能酿造鹰击之酿%n%n蟾蜍爱宠增益:%n酿造装瓶时有5％几率多获得一瓶药水(可与其他提升几率效果叠加),稍微扩大巫术药水有效范围(对亡灵药水或其他爱宠专属药水无效). 使玩家能酿造青蛙舌头之酿.%n%n爱宠具有50点生命和5点护甲,而爱宠与主人之间有灵魂锁链,因此在主人附近的爱宠能分担10％主人的伤害,如果距离过远的话只能分担1％的伤害(反之亦然,爱宠受到的伤害也会部分转移到主人身上,所以最好把它留在安全的地方). 另外需要注意的是,如果爱宠死亡,主人也会死亡(大概). 你可以通过圆环法阵第52页的爱宠召唤仪式重新召唤死亡或者遣散状态的爱宠. 如果你在极限模式下,不想因为爱宠而承受死亡的风险,可以在潜行状态下右键坐着的爱宠,即可将爱宠遣散. 译者注:遣散状态下的爱宠不会为玩家提供增益.%n%n现在去谋杀一些你的新朋友吧,撕下小毛头鹰之翼,剁下青蛙趾. 记得用仪祭匕首哦. 下一步需要先知之石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJeA==",
+            "tooltip": "<strong>最后,绑定爱宠</strong></br>前置任务需求:</br>疯狂科学是最好的科学(Mad Science is the Best Science)"
+        },
+        {
+            "name": "被火烧伤和...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/332.png",
+            "x": 180.0,
+            "y": 36.0,
+            "data": "为了开始满足你的基本巫术需求,你需要一个巫师烤炉.%n%n它用于为你的配方提供最基本的成分:熏气.%n%n巫师烤炉可以捕获烘烤过程中的熏气副产物.右键烤炉激活其GUI,你将会看到燃料栏边有个额外的栏位,那是用来放置粘土罐的.如果烘烤时有粘土罐存在,熏气将有几率被捕获并装入一个粘土罐中.这些熏气在某些配方中很重要.如果没有粘土罐,就不会有熏气被捕获.%n%n升级巫师烤炉%n%n巫师烤炉可以通过在其左右放置熏气漏斗或过滤强化型熏气漏斗升级.每个熏气漏斗将提升10％的烘烤速度并提升25％的副产物几率,而过滤强化型熏气漏斗可以提升30％的副产物几率. 巫师烤炉只能附加两个升级,并且必须与烤炉同向.%n%n满级的巫师烤炉烘烤速度为熔炉的130％,并且有90％的几率获得熏气副产物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABTA==",
+            "tooltip": "<strong>被火烧伤和...</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "烈焰小鬼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2347.png",
+            "x": 312.0,
+            "y": 540.0,
+            "data": "烈焰小鬼是与火焰魔法紧密相关的恶魔.%n%n烈焰小鬼不像他们的表兄弟那么强壮,他们就像是调皮的动物,很容易随个人喜好而摇摆.如果付出足够的代价,它们甚至愿意跟巫师签订契约.%n%n使用召唤仪式召唤烈焰小鬼,他们最有可能攻击他们看到的第一个人.建议尽快与他们交易.%n%n交易%n%n想要与烈焰小鬼交易,巫师需要与它签署用自己的血液书写的恶魔契约(用巫媒制作).%n制作完恶魔契约后,需要对着烈焰小鬼使用,同时会消耗经验等级(一般是25级).%n%n一旦契约达成,烈焰小鬼将被绑定到交易位置,无法走得太远.烈焰小鬼会攻击对其主人怀有敌意的任何人.%n%n烈焰小鬼喜欢收到有价值的礼物,当礼物使他满意时,烈焰小鬼可以在主人的要求下进行各种与火焰有关的咒语.%n%n咒语以契约的形式描述做什么以及向谁做.%n只需制作具有必要配件的恶魔契约,然后使用巫媒生成最终的契约.%n然后把契约交给烈焰小鬼.只要目标生物在同一维度,魔法就会成功释放.%n%n烈焰小鬼有时也可能会赠予礼物,以换取有价值的东西.已知其中包括可以使用以允许巫师能够施放恶魔咒语的恶魔灵魂.%n%n烈焰小鬼交易的终极物品就是苦痛卷轴,可用于召唤痛苦之王.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJKw==",
+            "tooltip": "<strong>烈焰小鬼</strong></br>前置任务需求:</br>钻石熏气</br>恶魔契约"
+        },
+        {
+            "name": "飞行的OINKment",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/341.png",
+            "x": 408.0,
+            "y": 384.0,
+            "data": "你试过,它不会飞.令人遗憾的是,它也没有发出任何猪的呼噜声(OINK)声音. 但它可能会有一些用处...%n%n译者注:Oinkment是家长向孩子描述药膏(ointment)时使用的一种昵称,\"oink\"指猪叫声.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABVQ==",
+            "tooltip": "<strong>飞行的OINKment</strong></br>前置任务需求:</br>便携式能源"
+        },
+        {
+            "name": "邪恶熏气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1575.png",
+            "x": 204.0,
+            "y": 228.0,
+            "data": "邪恶熏气(通常称为二氧化硫)是许多配方中使用的成分. 当在巫师烤炉中烹制原版食物(比如面包或生肉)或丛林树苗时,它会随机获得.%n%n[warn]目前,在巫师烤炉中烧烤食物和原木的配方是坏的,请烤制树苗.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGJw==",
+            "tooltip": "<strong>邪恶熏气</strong></br>前置任务需求:</br>女神之息"
+        },
+        {
+            "name": "需要一顶大帽子...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1650.png",
+            "x": 504.0,
+            "y": 384.0,
+            "data": "...学习所有这些知识.获得更多书籍!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGcg==",
+            "tooltip": "<strong>需要一顶大帽子...</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "山巅的温室,地上的炼狱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2425.png",
+            "x": 156.0,
+            "y": 408.0,
+            "data": "你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要再准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%n[note]PS：想要把你的圆环法阵重新打包回家,你最好带上祭坛.[/note]%n译者注：其实使用带有调谐之石(充能)的那个绑定仪式即可.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJeQ==",
+            "tooltip": "<strong>山巅的温室,地上的炼狱</strong></br>前置任务需求:</br>先知之石或召唤聚会女巫</br>最后,绑定爱宠"
+        },
+        {
+            "name": "巧合油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2342.png",
+            "x": 372.0,
+            "y": 336.0,
+            "data": "巧合油是制作水晶球和先知之石的重要配料.%n%n巧合油由红石汤、夜视药水(8:00)、末影之眼、金萝卜、蜘蛛眼和曼德拉草根在水壶中酿造而成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJJg==",
+            "tooltip": "<strong>巧合油</strong></br>前置任务需求:</br>红石汤?"
+        },
+        {
+            "name": "饥饿不再!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1582.png",
+            "x": 696.0,
+            "y": 204.0,
+            "data": "当玩家从一夜好眠中醒来时,\"斋戒之织梦者\"将增加玩家的饱食度,这意味着他们不会在效果持续时间内感到饥饿. 如果斋戒之织梦者被附近的夜魇之织梦者摧毁,那么它将为玩家增添饥饿效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGLg==",
+            "tooltip": "<strong>饥饿不再!</strong></br>前置任务需求:</br>甜蜜饥饿"
+        },
+        {
+            "name": "梦中水壶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1593.png",
+            "x": 756.0,
+            "y": 324.0,
+            "data": "精神世界也需要一个水壶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGOQ==",
+            "tooltip": "<strong>梦中水壶</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "Robe-us皮革女神",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1647.png",
+            "x": 372.0,
+            "y": 492.0,
+            "data": "为了制作合适的巫师套装,你需要用你的钻石熏气制作一些浸渍皮革.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGbw==",
+            "tooltip": "<strong>Robe-us皮革女神</strong></br>前置任务需求:</br>钻石熏气"
+        },
+        {
+            "name": "痛苦之王",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2348.png",
+            "x": 228.0,
+            "y": 492.0,
+            "data": "痛苦之王是一个强大的恶魔,可以制造痛苦迷宫,折磨受害者.%n%n那些愚蠢的召唤这些生物的人必须为一场艰苦的战斗做好准备.%n%n痛苦之王只能通过苦痛卷轴中列出的仪式召唤.%n这种卷轴很难获得,但有传言称,非常满意的烈焰小鬼会与你交易此卷轴.%n%n消耗痛苦恶魔的灵魂可以折磨他人.%n%n如果你很倒霉,进入痛苦迷宫时痛苦之主不见了,请使用刷怪蛋再召唤一个吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJLA==",
+            "tooltip": "<strong>痛苦之王</strong></br>前置任务需求:</br>烈焰小鬼"
+        },
+        {
+            "name": "疯狂科学是最好的科学(Mad Science is the Best Science)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2423.png",
+            "x": 12.0,
+            "y": 288.0,
+            "data": "接下来,我们需要将一些小动物填入做好的陷阱里,蝙蝠和史莱姆就不错. 对于蝙蝠,要是你的扭曲够高,只需要站在陷阱上挂机就行了,不然的话...嗯,到洞穴里去抓?%n%n对于史莱姆,如果你实在找不着史莱姆区块,可以用暮色森林中米诺陶迷宫中的迷宫史莱姆. 你抓住它们后,再抓来一只狼和一只豹猫(黄金套索或灵魂瓶非常好用).%n%n现在,我们来创造♂新生命吧,蟾蜍和猫头鹰. 首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网四个对角位置放置擒拿草,四个基本方位放置前面制作的两套生物陷阱(蝙蝠或史莱姆)中的一套. 在一个擒拿草上放入一颗调谐之石(充能),另外的三个放入超级转生粉. 接着将抓住的两种动物之一放入中心的蜘蛛网中,最后使用变异枝条右键蜘蛛网即可. 注意狼对应的是生物陷阱(蝙蝠),而豹猫对应的是生物陷阱(史莱姆). 驯服的狼(狗)或者豹猫也是可以的.%n%n恭喜,你刚刚无视了自然法则创造出了新的生命! 希望别因为你在室外进行此操作而让它们跑了 :(%n%n记得它们可以繁殖,下一步会用到. 生猪排或生牛肉可用于驯服、繁殖猫头鹰,而腐肉可用于驯服、繁殖蟾蜍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJdw==",
+            "tooltip": "<strong>疯狂科学是最好的科学(Mad Science is the Best Science)</strong></br>前置任务需求:</br>你Grassping我说的了吗?</br>PETA(善待动物组织)许可*"
+        },
+        {
+            "name": "曼德拉噪音防护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2337.png",
+            "x": 408.0,
+            "y": 60.0,
+            "data": "没有一对可靠的耳罩,可成不了草药学家.一旦要收获曼德拉草,种植者有两种选择,要么在晚上收获(恐怖的漆黑之夜),要么戴一副耳罩,这样就不必担心曼德拉草的尖叫声了.耳罩的效果非常显著,佩戴者几乎听不到任何声音.此特性在与女妖打交道时也可能会有好处.%n%n耳罩的护甲和耐久与皮革头盔相当.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJIQ==",
+            "tooltip": "<strong>曼德拉噪音防护</strong></br>前置任务需求:</br>巫术种子"
+        },
+        {
+            "name": "甜蜜饥饿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1583.png",
+            "x": 672.0,
+            "y": 252.0,
+            "data": "甜蜜饥饿是其他合成表中使用的成分. 当梦魇被杀时,它会掉落甜蜜饥饿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGLw==",
+            "tooltip": "<strong>甜蜜饥饿</strong></br>前置任务需求:</br>水心之酿"
+        },
+        {
+            "name": "情人节时多用心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2420.png",
+            "x": 84.0,
+            "y": 264.0,
+            "data": "如果你需要更多的心(生命),与恶魔交易吧,但它们相对交易更喜欢乱扔火球. 除非你有这个东西! 首先,制作让你能与动物交易的波利尼西亚之咒(在这个包里没啥用),然后用恶魔之心制作出恶魔舌之咒. 有了这,不仅能大大降低恶魔的攻击欲望,甚至还能让它们以更低廉的价格把兄弟的心脏卖给你.%n%n但你得记住,恶魔舌之咒有使用次数的限制. 在召唤恶魔的同时使用保护仪式也有一定的必要性. 为此,你需要绘制出这两个圆环法阵,然后将所需的物品(以及祭坛能量)一起投入即可. 如果你不打算杀死这只恶魔,就需要完成圆环法阵这本书上第47/48页的驱魔仪式,将它放逐回恶魔位面.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJdA==",
+            "tooltip": "<strong>情人节时多用心</strong></br>前置任务需求:</br>改变生物群系的困难方法"
+        },
+        {
+            "name": "更强的力量!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1597.png",
+            "x": 684.0,
+            "y": 336.0,
+            "data": "炽烈之织梦者有两种效果,首先它会在玩家从一夜好眠中醒来后,为玩家增加一个非常短的夜视效果(或者如果被夜魇之织梦者破坏则会失明). 其次,它会加强所有其他附近的织梦者,使他们具有更强(但持续时间减少)的效果,或者使它们的持续时间增加.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGPQ==",
+            "tooltip": "<strong>更强的力量!</strong></br>前置任务需求:</br>水心之酿"
+        },
+        {
+            "name": "走得更快!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1581.png",
+            "x": 888.0,
+            "y": 396.0,
+            "data": "当玩家从一夜好眠中醒来时,疾行之织梦者会给予他们一个速度提升效果. 如果疾行之织梦者被附近的夜魇之织梦者摧毁,那么它将为玩家添加减速效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGLQ==",
+            "tooltip": "<strong>走得更快!</strong></br>前置任务需求:</br>梦中幻想线团1"
+        },
+        {
+            "name": "超级转生粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2336.png",
+            "x": 180.0,
+            "y": 72.0,
+            "data": "超级转生粉是转生粉的升级版,巫师们常用它来使植物突变为其他物种.超级转生粉具有转生粉的所有属性,但它可用于多阶段的植物,如小麦、仙人掌等.它还可以使熟肉突变.%n%n如果在草方块上使用超级转生粉,有一定几率使其突变为菌丝,反之亦然.%n%n对水下的泥土使用超级转生粉,有一定几率使其周围的泥土突变为粘土.%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法.%n%n某些配方需要超级转生粉作为配料.%n%n超级转生粉可由转生粉与地狱疣制成.%n%n[note]某些巫师炼药锅配方需要祭坛能量.超级转生粉就是其中之一.请先阅读《巫师酿造手册》.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJIA==",
+            "tooltip": "<strong>超级转生粉</strong></br>前置任务需求:</br>变异你的树苗"
+        },
+        {
+            "name": "变异的树苗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1557.png",
+            "x": 216.0,
+            "y": 108.0,
+            "data": "这些树苗最初只能通过在合适的方块(如树苗、草)上使用转生粉获得.鉴于树苗的变异是随机的,可能要多试几次才能成功.在这之后,就可以通过长成的树得到更多树苗.%n%n在巫师烤炉里燃烧它们会产生木灰,并且有几率获取独特的产物:%n山梨树树苗:魔力之息%n山楂树树苗:纯净之息%n赤杨树树苗:厄运之息%n%n山梨树会掉落山梨树浆果,你还需要些赤杨树原木用于祭坛.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGFQ==",
+            "tooltip": "<strong>变异的树苗</strong></br>前置任务需求:</br>变异你的树苗"
+        },
+        {
+            "name": "变异你的树苗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1555.png",
+            "x": 252.0,
+            "y": 84.0,
+            "data": "转生粉是一种诱变剂,被女巫和术士用来将植物变异为其他物种. 只需在小植物:草,花,树苗等上使用转生粉,它就会被随机转换成另一种植物. 转生粉不能转变小麦和仙人掌等多阶段植物. 突变植物是获得山梨树,山楂树和赤杨树苗的唯一途径. 另一个有趣的特性是,将转生粉和不同种类的肉合成能将其变换成另一种肉. 它甚至似乎对腐肉也有效. 有些合成表需要转生粉作为配料. 转生粉可升级为超级转生粉,以对更多种植物产生影响. 转生粉制作:巫师炼药锅中放入曼德拉草根,角魔之息和蛋各一.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGEw==",
+            "tooltip": "<strong>变异你的树苗</strong></br>前置任务需求:</br>...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "name": "变异枝条",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2387.png",
+            "x": 72.0,
+            "y": 120.0,
+            "data": "变异枝条不同于转生粉,它对植物的变异是有规律的,有更多的限制,但效果更好.变异枝条对某些基于植物的设备非常关键,如水蛭箱子.%n%n在巫师炼药锅中将地狱疣、树人嫩芽和超级转生粉混合即可制成变异枝条.%n%n草方块-变异为菌丝%n菌丝-变异为草方块%n泥土(水下)-变异为粘土%n%n小麦应变异为苦艾,但由于mod冲突,此变异被禁用.你可以在硬币任务栏购买它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJUw==",
+            "tooltip": "<strong>变异枝条</strong></br>前置任务需求:</br>超级转生粉</br>树人嫩芽"
+        },
+        {
+            "name": "梦魇防护",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1572.png",
+            "x": 600.0,
+            "y": 456.0,
+            "data": "夜魇之织梦者有两种效果,首先它会在玩家从一夜好眠中醒来时为玩家增加短暂的虚弱效果. 其次,它会腐蚀附近的所有其他织梦者,使它们产生相反的效果. 如果织梦者被附近的另一个夜魇之织梦者摧毁,那么它会为玩家附加一个短暂的失明效果而不是反胃效果. 夜魇之织梦者也可以用来抵御喝下沉睡之酿后做的噩梦.附近有夜魇之织梦者会将噩梦的几率降低到50％(这可以通过其他方式进一步降低!).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGJA==",
+            "tooltip": "<strong>梦魇防护</strong></br>前置任务需求:</br>折磨线团</br>钻石熏气"
+        },
+        {
+            "name": "梦魇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1588.png",
+            "x": 912.0,
+            "y": 336.0,
+            "data": "需要更多硬币？ 杀死几个梦魇以获得硬币.没有梦魇的世界将更加美好.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGNA==",
+            "tooltip": "<strong>梦魇</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "光轮1999(Nimbus 1999)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/342.png",
+            "x": 420.0,
+            "y": 420.0,
+            "data": "不如它的继承者,2000的型号,但仍然\"某种程度上\"有用...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABVg==",
+            "tooltip": "<strong>光轮1999(Nimbus 1999)</strong></br>前置任务需求:</br>飞行的OINKment"
+        },
+        {
+            "name": "现在我感觉很糟糕...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1645.png",
+            "x": 348.0,
+            "y": 216.0,
+            "data": "...我知道爬行者有心.用你的仪祭匕首猎杀一些爬行者获取它.你可能需要附魔高等级的抢夺以获得更高的掉落几率.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGbQ==",
+            "tooltip": "<strong>现在我感觉很糟糕...</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "纯净之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1559.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "纯净之息是许多合成表中使用的成分. 在巫师烤炉中燃烧山楂树树苗,可以随机获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGFw==",
+            "tooltip": "<strong>纯净之息</strong></br>前置任务需求:</br>变异的树苗"
+        },
+        {
+            "name": "梦中纯净之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1596.png",
+            "x": 816.0,
+            "y": 180.0,
+            "data": "为以后使用,做一些纯净之息吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGPA==",
+            "tooltip": "<strong>梦中纯净之息</strong></br>前置任务需求:</br>梦中蒸馏塔</br>梦中转生粉"
+        },
+        {
+            "name": "祭品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/333.png",
+            "x": 300.0,
+            "y": 180.0,
+            "data": "为了满足祭品的所有需求.当然,它看起来也很cool!%n%n将六个祭坛方块按2x3放置可以建造一个祭坛;如果其上出现一块红布,你就知道你成功了.%n%n右键祭坛显示其GUI,其上会显示祭坛已经收集了多少能量、能量上限和充能速度.检查祭坛能量非常重要,特别是某些仪式、蒸馏塔、炼药锅或水壶配方需要祭坛能量.%n%n祭坛的能量上限由附近的自然物品计算而来(如泥土、草、树、植物等等.但石头与沙子除外.)要想提升祭坛能量上限,关键是不同植物、树木和作物的混合(某些其他mod的植物也可参与计算).请阅读Wiki获取更多信息.%n%n将某些特定的物品放置在祭坛上可提升祭坛汇聚能量的能力(范围),提升能量上限,提升充能速度.同类物品(头颅、圣餐杯等)只有一个会生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABTQ==",
+            "tooltip": "<strong>祭品</strong></br>前置任务需求:</br>邪恶熏气</br>...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "name": "梦中祭坛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1592.png",
+            "x": 768.0,
+            "y": 288.0,
+            "data": "在所有设备中,最重要的还是祭坛. 转轮也需要它供能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGOA==",
+            "tooltip": "<strong>梦中祭坛</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "浓硫酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1573.png",
+            "x": 552.0,
+            "y": 384.0,
+            "data": "浓硫酸是使用邪恶熏气和生石灰在蒸馏塔中生产出的一种成分.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGJQ==",
+            "tooltip": "<strong>浓硫酸</strong></br>前置任务需求:</br>蒸馏塔1"
+        },
+        {
+            "name": "PETA(善待动物组织)许可*",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2422.png",
+            "x": 108.0,
+            "y": 168.0,
+            "data": "想要制作生物陷阱,首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网周围四个基本方位放置赤杨树树苗. 接着让一只僵尸走进蜘蛛网再手持变异枝条右键蜘蛛网.%n这将会使树苗变成所需的生物陷阱. 重复两遍.%n%n[note]*可能未获得PETA(善待动物组织)许可[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJdg==",
+            "tooltip": "<strong>PETA(善待动物组织)许可*</strong></br>前置任务需求:</br>变异枝条</br>改变生物群系的困难方法"
+        },
+        {
+            "name": "娃娃",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/346.png",
+            "x": 612.0,
+            "y": 300.0,
+            "data": "制作一个基础娃娃,然后制成相应防护类型的娃娃. 我们建议先制作死亡守护娃娃.%n%n考虑制造娃娃台子,这样就不用随身带着一大票娃娃了.它需要被加载才可以生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABWg==",
+            "tooltip": "<strong>娃娃</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "便携式能源",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/340.png",
+            "x": 420.0,
+            "y": 348.0,
+            "data": "通过向一块石头注入炙热的魔法能量,你可以创造一个\"调谐之石\". 这些宝石可用于将非魔法装置与神奇的魔法联系起来...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABVA==",
+            "tooltip": "<strong>便携式能源</strong></br>前置任务需求:</br>圆环法阵"
+        },
+        {
+            "name": "也许能用来熬汤!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/336.png",
+            "x": 354.0,
+            "y": 162.0,
+            "data": "但其主要目的是酿造药水和输送液体.%n%n水壶必须被正确放置才能使用.%n%n首先,水壶的底部必须有火(地狱岩是最好的选择,但你想用木头也不是不行).%n%n然后,水壶必须装满水,可以用水桶或者管道供水.%n%n第三步,必须将用于酿造或注魔的配料扔进水壶中(液体颜色会根据配方变色).%n%n最后,必须手持玻璃瓶右击水壶以取出成品.%n%n在配方准备过程中保持火势不断是很重要的,否则就会毁了酿造. 水壶出现漩涡是一个好现象,黑烟(和棕色液体)表明酿造已经毁了. 酿造毁了之后,必须使用玻璃瓶清空水壶,或是用更多的水填满水壶并重复整个过程.%n%n酿造完成后,液体将会呈现成品的颜色并伴着气泡爆裂(除了白色漩涡).%n%n某些配方在装瓶前可能需要来自附近祭坛的魔法能量,而若是能量不足也会毁了酿造. 水壶中出现黑色漩涡就说明能量不足. 水壶必须置于祭坛14(至16)格之内以获得能量.(水壶只可从单一祭坛获得能量)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABUA==",
+            "tooltip": "<strong>也许能用来熬汤!</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "纯牛奶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1561.png",
+            "x": 264.0,
+            "y": 156.0,
+            "data": "纯牛奶是一种与普通牛奶类似的解毒剂,虽然它只有一定几率成功,且只会消除一种状态效果. 但它的好处是可以堆叠到64个. 纯牛奶是沉睡之酿的一种成分.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGGQ==",
+            "tooltip": "<strong>纯牛奶</strong></br>前置任务需求:</br>纯净之息"
+        },
+        {
+            "name": "球状石英",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2343.png",
+            "x": 360.0,
+            "y": 384.0,
+            "data": "球状石英是制作水晶球和先知之石的组件,水晶球可召唤芭芭雅嘎,先知之石可召唤聚会女巫.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJJw==",
+            "tooltip": "<strong>球状石英</strong></br>前置任务需求:</br>巧合油"
+        },
+        {
+            "name": "红石汤?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2339.png",
+            "x": 456.0,
+            "y": 324.0,
+            "data": "红石汤是一种巫术酿造,是所有注魔仪式的基础,当然红石汤还有一些其他用途.%n%n用红石汤填充圣餐杯将增加其魔力亲和力,并将其升级为圣餐杯(装满的),使圣餐杯的效力加倍.服用红石汤可以为该玩家附加几分钟的生命恢复效果.%n%n红石汤由红石、狗之舌、幸运液滴、颠茄花、蝙蝠之毛和曼德拉草根在水壶中酿造而成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJIw==",
+            "tooltip": "<strong>红石汤?</strong></br>前置任务需求:</br>圆环法阵</br>蒸馏塔1"
+        },
+        {
+            "name": "厄运之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1569.png",
+            "x": 156.0,
+            "y": 144.0,
+            "data": "厄运之息是许多合成表中使用的成分. 在巫师烤炉中燃烧赤杨树树苗,可以随机获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGIQ==",
+            "tooltip": "<strong>厄运之息</strong></br>前置任务需求:</br>变异的树苗"
+        },
+        {
+            "name": "Rumplestiltskin:名字古怪的小矮人儿!(格林童话)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1646.png",
+            "x": 432.0,
+            "y": 264.0,
+            "data": "将干草旋转成金子听起来就像一个童话故事,但是你的新魔法转轮让你也可以尝试欺骗女王,让她给你她的第一个孩子.%n(Spinning hay into gold sounds like a fairy tale, but with your new magical spinning wheel you too can try tricking a queen into giving you their first born child.)%n%n你需要三件巫师套装,然后就可以在巫师炼药锅里把别的什么变成金粒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGbg==",
+            "tooltip": "<strong>Rumplestiltskin:名字古怪的小矮人儿!(格林童话)</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "睡鞋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/345.png",
+            "x": 492.0,
+            "y": 300.0,
+            "data": "谁需要解药？ 现在有免费肥料!聪明点,杀死恶魔前可以与其交易.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABWQ==",
+            "tooltip": "<strong>睡鞋</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "先知之石或召唤聚会女巫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2344.png",
+            "x": 384.0,
+            "y": 432.0,
+            "data": "先知之石是水晶球的一种变体,它能使巫师就算远隔重洋也可以保持交流.巫师们最常用它召唤盟友以帮助战斗或举行仪式.先知之石也可以用在其他玩家身上,可以显示他们是否受到诅咒的折磨.%n%n想要召唤一个聚会女巫帮忙,手持先知之石右键即可.长按可召唤更多聚会女巫.%n%n如果在巫师炼药锅附近,被召唤的聚会女巫会环绕其准备仪式.%n%n想要召唤所有聚会女巫举行仪式,手持先知之石右键启动仪式即可.%n%n想要确定其他玩家是否被诅咒,知道他们是否拥有盟友或爱宠,以及确定注魔时间;你需要站在他们3格之内使用先知之石.潜行使用先知之石,可看到持有者自身的信息.%n%n先知之石是通过注魔仪式,在球状石英中注入黑曜石和巧合油制成的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJKA==",
+            "tooltip": "<strong>先知之石或召唤聚会女巫</strong></br>前置任务需求:</br>球状石英"
+        },
+        {
+            "name": "睡得安稳!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1563.png",
+            "x": 420.0,
+            "y": 144.0,
+            "data": "沉睡之酿是巫师进入精神世界的正常方式.%n%n不用说,一个毫无准备的巫师以这种方式前往精神世界时,几乎必然会进入噩梦世界.%n%n巫师必须喝掉沉睡之酿后才会陷入沉睡,将身体和物品留在身后而灵魂进入精神世界.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGGw==",
+            "tooltip": "<strong>睡得安稳!</strong></br>前置任务需求:</br>爱之酿药水"
+        },
+        {
+            "name": "编织你的梦(梦中转轮)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1594.png",
+            "x": 792.0,
+            "y": 240.0,
+            "data": "你需要转轮才能酿造出水心之酿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGOg==",
+            "tooltip": "<strong>编织你的梦(梦中转轮)</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "精神硬币转换",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/338.png",
+            "x": 864.0,
+            "y": 312.0,
+            "data": "水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.%n%n你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.%n%n[warn]再次强调:在你到达另一边之前,不要提交任务.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABUg==",
+            "tooltip": "<strong>精神硬币转换</strong></br>前置任务需求:</br>梦中幻想线团1"
+        },
+        {
+            "name": "巫媒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2335.png",
+            "x": 216.0,
+            "y": 288.0,
+            "data": "巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,在各种配方中,巫师们通过巫媒,在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集用过该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登录到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJHw==",
+            "tooltip": "<strong>巫媒</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "改变生物群系的简单方法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2418.png",
+            "x": 168.0,
+            "y": 252.0,
+            "data": "所以你想试试简单的? 没问题,准备这些东西:%n曼德拉草根、地狱疣、女神之泪、钻石熏气、和一颗钻石.%n%n然后将它们按!顺!序!投入巫师炼药锅,还要记得投入一页从生态之书(扩展版)上复印下来的纸(将书翻到你需要的生物群系页,然后用纸与其合成),最后是一点火药.%n然后就是用玻璃瓶装出药水了. 要是你穿着巫师帽或者巫师袍的话,有一定几率获得不止一瓶药水! (你看起来不像是很精通酿造的巫师)%n%n如果失败了,可能是因为祭坛能量不足,你需要至少5450的祭坛能量.试试在祭坛周围放置龙蛋或者恶魔之心吧.关于祭坛能量的更多详细信息,请参考wiki.%n%n如果你不仅仅想改变一个方块的生物群系的话,你还得加入萤石粉、烈焰棒和调谐之石(充能)以提升药水的功效(同时会稍微提升祭坛能量消耗),每次+1半径. 你需要在投入纸之前进行此操作.%n%n查看\"巫师酿造手册\"以获得更多信息,然后再一页页翻阅\"酿造\"章节. 这样你应该就能了解需要知道的一切了. 想要知道每种药水的具体效果,你需要查看\"药效\"章节. 只要这些药效会消耗\"容量\",所以你可以拥有混合药效的药水.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJcg==",
+            "tooltip": "<strong>改变生物群系的简单方法</strong></br>前置任务需求:</br>用巫术改变生物群系"
+        },
+        {
+            "name": "改变生物群系的困难方法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2419.png",
+            "x": 48.0,
+            "y": 216.0,
+            "data": "好吧,想要一个范围超过0的仪式,你需要获得聚会女巫的承认并请她们帮助你. 而为了能获得与她们谈话的机会,你需要自我注魔或者绑定爱宠. 在此任务线中,我们介绍的是绑定爱宠这条路,至于想要自我注魔的人,可以选择以下物品: 光之幽灵、世界之魄、他处之灵、炼狱敌意,然后进行相应的注魔仪式. 确保你拥有死亡守护娃娃,因为自我注魔仪式会杀死你. 在极限模式下,记得先在另一个世界试验一下.%n%n想要绑定爱宠,首先需要召唤一只恶魔然后把它的心挖出来. 我是认真的. 使用抢夺III的仪祭匕首,这样爆率最高. 如果你不知道如何召唤,查看巫术：圆环法阵的49/50页找到正确的召唤仪式.%n%n下一步需要用到变异枝条.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJcw==",
+            "tooltip": "<strong>改变生物群系的困难方法</strong></br>前置任务需求:</br>用巫术改变生物群系"
+        },
+        {
+            "name": "精神世界-美梦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1576.png",
+            "x": 684.0,
+            "y": 444.0,
+            "data": "将夜魇之织梦者放在靠近你睡觉的地方,再次进入精神世界,你现在有50％的几率做美梦(白昼). 如有必要,请多尝试几次.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGKA==",
+            "tooltip": "<strong>精神世界-美梦</strong></br>前置任务需求:</br>梦魇防护"
+        },
+        {
+            "name": "精神世界-噩梦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1564.png",
+            "x": 468.0,
+            "y": 132.0,
+            "data": "精神世界是一个反映现实主世界地形的替代现实.当人们做梦时,他们往往最终会进入精神世界而浑然不觉(往往作为其中的众多居民之一出现).强大的巫师可以制造出沉睡之酿,使他们可以将清醒的意识传送到精神世界,留下他们的身体和装备.%n%n精神世界是纤细棉花,扰乱棉花(制作织梦者的材料)和甜蜜饥饿的唯一来源.水心之酿也只能在精神世界中制造.%n%n很少有东西可以带入精神世界,或从精神世界带出--在前往那里时要记住这一点(冰针总是会留在物品栏中).纤细棉花,扰乱棉花,甜蜜饥饿和水心之酿可以从精神世界带到现实世界.%n%n两个重要的事项需要注意:圆环法阵在精神世界中不起作用;而且末影人无法进入精神世界.%n%n[note]如果你是欧皇,直接进入了美梦世界,那么记得收集至少16个纤细棉花.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGHA==",
+            "tooltip": "<strong>精神世界-噩梦</strong></br>前置任务需求:</br>睡得安稳!"
+        },
+        {
+            "name": "巫师又回来了...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1648.png",
+            "x": 300.0,
+            "y": 324.0,
+            "data": "...而你会遇到麻烦. 穿上你新制成的巫师帽和巫师长袍,我会给你一个漂亮的包作为奖励. 检查NEI中浸渍皮革的用法,你就能知道巫师装备的其他配件的做法.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGcA==",
+            "tooltip": "<strong>巫师又回来了...</strong></br>前置任务需求:</br>现在我感觉很糟糕...</br>Rumplestiltskin:名字古怪的小矮人儿!(格林童话)</br>Robe-us皮革女神"
+        },
+        {
+            "name": "折磨线团",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1570.png",
+            "x": 612.0,
+            "y": 360.0,
+            "data": "折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用干扰棉花、血灼之线和厄运之息,通过转轮制成的.%n%n[warn]你需要T2的血魔法祭坛才能制作这种线,所以要是你想继续推进,却还没做过它的话,请转到血魔法章节.[/warn]%n%n祭坛必须在附近为转轮提供动力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGIg==",
+            "tooltip": "<strong>折磨线团</strong></br>前置任务需求:</br>不要碰针!"
+        },
+        {
+            "name": "女神之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1556.png",
+            "x": 144.0,
+            "y": 204.0,
+            "data": "女神之息是许多合成表中使用的成分. 在巫师烤炉中燃烧桦树树苗,可以随机获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGFA==",
+            "tooltip": "<strong>女神之息</strong></br>前置任务需求:</br>角魔之息"
+        },
+        {
+            "name": "晚点叫醒我",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1577.png",
+            "x": 768.0,
+            "y": 432.0,
+            "data": "在美梦世界你可以找到一些纤细棉花,这是进一步发展所需要的.也没有怪物会来打扰你.%n%n纤细棉花可以被收集并重新种植,但只有在精神世界中,且在水心池旁边的泥土或草地上才会蔓延繁殖.%n%n夜魇之织梦者附近放置纤细棉花将进一步减少噩梦的几率(最多2个).%n%n当从精神世界返回时,棉花将保留在玩家背包中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGKQ==",
+            "tooltip": "<strong>晚点叫醒我</strong></br>前置任务需求:</br>精神世界-美梦"
+        },
+        {
+            "name": "起得很早",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1567.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "我希望你的第二次造访轻松一些. 有了夜视和飞行药水,你已经发现了一些纤细/干扰棉花.%n%n干扰棉花可以纺成折磨线团. 它不能重新种植.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGHw==",
+            "tooltip": "<strong>起得很早</strong></br>前置任务需求:</br>早起的鸟儿得到了...噩梦？"
+        },
+        {
+            "name": "我们需要另一个巫师烤炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1585.png",
+            "x": 900.0,
+            "y": 264.0,
+            "data": "首先,你不能去其他维度获取材料,如暮色森林、下界或末地. 让我们开始制作一个新的巫师烤炉和一堆粘土罐,从一些基本成分开始.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGMQ==",
+            "tooltip": "<strong>我们需要另一个巫师烤炉</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "魔力之息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1558.png",
+            "x": 192.0,
+            "y": 156.0,
+            "data": "魔力之息是许多合成表中使用的成分. 在巫师烤炉中燃烧山梨树树苗,可以随机获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGFg==",
+            "tooltip": "<strong>魔力之息</strong></br>前置任务需求:</br>变异的树苗"
+        },
+        {
+            "name": "纤细棉花",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1589.png",
+            "x": 816.0,
+            "y": 348.0,
+            "data": "需要更多硬币？ 卖纤细棉花换硬币吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGNQ==",
+            "tooltip": "<strong>纤细棉花</strong></br>前置任务需求:</br>精神硬币转换"
+        },
+        {
+            "name": "巫术种子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1560.png",
+            "x": 360.0,
+            "y": 84.0,
+            "data": "要获得巫术种子,你需要在远离水的草地上使用锄头.要打开剩余的任务线,你需要完成神秘时代的任务、研究魔导手册中巫术章节的条目.%n%n传说,当曼德拉草的根被挖出来时,它会尖叫并杀死所有听到它的人.这种说法只是部分正确.一个完全成长的曼德拉草可能会尖叫,给周围的人带来巨大的不适.这就是为什么最好在晚上收获曼德拉草根的原因,那时植物更可能处于休眠状态. 曼德拉草是用曼德拉草种子种植而出的,可以通过手持锄右键草地,或破坏部分(或完全)成长的曼德拉草来获得.%n%n破坏完全成长的曼德拉草将产生曼德拉草根和曼德拉草种子,还可能会唤醒曼德拉草并导致各种各样的麻烦(以及对耳朵的折磨!).%n%n颠茄种子可以种植并最终成长为多阶段的颠茄.可以收获完全成长的颠茄以获得更多的颠茄种子和颠茄花.%n%n雪玲花种子可以种植并最终成长为多阶段的雪铃花.可以收获完全成熟的雪铃花以获得更多的雪玲花种子,雪球,偶尔会掉落冰针.%n%n水洋蓟种子可以种植并最终成长为多阶段的水洋蓟.可以收获完全成熟的水洋蓟,以获得更多的水洋蓟种子和水洋蓟球茎.水洋蓟种子只能种植在静水方块上.%n%n大蒜是一种可种植的作物,可用于制作美味的食物,并能克制吸血鬼.它可以种植在耕地上,并分五个阶段生长.当完全成长时,可以收获最多三个掉落的大蒜.收获的大蒜可以重新种植,也可以用于合成.%n%n大蒜还可以用来制作肉汤,特别的营养餐.它也是制作大蒜环的主要成分,大蒜环是防止吸血鬼的有效工具.最后,女巫可以使用大蒜在巫师炼药锅中的制作吸血鬼弱化药剂,狩巫人还可以用大蒜制作狩巫黎明套装.%n%n狼毒草种子可以种植并最终成长为两格高的狼毒草.可以收获完全成长的狼毒草,以获得更多的狼毒草种子和狼毒草.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGGA==",
+            "tooltip": "<strong>巫术种子</strong></br>前置任务需求:</br>园丁"
+        }
+    ],
+    "links": [
+        {
+            "source": "需要一顶大帽子...",
+            "target": "在一条黑暗的道路上走下去..."
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "另一个巫师炼药锅"
+        },
+        {
+            "source": "变异枝条",
+            "target": "你Grassping我说的了吗?"
+        },
+        {
+            "source": "改变生物群系的困难方法",
+            "target": "你Grassping我说的了吗?"
+        },
+        {
+            "source": "祭品",
+            "target": "仪祭匕首"
+        },
+        {
+            "source": "魔力之息",
+            "target": "调谐之石"
+        },
+        {
+            "source": "光轮1999(Nimbus 1999)",
+            "target": "成为一个吸血鬼,打扮得像个花花公子"
+        },
+        {
+            "source": "梦中幻想线团2",
+            "target": "更好的梦魇防护"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "嗜血: \"该隐\"之剑"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "嗜血: 恶魂之泪"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "嗜血: 女巫之爪"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "嗜血: 蝙蝠之毛"
+        },
+        {
+            "source": "被火烧伤和...",
+            "target": "书籍是给书呆子看的..."
+        },
+        {
+            "source": "...巫师炼药锅,咕噜咕噜噜",
+            "target": "书籍是给书呆子看的..."
+        },
+        {
+            "source": "梦中祭坛",
+            "target": "水心之酿"
+        },
+        {
+            "source": "梦中水壶",
+            "target": "水心之酿"
+        },
+        {
+            "source": "梦中幻想线团2",
+            "target": "水心之酿"
+        },
+        {
+            "source": "也许能用来熬汤!",
+            "target": "爱之酿药水"
+        },
+        {
+            "source": "巫术种子",
+            "target": "...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "source": "被火烧伤和...",
+            "target": "...巫师炼药锅,咕噜咕噜噜"
+        },
+        {
+            "source": "祭品",
+            "target": "圣餐杯"
+        },
+        {
+            "source": "我不去就山,让山来就我",
+            "target": "用巫术改变生物群系"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "圆环法阵"
+        },
+        {
+            "source": "巫媒",
+            "target": "恶魔契约"
+        },
+        {
+            "source": "浓硫酸",
+            "target": "钻石熏气"
+        },
+        {
+            "source": "梦中幻想线团1",
+            "target": "挖得更快!"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "蒸馏塔1"
+        },
+        {
+            "source": "...巫师炼药锅,咕噜咕噜噜",
+            "target": "不要这么用力摇!"
+        },
+        {
+            "source": "起得很早",
+            "target": "不要碰针!"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "梦中蒸馏塔"
+        },
+        {
+            "source": "我们需要另一个巫师烤炉",
+            "target": "梦中转生粉"
+        },
+        {
+            "source": "另一个巫师炼药锅",
+            "target": "梦中转生粉"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "黄金之梦"
+        },
+        {
+            "source": "精神世界-噩梦",
+            "target": "早起的鸟儿得到了...噩梦？"
+        },
+        {
+            "source": "变异的树苗",
+            "target": "树人嫩芽"
+        },
+        {
+            "source": "我们需要另一个巫师烤炉",
+            "target": "梦中角魔之息"
+        },
+        {
+            "source": "被火烧伤和...",
+            "target": "角魔之息"
+        },
+        {
+            "source": "晚点叫醒我",
+            "target": "梦中幻想线团1"
+        },
+        {
+            "source": "黄金之梦",
+            "target": "梦中幻想线团2"
+        },
+        {
+            "source": "梦中祭坛",
+            "target": "梦中幻想线团2"
+        },
+        {
+            "source": "编织你的梦(梦中转轮)",
+            "target": "梦中幻想线团2"
+        },
+        {
+            "source": "疯狂科学是最好的科学(Mad Science is the Best Science)",
+            "target": "最后,绑定爱宠"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "被火烧伤和..."
+        },
+        {
+            "source": "钻石熏气",
+            "target": "烈焰小鬼"
+        },
+        {
+            "source": "恶魔契约",
+            "target": "烈焰小鬼"
+        },
+        {
+            "source": "便携式能源",
+            "target": "飞行的OINKment"
+        },
+        {
+            "source": "女神之息",
+            "target": "邪恶熏气"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "需要一顶大帽子..."
+        },
+        {
+            "source": "先知之石或召唤聚会女巫",
+            "target": "山巅的温室,地上的炼狱"
+        },
+        {
+            "source": "最后,绑定爱宠",
+            "target": "山巅的温室,地上的炼狱"
+        },
+        {
+            "source": "红石汤?",
+            "target": "巧合油"
+        },
+        {
+            "source": "甜蜜饥饿",
+            "target": "饥饿不再!"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "梦中水壶"
+        },
+        {
+            "source": "钻石熏气",
+            "target": "Robe-us皮革女神"
+        },
+        {
+            "source": "烈焰小鬼",
+            "target": "痛苦之王"
+        },
+        {
+            "source": "你Grassping我说的了吗?",
+            "target": "疯狂科学是最好的科学(Mad Science is the Best Science)"
+        },
+        {
+            "source": "PETA(善待动物组织)许可*",
+            "target": "疯狂科学是最好的科学(Mad Science is the Best Science)"
+        },
+        {
+            "source": "巫术种子",
+            "target": "曼德拉噪音防护"
+        },
+        {
+            "source": "水心之酿",
+            "target": "甜蜜饥饿"
+        },
+        {
+            "source": "改变生物群系的困难方法",
+            "target": "情人节时多用心"
+        },
+        {
+            "source": "水心之酿",
+            "target": "更强的力量!"
+        },
+        {
+            "source": "梦中幻想线团1",
+            "target": "走得更快!"
+        },
+        {
+            "source": "变异你的树苗",
+            "target": "超级转生粉"
+        },
+        {
+            "source": "变异你的树苗",
+            "target": "变异的树苗"
+        },
+        {
+            "source": "...巫师炼药锅,咕噜咕噜噜",
+            "target": "变异你的树苗"
+        },
+        {
+            "source": "超级转生粉",
+            "target": "变异枝条"
+        },
+        {
+            "source": "树人嫩芽",
+            "target": "变异枝条"
+        },
+        {
+            "source": "折磨线团",
+            "target": "梦魇防护"
+        },
+        {
+            "source": "钻石熏气",
+            "target": "梦魇防护"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "梦魇"
+        },
+        {
+            "source": "飞行的OINKment",
+            "target": "光轮1999(Nimbus 1999)"
+        },
+        {
+            "source": "祭品",
+            "target": "现在我感觉很糟糕..."
+        },
+        {
+            "source": "变异的树苗",
+            "target": "纯净之息"
+        },
+        {
+            "source": "梦中蒸馏塔",
+            "target": "梦中纯净之息"
+        },
+        {
+            "source": "梦中转生粉",
+            "target": "梦中纯净之息"
+        },
+        {
+            "source": "邪恶熏气",
+            "target": "祭品"
+        },
+        {
+            "source": "...巫师炼药锅,咕噜咕噜噜",
+            "target": "祭品"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "梦中祭坛"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "浓硫酸"
+        },
+        {
+            "source": "变异枝条",
+            "target": "PETA(善待动物组织)许可*"
+        },
+        {
+            "source": "改变生物群系的困难方法",
+            "target": "PETA(善待动物组织)许可*"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "娃娃"
+        },
+        {
+            "source": "圆环法阵",
+            "target": "便携式能源"
+        },
+        {
+            "source": "祭品",
+            "target": "也许能用来熬汤!"
+        },
+        {
+            "source": "纯净之息",
+            "target": "纯牛奶"
+        },
+        {
+            "source": "巧合油",
+            "target": "球状石英"
+        },
+        {
+            "source": "圆环法阵",
+            "target": "红石汤?"
+        },
+        {
+            "source": "蒸馏塔1",
+            "target": "红石汤?"
+        },
+        {
+            "source": "变异的树苗",
+            "target": "厄运之息"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "Rumplestiltskin:名字古怪的小矮人儿!(格林童话)"
+        },
+        {
+            "source": "不要碰针!",
+            "target": "睡鞋"
+        },
+        {
+            "source": "球状石英",
+            "target": "先知之石或召唤聚会女巫"
+        },
+        {
+            "source": "爱之酿药水",
+            "target": "睡得安稳!"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "编织你的梦(梦中转轮)"
+        },
+        {
+            "source": "梦中幻想线团1",
+            "target": "精神硬币转换"
+        },
+        {
+            "source": "祭品",
+            "target": "巫媒"
+        },
+        {
+            "source": "用巫术改变生物群系",
+            "target": "改变生物群系的简单方法"
+        },
+        {
+            "source": "用巫术改变生物群系",
+            "target": "改变生物群系的困难方法"
+        },
+        {
+            "source": "梦魇防护",
+            "target": "精神世界-美梦"
+        },
+        {
+            "source": "睡得安稳!",
+            "target": "精神世界-噩梦"
+        },
+        {
+            "source": "现在我感觉很糟糕...",
+            "target": "巫师又回来了..."
+        },
+        {
+            "source": "Rumplestiltskin:名字古怪的小矮人儿!(格林童话)",
+            "target": "巫师又回来了..."
+        },
+        {
+            "source": "Robe-us皮革女神",
+            "target": "巫师又回来了..."
+        },
+        {
+            "source": "不要碰针!",
+            "target": "折磨线团"
+        },
+        {
+            "source": "角魔之息",
+            "target": "女神之息"
+        },
+        {
+            "source": "精神世界-美梦",
+            "target": "晚点叫醒我"
+        },
+        {
+            "source": "早起的鸟儿得到了...噩梦？",
+            "target": "起得很早"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "我们需要另一个巫师烤炉"
+        },
+        {
+            "source": "变异的树苗",
+            "target": "魔力之息"
+        },
+        {
+            "source": "精神硬币转换",
+            "target": "纤细棉花"
+        },
+        {
+            "source": "园丁",
+            "target": "巫术种子"
+        }
+    ]
+}

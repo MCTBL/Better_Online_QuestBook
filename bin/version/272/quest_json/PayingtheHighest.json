@@ -1,0 +1,1090 @@
+{
+    "data": [
+        {
+            "name": "血腥之剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/432.png",
+            "x": 204.0,
+            "y": 312.0,
+            "data": "钻石和绿宝石的存储能力有限. 有了这把剑,你就可以从你的敌人身上获得灵魂碎片.是时候去打猎了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABsA==",
+            "tooltip": "<strong>血腥之剑</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "进阶仪式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/712.png",
+            "x": 348.0,
+            "y": 228.0,
+            "data": "更强力的仪式需要幽暗铭文.使用你的新幽暗粉笔,可以强化你的仪式推测杖来放置这些.让你可以进行更多的仪式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACyA==",
+            "tooltip": "<strong>进阶仪式</strong></br>前置任务需求:</br>元素粉笔II"
+        },
+        {
+            "name": "血之炼金术(Alchemy with blood)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/410.png",
+            "x": 108.0,
+            "y": 216.0,
+            "data": "不像\"血炼金术(blood-alchemy)\".你可能稍后需要不止一个,但现在一个就足够了.%n%n在插槽中放入气血宝珠才能开始合成,炼金将会消耗灵魂网络中的LP.制作更复杂的物品将需要更高级的气血宝珠.%n%n如果在炼金过程中,你的灵魂网络中的LP降至0,那么你将获得一个永久的反胃debuff,直到LP重新提升才能消除它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABmg==",
+            "tooltip": "<strong>血之炼金术(Alchemy with blood)</strong></br>前置任务需求:</br>一阶石板</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "学徒气血宝珠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/423.png",
+            "x": 192.0,
+            "y": 60.0,
+            "data": "你的第二阶气血宝珠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABpw==",
+            "tooltip": "<strong>学徒气血宝珠</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>第二阶-石板"
+        },
+        {
+            "name": "贤者气血宝珠.让他们来吧!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/707.png",
+            "x": 516.0,
+            "y": 360.0,
+            "data": "你的5阶宝珠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACww==",
+            "tooltip": "<strong>贤者气血宝珠.让他们来吧!</strong></br>前置任务需求:</br>可怕的魔法载体</br>恶魔气血碎片</br>镀铑钯</br>5阶石板"
+        },
+        {
+            "name": "升华",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/701.png",
+            "x": 612.0,
+            "y": 312.0,
+            "data": "你感到被赋予了力量,轻飘飘的,就像个幽灵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACvQ==",
+            "tooltip": "<strong>升华</strong></br>前置任务需求:</br>6阶血之祭坛</br>铱"
+        },
+        {
+            "name": "真正的血魔法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/437.png",
+            "x": 156.0,
+            "y": 168.0,
+            "data": "血魔法很好,神秘时代也是.为什么不把两个世界结合起来呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABtQ==",
+            "tooltip": "<strong>真正的血魔法</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "基础符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/409.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "气血符文是构成血之祭坛的基础符文,做好准备,你将需要成吨的气血符文.%n%n你需要8个符文用于你的第2阶祭坛,现在用你的新祭坛造点新玩意吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABmQ==",
+            "tooltip": "<strong>基础符文</strong></br>前置任务需求:</br>便携式电池...(Portable battery...)</br>一阶石板"
+        },
+        {
+            "name": "3阶血之祭坛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/926.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "为了让你的祭坛更强大,你需要升级它. 你需要用血腥神秘块建造两格高的柱子,并在每个柱子的顶部放一块萤石.%n%nPS： 建议到血魔法官方wiki查看祭坛结构截图,与官方wiki祭坛唯一的不同就是柱子材质,其余结构完全一致.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADng==",
+            "tooltip": "<strong>3阶血之祭坛</strong></br>前置任务需求:</br>基础符文</br>神秘烹饪"
+        },
+        {
+            "name": "4阶血之祭坛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/927.png",
+            "x": 300.0,
+            "y": 360.0,
+            "data": "如果你想制作4级石板,你需要一个第4层祭坛. 这可以像三层祭坛一样,四格高的血腥虚空块柱子,柱子顶部有血砖.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADnw==",
+            "tooltip": "<strong>4阶血之祭坛</strong></br>前置任务需求:</br>法师气血宝珠</br>浓缩黑暗</br>获取灵魂碎片"
+        },
+        {
+            "name": "5阶血之祭坛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/928.png",
+            "x": 300.0,
+            "y": 408.0,
+            "data": "如果你想制作5级板岩,你需要一个五阶祭坛. 它需要4个信标. 信标需要通过奥术合成,可以在魔导手册中的GTNH页面上找到相关研究. 而相关任务在\"熟练的神秘使\"任务栏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADoA==",
+            "tooltip": "<strong>5阶血之祭坛</strong></br>前置任务需求:</br>4阶血之祭坛"
+        },
+        {
+            "name": "6阶血之祭坛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/929.png",
+            "x": 564.0,
+            "y": 360.0,
+            "data": "血祭坛的最高等级是6级.你需要7格高的血腥灵宝块柱子,并且顶部放置碎片集晶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADoQ==",
+            "tooltip": "<strong>6阶血之祭坛</strong></br>前置任务需求:</br>灵宝</br>5阶石板</br>强大的碎片"
+        },
+        {
+            "name": "血液背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2451.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "血液背包会每次扣除半颗心并转化为100LP存储,直到半血为止(额外生命上限也计算在内),背包的存储上限为10000LP. 当血之祭坛没有正在合成的物品时,你可以手持背包右键祭坛,将其内存储的LP注入祭坛中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJkw==",
+            "tooltip": "<strong>血液背包</strong></br>前置任务需求:</br>第二阶-石板"
+        },
+        {
+            "name": "约束装甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/431.png",
+            "x": 156.0,
+            "y": 408.0,
+            "data": "是时候组装你的盔甲了.按照在工作台中合成胸甲的摆放方式,在地上放置方块. 灵魂装甲锻造石必须在至少两侧连接到结构. 然后,用空手右键锻造石来制作盔甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABrw==",
+            "tooltip": "<strong>约束装甲</strong></br>前置任务需求:</br>强力装甲"
+        },
+        {
+            "name": "约束工具:斧",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/436.png",
+            "x": 156.0,
+            "y": 312.0,
+            "data": "在被右击激活后,这个斧头将清除大范围内的任何木材.警告:这将使用大量的LP.你可能会突然死亡...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABtA==",
+            "tooltip": "<strong>约束工具:斧</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "约束工具:镐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/434.png",
+            "x": 156.0,
+            "y": 240.0,
+            "data": "采矿从未如此简单.只需手持此工具右键,所有石头都消失了! 像所有约束工具一样,它使用了大量的LP.%n%n[note]当心别掉进岩浆![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABsg==",
+            "tooltip": "<strong>约束工具:镐</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "约束工具:铲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/435.png",
+            "x": 156.0,
+            "y": 276.0,
+            "data": "有没有想过清理一大片有泥土、砾石和沙子的地形？为什么不让魔鬼去做呢？这个铲子,充满了恶魔的灵魂,将通过你的意志释放力量.但是要警告:你要召唤的恶魔是饥渴的,而且使用它将消耗很多LP,所以确保你的LP足够充足!%n%n[note]不会挖掘你的下方.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABsw==",
+            "tooltip": "<strong>约束工具:铲</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "复杂的法术系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/438.png",
+            "x": 348.0,
+            "y": 120.0,
+            "data": "与具有核心和基架的简单法术不同,复杂的法术系统令人难以置信...复杂. 这里有太多的组合来覆盖它们,因此建议在其他地方寻找知识. 但是,通过此任务中的物品,你可以制作一个简单的挖掘法术.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABtg==",
+            "tooltip": "<strong>复杂的法术系统</strong></br>前置任务需求:</br>法师气血宝珠"
+        },
+        {
+            "name": "恶魔入侵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/714.png",
+            "x": 516.0,
+            "y": 216.0,
+            "data": "是时候开启一个传送门,通往我们以往召唤的恶魔所在之地.能出什么差错呢? (建议在一个行星上进行这个仪式,恶魔的城市会延伸蛮大的范围...)%n%n解释起来很复杂,所以查看wiki来获取详细信息吧. 不过你得记住,开启这个仪式需要15M的LP,所以你需要至少13个宝珠符文. 另外,你还需要炼金煅烧炉等一系列工具才能获得所需的玻璃钟罩,请查阅魔导手册中的血魔法章节获取更多信息.%n%n[note]主世界现在被禁止开启传送门.太多人不听从建议而导致服务器不得不承受这些.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACyg==",
+            "tooltip": "<strong>恶魔入侵</strong></br>前置任务需求:</br>贤者气血宝珠.让他们来吧!</br>4阶符文"
+        },
+        {
+            "name": "献祭刀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1325.png",
+            "x": 156.0,
+            "y": 72.0,
+            "data": "是时候得到更多的血液了. 怪物是更多血液的良好来源. 在你的二阶祭坛上将你的牺牲匕首变成一把献祭刀.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFLQ==",
+            "tooltip": "<strong>献祭刀</strong></br>前置任务需求:</br>基础符文"
+        },
+        {
+            "name": "恶魔气血碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2456.png",
+            "x": 432.0,
+            "y": 360.0,
+            "data": "想要获得恶魔气血碎片,你得先召唤一只恶魔然后杀死它. 你得先像这样放置奥术基座:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJmA==",
+            "tooltip": "<strong>恶魔气血碎片</strong></br>前置任务需求:</br>导师气血宝珠:接近了</br>4阶血之祭坛"
+        },
+        {
+            "name": "元素铭文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/425.png",
+            "x": 252.0,
+            "y": 252.0,
+            "data": "仪式的必需品. 制作仪式推测杖,你就能更方便地布置仪式石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABqQ==",
+            "tooltip": "<strong>元素铭文</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "元素粉笔II",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/709.png",
+            "x": 384.0,
+            "y": 252.0,
+            "data": "强化过的元素粉笔,可以用来书写一些比你习惯的符文更\"黑\"的符文...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACxQ==",
+            "tooltip": "<strong>元素粉笔II</strong></br>前置任务需求:</br>4阶石板"
+        },
+        {
+            "name": "元素粉笔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/706.png",
+            "x": 612.0,
+            "y": 360.0,
+            "data": "顶级的粉笔,用来画花俏的壁画？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACwg==",
+            "tooltip": "<strong>元素粉笔</strong></br>前置任务需求:</br>6阶血之祭坛"
+        },
+        {
+            "name": "获取灵魂碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/430.png",
+            "x": 204.0,
+            "y": 360.0,
+            "data": "通过Shift右键启动你的剑,并杀死敌人! 收集尽可能多的碎片.你需要很多很多...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABrg==",
+            "tooltip": "<strong>获取灵魂碎片</strong></br>前置任务需求:</br>血腥之剑"
+        },
+        {
+            "name": "玻璃牺牲匕首",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2452.png",
+            "x": 384.0,
+            "y": 168.0,
+            "data": "玻璃牺牲匕首的使用方式与普通牺牲匕首一致,不同的是每次它能带来500LP. 手持燧石打碎普通玻璃即可获得玻璃碎片.%n%n不幸的是,玻璃献祭刀好像有些bug, 但又有人说它一切正常. 自己试试吧, 遇到问题就提issue.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJlA==",
+            "tooltip": "<strong>玻璃牺牲匕首</strong></br>前置任务需求:</br>法师气血宝珠"
+        },
+        {
+            "name": "高端仪式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/713.png",
+            "x": 612.0,
+            "y": 408.0,
+            "data": "最后的符文,用于最强大的仪式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACyQ==",
+            "tooltip": "<strong>高端仪式</strong></br>前置任务需求:</br>元素粉笔"
+        },
+        {
+            "name": "你能够有多黑暗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/700.png",
+            "x": 612.0,
+            "y": 216.0,
+            "data": "不开玩笑,一个人能有多黑暗？你确信水晶中的那张脸只不过是你的想象.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACvA==",
+            "tooltip": "<strong>你能够有多黑暗？</strong></br>前置任务需求:</br>它能承载更多,没错吧?"
+        },
+        {
+            "name": "灌输法术附属(Imbued spell upgrades)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/715.png",
+            "x": 564.0,
+            "y": 168.0,
+            "data": "有了这些新的碎片,你可以制作最强力的法术组件.也许是时候升级你的采掘法术了？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACyw==",
+            "tooltip": "<strong>灌输法术附属(Imbued spell upgrades)</strong></br>前置任务需求:</br>强大的碎片"
+        },
+        {
+            "name": "不完善的仪式石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2453.png",
+            "x": 204.0,
+            "y": 168.0,
+            "data": "通过这块石头,你能举行简单的仪式,比如将白昼变为黑夜,或者召唤一场雷雨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJlQ==",
+            "tooltip": "<strong>不完善的仪式石</strong></br>前置任务需求:</br>启动器"
+        },
+        {
+            "name": "它能承载更多,没错吧?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2460.png",
+            "x": 612.0,
+            "y": 264.0,
+            "data": "但是它为什么是透明的?%n%n[note]实际上容量没有提升,也不能正确显示其内的气血,同时无法在祭坛上使用.不过它确实会显示你当前的LP量,且可用于合成下一阶宝珠.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJnA==",
+            "tooltip": "<strong>它能承载更多,没错吧?</strong></br>前置任务需求:</br>升华"
+        },
+        {
+            "name": "法师气血宝珠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/424.png",
+            "x": 300.0,
+            "y": 168.0,
+            "data": "你的第三阶气血宝珠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABqA==",
+            "tooltip": "<strong>法师气血宝珠</strong></br>前置任务需求:</br>第三阶-石板</br>总算能炼钛了"
+        },
+        {
+            "name": "导师气血宝珠:接近了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/708.png",
+            "x": 432.0,
+            "y": 288.0,
+            "data": "你的4阶宝珠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACxA==",
+            "tooltip": "<strong>导师气血宝珠:接近了</strong></br>前置任务需求:</br>4阶石板</br>积少成钨钢"
+        },
+        {
+            "name": "微型仪式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2458.png",
+            "x": 252.0,
+            "y": 216.0,
+            "data": "不想让仪式占用太多空间? 那就用灵魂压缩器把仪式压缩到一个方块里吧!%n%n译者注: 手持宝珠右键此方块即可压缩上方仪式,不过宝珠会被吃掉...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJmg==",
+            "tooltip": "<strong>微型仪式</strong></br>前置任务需求:</br>仪式"
+        },
+        {
+            "name": "基架",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/417.png",
+            "x": 108.0,
+            "y": 324.0,
+            "data": "基架使你的魔法成型.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABoQ==",
+            "tooltip": "<strong>基架</strong></br>前置任务需求:</br>简单但强大的法术"
+        },
+        {
+            "name": "付出最高的代价",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/161.png",
+            "x": 12.0,
+            "y": 120.0,
+            "data": "当一般的魔法已经不能满足你需要的时候,你可能需要一些...更强大的力量.这份力量需要用血液来支付,你的血...或者是其他什么人或者生物的.%n%n在第一阶,你只需要放置一个血之祭坛.建议做好规划,这个祭坛将会越来越大,最高级祭坛占地23x23.%n%n请注意,在GTNH中,我们削减了获得的血并提高了合成消耗. 做好心理准备.%n%n初始祭坛内部有10,000L的储量,还有1,000L输入/出缓存(你可以将血抽出或者泵入祭坛,但一开始的速度很慢). 血会优先注满输入/出缓存,你在第一次合成时需要注意这一点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAoQ==",
+            "tooltip": "<strong>付出最高的代价</strong></br>前置任务需求:</br>炼化源质</br>调谐之石</br>这可不是做汤的</br>墙上的又一块砖..."
+        },
+        {
+            "name": "Poke",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/177.png",
+            "x": 60.0,
+            "y": 120.0,
+            "data": "是时候抽血了.你必须从你自己开始...%n%n每次使用可为祭坛注入100LP.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAsQ==",
+            "tooltip": "<strong>Poke</strong></br>前置任务需求:</br>付出最高的代价"
+        },
+        {
+            "name": "便携式电池...(Portable battery...)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/164.png",
+            "x": 108.0,
+            "y": 96.0,
+            "data": "不完全是一个\"电池\",更像是你生命点(LP)--也就是血液--的便携式接入点.%n%n把这玩意绑定到你自己,右键即可消耗你的红心并在灵魂网络中存储200LP. 灵魂网络中的LP可以为炼金或者仪式供能. 将气血宝珠放入祭坛即可1:1地转化祭坛中的血液为LP,这是自动化的基础. %n%n你绑定的最高阶宝珠容量即为你的灵魂网络的容量上限,但是你需要将它放到一个合适等级的祭坛中,以持续吸收血液.%n%n译者注: 建议用一个额外祭坛配合苦难之井仪式与献祭符文提供源源不断的LP.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAApA==",
+            "tooltip": "<strong>便携式电池...(Portable battery...)</strong></br>前置任务需求:</br>Poke</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "药水催化剂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/411.png",
+            "x": 36.0,
+            "y": 276.0,
+            "data": "为了控制药水,你需要催化剂.然后,你可以将功率催化剂或延时催化剂加入药水,以增加药效的持续时间或强度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABmw==",
+            "tooltip": "<strong>药水催化剂</strong></br>前置任务需求:</br>简单的炼金术</br>总算能炼钛了"
+        },
+        {
+            "name": "药水:飞行药水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/415.png",
+            "x": 72.0,
+            "y": 276.0,
+            "data": "只是想让你知道什么是可能的.让我们做一个药水样品,好么？给自己拿个药瓶、羽毛和你制作的一种虚弱粘合剂.将这些结合在一起,你会得到一些你可能想要保留一段时间的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABnw==",
+            "tooltip": "<strong>药水:飞行药水</strong></br>前置任务需求:</br>药水催化剂</br>特殊药瓶"
+        },
+        {
+            "name": "强力装甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/429.png",
+            "x": 204.0,
+            "y": 408.0,
+            "data": "它的制作流程很复杂,也相当昂贵.但为了这套真正强大的装甲,付出一切努力都是值得的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABrQ==",
+            "tooltip": "<strong>强力装甲</strong></br>前置任务需求:</br>获取灵魂碎片"
+        },
+        {
+            "name": "强大的碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/703.png",
+            "x": 564.0,
+            "y": 216.0,
+            "data": "召唤来的恶魔相当强大,但他们的灵魂含有巨大的力量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACvw==",
+            "tooltip": "<strong>强大的碎片</strong></br>前置任务需求:</br>恶魔入侵"
+        },
+        {
+            "name": "补充药剂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/413.png",
+            "x": 72.0,
+            "y": 240.0,
+            "data": "如果药瓶空了,你不必把它扔掉.再补充一点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABnQ==",
+            "tooltip": "<strong>补充药剂</strong></br>前置任务需求:</br>药水:飞行药水"
+        },
+        {
+            "name": "仪式拆解杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2462.png",
+            "x": 252.0,
+            "y": 324.0,
+            "data": "使用仪式拆解杖可以快速拆除仪式并自动回收仪式石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJng==",
+            "tooltip": "<strong>仪式拆解杖</strong></br>前置任务需求:</br>仪式让生活更美好"
+        },
+        {
+            "name": "仪式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/433.png",
+            "x": 204.0,
+            "y": 216.0,
+            "data": "是时候进行些仪式了. 你可能首先构造最基础的绑定仪式.%n%n在这些纷繁复杂、多种多样的仪式中,某些是有用的,某些是辣鸡.%n%n这里列举了一些你可能会关心的仪式:%n下界夜曲(Serenade-of-the-Nether): 要是你不喜欢炼狱之壶的话,这是个不错的替代品;%n炼金之谣(Ballad-of-Alchemy): 自动炼金;%n苦难之井(Well-of-Suffering): 自动化血液收集系统;%n陨星仪式(Mark-of-the-Falling-Tower):根据投入物品不同,召唤38种陨星(译者注：溅射范围非常大,建议离自己家越远越好);%n恶魔入侵(Convocation of the Damned): 6阶祭坛、以及各种终极物品所需.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABsQ==",
+            "tooltip": "<strong>仪式</strong></br>前置任务需求:</br>不完善的仪式石</br>血之炼金术(Alchemy with blood)"
+        },
+        {
+            "name": "仪式让生活更美好",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/428.png",
+            "x": 252.0,
+            "y": 288.0,
+            "data": "既然你有了元素铭文,就可以制作基础的仪式推测杖了.它可以方便地放置复杂的仪式. Shift+右键可切换仪式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABrA==",
+            "tooltip": "<strong>仪式让生活更美好</strong></br>前置任务需求:</br>元素铭文"
+        },
+        {
+            "name": "2阶符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/463.png",
+            "x": 192.0,
+            "y": 12.0,
+            "data": "速度符文是唯一的2阶符文. 顾名思义,每个速度符文可加法叠加25％的血之祭坛处理速度.%n%n但是,这种符文会使实际制作物品更加困难,所以在使用此符文前,请确认自己能否制作这种物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABzw==",
+            "tooltip": "<strong>2阶符文</strong></br>前置任务需求:</br>学徒气血宝珠"
+        },
+        {
+            "name": "牺牲/献祭符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/426.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "戳你自己的手指产生的血液可能适用于简单的石板和符文,但为高级东西获得足够的血液是乏味的. 使用牺牲/献祭符文,你可以增加从你自己或怪物身上获得的血液.%n%n每个符文加法叠加12％的收益.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABqg==",
+            "tooltip": "<strong>牺牲/献祭符文</strong></br>前置任务需求:</br>第三阶-石板"
+        },
+        {
+            "name": "看到一切",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/408.png",
+            "x": 60.0,
+            "y": 168.0,
+            "data": "很难看到你的祭坛里有多少LP,或者你的个人有多少LP.这个小装置可以帮你解决这个问题.只是手指上有点刺痛,一切都会显露出来.%n%n当你有了炼金术台后你还可以制造更高级的见解印记.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABmA==",
+            "tooltip": "<strong>看到一切</strong></br>前置任务需求:</br>一阶石板"
+        },
+        {
+            "name": "简单的炼金术",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/412.png",
+            "x": 36.0,
+            "y": 216.0,
+            "data": "炼金术可能很奇怪,也很乏味. 有很多试剂甚至更多可能的组合. 现在,为了开始,你需要一些基本的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABnA==",
+            "tooltip": "<strong>简单的炼金术</strong></br>前置任务需求:</br>血之炼金术(Alchemy with blood)"
+        },
+        {
+            "name": "简单但强大的法术",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/416.png",
+            "x": 156.0,
+            "y": 360.0,
+            "data": "简单的法术系统很容易获得,可以在你的血魔法生涯早期完成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABoA==",
+            "tooltip": "<strong>简单但强大的法术</strong></br>前置任务需求:</br>获取灵魂碎片"
+        },
+        {
+            "name": "举个例子吧!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/419.png",
+            "x": 108.0,
+            "y": 360.0,
+            "data": "有很多组合值得探索,所以只需尝试并犯错! %n%n[note]或者直接求助网络.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABow==",
+            "tooltip": "<strong>举个例子吧!</strong></br>前置任务需求:</br>基架</br>法术核心"
+        },
+        {
+            "name": "特殊药瓶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/414.png",
+            "x": 108.0,
+            "y": 276.0,
+            "data": "普通的玻璃瓶不能容纳你想要的这些特殊药水. 你需要用祭坛上的血来灌输它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABng==",
+            "tooltip": "<strong>特殊药瓶</strong></br>前置任务需求:</br>基础符文</br>血之炼金术(Alchemy with blood)"
+        },
+        {
+            "name": "法术核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/418.png",
+            "x": 108.0,
+            "y": 396.0,
+            "data": "有九个基本元素,每个元素都有一个核心,代表它们的物品.你把这个核心放在你的祭坛旁边,以便你的魔法进入它和基架.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABog==",
+            "tooltip": "<strong>法术核心</strong></br>前置任务需求:</br>简单但强大的法术"
+        },
+        {
+            "name": "启动器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2457.png",
+            "x": 252.0,
+            "y": 168.0,
+            "data": "你需要这个才能启动仪式。更复杂的仪式需要更高级的启动器。制作出来后你需要首先右键以将其绑定到自己，然后右键主仪式石即可启动仪式。%n%n[note]能量水晶需要完全充满。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJmQ==",
+            "tooltip": "<strong>启动器</strong></br>前置任务需求:</br>3阶血之祭坛"
+        },
+        {
+            "name": "召唤陨石!",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7595617807436879192.png",
+            "x": 474.0,
+            "y": 318.0,
+            "data": "陨星仪式是GTNH中你能使用的最为强大的魔法之一.它能在你指定的地方召唤一枚由各种GT矿物组成的巨型陨石.要消耗的只是一个祭品和大量LP.更好的是,通过陨星仪式,你甚至能比正常流程更早获得某些矿物!用NEI查询所有可以获得的陨石.举个例子,你可以先看看使用河豚的合成表.%n%n陨石会落在主仪式石上方最高的方块上.通入泥土试剂(Terrae)可以让陨石的半径增加1.通入环境试剂(Orbis Terrae)可以让陨石的半径增加2.%n%n陨石掉落时会对周围实体造成伤害,但是不会破坏方块和地形.如果有村民或者重要的生物在附近要注意.陨石的尺寸越大,对实体造成的伤害和伤害范围会相应巨量增加.%n%n可以用多方块矿机挖空陨石里面的各种矿物,但也有别的方法!",
+            "quest_id": "s4B77B7FSamWlvHY8hfqqA==",
+            "tooltip": "<strong>召唤陨石!</strong></br>前置任务需求:</br>恶魔气血碎片"
+        },
+        {
+            "name": "一阶石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/407.png",
+            "x": 108.0,
+            "y": 144.0,
+            "data": "基础石板.基础到只是石头注入血液.%n%n你可以通过泵、桶或者单元等任何方式获取切割机所需的血.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABlw==",
+            "tooltip": "<strong>一阶石板</strong></br>前置任务需求:</br>Poke"
+        },
+        {
+            "name": "2阶印记",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/228.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "有了加强的石板,你就能制造新的印记了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA5A==",
+            "tooltip": "<strong>2阶印记</strong></br>前置任务需求:</br>第二阶-石板"
+        },
+        {
+            "name": "第二阶-石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/422.png",
+            "x": 216.0,
+            "y": 96.0,
+            "data": "你需要MOOORE.使用更多的血来注入石板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABpg==",
+            "tooltip": "<strong>第二阶-石板</strong></br>前置任务需求:</br>基础符文"
+        },
+        {
+            "name": "3阶符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/427.png",
+            "x": 384.0,
+            "y": 132.0,
+            "data": "第一种符文,每个乘法叠加50％的祭坛输入/出缓存; 第二种符文,每个可以增加3500L祭坛容量.这种符文也可以增加输入/出缓存,表现为祭坛容量的10％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABqw==",
+            "tooltip": "<strong>3阶符文</strong></br>前置任务需求:</br>法师气血宝珠"
+        },
+        {
+            "name": "3阶印记",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/406.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "现在它们很有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABlg==",
+            "tooltip": "<strong>3阶印记</strong></br>前置任务需求:</br>第三阶-石板"
+        },
+        {
+            "name": "第三阶-石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/421.png",
+            "x": 300.0,
+            "y": 120.0,
+            "data": "...你需要更多的血.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABpQ==",
+            "tooltip": "<strong>第三阶-石板</strong></br>前置任务需求:</br>3阶血之祭坛"
+        },
+        {
+            "name": "4阶符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/710.png",
+            "x": 432.0,
+            "y": 216.0,
+            "data": "每个超容符文可以乘法叠加14％血之祭坛的容量.%n%n每个宝珠符文可以增加4％的灵魂网络容量,你将在之后用到它的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACxg==",
+            "tooltip": "<strong>4阶符文</strong></br>前置任务需求:</br>导师气血宝珠:接近了"
+        },
+        {
+            "name": "4阶印记",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/420.png",
+            "x": 384.0,
+            "y": 324.0,
+            "data": "它们好用么? 也许吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABpA==",
+            "tooltip": "<strong>4阶印记</strong></br>前置任务需求:</br>4阶石板"
+        },
+        {
+            "name": "4阶石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/704.png",
+            "x": 348.0,
+            "y": 288.0,
+            "data": "4阶石板:接近了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACwA==",
+            "tooltip": "<strong>4阶石板</strong></br>前置任务需求:</br>4阶血之祭坛"
+        },
+        {
+            "name": "5阶符文",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/711.png",
+            "x": 540.0,
+            "y": 312.0,
+            "data": "最高阶符文: 并没有太多可用的符文. 促进符文可以减少祭坛缓存与外界容器交互的检测时间. 初始值为20t一次,每增加一个符文可以减少1t,最小值为1t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACxw==",
+            "tooltip": "<strong>5阶符文</strong></br>前置任务需求:</br>贤者气血宝珠.让他们来吧!"
+        },
+        {
+            "name": "5阶印记",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2459.png",
+            "x": 564.0,
+            "y": 408.0,
+            "data": "它们的实用性严重值得怀疑,所以何不尝试血液兵工厂(Blood-Arsenal)的印记呢? 把它们收集齐吧!%n%nPS： 闪电印记是制作卓越气血宝珠的必需品...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJmw==",
+            "tooltip": "<strong>5阶印记</strong></br>前置任务需求:</br>5阶石板"
+        },
+        {
+            "name": "5阶石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/702.png",
+            "x": 516.0,
+            "y": 408.0,
+            "data": "一块石板,1023桶血!还能再装多少?我想知道.于是我又加了桶试试.成了!一块石板,1024桶血!......",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACvg==",
+            "tooltip": "<strong>5阶石板</strong></br>前置任务需求:</br>5阶血之祭坛"
+        },
+        {
+            "name": "无限的LP",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2455.png",
+            "x": 612.0,
+            "y": 168.0,
+            "data": "制成这个终极气血宝珠,你将拥有无限的LP. 但你仍然需要血液来进行合成,不是吗? (查看永魂之泣(Cry-of-the-Eternal-soul)仪式)%n%n译者注: 此宝珠LP上限为10亿,但注意需要手持此宝珠才能补充灵魂网络中的LP,机制类似的还有创造法杖或中子法杖.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJlw==",
+            "tooltip": "<strong>无限的LP</strong></br>前置任务需求:</br>终极目标:杂项</br>你能够有多黑暗？"
+        },
+        {
+            "name": "苦难之井",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2454.png",
+            "x": 384.0,
+            "y": 204.0,
+            "data": "苦难之井仪式将对半径6格内的怪物造成伤害,并将获得的血液注入6格之内的祭坛. 每个怪物每次伤害消耗2LP,而基础收获是10LP,是不是有点赚头? 更棒的是,你还能通过献祭符文提高收获的LP,是不是血赚? 更不用说这个仪式可以全自动运行,自动化获取LP!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJlg==",
+            "tooltip": "<strong>苦难之井</strong></br>前置任务需求:</br>进阶仪式"
+        }
+    ],
+    "links": [
+        {
+            "source": "仪式",
+            "target": "血腥之剑"
+        },
+        {
+            "source": "元素粉笔II",
+            "target": "进阶仪式"
+        },
+        {
+            "source": "一阶石板",
+            "target": "血之炼金术(Alchemy with blood)"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "血之炼金术(Alchemy with blood)"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "学徒气血宝珠"
+        },
+        {
+            "source": "第二阶-石板",
+            "target": "学徒气血宝珠"
+        },
+        {
+            "source": "可怕的魔法载体",
+            "target": "贤者气血宝珠.让他们来吧!"
+        },
+        {
+            "source": "恶魔气血碎片",
+            "target": "贤者气血宝珠.让他们来吧!"
+        },
+        {
+            "source": "镀铑钯",
+            "target": "贤者气血宝珠.让他们来吧!"
+        },
+        {
+            "source": "5阶石板",
+            "target": "贤者气血宝珠.让他们来吧!"
+        },
+        {
+            "source": "6阶血之祭坛",
+            "target": "升华"
+        },
+        {
+            "source": "铱",
+            "target": "升华"
+        },
+        {
+            "source": "仪式",
+            "target": "真正的血魔法"
+        },
+        {
+            "source": "便携式电池...(Portable battery...)",
+            "target": "基础符文"
+        },
+        {
+            "source": "一阶石板",
+            "target": "基础符文"
+        },
+        {
+            "source": "基础符文",
+            "target": "3阶血之祭坛"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "3阶血之祭坛"
+        },
+        {
+            "source": "法师气血宝珠",
+            "target": "4阶血之祭坛"
+        },
+        {
+            "source": "浓缩黑暗",
+            "target": "4阶血之祭坛"
+        },
+        {
+            "source": "获取灵魂碎片",
+            "target": "4阶血之祭坛"
+        },
+        {
+            "source": "4阶血之祭坛",
+            "target": "5阶血之祭坛"
+        },
+        {
+            "source": "灵宝",
+            "target": "6阶血之祭坛"
+        },
+        {
+            "source": "5阶石板",
+            "target": "6阶血之祭坛"
+        },
+        {
+            "source": "强大的碎片",
+            "target": "6阶血之祭坛"
+        },
+        {
+            "source": "第二阶-石板",
+            "target": "血液背包"
+        },
+        {
+            "source": "强力装甲",
+            "target": "约束装甲"
+        },
+        {
+            "source": "仪式",
+            "target": "约束工具:斧"
+        },
+        {
+            "source": "仪式",
+            "target": "约束工具:镐"
+        },
+        {
+            "source": "仪式",
+            "target": "约束工具:铲"
+        },
+        {
+            "source": "法师气血宝珠",
+            "target": "复杂的法术系统"
+        },
+        {
+            "source": "贤者气血宝珠.让他们来吧!",
+            "target": "恶魔入侵"
+        },
+        {
+            "source": "4阶符文",
+            "target": "恶魔入侵"
+        },
+        {
+            "source": "基础符文",
+            "target": "献祭刀"
+        },
+        {
+            "source": "导师气血宝珠:接近了",
+            "target": "恶魔气血碎片"
+        },
+        {
+            "source": "4阶血之祭坛",
+            "target": "恶魔气血碎片"
+        },
+        {
+            "source": "仪式",
+            "target": "元素铭文"
+        },
+        {
+            "source": "4阶石板",
+            "target": "元素粉笔II"
+        },
+        {
+            "source": "6阶血之祭坛",
+            "target": "元素粉笔"
+        },
+        {
+            "source": "血腥之剑",
+            "target": "获取灵魂碎片"
+        },
+        {
+            "source": "法师气血宝珠",
+            "target": "玻璃牺牲匕首"
+        },
+        {
+            "source": "元素粉笔",
+            "target": "高端仪式"
+        },
+        {
+            "source": "它能承载更多,没错吧?",
+            "target": "你能够有多黑暗？"
+        },
+        {
+            "source": "强大的碎片",
+            "target": "灌输法术附属(Imbued spell upgrades)"
+        },
+        {
+            "source": "启动器",
+            "target": "不完善的仪式石"
+        },
+        {
+            "source": "升华",
+            "target": "它能承载更多,没错吧?"
+        },
+        {
+            "source": "第三阶-石板",
+            "target": "法师气血宝珠"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "法师气血宝珠"
+        },
+        {
+            "source": "4阶石板",
+            "target": "导师气血宝珠:接近了"
+        },
+        {
+            "source": "积少成钨钢",
+            "target": "导师气血宝珠:接近了"
+        },
+        {
+            "source": "仪式",
+            "target": "微型仪式"
+        },
+        {
+            "source": "简单但强大的法术",
+            "target": "基架"
+        },
+        {
+            "source": "炼化源质",
+            "target": "付出最高的代价"
+        },
+        {
+            "source": "调谐之石",
+            "target": "付出最高的代价"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "付出最高的代价"
+        },
+        {
+            "source": "墙上的又一块砖...",
+            "target": "付出最高的代价"
+        },
+        {
+            "source": "付出最高的代价",
+            "target": "Poke"
+        },
+        {
+            "source": "Poke",
+            "target": "便携式电池...(Portable battery...)"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "便携式电池...(Portable battery...)"
+        },
+        {
+            "source": "简单的炼金术",
+            "target": "药水催化剂"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "药水催化剂"
+        },
+        {
+            "source": "药水催化剂",
+            "target": "药水:飞行药水"
+        },
+        {
+            "source": "特殊药瓶",
+            "target": "药水:飞行药水"
+        },
+        {
+            "source": "获取灵魂碎片",
+            "target": "强力装甲"
+        },
+        {
+            "source": "恶魔入侵",
+            "target": "强大的碎片"
+        },
+        {
+            "source": "药水:飞行药水",
+            "target": "补充药剂"
+        },
+        {
+            "source": "仪式让生活更美好",
+            "target": "仪式拆解杖"
+        },
+        {
+            "source": "不完善的仪式石",
+            "target": "仪式"
+        },
+        {
+            "source": "血之炼金术(Alchemy with blood)",
+            "target": "仪式"
+        },
+        {
+            "source": "元素铭文",
+            "target": "仪式让生活更美好"
+        },
+        {
+            "source": "学徒气血宝珠",
+            "target": "2阶符文"
+        },
+        {
+            "source": "第三阶-石板",
+            "target": "牺牲/献祭符文"
+        },
+        {
+            "source": "一阶石板",
+            "target": "看到一切"
+        },
+        {
+            "source": "血之炼金术(Alchemy with blood)",
+            "target": "简单的炼金术"
+        },
+        {
+            "source": "获取灵魂碎片",
+            "target": "简单但强大的法术"
+        },
+        {
+            "source": "基架",
+            "target": "举个例子吧!"
+        },
+        {
+            "source": "法术核心",
+            "target": "举个例子吧!"
+        },
+        {
+            "source": "基础符文",
+            "target": "特殊药瓶"
+        },
+        {
+            "source": "血之炼金术(Alchemy with blood)",
+            "target": "特殊药瓶"
+        },
+        {
+            "source": "简单但强大的法术",
+            "target": "法术核心"
+        },
+        {
+            "source": "3阶血之祭坛",
+            "target": "启动器"
+        },
+        {
+            "source": "恶魔气血碎片",
+            "target": "召唤陨石!"
+        },
+        {
+            "source": "Poke",
+            "target": "一阶石板"
+        },
+        {
+            "source": "第二阶-石板",
+            "target": "2阶印记"
+        },
+        {
+            "source": "基础符文",
+            "target": "第二阶-石板"
+        },
+        {
+            "source": "法师气血宝珠",
+            "target": "3阶符文"
+        },
+        {
+            "source": "第三阶-石板",
+            "target": "3阶印记"
+        },
+        {
+            "source": "3阶血之祭坛",
+            "target": "第三阶-石板"
+        },
+        {
+            "source": "导师气血宝珠:接近了",
+            "target": "4阶符文"
+        },
+        {
+            "source": "4阶石板",
+            "target": "4阶印记"
+        },
+        {
+            "source": "4阶血之祭坛",
+            "target": "4阶石板"
+        },
+        {
+            "source": "贤者气血宝珠.让他们来吧!",
+            "target": "5阶符文"
+        },
+        {
+            "source": "5阶石板",
+            "target": "5阶印记"
+        },
+        {
+            "source": "5阶血之祭坛",
+            "target": "5阶石板"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "无限的LP"
+        },
+        {
+            "source": "你能够有多黑暗？",
+            "target": "无限的LP"
+        },
+        {
+            "source": "进阶仪式",
+            "target": "苦难之井"
+        }
+    ]
+}

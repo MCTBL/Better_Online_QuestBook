@@ -1,0 +1,2856 @@
+{
+    "data": [
+        {
+            "name": "遗忘蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2245.png",
+            "x": 636.0,
+            "y": 156.0,
+            "data": "遗忘蜂是下一步,由湮没蜂和无名蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIxQ==",
+            "tooltip": "<strong>遗忘蜂</strong></br>前置任务需求:</br>无名蜂"
+        },
+        {
+            "name": "灵气蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2224.png",
+            "x": 636.0,
+            "y": 300.0,
+            "data": "你需要在蜂箱下方放个风之魔晶块才能培育出它,它可以生产风之尘,在其附近可获得速度buff.由两个风蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIsA==",
+            "tooltip": "<strong>灵气蜂</strong></br>前置任务需求:</br>风蜂"
+        },
+        {
+            "name": "农耕蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2287.png",
+            "x": 444.0,
+            "y": 396.0,
+            "data": "农耕蜂应该可以帮助附近的作物生长.效果不是很明显,是吧?你得在平原类的生物群系才能培育出它.由稼穑蜂和敬业蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI7w==",
+            "tooltip": "<strong>农耕蜂</strong></br>前置任务需求:</br>稼穑蜂</br>敬业蜂"
+        },
+        {
+            "name": "铝蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2198.png",
+            "x": 300.0,
+            "y": 264.0,
+            "data": "在MV阶段之前你用不上铝,但当你需要它时,就是成吨地要.你需要在蜂箱下方放个铝块.由镍蜂和锌蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIlg==",
+            "tooltip": "<strong>铝蜂</strong></br>前置任务需求:</br>镍蜂</br>锌蜂"
+        },
+        {
+            "name": "镅蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/362.png",
+            "x": 348.0,
+            "y": 648.0,
+            "data": "一只非同寻常的蜜蜂.如果你以为镅只能通过聚变获得,那就大错特错了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABag==",
+            "tooltip": "<strong>镅蜂</strong></br>前置任务需求:</br>镥蜂</br>铬蜂"
+        },
+        {
+            "name": "古代蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2281.png",
+            "x": 876.0,
+            "y": 12.0,
+            "data": "古代蜂是获取游戏中最好产油蜂的第一步.由勤奋蜂和高尚蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI6Q==",
+            "tooltip": "<strong>古代蜂</strong></br>前置任务需求:</br>勤奋蜂</br>培育一些高尚蜂"
+        },
+        {
+            "name": "磷灰石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2291.png",
+            "x": 1068.0,
+            "y": 204.0,
+            "data": "你需要在蜂箱下方放个磷灰石块才能培育出磷灰石蜂,它们的种子油蜂窝能产出种子油.由灰烬蜂和煤蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI8w==",
+            "tooltip": "<strong>磷灰石蜂</strong></br>前置任务需求:</br>灰烬蜂</br>煤蜂"
+        },
+        {
+            "name": "流水蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2220.png",
+            "x": 636.0,
+            "y": 348.0,
+            "data": "你需要在蜂箱下方放个水之魔晶才能培育出它.它可以生产水之尘.在其附近停留可清除药水效果,就像喝了桶牛奶一样.这对聪明的工程师很有用!由两个水蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIrA==",
+            "tooltip": "<strong>流水蜂</strong></br>前置任务需求:</br>水蜂"
+        },
+        {
+            "name": "奥能蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2212.png",
+            "x": 396.0,
+            "y": 204.0,
+            "data": "奥能蜂产出的蕴魔液滴用于制造芬芳块-用于蜂箱组克隆盒,它比普通的蜂王浆有更高的成功率.这种蜜蜂也是神秘类蜜蜂培育线的基石之一.由玄奥蜂和奥秘蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIpA==",
+            "tooltip": "<strong>奥能蜂</strong></br>前置任务需求:</br>奥秘蜂</br>玄奥蜂"
+        },
+        {
+            "name": "干旱蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/356.png",
+            "x": 396.0,
+            "y": 456.0,
+            "data": "干旱蜂.你说它没用?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABZA==",
+            "tooltip": "<strong>干旱蜂</strong></br>前置任务需求:</br>节俭蜂"
+        },
+        {
+            "name": "芬芳块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2258.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "芬芳块用于蜂箱组克隆盒时的效率是蜂王浆的两倍.你需要奥能蜂产出的蕴魔液滴和敬业蜂产出的花粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI0g==",
+            "tooltip": "<strong>芬芳块</strong></br>前置任务需求:</br>蜂王浆</br>敬业蜂"
+        },
+        {
+            "name": "砷蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2254.png",
+            "x": 684.0,
+            "y": 492.0,
+            "data": "这种致命的蜜蜂会为你生产砷,非常适合用于你的电路板.蜂箱下方得放个砷块.由银蜂和锌蜂培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIzg==",
+            "tooltip": "<strong>砷蜂</strong></br>前置任务需求:</br>锌蜂</br>银蜂"
+        },
+        {
+            "name": "灰烬蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2292.png",
+            "x": 1068.0,
+            "y": 156.0,
+            "data": "制造灰烬的蜜蜂?正常人会需要这种东西?不过至少你可以从它们那里获取“活动范围大”的基因.你需要去下界转转,由粘土蜂和煤蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI9A==",
+            "tooltip": "<strong>灰烬蜂</strong></br>前置任务需求:</br>粘土蜂</br>煤蜂"
+        },
+        {
+            "name": "苦行蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2180.png",
+            "x": 108.0,
+            "y": 216.0,
+            "data": "苦行蜂需要一名细心的养蜂员.要是不穿养蜂员套装的话,它会为你施加爬行者爆炸效果.务必小心.它需要一个炎热或下界的生物群系和干旱的湿度.由温和蜂和节俭蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIhA==",
+            "tooltip": "<strong>苦行蜂</strong></br>前置任务需求:</br>节俭蜂"
+        },
+        {
+            "name": "复仇蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2206.png",
+            "x": 300.0,
+            "y": 408.0,
+            "data": "仇恨凝聚为那最暴力的形式.让它远离一切.由报仇蜂和记恨蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIng==",
+            "tooltip": "<strong>复仇蜂</strong></br>前置任务需求:</br>记恨蜂</br>报仇蜂"
+        },
+        {
+            "name": "感知蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2228.png",
+            "x": 588.0,
+            "y": 60.0,
+            "data": "关于这种蜜蜂没什么好说的.由以太蜂和谐振蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAItA==",
+            "tooltip": "<strong>感知蜂</strong></br>前置任务需求:</br>以太蜂"
+        },
+        {
+            "name": "贫瘠蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/308.png",
+            "x": 396.0,
+            "y": 504.0,
+            "data": "这是贫瘠蜂.好不了多少.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABNA==",
+            "tooltip": "<strong>贫瘠蜂</strong></br>前置任务需求:</br>干旱蜂"
+        },
+        {
+            "name": "基础蜜蜂统计",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2211.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "有些基础蜜蜂具有不错的属性,可以加入你的培育储备中.%n%n穴居性-石头蜂-这使你可以在蜂箱上堆东西或将其放在室内.你可以在蜂箱上放个箱子来很方便地收集产物.%n%n夜行性-石头蜂-这使你的蜜蜂在夜间或者暗处继续工作.%n%n耐雨飞行性-水生蜂-使你的蜜蜂在雨天继续工作.%n%n高生育能力(x4)-凛冬蜂-培育时你需要最大的雄蜂生产能力.%n%n记住,蜜蜂需要对环境非常满意时才会生产特殊产物.%n这意味着蜜蜂必须在它感觉最自然的环境中.即没有强化过温度/湿度适应性前的蜜蜂所需要的温度/湿度.%n%n例如,盐蜂需要温暖/正常的气候.即使具有+-湿度和温度适应性,也不会在除了温暖/正常气候以外别的气候下生产盐蜂窝.使用蜂箱升级以确保其处于最佳的温度/湿度下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIow==",
+            "tooltip": "<strong>基础蜜蜂统计</strong></br>前置任务需求:</br>蜜蜂培育\"智者\"手册"
+        },
+        {
+            "name": "火蝠蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2274.png",
+            "x": 492.0,
+            "y": 348.0,
+            "data": "火蝠蜂会生成九狱焱蝠,所以准备战斗吧.它们的特产是火药,由诡隐蜂和风蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI4g==",
+            "tooltip": "<strong>火蝠蜂</strong></br>前置任务需求:</br>风蜂</br>诡隐蜂"
+        },
+        {
+            "name": "盛开蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2171.png",
+            "x": 1212.0,
+            "y": 60.0,
+            "data": "盛开蜂会催生附近的树苗,这肯定有助于你的原木与树苗产量.盛开蜂拥有最快的授粉速度,由敬业蜂和兴旺蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIew==",
+            "tooltip": "<strong>盛开蜂</strong></br>前置任务需求:</br>敬业蜂</br>兴旺蜂"
+        },
+        {
+            "name": "蓝色蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2273.png",
+            "x": 1068.0,
+            "y": 12.0,
+            "data": "蓝色蜂是蓝色染料的方便来源.由森林蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI4Q==",
+            "tooltip": "<strong>蓝色蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "培育一些寻常蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1117.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "想要蜜蜂进行杂交,你需要两种不同品种的蜂.从世界生成的蜂巢中获得一只雄峰和一只公主蜂(比如说草原蜂和森林蜂).%n%n蜂房中无法杂交.你可以在蜂箱或者其他养蜂的设备中进行杂交得到一个新的品种.某些框架将有助于此过程.缩短它们的寿命意味着更快的更新迭代速度.变异几率提升意味着更快获得稀有蜜蜂.%n%n普通蜜蜂每2.2分钟会产生一次蜜蜂产物.注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值.它们不能反映实际的生产时间.%n%n使用蜜蜂分析仪或是GT扫描仪,确保你培育的蜜蜂是纯种的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEXQ==",
+            "tooltip": "<strong>培育一些寻常蜂</strong></br>前置任务需求:</br>先说重要的事情"
+        },
+        {
+            "name": "培育一些田野蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1116.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "寻常蜂和森林蜂杂交可以培育出田野蜂.%n%n田野蜂拥有最短的寿命,这意味着它们非常适合用于杂交培育.蜂后会很快死亡,迅速提供你想要的遗传物质,但要确保你能留住你想要的属性!%n%n田野蜂的生产速度也不错,这意味着它可以产出许多蜂窝来给你的分析仪供能.%n%n田野蜂每0.9分钟产出一个蜂窝.需要注意的是,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值,它们不能直接反映实际的生产时间.%n%n使用蜜蜂分析仪或是GT扫描来确保你培育出的蜜蜂是纯种的.%n%n蜜蜂培育的主线任务都需要纯种蜜蜂来提交,不过卑贱种和始祖种就无所谓了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEXA==",
+            "tooltip": "<strong>培育一些田野蜂</strong></br>前置任务需求:</br>培育一些寻常蜂"
+        },
+        {
+            "name": "培育一些帝皇蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1121.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "杂交高尚蜂和庄严蜂可以得到帝皇蜂,这些蜜蜂在它们的活动范围里可以提供生命恢复效果.当你遇到一些……意外情况时,你可能会用得上它们.帝皇蜂每3.8分钟产出一次滴水蜂窝,每5.1分钟产出一次蜂王浆.注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值,它们不能反映实际的生产时间.蜂王浆是制作飘香镶板的原材料,后者用于制作蜂箱组(第三阶的蜂箱).你现在可以开始完成\"人来疯(蜂)\"任务栏中的主要任务\"全图鉴\"了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEYQ==",
+            "tooltip": "<strong>培育一些帝皇蜂</strong></br>前置任务需求:</br>培育一些庄严蜂"
+        },
+        {
+            "name": "培育一些庄严蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1120.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "高尚蜂和田野蜂杂交能得到庄严蜂,庄严蜂有个非常重要的属性:高生育能力.它们在死亡后会留下4只雄峰,这意味着可以留下大量的遗传样本.%n%n庄严蜂1.5分钟产出一次滴水蜂窝.注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值,它们不能反映实际的生产时间.%n%n译者注: 其实凛冬蜂就有生育能力4这个属性……",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEYA==",
+            "tooltip": "<strong>培育一些庄严蜂</strong></br>前置任务需求:</br>培育一些高尚蜂"
+        },
+        {
+            "name": "培育一些高尚蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1118.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "用寻常蜂和田野蜂杂交可以得到高尚蜂.高尚蜂每3.8分钟会产出一次滴水蜂窝,这个蜂窝可以产出很多的蜂蜜!注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值.它们不能反映实际的生产时间.  你曾听到一个喝醉了的养蜂员说过,他更倾向于用蜂蜜汁与一点点魔法来制作框架.也许这值得你花时间自己实验一下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEXg==",
+            "tooltip": "<strong>培育一些高尚蜂</strong></br>前置任务需求:</br>培育一些田野蜂"
+        },
+        {
+            "name": "普天同庆蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2252.png",
+            "x": 1020.0,
+            "y": 204.0,
+            "data": "这种有趣的蜜蜂没什么有用的产物,但它会产生一种有趣的效果:持续的烟火表演!你可以把这个特性杂交进别的蜜蜂培育线内,而烟火的颜色会随蜜蜂的颜色而改变.这种蜜蜂工作时需要蜂箱露天,你可以通过用活塞遮盖蜂箱来停下烟花.很适合拿来庆祝点什么不是吗?由苦行蜂和激动蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIzA==",
+            "tooltip": "<strong>普天同庆蜂</strong></br>前置任务需求:</br>苦行蜂</br>激动蜂"
+        },
+        {
+            "name": "赛特斯蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2173.png",
+            "x": 156.0,
+            "y": 360.0,
+            "data": "赛特斯蜂,嗯...它有啥培育环境要求么?我不记得了.或许你可以试试赛特斯石英块?由青金石蜂和遁世蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIfQ==",
+            "tooltip": "<strong>赛特斯蜂</strong></br>前置任务需求:</br>青金石蜂</br>遁世蜂"
+        },
+        {
+            "name": "朴实蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2231.png",
+            "x": 540.0,
+            "y": 60.0,
+            "data": "你需要在蜂箱下方放个混沌魔晶块才能培育出它.它可以生产混沌之尘,由以太蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAItw==",
+            "tooltip": "<strong>朴实蜂</strong></br>前置任务需求:</br>超能蜂</br>以太蜂"
+        },
+        {
+            "name": "魅惑蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2216.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "三之力!魅惑蜂是你神秘类蜜蜂培育线的下一步,由怪异蜂和田野蜂杂交培育而来.%n%n译者注:\"三之力\"(The-power-of-three)是系列剧《圣女魔咒》(Charmed,与游戏中的\"魅惑蜂\"同名)中一种强大的魔法,通过三姐妹的结合发挥巨大的力量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIqA==",
+            "tooltip": "<strong>魅惑蜂</strong></br>前置任务需求:</br>怪异蜂</br>培育一些田野蜂"
+        },
+        {
+            "name": "铬蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2202.png",
+            "x": 252.0,
+            "y": 360.0,
+            "data": "铬,不锈钢的重要原料之一.最好能直接获取,而不是必须通过处理红宝石或石榴石获取.你需要在蜂箱下方放个铬块.由钛蜂和红宝石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAImg==",
+            "tooltip": "<strong>铬蜂</strong></br>前置任务需求:</br>钛蜂</br>红宝石蜂"
+        },
+        {
+            "name": "粘土蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2163.png",
+            "x": 204.0,
+            "y": 120.0,
+            "data": "想要培育出粘土蜂,你得在蜂箱下方放个粘土块.粘土蜂是许多培育线的基石.由敬业蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIcw==",
+            "tooltip": "<strong>粘土蜂</strong></br>前置任务需求:</br>敬业蜂</br>勤奋蜂"
+        },
+        {
+            "name": "煤蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2168.png",
+            "x": 204.0,
+            "y": 216.0,
+            "data": "太棒了,煤才是王道.这是一种很棒的蜜蜂,能生产煤,从而为你的工业生产提供原料和动力.你需要在蜂箱下方放个煤块.这种蜜蜂具有一种最最危险的特性——要是你没穿好养蜂员套装的话,它会让你好好尝尝爬行者的爆炸.由泥炭蜂和敬业蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIeA==",
+            "tooltip": "<strong>煤蜂</strong></br>前置任务需求:</br>敬业蜂</br>泥炭蜂"
+        },
+        {
+            "name": "铜蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2162.png",
+            "x": 252.0,
+            "y": 168.0,
+            "data": "铜蜂是金属培育线蜜蜂的第一步.有太多的金属培育线可以完成,但现在你可以使用NEI查看如何培育更多种类的蜜蜂.  铜蜂需要在蜂箱下方有个铜块.由庄严蜂和粘土蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIcg==",
+            "tooltip": "<strong>铜蜂</strong></br>前置任务需求:</br>培育一些庄严蜂</br>粘土蜂"
+        },
+        {
+            "name": "衰败蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/359.png",
+            "x": 396.0,
+            "y": 600.0,
+            "data": "衰败蜂并不比前三种蜜蜂更有用.不过可以肯定的是,我们离镥蜂不远了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABZw==",
+            "tooltip": "<strong>衰败蜂</strong></br>前置任务需求:</br>荒凉蜂"
+        },
+        {
+            "name": "恶魔蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2176.png",
+            "x": 204.0,
+            "y": 264.0,
+            "data": "最好小心这个!它会让你着火.除了蜂窝,这种蜜蜂还能生产萤石粉.要在下界才能培育出它.由邪恶蜂和残忍蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIgA==",
+            "tooltip": "<strong>恶魔蜂</strong></br>前置任务需求:</br>邪恶蜂</br>残忍蜂"
+        },
+        {
+            "name": "荒凉蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/360.png",
+            "x": 396.0,
+            "y": 552.0,
+            "data": "荒凉蜂.也许你能搞清楚这条杂交路线有什么用?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABaA==",
+            "tooltip": "<strong>荒凉蜂</strong></br>前置任务需求:</br>贫瘠蜂</br>干旱蜂"
+        },
+        {
+            "name": "钻石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2172.png",
+            "x": 204.0,
+            "y": 360.0,
+            "data": "啊,终于,一个女孩——我是说女王——最好的伙伴.你需要在蜂箱下方放个钻石块,由赛特斯蜂和煤蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIfA==",
+            "tooltip": "<strong>钻石蜂</strong></br>前置任务需求:</br>煤蜂</br>赛特斯蜂"
+        },
+        {
+            "name": "勤奋蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2156.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "勤奋蜂是培育蜂群的核心.由寻常蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIbA==",
+            "tooltip": "<strong>勤奋蜂</strong></br>前置任务需求:</br>培育一些田野蜂"
+        },
+        {
+            "name": "分馏蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2278.png",
+            "x": 876.0,
+            "y": 156.0,
+            "data": "这是什么?  你说以退为进！是的，分馏蜂没啥实际作用，但它仍有潜力……由含油蜂和敬业蜂杂交培育而来。",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI5g==",
+            "tooltip": "<strong>分馏蜂</strong></br>前置任务需求:</br>敬业蜂</br>含油蜂"
+        },
+        {
+            "name": "魔晶蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3286.png",
+            "x": 156.0,
+            "y": 552.0,
+            "data": "你没有喝醉,NEI界面也没骗你.通过离心魔晶蜂窝,你可以得到一大堆乱七八糟的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM1g==",
+            "tooltip": "<strong>魔晶蜂</strong></br>前置任务需求:</br>神秘碎片蜂</br>硅岩蜂"
+        },
+        {
+            "name": "恶龙蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2246.png",
+            "x": 684.0,
+            "y": 156.0,
+            "data": "恶龙蜂可产出用魔法制造龙蛋所需的龙之尘,必须在末地才能培育出它,由帝皇蜂和遗忘蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIxg==",
+            "tooltip": "<strong>恶龙蜂</strong></br>前置任务需求:</br>培育一些帝皇蜂</br>遗忘蜂"
+        },
+        {
+            "name": "龙血蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/395.png",
+            "x": 204.0,
+            "y": 696.0,
+            "data": "要获得龙血蜂非常费劲,但它在游戏后期可以极大方便海珀珍的制造.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABiw==",
+            "tooltip": "<strong>龙血蜂</strong></br>前置任务需求:</br>中子蜂"
+        },
+        {
+            "name": "滴水蜂窝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1119.png",
+            "x": 108.0,
+            "y": 96.0,
+            "data": "你的高尚蜂生产了一些滴水蜂窝.这可是获得蜂蜜的好来源. 多准备一些,为了以后制作标定框架主要的蜂蜜汁来备一些货!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEXw==",
+            "tooltip": "<strong>滴水蜂窝</strong></br>前置任务需求:</br>培育一些高尚蜂"
+        },
+        {
+            "name": "土蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2222.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "土蜂只有在砖块之上才能培育出来.由以太蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIrg==",
+            "tooltip": "<strong>土蜂</strong></br>前置任务需求:</br>超能蜂</br>以太蜂"
+        },
+        {
+            "name": "伊甸蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2236.png",
+            "x": 684.0,
+            "y": 204.0,
+            "data": "伊甸蜂的效果不可思议,能为附近玩家提供经验值.由异国蜂和热带蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIvA==",
+            "tooltip": "<strong>伊甸蜂</strong></br>前置任务需求:</br>异国蜂"
+        },
+        {
+            "name": "橡胶蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2285.png",
+            "x": 924.0,
+            "y": 156.0,
+            "data": "终于!你得到了沼泽系列蜜蜂中最有用的一种.橡胶蜂会直接为你生产橡胶条,你不再需要那些难闻的硫了!由分馏蜂和树脂蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI7Q==",
+            "tooltip": "<strong>橡胶蜂</strong></br>前置任务需求:</br>分馏蜂</br>树脂蜂"
+        },
+        {
+            "name": "怪异蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2213.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "怪异蜂是神秘类蜜蜂的起点.由神秘蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIpQ==",
+            "tooltip": "<strong>怪异蜂</strong></br>前置任务需求:</br>培育一些田野蜂"
+        },
+        {
+            "name": "绿宝石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2200.png",
+            "x": 156.0,
+            "y": 456.0,
+            "data": "太棒了,一种非常有用的蜜蜂.绿宝石可以制作多种升级,还能用来与村民交易.你需要在蜂箱下方放个绿宝石块.由橄榄石蜂和钻石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAImA==",
+            "tooltip": "<strong>绿宝石蜂</strong></br>前置任务需求:</br>橄榄石蜂</br>钻石蜂"
+        },
+        {
+            "name": "充能蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2235.png",
+            "x": 600.0,
+            "y": 12.0,
+            "data": "充能蜂将会随机为附近节点添加要素,可以养出个超大的节点.在满月时有最高几率培育出它,由复兴蜂和魔力蜂杂交培育而来.%n%n[note]有几个版本中灵气节点体积是有上限的,但是现在上限被移除了!或许你可以去Discord频道,赞美赞美Runakai. :)[/note] %n%n译者注:实际上还是有软上限……但是足够用了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIuw==",
+            "tooltip": "<strong>充能蜂</strong></br>前置任务需求:</br>魔力蜂</br>复兴蜂"
+        },
+        {
+            "name": "蕴魔蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2215.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "蕴魔蜂是你前进的下一步,由魅惑蜂和怪异蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIpw==",
+            "tooltip": "<strong>蕴魔蜂</strong></br>前置任务需求:</br>怪异蜂</br>魅惑蜂"
+        },
+        {
+            "name": "末影粉末蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/372.png",
+            "x": 636.0,
+            "y": 492.0,
+            "data": "这只蜜蜂的名字有些不准确,实际上它产出的是末影粘浆和末影粉末.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABdA==",
+            "tooltip": "<strong>末影粉末蜂</strong></br>前置任务需求:</br>不锈钢蜂"
+        },
+        {
+            "name": "末影蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/354.png",
+            "x": 492.0,
+            "y": 552.0,
+            "data": "一只末影蜂.最有趣的是它那几乎闪瞎眼的工作速度!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABYg==",
+            "tooltip": "<strong>末影蜂</strong></br>前置任务需求:</br>铂蜂</br>幻影蜂"
+        },
+        {
+            "name": "末影碎片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3297.png",
+            "x": 660.0,
+            "y": 552.0,
+            "data": "对你的灵液生产至关重要.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM4Q==",
+            "tooltip": "<strong>末影碎片</strong></br>前置任务需求:</br>下界碎片蜂</br>末影粉末蜂"
+        },
+        {
+            "name": "充能合金蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2187.png",
+            "x": 444.0,
+            "y": 504.0,
+            "data": "毫无疑问,充能合金蜂的蜂箱下方需要有个充能合金块.由红石合金蜂和恶魔蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIiw==",
+            "tooltip": "<strong>充能合金蜂</strong></br>前置任务需求:</br>恶魔蜂</br>红石合金蜂"
+        },
+        {
+            "name": "Energium",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9173649568252084802.png",
+            "x": 1116.0,
+            "y": 252.0,
+            "data": "Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.\n\nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!",
+            "quest_id": "B0XRo_S1RveAsKZSXms9vg==",
+            "tooltip": "<strong>Energium</strong></br>前置任务需求:</br>恶魔蜂</br>Volcanic"
+        },
+        {
+            "name": "玄奥蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2218.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "另一种基础的魔法类蜜蜂.由怪异蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIqg==",
+            "tooltip": "<strong>玄奥蜂</strong></br>前置任务需求:</br>怪异蜂</br>培育一些田野蜂"
+        },
+        {
+            "name": "源质蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5534359835533217609.png",
+            "x": 396.0,
+            "y": 300.0,
+            "data": "这只蜜蜂不直接生产任何东西,而是牺牲自己的生命来产生液态源质,满足您所有的魔法需求.然而,要做到这一点。它需要在其蜂箱下安装一个养蜂人的沥水器.%n%n蜜蜂生产要素的速度取决于它的工作速度.你必须手持一个装满的要素安瓿右击养蜂人的沥水器来锁定要素类型.%n%n你可以从奇术蜂和朴实蜂来培育它们.%n%n你也可以平铺至多九个养蜂人的沥水器在蜂箱组方块下.",
+            "quest_id": "noSgUClGTO6zMgENR9pwtw==",
+            "tooltip": "<strong>源质蜂</strong></br>前置任务需求:</br>朴实蜂</br>奇术蜂</br>还有哪里可能出问题？"
+        },
+        {
+            "name": "以太蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2219.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "以太蜂对所有神秘要素蜂都很重要.由奥能蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIqw==",
+            "tooltip": "<strong>以太蜂</strong></br>前置任务需求:</br>奥能蜂</br>超能蜂"
+        },
+        {
+            "name": "激动蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2251.png",
+            "x": 1020.0,
+            "y": 156.0,
+            "data": "你可能暗自思忖,嗯,用这种蜜蜂很容易获得红石……好吧,还有破坏性的雷击,也许你应该把它们放远点.当然也可以放在苦力怕刷怪笼附近来制造高压苦力怕,从而获得……更多经验?由勇者蜂和田野蜂杂交培育而来.%n%n译者注: 制造出来的高压苦力怕全是精英怪,你最好别这么干.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIyw==",
+            "tooltip": "<strong>激动蜂</strong></br>前置任务需求:</br>培育一些田野蜂"
+        },
+        {
+            "name": "异国蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2237.png",
+            "x": 636.0,
+            "y": 204.0,
+            "data": "小心,就像它的父母,异国蜂会让你中毒.但它也是丝缕的另一来源.由苦行蜂和热带蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIvQ==",
+            "tooltip": "<strong>异国蜂</strong></br>前置任务需求:</br>苦行蜂"
+        },
+        {
+            "name": "爆炸",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/804.png",
+            "x": 828.0,
+            "y": 468.0,
+            "data": "是你的聚爆压缩机的理想选择.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADJA==",
+            "tooltip": "<strong>爆炸</strong></br>前置任务需求:</br>煤蜂</br>火石"
+        },
+        {
+            "name": "稼穑蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2288.png",
+            "x": 396.0,
+            "y": 396.0,
+            "data": "像大多数农夫一样,这些蜜蜂好像把所有时间都花在抱怨邻居或天气,而不是做些实际的事.你得在平原类的生物群系才能培育出它.由不倦蜂和田园蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI8A==",
+            "tooltip": "<strong>稼穑蜂</strong></br>前置任务需求:</br>田园蜂</br>不倦蜂"
+        },
+        {
+            "name": "肥料蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2290.png",
+            "x": 1068.0,
+            "y": 252.0,
+            "data": "肥料蜂将会使你的作物帝国发出愉快的咕噜声……或者加速生长之类的.它们拥有\"最快\"的生产速度与\"较快\"的授粉速度,由灰烬蜂和磷灰石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI8g==",
+            "tooltip": "<strong>肥料蜂</strong></br>前置任务需求:</br>磷灰石蜂</br>灰烬蜂"
+        },
+        {
+            "name": "残忍蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2178.png",
+            "x": 156.0,
+            "y": 168.0,
+            "data": "与邪恶蜂相同,残忍蜂需要下界环境并穿好套装.由邪恶蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIgg==",
+            "tooltip": "<strong>残忍蜂</strong></br>前置任务需求:</br>邪恶蜂</br>培育一些田野蜂"
+        },
+        {
+            "name": "火石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/777.png",
+            "x": 828.0,
+            "y": 396.0,
+            "data": "不要烫到自己了.%n%n[note]如果你愿意的话,也可以从硫蜂那里获得火石.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADCQ==",
+            "tooltip": "<strong>火石</strong></br>前置任务需求:</br>红石蜂</br>红宝石蜂"
+        },
+        {
+            "name": "火蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2221.png",
+            "x": 588.0,
+            "y": 252.0,
+            "data": "火蜂只有在岩浆之上才能培育出来,由以太蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIrQ==",
+            "tooltip": "<strong>火蜂</strong></br>前置任务需求:</br>超能蜂</br>以太蜂"
+        },
+        {
+            "name": "福鲁伊克斯蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2190.png",
+            "x": 1212.0,
+            "y": 156.0,
+            "data": "如果你想深入发展AE2,你肯定用得上这种蜜蜂生产的廉价福鲁伊克斯水晶.你需要在蜂箱下方放个福鲁伊克斯水晶块,由青金石蜂和红石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIjg==",
+            "tooltip": "<strong>福鲁伊克斯蜂</strong></br>前置任务需求:</br>红石蜂</br>青金石蜂"
+        },
+        {
+            "name": "节俭蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2181.png",
+            "x": 156.0,
+            "y": 216.0,
+            "data": "节俭蜂没有什么直接用途,但它是许多培育线的必经之路.它需要炎热或下界的生物群系和干旱的湿度,由温和蜂和邪恶蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIhQ==",
+            "tooltip": "<strong>节俭蜂</strong></br>前置任务需求:</br>邪恶蜂</br>残忍蜂"
+        },
+        {
+            "name": "水果蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2153.png",
+            "x": 1116.0,
+            "y": 60.0,
+            "data": "水果蜂将会让你的林业树更快地结出果实.由甜美蜂和兴旺蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIaQ==",
+            "tooltip": "<strong>水果蜂</strong></br>前置任务需求:</br>甜美蜂</br>兴旺蜂"
+        },
+        {
+            "name": "Furious",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8785372800340988846.png",
+            "x": 1116.0,
+            "y": 156.0,
+            "data": "If you want to pursue the breeding path toward Lapotron and Pyrotheum Bees, you’ll need to start by breeding some Furious Bees. They can be bred in the nether using Fiendish and Embittered Bees, with the latter found in the wilds of the Nether.\n\nBeware: Furious Bees spawn fire charges downward, so make sure your breeding area is fireproof!",
+            "quest_id": "v-1MbhJWRuiGFBX8KEvsUg==",
+            "tooltip": "<strong>Furious</strong></br>前置任务需求:</br>残忍蜂"
+        },
+        {
+            "name": "气体蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/363.png",
+            "x": 588.0,
+            "y": 552.0,
+            "data": "这有一大群的产气蜜蜂,让我们先来培育其中的一种吧.%n%n这是许多与气体相关的蜜蜂的起点.查查NEI吧,也许你能找到些目标.%n%n[note]氙蜂也许是最有用的一个,你可以把它用于虚空采矿机,或者工业高炉的保护气以减少烧制时间.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABaw==",
+            "tooltip": "<strong>气体蜂</strong></br>前置任务需求:</br>水蜂</br>末影粉末蜂"
+        },
+        {
+            "name": "幽魂蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2275.png",
+            "x": 492.0,
+            "y": 300.0,
+            "data": "幽魂蜂会生成恶魂,这是有\"蜂\"险的.它们的特产是恶魂之泪,但只有x1的生育能力,所以最好使用你培养好其他属性的模板公主蜂来培育.由火蝠蜂和以太蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI4w==",
+            "tooltip": "<strong>幽魂蜂</strong></br>前置任务需求:</br>火蝠蜂</br>以太蜂"
+        },
+        {
+            "name": "Glowstone",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8934580080477372197.png",
+            "x": 1164.0,
+            "y": 204.0,
+            "data": "The Glowstone Princess isn't as picky as her peers. There are no breeding requirements besides the species being Gold and Redstone. Hooray!",
+            "quest_id": "NzynzD7HQrmEAf7BFd2A2w==",
+            "tooltip": "<strong>Glowstone</strong></br>前置任务需求:</br>红石蜂</br>Gold"
+        },
+        {
+            "name": "Gold",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8063033383018802688.png",
+            "x": 1164.0,
+            "y": 156.0,
+            "data": "There are a plethora of ways to acquire gold, but here's one more for the dedicated apiarist. This breeding chain will eventually allow you to reach Sunnarium. You'll need a Block of Gold and a biome with a hot temperature. Breed them from Copper and Lead.",
+            "quest_id": "jvKBzB6tRpCQGlnboQxSAA==",
+            "tooltip": "<strong>Gold</strong></br>前置任务需求:</br>铜蜂</br>铅蜂"
+        },
+        {
+            "name": "生长蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2158.png",
+            "x": 1164.0,
+            "y": 12.0,
+            "data": "生长蜂是水果蜂培育线的开端.由森林蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIbg==",
+            "tooltip": "<strong>生长蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "憎恶蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2250.png",
+            "x": 732.0,
+            "y": 12.0,
+            "data": "你能感觉到它眼中涌出的仇恨,如果没有穿着一整套养蜂员套装就别接近它.必须在下界由怪异蜂和地狱蜂杂交才能培育出来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIyg==",
+            "tooltip": "<strong>憎恶蜂</strong></br>前置任务需求:</br>怪异蜂"
+        },
+        {
+            "name": "遁世蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2175.png",
+            "x": 108.0,
+            "y": 312.0,
+            "data": "遁世蜂与归隐蜂一样,都要求活动范围内不能有任何实体,但它们会自己解决这个问题——它们实在太讨厌了,会主动排斥所有靠近的生物.由归隐蜂和僧侣蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIfw==",
+            "tooltip": "<strong>遁世蜂</strong></br>前置任务需求:</br>归隐蜂</br>僧侣蜂1"
+        },
+        {
+            "name": "英雄蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2243.png",
+            "x": 60.0,
+            "y": 552.0,
+            "data": "这种蜜蜂需要一点运气.你得在地牢箱子里找到坚定蜂.英雄蜂的效果很有用,会伤害敌对生物.由坚定蜂和勇者蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIww==",
+            "tooltip": "<strong>英雄蜂</strong></br>前置任务需求:</br>培育一些寻常蜂"
+        },
+        {
+            "name": "九头蛇1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/367.png",
+            "x": 828.0,
+            "y": 204.0,
+            "data": "在暮色森林中召唤九头蛇!%n%n也只有在暮色森林维度才能召唤成功.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABbw==",
+            "tooltip": "<strong>九头蛇1</strong></br>前置任务需求:</br>灼热蜂</br>巫妖蜂"
+        },
+        {
+            "name": "灼热蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2226.png",
+            "x": 636.0,
+            "y": 252.0,
+            "data": "你需要在蜂箱下方放个火之魔晶块才能培育出它,它可以生产火之尘.但是小心点,它们会点燃附近的实体!由两个火蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIsg==",
+            "tooltip": "<strong>灼热蜂</strong></br>前置任务需求:</br>火蜂"
+        },
+        {
+            "name": "铟蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/390.png",
+            "x": 756.0,
+            "y": 468.0,
+            "data": "不能使用诱变机,必须前往金星.不过你一旦拥有了这种蜜蜂,那可太香了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABhg==",
+            "tooltip": "<strong>铟蜂</strong></br>前置任务需求:</br>铅蜂</br>锇蜂"
+        },
+        {
+            "name": "敬业蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2164.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "敬业蜂可生产花粉-蜂箱组的关键原料.它还可用于培育许多其他蜜蜂.它们的授粉速度很快,比大多数蜜蜂都快.由不倦蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIdA==",
+            "tooltip": "<strong>敬业蜂</strong></br>前置任务需求:</br>勤奋蜂</br>不倦蜂"
+        },
+        {
+            "name": "铱蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/353.png",
+            "x": 156.0,
+            "y": 600.0,
+            "data": "一只铱蜂.你确实可以从它的蜂窝中得到少量纯锇和铱.%n%n[note]有了铱蜂窝和铀蜂窝,你就能制作用于工业蜂箱的气候控制模块了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABYQ==",
+            "tooltip": "<strong>铱蜂</strong></br>前置任务需求:</br>钨蜂</br>铂蜂"
+        },
+        {
+            "name": "铁蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2193.png",
+            "x": 300.0,
+            "y": 168.0,
+            "data": "铁蜂作为一种资源蜂没啥存在感,因为有太多方式可以获得大量的铁.但它是蜜蜂培育线的关键一环.你需要在蜂箱下方放个铁块,由铜蜂和锡蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIkQ==",
+            "tooltip": "<strong>铁蜂</strong></br>前置任务需求:</br>锡蜂</br>铜蜂"
+        },
+        {
+            "name": "青金石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2174.png",
+            "x": 156.0,
+            "y": 312.0,
+            "data": "终于,来了只真正有点盼头的蜜蜂.  你需要在蜂箱下方放个青金石块.由恶魔蜂和帝皇蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIfg==",
+            "tooltip": "<strong>青金石蜂</strong></br>前置任务需求:</br>恶魔蜂</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "Lapotron",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8796313451559844100.png",
+            "x": 1140.0,
+            "y": 300.0,
+            "data": "This magnificent breed of Bee produces a whole plethora of useful resources, including endless amounts of Lapis, Energium, and Lapotron Dust. However, they are somewhat picky when it comes to breeding; you'll need Energium and Lapis Bees as parents, and the process must take place on the Moon under icy temperatures.",
+            "quest_id": "rKrpOyRHRvSF7TeFSskG_A==",
+            "tooltip": "<strong>Lapotron</strong></br>前置任务需求:</br>Energium</br>青金石蜂"
+        },
+        {
+            "name": "铅蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2196.png",
+            "x": 684.0,
+            "y": 396.0,
+            "data": "当你开始制作核反应堆时,你需要成吨的铅.你需要在蜂箱下方放个铅块.由铜蜂和煤蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIlA==",
+            "tooltip": "<strong>铅蜂</strong></br>前置任务需求:</br>铜蜂</br>煤蜂"
+        },
+        {
+            "name": "巫妖蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/366.png",
+            "x": 828.0,
+            "y": 156.0,
+            "data": "无需击杀BOSS即可收获巫妖之骨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABbg==",
+            "tooltip": "<strong>巫妖蜂</strong></br>前置任务需求:</br>超能蜂</br>娜迦1"
+        },
+        {
+            "name": "镥蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/361.png",
+            "x": 348.0,
+            "y": 600.0,
+            "data": "在ZPM阶段,镥极其有用.你会需要很多镥,蜜蜂可以帮到你的忙.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABaQ==",
+            "tooltip": "<strong>镥蜂</strong></br>前置任务需求:</br>钍蜂</br>衰败蜂"
+        },
+        {
+            "name": "品红色蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2269.png",
+            "x": 1020.0,
+            "y": 108.0,
+            "data": "品红色蜂也有\"最快\"的生产速度,且具有全3的温度耐性.由粉色蜂和蓝色蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI3Q==",
+            "tooltip": "<strong>品红色蜂</strong></br>前置任务需求:</br>蓝色蜂</br>粉色蜂"
+        },
+        {
+            "name": "锰蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/351.png",
+            "x": 108.0,
+            "y": 552.0,
+            "data": "一只锰蜂.不是很有用,但是离一些更有趣的蜜蜂又近了一步.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABXw==",
+            "tooltip": "<strong>锰蜂</strong></br>前置任务需求:</br>铝蜂</br>钛蜂"
+        },
+        {
+            "name": "泥泞蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2284.png",
+            "x": 924.0,
+            "y": 12.0,
+            "data": "泥泞蜂暂时没啥用,但它是沼泽系列蜜蜂的起点.你需要找到一个温暖/潮湿的生物群系来培育它们.善用你的生物群系指南针(服务器慎用)和栖息地定位仪,其中雨林群系是最容易找到的一种.由沼泽蜂和高尚蜂杂交培育而来.%n%n译者注：别信他的,由于更多生物群系模组,雨林群系一点都不好找……",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI7A==",
+            "tooltip": "<strong>泥泞蜂</strong></br>前置任务需求:</br>培育一些高尚蜂"
+        },
+        {
+            "name": "僧侣蜂1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2185.png",
+            "x": 60.0,
+            "y": 264.0,
+            "data": "僧侣蜂无法在野生蜂巢中发现,也无法培育出来.你只能寻找养蜂员村民交易获得它.有许多方法可以制造更多村民,研究研究吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIiQ==",
+            "tooltip": "<strong>僧侣蜂1</strong></br>前置任务需求:</br>培育一些寻常蜂"
+        },
+        {
+            "name": "蜜蜂培育\"智者\"手册",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2209.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "首先,不要被你在这里看到的这么多蜜蜂吓到.还有更多没有写入这里的蜜蜂,你需要用NEI来寻找它们!%n%n哈哈,开个玩笑,不要慌!蜜蜂培育线一点一点地解锁,引导你下一步可以做什么,任务线大多数是从上到下的.大的图标代表特别强大的蜜蜂.许多基础蜜蜂有多种培育选择,这里只写一种培育路线.%n%n蜜蜂有两套特性,活跃的(显性基因)和不活跃的(隐性基因), 显性基因影响蜜蜂的活动方式,而隐性基因只会影响遗传. %n%n特性可以是[warn]显性的[/warn]或者是隐性的. 当你培育出全新的公主蜂和雄峰后,检查两套特性,一致时你就得到了纯种的目标蜜蜂.你可以培育具有不活跃特性的蜜蜂,让它们通过之后的杂交中活跃起来.使用实地考察工具包或者GT扫描仪时无法看到蜜蜂的隐性基因,所以你需要蜜蜂分析仪.%n%n培育蜜蜂时,建立一个主模板蜜蜂是个好主意.所谓主模板蜜蜂就是一种几乎没有杂交潜力的蜜蜂,但拥有你所有希望的特性-短寿、夜行性、穴居性、耐雨飞行性、湿度与温度耐受力高、生育能力高等等.一旦你培育出这种蜜蜂后,繁殖一批显性/隐性基因一致的纯种公主蜂和雄峰.它们将成为你的培育储备.%n%n当你准备培育新品种的蜜蜂时,你想要得到的是雄峰-这样你就可以动用你的\"培育储备\"公主蜂与雄蜂培育出没有烦人的效果或限制的新品种.属性不好的公主蜂可以与你的\"培育储备\"雄峰杂交,重新加入你的培育储备,或者你也可以直接将其束之高阁(要是懒得洗掉那些烦人的效果或限制的话).确保新蜜蜂保持你需要的特性和品种,然后慢慢用你培育储备中的特性覆盖其余.优化基因的过程不必在蜂箱中进行,你可以使用蜂房来完成.请记住,蜂房中不会发生任何物种突变.卑贱种的蜜蜂很适合用于交换特性,因为它们可随意处理-在100个繁殖周期后,它们有几率死去,之后每多繁殖一代,它们的死亡几率就会稍微增加一点,不过遗传稳定升级之类的框架可以让它们活得更长久些.%n%n一旦你巩固了品种,留些雄峰.你可以用它们把始祖种公主蜂转化成新的品种.始祖种公主蜂不会死亡,不过在某些情况下(比如使用了大量提高产量的框架),她们会退化为卑贱种. 石头蜂就是始祖种极好的来源-它们所有的公主蜂都是始祖种,而且属性还不错,并且在地下到处都是.要是有个末影采石场,你可以轻易获取它们.%n%n一旦你获得了新品种,它会替换掉蜜蜂显性基因或者隐形基因中的所有特性.如果同一蜜蜂碰上了二次突变,那么它的显性和隐性基因都会被替换.比如,当你获得了一只田野蜂,每一条显性或隐性基因任选其一会被田野蜂的默认特性替换.经过几次混合纯化,你才能得到纯种的蜜蜂.当心别把关键特性弄丢了,比如田野蜂的快速工作特性.大部分特殊效果都是没用的,所以你可以不用考虑它们.  %n%n所有的任务都需要纯种蜜蜂.纯种意味着隐形基因的品种和显性基因的相同.%n%n一般来说,所有的特性都可以培育进任意品种的蜜蜂.蜜蜂的品种会决定其最佳温度/湿度环境,以及其产物.特殊品种的蜜蜂需要在其最佳温度/湿度环境下才会产出特殊产物.你可以通过工业蜂箱的各种升级来模拟类似的环境,但蜜蜂的耐受性无法让其在非最佳环境下产出特殊产物.%n%n先进的框架可以提供一些有用的帮助,如提高突变几率、或降低寿命以加快培育周期.但是过高的倍率会增加基因衰退几率,让始祖种公主蜂退化成卑贱种.%n%n看起来很复杂吧,因为本来就很复杂!但其中还是有很多危险与乐趣并存!%n%n中文WIKI：%n养蜂：[url]https://gtnh.huijiwiki.com/p/424[/url]%n高阶养蜂思路分享：[url]https://gtnh.huijiwiki.com/p/1166[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIoQ==",
+            "tooltip": "<strong>蜜蜂培育\"智者\"手册</strong></br>前置任务需求:</br>先说重要的事情"
+        },
+        {
+            "name": "奥秘蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2217.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "只是你神秘的陌生人...由怪异蜂和玄奥蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIqQ==",
+            "tooltip": "<strong>奥秘蜂</strong></br>前置任务需求:</br>怪异蜂</br>玄奥蜂"
+        },
+        {
+            "name": "娜迦1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/364.png",
+            "x": 828.0,
+            "y": 108.0,
+            "data": "也许你不太喜欢打BOSS,又或者你出于某种原因选择开和平模式来玩?没关系,你还是可以通过这种蜜蜂来获得娜迦的掉落物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABbA==",
+            "tooltip": "<strong>娜迦1</strong></br>前置任务需求:</br>培育一些帝皇蜂</br>怪异蜂"
+        },
+        {
+            "name": "无名蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2244.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "湮没蜂可以用硬币买到,或是在末地找到.需要无名蜂才能杂交出恶龙蜂.无名蜂也可以生产遗忘蜜蜡,由湮没蜂和以太蜂杂交培育而来.%n%n译者注: 事实上湮没,无名,遗忘,绝望蜂都可以产出遗忘蜜蜡.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIxA==",
+            "tooltip": "<strong>无名蜂</strong></br>前置任务需求:</br>以太蜂"
+        },
+        {
+            "name": "硅岩蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/358.png",
+            "x": 204.0,
+            "y": 540.0,
+            "data": "一只硅岩蜂.它不能让你免做硅岩处理线,但如果你科技足够的话,可以用它的蜂窝来做个诱变机!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABZg==",
+            "tooltip": "<strong>硅岩蜂</strong></br>前置任务需求:</br>铱蜂</br>钚蜂"
+        },
+        {
+            "name": "超能硅岩蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/350.png",
+            "x": 204.0,
+            "y": 600.0,
+            "data": "一只超能硅岩蜂.它有些难获得,并且没错,不需要问你也知道,你仍然需要超能硅岩产线才能处理产物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABXg==",
+            "tooltip": "<strong>超能硅岩蜂</strong></br>前置任务需求:</br>铱蜂</br>钚蜂"
+        },
+        {
+            "name": "下界碎片蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3298.png",
+            "x": 732.0,
+            "y": 552.0,
+            "data": "对你的灵液生产至关重要.%n%n[note]你需要通过杂交一系列没有任务引导的神秘要素蜂来获取它.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM4g==",
+            "tooltip": "<strong>下界碎片蜂</strong></br>前置任务需求:</br>超能蜂</br>风蜂"
+        },
+        {
+            "name": "中子蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/355.png",
+            "x": 276.0,
+            "y": 648.0,
+            "data": "你终于成功走到中子蜂这一步了!太棒了!%n%n中子蜂窝不仅能够减轻你高炉的负担,也可以用来制作最终的高级诱变机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABYw==",
+            "tooltip": "<strong>中子蜂</strong></br>前置任务需求:</br>镅蜂</br>超能硅岩蜂"
+        },
+        {
+            "name": "镍蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2194.png",
+            "x": 252.0,
+            "y": 216.0,
+            "data": "镍蜂提供了一种很有用的资源.你需要在蜂箱下方放个镍块,由铁蜂和铜蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIkg==",
+            "tooltip": "<strong>镍蜂</strong></br>前置任务需求:</br>铁蜂</br>铜蜂"
+        },
+        {
+            "name": "海洋蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2282.png",
+            "x": 828.0,
+            "y": 12.0,
+            "data": "海洋蜂有可能很难培育出来,因为某些服务器使用的世界生成模式会导致海洋生物群系无法生成.你可以去暮色森林的湖泊碰碰运气——如果你看到水栖爬行者,那说明你来对地方了!如果你实在找不到合适的地点,你也可以在硬币商店那一栏购买海洋蜜蜂.由勤奋蜂和水生蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI6g==",
+            "tooltip": "<strong>海洋蜂</strong></br>前置任务需求:</br>培育一些寻常蜂"
+        },
+        {
+            "name": "石油蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2167.png",
+            "x": 972.0,
+            "y": 252.0,
+            "data": "终于,黑金到手.石油蜂,通过适当的……激励……就可以满足你能源与化工方面的一切需求,你至少会有好一阵子不用操心这事了.另一个选择是分馏蜂,它属于魔法蜜蜂mod,提供的石油稍微多一点,但培育线更长,由煤蜂和粘性树脂蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIdw==",
+            "tooltip": "<strong>石油蜂</strong></br>前置任务需求:</br>粘性树脂蜂</br>煤蜂"
+        },
+        {
+            "name": "含油蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2279.png",
+            "x": 876.0,
+            "y": 108.0,
+            "data": "最后一步,含油蜂!它的蜂窝可以产出最多的石油,但产出效率……不那么尽如人意.由海洋蜂和原始蜂杂交培育而来.以防万一你没找到海洋生物群系或用光了你的养蜂员币,你也可以通过杂交原始蜂和节俭蜂获得它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI5w==",
+            "tooltip": "<strong>含油蜂</strong></br>前置任务需求:</br>原始蜂</br>海洋蜂"
+        },
+        {
+            "name": "橄榄石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2199.png",
+            "x": 156.0,
+            "y": 408.0,
+            "data": "一种某方面完全没用的蜜蜂,橄榄石蜂只在培育更好的蜜蜂时才有点用.或许它还能为你提供些镁?由末影蜂和赛特斯蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIlw==",
+            "tooltip": "<strong>橄榄石蜂</strong></br>前置任务需求:</br>赛特斯蜂"
+        },
+        {
+            "name": "奇术蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2232.png",
+            "x": 396.0,
+            "y": 252.0,
+            "data": "你需要在蜂箱下方放个秩序魔晶才能培育出它.它可以生产秩序之尘.由以太蜂和奥能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIuA==",
+            "tooltip": "<strong>奇术蜂</strong></br>前置任务需求:</br>奥能蜂</br>以太蜂"
+        },
+        {
+            "name": "锇蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/391.png",
+            "x": 756.0,
+            "y": 396.0,
+            "data": "这种蜜蜂相当有意思.说不定可以把它整合进你的锇处理线？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABhw==",
+            "tooltip": "<strong>锇蜂</strong></br>前置任务需求:</br>钨蜂</br>铂蜂"
+        },
+        {
+            "name": "泥炭蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2169.png",
+            "x": 204.0,
+            "y": 168.0,
+            "data": "这些蜜蜂生产的泥炭可用于熔炉或锅炉.免费的燃料,对吧?由田园蜂和粘土蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIeQ==",
+            "tooltip": "<strong>泥炭蜂</strong></br>前置任务需求:</br>粘土蜂</br>田园蜂"
+        },
+        {
+            "name": "幻影蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2188.png",
+            "x": 540.0,
+            "y": 504.0,
+            "data": "幻影蜂与幽灵蜂类似,但它们会复活更多生物,比如恶魂,蜘蛛,爬行者,末影人甚至末影龙.只要这些掉落物在附近,它们就会被复活.由幽灵蜂和末影蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIjA==",
+            "tooltip": "<strong>幻影蜂</strong></br>前置任务需求:</br>幽灵蜂"
+        },
+        {
+            "name": "粉色蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2270.png",
+            "x": 972.0,
+            "y": 60.0,
+            "data": "粉色蜂能产出粉色染料.它们还拥有\"最快\"的生产速度以及全3的湿度耐性.由红色蜂和白色蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI3g==",
+            "tooltip": "<strong>粉色蜂</strong></br>前置任务需求:</br>红色蜂</br>白色蜂"
+        },
+        {
+            "name": "铂蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2203.png",
+            "x": 252.0,
+            "y": 408.0,
+            "data": "铂.在各个阶段都是珍贵的金属资源.你甚至不需要铂块,而只需要在蜂箱下方放个镍块.由钻石蜂和铬蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAImw==",
+            "tooltip": "<strong>铂蜂</strong></br>前置任务需求:</br>铬蜂</br>钻石蜂"
+        },
+        {
+            "name": "钚蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2205.png",
+            "x": 276.0,
+            "y": 540.0,
+            "data": "钚,代表科技缩影的金属,在宇宙中无自然存在.这种蜜蜂会摧毁它周围的一切.你需要在蜂箱下方放个钚块.由铀蜂和绿宝石蜂杂交培育而来.%n%n[note]钚蜂窝也用于一些合成配方![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAInQ==",
+            "tooltip": "<strong>钚蜂</strong></br>前置任务需求:</br>绿宝石蜂</br>铀蜂"
+        },
+        {
+            "name": "原始蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2280.png",
+            "x": 876.0,
+            "y": 60.0,
+            "data": "原始蜂,伟大培育线的又一小步.由归隐蜂和古代蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI6A==",
+            "tooltip": "<strong>原始蜂</strong></br>前置任务需求:</br>归隐蜂</br>古代蜂"
+        },
+        {
+            "name": "Pyrotheum",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9038089047233248346.png",
+            "x": 1092.0,
+            "y": 300.0,
+            "data": "Blazing Pyrotheum is needed in large quantities to satisfy the unquenchable thirst of your Volcani. This Bee produces Pyrotheum Dust directly - all you need to do is fluid-extract it (after reaching this point in the breeding chain, of course).\n\nBreed these bees from Energy and Redstone Bees. They aren't picky about conditions, requiring only Hellish temperature. Yay!",
+            "quest_id": "YVlqGPZBS8qCkkHlu1BDpg==",
+            "tooltip": "<strong>Pyrotheum</strong></br>前置任务需求:</br>Energium</br>红石蜂"
+        },
+        {
+            "name": "红色蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2272.png",
+            "x": 972.0,
+            "y": 12.0,
+            "data": "顾名思义,染料蜂是用来产出染料的,不过其中某些品种还有些不错的其他特性.染料蜂有许多种,以下这些只是其中一部分.如果你想获取那些很难从花中提取的染料,那它们就很有用.红色蜂由寻常蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI4A==",
+            "tooltip": "<strong>红色蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "红色合金蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2183.png",
+            "x": 444.0,
+            "y": 456.0,
+            "data": "培育红色合金蜂的蜂箱下方需要一个红色合金块,由铜蜂和红石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIhw==",
+            "tooltip": "<strong>红色合金蜂</strong></br>前置任务需求:</br>铜蜂</br>红石蜂"
+        },
+        {
+            "name": "红石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2184.png",
+            "x": 252.0,
+            "y": 264.0,
+            "data": "培育红石蜂的蜂箱下方需要一个红石块,由敬业蜂和恶魔蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIiA==",
+            "tooltip": "<strong>红石蜂</strong></br>前置任务需求:</br>恶魔蜂</br>敬业蜂"
+        },
+        {
+            "name": "红石合金蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2182.png",
+            "x": 492.0,
+            "y": 456.0,
+            "data": "显然你需要一个红石合金块,对吧?由红色合金蜂和红石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIhg==",
+            "tooltip": "<strong>红石合金蜂</strong></br>前置任务需求:</br>红色合金蜂</br>红石蜂"
+        },
+        {
+            "name": "精炼蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2277.png",
+            "x": 876.0,
+            "y": 204.0,
+            "data": "啊,就是它.众所周知,这种蜜蜂可以为一整个文明供能.把它们放进最高级的蜂箱(蜂箱组或工业蜂箱),再配上适当的框架(升级),它们产出石油的速度甚至可以超过某些油井!另外,你还可以获得少量的柴油!由含油蜂和分馏蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI5Q==",
+            "tooltip": "<strong>精炼蜂</strong></br>前置任务需求:</br>分馏蜂</br>含油蜂"
+        },
+        {
+            "name": "复兴蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2234.png",
+            "x": 540.0,
+            "y": 12.0,
+            "data": "复兴蜂只能在离灵气节点25格内的蜂箱中培育出来,它们会缓慢地为最近的节点充能.由谐振蜂和魔力蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIug==",
+            "tooltip": "<strong>复兴蜂</strong></br>前置任务需求:</br>魔力蜂"
+        },
+        {
+            "name": "树脂蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2283.png",
+            "x": 924.0,
+            "y": 60.0,
+            "data": "好吧,至少你可以从这种无聊的蜜蜂中得到一些粘性树脂.由泥泞蜂和原始蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI6w==",
+            "tooltip": "<strong>树脂蜂</strong></br>前置任务需求:</br>原始蜂</br>泥泞蜂"
+        },
+        {
+            "name": "蜂王浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1122.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "蜂王浆,蜜蜂巢中培育幼虫的青年工蜂咽头腺的分泌物,是蜂王以及幼虫的食物,它只能由帝皇蜂生产.它的产量可以被标定框架之类的框架提升,但灵魂框架是个例外.蜂王浆可以用来制作一种叫做仙馔蜜酒的美食,吃掉它可以补充8点饱食度(4格饱食槽)并给予玩家40秒的生命回复.蜂王浆也可以用来制作飘香镶板,后者是制作蜂箱组的必要组件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEYg==",
+            "tooltip": "<strong>蜂王浆</strong></br>前置任务需求:</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "红宝石蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2191.png",
+            "x": 204.0,
+            "y": 312.0,
+            "data": "红宝石蜂是初期铬的极好来源.你需要在蜂箱下方放个红宝石块,由红石蜂和钻石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIjw==",
+            "tooltip": "<strong>红宝石蜂</strong></br>前置任务需求:</br>红石蜂</br>钻石蜂"
+        },
+        {
+            "name": "田园蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2170.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "田园蜂喜欢在田园中活动-为此,你必须迁移到平原型的生物群系.由草原蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIeg==",
+            "tooltip": "<strong>田园蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "世界盐蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2242.png",
+            "x": 756.0,
+            "y": 300.0,
+            "data": "厌倦了制作世界盐的繁琐过程?经过数小时的培育,你终于获得了这种能为你提供所需世界盐的蜜蜂.它需要魔法森林生物群系.由神秘尘蜂和神秘碎片蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIwg==",
+            "tooltip": "<strong>世界盐蜂</strong></br>前置任务需求:</br>神秘碎片蜂</br>神秘尘蜂"
+        },
+        {
+            "name": "三明治蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2289.png",
+            "x": 492.0,
+            "y": 396.0,
+            "data": "给我来个三明治,或是能出产三明治原料之类的玩意儿的蜜蜂也行.由火蝠蜂和农耕蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI8Q==",
+            "tooltip": "<strong>三明治蜂</strong></br>前置任务需求:</br>火蝠蜂</br>农耕蜂"
+        },
+        {
+            "name": "归隐蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2179.png",
+            "x": 108.0,
+            "y": 264.0,
+            "data": "归隐蜂是真正的隐居者.在其活动范围内不存在任何实体的情况下,它们才会生产蜂窝.醇厚蜂窝可以产出下界石英.由苦行蜂和僧侣蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIgw==",
+            "tooltip": "<strong>归隐蜂</strong></br>前置任务需求:</br>苦行蜂</br>僧侣蜂1"
+        },
+        {
+            "name": "银蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2197.png",
+            "x": 684.0,
+            "y": 444.0,
+            "data": "银是HV阶段的重要金属,而且你会长期需要用它来制作琥珀金.你需要在蜂箱下方放个银块.由铅蜂和锡蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIlQ==",
+            "tooltip": "<strong>银蜂</strong></br>前置任务需求:</br>锡蜂</br>铅蜂"
+        },
+        {
+            "name": "邪恶蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2177.png",
+            "x": 108.0,
+            "y": 168.0,
+            "data": "邪恶蜂会伤害靠近的生物和玩家,所以最好穿上你的养蜂员套装!只有在下界才能培育出它,由温和蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIgQ==",
+            "tooltip": "<strong>邪恶蜂</strong></br>前置任务需求:</br>培育一些田野蜂"
+        },
+        {
+            "name": "诡隐蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2239.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "诡隐蜂是许多怪物蜂的核心.在NEI查看它的杂交树吧,这里写不下.由怪异蜂和温和蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIvw==",
+            "tooltip": "<strong>诡隐蜂</strong></br>前置任务需求:</br>怪异蜂"
+        },
+        {
+            "name": "粘液球蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2165.png",
+            "x": 972.0,
+            "y": 156.0,
+            "data": "粘液球的用处不大,培育这种蜜蜂后你可以很容易地获得它.它是培育出石油蜂的必经之路,你需要在蜂箱下方放个凝固史莱姆块.由粘土蜂和沼泽蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIdQ==",
+            "tooltip": "<strong>粘液球蜂</strong></br>前置任务需求:</br>粘土蜂"
+        },
+        {
+            "name": "闷烧蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2276.png",
+            "x": 540.0,
+            "y": 348.0,
+            "data": "闷烧蜂会生成烈焰人,特产是烈焰棒.最好用你洗好基因的模板公主蜂来培育它们,否则它们的特殊效果可能会毁了你的基地.另外,它们的温度要求为地狱,但湿度要求却是普通,这很有趣——你得使用基因工业的适应性调整器来让蜜蜂适应环境,或者用别的什么方法来调整生物群系.必须在下界才可能培育出来,由幽魂蜂和憎恶蜂杂交培育而来.%n%n但是很遗憾,要使它们生产烈焰棒,你还是得将它们放置在符合其默认要求的生物群系中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI5A==",
+            "tooltip": "<strong>闷烧蜂</strong></br>前置任务需求:</br>幽魂蜂</br>憎恶蜂"
+        },
+        {
+            "name": "冰雪女王蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/369.png",
+            "x": 828.0,
+            "y": 300.0,
+            "data": "我不明白为什么你会需要大量的冰雪女王之血.不过用这只蜜蜂确实可以获取它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABcQ==",
+            "tooltip": "<strong>冰雪女王蜂</strong></br>前置任务需求:</br>暮色恶魂1</br>世界盐蜂"
+        },
+        {
+            "name": "泥土蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2225.png",
+            "x": 636.0,
+            "y": 108.0,
+            "data": "你需要在蜂箱下方放个地之魔晶才能培育出它.它可以生产地之尘.它还可以提升你的挖掘速度.由两个土蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIsQ==",
+            "tooltip": "<strong>泥土蜂</strong></br>前置任务需求:</br>土蜂"
+        },
+        {
+            "name": "魂魄蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2230.png",
+            "x": 684.0,
+            "y": 60.0,
+            "data": "魂魄蜂有最高的灵魂蜂窝生产率(20％)……好吧,仅次于梦境蜂.无论如何,魂魄蜂由感知蜂和精神蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAItg==",
+            "tooltip": "<strong>魂魄蜂</strong></br>前置任务需求:</br>感知蜂</br>精神蜂"
+        },
+        {
+            "name": "宇宙蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3238.png",
+            "x": 60.0,
+            "y": 636.0,
+            "data": "将敬业蜂和英雄蜂杂交培育可以得到宇宙蜂.并且这需要严寒气温.%n%n这是你个人的一小步,却是蜂类的一大步.%n%n[note]这是许多与太空相关蜜蜂的起点.查查NEI吧,也许你能找到些目标.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMpg==",
+            "tooltip": "<strong>宇宙蜂</strong></br>前置任务需求:</br>英雄蜂"
+        },
+        {
+            "name": "幽灵蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2189.png",
+            "x": 540.0,
+            "y": 456.0,
+            "data": "幽灵蜂需要末影蜂才能培育出来,即使最顽强的养蜂员也将会备受考验——别忘了你的养蜂员套装. 想要让蜂箱中的幽灵蜂工作,附近必须有龙蛋.不要在附近丢下任何骨头,烈焰棒或腐肉!这种蜜蜂可以复活它们!也许你能找到这种能力的真正用途……由末影蜂和遁世蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIjQ==",
+            "tooltip": "<strong>幽灵蜂</strong></br>前置任务需求:</br>遁世蜂"
+        },
+        {
+            "name": "蜘蛛蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2240.png",
+            "x": 444.0,
+            "y": 348.0,
+            "data": "小心,这种蜜蜂的特殊效果会吸引蜘蛛.但它有一种有用的特性: 拥有非常大的活动范围.所以非常适合用于大范围授粉或为你提供某些增益.由诡隐蜂和热带蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIwA==",
+            "tooltip": "<strong>蜘蛛蜂</strong></br>前置任务需求:</br>诡隐蜂"
+        },
+        {
+            "name": "精神蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2229.png",
+            "x": 636.0,
+            "y": 60.0,
+            "data": "精神蜂是第一种可以为你生产灵魂蜂窝的蜜蜂,灵魂蜂窝是灵魂蜜蜡的必需品,而灵魂蜜蜡用于多种魔法框架.由感知蜂和以太蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAItQ==",
+            "tooltip": "<strong>精神蜂</strong></br>前置任务需求:</br>感知蜂</br>以太蜂"
+        },
+        {
+            "name": "恶意蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2249.png",
+            "x": 732.0,
+            "y": 60.0,
+            "data": "这只蜜蜂向你表现出纯粹的不屑,令人敬畏.必须在下界才能培育出来.没有适当防护就别在它周围走来走去的,看起来它在嘲笑你的这种行为.由憎恶蜂和地狱蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIyQ==",
+            "tooltip": "<strong>恶意蜂</strong></br>前置任务需求:</br>憎恶蜂"
+        },
+        {
+            "name": "不锈钢蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/371.png",
+            "x": 636.0,
+            "y": 444.0,
+            "data": "说实话,不是很强.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABcw==",
+            "tooltip": "<strong>不锈钢蜂</strong></br>前置任务需求:</br>钢蜂</br>铬蜂"
+        },
+        {
+            "name": "钢蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/370.png",
+            "x": 636.0,
+            "y": 396.0,
+            "data": "它产出的钢不多,但至少不会造成污染.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABcg==",
+            "tooltip": "<strong>钢蜂</strong></br>前置任务需求:</br>铁蜂</br>煤蜂"
+        },
+        {
+            "name": "粘性树脂蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2166.png",
+            "x": 972.0,
+            "y": 204.0,
+            "data": "受够那个破木龙头了?试试这个吧!你需要在蜂箱下方放个橡胶木原木,由粘液球蜂和泥炭蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIdg==",
+            "tooltip": "<strong>粘性树脂蜂</strong></br>前置任务需求:</br>粘液球蜂</br>泥炭蜂"
+        },
+        {
+            "name": "Sunnarium",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6278340775631964090.png",
+            "x": 1164.0,
+            "y": 252.0,
+            "data": "Not only does this bee produce more Glowstone than its parent species, but it's also capable of producing Sunnarium. However, this requires some technical progress: to breed this bee, you will need to place a Superconducting Coil Block beneath it.",
+            "quest_id": "VoQgq6UvTZmo3tpUIZs4Rg==",
+            "tooltip": "<strong>Sunnarium</strong></br>前置任务需求:</br>Glowstone</br>Gold"
+        },
+        {
+            "name": "超能蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2214.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "这两兄弟又遇上什么麻烦了?超能蜂是神秘类蜜蜂的关键一环.查看NEI获知培育的最佳月相,由魅惑蜂和蕴魔蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIpg==",
+            "tooltip": "<strong>超能蜂</strong></br>前置任务需求:</br>蕴魔蜂</br>魅惑蜂"
+        },
+        {
+            "name": "甜美蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2154.png",
+            "x": 1116.0,
+            "y": 12.0,
+            "data": "甜美蜂可以为你产糖.由勇者蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIag==",
+            "tooltip": "<strong>甜美蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "神秘碎片蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2241.png",
+            "x": 684.0,
+            "y": 300.0,
+            "data": "神秘碎片蜂有几率为你生产任意碎片蜂胶.它需要魔法森林生物群系.由神秘尘蜂和流水蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIwQ==",
+            "tooltip": "<strong>神秘碎片蜂</strong></br>前置任务需求:</br>流水蜂</br>神秘尘蜂"
+        },
+        {
+            "name": "神秘尘蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2238.png",
+            "x": 684.0,
+            "y": 252.0,
+            "data": "虽然神秘锭本就很好做,但这种蜜蜂可以让你自动化地获取大量神秘锭.杂交时蜂箱下方需要放置一个神秘锭块.由伊甸蜂和灼热蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIvg==",
+            "tooltip": "<strong>神秘尘蜂</strong></br>前置任务需求:</br>灼热蜂</br>伊甸蜂"
+        },
+        {
+            "name": "钍蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/357.png",
+            "x": 348.0,
+            "y": 552.0,
+            "data": "一只钍蜂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABZQ==",
+            "tooltip": "<strong>钍蜂</strong></br>前置任务需求:</br>煤蜂</br>铀蜂"
+        },
+        {
+            "name": "兴旺蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2155.png",
+            "x": 1164.0,
+            "y": 60.0,
+            "data": "兴旺蜂没啥用,但它是培育出水果蜂的必要步骤.由生长蜂和不倦蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIaw==",
+            "tooltip": "<strong>兴旺蜂</strong></br>前置任务需求:</br>不倦蜂</br>生长蜂"
+        },
+        {
+            "name": "锡蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2192.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "锡蜂可以很早就培育出来,节省你寻找锡石矿砂的时间.你需要在蜂箱下方放个锡块.由粘土蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIkA==",
+            "tooltip": "<strong>锡蜂</strong></br>前置任务需求:</br>粘土蜂</br>勤奋蜂"
+        },
+        {
+            "name": "钛蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2201.png",
+            "x": 252.0,
+            "y": 312.0,
+            "data": "有一种蜜蜂,它生产的钛使制造大型化学反应釜和蒸馏塔变得如一缕清风. (Titanium from bees will make getting those LCRs and distillation towers a breeze)  嘿,我押韵了!你需要在蜂箱下方放个钛块.由铝蜂和红石蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAImQ==",
+            "tooltip": "<strong>钛蜂</strong></br>前置任务需求:</br>铝蜂</br>红石蜂"
+        },
+        {
+            "name": "钨蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/352.png",
+            "x": 108.0,
+            "y": 600.0,
+            "data": "来培育一只钨蜂吧.这尤其有意思,因为你可以从它的蜂窝中得到纯钨,而不是只有钨酸锂或白钨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABYA==",
+            "tooltip": "<strong>钨蜂</strong></br>前置任务需求:</br>英雄蜂</br>锰蜂"
+        },
+        {
+            "name": "不倦蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2157.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "不倦蜂是两条培育线的关键.由勤奋蜂和田野蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIbQ==",
+            "tooltip": "<strong>不倦蜂</strong></br>前置任务需求:</br>培育一些田野蜂</br>勤奋蜂"
+        },
+        {
+            "name": "铀蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2204.png",
+            "x": 276.0,
+            "y": 468.0,
+            "data": "所有的仇恨都有其目的——创造这种能够生产庞大能量的蜜蜂.老规矩,让它远离一切.你需要在蜂箱下方放个铀块,由复仇蜂和铂蜂杂交培育而来.%n%n要获得蜂窝,你得找到一个温度寒冷,湿度普通的生物群系,要么就模拟这些生长条件.%n%n[note]有了铀蜂窝和铱蜂窝,你就能制作用于工业蜂箱的气候控制模块了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAInA==",
+            "tooltip": "<strong>铀蜂</strong></br>前置任务需求:</br>铂蜂</br>复仇蜂"
+        },
+        {
+            "name": "暮色恶魂1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/368.png",
+            "x": 828.0,
+            "y": 252.0,
+            "data": "什么,你需要很多魔法木头?好吧,这种蜜蜂可以生产砷铅铁矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABcA==",
+            "tooltip": "<strong>暮色恶魂1</strong></br>前置任务需求:</br>神秘尘蜂</br>九头蛇1"
+        },
+        {
+            "name": "报仇蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2207.png",
+            "x": 300.0,
+            "y": 360.0,
+            "data": "仇恨,对万事万物的仇恨,无论生物还是方块.让蜂箱远离任何有价值的东西,最好也别靠近不值钱的.由僧侣蜂和记恨蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAInw==",
+            "tooltip": "<strong>报仇蜂</strong></br>前置任务需求:</br>记恨蜂</br>僧侣蜂1"
+        },
+        {
+            "name": "脉冲合金蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2186.png",
+            "x": 492.0,
+            "y": 504.0,
+            "data": "终于,临近尾声.这是一段长而艰险的路途,但你现在能直接通过蜜蜂产物获得脉冲合金了,干得漂亮!你需要在蜂箱下方放一个脉冲合金块,由充能合金蜂和幻影蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIig==",
+            "tooltip": "<strong>脉冲合金蜂</strong></br>前置任务需求:</br>充能合金蜂</br>幻影蜂"
+        },
+        {
+            "name": "记恨蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2208.png",
+            "x": 300.0,
+            "y": 312.0,
+            "data": "当心点,这些蜜蜂不只憎恨所有的生物,甚至还憎恨方块.把它们的蜂箱放远点,远离一切.由僧侣蜂和恶魔蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIoA==",
+            "tooltip": "<strong>记恨蜂</strong></br>前置任务需求:</br>恶魔蜂</br>僧侣蜂1"
+        },
+        {
+            "name": "魔力蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2233.png",
+            "x": 492.0,
+            "y": 12.0,
+            "data": "魔力蜂可以培育出某些这个整合包中最强大的蜜蜂.这种蜜蜂需要在蜂箱75格之内有一个灵气节点,并确保月相符合培育要求.由以太蜂和地狱蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIuQ==",
+            "tooltip": "<strong>魔力蜂</strong></br>前置任务需求:</br>怪异蜂</br>以太蜂"
+        },
+        {
+            "name": "Volcanic",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8657564700861666675.png",
+            "x": 1116.0,
+            "y": 204.0,
+            "data": "One step closer to your goal, these bees can be bred from Furious and Demonic Bees while inside the Nether. Just like their Furious counterparts, they will spawn fire charges while working.",
+            "quest_id": "ysj8avl1SESH2ibGOS3qjQ==",
+            "tooltip": "<strong>Volcanic</strong></br>前置任务需求:</br>恶魔蜂</br>Furious"
+        },
+        {
+            "name": "水蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2227.png",
+            "x": 588.0,
+            "y": 348.0,
+            "data": "水蜂只有在水之上才能培育出来.由以太蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIsw==",
+            "tooltip": "<strong>水蜂</strong></br>前置任务需求:</br>超能蜂</br>以太蜂"
+        },
+        {
+            "name": "白色蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2271.png",
+            "x": 1020.0,
+            "y": 12.0,
+            "data": "白色蜂能产出白色染料.由凛冬蜂和勤奋蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI3w==",
+            "tooltip": "<strong>白色蜂</strong></br>前置任务需求:</br>勤奋蜂"
+        },
+        {
+            "name": "风蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2223.png",
+            "x": 588.0,
+            "y": 300.0,
+            "data": "风蜂只有在橡树树叶之上才能培育出来,由以太蜂和超能蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIrw==",
+            "tooltip": "<strong>风蜂</strong></br>前置任务需求:</br>超能蜂</br>以太蜂"
+        },
+        {
+            "name": "凋灵蜂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2247.png",
+            "x": 756.0,
+            "y": 180.0,
+            "data": "凋灵蜂可为你生产凋零骷髅头和少量下界之星粉.蜂箱需要处在末地,并且下方需要放个下界之星块才能培育出它.由凋零蜂和恶龙蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIxw==",
+            "tooltip": "<strong>凋灵蜂</strong></br>前置任务需求:</br>恶龙蜂</br>凋零蜂"
+        },
+        {
+            "name": "凋零蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2248.png",
+            "x": 732.0,
+            "y": 108.0,
+            "data": "它给所有靠近的生物施加凋零debuff.必须在下界才能培育出来.突变几率很低,所以是时候找找能提升突变几率的框架了.由恶魔蜂和恶意蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIyA==",
+            "tooltip": "<strong>凋零蜂</strong></br>前置任务需求:</br>恶魔蜂</br>恶意蜂"
+        },
+        {
+            "name": "锌蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2195.png",
+            "x": 300.0,
+            "y": 216.0,
+            "data": "锌合金制成的黄铜是游戏早期物品管道的材料.另外,这种蜜蜂有小概率生产镓蜂窝,这对制作电路板或各种贴片元件十分有用.你需要在蜂箱下方放个锌块.由锡蜂和铁蜂杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIkw==",
+            "tooltip": "<strong>锌蜂</strong></br>前置任务需求:</br>锡蜂</br>铁蜂"
+        }
+    ],
+    "links": [
+        {
+            "source": "无名蜂",
+            "target": "遗忘蜂"
+        },
+        {
+            "source": "风蜂",
+            "target": "灵气蜂"
+        },
+        {
+            "source": "稼穑蜂",
+            "target": "农耕蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "农耕蜂"
+        },
+        {
+            "source": "镍蜂",
+            "target": "铝蜂"
+        },
+        {
+            "source": "锌蜂",
+            "target": "铝蜂"
+        },
+        {
+            "source": "镥蜂",
+            "target": "镅蜂"
+        },
+        {
+            "source": "铬蜂",
+            "target": "镅蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "古代蜂"
+        },
+        {
+            "source": "培育一些高尚蜂",
+            "target": "古代蜂"
+        },
+        {
+            "source": "灰烬蜂",
+            "target": "磷灰石蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "磷灰石蜂"
+        },
+        {
+            "source": "水蜂",
+            "target": "流水蜂"
+        },
+        {
+            "source": "奥秘蜂",
+            "target": "奥能蜂"
+        },
+        {
+            "source": "玄奥蜂",
+            "target": "奥能蜂"
+        },
+        {
+            "source": "节俭蜂",
+            "target": "干旱蜂"
+        },
+        {
+            "source": "蜂王浆",
+            "target": "芬芳块"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "芬芳块"
+        },
+        {
+            "source": "锌蜂",
+            "target": "砷蜂"
+        },
+        {
+            "source": "银蜂",
+            "target": "砷蜂"
+        },
+        {
+            "source": "粘土蜂",
+            "target": "灰烬蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "灰烬蜂"
+        },
+        {
+            "source": "节俭蜂",
+            "target": "苦行蜂"
+        },
+        {
+            "source": "记恨蜂",
+            "target": "复仇蜂"
+        },
+        {
+            "source": "报仇蜂",
+            "target": "复仇蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "感知蜂"
+        },
+        {
+            "source": "干旱蜂",
+            "target": "贫瘠蜂"
+        },
+        {
+            "source": "蜜蜂培育\"智者\"手册",
+            "target": "基础蜜蜂统计"
+        },
+        {
+            "source": "风蜂",
+            "target": "火蝠蜂"
+        },
+        {
+            "source": "诡隐蜂",
+            "target": "火蝠蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "盛开蜂"
+        },
+        {
+            "source": "兴旺蜂",
+            "target": "盛开蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "蓝色蜂"
+        },
+        {
+            "source": "先说重要的事情",
+            "target": "培育一些寻常蜂"
+        },
+        {
+            "source": "培育一些寻常蜂",
+            "target": "培育一些田野蜂"
+        },
+        {
+            "source": "培育一些庄严蜂",
+            "target": "培育一些帝皇蜂"
+        },
+        {
+            "source": "培育一些高尚蜂",
+            "target": "培育一些庄严蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "培育一些高尚蜂"
+        },
+        {
+            "source": "苦行蜂",
+            "target": "普天同庆蜂"
+        },
+        {
+            "source": "激动蜂",
+            "target": "普天同庆蜂"
+        },
+        {
+            "source": "青金石蜂",
+            "target": "赛特斯蜂"
+        },
+        {
+            "source": "遁世蜂",
+            "target": "赛特斯蜂"
+        },
+        {
+            "source": "超能蜂",
+            "target": "朴实蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "朴实蜂"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "魅惑蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "魅惑蜂"
+        },
+        {
+            "source": "钛蜂",
+            "target": "铬蜂"
+        },
+        {
+            "source": "红宝石蜂",
+            "target": "铬蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "粘土蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "粘土蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "煤蜂"
+        },
+        {
+            "source": "泥炭蜂",
+            "target": "煤蜂"
+        },
+        {
+            "source": "培育一些庄严蜂",
+            "target": "铜蜂"
+        },
+        {
+            "source": "粘土蜂",
+            "target": "铜蜂"
+        },
+        {
+            "source": "荒凉蜂",
+            "target": "衰败蜂"
+        },
+        {
+            "source": "邪恶蜂",
+            "target": "恶魔蜂"
+        },
+        {
+            "source": "残忍蜂",
+            "target": "恶魔蜂"
+        },
+        {
+            "source": "贫瘠蜂",
+            "target": "荒凉蜂"
+        },
+        {
+            "source": "干旱蜂",
+            "target": "荒凉蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "钻石蜂"
+        },
+        {
+            "source": "赛特斯蜂",
+            "target": "钻石蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "勤奋蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "分馏蜂"
+        },
+        {
+            "source": "含油蜂",
+            "target": "分馏蜂"
+        },
+        {
+            "source": "神秘碎片蜂",
+            "target": "魔晶蜂"
+        },
+        {
+            "source": "硅岩蜂",
+            "target": "魔晶蜂"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "恶龙蜂"
+        },
+        {
+            "source": "遗忘蜂",
+            "target": "恶龙蜂"
+        },
+        {
+            "source": "中子蜂",
+            "target": "龙血蜂"
+        },
+        {
+            "source": "培育一些高尚蜂",
+            "target": "滴水蜂窝"
+        },
+        {
+            "source": "超能蜂",
+            "target": "土蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "土蜂"
+        },
+        {
+            "source": "异国蜂",
+            "target": "伊甸蜂"
+        },
+        {
+            "source": "分馏蜂",
+            "target": "橡胶蜂"
+        },
+        {
+            "source": "树脂蜂",
+            "target": "橡胶蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "怪异蜂"
+        },
+        {
+            "source": "橄榄石蜂",
+            "target": "绿宝石蜂"
+        },
+        {
+            "source": "钻石蜂",
+            "target": "绿宝石蜂"
+        },
+        {
+            "source": "魔力蜂",
+            "target": "充能蜂"
+        },
+        {
+            "source": "复兴蜂",
+            "target": "充能蜂"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "蕴魔蜂"
+        },
+        {
+            "source": "魅惑蜂",
+            "target": "蕴魔蜂"
+        },
+        {
+            "source": "不锈钢蜂",
+            "target": "末影粉末蜂"
+        },
+        {
+            "source": "铂蜂",
+            "target": "末影蜂"
+        },
+        {
+            "source": "幻影蜂",
+            "target": "末影蜂"
+        },
+        {
+            "source": "下界碎片蜂",
+            "target": "末影碎片"
+        },
+        {
+            "source": "末影粉末蜂",
+            "target": "末影碎片"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "充能合金蜂"
+        },
+        {
+            "source": "红石合金蜂",
+            "target": "充能合金蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "Energium"
+        },
+        {
+            "source": "Volcanic",
+            "target": "Energium"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "玄奥蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "玄奥蜂"
+        },
+        {
+            "source": "朴实蜂",
+            "target": "源质蜂"
+        },
+        {
+            "source": "奇术蜂",
+            "target": "源质蜂"
+        },
+        {
+            "source": "还有哪里可能出问题？",
+            "target": "源质蜂"
+        },
+        {
+            "source": "奥能蜂",
+            "target": "以太蜂"
+        },
+        {
+            "source": "超能蜂",
+            "target": "以太蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "激动蜂"
+        },
+        {
+            "source": "苦行蜂",
+            "target": "异国蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "爆炸"
+        },
+        {
+            "source": "火石",
+            "target": "爆炸"
+        },
+        {
+            "source": "田园蜂",
+            "target": "稼穑蜂"
+        },
+        {
+            "source": "不倦蜂",
+            "target": "稼穑蜂"
+        },
+        {
+            "source": "磷灰石蜂",
+            "target": "肥料蜂"
+        },
+        {
+            "source": "灰烬蜂",
+            "target": "肥料蜂"
+        },
+        {
+            "source": "邪恶蜂",
+            "target": "残忍蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "残忍蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "火石"
+        },
+        {
+            "source": "红宝石蜂",
+            "target": "火石"
+        },
+        {
+            "source": "超能蜂",
+            "target": "火蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "火蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "福鲁伊克斯蜂"
+        },
+        {
+            "source": "青金石蜂",
+            "target": "福鲁伊克斯蜂"
+        },
+        {
+            "source": "邪恶蜂",
+            "target": "节俭蜂"
+        },
+        {
+            "source": "残忍蜂",
+            "target": "节俭蜂"
+        },
+        {
+            "source": "甜美蜂",
+            "target": "水果蜂"
+        },
+        {
+            "source": "兴旺蜂",
+            "target": "水果蜂"
+        },
+        {
+            "source": "残忍蜂",
+            "target": "Furious"
+        },
+        {
+            "source": "水蜂",
+            "target": "气体蜂"
+        },
+        {
+            "source": "末影粉末蜂",
+            "target": "气体蜂"
+        },
+        {
+            "source": "火蝠蜂",
+            "target": "幽魂蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "幽魂蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "Glowstone"
+        },
+        {
+            "source": "Gold",
+            "target": "Glowstone"
+        },
+        {
+            "source": "铜蜂",
+            "target": "Gold"
+        },
+        {
+            "source": "铅蜂",
+            "target": "Gold"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "生长蜂"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "憎恶蜂"
+        },
+        {
+            "source": "归隐蜂",
+            "target": "遁世蜂"
+        },
+        {
+            "source": "僧侣蜂1",
+            "target": "遁世蜂"
+        },
+        {
+            "source": "培育一些寻常蜂",
+            "target": "英雄蜂"
+        },
+        {
+            "source": "灼热蜂",
+            "target": "九头蛇1"
+        },
+        {
+            "source": "巫妖蜂",
+            "target": "九头蛇1"
+        },
+        {
+            "source": "火蜂",
+            "target": "灼热蜂"
+        },
+        {
+            "source": "铅蜂",
+            "target": "铟蜂"
+        },
+        {
+            "source": "锇蜂",
+            "target": "铟蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "敬业蜂"
+        },
+        {
+            "source": "不倦蜂",
+            "target": "敬业蜂"
+        },
+        {
+            "source": "钨蜂",
+            "target": "铱蜂"
+        },
+        {
+            "source": "铂蜂",
+            "target": "铱蜂"
+        },
+        {
+            "source": "锡蜂",
+            "target": "铁蜂"
+        },
+        {
+            "source": "铜蜂",
+            "target": "铁蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "青金石蜂"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "青金石蜂"
+        },
+        {
+            "source": "Energium",
+            "target": "Lapotron"
+        },
+        {
+            "source": "青金石蜂",
+            "target": "Lapotron"
+        },
+        {
+            "source": "铜蜂",
+            "target": "铅蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "铅蜂"
+        },
+        {
+            "source": "超能蜂",
+            "target": "巫妖蜂"
+        },
+        {
+            "source": "娜迦1",
+            "target": "巫妖蜂"
+        },
+        {
+            "source": "钍蜂",
+            "target": "镥蜂"
+        },
+        {
+            "source": "衰败蜂",
+            "target": "镥蜂"
+        },
+        {
+            "source": "蓝色蜂",
+            "target": "品红色蜂"
+        },
+        {
+            "source": "粉色蜂",
+            "target": "品红色蜂"
+        },
+        {
+            "source": "铝蜂",
+            "target": "锰蜂"
+        },
+        {
+            "source": "钛蜂",
+            "target": "锰蜂"
+        },
+        {
+            "source": "培育一些高尚蜂",
+            "target": "泥泞蜂"
+        },
+        {
+            "source": "培育一些寻常蜂",
+            "target": "僧侣蜂1"
+        },
+        {
+            "source": "先说重要的事情",
+            "target": "蜜蜂培育\"智者\"手册"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "奥秘蜂"
+        },
+        {
+            "source": "玄奥蜂",
+            "target": "奥秘蜂"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "娜迦1"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "娜迦1"
+        },
+        {
+            "source": "以太蜂",
+            "target": "无名蜂"
+        },
+        {
+            "source": "铱蜂",
+            "target": "硅岩蜂"
+        },
+        {
+            "source": "钚蜂",
+            "target": "硅岩蜂"
+        },
+        {
+            "source": "铱蜂",
+            "target": "超能硅岩蜂"
+        },
+        {
+            "source": "钚蜂",
+            "target": "超能硅岩蜂"
+        },
+        {
+            "source": "超能蜂",
+            "target": "下界碎片蜂"
+        },
+        {
+            "source": "风蜂",
+            "target": "下界碎片蜂"
+        },
+        {
+            "source": "镅蜂",
+            "target": "中子蜂"
+        },
+        {
+            "source": "超能硅岩蜂",
+            "target": "中子蜂"
+        },
+        {
+            "source": "铁蜂",
+            "target": "镍蜂"
+        },
+        {
+            "source": "铜蜂",
+            "target": "镍蜂"
+        },
+        {
+            "source": "培育一些寻常蜂",
+            "target": "海洋蜂"
+        },
+        {
+            "source": "粘性树脂蜂",
+            "target": "石油蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "石油蜂"
+        },
+        {
+            "source": "原始蜂",
+            "target": "含油蜂"
+        },
+        {
+            "source": "海洋蜂",
+            "target": "含油蜂"
+        },
+        {
+            "source": "赛特斯蜂",
+            "target": "橄榄石蜂"
+        },
+        {
+            "source": "奥能蜂",
+            "target": "奇术蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "奇术蜂"
+        },
+        {
+            "source": "钨蜂",
+            "target": "锇蜂"
+        },
+        {
+            "source": "铂蜂",
+            "target": "锇蜂"
+        },
+        {
+            "source": "粘土蜂",
+            "target": "泥炭蜂"
+        },
+        {
+            "source": "田园蜂",
+            "target": "泥炭蜂"
+        },
+        {
+            "source": "幽灵蜂",
+            "target": "幻影蜂"
+        },
+        {
+            "source": "红色蜂",
+            "target": "粉色蜂"
+        },
+        {
+            "source": "白色蜂",
+            "target": "粉色蜂"
+        },
+        {
+            "source": "铬蜂",
+            "target": "铂蜂"
+        },
+        {
+            "source": "钻石蜂",
+            "target": "铂蜂"
+        },
+        {
+            "source": "绿宝石蜂",
+            "target": "钚蜂"
+        },
+        {
+            "source": "铀蜂",
+            "target": "钚蜂"
+        },
+        {
+            "source": "归隐蜂",
+            "target": "原始蜂"
+        },
+        {
+            "source": "古代蜂",
+            "target": "原始蜂"
+        },
+        {
+            "source": "Energium",
+            "target": "Pyrotheum"
+        },
+        {
+            "source": "红石蜂",
+            "target": "Pyrotheum"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "红色蜂"
+        },
+        {
+            "source": "铜蜂",
+            "target": "红色合金蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "红色合金蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "红石蜂"
+        },
+        {
+            "source": "敬业蜂",
+            "target": "红石蜂"
+        },
+        {
+            "source": "红色合金蜂",
+            "target": "红石合金蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "红石合金蜂"
+        },
+        {
+            "source": "分馏蜂",
+            "target": "精炼蜂"
+        },
+        {
+            "source": "含油蜂",
+            "target": "精炼蜂"
+        },
+        {
+            "source": "魔力蜂",
+            "target": "复兴蜂"
+        },
+        {
+            "source": "原始蜂",
+            "target": "树脂蜂"
+        },
+        {
+            "source": "泥泞蜂",
+            "target": "树脂蜂"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "蜂王浆"
+        },
+        {
+            "source": "红石蜂",
+            "target": "红宝石蜂"
+        },
+        {
+            "source": "钻石蜂",
+            "target": "红宝石蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "田园蜂"
+        },
+        {
+            "source": "神秘碎片蜂",
+            "target": "世界盐蜂"
+        },
+        {
+            "source": "神秘尘蜂",
+            "target": "世界盐蜂"
+        },
+        {
+            "source": "火蝠蜂",
+            "target": "三明治蜂"
+        },
+        {
+            "source": "农耕蜂",
+            "target": "三明治蜂"
+        },
+        {
+            "source": "苦行蜂",
+            "target": "归隐蜂"
+        },
+        {
+            "source": "僧侣蜂1",
+            "target": "归隐蜂"
+        },
+        {
+            "source": "锡蜂",
+            "target": "银蜂"
+        },
+        {
+            "source": "铅蜂",
+            "target": "银蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "邪恶蜂"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "诡隐蜂"
+        },
+        {
+            "source": "粘土蜂",
+            "target": "粘液球蜂"
+        },
+        {
+            "source": "幽魂蜂",
+            "target": "闷烧蜂"
+        },
+        {
+            "source": "憎恶蜂",
+            "target": "闷烧蜂"
+        },
+        {
+            "source": "暮色恶魂1",
+            "target": "冰雪女王蜂"
+        },
+        {
+            "source": "世界盐蜂",
+            "target": "冰雪女王蜂"
+        },
+        {
+            "source": "土蜂",
+            "target": "泥土蜂"
+        },
+        {
+            "source": "感知蜂",
+            "target": "魂魄蜂"
+        },
+        {
+            "source": "精神蜂",
+            "target": "魂魄蜂"
+        },
+        {
+            "source": "英雄蜂",
+            "target": "宇宙蜂"
+        },
+        {
+            "source": "遁世蜂",
+            "target": "幽灵蜂"
+        },
+        {
+            "source": "诡隐蜂",
+            "target": "蜘蛛蜂"
+        },
+        {
+            "source": "感知蜂",
+            "target": "精神蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "精神蜂"
+        },
+        {
+            "source": "憎恶蜂",
+            "target": "恶意蜂"
+        },
+        {
+            "source": "钢蜂",
+            "target": "不锈钢蜂"
+        },
+        {
+            "source": "铬蜂",
+            "target": "不锈钢蜂"
+        },
+        {
+            "source": "铁蜂",
+            "target": "钢蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "钢蜂"
+        },
+        {
+            "source": "粘液球蜂",
+            "target": "粘性树脂蜂"
+        },
+        {
+            "source": "泥炭蜂",
+            "target": "粘性树脂蜂"
+        },
+        {
+            "source": "Glowstone",
+            "target": "Sunnarium"
+        },
+        {
+            "source": "Gold",
+            "target": "Sunnarium"
+        },
+        {
+            "source": "蕴魔蜂",
+            "target": "超能蜂"
+        },
+        {
+            "source": "魅惑蜂",
+            "target": "超能蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "甜美蜂"
+        },
+        {
+            "source": "流水蜂",
+            "target": "神秘碎片蜂"
+        },
+        {
+            "source": "神秘尘蜂",
+            "target": "神秘碎片蜂"
+        },
+        {
+            "source": "灼热蜂",
+            "target": "神秘尘蜂"
+        },
+        {
+            "source": "伊甸蜂",
+            "target": "神秘尘蜂"
+        },
+        {
+            "source": "煤蜂",
+            "target": "钍蜂"
+        },
+        {
+            "source": "铀蜂",
+            "target": "钍蜂"
+        },
+        {
+            "source": "不倦蜂",
+            "target": "兴旺蜂"
+        },
+        {
+            "source": "生长蜂",
+            "target": "兴旺蜂"
+        },
+        {
+            "source": "粘土蜂",
+            "target": "锡蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "锡蜂"
+        },
+        {
+            "source": "铝蜂",
+            "target": "钛蜂"
+        },
+        {
+            "source": "红石蜂",
+            "target": "钛蜂"
+        },
+        {
+            "source": "英雄蜂",
+            "target": "钨蜂"
+        },
+        {
+            "source": "锰蜂",
+            "target": "钨蜂"
+        },
+        {
+            "source": "培育一些田野蜂",
+            "target": "不倦蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "不倦蜂"
+        },
+        {
+            "source": "铂蜂",
+            "target": "铀蜂"
+        },
+        {
+            "source": "复仇蜂",
+            "target": "铀蜂"
+        },
+        {
+            "source": "神秘尘蜂",
+            "target": "暮色恶魂1"
+        },
+        {
+            "source": "九头蛇1",
+            "target": "暮色恶魂1"
+        },
+        {
+            "source": "记恨蜂",
+            "target": "报仇蜂"
+        },
+        {
+            "source": "僧侣蜂1",
+            "target": "报仇蜂"
+        },
+        {
+            "source": "充能合金蜂",
+            "target": "脉冲合金蜂"
+        },
+        {
+            "source": "幻影蜂",
+            "target": "脉冲合金蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "记恨蜂"
+        },
+        {
+            "source": "僧侣蜂1",
+            "target": "记恨蜂"
+        },
+        {
+            "source": "怪异蜂",
+            "target": "魔力蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "魔力蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "Volcanic"
+        },
+        {
+            "source": "Furious",
+            "target": "Volcanic"
+        },
+        {
+            "source": "超能蜂",
+            "target": "水蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "水蜂"
+        },
+        {
+            "source": "勤奋蜂",
+            "target": "白色蜂"
+        },
+        {
+            "source": "超能蜂",
+            "target": "风蜂"
+        },
+        {
+            "source": "以太蜂",
+            "target": "风蜂"
+        },
+        {
+            "source": "恶龙蜂",
+            "target": "凋灵蜂"
+        },
+        {
+            "source": "凋零蜂",
+            "target": "凋灵蜂"
+        },
+        {
+            "source": "恶魔蜂",
+            "target": "凋零蜂"
+        },
+        {
+            "source": "恶意蜂",
+            "target": "凋零蜂"
+        },
+        {
+            "source": "锡蜂",
+            "target": "锌蜂"
+        },
+        {
+            "source": "铁蜂",
+            "target": "锌蜂"
+        }
+    ]
+}

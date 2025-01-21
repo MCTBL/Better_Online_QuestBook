@@ -1,0 +1,1612 @@
+{
+    "data": [
+        {
+            "name": "更好的寻找物品方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2026.png",
+            "x": 600.0,
+            "y": 288.0,
+            "data": "NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.%n%n手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.%n%n再次Shift+右键相同的方块来从目录中移除此库存.%n%n在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.%n%n手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.%n%n你还可以看到有某件特定物品的所有库存列表,并可以很方便地将其中某个库存加入另一个仓库目录,以便查找物品.%n%n仓库目录还可以用排版台和拓印机复印.%n%n点击仓库目录的标题可以随意改动,可以用于自定义标记仓库目录.%n%n点击每个列表右侧的小箱子图标可以打开库存列表视图.%n%n如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.%n%n[warn]不过仓库目录貌似有点坏了,对GT物品不太兼容.[/warn]%n%n译者注:仓库目录不能正确显示很多GT物品的名字,所以...虽然它是个好东西,但在GTNH里可能用处不大...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH6g==",
+            "tooltip": "<strong>更好的寻找物品方式</strong></br>前置任务需求:</br>书"
+        },
+        {
+            "name": "加速植物生长速度",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/705.png",
+            "x": 156.0,
+            "y": 324.0,
+            "data": "植物生长得很缓慢,你现在应该发现这点了.所以何不试着加点速？洒水壶马上就可以派上用场.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACwQ==",
+            "tooltip": "<strong>加速植物生长速度</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "清晰的视野",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/52.png",
+            "x": 696.0,
+            "y": 144.0,
+            "data": "你还住在那用泥土或圆石做的火柴盒里吗？何不让阳光照进来呢？磨碎一些沙子和燧石,做些玻璃粉放进你的冶炼炉里,接着把它们倒到铸造盆里,做些通透玻璃.%n%n[note]提示:要想使用此配方,你必须先用凿子处理它.[/note]%n%n[note]PS：粉碎机不再出产小撮粉,手搓吧.等你在LV阶段拥有一台搅拌机后,一定会很喜欢这一点的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAANA==",
+            "tooltip": "<strong>清晰的视野</strong></br>前置任务需求:</br>什么鬼东西？"
+        },
+        {
+            "name": "高级太阳能锅炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2389.png",
+            "x": 84.0,
+            "y": 216.0,
+            "data": "当有了一些蒸汽机器后,你可以制造一些高级太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与简易太阳能锅炉相同.%n%n从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.%n%n提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能-不过蒸汽输出最低只会降到120L/s,而不是和简易太阳能锅炉一样降低到40L/s.等到电力时代,你就能使用蒸馏水防止钙化.%n%n[note]你需要来自暮色森林(LV+)或贫瘠矿石的银.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJVQ==",
+            "tooltip": "<strong>高级太阳能锅炉</strong></br>前置任务需求:</br>比铁更好</br>是时候获得一些钢了!</br>太阳之力"
+        },
+        {
+            "name": "一个适合做国王的傻瓜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2140.png",
+            "x": 492.0,
+            "y": 132.0,
+            "data": "只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?%n%nPS：你还可以把它们用作燃料,这太疯狂了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIXA==",
+            "tooltip": "<strong>一个适合做国王的傻瓜</strong></br>前置任务需求:</br>哦!闪闪发光(不是白金!)"
+        },
+        {
+            "name": "耐酸铝",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1126.png",
+            "x": 216.0,
+            "y": 144.0,
+            "data": "又到了升级时间!理论上你可以在冶炼炉里面通过熔合钢、铝和黑曜石得到耐酸铝,但为了更高的产率,你可以展示你是一名格雷科技的优秀员工,在NEI里查询到另一种使用金属粉的制作配方. 耐酸铝制作的镐可以在下界采集阿迪特矿石和钴矿石.%n%n将剩余的耐酸铝留在冶炼炉中,你将会用到它来锻造工具.你需要16个锭来制造2块大板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEZg==",
+            "tooltip": "<strong>耐酸铝</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "Java的另一个用途,呃,我是说岩浆(Lava)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/61.png",
+            "x": 48.0,
+            "y": 144.0,
+            "data": "现在你有钢了, 终于可以做出一台足以使用岩浆的锅炉. 蒸汽只会从背面输出,你需要从侧面输入水并从顶部输入岩浆. 你还会额外获得黑曜石!%n%n你知道吗？超过30亿台机器在Lava上运行（Java）！",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAPQ==",
+            "tooltip": "<strong>Java的另一个用途,呃,我是说岩浆(Lava)</strong></br>前置任务需求:</br>我该怎么存储这么多流体?</br>蒸汽替代品</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "完全不同的存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/119.png",
+            "x": 60.0,
+            "y": 444.0,
+            "data": "如果你收集了怪物掉落的剑或者护甲,那么普通的箱子很快就会被填满.使用文档柜,可以存储最多270个相同类型的东西.  文档柜被破坏成为物品时,会保留其中的物品.%n%n非常适合存储IC2的杂交种子袋、林业的树苗或蜜蜂!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAdw==",
+            "tooltip": "<strong>完全不同的存储</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "一种非常重要的合金",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/48.png",
+            "x": 336.0,
+            "y": 72.0,
+            "data": "最重要的合金当然是红色合金(直到你到达更高的阶段之前啦)!幸运的是,你有一台合金炉,所以,抓起些红石来和铜结合,送你自己一打这玩意吧!%n%n别将青铜和铜混淆起来,否则你会很头疼的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAMA==",
+            "tooltip": "<strong>一种非常重要的合金</strong></br>前置任务需求:</br>更多高级合金"
+        },
+        {
+            "name": "桶升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1124.png",
+            "x": 516.0,
+            "y": 288.0,
+            "data": "你的原石或者泥土已经将你的桶都塞满了？ 没关系,升级!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEZA==",
+            "tooltip": "<strong>桶升级</strong></br>前置任务需求:</br>压缩材料</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "桶升级 T2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1125.png",
+            "x": 516.0,
+            "y": 324.0,
+            "data": "什么？你的桶又满了？ 不要紧,继续升级!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEZQ==",
+            "tooltip": "<strong>桶升级 T2</strong></br>前置任务需求:</br>桶升级"
+        },
+        {
+            "name": "桶升级 T3",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2910.png",
+            "x": 516.0,
+            "y": 360.0,
+            "data": "什么？你的桶又满了？ 不要紧,继续升级!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALXg==",
+            "tooltip": "<strong>桶升级 T3</strong></br>前置任务需求:</br>桶升级 T2"
+        },
+        {
+            "name": "桶升级 T4",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2911.png",
+            "x": 552.0,
+            "y": 360.0,
+            "data": "什么？你的桶又满了？ 不要紧,继续升级!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALXw==",
+            "tooltip": "<strong>桶升级 T4</strong></br>前置任务需求:</br>桶升级 T3"
+        },
+        {
+            "name": "桶升级 T5",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2912.png",
+            "x": 588.0,
+            "y": 360.0,
+            "data": "什么？你的桶又满了？ 不要紧,继续升级!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALYA==",
+            "tooltip": "<strong>桶升级 T5</strong></br>前置任务需求:</br>桶升级 T4"
+        },
+        {
+            "name": "基础制作:机器外壳",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/73.png",
+            "x": 216.0,
+            "y": 612.0,
+            "data": "所有机器都需要一个外壳来保护它们的敏感部件.好消息是:它们每一等级都以相同的方式制作,只有材料发生变化.%n%n正如tooltip所述,使用机器外壳可以传输1A的电流.这可以被用作1A二极管,将电缆内的电流分出1A或是用于稍后的超净间--在Thermos服务器里会很有用.同样,物品或流体也可以通过机器外壳传输.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAASQ==",
+            "tooltip": "<strong>基础制作:机器外壳</strong></br>前置任务需求:</br>导线,奇怪?(Wired,weird?!)</br>比铁更好"
+        },
+        {
+            "name": "基础制作:马达",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/71.png",
+            "x": 696.0,
+            "y": 612.0,
+            "data": "电动马达是能够将电力转化为旋转能的小机件.对于所有类型的机器都非常有用,而且它不是那么难以制作.不同等级的电动马达的合成方法是相似的,只有材料随着等级的变化而变化.现在你可以使用你的红石来磁化你的铁棒,后面你将会制作一个磁化机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAARw==",
+            "tooltip": "<strong>基础制作:马达</strong></br>前置任务需求:</br>导线,奇怪?(Wired,weird?!)</br>绝缘线缆"
+        },
+        {
+            "name": "基础制作:转子",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/72.png",
+            "x": 336.0,
+            "y": 612.0,
+            "data": "不同等级的转子的制作方法也是相似的,只是材料不同.现在合成起来有些烦人,不过你也不是需要很多的转子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAASA==",
+            "tooltip": "<strong>基础制作:转子</strong></br>前置任务需求:</br>基础制作:机器外壳"
+        },
+        {
+            "name": "更好的水槽...铁储罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/16.png",
+            "x": 744.0,
+            "y": 192.0,
+            "data": "想要在一个水槽中储存超过16桶液体？那就做一个铁储罐或升级你的小水槽.%n%n钻石储罐可以储存64桶,而黑曜石储罐则可以防爆.后面还有更大的储罐,不过你可能更喜欢GT的超级缸或是大型流体单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAEA==",
+            "tooltip": "<strong>更好的水槽...铁储罐</strong></br>前置任务需求:</br>我该怎么存储这么多流体?"
+        },
+        {
+            "name": "比铁更好",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/948.png",
+            "x": 216.0,
+            "y": 456.0,
+            "data": "当你有了一点钢并且能够制作高压蒸汽机器的时候,锻铁就会变得十分重要. 这种材料比铁硬得多(但还是比不上钢),锻铁常用于制造机器外壳,也可以用来制作一些耐久更好的工具(要是你不想消耗钢的话).%n%n想要制造锻铁,首先需要将铁锭放进匠魂冶炼厂制成铁粒,也可以用锯子手切出粒.然后再将铁粒放进熔炉制成锻铁粒.最后,你需要使用压缩机将这些粒制成锭.%n%n提示: 粉碎或者离心的铁矿石(不是像黄铁矿这种的混合物,而是黄铜矿脉中的纯铁矿石)都可以直接放进熔炉烧炼.你也可以使用合金炉来更快地将锭制成粒,或是直接用锯切.%n%n以后,你还可以使用电弧炉直接将铁锭制成锻铁锭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADtA==",
+            "tooltip": "<strong>比铁更好</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "熔炼!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/65.png",
+            "x": 216.0,
+            "y": 384.0,
+            "data": "是时候搞些钢了!请查看多方块任务,建造砖高炉.等你至少制作了8个钢锭后,回到这页提交任务.%n%n*还看不到这个任务?你需要在这里多完成些任务,直到解锁蒸汽压缩机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAQQ==",
+            "tooltip": "<strong>熔炼!</strong></br>前置任务需求:</br>压缩材料</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "书",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1008.png",
+            "x": 576.0,
+            "y": 324.0,
+            "data": "你可以很容易的在村庄或者有着砖块屋顶的地牢里面找到书. 不过我可以告诉你书的合成表.%n%n现在,胶水在你的手上...或者说在马身上？试着将一匹马放到冶炼炉中,并喂给它一些干草保证它的存活.(动物保护者协会表示强烈谴责)%n%n或者你也可以等到能去下界之后,获取一些硫.随你选哪个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD8A==",
+            "tooltip": "<strong>书</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "Bowl full of spaghetti(碗里堆满了意大利面)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1735.png",
+            "x": 120.0,
+            "y": 12.0,
+            "data": "或者至少你的工厂里堆满了物品管道.使用这些简单的物品管道和传送带,你可以从一台机器中取出物品并立即将它们送入第二台机器.%n%n稍后你可以制造更好的物品管道.在NEI中搜索\"物品管道\",然后自行选择.%n%n[warn]拆除它们需要用到至少钢材质的扳手!所以在你有一个新扳手前,请小心放置这些管道.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGxw==",
+            "tooltip": "<strong>Bowl full of spaghetti(碗里堆满了意大利面)</strong></br>前置任务需求:</br>漏斗"
+        },
+        {
+            "name": "电路基板2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/834.png",
+            "x": 336.0,
+            "y": 528.0,
+            "data": "每一块电路板都需要电路基板. 它由覆膜电路基板和铜导线制作而成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADQg==",
+            "tooltip": "<strong>电路基板2</strong></br>前置任务需求:</br>是时候搞些逻辑电路"
+        },
+        {
+            "name": "压缩材料",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/54.png",
+            "x": 576.0,
+            "y": 240.0,
+            "data": "这简单的设备可以做到非常重要的工作:压缩.把9个锭压缩成一个块是它的主要功能,但它在其他各种配方中也派得上用场,举例来说,可以用它来做些结实豆腐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAANg==",
+            "tooltip": "<strong>压缩材料</strong></br>前置任务需求:</br>什么鬼东西？"
+        },
+        {
+            "name": "一次砍一个原木已经过气了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/743.png",
+            "x": 288.0,
+            "y": 180.0,
+            "data": "制作一把伐木斧,你就可以一次砍掉一整棵树.当你准备砍掉一棵神圣橡木时,别忘了带上你的背包.%n%n专业建议:用木质模具做出一个纯地狱岩材质的伐木斧,挖掘速度越慢,升级所需的经验越少.然后在升级后的槽位中打上耐久升级.等你等级刷够了(译者注：先来一个不毁),就可以更换更好(也更快)的材料了,例如钢,铝或者其他材料.记住,自动熔炼不会生效,别试着打上自动熔炼.%n%n本任务接受任意材料制成的伐木斧",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC5w==",
+            "tooltip": "<strong>一次砍一个原木已经过气了</strong></br>前置任务需求:</br>工具装配台"
+        },
+        {
+            "name": "提取原料",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/51.png",
+            "x": 696.0,
+            "y": 252.0,
+            "data": "为了之后需要的橡胶--包裹导线、制作线缆,你该弄台蒸汽提取机了.你也可以用这台机器,从花朵里得到更多的染料,或者将各种水果做成果汁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAMw==",
+            "tooltip": "<strong>提取原料</strong></br>前置任务需求:</br>清晰的视野"
+        },
+        {
+            "name": "额外的强化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1130.png",
+            "x": 540.0,
+            "y": 180.0,
+            "data": "如果你的工具没有剩余的强化次数了,可以用一个配方很容易地增加一次!%n只需要一个金块和一个钻石即可.但是要注意,每个武器只能用这个配方强化一次哦!%n%n还有另外两种配方可以添加强化槽,但这回你需要自己查阅匠魂的手册,以获知需要用到什么.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEag==",
+            "tooltip": "<strong>额外的强化</strong></br>前置任务需求:</br>压缩材料</br>哦!闪闪发光(不是白金!)"
+        },
+        {
+            "name": "工厂的铁门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1789.png",
+            "x": 168.0,
+            "y": 444.0,
+            "data": "你的新工厂需要铁门. 不幸的是,合成表真的很难,而且需要钢.%n%n如果你愿意的话,可以选择额外的两个门作为奖励.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG_Q==",
+            "tooltip": "<strong>工厂的铁门</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "燃烧的笨蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1845.png",
+            "x": 492.0,
+            "y": 408.0,
+            "data": "烈焰人都是精英怪,并且都很调皮.远离瘟疫烈焰人(Plague-blaze).带上精良的装备然后准备战斗吧.  %n%n或者你可以用些科技的力量换种方式摧毁它们.  %n%n再或者,别找它们的麻烦了,换种方式获取烈焰棒吧.(比方说种田)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHNQ==",
+            "tooltip": "<strong>燃烧的笨蛋</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "打火石",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/478.png",
+            "x": 324.0,
+            "y": 384.0,
+            "data": "当你的钢足够制作打火石的时候,我想你一定想快点做出来一个然后赶快去下界. 去吧!少年,但是这里的下界是一个非常非常危险的地方哦!%n%n注意:苔藓球会赋予匠魂工具自我修复的功能,但如果工具完全损坏了,自动修复功能无法生效,需要先用材料修复一点.%n%n请注意,打火石可能需要多试几次才能点着.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB3g==",
+            "tooltip": "<strong>打火石</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "GT6型导线和线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1147.png",
+            "x": 624.0,
+            "y": 420.0,
+            "data": "也许你在想为什么现在的导线或者线缆不会自动连接了？这是为了让导线或者线缆更聪明.你必须使用剪线钳(或电烙铁)来连接你想连接的导线和线缆. 这样将会帮助你减少因为连错导线而导致的BOOM了!  你可以Shift右键来将导线与你看不到的机器连接,比如在机器正面,使其连接底部的线缆.%n另外,触碰未被绝缘(线缆)的导线会受到伤害.(超导线除外)%n%n提示:如果你对准导线和线缆进行安装,那么它们将会自动连接.线缆与管道均可涂色,防止你将不同电压的导线弄混了,或是把一桶岩浆倒进了塑料管道.愿天下再无BOOM.%n%n哈哈开个玩笑,这怎么可能呢!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEew==",
+            "tooltip": "<strong>GT6型导线和线缆</strong></br>前置任务需求:</br>导线,奇怪?(Wired,weird?!)"
+        },
+        {
+            "name": "石膏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/868.png",
+            "x": 720.0,
+            "y": 24.0,
+            "data": "你需要混凝土和石膏来为你的高炉做砖块.石膏可以在主世界(50—60层),和玄武岩、花岗岩矿砂、漂白土一起被发现.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADZA==",
+            "tooltip": "<strong>石膏</strong></br>前置任务需求:</br>粉碎机 v1.0!"
+        },
+        {
+            "name": "锤子时刻 v2.0",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/53.png",
+            "x": 336.0,
+            "y": 240.0,
+            "data": "毕竟锤子是有耐久的,花费6个锭来重新做支锤子似乎颇为浪费.如果有台机器可以像锤子一样工作但没有耐久消耗、而且只要3锭就可以做出两块板子——那该有多好？那你知道吗——那里就有一台!而你真该做一个!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAANQ==",
+            "tooltip": "<strong>锤子时刻 v2.0</strong></br>前置任务需求:</br>一个铁砧...最好做两个!"
+        },
+        {
+            "name": "漏斗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1205.png",
+            "x": 84.0,
+            "y": 12.0,
+            "data": "如果你想对机器进行自动化升级,那么漏斗肯定会派上用场. 你可以通过漏斗直接将物料输入GT的管道,而不需要使用传送带. 但是,漏斗的速度赶不上传送带,并且只能从上方接收物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEtQ==",
+            "tooltip": "<strong>漏斗</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "这么多东西往哪放？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/558.png",
+            "x": 288.0,
+            "y": 312.0,
+            "data": "在你烧炼第一块钢后,你就能制作一个小背包.它有36个格子,比一个小箱子多一点.稍后你还能扩大它.%n%n你最多可以在物品栏内同时拥有四个背包.%n%n你可以背上一个并将其设置为自动捡拾模式.检查\"控制\"中的\"打开背包(Open-Backpacks)\"快捷键是否已绑定并且没有冲突.绑定的快捷键仅在背包放入其GUI槽位(Shift+<打开背包快捷键>)后方可生效.%n%n当在手上拿着背包的时候,你可以通过 Shift+鼠标右键 重命名你的背包.%n%n译者注:通过腰带或背包切换物品栏即可携带更多背包.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACLg==",
+            "tooltip": "<strong>这么多东西往哪放？</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "如何制作橡胶",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/496.png",
+            "x": 696.0,
+            "y": 384.0,
+            "data": "制作橡胶现在变得更加复杂了!你需要生橡胶和硫粉. 所以在下界找到一个硫矿脉是一个不错的主意,不是吗?硫矿脉会生成在Y轴5-20的范围内.之后,你可以从硫化氢或黄铁矿等化学品中获取硫.%n%n[warn]闪锌矿对稍后制备镓和锌很重要.在进入LV可以完全处理它们之前最好留着.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB8A==",
+            "tooltip": "<strong>如何制作橡胶</strong></br>前置任务需求:</br>提取原料</br>下界"
+        },
+        {
+            "name": "如何打开铁门?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2332.png",
+            "x": 168.0,
+            "y": 480.0,
+            "data": "铁门可以使你的厂房或住房更安全.%n%n现在,让我们制作几个石制压力板和按钮来打开沉重的铁门.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJHA==",
+            "tooltip": "<strong>如何打开铁门?</strong></br>前置任务需求:</br>工厂的铁门"
+        },
+        {
+            "name": "我不怕没鬼!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1536.png",
+            "x": 744.0,
+            "y": 120.0,
+            "data": "我已经找到从死者灵魂中收集的灵气的用途了.它可以制作一种非常实用的玻璃,你可以在其上行走,但是怪物不能. 但是,怪物却认为它们可以!%n%n因此,它可以用来在你的基地周围创建护城河,以各种方式将怪物摧毁,或者只是将它们移到其他地方. 或是用在刷怪场里? 对付从地狱门中走出来的猪人? 有无限可能!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGAA==",
+            "tooltip": "<strong>我不怕没鬼!</strong></br>前置任务需求:</br>清晰的视野"
+        },
+        {
+            "name": "我知道他的名字!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2399.png",
+            "x": 780.0,
+            "y": 420.0,
+            "data": "去命名器是一个简单而实用的机器,可以移除不正确或无用的NBT数据. 只对GT物品有效?%n%n曾经还有拆解NBT,那时去命名器十分有用,但几乎所有人都认为,删除拆解NBT是非常好的解脱.%n%n暮色森林中有很多铅,如果你实在脸黑,下界也有不少铅的贫瘠矿.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJXw==",
+            "tooltip": "<strong>我知道他的名字!</strong></br>前置任务需求:</br>比铁更好</br>橡胶片1"
+        },
+        {
+            "name": "这是一项肮脏的工作,但你得去干",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/942.png",
+            "x": 780.0,
+            "y": 456.0,
+            "data": "搋子可以帮助你清除管道中残留的液体,也可以用来清除机器缓存区的液体(右键点击一次移除1000mB).这可以使你不必每次都把机器拆掉重新放置.  制作它需要任意材料的杆和橡胶板,杆会决定制作出来的搋子的耐久度.%n%n提示:手持搋子攻击怪物可以造成2.75-18.25的伤害,具体伤害要看制造搋子杆的材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADrg==",
+            "tooltip": "<strong>这是一项肮脏的工作,但你得去干</strong></br>前置任务需求:</br>橡胶片1"
+        },
+        {
+            "name": "雅克·库斯托",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2056.png",
+            "x": 780.0,
+            "y": 528.0,
+            "data": "有了防化头盔,你就可以安全地进行长时间的水下探索了.你只需要一些压缩空气单元.我会用一些压缩空气单元换你的锡锭.%n%n当你的氧气条减少时,防化头盔会消耗一个压缩空气单元(补充氧气条),并返还一个空单元.这些空单元可以扔进压缩机继续制作压缩空气单元.这样,你就可以更方便地在河底收集粘土了.  一旦拥有了压模器或卷板机,你就可以自己制作更多的单元了.%n%n译者注:雅克·库斯托(Jacques Cousteau),是水肺的发明者.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAICA==",
+            "tooltip": "<strong>雅克·库斯托</strong></br>前置任务需求:</br>修理你的防化服"
+        },
+        {
+            "name": "你的心灵之匙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2087.png",
+            "x": 132.0,
+            "y": 480.0,
+            "data": "桶默认就可以锁定只接受特定物品,即使自己是空的也可以指定.  而对于抽屉,你需要制作抽屉钥匙来将其锁定只接受特定物品.  译者注:空抽屉也可以锁定,这样抽屉不会接受自动化来的物品,但可以手持物品右键来指定该物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIJw==",
+            "tooltip": "<strong>你的心灵之匙</strong></br>前置任务需求:</br>升级抽屉"
+        },
+        {
+            "name": "青金岩、青金石、方纳石、方解石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/867.png",
+            "x": 672.0,
+            "y": 24.0,
+            "data": "为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.%n%n你可以在主世界或者暮色森林(LV)(20—50层)找到矿脉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADYw==",
+            "tooltip": "<strong>青金岩、青金石、方纳石、方解石</strong></br>前置任务需求:</br>粉碎机 v1.0!"
+        },
+        {
+            "name": "青金石代表的是幸运？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1128.png",
+            "x": 624.0,
+            "y": 24.0,
+            "data": "也许你很幸运,在使用你的匠魂镐子的时候获得了时运附魔.如果没有获得也不需要太过于沮丧,你可以通过向匠魂工具上添加青金石来获得时运效果. 如果你的工具还没有获得额外的强化次数你可以通过钻石和金块来添加一次,然后再使用青金石来强化.%n%n你可以将青金石放入装配台的多个格子中,或是用青金石块来更快地提升时运等级,甚至你可以将青金石块放入合成站来最快地提升时运等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEaA==",
+            "tooltip": "<strong>青金石代表的是幸运？</strong></br>前置任务需求:</br>青金岩、青金石、方纳石、方解石"
+        },
+        {
+            "name": "点燃制炭之路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/497.png",
+            "x": 372.0,
+            "y": 348.0,
+            "data": "你已经找到了另外一种生产大量木炭的工艺--使用木炭堆点火器. %n%n现在应该去生产大量的木炭去了!%n%n如果这是你的第一个多方块结构,按住shift查看扩展tooltip,或者访问[url]https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url]获知如何让它工作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB8Q==",
+            "tooltip": "<strong>点燃制炭之路</strong></br>前置任务需求:</br>比铁更好</br>打火石"
+        },
+        {
+            "name": "路西法(堕落天使)的小帮手",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1908.png",
+            "x": 396.0,
+            "y": 408.0,
+            "data": "有了一台合金炉和一些地狱岩粉之后,你就可以制作下界熔炉了,这是一种极富效率的烘烤机器.对某些需要短时间烧制大量物品的人来说很有用.%n%n唯一的缺点就是,电炉可以用于之后工业高炉的合成,但下界熔炉却不行.但话说回来,地狱岩粉反正不要钱,你有什么损失呢?再说了,你还可以用它烤成吨的面包呢!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHdA==",
+            "tooltip": "<strong>路西法(堕落天使)的小帮手</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "粉碎机 v1.0!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/50.png",
+            "x": 696.0,
+            "y": 72.0,
+            "data": "你总算可以做出一个取代研钵的设备了.无论如何,想要一个不会被消耗掉的设备是需要付出代价的——你需要两颗钻石来做研磨头.%n%n不要再直接熔炼你的矿石了,将它们放入这台粉碎机,你的矿石产物将增加一倍.%n%n注意:不要堵塞输出口,也不要站在那.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAMg==",
+            "tooltip": "<strong>粉碎机 v1.0!</strong></br>前置任务需求:</br>什么鬼东西？</br>做些更好的工具"
+        },
+        {
+            "name": "制作清单,反复检查",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1507.png",
+            "x": 516.0,
+            "y": 216.0,
+            "data": "随着基地的扩大,你将有十多个不同的长期目标,每个目标又有很多步骤. 打造一块写字板以跟踪你需要执行的任务.%n%n[note]提示: 你可以通过Shift+右键将写字板贴到墙上. [/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF4w==",
+            "tooltip": "<strong>制作清单,反复检查</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "慢慢挖土已经过气了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/744.png",
+            "x": 384.0,
+            "y": 108.0,
+            "data": "制作一把挖掘铲,你就可以一次挖3x3范围的土.你可以使用各种材料,如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.%n%n更高阶的材料需要MV压模机.  别不小心毁了你的整个花园.%n%n本任务接受任意材料制成的相应工具.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC6A==",
+            "tooltip": "<strong>慢慢挖土已经过气了</strong></br>前置任务需求:</br>工具装配台"
+        },
+        {
+            "name": "铸模、模具、铸模",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/871.png",
+            "x": 336.0,
+            "y": 456.0,
+            "data": "在你可以制作钢铁和拥有一台匠魂冶炼炉之后,就可以做些模具了,它们可以应用在合金炉和流体固化器.你需要这些模具来制作真空管、金属锭、齿轮和其他更多东西.%n%n[note]PS：'模头'是给压模机用的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADZw==",
+            "tooltip": "<strong>铸模、模具、铸模</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "更多高级合金",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/46.png",
+            "x": 216.0,
+            "y": 72.0,
+            "data": "你的冶炼炉可以将金属搅拌、熔炼成合金,但效率并不高,而且由于它的复杂性,用处有限.你需要换台新的,那何不把你的蒸汽拿来用用？合金炉可以使用锭、粉甚至粒,直接合成青铜.如果有钢的话,你可以制作一个粒模具,同样可以在此将锭转化为粒.%n%n在加工生橡胶的时候,它可能可以派上用场.你应该留意NEI,看看机器何时能为制作产品提供更优选择.%n%n[note]注意:与所有蒸汽设备类似,当配方完成时,输出是蒸汽出口.不得堵塞!还有,蒸汽很烫,记得么?可用扳手改变机器的输出口.3x3网格将显示你右键后输出口将移动到哪一侧.[/note]%n%n在机器下方放置一个漏斗即可使机器内产物输出.%n%n[warn]警告:蒸汽合金炉会消耗巨量的蒸汽.[/warn]一开始使用时请一步一步进行,直到你了解了消耗蒸汽的具体速度.大型管道对资源短缺者是不错的缓存,同时锅炉和机器本身也可以缓存一些蒸汽.如果传输距离比较远,可用铁制或钢制的矿车水槽作为更大的蒸汽缓存器. %n%nWIKI 蒸汽机器：gtnh.huijiwiki.com/p/769（请看蒸汽机器部分）",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAALg==",
+            "tooltip": "<strong>更多高级合金</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "移动你的储罐、箱子和桶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/625.png",
+            "x": 120.0,
+            "y": 324.0,
+            "data": "想要搬动箱子而不使物品散落满地(BC™)?  没问题!做台手推车你就可以带着装满的箱子、桶或抽屉到任何地方去.但注意,你会得到缓慢debuff,希望你不是要去太远的地方.即便是非便携式的BC储罐和更多储罐,你也可以通过手推车移动它们(不损失液体),但GT储罐不行.同时,手推车还可以移动工作台(不损失存储的合成表).%n%n手持空的手推车Shift右击可以折叠它.虽然不重新展开的话它没法搬运东西,但这样它就可以堆叠和放进背包了.%n%nPS：以后你可以通过飞行或穿戴旅行者腰带来绕过缓慢这个debuff.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACcQ==",
+            "tooltip": "<strong>移动你的储罐、箱子和桶</strong></br>前置任务需求:</br>熔炼!</br>绝缘线缆"
+        },
+        {
+            "name": "泥巴,也能用来美容",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1915.png",
+            "x": 744.0,
+            "y": 228.0,
+            "data": "你可能已经在湿地(沼泽)找到了成吨的泥巴球,认为它们只会让你在水中移动更麻烦,或者你只是用它们来做护甲.别浪费了!使用你新做的提取机,可以得到隐藏在泥巴中的粘土!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHew==",
+            "tooltip": "<strong>泥巴,也能用来美容</strong></br>前置任务需求:</br>提取原料"
+        },
+        {
+            "name": "多方块革命",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8198041923981670459.png",
+            "x": 120.0,
+            "y": 384.0,
+            "data": "你一直在使用的蒸汽机器表现良好,但总有一天你需要处理更多的物品.这时候,所谓的多方块机器就派上用场了.有多种蒸汽多方块机器可供你选择——快去看看“大规模加工”任务栏吧!%n%n这个任务栏将向你介绍一系列极其强大的多方块机器,它们可以替代你那些陈旧的单方块机器(以及一些旧的多方块机器!).这些新机器中的许多需要你处理额外的机制和要求,但绝对值得一试!%n%n在进入多方块的世界之前,你需要熟悉以下术语:%n%n超频(OC):%n如果一台机器能够处理至少为配方所需电压4倍的电压,它将会超频——导致其需要4倍的EU/t,但运行速度提高到2倍.这种情况可以多次发生!%n%n无损超频(通常表述为“超频时效率不会降低”):%n某些机器在条件允许时(或无条件)执行无损超频:在这种情况下,机器需要4倍的EU/t,但运行速度提高到4倍,从而既增加了速度又没有总EU消耗的净增量!%n%n并行(通常表述为“同时处理x个物品”):%n并行工作的机器就像在运行多个自身——也就是说,它们可以同时执行多个相同的配方,使用配方的EU/t乘以并行数.机器会[warn]优先考虑[/warn]并行这种行为而不是超频,这对你有利!并行更加高效.%n%n[note]当使用多方块机器时,如果运行过程中电力中断,你的输入物品将会永久丢失……小心![/note]",
+            "quest_id": "hEsmeH74S4aOOrROI1AHxQ==",
+            "tooltip": "<strong>多方块革命</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "石英能让武器变得锋利!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1132.png",
+            "x": 420.0,
+            "y": 336.0,
+            "data": "你的剑太钝了! 拿一些下界石英把它磨快!%n%n如果你有很多赛特斯石英,一个赛特斯石英可以抵得上24个下界石英.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEbA==",
+            "tooltip": "<strong>石英能让武器变得锋利!</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "新的获得萤石的渠道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1092.png",
+            "x": 468.0,
+            "y": 336.0,
+            "data": "你在下界发现了一些和萤石很类似的植物. 将它们种植到主世界中.这样你就不需要在下界去寻找萤石了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAERA==",
+            "tooltip": "<strong>新的获得萤石的渠道</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "下界之树真棒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1741.png",
+            "x": 744.0,
+            "y": 384.0,
+            "data": "有一些非常有用的下界之树,它们提供了像红石,火药,骨粉或肥料等资源. 去下界找到这样的树吧,如血树,熔融树,黑暗树或幽魂树.这些树可以像普通的树木一样种植,除了血树.血树必须种在天花板上,然后它会向下生长而不是向上生长...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGzQ==",
+            "tooltip": "<strong>下界之树真棒</strong></br>前置任务需求:</br>如何制作橡胶"
+        },
+        {
+            "name": "一个铁砧...最好做两个!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/694.png",
+            "x": 456.0,
+            "y": 240.0,
+            "data": "使用你全新的压缩机,可以制作一些金属块以制作铁砧.最好做两个铁砧,一个用于制作锻造锤.  有了铁砧你就可以修理、更名或附魔你的护甲及工具.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACtg==",
+            "tooltip": "<strong>一个铁砧...最好做两个!</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "一格一格挖矿已经过气了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/742.png",
+            "x": 384.0,
+            "y": 180.0,
+            "data": "制作一柄大锤,你就可以一次挖3x3范围的矿.你可以使用各种材料,如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  你需要一个锤头、两个大板、一个坚韧手柄来制造一柄大锤.  在下界小心点,因为一不小心你就会被岩浆煮熟.%n%n本任务接受任意材料制成的相应工具.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC5g==",
+            "tooltip": "<strong>一格一格挖矿已经过气了</strong></br>前置任务需求:</br>工具装配台"
+        },
+        {
+            "name": "哦!闪闪发光(不是白金!)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/495.png",
+            "x": 540.0,
+            "y": 132.0,
+            "data": "制造你的第一台粉碎机需要2个钻石,进入暮色森林也需要1个. 如果找到一条钻石矿脉,那么这一切就解决了. 去Y轴5-20的区域找一找吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB7w==",
+            "tooltip": "<strong>哦!闪闪发光(不是白金!)</strong></br>前置任务需求:</br>什么鬼东西？"
+        },
+        {
+            "name": "什么？污染!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/534.png",
+            "x": 744.0,
+            "y": 492.0,
+            "data": "如果你的砖高炉运行了很久,在你接近它的时候可能会出现恶心、头痛或者其他奇怪的症状.没错,这就是传说中的污染... 如果你能给我收集一些橡胶片,我可以给一套防化服来抵御污染.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACFg==",
+            "tooltip": "<strong>什么？污染!</strong></br>前置任务需求:</br>橡胶片1"
+        },
+        {
+            "name": "抽水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2446.png",
+            "x": 300.0,
+            "y": 480.0,
+            "data": "RC的蓄水槽无法满足你干渴的双唇? 或是你选择的基地生物群系湿度太低? 这个泵只需极少的可燃物消耗(如褐煤)即可产出更多的水.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJjg==",
+            "tooltip": "<strong>抽水</strong></br>前置任务需求:</br>铸模、模具、铸模"
+        },
+        {
+            "name": "强化X？牢不可破!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1127.png",
+            "x": 252.0,
+            "y": 276.0,
+            "data": "钢铁铸造的工具已经可以采集黑曜石了.你可以制作加固板,它可以强化你的匠魂工具,让他们的耐久大幅度提高! 如果你将你的工具强化到耐久X的话几乎会让它们变得牢不可破!%n%nPS：许多情况下,强化耐久的价值并不高,因为工具的耐久不会快速消耗,所以维修起来也不会花费太多,并且随着科技发展会更换更好的材料(耐久更高,速度更快). 另外,等你强化到不毁(牢不可破)时,自动的采矿场早已替代了手动挖矿. 所以不要在耐久上浪费槽位了,强化速度(红石)或者时运/精准采集吧.然而,有一些非常好的使用案例,如伐木斧和自动化所用的工具.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEZw==",
+            "tooltip": "<strong>强化X？牢不可破!</strong></br>前置任务需求:</br>升级!升级!升级!"
+        },
+        {
+            "name": "修理你的防化服",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1888.png",
+            "x": 780.0,
+            "y": 492.0,
+            "data": "穿着防化服的时候得小心.它的耐久不高.即使只从几格高的地方摔落都会快速损耗靴子的耐久.%n%n在你进入后LV时代能制作一套新的之前,你可以在这里用一些橡胶片和一个胶水桶来修理你的防化服.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHYA==",
+            "tooltip": "<strong>修理你的防化服</strong></br>前置任务需求:</br>什么？污染!"
+        },
+        {
+            "name": "电阻1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/835.png",
+            "x": 576.0,
+            "y": 528.0,
+            "data": "每个电路板都需要两个电阻.%n%n稍后你还可以制造更好版本的电阻.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADQw==",
+            "tooltip": "<strong>电阻1</strong></br>前置任务需求:</br>导线,奇怪?(Wired,weird?!)"
+        },
+        {
+            "name": "橡胶片1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/536.png",
+            "x": 744.0,
+            "y": 456.0,
+            "data": "让我们来做一个板模具,以制作橡胶片. 橡胶片主要用于传送带和线缆.%n%n在现阶段,用橡胶片手工制造线缆比合金炉的配方更快,成本更低.%n%n有了这些橡胶片, 你就可以制作活塞靴子 - 这将大大提高你的移动能力.可以在任务“游历四方\"中找到这个任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACGA==",
+            "tooltip": "<strong>橡胶片1</strong></br>前置任务需求:</br>绝缘线缆"
+        },
+        {
+            "name": "橡胶软锤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1157.png",
+            "x": 648.0,
+            "y": 492.0,
+            "data": "你的木头软锤用几次就坏了.用橡胶做一个更耐用的软锤吧.%n%n最好的软锤是用钢叶制成的,其次是铁木.在进入暮色森林后,这两种材料都挺容易获得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEhQ==",
+            "tooltip": "<strong>橡胶软锤</strong></br>前置任务需求:</br>绝缘线缆"
+        },
+        {
+            "name": "安全第一",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2161.png",
+            "x": 396.0,
+            "y": 576.0,
+            "data": "对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆/导线的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意,线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n大部分机器只会用到1A,但有些例外,如电弧炉、热力离心机、世界加速器、质量发生器.注意,为了确保运行时电力充足,机器可以接受比运行所需更高的电流(通常为2A),这在线损较高(通常是在LV阶段),机器接收到的1A电力包损失了太多时,尤其重要.机器接受最大电流的公式是:[(2*配方EU/t)/机器电压]+1.(\"[]\"表示向下取整) 选用线缆时请牢记这点.%n%n某些机器专用于处理多A电流,比如电池箱、变压器和线缆二级管.请查看\"EU的存储与变压\"任务栏,以了解更多信息.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+,另外ULV和LV也有自己的无线损线缆).在后期,你还可以用激光仓输送巨量电流. 甚至还有无线EU网络,不过现在还可望而不可即.%n%n跳电的单方块机器在有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为每安培2^(电压等级-1). 比如LV损失1EU,MV损失2EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行,或许发电机直供会更好? 当然,如果你想在长距离内保持电流输送始终处于峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到[url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] 阅读更多信息.%n%n WIKI 电力：[url]gtnh.huijiwiki.com/p/149[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIcQ==",
+            "tooltip": "<strong>安全第一</strong></br>前置任务需求:</br>更多蒸汽!"
+        },
+        {
+            "name": "史莱姆空岛之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/875.png",
+            "x": 744.0,
+            "y": 420.0,
+            "data": "橡胶树不是生橡胶的唯一来源,去找找悬在空中的史莱姆岛.岛上凝固的史莱姆块和史莱姆树叶都可以通过提取或者离心的方式得到生橡胶.%n你可以在你的橡胶树林场旁边规划一块区域来种植一些史莱姆树苗.这样就可以源源不断的生产生橡胶了.%n%n液态的史莱姆无法放置,因为它类似于刷怪笼,会造成延迟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADaw==",
+            "tooltip": "<strong>史莱姆空岛之旅</strong></br>前置任务需求:</br>绝缘线缆"
+        },
+        {
+            "name": "更多蒸汽!",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/70.png",
+            "x": 456.0,
+            "y": 612.0,
+            "data": "你几乎完成它了!只需要最后一个制作步骤就可以到达第1阶的需求!继续前进吧!%n%n这种蒸汽轮机可以将蒸汽转化为EU.你之前使用的能源一成不变,但从此刻开始,你可以生产EU,并通过线缆将其输送到你的机器内,取代原先需要通过管道将蒸汽直接送到机器处.相比青铜机器,电力机器无需排气口,且更加高效.%n%n另外,之后你很可能还会从蒸汽转向另一种燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAARg==",
+            "tooltip": "<strong>更多蒸汽!</strong></br>前置任务需求:</br>你的第一个电子电路</br>基础制作:马达</br>基础制作:转子"
+        },
+        {
+            "name": "蒸汽替代品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/59.png",
+            "x": 84.0,
+            "y": 144.0,
+            "data": "有多种方式可以为你的机器产生蒸汽,这条支线任务向你展示了一些产生蒸汽的替代方案.%n%n至于想要玻璃的话,你需要再多完成几个任务才能看到相关指导,当然你也可以自己看NEI直接造.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAOw==",
+            "tooltip": "<strong>蒸汽替代品</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "钢箱子?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8598415503288479283.png",
+            "x": 192.0,
+            "y": 288.0,
+            "data": "钢箱子的造价明显高于金箱,容量也更小,但可用于某些特殊合成配方.%n",
+            "quest_id": "V4jinTYRSueIrEqn90dRzQ==",
+            "tooltip": "<strong>钢箱子?</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "驯服豹猫才能交朋友",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2346.png",
+            "x": 456.0,
+            "y": 12.0,
+            "data": "拥有所需材料后,你将需要找到一只豹猫来驯服.%n%n豹猫可以在丛林生物群系中找到.%n%n如果你找不到豹猫,还可以用刷怪蛋来召唤它.%n%n你可以通过给豹猫喂生鱼来驯服它.所以在物品栏内带上生鱼,然后在快捷栏中选择生鱼.%n%n提示:驯服豹猫过程中,请确保周围空旷,以便为豹猫提供足够的移动空间.如果你周围的空间太小,你将无法驯服豹猫.%n%n然后,手持生鱼并保持不动.如果你移动了,会吓跑豹猫的.如果你很安静,豹猫最终会注意到你手中的鱼,向你走来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJKg==",
+            "tooltip": "<strong>驯服豹猫才能交朋友</strong></br>前置任务需求:</br>线材轧机v0.2测试版"
+        },
+        {
+            "name": "冷酷的家伙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1108.png",
+            "x": 600.0,
+            "y": 180.0,
+            "data": "一个人很孤独？或者你居住的地方距离雪原很远？%n制造一个雪傀儡吧,也许你还可以和它一起打打雪仗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEVA==",
+            "tooltip": "<strong>冷酷的家伙</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "GT储罐,ULV版",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/890.png",
+            "x": 84.0,
+            "y": 324.0,
+            "data": "超低压流体储罐是下一种GT储罐.它可以储存32桶,或者说32000L流体,且可用于灌装单元. 制作它需要锡板、铁板、钢板、大型粘土管道和一个装满水的水桶.%n%nGT储罐无法自动输出.如果你想传输流体,请使用泵、导管或其他类似自带动力的设备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADeg==",
+            "tooltip": "<strong>GT储罐,ULV版</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "什么鬼东西？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/49.png",
+            "x": 576.0,
+            "y": 72.0,
+            "data": "为了得到更多的机器,你需要活塞.可不是要那些业余的东西,你缺的是特别的那种,而我将指导你该如何做出它们.%n%nPS：精英怪会掉落活塞,不过这样的话你就无法得到此任务的认可.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAMQ==",
+            "tooltip": "<strong>什么鬼东西？</strong></br>前置任务需求:</br>线材轧机v0.2测试版"
+        },
+        {
+            "name": "铁家伙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1107.png",
+            "x": 636.0,
+            "y": 180.0,
+            "data": "一个人很孤独？想要帮忙保护你的基地？想要在独对下界猪人时有个坚强的后盾? 用铁块和南瓜制作一些铁傀儡,这样你基地里面的怪物问题就会消失了.%n%n铁傀儡可以制造大量的伤害并拉取敌人仇恨,让类似猪人的家伙远离你.它们甚至可以对付讨厌的吸血鬼猪人.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEUw==",
+            "tooltip": "<strong>铁家伙</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "下界",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/479.png",
+            "x": 444.0,
+            "y": 384.0,
+            "data": "现在这里有更加危险的精英怪物. 玩得开心!保重",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB3w==",
+            "tooltip": "<strong>下界</strong></br>前置任务需求:</br>打火石"
+        },
+        {
+            "name": "The one book to rule them all",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5122202840608450070.png",
+            "x": 552.0,
+            "y": 288.0,
+            "data": "This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.\n\nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking.\n\nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.\n\n[warn]Some warnings:\n\nThe extended version of the Book of Biomes from Witchery is not compatible with this tome. \n\nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]",
+            "quest_id": "XuZpnhWZRou46kensglZ6g==",
+            "tooltip": "<strong>The one book to rule them all</strong></br>前置任务需求:</br>书</br>柔软的皮革"
+        },
+        {
+            "name": "太阳之力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/62.png",
+            "x": 84.0,
+            "y": 180.0,
+            "data": "太阳的能量非常强大,为何不利用它来产生蒸汽呢?%n%n在底部加水可以产生蒸汽.与其他锅炉不同,这个锅炉只在输出口输出蒸汽.%n%n你需要来自贫瘠矿中的银来制作太阳能锅炉.在LV阶段,你可以在暮色森林中获得更多银.%n%n提示:太阳能锅炉会逐渐钙化,并随着时间推移降低效能,直到40L/s.译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~* 等到电力时代,你就能使用蒸馏水防止钙化.%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAPg==",
+            "tooltip": "<strong>太阳之力</strong></br>前置任务需求:</br>清晰的视野</br>蒸汽替代品"
+        },
+        {
+            "name": "是时候搞些逻辑电路",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/66.png",
+            "x": 456.0,
+            "y": 456.0,
+            "data": "好消息是,你现在可以进阶到下一阶段了!而坏消息则是,在开始之前,你依然必须做一大堆东西!不过不用担心,我会指导你怎么去做的!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAQg==",
+            "tooltip": "<strong>是时候搞些逻辑电路</strong></br>前置任务需求:</br>导线,奇怪?(Wired,weird?!)</br>铸模、模具、铸模"
+        },
+        {
+            "name": "工具装配台",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/741.png",
+            "x": 336.0,
+            "y": 144.0,
+            "data": "制造出耐酸铝后,为了制造更大(并且更好)的匠魂工具了,是时候制作一个工具装配台了.%n%n现在铸模不一定需要使用铁来制作;您还可以使用其他材料,例如锡或铜等.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC5Q==",
+            "tooltip": "<strong>工具装配台</strong></br>前置任务需求:</br>耐酸铝"
+        },
+        {
+            "name": "垃圾太多??",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1919.png",
+            "x": 288.0,
+            "y": 240.0,
+            "data": "那是不可能的!但如果你真的想摆脱那些多余的物品,制作一个垃圾桶吧.如果你想做个花哨装置的话,可以用一个漏斗,带上拉杆,这样就可以确保你丢进去的是真正的垃圾.我才不会告诉你我不小心把工具丢进去过呢,从来没有!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHfw==",
+            "tooltip": "<strong>垃圾太多??</strong></br>前置任务需求:</br>锤子时刻 v2.0"
+        },
+        {
+            "name": "升级:压缩机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/55.png",
+            "x": 648.0,
+            "y": 240.0,
+            "data": "一台新版的蒸汽压缩机!它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAANw==",
+            "tooltip": "<strong>升级:压缩机</strong></br>前置任务需求:</br>比铁更好</br>压缩材料</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "升级:熔炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/64.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "一台新版的蒸汽熔炉.它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAQA==",
+            "tooltip": "<strong>升级:熔炉</strong></br>前置任务需求:</br>比铁更好</br>是时候获得一些钢了!</br>用蒸汽烹饪"
+        },
+        {
+            "name": "升级:研磨机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/58.png",
+            "x": 744.0,
+            "y": 72.0,
+            "data": "一台新版的蒸汽研磨机.它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAOg==",
+            "tooltip": "<strong>升级:研磨机</strong></br>前置任务需求:</br>粉碎机 v1.0!</br>比铁更好</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "升级:燃煤锅炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/60.png",
+            "x": 48.0,
+            "y": 180.0,
+            "data": "这基本上只是对你现有的燃煤锅炉升级,但不管怎样,它产生了几乎是两倍多的蒸汽.如果你预计要做些更高阶的机器,那你最好考虑建造这台进阶的燃煤锅炉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAPA==",
+            "tooltip": "<strong>升级:燃煤锅炉</strong></br>前置任务需求:</br>蒸汽替代品</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "升级:提取机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/57.png",
+            "x": 744.0,
+            "y": 276.0,
+            "data": "一台新版的蒸汽提取机!它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍速.%n%n你会想要合成这个家伙的,因为这台提取机也确实地在提取走你的烦躁...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAOQ==",
+            "tooltip": "<strong>升级:提取机</strong></br>前置任务需求:</br>提取原料</br>比铁更好</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "升级:锻造锤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/56.png",
+            "x": 336.0,
+            "y": 192.0,
+            "data": "一台新版的蒸汽锻造锤!它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAOA==",
+            "tooltip": "<strong>升级:锻造锤</strong></br>前置任务需求:</br>比铁更好</br>锤子时刻 v2.0</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "升级:高速合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/47.png",
+            "x": 192.0,
+            "y": 12.0,
+            "data": "就像大多数的机器一样,这里有个更高阶的合金炉.它消耗的蒸汽总量和前辈相同,但速度是前辈的两倍.%n%n请记住,这台机器需要大量的蒸汽,所以你最好在锅炉、管道或者储罐中存储足够的蒸汽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAALw==",
+            "tooltip": "<strong>升级:高速合金</strong></br>前置任务需求:</br>比铁更好</br>是时候获得一些钢了!</br>更多高级合金"
+        },
+        {
+            "name": "升级!升级!升级!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/596.png",
+            "x": 252.0,
+            "y": 312.0,
+            "data": "升级你的工具.把你的工具采掘等级解锁到红石或黑曜石.  记住,更换一个新的工具头,其采掘等级会是低一等级的,所以你需要充分使用它,才能将其采掘等级提升为合适等级.  去吧,挖平一座山或是别的什么吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACVA==",
+            "tooltip": "<strong>升级!升级!升级!</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "升级抽屉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1987.png",
+            "x": 132.0,
+            "y": 444.0,
+            "data": "抽屉升级不同于桶升级.首先你需要制作升级模板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHww==",
+            "tooltip": "<strong>升级抽屉</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "用蒸汽烹饪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/63.png",
+            "x": 12.0,
+            "y": 72.0,
+            "data": "它的处理速度并不快,但比普通熔炉效率更高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAPw==",
+            "tooltip": "<strong>用蒸汽烹饪</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "欢迎来玩林业MOD",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/586.png",
+            "x": 648.0,
+            "y": 324.0,
+            "data": "你想要做一个自动化的农场、树场或者养殖蜜蜂？想要用林业工作台简化合成?那么到这一章就对了!你需要书架来解锁任务,重启压缩机!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACSg==",
+            "tooltip": "<strong>欢迎来玩林业MOD</strong></br>前置任务需求:</br>书"
+        },
+        {
+            "name": "欢迎来到第0.5阶,蒸汽!",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/44.png",
+            "x": 84.0,
+            "y": 72.0,
+            "data": "欢迎,到目前为止做得很好!在本阶段你将拥有你的第一台机器,获得更多矿物产物,并且可以更有效率地制作青铜锭.%n%n至于水源问题,查看多方块栏中的\"缺水危机\"任务.%n%n要用管道连接你的锅炉,请确保从底部供水,底部只会接收水,而不会输出蒸汽,这样就不用担心管道被融化了. 木质管道就能胜任此事.确保你的水源源不绝[warn]因为直接向炽热的干锅炉加水将导致爆炸![/warn]%n%n蒸汽会从侧面输出.记住,蒸汽是很烫的!它会摧毁木质管道,所以你得换成青铜管道,而且如果你碰到充满蒸汽的管道,将会被烫伤.用木板或纸盖住它们.或者不要在其上或周围行走.%n%n另外,这些蒸汽机器没有自带自动化输出,如果要GUI中的功能,你得做个用电的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAALA==",
+            "tooltip": "<strong>欢迎来到第0.5阶,蒸汽!</strong></br>前置任务需求:</br>继续前进"
+        },
+        {
+            "name": "哪个工程师不想要一个便携的工作台?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2407.png",
+            "x": 288.0,
+            "y": 276.0,
+            "data": "这种背包牺牲了一部分空间,为你提供了便携式的工作台.你必须将要制作的物品放入背包.而正因为这一点,你可以用它快速合成大量物品.%n%n稍后,你也可以用库存较大的林业工作台进行相同的操作.当你到达MV阶段,你可以选择一种探险背包,它有一对水槽以存储流体.%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJZw==",
+            "tooltip": "<strong>哪个工程师不想要一个便携的工作台?</strong></br>前置任务需求:</br>这么多东西往哪放？"
+        },
+        {
+            "name": "我该怎么存储这么多流体?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/84.png",
+            "x": 744.0,
+            "y": 156.0,
+            "data": "使用全新的合金炉,你可以把两种材料结合起来.如果把黑曜石粉和玻璃搅拌起来会发生什么？黑曜石玻璃,很棒.你可以做的第一个储罐是BC储罐.这种储罐可以容纳16桶的单一液体.这些储罐可以升级,这样就能容纳最多64桶液体了. 你还可以堆叠它们以提高储量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAVA==",
+            "tooltip": "<strong>我该怎么存储这么多流体?</strong></br>前置任务需求:</br>清晰的视野"
+        },
+        {
+            "name": "导线,奇怪?(Wired,weird?!)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/67.png",
+            "x": 576.0,
+            "y": 456.0,
+            "data": "你应该记住如何制作导线和线缆,它们是制造机器最基础的两种材料.一般来说,你只需用剪线钳将金属板剪成导线就行了.这种方法效率不高,但以后会有更好的办法.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAQw==",
+            "tooltip": "<strong>导线,奇怪?(Wired,weird?!)</strong></br>前置任务需求:</br>绝缘线缆"
+        },
+        {
+            "name": "线材轧机v0.2测试版",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/493.png",
+            "x": 456.0,
+            "y": 72.0,
+            "data": "小型齿轮需要用剪线钳制造,所以让我们制作一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB7Q==",
+            "tooltip": "<strong>线材轧机v0.2测试版</strong></br>前置任务需求:</br>一种非常重要的合金"
+        },
+        {
+            "name": "绝缘线缆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/69.png",
+            "x": 696.0,
+            "y": 456.0,
+            "data": "使用没有绝缘的导线似乎是一个坏主意.现在你有一个提取机,可以从粘性树脂提取生橡胶,还有一个合金炉,可以用硫对其进行深加工.你应该合成一些橡胶条.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAARQ==",
+            "tooltip": "<strong>绝缘线缆</strong></br>前置任务需求:</br>如何制作橡胶"
+        },
+        {
+            "name": "铁质弩箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1156.png",
+            "x": 420.0,
+            "y": 144.0,
+            "data": "光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、耐酸铝或者钢装上你的箭头.%n更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n[warn]升级[/warn]:%n[note]下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEhA==",
+            "tooltip": "<strong>铁质弩箭</strong></br>前置任务需求:</br>木弩"
+        },
+        {
+            "name": "木弩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1151.png",
+            "x": 384.0,
+            "y": 144.0,
+            "data": "现在你可以制作更好的远程武器了. 使用木制的弩身和弩臂,并使用黑曜石坚韧绑定结(耐久III)来让弩更加坚固. 弩弦用用普通的材料制作就可以.%n%n在你的工具装配台上将这些部件组装起来.%n%n[warn]升级:[/warn]%n[note]红石-拉弓速度%n青金石-抢夺%n苔藓球-自我修复(这个在NEI中不会显示合成表,除非你解锁了魔导手册GTNH栏的相应研究)[/note]%n%n注意:某些怪物需要使用特定工具才能产生伤害.如果你怎么打它都不掉血,赶紧跑!!!然后找出哪种武器最适合杀死它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEfw==",
+            "tooltip": "<strong>木弩</strong></br>前置任务需求:</br>工具装配台"
+        },
+        {
+            "name": "工作台2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/576.png",
+            "x": 648.0,
+            "y": 276.0,
+            "data": "一个强化的手动工作台,但是这个工作台可以记住之前的9个合成表. 左键点击右侧的合成表可以提取合成配方. 右键点击可以锁定合成表.%n%n合成所使用的物品可以放置到GUI下方的物品缓存区内. 工作台上面的制作矩阵仅仅是视觉效果,并没有实际用途.%n%n这种林业工作台非常有用,可以大大简化合成工作,它还会自动使用缓存区中的工具参与合成.%n%n特别的:%n用<一桶Y>合成<物品X>时-将所有原料放入工作台,选择好合成表,Shift+左键点击成品就可以全部合成完毕(耗尽库存内原料)%n合成潘马斯的淡水-与上面类似,但没有第二物品%n合成粘土砖-木模具会自动重复使用%n合成任意使用工具的物品-工具也会自动重复使用并消耗耐久.%n%n[warn]警告：工作台被破坏时,存储的合成表将会丢失!为了避免这种情况,请用手推车搬动它.[/warn]%n%n[note]更多林业mod的任务请看专门的任务栏.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACQA==",
+            "tooltip": "<strong>工作台2.0</strong></br>前置任务需求:</br>欢迎来玩林业MOD"
+        },
+        {
+            "name": "你的第一个电子电路",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/68.png",
+            "x": 456.0,
+            "y": 528.0,
+            "data": "蒸汽机有够蠢的,它们只是不断重复地做一件事情.当进入到电力时代,你便决定了要让机器有更多功能,比如自动输出,以进行一些自动化.为此,你需要更多的电子电路.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAARA==",
+            "tooltip": "<strong>你的第一个电子电路</strong></br>前置任务需求:</br>是时候搞些逻辑电路</br>电路基板2</br>电阻1"
+        },
+        {
+            "name": "你妈妈说你得升级抽屉了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1988.png",
+            "x": 96.0,
+            "y": 444.0,
+            "data": "抽屉有许多升级等级.制作一些铁、金等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,在你的基地实验实验这些特殊升级吧.查看NEI获知黑曜石、绿宝石、钻石等更多抽屉升级.%n%n[warn]想要移除升级,空手Shift+右键抽屉打开升级GUI.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHxA==",
+            "tooltip": "<strong>你妈妈说你得升级抽屉了</strong></br>前置任务需求:</br>升级抽屉"
+        }
+    ],
+    "links": [
+        {
+            "source": "书",
+            "target": "更好的寻找物品方式"
+        },
+        {
+            "source": "熔炼!",
+            "target": "加速植物生长速度"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "清晰的视野"
+        },
+        {
+            "source": "比铁更好",
+            "target": "高级太阳能锅炉"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "高级太阳能锅炉"
+        },
+        {
+            "source": "太阳之力",
+            "target": "高级太阳能锅炉"
+        },
+        {
+            "source": "哦!闪闪发光(不是白金!)",
+            "target": "一个适合做国王的傻瓜"
+        },
+        {
+            "source": "熔炼!",
+            "target": "耐酸铝"
+        },
+        {
+            "source": "我该怎么存储这么多流体?",
+            "target": "Java的另一个用途,呃,我是说岩浆(Lava)"
+        },
+        {
+            "source": "蒸汽替代品",
+            "target": "Java的另一个用途,呃,我是说岩浆(Lava)"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "Java的另一个用途,呃,我是说岩浆(Lava)"
+        },
+        {
+            "source": "熔炼!",
+            "target": "完全不同的存储"
+        },
+        {
+            "source": "更多高级合金",
+            "target": "一种非常重要的合金"
+        },
+        {
+            "source": "压缩材料",
+            "target": "桶升级"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "桶升级"
+        },
+        {
+            "source": "桶升级",
+            "target": "桶升级 T2"
+        },
+        {
+            "source": "桶升级 T2",
+            "target": "桶升级 T3"
+        },
+        {
+            "source": "桶升级 T3",
+            "target": "桶升级 T4"
+        },
+        {
+            "source": "桶升级 T4",
+            "target": "桶升级 T5"
+        },
+        {
+            "source": "导线,奇怪?(Wired,weird?!)",
+            "target": "基础制作:机器外壳"
+        },
+        {
+            "source": "比铁更好",
+            "target": "基础制作:机器外壳"
+        },
+        {
+            "source": "导线,奇怪?(Wired,weird?!)",
+            "target": "基础制作:马达"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "基础制作:马达"
+        },
+        {
+            "source": "基础制作:机器外壳",
+            "target": "基础制作:转子"
+        },
+        {
+            "source": "我该怎么存储这么多流体?",
+            "target": "更好的水槽...铁储罐"
+        },
+        {
+            "source": "熔炼!",
+            "target": "比铁更好"
+        },
+        {
+            "source": "压缩材料",
+            "target": "熔炼!"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "熔炼!"
+        },
+        {
+            "source": "压缩材料",
+            "target": "书"
+        },
+        {
+            "source": "漏斗",
+            "target": "Bowl full of spaghetti(碗里堆满了意大利面)"
+        },
+        {
+            "source": "是时候搞些逻辑电路",
+            "target": "电路基板2"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "压缩材料"
+        },
+        {
+            "source": "工具装配台",
+            "target": "一次砍一个原木已经过气了"
+        },
+        {
+            "source": "清晰的视野",
+            "target": "提取原料"
+        },
+        {
+            "source": "压缩材料",
+            "target": "额外的强化"
+        },
+        {
+            "source": "哦!闪闪发光(不是白金!)",
+            "target": "额外的强化"
+        },
+        {
+            "source": "熔炼!",
+            "target": "工厂的铁门"
+        },
+        {
+            "source": "下界",
+            "target": "燃烧的笨蛋"
+        },
+        {
+            "source": "熔炼!",
+            "target": "打火石"
+        },
+        {
+            "source": "导线,奇怪?(Wired,weird?!)",
+            "target": "GT6型导线和线缆"
+        },
+        {
+            "source": "粉碎机 v1.0!",
+            "target": "石膏"
+        },
+        {
+            "source": "一个铁砧...最好做两个!",
+            "target": "锤子时刻 v2.0"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "漏斗"
+        },
+        {
+            "source": "熔炼!",
+            "target": "这么多东西往哪放？"
+        },
+        {
+            "source": "提取原料",
+            "target": "如何制作橡胶"
+        },
+        {
+            "source": "下界",
+            "target": "如何制作橡胶"
+        },
+        {
+            "source": "工厂的铁门",
+            "target": "如何打开铁门?"
+        },
+        {
+            "source": "清晰的视野",
+            "target": "我不怕没鬼!"
+        },
+        {
+            "source": "比铁更好",
+            "target": "我知道他的名字!"
+        },
+        {
+            "source": "橡胶片1",
+            "target": "我知道他的名字!"
+        },
+        {
+            "source": "橡胶片1",
+            "target": "这是一项肮脏的工作,但你得去干"
+        },
+        {
+            "source": "修理你的防化服",
+            "target": "雅克·库斯托"
+        },
+        {
+            "source": "升级抽屉",
+            "target": "你的心灵之匙"
+        },
+        {
+            "source": "粉碎机 v1.0!",
+            "target": "青金岩、青金石、方纳石、方解石"
+        },
+        {
+            "source": "青金岩、青金石、方纳石、方解石",
+            "target": "青金石代表的是幸运？"
+        },
+        {
+            "source": "比铁更好",
+            "target": "点燃制炭之路"
+        },
+        {
+            "source": "打火石",
+            "target": "点燃制炭之路"
+        },
+        {
+            "source": "下界",
+            "target": "路西法(堕落天使)的小帮手"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "粉碎机 v1.0!"
+        },
+        {
+            "source": "做些更好的工具",
+            "target": "粉碎机 v1.0!"
+        },
+        {
+            "source": "压缩材料",
+            "target": "制作清单,反复检查"
+        },
+        {
+            "source": "工具装配台",
+            "target": "慢慢挖土已经过气了"
+        },
+        {
+            "source": "熔炼!",
+            "target": "铸模、模具、铸模"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "更多高级合金"
+        },
+        {
+            "source": "熔炼!",
+            "target": "移动你的储罐、箱子和桶"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "移动你的储罐、箱子和桶"
+        },
+        {
+            "source": "提取原料",
+            "target": "泥巴,也能用来美容"
+        },
+        {
+            "source": "熔炼!",
+            "target": "多方块革命"
+        },
+        {
+            "source": "下界",
+            "target": "石英能让武器变得锋利!"
+        },
+        {
+            "source": "下界",
+            "target": "新的获得萤石的渠道"
+        },
+        {
+            "source": "如何制作橡胶",
+            "target": "下界之树真棒"
+        },
+        {
+            "source": "压缩材料",
+            "target": "一个铁砧...最好做两个!"
+        },
+        {
+            "source": "工具装配台",
+            "target": "一格一格挖矿已经过气了"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "哦!闪闪发光(不是白金!)"
+        },
+        {
+            "source": "橡胶片1",
+            "target": "什么？污染!"
+        },
+        {
+            "source": "铸模、模具、铸模",
+            "target": "抽水"
+        },
+        {
+            "source": "升级!升级!升级!",
+            "target": "强化X？牢不可破!"
+        },
+        {
+            "source": "什么？污染!",
+            "target": "修理你的防化服"
+        },
+        {
+            "source": "导线,奇怪?(Wired,weird?!)",
+            "target": "电阻1"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "橡胶片1"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "橡胶软锤"
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "安全第一"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "史莱姆空岛之旅"
+        },
+        {
+            "source": "你的第一个电子电路",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "基础制作:马达",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "基础制作:转子",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "蒸汽替代品"
+        },
+        {
+            "source": "熔炼!",
+            "target": "钢箱子?"
+        },
+        {
+            "source": "线材轧机v0.2测试版",
+            "target": "驯服豹猫才能交朋友"
+        },
+        {
+            "source": "压缩材料",
+            "target": "冷酷的家伙"
+        },
+        {
+            "source": "熔炼!",
+            "target": "GT储罐,ULV版"
+        },
+        {
+            "source": "线材轧机v0.2测试版",
+            "target": "什么鬼东西？"
+        },
+        {
+            "source": "压缩材料",
+            "target": "铁家伙"
+        },
+        {
+            "source": "打火石",
+            "target": "下界"
+        },
+        {
+            "source": "书",
+            "target": "The one book to rule them all"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "The one book to rule them all"
+        },
+        {
+            "source": "清晰的视野",
+            "target": "太阳之力"
+        },
+        {
+            "source": "蒸汽替代品",
+            "target": "太阳之力"
+        },
+        {
+            "source": "导线,奇怪?(Wired,weird?!)",
+            "target": "是时候搞些逻辑电路"
+        },
+        {
+            "source": "铸模、模具、铸模",
+            "target": "是时候搞些逻辑电路"
+        },
+        {
+            "source": "耐酸铝",
+            "target": "工具装配台"
+        },
+        {
+            "source": "锤子时刻 v2.0",
+            "target": "垃圾太多??"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:压缩机"
+        },
+        {
+            "source": "压缩材料",
+            "target": "升级:压缩机"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:压缩机"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:熔炉"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:熔炉"
+        },
+        {
+            "source": "用蒸汽烹饪",
+            "target": "升级:熔炉"
+        },
+        {
+            "source": "粉碎机 v1.0!",
+            "target": "升级:研磨机"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:研磨机"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:研磨机"
+        },
+        {
+            "source": "蒸汽替代品",
+            "target": "升级:燃煤锅炉"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:燃煤锅炉"
+        },
+        {
+            "source": "提取原料",
+            "target": "升级:提取机"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:提取机"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:提取机"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:锻造锤"
+        },
+        {
+            "source": "锤子时刻 v2.0",
+            "target": "升级:锻造锤"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:锻造锤"
+        },
+        {
+            "source": "比铁更好",
+            "target": "升级:高速合金"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "升级:高速合金"
+        },
+        {
+            "source": "更多高级合金",
+            "target": "升级:高速合金"
+        },
+        {
+            "source": "熔炼!",
+            "target": "升级!升级!升级!"
+        },
+        {
+            "source": "熔炼!",
+            "target": "升级抽屉"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "用蒸汽烹饪"
+        },
+        {
+            "source": "书",
+            "target": "欢迎来玩林业MOD"
+        },
+        {
+            "source": "继续前进",
+            "target": "欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "source": "这么多东西往哪放？",
+            "target": "哪个工程师不想要一个便携的工作台?"
+        },
+        {
+            "source": "清晰的视野",
+            "target": "我该怎么存储这么多流体?"
+        },
+        {
+            "source": "绝缘线缆",
+            "target": "导线,奇怪?(Wired,weird?!)"
+        },
+        {
+            "source": "一种非常重要的合金",
+            "target": "线材轧机v0.2测试版"
+        },
+        {
+            "source": "如何制作橡胶",
+            "target": "绝缘线缆"
+        },
+        {
+            "source": "木弩",
+            "target": "铁质弩箭"
+        },
+        {
+            "source": "工具装配台",
+            "target": "木弩"
+        },
+        {
+            "source": "欢迎来玩林业MOD",
+            "target": "工作台2.0"
+        },
+        {
+            "source": "是时候搞些逻辑电路",
+            "target": "你的第一个电子电路"
+        },
+        {
+            "source": "电路基板2",
+            "target": "你的第一个电子电路"
+        },
+        {
+            "source": "电阻1",
+            "target": "你的第一个电子电路"
+        },
+        {
+            "source": "升级抽屉",
+            "target": "你妈妈说你得升级抽屉了"
+        }
+    ]
+}

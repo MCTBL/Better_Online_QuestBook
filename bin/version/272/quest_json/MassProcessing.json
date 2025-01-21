@@ -1,0 +1,1028 @@
+{
+    "data": [
+        {
+            "name": "进阶装配线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5847927107856321162.png",
+            "x": 216.0,
+            "y": -72.0,
+            "data": "这是GigaGramFab添加的进阶装配线.%n%n这个装配线支持流水线式操作,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.你可以认为一条进阶装配线是由数个装配片组成的,每个装配片都可以独立于其它片处理每一步.当输入总线内物品与任意闪存吻合时,装配线将开始工作.第一片将会消耗输入总线#1内的物品.经过(配方时间/输入物品种类数)时间后,第一片的工作完成,第二片开始工作.与此同时,第一片将会在输入总线#1内寻找材料.如果材料足够,则第一片将再次工作.%n%n当所有工作完成时,终端片(第n片,n为配方要求输入物品种类数)将会在输出总线处输出产品,非终端片在工作完成后,将自动尝试让下一片工作,如果下一片的输入总线中没有足够的材料,完成工作的片将会保持[warn]堵塞[/warn]状态,并使装配线进入\"挂起\"状态.为方便定位,处于\"挂起\"状态的装配线,其控制器的正面指示灯将会变为橙色.%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t.[warn]堵塞[/warn]片不会消耗能量,最低等级能源仓的输入电压,决定了配方等级和常规超频上限.安装激光仓,可在常规超频基础上,再进行激光超频,但会消耗比常规有损超频更多的能量.每激光超频一次,都会增加0.3倍的能量损耗,一次激光超频使配方时间减少到50%%,使用430%%的能量.两次激光超频使配方时间减少到25%%,使用1978%%的能量.无法超频到1tick以下.机器会首先尝试并行,然后尝试常规有损超频,最后尝试激光超频.",
+            "quest_id": "ZIotzqvnRiKu1_1Hb9i1dg==",
+            "tooltip": "<strong>进阶装配线</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>装配线</br>第6阶段(LuV)"
+        },
+        {
+            "name": "进阶化尘为晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6902980861914057189.png",
+            "x": 144.0,
+            "y": -144.0,
+            "data": "工业高压釜可以在LuV阶段制造. 这是一台巨大的、有着许多乘区的多方块机器 - 而且相当强大. 你会需要一台来加工晶体电路需要的晶体芯片的. %n%n[note]线圈, 管道方块和物品管道方块对这台机器的乘区都十分重要. 使用你能得到的最高等级方块吧![/note]",
+            "quest_id": "_dFgSThoQTWgM696ykr2Gw==",
+            "tooltip": "<strong>进阶化尘为晶</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>第6阶段(LuV)"
+        },
+        {
+            "name": "滥砍滥伐的终结",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6915086947092752744.png",
+            "x": 240.0,
+            "y": 60.0,
+            "data": "这台多方块机器是获取大量木材的完美解决方案.您是否在为木炭或者苯发电时所需的大量木材发愁?您是否苦于无法获取大量坚果来榨取种子油?亦或者因为装饰性树叶的来源而大伤脑筋?踏破铁鞋无觅处,得来全不费工夫!%n%n原木拟生场可以种植游戏内几乎全部种类的树木并且输出你砍树时会获得的正常掉落.这一切都被集成在一个3x3x3的空间中,无需忍受树木真实生长时带来的卡顿.%n%n首先,将任意一种树苗放入控制器GUI中.其次,在输入总线中放入你所需求的产物所对应的工具.最后,给机器通电,并且打开它.接着你就准备好被产物所淹没吧.%n%n树的不同部分需要不同种类的工具.%n - 锯对应木材%n - 剪枝器(GT)对应树苗%n - 剪刀对应树叶%n - 小刀对应水果%n高级工具(链锯,剪枝器(林业),...)会提供更多产出!具体请查看控制器的tooltip%n%n您甚至可以同时使用多个不同的工具,机器就能同时收获多个不同的产品!%n%n请注意,使用的工具会缓慢失去耐久值.因此,为了长期运行,你可能需要设置一些自动更换功能.%n%n[note]虽然这台机器在IV阶段就能制作,但在IV初期却相当昂贵,需要16个 ZPM电路板和一些高级合金.[/note]",
+            "quest_id": "fLH_QDPRR6mgCK0PL5iWmA==",
+            "tooltip": "<strong>滥砍滥伐的终结</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)</br>量子处理器主机</br>IV阶段多方块机器"
+        },
+        {
+            "name": "另一台多方块化学反应釜?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3210.png",
+            "x": -192.0,
+            "y": 12.0,
+            "data": "迄今为止,你可能已经建造了许多台大型化学反应釜.拥有强大4/4无损超频的大型化学反应釜是最强多方块之一.然而,如果这都无法满足你的化工产线,怎么办呢?如果一个配方的处理时间已经超频到了1t(0.05秒)以下,你就无法进一步提速了吗?%n%n别担心,我们为你提供了解决方案：巨型化学反应釜.它最高可以同时并行256大型化学反应釜配方!同时,如果你能提供足够的能量,它同样能够进行超频.%n%n由于需要7个聚变线圈方块,所以LuV才能解锁它.请查看全息投影仪,获知它的具体结构以及所需方块.%n%n玻璃等级会限制可用的能源仓等级.你甚至可以用TecTech的多A能源仓!不过,如果你想用激光仓的话,至少需要UV玻璃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMig==",
+            "tooltip": "<strong>另一台多方块化学反应釜?</strong></br>前置任务需求:</br>永无止境,大就是好!</br>第6阶段(LuV)"
+        },
+        {
+            "name": "一台蒸汽驱动的离心机!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8361079222456284577.png",
+            "x": -24.0,
+            "y": -120.0,
+            "data": "在蒸汽时代,如何对稀有材料进行离心分离?答案当然是制造和使用大型蒸汽离心机!通过使用蒸汽产生旋转力,这个多方块机器可以快速且轻松地离心不同的材料.%n%n如果你觉得离心需要很长时间,那么蒸汽分离器会加快速度!%n%n这个多方块机器可以处理最高 LV 级别的配方,并且处理需要输出仓的配方.但如果你想处理需要流体输入的配方,你将来可能需要建造一台 LV 离心机.",
+            "quest_id": "0rUmaWIPQPaL93q-_pgKXw==",
+            "tooltip": "<strong>一台蒸汽驱动的离心机!</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "基地火山",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/389.png",
+            "x": 144.0,
+            "y": 60.0,
+            "data": "生产圆石的终极机器.也可以将红石大规模转化为黑曜石,以获取可再生的硅、镁、铁和氧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABhQ==",
+            "tooltip": "<strong>基地火山</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "沐浴在电流中",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2029.png",
+            "x": 168.0,
+            "y": -72.0,
+            "data": "成百上千玻璃的最佳来源...要这些做什么呢?我不知道,还是想点有趣的用途,给我开开眼吧!%n%n工业电弧炉的\"有效\"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.%n%n这台机器还可以处理等离子电弧炉的配方.%n%n[note]这台多方块机器可以在LuV阶段制造,并且需要钍-232.[/note]%n%n译者注: 钍-232算啥,看看套娃能量核心! 不过做出来之后还是很香的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH7Q==",
+            "tooltip": "<strong>沐浴在电流中</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>第6阶段(LuV)"
+        },
+        {
+            "name": "搅拌/搅拌/巧克力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2030.png",
+            "x": 156.0,
+            "y": 276.0,
+            "data": "奶奶,你能教我们巧克力之歌吗?%n乐意之至!%n你会跟我们一起唱巧克力之歌吗?%n太棒了,跟着奶奶一起唱!%n%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n搅拌好吃的巧克力,巧克力%n搅拌好吃的巧克力,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n现在不再需要单元了,好耶!%n%n译者注:《搅拌,搅拌,巧克力》(Bate-Bate-Chocolate)是墨西哥传统儿歌.任务书原文歌词部分均为西班牙文.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH7g==",
+            "tooltip": "<strong>搅拌/搅拌/巧克力</strong></br>前置任务需求:</br>IV搅拌机</br>IV阶段多方块机器"
+        },
+        {
+            "name": "弯曲、辊压",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2038.png",
+            "x": -36.0,
+            "y": 216.0,
+            "data": "当你需要成千上万的板子时... 可通过螺丝刀切换卷板机模式和冲压机床模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH9g==",
+            "tooltip": "<strong>弯曲、辊压</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "最好的切面包机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2032.png",
+            "x": 144.0,
+            "y": 84.0,
+            "data": "当你有了一台装满了小刀的机器,你看啥都像面包了. 使用螺丝刀可切换板材切割机模式和食材切片机模式.%n%nBluebine-2019!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH8A==",
+            "tooltip": "<strong>最好的切面包机</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "赌上蒸馏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3137.png",
+            "x": 240.0,
+            "y": 12.0,
+            "data": "IV阶段带来了四种GT++多方块机器,包括蒸馏塔的升级版本,称之为丹格特蒸馏厂. 它与蒸馏塔在结构上完全相同,只是使用的控制器方块不同. 这个控制器方块的合成更加复杂,需要更昂贵的材料,并且也锁定只能用IV以上的化工厂合成,这也使得如果仅为此合成升级化工厂的话,那这个合成配方就显得更贵了.%n%n不过话说回来,丹格特解决了蒸馏塔运行缓慢的问题,而且从本质上来说,蒸馏塔是所有这些可再生资源生产线的支柱. 想要靠可再生能源获得可靠的IV/LuV电力,你还需要多少四联蒸馏塔呢?去吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMQQ==",
+            "tooltip": "<strong>赌上蒸馏</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)</br>硝基苯"
+        },
+        {
+            "name": "贝索斯的骄傲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2039.png",
+            "x": 216.0,
+            "y": 0.0,
+            "data": "亚马逊仓库是满足你所有打包需求的终极选择.小撮粉和小堆粉实在太多?这台机器为你而生.%n%n[note]这台多方块机器可以在LuV阶段制造.[/note]%n%n译者注:杰夫·贝索斯(Jeff Bezos)是亚马逊公司的CEO.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH9w==",
+            "tooltip": "<strong>贝索斯的骄傲</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "给我一大桶聚乙烯!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/876.png",
+            "x": 72.0,
+            "y": 24.0,
+            "data": "厌倦了使用小单元来处理化学品?建造一个大型化学反应釜吧,你可以直接用管道输入或输出流体,或使用大型流体单元来从输出仓运输流体.%n%n你可以选择大型化学反应釜是否销毁过多的输出物，在GUI内的销毁模式按钮进行选择。%n%n顺便说一下,某些旧配方在大型化学反应釜中变得更简单了(24号电路板,可跳过一步或多步合成).%n%n大型化学反应釜可看做超净间环境.%n%n你还需要:%n1x维护仓%n1x能源仓%n0+输入总线(如果配方需要输入物品的话,为了完全自动化,你可能需要每种材料放一个输入总线)%n0-1x输出总线(如果配方会输出物品的话)%n2+输入仓(每种流体一个输入仓)%n1+输出仓(同上)%n%n对准输出仓使用螺丝刀,可以循环切换其输出模式. 手持螺丝刀Shift+右键,可以直接切换为特定流体模式(specific-fluid-mode),然后用单元锁定输出的流体,这样自动化就会方便多了. 锁定流体适用于所有输出仓,并不仅仅支持大型化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADbA==",
+            "tooltip": "<strong>给我一大桶聚乙烯!</strong></br>前置任务需求:</br>第3阶段(HV)</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "把它装进罐子里！(Can it!)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5201462720540834507.png",
+            "x": -24.0,
+            "y": 72.0,
+            "data": "如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑下涡轮装罐机Pro.当您决定需要它时,这台多方块机器可以同时充当这两种机器,并具有显著的优势!",
+            "quest_id": "gMRufFtRRRa30LE21boFNQ==",
+            "tooltip": "<strong>把它装进罐子里！(Can it!)</strong></br>前置任务需求:</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "电路装配线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2601.png",
+            "x": 168.0,
+            "y": -168.0,
+            "data": "这些用于构建4台7片的电路装配线,足够满足一个系列的电路板制造. 如果你仅需要某个系列中的一种电路板(比如微处理器),那就把它除以4.%n%n假设你在LuV任务栏已经获得了所需的压印电路,现在就可以开始制造晶体系列的电路装配线了. 我们一上来就要求4台是因为每台电路装配线只能铭刻一次,无法移除铭刻.是的,你想用电路装配线制造的每种电路板都需要一台专用电路装配线.%n%n作为装配线,它与普通装配线的工作方式一致,每个总线按顺序提供原料,但由于是单台专用,所以用起来就容易多了,同时高阶合成表也便宜多了.%n%n电路装配线的原料是封装的,所以一次可以制造16个电路板(ULV和LV电路更多),节约时间、EU还有焊锡(或铋铅合金).在组装机中配合聚乙烯可以制造封装元件.%n%n[note]顺便一提,你可以选择安装更高级的仓/总线,不过合成时的原料顺序还是得与NEI一致.另外,电路装配线可以无损超频.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKKQ==",
+            "tooltip": "<strong>电路装配线</strong></br>前置任务需求:</br>你觉得发射器已经够糟糕了？</br>LuV及以上的大批量加工</br>LuV电路组装机</br>装配线</br>随机过程绝对是超棒的游戏设计"
+        },
+        {
+            "name": "环保的聚爆?!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7261433663633078124.png",
+            "x": 216.0,
+            "y": -168.0,
+            "data": "向你介绍更大(更好)的聚爆压缩机--电动聚爆压缩机!%n%n电动聚爆压缩机不需要任何爆炸物,是不是很好?%n%n此外,它还能根据中间使用的方块等级来获得额外的并行数(4^(等级 - 1)).%n%n等级1：中子块%n等级2：无尽之块%n等级3：超时空金属块%n等级4：时空块%n等级5：宇宙素块%n%n[note]虽然结构预览显示中间有洞,但它需要完整的 27 个方块才能形成,一旦成型,中间的 5 个方块就会消失,但破坏后会找回来(有时直接消失).[/note]%n%n[note]允许的最低能量仓等级比配方等级低一级,所以我们可以从两个UV能源仓开始.[/note]",
+            "quest_id": "IlCOpa8bR9WbOjSOPxZIlA==",
+            "tooltip": "<strong>环保的聚爆?!</strong></br>前置任务需求:</br>压缩万物</br>LuV及以上的大批量加工</br>UHV超导(2,097,152 EU/t)"
+        },
+        {
+            "name": "真男人从来不回头看爆炸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2757.png",
+            "x": 252.0,
+            "y": 252.0,
+            "data": "他们用自动化来完成.%n%n[note]这台多方块机器可以在IV阶段制造,不过还要用到铂线和ZPM电路板.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKxQ==",
+            "tooltip": "<strong>真男人从来不回头看爆炸</strong></br>前置任务需求:</br>量子处理器主机</br>IV阶段多方块机器"
+        },
+        {
+            "name": "将世界也裂解",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7508677545920872020.png",
+            "x": -96.0,
+            "y": 48.0,
+            "data": "您到底需要多少石油?或者您需要的是硅岩燃料或者拉多X?无论如何,这个庞大的多方块结构都能满足,它拥有256并行.",
+            "quest_id": "d5Fxz8ClQQCXy9GN_m9BrA==",
+            "tooltip": "<strong>将世界也裂解</strong></br>前置任务需求:</br>永无止境,大就是好!"
+        },
+        {
+            "name": "旋转,跳跃",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1423.png",
+            "x": -12.0,
+            "y": 276.0,
+            "data": "旋转,升温--听起来像一个舞蹈. 或是热力离心机. 建造一个工业热力精炼厂,以充分利用你的矿石.%n%n只要保证至少8个热处理机械方块,你就可以用噪音危险标志来代替热处理机械方块.%n%n注意消声仓安装在底层.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFjw==",
+            "tooltip": "<strong>旋转,跳跃</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "把海洋捞空",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2053.png",
+            "x": 240.0,
+            "y": 84.0,
+            "data": "为了生物柴油,很长一段时间里,你都用鱼笼捕鱼.现在,你可以建造珠海渔场,收获成吨的鱼和副产物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIBQ==",
+            "tooltip": "<strong>把海洋捞空</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "精致蚀刻",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9206015034842694688.png",
+            "x": 144.0,
+            "y": 12.0,
+            "data": "厌倦了不停更换透镜, 或者往超净间里塞十几台激光蚀刻机? 高强度激光蚀刻机正是你所需要的. 这台多方块能够处理你所有的激光蚀刻需求.%n%n通过在结构中使用更强大的激光源仓, 你可以获得更多的并行并处理更高等级的配方. %n%n[note]这台多方块必须使用硼玻璃 - 请阅读tooltip![/note]",
+            "quest_id": "uP_FwHb_QTyAPaoZ80u74A==",
+            "tooltip": "<strong>精致蚀刻</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "我们到撤离(提取)点了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7251013088481099277.png",
+            "x": 60.0,
+            "y": 276.0,
+            "data": "没有什么东西能比大型流体提取机更快地将固体变成液体-至少现在没有. 这台机器需要你制作加热和螺线管两种线圈. %n%n[note]理论上这台多方块可以在EV制造, 但它需要大量的钨钢.[/note]",
+            "quest_id": "Itn1KOiISHSbXzoDd2BB8w==",
+            "tooltip": "<strong>我们到撤离(提取)点了!</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "EV多方块",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8959971444972358643.png",
+            "x": 24.0,
+            "y": 216.0,
+            "data": "你可能已经用上了蒸汽多方块设备或者工业筛选机.但在EV,IV以及之后的电压等级中,你将解锁许多多方块机器,它们对应几乎所有的GT单方块机器.甚至还有更强大的设备.%n%n它们中的大多数和你之前的GT的处理流程相同,但是速度更快. 多方块机器有三个好处: 节省能源,更快的配方处理时间以及并行, 并行意味着在能量供应足够的情况下, 配方单次的处理时间里一次可以同时合成多个物品.%n%n这些新的多方块机器的多样性和复杂性远远超出了工业高炉、大型化学反应釜或者真空冷冻机等简单的多方块机器. 有些虽然是简单的立方体,但有些则具有更多样化的机制和工作条件.作为回报,它们是非常强大的,因此务必留意他们.",
+            "quest_id": "w5O5rPL_Q_GDp8lxWMd0DQ==",
+            "tooltip": "<strong>EV多方块</strong></br>前置任务需求:</br>第4阶段(EV)</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "适合不同模具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5744442785667642528.png",
+            "x": 168.0,
+            "y": 0.0,
+            "data": "为每种模具都制造一台流体固化器听起来很累人......幸运的是,流体成型机多方块可以通过使用固化仓来处理任意数量的模具.这种多方块机器还可以升级,如果你在两端添加额外的片,就能获得更多的并行.如果速度太慢,一定要升级它!%n%n注：大型流体固化器在运行过程中也会比单方块流体固化器更快,使其更有效地进行大批量生产.",
+            "quest_id": "6glle46JSyuwR6O4x7mLYA==",
+            "tooltip": "<strong>适合不同模具</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "冻伤!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2045.png",
+            "x": -96.0,
+            "y": 12.0,
+            "data": "这台巨型真空冷冻机可以同时处理最多256个配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH_Q==",
+            "tooltip": "<strong>冻伤!</strong></br>前置任务需求:</br>永无止境,大就是好!"
+        },
+        {
+            "name": "冻僵了...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2035.png",
+            "x": 216.0,
+            "y": 96.0,
+            "data": "我好冷啊...想要正常使用这台机器,你需要给它持续供应极寒之凛冰.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH8w==",
+            "tooltip": "<strong>冻僵了...</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)</br>量子处理器主机"
+        },
+        {
+            "name": "上帝的锻造台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2036.png",
+            "x": 168.0,
+            "y": 96.0,
+            "data": "炽焱高炉能以难以置信的速度处理物品. 想要正常使用这台机器,你需要给它持续供应烈焰之炽焱,还得配上好的线圈.%n%n[note]这台多方块机器可以在IV阶段制造,但需要两个ZPM电路板.[/note]%n%n译者注:炽焱高炉没有电压等级带来的额外炉温奖励,其余机制和工业高炉一致.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH9A==",
+            "tooltip": "<strong>上帝的锻造台</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)</br>量子处理器主机"
+        },
+        {
+            "name": "高压阶段的多方块结构",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6615881702968461094.png",
+            "x": 24.0,
+            "y": 48.0,
+            "data": "是时候扩大生产规模了!在HV阶段中,你可以使用一些新的功能强大的多方块机器.特别是大型化学反应釜,它总能无损超频.此外还有蒸馏塔,它能让你从蒸馏中获得所有副产物,而不是仅仅获得一种.",
+            "quest_id": "pKSx6HEUS0WkL6qkwo742g==",
+            "tooltip": "<strong>高压阶段的多方块结构</strong></br>前置任务需求:</br>第3阶段(HV)</br>蒸汽动力的突破"
+        },
+        {
+            "name": "绿巨人重拳粉碎!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1421.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "大规模破坏! 或者至少,可以粉碎很多很多的矿石. 建造一台工业粉碎机来处理你获得的所有矿石.在IV阶段,你可以通过升级芯片和更好的机械方块来升级它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFjQ==",
+            "tooltip": "<strong>绿巨人重拳粉碎!</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "工业3D打印机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/387.png",
+            "x": 144.0,
+            "y": 36.0,
+            "data": "需要大量的凿制方块?这台机器很适合你.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABgw==",
+            "tooltip": "<strong>工业3D打印机</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "工业焦炉1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2040.png",
+            "x": -36.0,
+            "y": 180.0,
+            "data": "已经在原木的海洋中游泳了?把这些原木变成清洁燃烧的木炭! 工业焦炉是一个3x3x3的多方块结构,运行速度比那些巨大的热解炉快多了.一个这个就可以替换掉好几个热解炉,因为它有高达24x的并行度.%n%n从现在起,你就可以让热解炉们退役了,除非还有什么非常快的配方能让它们的工作速度跟上. 例如,要将木材转化为木炭,只要提供足够的氮气,工业焦炉就能满足整个农场的需求!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH-A==",
+            "tooltip": "<strong>工业焦炉1</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "工业锻造锤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/386.png",
+            "x": 240.0,
+            "y": 36.0,
+            "data": "一台多方块锻造锤.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABgg==",
+            "tooltip": "<strong>工业锻造锤</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "IV阶段多方块机器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6208773058821867190.png",
+            "x": 192.0,
+            "y": 216.0,
+            "data": "当你到达IV机械国度,你可以组装更多的多方块机器并加速你的自动化!%n%n从IV阶段开始,大多数多方块机器都需要特殊的合金,像你之前用过的金属(在熔炉或者工业高炉中冶炼),这些特殊的合金也都需要冶炼,但是有些合金必须在合金冶炼炉中制成流体,然后需要固化.%n%n需要合金冶炼炉的多方块机器在更后面. 为了解锁它们的任务,你需要首先合成合金冶炼炉.然而,有不需要合金冶炼炉也能制作许多机器,只需要相应的IV单方块的对应机器以及一些其他资源.%n%n都在这里了...但如果你仔细查看NEI,也许还能找到更多.祝你好运!",
+            "quest_id": "RFgYQ7LAQD-p1gHMaeg5Sg==",
+            "tooltip": "<strong>IV阶段多方块机器</strong></br>前置任务需求:</br>第5阶段(IV)</br>EV多方块"
+        },
+        {
+            "name": "我想我会生病的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2028.png",
+            "x": 84.0,
+            "y": 252.0,
+            "data": "用多方块采矿场获得的数以千计的矿石可以交给工业离心机处理.%n%n译者注:别听他瞎说,根据自己的需要选择打粉-离心、洗矿-打粉-离心、洗矿-热离-打粉这些工序.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH7A==",
+            "tooltip": "<strong>我想我会生病的</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "我要的是固体不是液体!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2759.png",
+            "x": 228.0,
+            "y": 156.0,
+            "data": "有的时候我们需要的不是合金冶炼炉. 这台机器也使用线圈.%n%n请注意,这是GT合金炉的多方块版本,而不是GT++合金冶炼炉的固体版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKxw==",
+            "tooltip": "<strong>我要的是固体不是液体!</strong></br>前置任务需求:</br>IV阶段多方块机器"
+        },
+        {
+            "name": "让我制造一个新的宇宙...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2758.png",
+            "x": 240.0,
+            "y": -144.0,
+            "data": "这台多方块机器专用于生成UU-M和废料.它也是最难制造的GT++多方块机器之一,但只要让它正常运行,你就可以复制种类繁多的各种材料.%n%n[note]这台多方块机器可以在UV阶段制造.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKxg==",
+            "tooltip": "<strong>让我制造一个新的宇宙...</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>第8阶段(UV)"
+        },
+        {
+            "name": "巨型合金冶炼炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3285.png",
+            "x": -192.0,
+            "y": 48.0,
+            "data": "巨型多方块机器和GT++的邪恶结合一定是一些疯子的杰作.它是一台至多256并行的终极合金冶炼炉.使用更高级的线圈和玻璃同样会提升处理速度并降低能量消耗.%n%n玻璃的等级限制了能源仓和配方的等级.和其他多方块机器一样,UEV玻璃可以解锁所有等级,使用激光仓需要UV玻璃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM1Q==",
+            "tooltip": "<strong>巨型合金冶炼炉</strong></br>前置任务需求:</br>永无止境,大就是好!</br>UV能源仓"
+        },
+        {
+            "name": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1416.png",
+            "x": 192.0,
+            "y": 48.0,
+            "data": "或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,明白些了. 这台多方块机器可以生产更先进的多方块,以及高级焊料所需的高级合金. 它直接将金属熔炼成液体. 这台机器甚至可以更快地熔化钨之类的金属! 至少在你给工业高炉更换更高级线圈之前是这样的.%n%n[note]只接受1个能源仓.[/note]%n%n[note]现在你解锁的多方块机器大多是可选的,不过它们均为现有单方块机器的超强升级.不止提供了更快的速度,还有一些高级功能：比如无需单元即可电解化合物,一台多方块机器即可支持许多不同模头.它们还自带超净间和低重力环境.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFiA==",
+            "tooltip": "<strong>野鸭生锈臭臭(Mallard Rust Smelly)</strong></br>前置任务需求:</br>第5阶段(IV)</br>IV阶段多方块机器"
+        },
+        {
+            "name": "LuV及以上的大批量加工",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8199803816494517045.png",
+            "x": 192.0,
+            "y": -120.0,
+            "data": "当你进入 LuV 及更高电压时，可用的大规模处理多方块结构会减少，因为你会用新的系统替换旧的装置，并扩大已经建成的多方块结构。然而，在这些更高等级中仍有一些重要的升级。%n%n千万不要错过电路装配线，否则你以后会后悔的。%n%n成为真正的 GT 工程师，完成你的收藏吧！",
+            "quest_id": "ECDllKcSQ4SONHHfkfO0yw==",
+            "tooltip": "<strong>LuV及以上的大批量加工</strong></br>前置任务需求:</br>第6阶段(LuV)</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "越大越好",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2044.png",
+            "x": -192.0,
+            "y": 84.0,
+            "data": "对于一个需要炼制荒唐数量材料的人来说,这台机器是完美的.  这个机器怪兽可以同时处理256个配方.%n%n玻璃等级(比如在NEI搜索\"玻璃等级:HV\")限制了这台机器的最高能源仓等级.你甚至可以使用TecTech的多A能源仓! %n%n译者注:还可以用剪线钳右键主方块启用独立输入总线功能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH_A==",
+            "tooltip": "<strong>越大越好</strong></br>前置任务需求:</br>永无止境,大就是好!"
+        },
+        {
+            "name": "永无止境,大就是好!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8420616239779406480.png",
+            "x": -144.0,
+            "y": 48.0,
+            "data": "在HV阶段中,从技术上讲您现在有能力制造某些巨型多方块结构.这些绝对的巨无霸将把您的产能提高到前所未见的水平,但这是有代价的.这些多方块机器有两大优势：%n-它们自带256并行.%n-它们可以使用TecTech多A能源仓和激光仓,让您可以向其中注入巨大的能量。%n%n[note]要想从这些巨型多方块机器中获得真正的好处,您需要使用大量的电力来利用其超高并行数的优势--在HV阶段建造巨型工业高炉之前,请考虑一下您是否能真正充分利用这些机器...[/note]%n",
+            "quest_id": "wGINqtSuSQKLI_Yk7hAdcA==",
+            "tooltip": "<strong>永无止境,大就是好!</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "更多蒸汽,更多压力！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5991978432068446918.png",
+            "x": -24.0,
+            "y": -84.0,
+            "data": "你在蒸汽时代是怎么压缩东西的?简单,在一个地方放一堆蒸汽,在高压下,可以施加一个力来压缩东西...%n%n让我们仅仅是把它变大.有了大型蒸汽压缩机,你就可以拥有更大规模的压缩机,类似其他蒸汽多方块机器.如果你觉得压缩的配方耗时过长,这将是一个很好的解决方案.%n%n等到多方块结构成型后,请提供大量蒸汽以获得大量压缩后的物品.",
+            "quest_id": "Plg8vg0gS9Ks2Ddc5sIVOg==",
+            "tooltip": "<strong>更多蒸汽,更多压力！</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "多方块革命",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8198041923981670459.png",
+            "x": 24.0,
+            "y": -180.0,
+            "data": "你一直在使用的蒸汽机器表现良好,但总有一天你需要处理更多的物品.这时候,所谓的多方块机器就派上用场了.有多种蒸汽多方块机器可供你选择——快去看看“大规模加工”任务栏吧!%n%n这个任务栏将向你介绍一系列极其强大的多方块机器,它们可以替代你那些陈旧的单方块机器(以及一些旧的多方块机器!).这些新机器中的许多需要你处理额外的机制和要求,但绝对值得一试!%n%n在进入多方块的世界之前,你需要熟悉以下术语:%n%n超频(OC):%n如果一台机器能够处理至少为配方所需电压4倍的电压,它将会超频——导致其需要4倍的EU/t,但运行速度提高到2倍.这种情况可以多次发生!%n%n无损超频(通常表述为“超频时效率不会降低”):%n某些机器在条件允许时(或无条件)执行无损超频:在这种情况下,机器需要4倍的EU/t,但运行速度提高到4倍,从而既增加了速度又没有总EU消耗的净增量!%n%n并行(通常表述为“同时处理x个物品”):%n并行工作的机器就像在运行多个自身——也就是说,它们可以同时执行多个相同的配方,使用配方的EU/t乘以并行数.机器会[warn]优先考虑[/warn]并行这种行为而不是超频,这对你有利!并行更加高效.%n%n[note]当使用多方块机器时,如果运行过程中电力中断,你的输入物品将会永久丢失……小心![/note]",
+            "quest_id": "hEsmeH74S4aOOrROI1AHxQ==",
+            "tooltip": "<strong>多方块革命</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "大男孩大女孩的大玩具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2031.png",
+            "x": 252.0,
+            "y": 180.0,
+            "data": "我不想长大,我想跟大压模机玩.%n以防你没在NEI看过主方块的tooltip,提醒一下:你可以在工业压模机上放置多个输入总线,每个总线可放入不同的模头,进入相应总线的材料会被加工成模头对应的成品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH7w==",
+            "tooltip": "<strong>大男孩大女孩的大玩具</strong></br>前置任务需求:</br>IV阶段多方块机器"
+        },
+        {
+            "name": "精密组装机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3090.png",
+            "x": 192.0,
+            "y": 276.0,
+            "data": "精密组装机有两种模式：精密模式和常规模式.%n%n精密模式是用于制造Good-Generator这个mod中的某些先进部件.%n%n常规模式则类似多方块版本的组装机.%n%n[note]你不能借助这台多方块机器跳科技.需要通过单方块组装机或GT++多方块组装机,才能制造第一个高阶能源仓,然后才能把它安装在精密组装机上.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMEg==",
+            "tooltip": "<strong>精密组装机</strong></br>前置任务需求:</br>ASoC进阶芯片级系统</br>镀铑钯</br>铱锇合金</br>IV阶段多方块机器</br>IV能源仓"
+        },
+        {
+            "name": "气压洗涤!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8419867822017820934.png",
+            "x": -24.0,
+            "y": -156.0,
+            "data": "如果您一直在处理挖掘到的矿石,那么您一定会遇到各种各样的粉碎的矿石.由于这些矿石比较脏,您必须将其清洗干净,才能获得某些副产物.但如何清洗这些碎矿石呢?当然是使用大型蒸汽洗矿厂!只要有稳定的蒸汽供给和少量的水,你就能洗去杂质.并在短时间内得到洗净的矿石.%n%n如果你厌倦了长时间等待洗矿,那么这就是你的解决方案!%n%n这个多方块结构有两种模式,默认的洗矿机模式和简易洗矿池模式.简易洗矿池模式处理矿石的速度要快得多,但不会产生副产物.与其他多方块结构一样,可以通过机器控制器UI中的相应按钮或用螺丝刀右键单击控制器来切换模式.由于所有洗矿配方都是LV电压,因此该多方块结构可以运行所有洗矿配方.",
+            "quest_id": "zorY0c3BQuqLJp7ThOLG-g==",
+            "tooltip": "<strong>气压洗涤!</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "把所有工人赶出工作岗位",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2054.png",
+            "x": 144.0,
+            "y": -96.0,
+            "data": "大规模自动装配机可以为你组装大量的物品.这台多方块机器可以在ZPM阶段制造.%n%n[note]虽说相比精密组装机,它有许多缺点,比方说解锁时间晚、并行不高、不支持TecTech能源仓;不过有一点是它的优势:它支持双能源仓升压,合成下一阶段的物品.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIBg==",
+            "tooltip": "<strong>把所有工人赶出工作岗位</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "我们稍后再见(See You Lather)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6585475866071969942.png",
+            "x": -12.0,
+            "y": 156.0,
+            "data": "一刻也没有为建造AE系统所需的大量石英杆发愁,立马赶到现场的是工业精密车床!%n%n[note]这台多方块的速度取决于物品管道方块, 且至少需要铂等级的.[/note]",
+            "quest_id": "VJN1qfd5SjCkm7CXVd9Pag==",
+            "tooltip": "<strong>我们稍后再见(See You Lather)</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "摇起来...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1420.png",
+            "x": -24.0,
+            "y": 24.0,
+            "data": "从洗净的矿石中筛出...无论如何,工业筛选机会显著提高筛选速度.你会怎么处理这些宝石呢？%n%n[note]如果你不想用双能源仓升压的话,得再做一个机械方块.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFjA==",
+            "tooltip": "<strong>摇起来...</strong></br>前置任务需求:</br>将宝石与粉末分开</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "熔化万物...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/85.png",
+            "x": 72.0,
+            "y": 48.0,
+            "data": "...有了这项伟大的发明!只要升级供电和线圈,就可以熔炼不可胜数的物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAVQ==",
+            "tooltip": "<strong>熔化万物...</strong></br>前置任务需求:</br>高压阶段的多方块结构</br>高级电路板"
+        },
+        {
+            "name": "绕了一圈又一圈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2037.png",
+            "x": 252.0,
+            "y": 216.0,
+            "data": "想要绕地球几圈的导线?试试这个吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH9Q==",
+            "tooltip": "<strong>绕了一圈又一圈</strong></br>前置任务需求:</br>IV阶段多方块机器"
+        },
+        {
+            "name": "蒸汽搅拌机?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5681445710078694276.png",
+            "x": 72.0,
+            "y": -120.0,
+            "data": "既然可以用蒸汽和活塞来混合粉末,为什么还要使用复杂的导线和电路呢?大型蒸汽搅拌机是这些蒸汽多方块中最大的一个,可以满足您一段时间的搅拌需求,比LV单方块搅拌机有着更多的并行数.%n%n[note]该多方块机器只能处理LV级以下的配方并且无法处理流体配方.[/note]",
+            "quest_id": "WEwrzX4ZRkSxJ3M6cBesfA==",
+            "tooltip": "<strong>蒸汽搅拌机?</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "蒸汽动力的突破",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6003979525766501212.png",
+            "x": 24.0,
+            "y": -120.0,
+            "data": "您现在应该已经收集了不少单方块蒸汽机器.虽然这些机器可以帮助您处理少量材料,但总有一天您需要处理大量物品.这就是蒸汽多方块机器发挥作用的地方.%n%n虽然多方块蒸汽机器的材料成本远高于单方块,但它们也有一些优势：它们使用的蒸汽更少,而且可以并行处理配方,这意味着如果提供的蒸汽足够,一个配方循环可以同时制作多个物品.%n%n不过,它们也有一些需要注意的怪癖：%n%n-这些多方块需要非常特殊的I/O方块,只能使用任务中的显示的那些方块.%n%n-它们最多可以加工8件物品,基础等级的机器由青铜制成,而高压等级由钢制成(查看NEI中的多方块预览,它会显示不同的等级).%n-如果你正在看着控制器方块,可以通过WAILA查看机器的等级和并行处理的数量.%n%n[note]通过这个任务,你已经开始了大规模生产之旅.不过,先别高兴得太早.虽然一些多方块机器在蒸汽时代就可以制作,但大多数的多方块机器还是只有在EV或更高电压等级才能解锁,其中也包括这些蒸汽多方块机器的加强版.",
+            "quest_id": "quLxATDCQFWsrZRuh_gspA==",
+            "tooltip": "<strong>蒸汽动力的突破</strong></br>前置任务需求:</br>多方块革命"
+        },
+        {
+            "name": "蒸汽猛击!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7512596816828408986.png",
+            "x": 72.0,
+            "y": -156.0,
+            "data": "锻造锤的速度已经相当快了,为什么不制造这个升级版,让它变得更快?有了大型蒸汽锻造锤,你就可以在任何材料上充分释放蒸汽的力量.你可以看到方块分崩离析,各种杆被挤在一起,速度比以往任何时候都快----至少在你获得更先进的技术之前是这样.%n%n这台大型蒸汽锻造锤只能处理LV等级及以下的配方.",
+            "quest_id": "s6AEHSKiQe2XveT_oDZbZg==",
+            "tooltip": "<strong>蒸汽猛击!</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "热气腾腾的粉碎机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2764.png",
+            "x": 72.0,
+            "y": -84.0,
+            "data": "它是你值得信赖的蒸汽研磨机的多方块版本.%n%n作为一个3x3的多方块结构,如果你在蒸汽时代,它的造价可能很贵.但是平均每个矿石的加工时间非常短,你可以用它来维持初级的矿物处理系统.%n%n它会被HV研磨机淘汰, 因为HV研磨机解锁了额外的输出槽来输出研磨的副产物, 而蒸汽研磨机只会产出第一格的主要产物. 不过HV之前,它都很管用!  %n%n蒸汽研磨机只能处理最高LV等级的配方.%n%n 中文WIKI 大型蒸汽研磨机：[url]https://gtnh.huijiwiki.com/p/128[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKzA==",
+            "tooltip": "<strong>热气腾腾的粉碎机</strong></br>前置任务需求:</br>蒸汽动力的突破"
+        },
+        {
+            "name": "提取万物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8917357558952918000.png",
+            "x": -24.0,
+            "y": 48.0,
+            "data": "您可能有一段时间没有在意过提取机了.您的蒸汽提取机是否还在某个地方积灰?好吧.但如果您需要快速提取物品(可能是处理成吨花?),使用工业提取机好了.%n%n[note]根据管道方块的不同等级获取更多的并行,因此尽量使用您能制作的最好的管道方块.[/note]",
+            "quest_id": "XA467S8MQtCEPy6L23eEEA==",
+            "tooltip": "<strong>提取万物</strong></br>前置任务需求:</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "洗矿厂里的矿石...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1422.png",
+            "x": 24.0,
+            "y": 276.0,
+            "data": "...周而复始,24小时运作. 一个大型的洗矿厂可以将你的矿石变得干净又整洁. 通过螺丝刀可切换洗矿/简易洗矿模式和化学浸洗模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFjg==",
+            "tooltip": "<strong>洗矿厂里的矿石...</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "巴比伦塔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2320.png",
+            "x": -96.0,
+            "y": 84.0,
+            "data": "嗯...如果将64个蒸馏塔合为一座会发生什么...?你懂的...你会得到一个61层高的多方块结构.%n%n此多方块机器一次最多可以处理256个配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJEA==",
+            "tooltip": "<strong>巴比伦塔</strong></br>前置任务需求:</br>永无止境,大就是好!"
+        },
+        {
+            "name": "压力之下",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7108514021348170205.png",
+            "x": -36.0,
+            "y": 252.0,
+            "data": "更大,更好,更快!这台大型电动压缩机和你预料的差不多.",
+            "quest_id": "qDZZLi21TrmdWXwo_KimIw==",
+            "tooltip": "<strong>压力之下</strong></br>前置任务需求:</br>EV多方块"
+        },
+        {
+            "name": "...借助科学的力量!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7992749153415472519.png",
+            "x": 240.0,
+            "y": -96.0,
+            "data": "这个多方块结构可以让您使用质量发生器制造的所有UU物质，并不是说您没有其他东西可以用它来做...%n%n[note]这是一个UV的多方块结构.[/note]",
+            "quest_id": "bLAFkZX-RHGRFAz-C93aeQ==",
+            "tooltip": "<strong>...借助科学的力量!</strong></br>前置任务需求:</br>LuV及以上的大批量加工</br>第8阶段(UV)"
+        },
+        {
+            "name": "你闻起来像掉到了酒桶里!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/768.png",
+            "x": 72.0,
+            "y": 72.0,
+            "data": "在你处理裂解燃料或热解炉配方时,这个狠角色会极大地提高副产率.如此一来你就可以更有效率的制造工业TNT、塑料、聚四氟乙烯,以及其他塑料产品.你也需要这台机器来完成你的铂线.%n%n你需要在超净间中制造EV电路板,然后才能制做这台机器.%n%n至于仓室,你可以自由选择.一个MV能源仓就可以胜任大多数有用的配方.两个MV能源仓或者一个HV能源仓就可以覆盖除了污染物或丙酮外几乎所有的配方.%n%n你还需要一个输入仓、至少五个输出仓,以及一个输出总线用于收集那些固体产出.%n%n[note]PS：我在数据表格里列出了所有的蒸馏塔配方,这样你查看起来会更加方便. 现在你可以轻易比较选择处理石油的路线了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADAA==",
+            "tooltip": "<strong>你闻起来像掉到了酒桶里!</strong></br>前置任务需求:</br>第3阶段(HV)</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "得把它们分得远远的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9064898237805017210.png",
+            "x": 228.0,
+            "y": 276.0,
+            "data": "当您需要将你的磁体极化或将带磁性的矿物与其他部分分离时,请使用 MFE！这种多方块机器需要将电磁铁放入其仓室中--更好的电磁铁将带来更强的增益.不过,在 IV 阶段中您将只能使用铁制电磁铁.%n%n[note]在放入最高级电磁铁的时候,你可以在这台机器上使用来自TecTech多安能源仓.在加工某种磁性材料时,不妨记住这一点...[/note]",
+            "quest_id": "bkEol9zuRiiCMwMUopFHhg==",
+            "tooltip": "<strong>得把它们分得远远的</strong></br>前置任务需求:</br>IV阶段多方块机器"
+        },
+        {
+            "name": "嗞...嗞...嗞...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2034.png",
+            "x": 132.0,
+            "y": 252.0,
+            "data": "需要大量的氧和氢,或是只是想要电解材料获得成吨的铝?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH8g==",
+            "tooltip": "<strong>嗞...嗞...嗞...</strong></br>前置任务需求:</br>IV阶段多方块机器"
+        }
+    ],
+    "links": [
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "进阶装配线"
+        },
+        {
+            "source": "装配线",
+            "target": "进阶装配线"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "进阶装配线"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "进阶化尘为晶"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "进阶化尘为晶"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "滥砍滥伐的终结"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "滥砍滥伐的终结"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "滥砍滥伐的终结"
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "另一台多方块化学反应釜?"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "另一台多方块化学反应釜?"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "一台蒸汽驱动的离心机!"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "基地火山"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "沐浴在电流中"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "沐浴在电流中"
+        },
+        {
+            "source": "IV搅拌机",
+            "target": "搅拌/搅拌/巧克力"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "搅拌/搅拌/巧克力"
+        },
+        {
+            "source": "EV多方块",
+            "target": "弯曲、辊压"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "最好的切面包机"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "赌上蒸馏"
+        },
+        {
+            "source": "硝基苯",
+            "target": "赌上蒸馏"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "贝索斯的骄傲"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "给我一大桶聚乙烯!"
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "给我一大桶聚乙烯!"
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "把它装进罐子里！(Can it!)"
+        },
+        {
+            "source": "你觉得发射器已经够糟糕了？",
+            "target": "电路装配线"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "电路装配线"
+        },
+        {
+            "source": "LuV电路组装机",
+            "target": "电路装配线"
+        },
+        {
+            "source": "装配线",
+            "target": "电路装配线"
+        },
+        {
+            "source": "随机过程绝对是超棒的游戏设计",
+            "target": "电路装配线"
+        },
+        {
+            "source": "压缩万物",
+            "target": "环保的聚爆?!"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "环保的聚爆?!"
+        },
+        {
+            "source": "UHV超导(2,097,152 EU/t)",
+            "target": "环保的聚爆?!"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "真男人从来不回头看爆炸"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "真男人从来不回头看爆炸"
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "将世界也裂解"
+        },
+        {
+            "source": "EV多方块",
+            "target": "旋转,跳跃"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "把海洋捞空"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "精致蚀刻"
+        },
+        {
+            "source": "EV多方块",
+            "target": "我们到撤离(提取)点了!"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV多方块"
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "EV多方块"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "适合不同模具"
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "冻伤!"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "冻僵了..."
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "冻僵了..."
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "上帝的锻造台"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "上帝的锻造台"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "高压阶段的多方块结构"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "高压阶段的多方块结构"
+        },
+        {
+            "source": "EV多方块",
+            "target": "绿巨人重拳粉碎!"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "工业3D打印机"
+        },
+        {
+            "source": "EV多方块",
+            "target": "工业焦炉1"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "工业锻造锤"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "IV阶段多方块机器"
+        },
+        {
+            "source": "EV多方块",
+            "target": "IV阶段多方块机器"
+        },
+        {
+            "source": "EV多方块",
+            "target": "我想我会生病的"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "我要的是固体不是液体!"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "让我制造一个新的宇宙..."
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "让我制造一个新的宇宙..."
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "巨型合金冶炼炉"
+        },
+        {
+            "source": "UV能源仓",
+            "target": "巨型合金冶炼炉"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "LuV及以上的大批量加工"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "LuV及以上的大批量加工"
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "越大越好"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "永无止境,大就是好!"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "更多蒸汽,更多压力！"
+        },
+        {
+            "source": "熔炼!",
+            "target": "多方块革命"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "大男孩大女孩的大玩具"
+        },
+        {
+            "source": "ASoC进阶芯片级系统",
+            "target": "精密组装机"
+        },
+        {
+            "source": "镀铑钯",
+            "target": "精密组装机"
+        },
+        {
+            "source": "铱锇合金",
+            "target": "精密组装机"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "精密组装机"
+        },
+        {
+            "source": "IV能源仓",
+            "target": "精密组装机"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "气压洗涤!"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "把所有工人赶出工作岗位"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "把所有工人赶出工作岗位"
+        },
+        {
+            "source": "EV多方块",
+            "target": "我们稍后再见(See You Lather)"
+        },
+        {
+            "source": "将宝石与粉末分开",
+            "target": "摇起来..."
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "摇起来..."
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "熔化万物..."
+        },
+        {
+            "source": "高级电路板",
+            "target": "熔化万物..."
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "绕了一圈又一圈"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "蒸汽搅拌机?"
+        },
+        {
+            "source": "多方块革命",
+            "target": "蒸汽动力的突破"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "蒸汽猛击!"
+        },
+        {
+            "source": "蒸汽动力的突破",
+            "target": "热气腾腾的粉碎机"
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "提取万物"
+        },
+        {
+            "source": "EV多方块",
+            "target": "洗矿厂里的矿石..."
+        },
+        {
+            "source": "永无止境,大就是好!",
+            "target": "巴比伦塔"
+        },
+        {
+            "source": "EV多方块",
+            "target": "压力之下"
+        },
+        {
+            "source": "LuV及以上的大批量加工",
+            "target": "...借助科学的力量!"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "...借助科学的力量!"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "你闻起来像掉到了酒桶里!"
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "你闻起来像掉到了酒桶里!"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "得把它们分得远远的"
+        },
+        {
+            "source": "IV阶段多方块机器",
+            "target": "嗞...嗞...嗞..."
+        }
+    ]
+}

@@ -1,0 +1,1040 @@
+{
+    "data": [
+        {
+            "name": "速度升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/202.png",
+            "x": 360.0,
+            "y": 372.0,
+            "data": "如果你感觉末影采石场的挖掘速度不能让你满意的话... 那么你需要点东西让它快点工作!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAyg==",
+            "tooltip": "<strong>速度升级</strong></br>前置任务需求:</br>自动挖掘"
+        },
+        {
+            "name": "加速III",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1682.png",
+            "x": 456.0,
+            "y": 372.0,
+            "data": "如果速度升级II太慢了的话,那就升级为速度III吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGkg==",
+            "tooltip": "<strong>加速III</strong></br>前置任务需求:</br>加速II"
+        },
+        {
+            "name": "加速II",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1681.png",
+            "x": 408.0,
+            "y": 372.0,
+            "data": "虽然速度升级的末影采石场本身就很好了,但为什么不加快速度呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGkQ==",
+            "tooltip": "<strong>加速II</strong></br>前置任务需求:</br>速度升级"
+        },
+        {
+            "name": "进阶贴片元件",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2608.png",
+            "x": 564.0,
+            "y": 300.0,
+            "data": "制造晶体系列以上电路板时需要用到进阶贴片元件.%n%n如果使用进阶贴片元件合成比晶体电路更低阶的电路板,消耗为普通贴片元件的1/4,同时加工时间为原来的一半.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKMA==",
+            "tooltip": "<strong>进阶贴片元件</strong></br>前置任务需求:</br>晶体芯片"
+        },
+        {
+            "name": "快成功了",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2941.png",
+            "x": 468.0,
+            "y": 456.0,
+            "data": "现在你只需要让溶液中的硅岩析出就行了. 好耶!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALfQ==",
+            "tooltip": "<strong>快成功了</strong></br>前置任务需求:</br>分离"
+        },
+        {
+            "name": "另一种溶剂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2934.png",
+            "x": 300.0,
+            "y": 648.0,
+            "data": "为什么它需要种子油?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALdg==",
+            "tooltip": "<strong>另一种溶剂</strong></br>前置任务需求:</br>中和反应"
+        },
+        {
+            "name": "锑和氯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2922.png",
+            "x": 300.0,
+            "y": 744.0,
+            "data": "现在,将锑、氯和乙醚投入大型化学反应釜中进行反应,以制取三氯化锑溶液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALag==",
+            "tooltip": "<strong>锑和氯</strong></br>前置任务需求:</br>乙醚冲击(Ether Strike)!"
+        },
+        {
+            "name": "装配线配方更新",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2024.png",
+            "x": -24.0,
+            "y": 360.0,
+            "data": "整合包更新且装配线合成表有改动的话,你的旧闪存同样需要更新其内的合成表.在老版本,更新闪存需要重新扫描新物品,而现在,将闪存放入装配线后即可自动完成更新. 如果你发现更新后闪存有bug的话,请通过Discord或GitHub与开发组联系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH6A==",
+            "tooltip": "<strong>装配线配方更新</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "自动挖掘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/201.png",
+            "x": 312.0,
+            "y": 372.0,
+            "data": "你的挖矿利器!QED牌末影采石场.%n%n正如0lafe所说,\"这个小黑匣子可以让你的日子变得惬意\"和\"你对致密黑曜石板的海量需求.\"%n%n你最好压缩一下!%n%n[warn]注意:最好将采石场和标记放在矿脉边界上. 通过这种方式,你可以立即开始获得矿石,在行星维度尤为有效.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAyQ==",
+            "tooltip": "<strong>自动挖掘</strong></br>前置任务需求:</br>QED(Quit Exhaling Dusts)</br>获得铕"
+        },
+        {
+            "name": "更便宜的高压电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1684.png",
+            "x": 696.0,
+            "y": 192.0,
+            "data": "你可以以更便宜的价格制造纳米处理器了. 首先需要压印电路...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGlA==",
+            "tooltip": "<strong>更便宜的高压电路</strong></br>前置任务需求:</br>ASoC进阶芯片级系统</br>铭刻,非常重要"
+        },
+        {
+            "name": "澄清器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5895649105231252556.png",
+            "x": 216.0,
+            "y": 528.0,
+            "data": "水净化过程的第一步是澄清器.操作这台机器非常简单,您只需为过滤器保持稳定的活性炭供应.使用这台机器,您就能制造出1级纯净水,从而将硅岩掺杂的单晶硅和晶圆的加工速度提高25％.",
+            "quest_id": "mMCFuGqxQTuuLnJgEldztA==",
+            "tooltip": "<strong>澄清器</strong></br>前置任务需求:</br>工业纯净水净化"
+        },
+        {
+            "name": "晶体芯片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1687.png",
+            "x": 480.0,
+            "y": 192.0,
+            "data": "要制造这些芯片,你需要铕,以及在小行星带(或空间站)的HV高压釜,以实现\"低重力\"环境.%n%n[note]或者通过多方块机器(大型加工厂)无视环境要求,但处理阵列不行.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGlw==",
+            "tooltip": "<strong>晶体芯片</strong></br>前置任务需求:</br>LuV电路组装机</br>LuV激光蚀刻机</br>获得铕"
+        },
+        {
+            "name": "晶体处理器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1686.png",
+            "x": 648.0,
+            "y": 300.0,
+            "data": "现在你已经进入了LuV,你可以更简单地制作IV电路,以及你的第一个UV电路.%n%n每种的第一块电路板制造完成后,制造压印电路配合电路装配线来降低制造成本. 查阅\"获取任务\"以获知操作方式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGlg==",
+            "tooltip": "<strong>晶体处理器</strong></br>前置任务需求:</br>进阶贴片元件</br>纳米晶圆和CPU</br>铌钛合金</br>精英电路板</br>铭刻,非常重要"
+        },
+        {
+            "name": "晶体处理器集群",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1708.png",
+            "x": 648.0,
+            "y": 456.0,
+            "data": "晶体处理器集群是LuV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGrA==",
+            "tooltip": "<strong>晶体处理器集群</strong></br>前置任务需求:</br>晶体处理器"
+        },
+        {
+            "name": "晶体处理器主机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1710.png",
+            "x": 648.0,
+            "y": 828.0,
+            "data": "晶体处理器主机是你可以制作的第一个UV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGrg==",
+            "tooltip": "<strong>晶体处理器主机</strong></br>前置任务需求:</br>终极晶体电脑</br>LuV超导(32,768 EU/t)"
+        },
+        {
+            "name": "工业高炉时间1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2928.png",
+            "x": 468.0,
+            "y": 648.0,
+            "data": "将氧化硅岩混合物粉与氟锑酸一起加热,氟锑酸就能溶解Nq、Ga、Ad,而钛将会变为某种化合物析出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALcA==",
+            "tooltip": "<strong>工业高炉时间1</strong></br>前置任务需求:</br>酸中之王"
+        },
+        {
+            "name": "精英电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1688.png",
+            "x": 552.0,
+            "y": 552.0,
+            "data": "新的电路板,新的电路板工艺.而且高算力工作站 MK-I也需要它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGmA==",
+            "tooltip": "<strong>精英电路板</strong></br>前置任务需求:</br>第6阶段(LuV)</br>纤维强化电路基板"
+        },
+        {
+            "name": "乙醚冲击(Ether Strike)!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2921.png",
+            "x": 216.0,
+            "y": 744.0,
+            "data": "硅岩非常稳定,以至于大部分酸无法与其发生反应,所以你需要更强的酸才能将其溶解.%n%n让我们制备一些必要的有机溶剂,用以合成这种酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALaQ==",
+            "tooltip": "<strong>乙醚冲击(Ether Strike)!</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "萃取",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2930.png",
+            "x": 384.0,
+            "y": 552.0,
+            "data": "现在,金属元素已经被浓缩到了溶液中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALcg==",
+            "tooltip": "<strong>萃取</strong></br>前置任务需求:</br>中和反应</br>P-507"
+        },
+        {
+            "name": "获取立方氧化锆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2604.png",
+            "x": 564.0,
+            "y": 108.0,
+            "data": "将锆和氧化钇在工业高炉内结合可获得立方氧化锆. 仅仅需要粉末即可.%n%n获得锆的方法有:%n1)罗斯128b上的红锆石矿石%n2)筛选锡石、锡、或钛铁(要是你讨厌罗斯的话)%n3)用氯化学浸洗锡或金红石%n%n氧气很容易就能获得,但是钇就不那么简单了. 你有多种选择:%n1)将稀土处理成稀土(I)(查阅MV的任务),然后从分离出的磷钇矿粉中获得%n2)使用更强的酸将稀土处理成稀土(II),然后从分离出的钇矿粉中获得%n3)在你拥有了T6火箭以后,就可以在海卫一直接挖到纯钇矿石,简单得令人尖叫!%n4)在ZPM阶段,可以尝试前往废土世界以获取一些奇怪的GT++矿石,其中的一些矿石中含有钇(多么随机的矿石生成!)%n%n你可以通过红石或者陨石获得稀土,但你也能直接从独居石或者其他矿石的副产物中获得. 希望你没把它们扔了?%n%n译者注:ZPM+也可以用艾萨-浮选-真空干燥线获取钇.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKLA==",
+            "tooltip": "<strong>获取立方氧化锆</strong></br>前置任务需求:</br>获取任务"
+        },
+        {
+            "name": "获取堇云石",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2605.png",
+            "x": 564.0,
+            "y": 24.0,
+            "data": "将石英岩和紫水晶在工业高炉内结合可以获得有瑕的堇云石. 接下来需要通过聚爆压缩机或是激光蚀刻机提高宝石质量,制成精致的堇云石. 粉末状态的堇云石还有其他用途,所以不要将它们全部转化.%n%n为了满足大量的紫水晶需求,你需要在金星上停留一下.%n%n如果拥有T5火箭,罗斯128ba可以直接出产堇云石,只需要筛选一下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKLQ==",
+            "tooltip": "<strong>获取堇云石</strong></br>前置任务需求:</br>获取任务"
+        },
+        {
+            "name": "获取碲",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2603.png",
+            "x": 564.0,
+            "y": 192.0,
+            "data": "获取碲有以下几种方法:%n%n1)工业高炉处理粉碎的铅矿石可获得2个碲粒%n2)如果有老版本时生成的世界,你几乎可以在任何维度获得碲汞钯(它已损坏,因此当前不会生成),要是修好了话还有水星%n3)使用最强酸处理稀土获得稀土(III),分离出的硫碲金锗矿可以产出碲%n4)进入废土世界%n5)等你有了虚空采矿场,可以将其布置在主世界以获取碲.%n%n译者注:ZPM+也可以用艾萨-浮选-真空干燥线获取碲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKKw==",
+            "tooltip": "<strong>获取碲</strong></br>前置任务需求:</br>获取任务"
+        },
+        {
+            "name": "获取任务",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2600.png",
+            "x": 480.0,
+            "y": 108.0,
+            "data": "想要对电路装配线进行铭刻,你需要一系列新材料.%n%n首先是一些原材料: 堇云石、立方氧化锆还有碲.%n%n你还需要一些其他材料,但是我不需要解释这些,对吧?%n%n[note]如果收集这些材料太痛苦了的话,你可以用复制机复制其中的一部分.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKKA==",
+            "tooltip": "<strong>获取任务</strong></br>前置任务需求:</br>LuV电路组装机"
+        },
+        {
+            "name": "反魔法者的流体传送",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1621.png",
+            "x": 240.0,
+            "y": 60.0,
+            "data": "不想用魔法手段传送流体,也不想用流体P2P? TecTech为你提供了末影流体覆盖板!%n%n将覆盖板贴到GT容器上并打开GUI.%n频道(Channel):具有相同材质的覆盖板可以相互链接.%n%n公共(Public):覆盖板会链接到所有同颜色且非私有(Private)的覆盖板. 使用网络程序来了解那串颜色代码的意思,并选择自己喜欢的颜色.%n私有(Private):不与公共频道链接.在单人游戏里没有意义.%n%n输入(Import):从安装容器抽取流体.%n输出(Export):向安装容器输出流体.%n%n你可以同时安装多对覆盖板用于加速输入/输出.它的运行速度为8000L/t,别被wiki或源码的变量名骗了.%n%n本覆盖板可以安装在多方块的输出仓上远程输出流体,或安装在输入仓上远程输入流体. 可能在有多种流体输入/输出时不太好用,比如单方块化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGVQ==",
+            "tooltip": "<strong>反魔法者的流体传送</strong></br>前置任务需求:</br>LuV阶段你会讨厌的5和6"
+        },
+        {
+            "name": "氯键断裂(Fracture Chlorine)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2926.png",
+            "x": 552.0,
+            "y": 744.0,
+            "data": "氟离子具有更高的电动势,所以它会替换掉锑周围的氯离子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALbg==",
+            "tooltip": "<strong>氯键断裂(Fracture Chlorine)</strong></br>前置任务需求:</br>分离溶剂"
+        },
+        {
+            "name": "火箭相关",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2645.png",
+            "x": 372.0,
+            "y": 300.0,
+            "data": "太棒了! 你完成了你的火箭和聚变反应堆! 是时候获取一些新矿石了! (这种事情永不过时) 你不需要手持它们,我只是将新维度列出.%n%n新的星球有土卫二、天卫五、天卫四、罗斯128ba和土卫六. 天卫五是天王星的第一大卫星,同时天卫四是最后一个大卫星. 土卫二是土星的第二卫星,同时土卫六是倒数第二个卫星. 罗斯128ba是罗斯128b的卫星,位于罗斯128星系的南部.%n%n新矿脉有镍、钨和钒矿脉. 新矿石有: 铬、深渊铁、铱、金、磁铁、镍、锇、硅、暗影铁、钨和钒矿石.%n%n在土卫二、天卫四和土卫六上可以通过贫瘠矿获得中子粉(T6火箭所需).%n%n别忘了获取各个星球的石头(打粉离心有惊喜).%n%n在土卫二地牢中,你能获得T6火箭的设计图.%n%n[note]你现在是不是要说,并非所有星球都值得去? 没错,去那些你想去的星球然后跳过那些你不想去的. 使用NEI找出你需要去的地方.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKVQ==",
+            "tooltip": "<strong>火箭相关</strong></br>前置任务需求:</br>获得铕</br>5阶火箭"
+        },
+        {
+            "name": "获得铕",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1213.png",
+            "x": 312.0,
+            "y": 300.0,
+            "data": "为了将反应堆升级到MK2,制造末影采石场、T5火箭、解锁ZPM还有别的什么东西,铕是必不可少的. 等你拥有了T5火箭,你就可以开采一种非常稀有的矿石,可以直接从中获得铕,直到你能通过聚变反应堆批量制造铕. 不过这种矿石非常稀有,所以花这个时间去寻找它往往得不偿失.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEvQ==",
+            "tooltip": "<strong>获得铕</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "铭刻,非常重要",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2602.png",
+            "x": 648.0,
+            "y": 192.0,
+            "data": "现在,你已获得了制造压印电路的所有材料,是时候制造它们了. 你需要将所需压印的电路板在适当等级的食材切片机中切片,也可以使用工业切割机的切片机模式.%n%n只需将压印电路放置在电路装配线的控制器方块的物品槽中,用软锤开机即可铭刻. 使用三录仪扫描控制器方块可以获知已经铭刻的电路. 如果你不想造太多条电路装配线,或许手动替换控制器方块是个可行的方法...%n%n[note]某些电路板有两个配方,而你只需要一台电路装配线即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKKg==",
+            "tooltip": "<strong>铭刻,非常重要</strong></br>前置任务需求:</br>随机过程绝对是超棒的游戏设计"
+        },
+        {
+            "name": "工业纯净水净化",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6215508413557630456.png",
+            "x": 216.0,
+            "y": 444.0,
+            "data": "一直以来,您都可以只使用机器的裸金属来切割和雕刻硅电路晶圆.但是,这会导致最终晶圆出现严重缺陷,因此,现在您要生产更先进的电路,就不能再容忍这种缺陷了.%n%n具备了制造 LuV 元件的能力后,您现在可以制造净水厂了.这个多方块可以制造纯净水,这将有助于制造更纯净和更完美的晶圆.对于您当前的硅岩掺杂晶圆来说,这还不是必需的,但使用纯净水可能会大大加快制作过程,因此绝对值得一试.%n%n净水厂本身并不运行配方,而是为您的纯净水产线提供核心物流管理服务.在它周围,您可以建造与净水厂相连的净水装置.净水厂为不同的净水装置提供电力和维护,并同步它们的配方周期.",
+            "quest_id": "-2oHGhi4Q22pvhQHb3IaCA==",
+            "tooltip": "<strong>工业纯净水净化</strong></br>前置任务需求:</br>LuV能源仓"
+        },
+        {
+            "name": "酸中之王",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2927.png",
+            "x": 552.0,
+            "y": 648.0,
+            "data": "氟锑酸,目前世界上最强的酸. 它几乎可以溶解地球上的任何物质,所以它是我们处理氧化硅岩混合物粉的最佳选择.%n%n当然,还有氟锑酸无法处理的东西,比如\"空单元\". x)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALbw==",
+            "tooltip": "<strong>酸中之王</strong></br>前置任务需求:</br>氯键断裂(Fracture Chlorine)"
+        },
+        {
+            "name": "LuV组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1722.png",
+            "x": 156.0,
+            "y": 276.0,
+            "data": "IV太阳能覆盖板和其他高级物品需要LuV组装机. 让我们制作一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGug==",
+            "tooltip": "<strong>LuV组装机</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4"
+        },
+        {
+            "name": "LuV电路组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1683.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "你可能注意到了,电路板的合成表好像贵了6倍... 适用于需要LuV+电压的电路板. 如果你不想浪费大量资源的话,就得在电路装配线合成这些电路板了. 当然,你的第一块电路板还是要用普通电路组装机合成.%n%n第一块电路板完成后,你就能制作相应的压印电路,使用压印电路将电路装配线设置为相应电路(唯一)专属.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGkw==",
+            "tooltip": "<strong>LuV电路组装机</strong></br>前置任务需求:</br>LuV阶段你会讨厌的5和6"
+        },
+        {
+            "name": "LuV能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2599.png",
+            "x": 156.0,
+            "y": 372.0,
+            "data": "想要升级你的多方块结构(然后制作聚变反应堆),你需要制造这些能源仓. 为了聚变,你需要成吨的晶圆,所以要是你的铟产线还没搭好的话可得抓紧了.%n%n需要LuV切割机,多方块也行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKJw==",
+            "tooltip": "<strong>LuV能源仓</strong></br>前置任务需求:</br>LuV组装机</br>LuV超导(32,768 EU/t)"
+        },
+        {
+            "name": "LuV激光蚀刻机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1689.png",
+            "x": 396.0,
+            "y": 192.0,
+            "data": "LuV激光蚀刻机是后期电路生产的重要组成部分. 你需要为晶体系列电路板或者之后的湿件系列电路板制造晶体CPU.%n%n[note]如果你拥有大型加工厂,那么你就能通过升级能源仓来满足此合成要求.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGmQ==",
+            "tooltip": "<strong>LuV激光蚀刻机</strong></br>前置任务需求:</br>LuV阶段你会讨厌的5和6"
+        },
+        {
+            "name": "LuV超导(32,768 EU/t)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1711.png",
+            "x": 156.0,
+            "y": 828.0,
+            "data": "无损32768-EU-LuV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide(是的你没有看错,这就是这种材料的原文)是一种超导材料,可以毫无损失地传输你的能量. 现在每个电压都有线损为0的超导导线.%n%n在LuV搅拌机中搅拌铟、锡、钡、钛、铜和氧.制得的超导粗胚粉需要用带有硅岩线圈的工业高炉(EBF)烧制,再用真空冷冻机来冷却它. 制造一些LuV超导粗胚导线并使用组装机将这些导线与氦和微型末影锭流体管道和LuV泵组合在一起,你就能获得32768-EU/t的超导导线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGrw==",
+            "tooltip": "<strong>LuV超导(32,768 EU/t)</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "利用等离子体发电",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1200.png",
+            "x": 288.0,
+            "y": 240.0,
+            "data": "现在,你已经拥有了一个聚变反应堆,是时候利用它进行发电了.%n%n最容易获得的产能等离子体就是氦等离子体了,虽然简单但它能提供的能量一样不少. 氘可以从可再生的水中获得,氦-3可以从末地石中获得.%n%n然而,我们需要一种方法可以将等离子体中的能量转换成EU释放出来. 要做到这一点,你需要一台大型等离子涡轮.还需要一个动力仓输出能量,你可以调整不同的动力仓来调整输出功率.用氦等离子体进行发电,那么你需要一个不低于LuV的动力仓[缓冲].%n%n另外还有单方块的等离子发电机,不过它们的效率太低了(野外采矿倒是不错).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsA==",
+            "tooltip": "<strong>利用等离子体发电</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "最后,分子重组仪!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3077.png",
+            "x": 108.0,
+            "y": 372.0,
+            "data": "如果你在进入LuV阶段之前看到了这个任务,希望了解怎么制造阳光合金的话,请回头查看EV和IV阶段的任务吧.%n%n[note]是的,这台多方块机器还有点bug..[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMBQ==",
+            "tooltip": "<strong>最后,分子重组仪!</strong></br>前置任务需求:</br>LuV能源仓"
+        },
+        {
+            "name": "更多氯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2924.png",
+            "x": 384.0,
+            "y": 744.0,
+            "data": "为什么我不能一步获得它!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALbA==",
+            "tooltip": "<strong>更多氯</strong></br>前置任务需求:</br>锑和氯"
+        },
+        {
+            "name": "突变令人愉悦",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2680.png",
+            "x": 480.0,
+            "y": 252.0,
+            "data": "制作晶体芯片原料时,要是觉得铕这个配方太贵了的话,你还有另外两个选择: 菌泥和诱变剂.%n%n诱变剂比菌泥高到不知道哪里去了,但怎么获得呢?我会教你的.%n%n首先,在火星收集一些菌泥,在酿造室中配合U-238将其制成富集菌泥. 然后,将其发酵获得发酵菌泥. 最后蒸馏获得诱变剂.%n%n但一桶就够了吗?恐怕不够!不过可以用细菌培养缸制造更多. 将诱变剂配合神秘水晶粉制成培养皿.不过几率极低...所以你得做好失败多次的准备.%n%n制成培养皿后即可将其放入培养缸控制器中,不会消耗.要求至少LuV等级的玻璃、钚杆提供辐射.%n%n菌泥也可以用培养缸大量合成,而且培养皿做起来简单多了.%n%n[note]诱变剂也用于基因工业中,所以要是你对养蜂感兴趣的话,多做点吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKeA==",
+            "tooltip": "<strong>突变令人愉悦</strong></br>前置任务需求:</br>细菌培养缸</br>神秘...</br>生物实验室</br>晶体芯片</br>菌泥"
+        },
+        {
+            "name": "神秘...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2609.png",
+            "x": 432.0,
+            "y": 300.0,
+            "data": "如果想要一些这种高度神秘的材料,你需要前往土卫二,收集到处散布的一些水晶并将其打碎. 或用铲子收集一些土卫二冰然后从中获取神秘水晶粉. 如果你需要神秘水晶碎片的话,通过高压釜即可将粉还原成晶体.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKMQ==",
+            "tooltip": "<strong>神秘...</strong></br>前置任务需求:</br>火箭相关</br>5阶火箭"
+        },
+        {
+            "name": "硅岩合金",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2607.png",
+            "x": 240.0,
+            "y": 372.0,
+            "data": "建造聚变反应堆需要一些硅岩合金.%n%n首先,登陆水星并收集一些深渊铁贫瘠矿(如果之前没有获得的话),从中获取三元金属.%n%n硅岩线圈和LuV能源仓也是制造硅岩合金所必须的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKLw==",
+            "tooltip": "<strong>硅岩合金</strong></br>前置任务需求:</br>LuV能源仓</br>升级硅岩线圈</br>快成功了"
+        },
+        {
+            "name": "硅岩粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2942.png",
+            "x": 528.0,
+            "y": 420.0,
+            "data": "你可以直接在化学反应釜中处理氧化硅岩,获取硅岩粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALfg==",
+            "tooltip": "<strong>硅岩粉</strong></br>前置任务需求:</br>快成功了"
+        },
+        {
+            "name": "硅岩锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2943.png",
+            "x": 528.0,
+            "y": 456.0,
+            "data": "如果想要硅岩锭的话,可以将其与碳粉一起在工业高炉中熔炼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALfw==",
+            "tooltip": "<strong>硅岩锭</strong></br>前置任务需求:</br>快成功了"
+        },
+        {
+            "name": "中和反应",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2929.png",
+            "x": 384.0,
+            "y": 648.0,
+            "data": "溶液目前是酸性的. 镓会在8<pH<10时析出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALcQ==",
+            "tooltip": "<strong>中和反应</strong></br>前置任务需求:</br>工业高炉时间1"
+        },
+        {
+            "name": "不,它不能修好你的车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2677.png",
+            "x": 204.0,
+            "y": 240.0,
+            "data": "自动维护仓会消耗一定材料,自动解决出现的维护问题. 建议给你的超净间配一个这个,你一定由于维护问题被吞过东西吧. 或者你也可以用蜂鸣器配合覆盖板提醒你自己.%n%n译者注: 多方块都自带超净间环境 :p",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKdQ==",
+            "tooltip": "<strong>不,它不能修好你的车</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4"
+        },
+        {
+            "name": "LuV阶段你会讨厌的5和6",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1490.png",
+            "x": 240.0,
+            "y": 108.0,
+            "data": "一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF0g==",
+            "tooltip": "<strong>LuV阶段你会讨厌的5和6</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4"
+        },
+        {
+            "name": "LuV阶段你会讨厌的1-4",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1489.png",
+            "x": 156.0,
+            "y": 192.0,
+            "data": "泵,活塞,传送带和机械臂是LuV中最需要的机器部件.用你的装配线每样都做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF0Q==",
+            "tooltip": "<strong>LuV阶段你会讨厌的1-4</strong></br>前置任务需求:</br>HSS-S</br>第6阶段(LuV)</br>钌铱合金?"
+        },
+        {
+            "name": "臭氧化",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9020589751289166951.png",
+            "x": 216.0,
+            "y": 612.0,
+            "data": "想要更快地处理晶圆?通过使用臭氧法制造的2级纯净水,您现在可以将加工时间缩短50%%.要运行这台机器,你需要用强激光轰击空气来制造大量臭氧气体.如果你还没有准备好,你一定要制作高强度激光蚀刻机,以加快这一过程.%n%n[note]这个多方块机器对臭氧输入仓的位置非常挑剔.如果你不知道为什么机器没有成型,很可能是你忘记把这个仓室放在正确的位置上了.使用全息投影仪查看它的正确位置.[/note]",
+            "quest_id": "E9atHD5uR9CC0G1qEeFDmQ==",
+            "tooltip": "<strong>臭氧化</strong></br>前置任务需求:</br>澄清器"
+        },
+        {
+            "name": "P-507",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2935.png",
+            "x": 300.0,
+            "y": 552.0,
+            "data": "这种溶剂在硅岩处理线中可以无损循环,所以不用专门为它建一条产线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALdw==",
+            "tooltip": "<strong>P-507</strong></br>前置任务需求:</br>另一种溶剂"
+        },
+        {
+            "name": "淘金是笨蛋才会干的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2071.png",
+            "x": 192.0,
+            "y": 108.0,
+            "data": "当你到达了LuV阶段,就可以制造神级的探矿仪--电子探矿仪了.  这台手持式机器可以提供范围内矿石的详细信息,还可以生成地下流体地图-每个区块中有何种流体,有多少流体.%n%n译者注: Shift+右键切换模式,四种模式依次是矿石(Ore)、矿石(含贫瘠矿石)(Ore-with-small)、地下流体(Underground-Fluid)、污染(Pollution).%n%n请注意,探测范围取决于电压等级与材料等级(而耐久其实无关紧要). 你可以在右侧列表中选择一种矿物或流体,这样探矿仪就只会显示选中的矿物或流体,你也可以双击右侧列表,切换亮/暗模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIFw==",
+            "tooltip": "<strong>淘金是笨蛋才会干的</strong></br>前置任务需求:</br>LuV阶段你会讨厌的5和6"
+        },
+        {
+            "name": "回收氟",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2923.png",
+            "x": 384.0,
+            "y": 504.0,
+            "data": "氟是最重要的资源之一. 你可以在这一步回收大部分的氟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALaw==",
+            "tooltip": "<strong>回收氟</strong></br>前置任务需求:</br>萃取"
+        },
+        {
+            "name": "回收镓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2933.png",
+            "x": 384.0,
+            "y": 696.0,
+            "data": "你有两种选择来处理它.%n%n1) 在化学反应釜中与钠粉反应.%n%n2) 在搅拌机中与磷酸铟粉混合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALdQ==",
+            "tooltip": "<strong>回收镓</strong></br>前置任务需求:</br>中和反应"
+        },
+        {
+            "name": "回收钛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2932.png",
+            "x": 468.0,
+            "y": 696.0,
+            "data": "至于三氟化钛,你可以在工业高炉中处理它,以回收钛和氢氟酸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALdA==",
+            "tooltip": "<strong>回收钛</strong></br>前置任务需求:</br>工业高炉时间1"
+        },
+        {
+            "name": "回收废液",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2931.png",
+            "x": 336.0,
+            "y": 504.0,
+            "data": "'废液'在某些方面其实还是很有用的,你可以从中获得一些有趣的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALcw==",
+            "tooltip": "<strong>回收废液</strong></br>前置任务需求:</br>回收氟"
+        },
+        {
+            "name": "顽固胶水",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8274215243329909479.png",
+            "x": -60.0,
+            "y": 300.0,
+            "data": "氰基丙烯酸乙酯,俗称超级胶水,是这里最好的胶水.但强大的力量也带来了...巨大的复杂性.现在不需要它,在未来几个阶段也可能不需要,但它会让你的配方更有效率并且在后期是必要的.%n%n[note]从技术上讲,这一行在 IV 中是可用的,但只是可选.请亲自在 NEI 中搜索配方,以显示您的真本事![/note]",
+            "quest_id": "eZADH1WASo6NLBUTKjLNGQ==",
+            "tooltip": "<strong>顽固胶水</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "随机过程绝对是超棒的游戏设计",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2606.png",
+            "x": 648.0,
+            "y": 108.0,
+            "data": "收集完所有材料后,你需要使用搅拌机来制造磁共振石粉和电路化合物MK3.%n%n在冲压机床内将这些粉结合制成压印基板原料.%n%n再使用洁净环境下的高压釜配合焊锡制作出压印基板. 不过,成功的几率只有75％,所以我请你收集一些额外的材料. 就算剩下也可以用于下次铭刻.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKLg==",
+            "tooltip": "<strong>随机过程绝对是超棒的游戏设计</strong></br>前置任务需求:</br>获取碲</br>获取立方氧化锆</br>获取堇云石"
+        },
+        {
+            "name": "分离溶剂",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2925.png",
+            "x": 468.0,
+            "y": 744.0,
+            "data": "蒸馏五氯化锑溶液以获取纯净的液态五氯化锑,并且你可以回收所有乙醚.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALbQ==",
+            "tooltip": "<strong>分离溶剂</strong></br>前置任务需求:</br>更多氯"
+        },
+        {
+            "name": "分离",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2940.png",
+            "x": 468.0,
+            "y": 552.0,
+            "data": "它又回来了?!!!%n%n[note]请查看多方块任务来获得中子活化器和精密组装机的更多信息.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALfA==",
+            "tooltip": "<strong>分离</strong></br>前置任务需求:</br>萃取</br>精英电路板</br>中子活化器"
+        },
+        {
+            "name": "硅岩掺杂的单晶硅2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2944.png",
+            "x": 528.0,
+            "y": 492.0,
+            "data": "你还可以用氧化硅岩粉在工业高炉中直接生产硅岩掺杂的单晶硅,比用硅岩锭耗时更短.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALgA==",
+            "tooltip": "<strong>硅岩掺杂的单晶硅2</strong></br>前置任务需求:</br>快成功了"
+        },
+        {
+            "name": "开始聚变",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1212.png",
+            "x": 240.0,
+            "y": 300.0,
+            "data": "现在你对电力的需求正在大幅度增加,所以你需要一种更加强大的发电方式. 清洁环保可持续产生1A-ZPM级电流的机器你有两个选择,太阳能和核聚变.%n%n利用太阳能很简单,太阳能覆盖板可以产生524288EU/t的能量输出. 但是经过正确配置的核聚变能够达到其近8倍的能量产出.(最关键的是太阳能的造价实在是丧心病狂...)%n%n要制造你的第一个聚变反应堆,你需要一个反应堆控制电脑,不低于Luv级别的2-16个输入仓,1-16个输出仓,和16个能源仓.给每个能源仓提供2048EU/t的电力供应,10M-EU的储能.%n%n这意味着你就可以生产所有低于32768EU/t并且启动能量需求少于160M-EU的配方了. 使用更多的输入/输出仓意味着你可以使用更少的LuV机械方块.但这个原则在MK1级别的聚变反应堆中不是很重要,然而这在日后对反应堆进行升级时很有帮助.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEvA==",
+            "tooltip": "<strong>开始聚变</strong></br>前置任务需求:</br>你觉得发射器已经够糟糕了？</br>硅岩合金"
+        },
+        {
+            "name": "太阳聚变",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3091.png",
+            "x": 336.0,
+            "y": 240.0,
+            "data": "批量生产阳光化合物的替代方案.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMEw==",
+            "tooltip": "<strong>太阳聚变</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "你觉得发射器已经够糟糕了？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1680.png",
+            "x": 240.0,
+            "y": 192.0,
+            "data": "力场发生器是后期合成的重要组成部分,是的,它们制作起来总是很困难.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGkA==",
+            "tooltip": "<strong>你觉得发射器已经够糟糕了？</strong></br>前置任务需求:</br>LuV阶段你会讨厌的5和6"
+        },
+        {
+            "name": "第6阶段(LuV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1493.png",
+            "x": 36.0,
+            "y": 300.0,
+            "data": "在LuV阶段,你需要镀铑钯制造机器.(建议锤铂系处理作者Bartimaeusnek.)%n建议到访的星球: 木卫一、金星和水星.%n当前阶段机器零件需要装配线才能制作-请查看多方块任务栏获取详细信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF1Q==",
+            "tooltip": "<strong>第6阶段(LuV)</strong></br>前置任务需求:</br>装配线</br>第5阶段(IV)</br>镀铑钯</br>继续焊接!</br>纳米处理器主机"
+        },
+        {
+            "name": "涡轮时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1201.png",
+            "x": 288.0,
+            "y": 192.0,
+            "data": "你崭新的等离子涡轮需要一个全新的转子来驱动它.%n%n你可以使用任何GT材料制造涡轮,但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/t输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.[warn]请先在创造模式测试![/warn]%n%n使用涡轮时,需要注意流速.而所谓最佳流速,即涡轮所列不同燃料的最佳流量,除以对应的燃值.你还可以直接用大型涡轮计算器(Large-Turbine-Calculator)[在主数据表格(spreadsheet)内有个链接,指向discord中的计算器];还可以在大型涡轮运行时(只需要提供很少的燃料让它动起来就行),直接扫描主方块,即可获知该涡轮转子使用某种燃料对应的最佳流速. 使用流体校准器或流体流量调节机,确保所提供的燃料速度与涡轮的最佳流速匹配,以发挥最高的燃料效率;不过你也可以选择超出此最佳流速,以降低效率为代价,获得更高的功率输出,而蒸汽涡轮在超出最佳流速后的效率保持是最差的.在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出功率提高,但燃料效率降低,同时最高输出功率取决于涡轮转子类型及其超载效率等级.对于等离子涡轮,超载效率等级1：最高超载250％,输出功率158％;超载效率等级2：最高超载400％,输出功率214％;超载效率等级3：最高超载550％,输出功率301％.越接近超载极限,损失的燃料效率越多.%n%n决定权在你!%n%n译者注：计算流量时注意单位换算,并向上取整.%n%n[note]关于聚变的更多额外信息,请查看新任务章节\"强大的核物理\".[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsQ==",
+            "tooltip": "<strong>涡轮时间</strong></br>前置任务需求:</br>利用等离子体发电"
+        },
+        {
+            "name": "终极晶体电脑",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1709.png",
+            "x": 648.0,
+            "y": 648.0,
+            "data": "终极晶体电脑是ZPM电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGrQ==",
+            "tooltip": "<strong>终极晶体电脑</strong></br>前置任务需求:</br>晶体处理器集群"
+        }
+    ],
+    "links": [
+        {
+            "source": "自动挖掘",
+            "target": "速度升级"
+        },
+        {
+            "source": "加速II",
+            "target": "加速III"
+        },
+        {
+            "source": "速度升级",
+            "target": "加速II"
+        },
+        {
+            "source": "晶体芯片",
+            "target": "进阶贴片元件"
+        },
+        {
+            "source": "分离",
+            "target": "快成功了"
+        },
+        {
+            "source": "中和反应",
+            "target": "另一种溶剂"
+        },
+        {
+            "source": "乙醚冲击(Ether Strike)!",
+            "target": "锑和氯"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "装配线配方更新"
+        },
+        {
+            "source": "QED(Quit Exhaling Dusts)",
+            "target": "自动挖掘"
+        },
+        {
+            "source": "获得铕",
+            "target": "自动挖掘"
+        },
+        {
+            "source": "ASoC进阶芯片级系统",
+            "target": "更便宜的高压电路"
+        },
+        {
+            "source": "铭刻,非常重要",
+            "target": "更便宜的高压电路"
+        },
+        {
+            "source": "工业纯净水净化",
+            "target": "澄清器"
+        },
+        {
+            "source": "LuV电路组装机",
+            "target": "晶体芯片"
+        },
+        {
+            "source": "LuV激光蚀刻机",
+            "target": "晶体芯片"
+        },
+        {
+            "source": "获得铕",
+            "target": "晶体芯片"
+        },
+        {
+            "source": "进阶贴片元件",
+            "target": "晶体处理器"
+        },
+        {
+            "source": "纳米晶圆和CPU",
+            "target": "晶体处理器"
+        },
+        {
+            "source": "铌钛合金",
+            "target": "晶体处理器"
+        },
+        {
+            "source": "精英电路板",
+            "target": "晶体处理器"
+        },
+        {
+            "source": "铭刻,非常重要",
+            "target": "晶体处理器"
+        },
+        {
+            "source": "晶体处理器",
+            "target": "晶体处理器集群"
+        },
+        {
+            "source": "终极晶体电脑",
+            "target": "晶体处理器主机"
+        },
+        {
+            "source": "LuV超导(32,768 EU/t)",
+            "target": "晶体处理器主机"
+        },
+        {
+            "source": "酸中之王",
+            "target": "工业高炉时间1"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "精英电路板"
+        },
+        {
+            "source": "纤维强化电路基板",
+            "target": "精英电路板"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "乙醚冲击(Ether Strike)!"
+        },
+        {
+            "source": "中和反应",
+            "target": "萃取"
+        },
+        {
+            "source": "P-507",
+            "target": "萃取"
+        },
+        {
+            "source": "获取任务",
+            "target": "获取立方氧化锆"
+        },
+        {
+            "source": "获取任务",
+            "target": "获取堇云石"
+        },
+        {
+            "source": "获取任务",
+            "target": "获取碲"
+        },
+        {
+            "source": "LuV电路组装机",
+            "target": "获取任务"
+        },
+        {
+            "source": "LuV阶段你会讨厌的5和6",
+            "target": "反魔法者的流体传送"
+        },
+        {
+            "source": "分离溶剂",
+            "target": "氯键断裂(Fracture Chlorine)"
+        },
+        {
+            "source": "获得铕",
+            "target": "火箭相关"
+        },
+        {
+            "source": "5阶火箭",
+            "target": "火箭相关"
+        },
+        {
+            "source": "开始聚变",
+            "target": "获得铕"
+        },
+        {
+            "source": "随机过程绝对是超棒的游戏设计",
+            "target": "铭刻,非常重要"
+        },
+        {
+            "source": "LuV能源仓",
+            "target": "工业纯净水净化"
+        },
+        {
+            "source": "氯键断裂(Fracture Chlorine)",
+            "target": "酸中之王"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "LuV组装机"
+        },
+        {
+            "source": "LuV阶段你会讨厌的5和6",
+            "target": "LuV电路组装机"
+        },
+        {
+            "source": "LuV组装机",
+            "target": "LuV能源仓"
+        },
+        {
+            "source": "LuV超导(32,768 EU/t)",
+            "target": "LuV能源仓"
+        },
+        {
+            "source": "LuV阶段你会讨厌的5和6",
+            "target": "LuV激光蚀刻机"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "LuV超导(32,768 EU/t)"
+        },
+        {
+            "source": "开始聚变",
+            "target": "利用等离子体发电"
+        },
+        {
+            "source": "LuV能源仓",
+            "target": "最后,分子重组仪!"
+        },
+        {
+            "source": "锑和氯",
+            "target": "更多氯"
+        },
+        {
+            "source": "细菌培养缸",
+            "target": "突变令人愉悦"
+        },
+        {
+            "source": "神秘...",
+            "target": "突变令人愉悦"
+        },
+        {
+            "source": "生物实验室",
+            "target": "突变令人愉悦"
+        },
+        {
+            "source": "晶体芯片",
+            "target": "突变令人愉悦"
+        },
+        {
+            "source": "菌泥",
+            "target": "突变令人愉悦"
+        },
+        {
+            "source": "火箭相关",
+            "target": "神秘..."
+        },
+        {
+            "source": "5阶火箭",
+            "target": "神秘..."
+        },
+        {
+            "source": "LuV能源仓",
+            "target": "硅岩合金"
+        },
+        {
+            "source": "升级硅岩线圈",
+            "target": "硅岩合金"
+        },
+        {
+            "source": "快成功了",
+            "target": "硅岩合金"
+        },
+        {
+            "source": "快成功了",
+            "target": "硅岩粉"
+        },
+        {
+            "source": "快成功了",
+            "target": "硅岩锭"
+        },
+        {
+            "source": "工业高炉时间1",
+            "target": "中和反应"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "不,它不能修好你的车"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "LuV阶段你会讨厌的5和6"
+        },
+        {
+            "source": "HSS-S",
+            "target": "LuV阶段你会讨厌的1-4"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "LuV阶段你会讨厌的1-4"
+        },
+        {
+            "source": "钌铱合金?",
+            "target": "LuV阶段你会讨厌的1-4"
+        },
+        {
+            "source": "澄清器",
+            "target": "臭氧化"
+        },
+        {
+            "source": "另一种溶剂",
+            "target": "P-507"
+        },
+        {
+            "source": "LuV阶段你会讨厌的5和6",
+            "target": "淘金是笨蛋才会干的"
+        },
+        {
+            "source": "萃取",
+            "target": "回收氟"
+        },
+        {
+            "source": "中和反应",
+            "target": "回收镓"
+        },
+        {
+            "source": "工业高炉时间1",
+            "target": "回收钛"
+        },
+        {
+            "source": "回收氟",
+            "target": "回收废液"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "顽固胶水"
+        },
+        {
+            "source": "获取碲",
+            "target": "随机过程绝对是超棒的游戏设计"
+        },
+        {
+            "source": "获取立方氧化锆",
+            "target": "随机过程绝对是超棒的游戏设计"
+        },
+        {
+            "source": "获取堇云石",
+            "target": "随机过程绝对是超棒的游戏设计"
+        },
+        {
+            "source": "更多氯",
+            "target": "分离溶剂"
+        },
+        {
+            "source": "萃取",
+            "target": "分离"
+        },
+        {
+            "source": "精英电路板",
+            "target": "分离"
+        },
+        {
+            "source": "中子活化器",
+            "target": "分离"
+        },
+        {
+            "source": "快成功了",
+            "target": "硅岩掺杂的单晶硅2"
+        },
+        {
+            "source": "你觉得发射器已经够糟糕了？",
+            "target": "开始聚变"
+        },
+        {
+            "source": "硅岩合金",
+            "target": "开始聚变"
+        },
+        {
+            "source": "开始聚变",
+            "target": "太阳聚变"
+        },
+        {
+            "source": "LuV阶段你会讨厌的5和6",
+            "target": "你觉得发射器已经够糟糕了？"
+        },
+        {
+            "source": "装配线",
+            "target": "第6阶段(LuV)"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "第6阶段(LuV)"
+        },
+        {
+            "source": "镀铑钯",
+            "target": "第6阶段(LuV)"
+        },
+        {
+            "source": "继续焊接!",
+            "target": "第6阶段(LuV)"
+        },
+        {
+            "source": "纳米处理器主机",
+            "target": "第6阶段(LuV)"
+        },
+        {
+            "source": "利用等离子体发电",
+            "target": "涡轮时间"
+        },
+        {
+            "source": "晶体处理器集群",
+            "target": "终极晶体电脑"
+        }
+    ]
+}

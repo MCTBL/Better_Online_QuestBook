@@ -1,0 +1,272 @@
+{
+    "data": [
+        {
+            "name": "在宇宙星辰间组装",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5622946374684694237.png",
+            "x": 336.0,
+            "y": 252.0,
+            "data": "它有着高达64的并行数,每个模块可以消耗大约500b EU/t.运行它的成本高昂,但确实值得.",
+            "quest_id": "UVG21mYSQJex90gQWdkpIw==",
+            "tooltip": "<strong>在宇宙星辰间组装</strong></br>前置任务需求:</br>你们的主和救世神,UXV部件装配线"
+        },
+        {
+            "name": "永恒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5606710145730409374.png",
+            "x": 132.0,
+            "y": 216.0,
+            "data": "请务必考虑使用它来改进磁流体约束恒星物质的生产.你还需要它来制造MHDCSM(蓝框岩浆)部件.%n%n这个生产循环的敲门砖是随机产生且昂贵的.为了量子操纵者的催化剂和头5次摇奖机会,你总共需要20736L宇宙素.%n%n量子操纵者的配方每次尝试有25%%的几率生产永恒.你也许应该用等离子体来开启量子操纵者的聚焦模式,并专注于生产永恒.%n%n[note]你知道量子操纵者有流体模式吗?它可以用来提取熔融调律源金.只要用螺丝刀右击控制器就可以了.[/note]%n%n[note]用永恒块建造一个完整的信标可能有点奢侈,你觉得呢?[/note]%n%n",
+            "quest_id": "wGq5FvuuROyyMPbT_SkMYg==",
+            "tooltip": "<strong>永恒</strong></br>前置任务需求:</br>熔融磁流体约束恒星物质</br>恒星催化剂"
+        },
+        {
+            "name": "制造太阳系...但是并行化!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4851697106472398149.png",
+            "x": 336.0,
+            "y": 216.0,
+            "data": "你可能已经注意到了,UXV部件与你目前能生产的宇宙素数量相比非常昂贵.%n%n使用星阵将允许你并行运行鸿蒙之眼配方.你可以查看tooltip第二页中的数学公式计算.%n%n如果想直接得到答案,你可以使用这个表格来计算：[url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]注意,如果使用星阵,鸿蒙之眼将使用原始恒星等离子体,而不是氢气和氦气.[/warn]%n%n[note]确保你已经发了足够多的电.[/note]",
+            "quest_id": "IGVryoMbRu28q08v4uwSuw==",
+            "tooltip": "<strong>制造太阳系...但是并行化!</strong></br>前置任务需求:</br>永恒"
+        },
+        {
+            "name": "熔融磁流体约束恒星物质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5865034814944347891.png",
+            "x": 72.0,
+            "y": 252.0,
+            "data": "或简称MHDCSM.%n%n这是您制造UXV部件的主要材料.就和其他所有的终极材料一样,它的制造非常麻烦,而且价格极其昂贵.%n%n您需要在永恒部件上浇筑它,而不是直接将其固化.%n%n祝你玩得开心!%n%n[note]译者注:中文社区常用蓝框岩浆称呼该物质,为书写简便,任务书其他篇章会称其为蓝框岩浆.[/note]",
+            "quest_id": "52Yelo6KSLGumzXo-_F5DQ==",
+            "tooltip": "<strong>熔融磁流体约束恒星物质</strong></br>前置任务需求:</br>最后--宇宙素！"
+        },
+        {
+            "name": "Rule of Threes",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5662664545508156018.png",
+            "x": 336.0,
+            "y": 180.0,
+            "data": "The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.\n\n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]\n\n[note]Usage of a third ring requires the EE upgrade.[/note]",
+            "quest_id": "bHFEDKAiTwGxaiyZEsmdjg==",
+            "tooltip": "<strong>Rule of Threes</strong></br>前置任务需求:</br>你们的主和救世神,UXV部件装配线</br>Project Godforge"
+        },
+        {
+            "name": "Simulating a Solar System",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7454595483869697856.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "Almost as expensive as the real one, right? Not to worry, this stargate and the current are only just the beginning.\n\n[note]Our journey reaches the current end, entering the UXV, aka EOH era.\n\nThe year is 2023, and the game continues to be pushed further and further. The EOH exists now, along with machine parts up to UXV. Multiblocks have gained endless amounts of quality of life, including sub 1-tick OC, batch mode, void protection, and numerous AE2 additions like Crafting Input Buses, Stocking Hatches, Level Maintainers and more. Automation has never been easier, yet the goal has never been placed farther. Naquadah Fuel now has many tiers and can compete into the late-game, even competing with (now fixed) Dyson, but outclassed by the huge amount of power a maximized EOH can make (12.8 TEU/t!).\n\nInitially the stargate recipe seemed impossible, requiring months of runtime on hundreds of maximized EOHs, requiring some adjustments to be more realistic to attain. After this was changed, the race began again, this time between Johny709 and GDCloud. Johny burned out towards the end, and GDCloud was surpassed by a silent contender, StarStack, being the first to conquer this challenge on the 26th of June, 2023.\n\nBeyond just the first, this era marked the beginning of the Group Run Era, with large runs such as Ballers Run (setting this era into motion), Bee Run (affecting wide change on the NH project and its management as a whole), and Cell Run 2 (the fastest ever Stargate run, in only 73 days, popularizing many automation techniques like Level Maintained lines).\n\nAdditionally, this version saw the first player achieve GTNH Gods, reaching Stargate in a 3rd run, earned by GDCloud as a part of Cell Run 2 on the 23rd of June, 2024. Later this Stargate would see three others reach this goal, Ramspace on the 29th of September, 2024, and StaffiX and serenibyss in a group run on the 17th of November, 2024.\n\nP.S.: Here's the list as usual:\n-Many new processing multiblocks like HILE, Fluid Shaper, Industrial Autoclave, etc.\n-Forge of the Gods, Black Hole Compressor, Antimatter power generation, Precise Assembler T4\n-DTPF Convergence, Component Assembly Line tiered bonuses, Mega Vac Subspace Cooling, MK5 fusion skips for Metastable Oganesson\n-Wireless Data Hatches, Wireless Optical Hatches, Uncertainty Resolution\n-Artificial Universe Cells, smart blocking mode[/note]",
+            "quest_id": "hNdNrT_aSKaYi_TnT7cowA==",
+            "tooltip": "<strong>Simulating a Solar System</strong></br>前置任务需求:</br>你成功了!"
+        },
+        {
+            "name": "星门底座方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2574.png",
+            "x": 252.0,
+            "y": 24.0,
+            "data": "我们需要一个星门底座方块来作为星门的基础.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKDg==",
+            "tooltip": "<strong>星门底座方块</strong></br>前置任务需求:</br>星门导标方块"
+        },
+        {
+            "name": "星门导标升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2576.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "想要让星门可以跨维度运行,这个升级必不可少,它可以在你拥有第二个星门后拨号连接...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKEA==",
+            "tooltip": "<strong>星门导标升级</strong></br>前置任务需求:</br>天堂之门?"
+        },
+        {
+            "name": "星门导标方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2575.png",
+            "x": 276.0,
+            "y": 72.0,
+            "data": "一个完整的星门需要7个导标方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKDw==",
+            "tooltip": "<strong>星门导标方块</strong></br>前置任务需求:</br>星门导标升级"
+        },
+        {
+            "name": "星门命令",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2597.png",
+            "x": 132.0,
+            "y": 72.0,
+            "data": "好吧,如果你真的想使用星门,你需要这些来给它供能并进行拨号.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKJQ==",
+            "tooltip": "<strong>星门命令</strong></br>前置任务需求:</br>你可能需要这些"
+        },
+        {
+            "name": "星门外环方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2573.png",
+            "x": 156.0,
+            "y": 24.0,
+            "data": "一个完整的星门需要8个外环方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKDQ==",
+            "tooltip": "<strong>星门外环方块</strong></br>前置任务需求:</br>星门命令"
+        },
+        {
+            "name": "天堂之门?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2572.png",
+            "x": 204.0,
+            "y": 144.0,
+            "data": "你需要大量的这种方块才能构成完整的星门...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKDA==",
+            "tooltip": "<strong>天堂之门?</strong></br>前置任务需求:</br>你成功了!</br>珍惜你自己"
+        },
+        {
+            "name": "第13阶段(UXV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6509950608256890330.png",
+            "x": 72.0,
+            "y": 180.0,
+            "data": "欢迎来到GTNH的最后一个电压等级(暂时).%n%n做好长久挂机的准备,我们希望您在这里玩得愉快.%n%n现在您有了制造熔融磁流体约束恒星物质的可靠方法,最好将您的鸿蒙之眼集群升级到T9来获得宇宙素产量的提升.%n%n希望你在合成一对星门的时候可以享受游戏!%n%n[warn]这个电压等级远未完成.未来会发生改变.[/warn]%n",
+            "quest_id": "7wI7VuLKRe6lqAJpuYKKJg==",
+            "tooltip": "<strong>第13阶段(UXV)</strong></br>前置任务需求:</br>熔融磁流体约束恒星物质</br>永恒"
+        },
+        {
+            "name": "什么?你是怎么做到的?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2598.png",
+            "x": 204.0,
+            "y": 0.0,
+            "data": "你不应该在这里... 我认为如果你是合法解锁了此任务的,你得出门晒晒太阳了...%n%n同时,这是你的奖励,别一次全花光!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKJg==",
+            "tooltip": "<strong>什么?你是怎么做到的?</strong></br>前置任务需求:</br>星门外环方块</br>星门底座方块"
+        },
+        {
+            "name": "你可能需要这些",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2594.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "实际上它可能无法存储任何能量,但对于其他一些终极物品仍然有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKIg==",
+            "tooltip": "<strong>你可能需要这些</strong></br>前置任务需求:</br>天堂之门?"
+        },
+        {
+            "name": "你成功了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3296.png",
+            "x": 204.0,
+            "y": 216.0,
+            "data": "愿梦想大师垂怜于你的灵魂. 你已经抵达了游戏中能制作的最高等级！",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM4A==",
+            "tooltip": "<strong>你成功了!</strong></br>前置任务需求:</br>一只位于时间尽头的眼睛</br>永恒</br>Magnetic Monopole Matter"
+        },
+        {
+            "name": "你们的主和救世神,UXV部件装配线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8646551172440344443.png",
+            "x": 276.0,
+            "y": 216.0,
+            "data": "你需要竭尽所能尽快做出这个!%n%n每一滴宇宙素都弥足珍贵.",
+            "quest_id": "smCKxKkMSeyIAUeFInS4hQ==",
+            "tooltip": "<strong>你们的主和救世神,UXV部件装配线</strong></br>前置任务需求:</br>你成功了!"
+        }
+    ],
+    "links": [
+        {
+            "source": "你们的主和救世神,UXV部件装配线",
+            "target": "在宇宙星辰间组装"
+        },
+        {
+            "source": "熔融磁流体约束恒星物质",
+            "target": "永恒"
+        },
+        {
+            "source": "恒星催化剂",
+            "target": "永恒"
+        },
+        {
+            "source": "永恒",
+            "target": "制造太阳系...但是并行化!"
+        },
+        {
+            "source": "最后--宇宙素！",
+            "target": "熔融磁流体约束恒星物质"
+        },
+        {
+            "source": "你们的主和救世神,UXV部件装配线",
+            "target": "Rule of Threes"
+        },
+        {
+            "source": "Project Godforge",
+            "target": "Rule of Threes"
+        },
+        {
+            "source": "你成功了!",
+            "target": "Simulating a Solar System"
+        },
+        {
+            "source": "星门导标方块",
+            "target": "星门底座方块"
+        },
+        {
+            "source": "天堂之门?",
+            "target": "星门导标升级"
+        },
+        {
+            "source": "星门导标升级",
+            "target": "星门导标方块"
+        },
+        {
+            "source": "你可能需要这些",
+            "target": "星门命令"
+        },
+        {
+            "source": "星门命令",
+            "target": "星门外环方块"
+        },
+        {
+            "source": "你成功了!",
+            "target": "天堂之门?"
+        },
+        {
+            "source": "珍惜你自己",
+            "target": "天堂之门?"
+        },
+        {
+            "source": "熔融磁流体约束恒星物质",
+            "target": "第13阶段(UXV)"
+        },
+        {
+            "source": "永恒",
+            "target": "第13阶段(UXV)"
+        },
+        {
+            "source": "星门外环方块",
+            "target": "什么?你是怎么做到的?"
+        },
+        {
+            "source": "星门底座方块",
+            "target": "什么?你是怎么做到的?"
+        },
+        {
+            "source": "天堂之门?",
+            "target": "你可能需要这些"
+        },
+        {
+            "source": "一只位于时间尽头的眼睛",
+            "target": "你成功了!"
+        },
+        {
+            "source": "永恒",
+            "target": "你成功了!"
+        },
+        {
+            "source": "Magnetic Monopole Matter",
+            "target": "你成功了!"
+        },
+        {
+            "source": "你成功了!",
+            "target": "你们的主和救世神,UXV部件装配线"
+        }
+    ]
+}

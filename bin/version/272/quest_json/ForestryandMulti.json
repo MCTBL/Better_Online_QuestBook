@@ -1,0 +1,1024 @@
+{
+    "data": [
+        {
+            "name": "获得乙醇的另一种方法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2051.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "使用发酵槽处理多余的树苗或其他垃圾获得林业生物质.你的树苗多汁属性越高,你的收获就会越多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIAw==",
+            "tooltip": "<strong>获得乙醇的另一种方法</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "磷灰石电子管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/581.png",
+            "x": 60.0,
+            "y": 252.0,
+            "data": "在你制作第一个农场方块之前,你需要一些磷灰石电子管.先做一些磷灰石长杆(先用车床制作磷灰石杆,然后用锤子或者锻造锤制造长杆),然后还需要一些金螺栓和红色合金板.%n%n然后将这些零件连同玻璃或沙子放入热电子加工台中.你就能制造出磷灰石电子管了.%n%n[note]用电路组装机可以获得更多输出.热电子加工台还有什么用呢?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACRQ==",
+            "tooltip": "<strong>磷灰石电子管</strong></br>前置任务需求:</br>找到磷灰石"
+        },
+        {
+            "name": "杨树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2867.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "将桤木与山毛榉杂交,你就可以培育出杨树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALMw==",
+            "tooltip": "<strong>杨树</strong></br>前置任务需求:</br>桤木"
+        },
+        {
+            "name": "巴尔杉树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2126.png",
+            "x": 396.0,
+            "y": 252.0,
+            "data": "巴尔杉树的原木很漂亮.用柚树和金合欢树杂交培育而来.%n%n高树苗掉率Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAITg==",
+            "tooltip": "<strong>巴尔杉树</strong></br>前置任务需求:</br>柚树"
+        },
+        {
+            "name": "滚开,延迟!还有,蝙蝠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2772.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "在此,延迟",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK1A==",
+            "tooltip": "<strong>滚开,延迟!还有,蝙蝠</strong></br>前置任务需求:</br>为树代言</br>大男孩,咱们来玩玩化工吧"
+        },
+        {
+            "name": "更好的发酵产出",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2055.png",
+            "x": 12.0,
+            "y": 204.0,
+            "data": "有了榨汁机,你可以提高发酵槽的产出,节省肥料或覆盖物并且提高每个树苗的产出.有许多作物可用于获取果汁,所以培育愉快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIBw==",
+            "tooltip": "<strong>更好的发酵产出</strong></br>前置任务需求:</br>获得乙醇的另一种方法"
+        },
+        {
+            "name": "科技带来更好的剪枝器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2121.png",
+            "x": 300.0,
+            "y": 252.0,
+            "data": "GT的剪枝器比林业的好多了.根据你所用的材料,它可以具有远高于林业剪枝器的耐久.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAISQ==",
+            "tooltip": "<strong>科技带来更好的剪枝器</strong></br>前置任务需求:</br>收集混血儿们"
+        },
+        {
+            "name": "生物燃油引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1215.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "加热生物质来产生RF能量的引擎. 首先你需要向引擎中加入岩浆作为热源,燃料可以选用水、菜籽油、牛奶、生物质或者其他什么玩意. 引擎最大输出50RF/t,具体的输出功率取决于你的燃料类型. 水:10RF/t,可燃烧1000t. 果汁:10RF/t,可燃烧2500t. 蜂蜜:20RF/t,可燃烧2500t. 种子油:30RF/t,可燃烧2500t. 牛奶:10RF/t,可燃烧10000t. 生物质:50RF/t,可燃烧2500t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEvw==",
+            "tooltip": "<strong>生物燃油引擎</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "烈焰、末影、绿宝石电子管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1220.png",
+            "x": 12.0,
+            "y": 252.0,
+            "data": "电子管可以用来配置多功能农场种植特殊作物和改变发动机工作模式,还可以让蜂箱组生产一些特殊的物品. 你需要用电烙铁将电子管焊接到电路板上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAExA==",
+            "tooltip": "<strong>烈焰、末影、绿宝石电子管</strong></br>前置任务需求:</br>磷灰石电子管"
+        },
+        {
+            "name": "高槿树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2135.png",
+            "x": 492.0,
+            "y": 252.0,
+            "data": "高槿树有最高的多汁属性.  它将极大地提高发酵机生产生物质的效率.用沙漠刺槐和巴尔杉树杂交培育而来.%n%n高多汁属性Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIVw==",
+            "tooltip": "<strong>高槿树</strong></br>前置任务需求:</br>沙漠刺槐"
+        },
+        {
+            "name": "巴西栗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2256.png",
+            "x": 396.0,
+            "y": 204.0,
+            "data": "巴西栗无法带给你太多重要的特性.用普通山毛榉和丛林木杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI0A==",
+            "tooltip": "<strong>巴西栗</strong></br>前置任务需求:</br>山毛榉"
+        },
+        {
+            "name": "西黄松",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2130.png",
+            "x": 396.0,
+            "y": 300.0,
+            "data": "你可以用红果云杉和落叶松杂交培育出西黄松.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIUg==",
+            "tooltip": "<strong>西黄松</strong></br>前置任务需求:</br>落叶松"
+        },
+        {
+            "name": "更改你的农场电路配置",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/584.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "林业MOD里面的电烙铁是用来将电子管连接到电路板上面的一种工具,电路板除了能放入林业榨汁机和离心机外,还可以通过在电路板上配置不同的电子管可以改变林业引擎的工作方式或者农场的工作模式.不过老实说,一般也就用来改改农场模式了.%n%n一旦电子管被焊接到电路板上后就就只能被更换而无法被移除.一旦放入电烙铁中的配方满足要求电路板就会自动焊接完毕,因此最好先放入电子管,检查确认无误后再放入电路板.%n%n电烙铁还可以将放入引擎、农场、榨汁机和离心机中的电路板拆卸下来.具体操作方法是打开机器的GUI,拿着电烙铁点击电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACSA==",
+            "tooltip": "<strong>更改你的农场电路配置</strong></br>前置任务需求:</br>多方块农场"
+        },
+        {
+            "name": "发条引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1214.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "传说中的手撸发电引擎,撸完之后就可以发电了.你可以用它来给炮塔充电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEvg==",
+            "tooltip": "<strong>发条引擎</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "海岸红杉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2862.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "将落叶松与西黄松杂交,你就可以培育出海岸红杉.%n%n[warn]防火木Get![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALLg==",
+            "tooltip": "<strong>海岸红杉</strong></br>前置任务需求:</br>西黄松"
+        },
+        {
+            "name": "黄檀树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2134.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "黄檀树是一种非常高大的树,非常适合与李子树、核桃树或是别的什么树杂交,以使其产量最大化.用沙漠刺槐和深色橡木杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIVg==",
+            "tooltip": "<strong>黄檀树</strong></br>前置任务需求:</br>沙漠刺槐"
+        },
+        {
+            "name": "椰子树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2257.png",
+            "x": 444.0,
+            "y": 204.0,
+            "data": "椰子树是种子油之王-每个坚果产出300L.用巴西栗和巴尔杉树杂交培育而来.%n%n椰子和种子油Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI0Q==",
+            "tooltip": "<strong>椰子树</strong></br>前置任务需求:</br>巴西栗</br>巴尔杉树"
+        },
+        {
+            "name": "收集混血儿们",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2084.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "如果你幸运地在村庄中找到了一些蜜蜂,你可以把它们放入临近树木的蜂箱中.随着时间的推移,蜜蜂会慢慢地为树木的叶子授粉.使用剪枝器,你可以破坏树叶并100％掉落树苗,这在获取林业树木时比较有用.不过貌似对魔法树木无效. 你可以跟村民交易来获得使用寿命更长的剪枝器.也可以研究研究魔法,你听到谣言称,最耐用的剪枝器只有魔法师才可以制作.%n%nGT也提供了非常好的工具,同样名为剪枝器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIJA==",
+            "tooltip": "<strong>收集混血儿们</strong></br>前置任务需求:</br>制作青铜"
+        },
+        {
+            "name": "燃油引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2859.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "燃油引擎通过燃烧物品产生能量,类似于汽车发动机. 超过100度时,需要给它加水,否则它就会爆炸,别把水用完了! 使用红石信号激活它.%n%n可选的燃料有:%n石油 @30RF/t 总计150K-RF%n乙醇 @40RF/t 总计360K-RF%n柴油 @60RF/t 总计1500K-RF%n%n[note]用石油的时候,别用成原油、轻油、重油了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALKw==",
+            "tooltip": "<strong>燃油引擎</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "桤木",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2866.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "将银桦与山毛榉杂交,你就可以培育出桤木.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALMg==",
+            "tooltip": "<strong>桤木</strong></br>前置任务需求:</br>山毛榉"
+        },
+        {
+            "name": "山毛榉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2127.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "山毛榉可使你获得更快的成熟属性.用银橙和苹果橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAITw==",
+            "tooltip": "<strong>山毛榉</strong></br>前置任务需求:</br>触发:树木培育任务线(解锁)"
+        },
+        {
+            "name": "铜、锡、青铜电子管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1217.png",
+            "x": 60.0,
+            "y": 300.0,
+            "data": "电子管可以用来配置多功能农场种植特殊作物和改变发动机工作模式,还可以让蜂箱组生产一些特殊的物品. 你需要用电烙铁将电子管焊接到电路板上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEwQ==",
+            "tooltip": "<strong>铜、锡、青铜电子管</strong></br>前置任务需求:</br>磷灰石电子管"
+        },
+        {
+            "name": "沙漠刺槐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2133.png",
+            "x": 444.0,
+            "y": 252.0,
+            "data": "沙漠刺槐.培育道路上的另一步.用柚树和巴尔杉树杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIVQ==",
+            "tooltip": "<strong>沙漠刺槐</strong></br>前置任务需求:</br>巴尔杉树"
+        },
+        {
+            "name": "接骨木",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2868.png",
+            "x": 492.0,
+            "y": 156.0,
+            "data": "将桤木与杨树杂交,你就可以培育出接骨木.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALNA==",
+            "tooltip": "<strong>接骨木</strong></br>前置任务需求:</br>杨树"
+        },
+        {
+            "name": "中型电子板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/593.png",
+            "x": 138.0,
+            "y": 348.0,
+            "data": "这个芯片也是可选的,它比小型电子版更加的先进.可以提供2个电子管的焊接位置,可以指定你的农场2/4面积的模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACUQ==",
+            "tooltip": "<strong>中型电子板</strong></br>前置任务需求:</br>更改你的农场电路配置"
+        },
+        {
+            "name": "农场逻辑电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/583.png",
+            "x": 102.0,
+            "y": 348.0,
+            "data": "此芯片可以使你能够选择农场模式(与正确的电子管结合),不止是默认的林场.不过要是你只要木材的话,当我没说. %n%n每个电子管可指定1/4的农场模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACRw==",
+            "tooltip": "<strong>农场逻辑电路</strong></br>前置任务需求:</br>更改你的农场电路配置"
+        },
+        {
+            "name": "找到磷灰石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/588.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "现在是寻找一些矿石的时候了.磷灰石是林业MOD中最基础的矿物之一.用磷灰石可以制作肥料、农场方块或者其他很多东西.这种矿物你可以在Y轴40-60这个范围内找到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACTA==",
+            "tooltip": "<strong>找到磷灰石</strong></br>前置任务需求:</br>热电子加工台"
+        },
+        {
+            "name": "林业mod核心方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/577.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "坚固部件几乎是所有林业机器的基础,你可以理解为他是林业mod里面的机械外壳!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACQQ==",
+            "tooltip": "<strong>林业mod核心方块</strong></br>前置任务需求:</br>工作台2.0</br>基础制作:机器外壳"
+        },
+        {
+            "name": "巨杉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2865.png",
+            "x": 540.0,
+            "y": 300.0,
+            "data": "将海岸红杉与猴面包树杂交,你就可以培育出巨杉.%n%n高度与干围,同时Get!%n%n[note]PS： 如果这样杂交不出来(NEI说这是对的,网上说这是错的),你还可以从林业村民那里交易得到巨杉树苗.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALMQ==",
+            "tooltip": "<strong>巨杉</strong></br>前置任务需求:</br>猴面包树</br>海岸红杉"
+        },
+        {
+            "name": "金树莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2873.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "将树莓和橙子树杂交,你就可以培育出金树莓.%n%n[warn]最快的成熟速度Get![/warn]%n%n[note]不过这可能得等很久,嗯哼? 其实制造更多的多方块农场或是种植站可能会更快.[/note]%n%n[note]不过,你终究想要培育出终极树苗的,对吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALOQ==",
+            "tooltip": "<strong>金树莓</strong></br>前置任务需求:</br>树莓</br>橙子树"
+        },
+        {
+            "name": "猴面包树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2864.png",
+            "x": 540.0,
+            "y": 252.0,
+            "data": "将崖豆与巴尔杉树杂交,你就可以培育出猴面包树.%n%n可以在沙子上种树,Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALMA==",
+            "tooltip": "<strong>猴面包树</strong></br>前置任务需求:</br>崖豆"
+        },
+        {
+            "name": "加热线圈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/585.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "你的热电子加工台需要一些零件一遍在工作时提高温度.所以用磁化钢杆和铜线来制作一些加热线圈.%n%n[note]为什么这又是一个单独的任务?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACSQ==",
+            "tooltip": "<strong>加热线圈</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "山丘樱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2128.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "山丘樱是培育的重要一环.用银橙和苹果橡木/银桦树杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIUA==",
+            "tooltip": "<strong>山丘樱</strong></br>前置任务需求:</br>银橙"
+        },
+        {
+            "name": "工业剪枝器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2263.png",
+            "x": 300.0,
+            "y": 300.0,
+            "data": "要是你厌倦了不断更换剪枝器的话,这个工业剪枝器是可充电的.%n%n[note]要是你看不上这个的话,还有更好的版本.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI1w==",
+            "tooltip": "<strong>工业剪枝器</strong></br>前置任务需求:</br>科技带来更好的剪枝器"
+        },
+        {
+            "name": "先进电子板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/595.png",
+            "x": 210.0,
+            "y": 348.0,
+            "data": "这个芯片也是可选的,它比大型电子板更加先进.可以提供4个电子管的焊接位置,可以用于指定你的农场4/4面积的模式.老实说,你也许应该跳过前三种来做这个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACUw==",
+            "tooltip": "<strong>先进电子板</strong></br>前置任务需求:</br>更改你的农场电路配置"
+        },
+        {
+            "name": "铁、金、钻石电子管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1218.png",
+            "x": 12.0,
+            "y": 300.0,
+            "data": "电子管可以用来配置多功能农场种植特殊作物和改变发动机工作模式,还可以让蜂箱组生产一些特殊的物品. 你需要用电烙铁将电子管焊接到电路板上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEwg==",
+            "tooltip": "<strong>铁、金、钻石电子管</strong></br>前置任务需求:</br>磷灰石电子管"
+        },
+        {
+            "name": "追踪林木",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2107.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "此设备将追踪你发现的所有树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIOw==",
+            "tooltip": "<strong>追踪林木</strong></br>前置任务需求:</br>多么漂亮的树叶..."
+        },
+        {
+            "name": "能量管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2860.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "想要将RF能量传输1格以上,你需要一些能量管道. 首先使用木质管道连接到管道网络,然后再通过其他种类的管道输送能量. 而且,其中的某些似乎是有损的,而更贵的管道一般更好. 另外,你需要电容库来存储RF.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALLA==",
+            "tooltip": "<strong>能量管道</strong></br>前置任务需求:</br>泥炭引擎</br>燃油引擎</br>发条引擎</br>生物燃油引擎"
+        },
+        {
+            "name": "柠檬树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2131.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "柠檬树最适合生产果汁.用山丘樱和银橙杂交培育而来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIUw==",
+            "tooltip": "<strong>柠檬树</strong></br>前置任务需求:</br>山丘樱"
+        },
+        {
+            "name": "橘子树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2871.png",
+            "x": 492.0,
+            "y": 108.0,
+            "data": "将柚子树和山丘樱杂交,你就可以培育出橘子树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALNw==",
+            "tooltip": "<strong>橘子树</strong></br>前置任务需求:</br>柚子树"
+        },
+        {
+            "name": "种树\"智者\"手册",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1115.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "林业的树有多种属性.  当你获得一株具有某条优秀属性的树后,你可以将这条属性培育到其他树身上.用这种方法,你可以获得一棵终极之树,拥有所有你需要的属性-包括所结水果类型!要是你的科技已经发展到较高水平,还可以制造基因工业的机器辅助树苗培育.%n%n[warn]由于蝴蝶会严重影响TPS,请在室内或者地下进行你的林业树木培育工作.[/warn]%n%n请记住,当你要完成这些杂交树任务,需要提交的是\"纯种\"的树,\"杂种\"树可不行.你或许应该进行保留性杂交,直到获取了所有好属性为止.%n%n想要快速培育树苗的话,你得将它封闭起来,这样蝴蝶就跑不出去了,并且还能培育具有更好活动范围和授粉特性的蜜蜂.如果你尤有余力,还可以使用框架. 要是你能造一个蜂箱组的话,筛滤(花粉收集)会有一定帮助. 你需要蜜蜂或蝴蝶来帮助树木授粉. %n%n树具有以下属性:%n树苗/生育能力(S): 破坏树叶获得树苗的几率. 高树苗掉率有利于制造生物质或其他用途. 巴尔杉树,有很高的树苗值,由鹅莓树和枫香树杂交培育而来.%n%n等位基因    掉落几率%n最低        1％%n较低        2.5％%n低          3.5％%n平均        5％%n高          10％%n%n[warn]成熟(M)[/warn]: 树苗长成树的速度.要是你想快速获得大量原木,这个参数很重要. 金树莓的成熟速度为最快.%n%n等位基因    长成时间%n最慢        10%n较慢        7%n慢速        5%n平均        4%n快速        3%n较快        2%n最快        ?%n%n高度(H): 控制树木的生长高度.丛林木的高度已经很高了,但如果你想要最高的树,这里有获得黄檀树的指南.有传言说,罕见的村民拥有巨大的红杉树苗,能够伸入云端...可能有点太高大了.%n%n等位基因    高度值%n最小        25％%n较小        50％%n小          75％%n平均        100％%n大          125％%n较大        150％%n最大        175％%n巨大        BIG%n%n干围(G): 树的宽度. 越宽的树有越多的原木与树叶,但也需要越多的树苗才能开始生长.所有树苗必须同种,且具有相同干围.西北角的树苗决定了新树的状态,而且是催生时骨粉的使用点.核桃初始就提供了2x2干围. 黄檀树的干围同样是最大的.%n%n等位基因    尺寸%n1x1%n2x2%n3x3%n4x4 %n%n产量(Y): 破坏树叶获得果实的几率. 苹果树和辣椒的产量是最高的.%n%n等位基因    掉落几率%n最低        2.5％%n较低        5％%n低          10％%n平均        20％%n高          30％%n较高        ?％%n%n多汁(S): 在林业的发酵机中,每个树苗可产生的生物质量.你可以用蜂蜜或果汁来提高发酵机的出产. 高槿树和红花槭具有最高的多汁属性. 在NEI中无法查询被分析过的树苗以及\"杂种\"的树苗在发酵机中的合成配方.%n%n等位基因    生物质(林业)%n最低        100mB%n较低        200mB%n低          300mB%n平均        400mB%n高          600mB%n%n[warn]耐火[/warn]: 这条属性适用于原木. 只有海岸红杉和巨杉拥有耐火属性.%n%n特殊效果: 所有树都没有特殊效果.%n%n下面是关于其他参数的信息:%n%n生长: 绿心樟树是唯一的例外,它要求的不是光照而是热带环境,只能在温度90％-190％,且湿度90％-200％的生物群系种植,而生长条件更加苛刻,需要120％-190％的温度,与90％-200％湿度. 剩余所有树种,都仅需光照即可生长.%n%n[note]土壤[/note]: 所有树种都一样平均,无论这意味着什么. 可能有某种东西与下方土壤有关,但并没有后续开发.%n%n耐受: 是否可以在沙地上种植. 只有沙漠刺槐和猴面包树有沙地耐受属性. 这条属性只有两种:平原或平原+沙漠.%n%n结果: 理论上树木会结什么果.由物种决定. 树木只会结出在这条属性下同族的果实,而与树木在果实(F)属性下显示的无关.更多树(Extra-Trees)mod的树种支持所有四种类型,但没有来自林业本身的.%n%n果实(F): 决定树木出产的水果或坚果. 每种水果/坚果有不同的增益:%n李子和樱桃李只出产100L果汁,但在流体提取机或榨汁机中有60％的几率出产覆盖物.%n木瓜可出产600L果汁,但覆盖物的产率仅为10％.%n椰子出产300L种子油,出产覆盖物的几率为25％.%n使用林业的多方块农场,可以让你免于手动破坏树叶获取水果/坚果. 将其模式设置为手动果园,然后将所有东西都摆好.%n%n族群: 告诉你在果实属性下面列出的水果/坚果所属的族群是什么: 梨果族、梅果族、坚果族或丛林.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEWw==",
+            "tooltip": "<strong>种树\"智者\"手册</strong></br>前置任务需求:</br>触发:树木培育任务线(解锁)"
+        },
+        {
+            "name": "农场控制盒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/591.png",
+            "x": 204.0,
+            "y": 300.0,
+            "data": "有了农场控制盒你可以通过红石信号来控制你的农场是否工作.在农场控制盒上方或者下方提供一个红石信号将会将关闭整个农场,而从侧面提供信号将仅仅会禁用这一个面.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACTw==",
+            "tooltip": "<strong>农场控制盒</strong></br>前置任务需求:</br>多方块农场"
+        },
+        {
+            "name": "农场齿轮箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/592.png",
+            "x": 252.0,
+            "y": 300.0,
+            "data": "农场齿轮箱可以为你的农场提供动力,让农场可以自动收割庄稼.一个农场至少需要一个农场齿轮箱,你也可以配置额外的农场齿轮箱来提供更多的能量加速农场运转速度.你可以采用RF或EU供能.如果使用EU供能的话,请使用线缆将能量转化.%n%n测试表明,使用4A-ULV供能4个齿轮箱时的工作效率强于1A-LV供能4个齿轮箱.%n%n一块最大尺寸的IC2杂交作物田(5x4x5),种植满属性(31/31/0)低级作物(生长速度快),只需6A-ULV即可维持正常工作.%n%n类似的,一块稍小一点的杂交作物田(3x4x3),种植满属性(31/31/0)高级作物(生长速度慢),仅需要4A-ULV供能.%n%n向同一个齿轮箱输入更多能量不起作用.当齿轮箱RF存满但农场还是没有满速运行时,提高电压无效,只能添加更多的齿轮箱.%n%n当然之前说的是理想情况,实际上如果用ULV供电,你可能会损失2/8EU,所以这么算的话就比不上LV供电有效率了.总之,只需要记住中心思想:多A供多齿轮箱优于单A供单齿轮箱.%n%n当然,如果你的高速作物和低速作物混合种植,那么以上数据仅供参考.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACUA==",
+            "tooltip": "<strong>农场齿轮箱</strong></br>前置任务需求:</br>多方块农场"
+        },
+        {
+            "name": "农场出货箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/589.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "你可以通过管道系统与农场出货箱相连接来提取或者输送农场的物品.%n%n供应物品%n农场出货箱十分智能,它知道管道输送过来的物品是否符合农场的配置,如果不符合那么农场就会拒绝接受这个物品.%n%n输出物品%n而任何由农场收获的物品将会从农场出货箱自动输出至管道或者容器中.管道可以从其他侧面提取物品.如果速度不够快说不定需要多个管道或者换个更高级的传送带.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACTQ==",
+            "tooltip": "<strong>农场出货箱</strong></br>前置任务需求:</br>多方块农场"
+        },
+        {
+            "name": "农场水阀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/590.png",
+            "x": 252.0,
+            "y": 252.0,
+            "data": "大部分农场里面的作物需要经常补充水分,虽然你可以通过液体容器(如储罐)来手动给你的作物浇水.但是你也可以通过农场水阀来自动化浇水这个过程.%n%n通过流体管道将供水系统和农场水阀连接起来,以便于可以自动给农场水阀补充水分.%n%n如果一段时间没有下雨的话,需水量就会提升,最高可达1500％.无尽之壶、蓄水箱(RIO)可支持相当巨量的水需求.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACTg==",
+            "tooltip": "<strong>农场水阀</strong></br>前置任务需求:</br>多方块农场"
+        },
+        {
+            "name": "落叶松",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2129.png",
+            "x": 348.0,
+            "y": 300.0,
+            "data": "你可以用红果云杉和银桦树/苹果橡木杂交培育出落叶松.这是获得红杉的必经之路.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIUQ==",
+            "tooltip": "<strong>落叶松</strong></br>前置任务需求:</br>触发:树木培育任务线(解锁)"
+        },
+        {
+            "name": "橙子树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2872.png",
+            "x": 540.0,
+            "y": 108.0,
+            "data": "将橘子树和柚子树杂交,你就可以培育出橙子树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALOA==",
+            "tooltip": "<strong>橙子树</strong></br>前置任务需求:</br>橘子树"
+        },
+        {
+            "name": "苹果树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2101.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "苹果树有两个很好的属性.较快的生长属性意味着它可以很快从树苗长成树.更高的产量是任何林业树木的最佳属性.苹果树由苹果橡树与山丘樱杂交培育而来.%n%n如果你想要最快生长速度,可以培育金树莓.尝试自己找出它的培育线吧.%n%n高产量属性Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAINQ==",
+            "tooltip": "<strong>苹果树</strong></br>前置任务需求:</br>山丘樱"
+        },
+        {
+            "name": "木瓜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2592.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "木瓜树出产木瓜,木瓜出产最好的果汁. 嘶溜嘶溜!%n%n木瓜和果汁Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKIA==",
+            "tooltip": "<strong>木瓜</strong></br>前置任务需求:</br>山丘樱"
+        },
+        {
+            "name": "泥炭引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1216.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "泥炭引擎可以用泥炭或者沥青泥碳作为燃料. 泥炭可以燃烧5000t(250秒),功率为10RF/t.每个泥炭燃烧后都会得到0.66个灰烬,因此你烧3个泥炭将会得到2个灰烬.%n沥青泥炭可以燃烧6000t(300秒),功率为20RF/t.%n%n你可以使用锡电子管来建造自动的泥炭农场,或者手动农场也可以.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEwA==",
+            "tooltip": "<strong>泥炭引擎</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "李子树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2132.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "李子树是一种多用途树.  产量很高,果实覆盖率最高.它的多汁属性也不错,适合用于生产生物质.由山丘樱和柠檬树杂交培育而来.%n%n李子和覆盖物Get!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIVA==",
+            "tooltip": "<strong>李子树</strong></br>前置任务需求:</br>柠檬树"
+        },
+        {
+            "name": "柚子树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2870.png",
+            "x": 492.0,
+            "y": 60.0,
+            "data": "将山丘樱和柠檬树杂交,你就可以培育出柚子树.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALNg==",
+            "tooltip": "<strong>柚子树</strong></br>前置任务需求:</br>柠檬树"
+        },
+        {
+            "name": "树莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2869.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "将山丘樱和接骨木杂交,你就可以培育出树莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALNQ==",
+            "tooltip": "<strong>树莓</strong></br>前置任务需求:</br>山丘樱</br>接骨木"
+        },
+        {
+            "name": "大型电子板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/594.png",
+            "x": 174.0,
+            "y": 348.0,
+            "data": "这个芯片也是可选的,它比中型电子版更加的先进.可以提供3个电子管的焊接位置,可以用于指定你的农场3/4面积的模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACUg==",
+            "tooltip": "<strong>大型电子板</strong></br>前置任务需求:</br>更改你的农场电路配置"
+        },
+        {
+            "name": "橡胶、黑曜石、青金石电子管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1219.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "电子管可以用来配置多功能农场种植特殊作物和改变发动机工作模式,还可以让蜂箱组生产一些特殊的物品. 你需要用电烙铁将电子管焊接到电路板上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEww==",
+            "tooltip": "<strong>橡胶、黑曜石、青金石电子管</strong></br>前置任务需求:</br>磷灰石电子管"
+        },
+        {
+            "name": "看看你的劳动成果",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2085.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "很难看出哪块树叶被授粉了.制作一副眼镜以获取更清晰的视野.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIJQ==",
+            "tooltip": "<strong>看看你的劳动成果</strong></br>前置任务需求:</br>重要的工具</br>为树代言"
+        },
+        {
+            "name": "银橙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2124.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "银橙,一种基础杂交树.用白桦和苹果橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAITA==",
+            "tooltip": "<strong>银橙</strong></br>前置任务需求:</br>触发:树木培育任务线(解锁)"
+        },
+        {
+            "name": "为树代言",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2122.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "你需要找一堆原版树来开始你的培育计划.你可以使用林木分析仪直接将它们转化为林业树苗-但是你需要一个木工机和来自MV的铝才能制作它. 或者,你可以种上一堆原版树,然后用装有不错授粉属性蜜蜂的蜂箱把这些树围起来. 眼镜会帮助你分辨被授粉的树叶,然后用你的剪枝器收获那些树叶.%n%n想要完成这个任务需要扫描过的树苗,但你可以在能做GT扫描仪或林木扫描仪之前先开始培育.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAISg==",
+            "tooltip": "<strong>为树代言</strong></br>前置任务需求:</br>收集混血儿们"
+        },
+        {
+            "name": "多么漂亮的树叶...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2083.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "既然你已经进入了MV阶段,就可以开始用聪明的方法培育林业的树了. 首先做个林木分析仪,然后扫描一些常见的原版树苗,比如橡木、深色橡木、云杉、白桦、金合欢和丛林木.这样它们就会转化为林业版本的树苗.你得用蜂窝弄些蜂蜜或者蜂蜜汁来驱动林木分析仪.%n%n如果你想要批量扫描树苗,可以使用装满蜂蜜的GT扫描仪.%n%n你还可以试着用基因工业的机器修改它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIIw==",
+            "tooltip": "<strong>多么漂亮的树叶...</strong></br>前置任务需求:</br>木工机</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "柚树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2125.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "柚树是培育巨杉或黄檀树(一个真正的巨无霸)的第一步.用丛林木和深色橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAITQ==",
+            "tooltip": "<strong>柚树</strong></br>前置任务需求:</br>触发:树木培育任务线(解锁)"
+        },
+        {
+            "name": "木工机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/578.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "木工机类似一个自动化的工作台,它有一个物品输入槽、配方储存槽和产物输出槽.一些配方需要一些额外的液体,比如说水、牛奶、蜂蜜或者熔融红石.使用木工机你可以制作农场方块、编织更好的背包和制作蜜蜂或者树木或者蝴蝶分析仪等. %n%n木工机在工作的时候需要能量,你可以直接把GT的线缆或者电池箱连接到机器上,或者制造一些林业mod、铁路mod、建筑mod里面的RF引擎.%n%n[note]PS： 是的,想要实现这玩意的自动化是很痛苦的,建议一个配方做一个.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACQg==",
+            "tooltip": "<strong>木工机</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "离心机(林业MOD)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/994.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "林业离心机能从蜂窝中提取最多高达9种物品,这台机器使用RF能量.%n%n不过请记住,后期的蜂窝需要GT机器才能处理.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD4g==",
+            "tooltip": "<strong>离心机(林业MOD)</strong></br>前置任务需求:</br>林业mod核心方块"
+        },
+        {
+            "name": "多方块农场",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/582.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "建立一个最小的农场需要36个农场方块(3x4x3-最大号的农场需要100个农场方块5x4x5).这个农场需要一个农场水阀来引入水,需要一个农场出货箱来输入输出物品,还需要一个农场齿轮箱来给农场提供能量.而农场控制盒可以用红石信号来控制你的农场工作状态. 基底方块需要与功能方块的材质一致.在本任务,都是石砖. 这些基底方块可以放置在除了高于结构以外的任意位置. 农场会基于不同模式,搜索这些方块上6格内的泥土/耕地/沙子/灵魂沙/腐殖土,以及土上对应的作物、树苗等.%n%n你可以使用不同的模式,以收获不同的作物. 林场(Arboreal)模式可种植各种树木,地狱农场(Infernal)模式可收获地狱疣,等等.甚至可以在同一个农场内混合各种模式-比如在一块地砍伐树木获取木材,而另一块地不对树木进行砍伐,只收获水果.%n%n你可能需要试验几次才能掌握其运行机制,但这里 [url]https://ftbwiki.org/MultiFarm#Managed_Farms[/url] 有个简洁的列表,虽然作物农场不能收获某种棉花. 这可能是GTNH带来的变化,我也不确定. 相当数量的作物有对应的IC2杂交作物版本,如果花时间培育它们的属性的话,杂交作物会更具优势. 果园(Orchard)模式适用于潘马斯和巫术作物,可以为你节省一些时间. 但似乎不支持潘马斯的下界作物...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACRg==",
+            "tooltip": "<strong>多方块农场</strong></br>前置任务需求:</br>木工机</br>磷灰石电子管"
+        },
+        {
+            "name": "热电子加工台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/580.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "热电子加工台可以制作各种真空管或者彩色玻璃,他需要RF能量才能运行.%n%n这是林业mod的第一台机器,你可以通过木工机来制作出来.这个设备在工作之前需要预热,一旦开始工作就需要保持一定的工作温度来持续运转. 而提供的能量多少将决定热电子加工台的工作温度.而如果你没有足够的能量来维持这个温度,那么温度就将慢慢的下降.它会持续消耗能量,所以不需要用的时候可以断开能量供应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACRA==",
+            "tooltip": "<strong>热电子加工台</strong></br>前置任务需求:</br>木工机</br>加热线圈"
+        },
+        {
+            "name": "铀-238,等等,你确定?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2771.png",
+            "x": 108.0,
+            "y": 300.0,
+            "data": "如果想要多方块农场支持IC2作物,你就需要这个.从钍中获得铀-238,然后通过作物掉落、洗劫村庄或者HV阶段的正常方式获得末影之眼.为了防止延迟过高,它同样只会检索多方块农场上6格.所以向堆叠说再见吧,这没有任何意义.%n%n最大尺寸支持约1100株作物,而最小尺寸支持约600株作物,这取决于你的布局.这是因为在此模式下,它会检索比正常模式多5格的作物(在基本方向上,虽然貌似在角落可以达到更远,不过这很难描述,试试看吧.).它们的大小与以前的版本相同,因此你无需重新调整它们的大小.%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK0w==",
+            "tooltip": "<strong>铀-238,等等,你确定?</strong></br>前置任务需求:</br>磷灰石电子管"
+        },
+        {
+            "name": "欢迎来玩林业MOD",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/586.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "你想要做一个自动化的农场、树场或者养殖蜜蜂？想要用林业工作台简化合成?那么到这一章就对了!你需要书架来解锁任务,重启压缩机!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACSg==",
+            "tooltip": "<strong>欢迎来玩林业MOD</strong></br>前置任务需求:</br>书"
+        },
+        {
+            "name": "崖豆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2863.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "将巴尔杉树与黄檀树杂交,你就可以培育出崖豆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALLw==",
+            "tooltip": "<strong>崖豆</strong></br>前置任务需求:</br>黄檀树"
+        },
+        {
+            "name": "为什么不,这不适合人类饮用",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2052.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "收集发酵槽中的生物质,再放入蒸馏室中蒸馏,可获得乙醇.用来发电并不太合适,但要是你想制备乙烯,它就很有用.  要是不想太麻烦,你可以用老旧的蒸汽设备为这套机器加上林业农场供能,换取更有用的燃料,或者直接用出产的乙醇供能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIBA==",
+            "tooltip": "<strong>为什么不,这不适合人类饮用</strong></br>前置任务需求:</br>获得乙醇的另一种方法"
+        },
+        {
+            "name": "工作台2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/576.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "一个强化的手动工作台,但是这个工作台可以记住之前的9个合成表. 左键点击右侧的合成表可以提取合成配方. 右键点击可以锁定合成表.%n%n合成所使用的物品可以放置到GUI下方的物品缓存区内. 工作台上面的制作矩阵仅仅是视觉效果,并没有实际用途.%n%n这种林业工作台非常有用,可以大大简化合成工作,它还会自动使用缓存区中的工具参与合成.%n%n特别的:%n用<一桶Y>合成<物品X>时-将所有原料放入工作台,选择好合成表,Shift+左键点击成品就可以全部合成完毕(耗尽库存内原料)%n合成潘马斯的淡水-与上面类似,但没有第二物品%n合成粘土砖-木模具会自动重复使用%n合成任意使用工具的物品-工具也会自动重复使用并消耗耐久.%n%n[warn]警告：工作台被破坏时,存储的合成表将会丢失!为了避免这种情况,请用手推车搬动它.[/warn]%n%n[note]更多林业mod的任务请看专门的任务栏.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACQA==",
+            "tooltip": "<strong>工作台2.0</strong></br>前置任务需求:</br>欢迎来玩林业MOD"
+        }
+    ],
+    "links": [
+        {
+            "source": "林业mod核心方块",
+            "target": "获得乙醇的另一种方法"
+        },
+        {
+            "source": "找到磷灰石",
+            "target": "磷灰石电子管"
+        },
+        {
+            "source": "桤木",
+            "target": "杨树"
+        },
+        {
+            "source": "柚树",
+            "target": "巴尔杉树"
+        },
+        {
+            "source": "为树代言",
+            "target": "滚开,延迟!还有,蝙蝠"
+        },
+        {
+            "source": "大男孩,咱们来玩玩化工吧",
+            "target": "滚开,延迟!还有,蝙蝠"
+        },
+        {
+            "source": "获得乙醇的另一种方法",
+            "target": "更好的发酵产出"
+        },
+        {
+            "source": "收集混血儿们",
+            "target": "科技带来更好的剪枝器"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "生物燃油引擎"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "烈焰、末影、绿宝石电子管"
+        },
+        {
+            "source": "沙漠刺槐",
+            "target": "高槿树"
+        },
+        {
+            "source": "山毛榉",
+            "target": "巴西栗"
+        },
+        {
+            "source": "落叶松",
+            "target": "西黄松"
+        },
+        {
+            "source": "多方块农场",
+            "target": "更改你的农场电路配置"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "发条引擎"
+        },
+        {
+            "source": "西黄松",
+            "target": "海岸红杉"
+        },
+        {
+            "source": "沙漠刺槐",
+            "target": "黄檀树"
+        },
+        {
+            "source": "巴西栗",
+            "target": "椰子树"
+        },
+        {
+            "source": "巴尔杉树",
+            "target": "椰子树"
+        },
+        {
+            "source": "制作青铜",
+            "target": "收集混血儿们"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "燃油引擎"
+        },
+        {
+            "source": "山毛榉",
+            "target": "桤木"
+        },
+        {
+            "source": "触发:树木培育任务线(解锁)",
+            "target": "山毛榉"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "铜、锡、青铜电子管"
+        },
+        {
+            "source": "巴尔杉树",
+            "target": "沙漠刺槐"
+        },
+        {
+            "source": "杨树",
+            "target": "接骨木"
+        },
+        {
+            "source": "更改你的农场电路配置",
+            "target": "中型电子板"
+        },
+        {
+            "source": "更改你的农场电路配置",
+            "target": "农场逻辑电路"
+        },
+        {
+            "source": "热电子加工台",
+            "target": "找到磷灰石"
+        },
+        {
+            "source": "工作台2.0",
+            "target": "林业mod核心方块"
+        },
+        {
+            "source": "基础制作:机器外壳",
+            "target": "林业mod核心方块"
+        },
+        {
+            "source": "猴面包树",
+            "target": "巨杉"
+        },
+        {
+            "source": "海岸红杉",
+            "target": "巨杉"
+        },
+        {
+            "source": "树莓",
+            "target": "金树莓"
+        },
+        {
+            "source": "橙子树",
+            "target": "金树莓"
+        },
+        {
+            "source": "崖豆",
+            "target": "猴面包树"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "加热线圈"
+        },
+        {
+            "source": "银橙",
+            "target": "山丘樱"
+        },
+        {
+            "source": "科技带来更好的剪枝器",
+            "target": "工业剪枝器"
+        },
+        {
+            "source": "更改你的农场电路配置",
+            "target": "先进电子板"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "铁、金、钻石电子管"
+        },
+        {
+            "source": "多么漂亮的树叶...",
+            "target": "追踪林木"
+        },
+        {
+            "source": "泥炭引擎",
+            "target": "能量管道"
+        },
+        {
+            "source": "燃油引擎",
+            "target": "能量管道"
+        },
+        {
+            "source": "发条引擎",
+            "target": "能量管道"
+        },
+        {
+            "source": "生物燃油引擎",
+            "target": "能量管道"
+        },
+        {
+            "source": "山丘樱",
+            "target": "柠檬树"
+        },
+        {
+            "source": "柚子树",
+            "target": "橘子树"
+        },
+        {
+            "source": "触发:树木培育任务线(解锁)",
+            "target": "种树\"智者\"手册"
+        },
+        {
+            "source": "多方块农场",
+            "target": "农场控制盒"
+        },
+        {
+            "source": "多方块农场",
+            "target": "农场齿轮箱"
+        },
+        {
+            "source": "多方块农场",
+            "target": "农场出货箱"
+        },
+        {
+            "source": "多方块农场",
+            "target": "农场水阀"
+        },
+        {
+            "source": "触发:树木培育任务线(解锁)",
+            "target": "落叶松"
+        },
+        {
+            "source": "橘子树",
+            "target": "橙子树"
+        },
+        {
+            "source": "山丘樱",
+            "target": "苹果树"
+        },
+        {
+            "source": "山丘樱",
+            "target": "木瓜"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "泥炭引擎"
+        },
+        {
+            "source": "柠檬树",
+            "target": "李子树"
+        },
+        {
+            "source": "柠檬树",
+            "target": "柚子树"
+        },
+        {
+            "source": "山丘樱",
+            "target": "树莓"
+        },
+        {
+            "source": "接骨木",
+            "target": "树莓"
+        },
+        {
+            "source": "更改你的农场电路配置",
+            "target": "大型电子板"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "橡胶、黑曜石、青金石电子管"
+        },
+        {
+            "source": "重要的工具",
+            "target": "看看你的劳动成果"
+        },
+        {
+            "source": "为树代言",
+            "target": "看看你的劳动成果"
+        },
+        {
+            "source": "触发:树木培育任务线(解锁)",
+            "target": "银橙"
+        },
+        {
+            "source": "收集混血儿们",
+            "target": "为树代言"
+        },
+        {
+            "source": "木工机",
+            "target": "多么漂亮的树叶..."
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "多么漂亮的树叶..."
+        },
+        {
+            "source": "触发:树木培育任务线(解锁)",
+            "target": "柚树"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "木工机"
+        },
+        {
+            "source": "林业mod核心方块",
+            "target": "离心机(林业MOD)"
+        },
+        {
+            "source": "木工机",
+            "target": "多方块农场"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "多方块农场"
+        },
+        {
+            "source": "木工机",
+            "target": "热电子加工台"
+        },
+        {
+            "source": "加热线圈",
+            "target": "热电子加工台"
+        },
+        {
+            "source": "磷灰石电子管",
+            "target": "铀-238,等等,你确定?"
+        },
+        {
+            "source": "书",
+            "target": "欢迎来玩林业MOD"
+        },
+        {
+            "source": "黄檀树",
+            "target": "崖豆"
+        },
+        {
+            "source": "获得乙醇的另一种方法",
+            "target": "为什么不,这不适合人类饮用"
+        },
+        {
+            "source": "欢迎来玩林业MOD",
+            "target": "工作台2.0"
+        }
+    ]
+}

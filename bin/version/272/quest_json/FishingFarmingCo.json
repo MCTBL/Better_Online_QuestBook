@@ -1,0 +1,1588 @@
+{
+    "data": [
+        {
+            "name": "钓鱼伙伴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/632.png",
+            "x": 684.0,
+            "y": 156.0,
+            "data": "你有试过空手抓鱼吗？是时候做根钓鱼竿轻松钓鱼了.在水面使用你的钓竿并等到浮标降到水下,然后收线并希望你抓到些好东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACeA==",
+            "tooltip": "<strong>钓鱼伙伴</strong></br>前置任务需求:</br>线材轧机v0.2测试版"
+        },
+        {
+            "name": "女孩最好的朋友",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1800.png",
+            "x": 108.0,
+            "y": 252.0,
+            "data": "想给一个女孩留下深刻印象?种个钻石出来怎么样?!?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHCA==",
+            "tooltip": "<strong>女孩最好的朋友</strong></br>前置任务需求:</br>可再生石油"
+        },
+        {
+            "name": "分析你的作物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1541.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "作物分析仪是一种电动工具,用于分析IC2作物种子袋.可将其放入MV机器来充电;建议直接将MV电池放入其中以保持电力充足(译者注:其实你放个兰波顿也没问题).要完全分析种子袋,你需要使用作物分析仪分析四次.如果已经种植了作物,最好用便携式扫描仪进行分析,可比作物分析仪好用多了--而且每次左键作物架都有可能丢失种子.%n%n作物分析仪还有一个名为IC2作物计算器的功能,你可以在其中找到任何作物的杂交输出组合.要使用计算器,请在手持作物分析仪的同时按\"IC2 side inventory\"键(默认为C,可在控制中更改).潜行时也可以这样做,会有一个不同的GUI,这时你可以选择任何作物而不需要从你的背包中使用它们. 你可以选择想要的作物,然后查看如何杂交有较高的几率.不过无法反向查看,要知道这个,请在discord上查找crops.zip(不过没有云母作物(micadia)).%n%n在任一GUI中,你最多可以选择四个作物一起杂交.然后单击\"process\",底部一行将显示可能的杂交输出及其几率(并非百分比).你可以使用\"+\"和\"-\"按钮滚动作物的行.你还可以使用GUI中右下的按钮按作物等级(tier)、名字(name)或几率(priority)对输出行进行排序.你可以在按住shift的同时按下排序按钮来反转排序.%n%n当你尝试获取特定的作物时,你通常希望最大化其几率.但更具体地说,你希望在所有可能中最大化其几率比例.这意味着用不同作物一起杂交通常没有任何好处,这只会降低你想要的那种作物的生成几率,所以用2-4株同种作物杂交吧.%n%n关于作物杂交,这里有一篇教程[url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url]  %n%n一大片粘性甘蔗田可以杂交出许多有价值的作物.因为粘性甘蔗的作物等级较高(大多数情况下的随机变异等级变化不大),而且粘性甘蔗生长速度很快,这样很容易就可以把三围刷上去,这是杂交试验田的第一步. 变异是随机的,别忘了粘性甘蔗可以杂交出UU作物(transformium).杂交会倾向于变异成类似的作物,所以如果你需要金属,那就多杂交点金属作物. 请到Wiki或表格(非最新)上查看作物的具体属性.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGBQ==",
+            "tooltip": "<strong>分析你的作物</strong></br>前置任务需求:</br>种子不再未知</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "我授予你骑士称号",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1951.png",
+            "x": 396.0,
+            "y": 300.0,
+            "data": "想要有取之不尽的骑士金属?这种作物可不太好种.  务必给它提供肥沃的土地、洁净的空气、充足的肥料与水.要是没养活别找我.%n%n任何矿物莓都是良好的资源作物,以钴和阿迪特最优,其次是铁和其他的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHnw==",
+            "tooltip": "<strong>我授予你骑士称号</strong></br>前置任务需求:</br>钢叶2"
+        },
+        {
+            "name": "动物陷阱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/631.png",
+            "x": 540.0,
+            "y": 60.0,
+            "data": "厌倦猎杀牛、僵尸和羊了吗？你可以建造陷阱并期望动物或怪物会被内部的网子抓到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACdw==",
+            "tooltip": "<strong>动物陷阱</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "大麦时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2725.png",
+            "x": 492.0,
+            "y": 108.0,
+            "data": "是时候种一些大麦来做点面包了. 在没有小麦的时候,大麦是不错的替代选择.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKpQ==",
+            "tooltip": "<strong>大麦时间</strong></br>前置任务需求:</br>...一分收获"
+        },
+        {
+            "name": "你最好把你的防化服穿上",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1949.png",
+            "x": 348.0,
+            "y": 396.0,
+            "data": "食人魔树(Troll-plant)!  它会做什么?  吃了你!%n%n译者注:其实就是产钚241而已...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHnQ==",
+            "tooltip": "<strong>你最好把你的防化服穿上</strong></br>前置任务需求:</br>铁木比普通木材好"
+        },
+        {
+            "name": "比牛奶好",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1605.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "我最近感觉不舒服.种点大地疣吧. 它们比牛奶更好,因为它们只会消除负面状态,且可堆叠到64. 这在与可怕的炼金术士战斗时真的很好用!%n%n其中还含有要素源质:灵气x8,魔法x4和生命x4,这对神秘使们很有用.在地狱疣下放置雪块,等待一段时间即可获得大地疣,无需费力地杂交变异.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGRQ==",
+            "tooltip": "<strong>比牛奶好</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "猎杀烈焰人太过困难?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1799.png",
+            "x": 204.0,
+            "y": 300.0,
+            "data": "那么种植一些烈焰甘蔗(blazereed)吧,你再也不用为烈焰棒烦心了.%n%n恶魂草可以比较容易地杂交出烈焰甘蔗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHBw==",
+            "tooltip": "<strong>猎杀烈焰人太过困难?</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "我不去就山,让山来就我",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2415.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,不得不经常面对狼群. 别急着打包所有东西,搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登录才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围,范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看\"替代魔法\"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJbw==",
+            "tooltip": "<strong>我不去就山,让山来就我</strong></br>前置任务需求:</br>种子不再未知</br>潮湿而温暖？"
+        },
+        {
+            "name": "煤...来自凋灵甘蔗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1927.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "凋灵甘蔗(Withereed)是煤的一种来源,更重要的是,它可作为更高级作物的父本/母本.  你需要将煤块置于下方才能使其完全成熟.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHhw==",
+            "tooltip": "<strong>煤...来自凋灵甘蔗?</strong></br>前置任务需求:</br>猎杀烈焰人太过困难?"
+        },
+        {
+            "name": "懒人厨房(Cooking for Blockheads)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2895.png",
+            "x": 636.0,
+            "y": 252.0,
+            "data": "感谢mitch把这个超棒的mod移植过来. 通过这个mod可以帮助你合成新食物. 所有与厨房地板相连的方块都被视为同一多方块结构(都可以直接使用!). 厨房的工作台面会搜索上方两格的橱柜,包括在整个多方块结构中.%n%n存储在存储器(比如橱柜)或你的物品栏中的物品,都可以参与合成. 所有存储物品的储存器都是一样的,所以除非你真的很想要一面墙的冰箱,否则不要造太多... 为水槽供水,即可支持所有需要水的食物配方.%n%n你可以在烤箱中存放一些烹饪工具.剩下的可以存放在厨具架上,这样就可以在合成食谱配方时自动使用它们了. 如果你还没法做齐潘马斯的工具,也是支持GT工具的,比如软锤.%n%n烤箱有3个输入槽,3个输出槽,一次可以处理9个物品. 它基本上就是个炉子.而真正核心的是烹饪桌.%n%n烹饪桌会自动显示基于现有原材料,可以制作的所有食物,而你可以通过点击直接完成它们. 制出所有的食物,并获得所有的奖励生命上限!%n%n你可以使用染料对厨房进行涂色,烤箱除外.%n%n请注意,由于开发还未完成,所以懒人厨房还存在一些问题,例如:让烤箱之类的机器支持RF/EU能量的升级还没有加入. 等等...不过值得庆贺的是,吐司机修好了!%n%n请到GTNH仓库下的CFB-specific反馈bug及问题,地址是[url]https://github.com/GTNewHorizons/CookingForBlockheads/issues[/url]%n%n[note]罐子里没有奶牛,未来也不会有.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALTw==",
+            "tooltip": "<strong>懒人厨房(Cooking for Blockheads)</strong></br>前置任务需求:</br>书"
+        },
+        {
+            "name": "冷却你的棉花糖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1487.png",
+            "x": 564.0,
+            "y": 396.0,
+            "data": "下一步就是冷却热棉花糖,使用HV的真空冷冻机让它冷静一下.%n%n你会获得虚弱II和反胃II效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFzw==",
+            "tooltip": "<strong>冷却你的棉花糖</strong></br>前置任务需求:</br>热棉花糖"
+        },
+        {
+            "name": "香脆腐肉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2898.png",
+            "x": 396.0,
+            "y": 108.0,
+            "data": "腐肉不太健康.它无法为你充饥. 要是晾干会怎么样?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALUg==",
+            "tooltip": "<strong>香脆腐肉</strong></br>前置任务需求:</br>柔软的皮革"
+        },
+        {
+            "name": "作物自动化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1542.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "作物监管机是一台LV机器,可以监控11x11x3区域的作物,并根据需要自动施肥,使用除草剂与浇水. 水可以直接泵入或使用IC2水化单元,水化单元使用后不会返还单元.%n%n作物监管机防雨,但要确保你的电源不会淋雨(你可能会找到一种奇特的方式做到),或使用LV电池供电. 锂电池大概能持续约2小时.%n%n耕地仍然需要附近有水方块才能保持湿润,因为监管机长只会浇灌作物,而不是土壤. 尝试将睡莲放在水上,这样走路就不会掉下去了,或者你可以试试花土.%n%n你需要不锈钢来制作作物收割机.  林业的多方块农场(林场)可作为作物监管机和作物收割机的替代方案,它也可以收获作物架上的作物,甚至不需要使用作物分析仪来选择正确的生长阶段即可收获!%n%n目前,作物收割机是LV机器. 林业农场可以替代作物监管机与作物收割机的功能.而且它也支持作物架,甚至无需作物分析仪也可在正确的阶段收割作物!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGBg==",
+            "tooltip": "<strong>作物自动化</strong></br>前置任务需求:</br>种子不再未知</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "作物信息",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1794.png",
+            "x": 348.0,
+            "y": 12.0,
+            "data": "使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.扫描之后的作物掉落的种子也会保持扫描状态.%n你可以在多方块任务栏的工业高炉任务后找到便携式扫描仪的任务.关于这些参数:%n%n生长(Growth):%n生长速度多快,数值越高",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHAg==",
+            "tooltip": "<strong>作物信息</strong></br>前置任务需求:</br>分析你的作物"
+        },
+        {
+            "name": "深蓝色的蓝宝石之海",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2265.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "用铜矿莓可以很容易得获得蓝宝石草(Sapphirum).你需要在田地下方放个蓝宝石块才能培育出它.在LV阶段,蓝宝石是铝和氧的极好来源.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI2Q==",
+            "tooltip": "<strong>深蓝色的蓝宝石之海</strong></br>前置任务需求:</br>你尝过金属的味道么?"
+        },
+        {
+            "name": "Dezil的棉花糖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1488.png",
+            "x": 600.0,
+            "y": 348.0,
+            "data": "最后一步,你需要用一些史诗级的食物为你的棉花糖注魔.当然,你得先解锁此研究才能进行注魔.%n%n这值得么? 真的有需要这么多buff才能打过的敌人么? 这取决于你.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF0A==",
+            "tooltip": "<strong>Dezil的棉花糖</strong></br>前置任务需求:</br>冷却你的棉花糖"
+        },
+        {
+            "name": "生面团",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/637.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "水跟面粉可以制成生面团. 生面团可以用于许多潘马斯的配方中.%n%n不要用那糟糕的NEI配方,将一组面粉丢入装满水的炼药锅中吧.谨防乳糜泻!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACfQ==",
+            "tooltip": "<strong>生面团</strong></br>前置任务需求:</br>...一分收获</br>面粉"
+        },
+        {
+            "name": "你尝过金属的味道么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2264.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "金属矿莓是新种子的优秀来源.你可以培育出它们,或者从硬币商店购买一些.我需要一些铜,所以给我一些铜矿莓吧.%n%n金属矿莓需要相应的金属块才能完全成熟,但你可以在完全成熟前收获它们(掉落数量减少).不过几乎所有其他需要特定方块的作物都无法在完全成熟前收获.请查看种子袋获知它具体需要什么.你还可以到wiki上查阅更多详细信息.通常这类作物需要矿石或金属块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI2A==",
+            "tooltip": "<strong>你尝过金属的味道么?</strong></br>前置任务需求:</br>感觉有点像菜鸟..."
+        },
+        {
+            "name": "更多状态数据",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2769.png",
+            "x": 396.0,
+            "y": 12.0,
+            "data": "还需要考虑另外七个状态.%n%n肥料(Fertilizer)、水分(Water)、和[warn]除草剂(Weed-EX)[/warn]这三个状态值更多反应的是作物架而非作物本身的状态.反应的都是使用了/剩下了多少肥料/水分/除草剂.%n%n养分(Nutrients)、湿度(Humidity)、和空气质量(Air-Quality)这三个状态都是关于环境的.且它们还受肥料和水分状态的影响.%n%n养分和湿度与生物群系的关系最大,沼泽(swamp)和雨林(rainforest)生物群系最佳(炎热+潮湿),不过你也可以通过正确的设置获得额外的状态加成.%n%n养分:%n农田下方的泥土方块有3点加成,作物所需的特定方块有2点加成.所以,最佳做法是将所需特定方块置于泥土链的最下方,因为作物判定环境时是按照链式检测的,并非检测特定高度. 举个例子:作物架->田->泥土->矿石->泥土,这样的排列只会计算1块泥土的养分值,矿石下方的泥土将被忽略.%n%n作物上所施的肥料会决定5-10点养分值.即可通过施肥提高其养分值.199点肥料值可获得10点养分值加成,但只有在作物肥料值低于100时才能再次施肥(这也是养分值5-10浮动的原因).所以对于高级作物而言,计算养分值时请以100点肥料值为基准,而不要用199点肥料值这一极限加成.骨粉、IC2肥料、林业肥料都可用于施肥.为林业农场(果园模式)或作物监管机提供肥料都可以实现自动施肥(林业农场收割作物时也需要肥料).%n%n湿度:%n当泥土耕地被水湿润(变黑)时,可提供2点湿度值加成.而其他方块作为农田无法享受此加成.%n%n作物的水分值可提供10点湿度值.这与肥料值类似,作物最高200点水分值可提供10点湿度值;而不同的是水分值可以不断补充保持200这一峰值,而不用等到低于100,所以水分值提供的湿度值一般稳定10点.手持IC2水化单元可以浇水,而林业农场和作物监管机也可以实现自动化灌溉.不过林业农场收割作物时也需要水.%n%n空气质量:%n作物周围的8格空间,决定了4点空气质量值加成.一株作物会检测周围8格是否为完整方块或其他作物,如果不是,那么每两处空间将提供1点空气质量值加成,最高4点.一般来说这4点或多或少会有部分牺牲,无法拿全.%n%n农田高度也决定了4点空气质量值.从Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK0Q==",
+            "tooltip": "<strong>更多状态数据</strong></br>前置任务需求:</br>作物信息"
+        },
+        {
+            "name": "野格(德国野格牌利口酒)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1275.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "野格牌利口酒在德国是很普通的饮料,为什么你不来一瓶呢？便宜又实惠,嗯...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE-w==",
+            "tooltip": "<strong>野格(德国野格牌利口酒)</strong></br>前置任务需求:</br>伏特加"
+        },
+        {
+            "name": "作物加速",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3142.png",
+            "x": 396.0,
+            "y": 60.0,
+            "data": "欢迎来到我的TED演讲,今天我们来谈谈极限工业温室.%n这是最先进且无延迟的作物农场,并可以为你提供成吨的作物.%n这台机器在EV阶段就可以制造,但想要解锁IC2杂交作物模式,还得至少为其提供LuV能量才行.%n放置控制器方块后对其使用投影仪即可显示整体结构.%n玻璃等级会限制能源等级,而[note]UV[/note]玻璃支持所有能源等级.%n手持螺丝刀Shift+右键以切换作物模式(IC2/普通),很遗憾,你不能在同一台机器内同时种植这两种作物.%n这台机器管理作物有三种模式(使用螺丝刀切换):%n%n设置模式(输入):%n这个模式下,你可以将作物种植到机器中.%n只需将种子送入机器的输入总线,然后使用软锤启动机器即可.%n另外,你还需要输入IC2杂交作物生长所需要的方块(如果有的话)%n等到输入总线空了,就可以关闭机器并切换模式了.%n请注意,基于不同电压等级,机器内部的作物槽位是有限的.%n普通作物的初始槽位数为1,同时EV后的每个等级槽位数x2,每个槽位可以种植64株同种作物.%n而在IC2杂交作物模式下,初始槽位数为4,同时LuV后的每个等级槽位数x4,每个槽位只能种植1株作物.%n%n设置模式(输出):%n此模式下,你可以移动你的温室,或是升级作物.%n机器在此模式下运行时,将在输出总线中输出其内部的所有已种植作物.%n%n普通作物运行:%n对于普通作物,单次运行相当直截了当.基础运行时间为5秒,运行结束时所有作物都会长成,并将收获从输出总线中输出. 另外,从EV之后,运行时间不断缩短(基础运行时间除以超过HV的级数为实际运行时间,最小1秒.WOW)%n%nIC2杂交作物就是另一种运行方式,没这么简单了. 通常它们是模拟的,只是加速了32倍.基础运行时间同样是5秒.你可以使用三录仪来检查作物生长进度.%n%n如果你想让作物长得更快点,可以使用肥料(至多400％,多余会掉落!).温室会在运行开始的时候,从输入总线中提取肥料,并在本次运行中使用. 每株普通作物模式下的作物,施肥可以获得+200％,而在IC2杂交作物模式下则为+10％.此项增益均匀地应用于每株作物上. 比如：%n普通作物模式,3个小麦种子,1个茶种子,输入一份肥料,你可以获得+150％小麦掉落,以及+50％茶掉落.%nIC2杂交作物模式,16个西瓜种子袋,输入64份肥料,你会获得+40％掉落.%n%n另外,你的作物都需要水才能生长.每次运行每株作物消耗1000L水.所以,举例来说,如果你种植了576株茶作物,[note]UV[/note]等级的温室,每秒需要576000L水.%n%n最后的注意事项:%n无法禁用动画.%n可以用反相灯.%n泥土必须为耕过的沃土(RandomThings-mod的).%n如果你遇到任何问题或有任何建议,请到github发issue并@kuba6000.%n这台多方块机器是我为了种茶写的...%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMRg==",
+            "tooltip": "<strong>作物加速</strong></br>前置任务需求:</br>第5阶段(IV)"
+        },
+        {
+            "name": "感觉有点像菜鸟...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1603.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "那么你能不能帮我种一些精华莓丛,让我能够升级？ 你可以种植直接从灌木丛中获得的精华莓丛,或繁殖一些.%n%n作为奖励,我会给你一个愚蠢的种子,这是我朋友提供的. 它一定会让你保持警惕.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGQw==",
+            "tooltip": "<strong>感觉有点像菜鸟...</strong></br>前置任务需求:</br>种子不再未知"
+        },
+        {
+            "name": "初次杂交",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/719.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "你的作物架上已经种好了新的植物.对着作物架上的成熟作物右键可以收获掉落物,%n%n而左键会破坏作物并掉落种子袋(译者注:并不一定掉落一个种子袋,可能会掉落0-2个种子袋,检验血统的时刻到了!).提示,随着作物成熟度的增加,掉落种子袋的几率增加(非酋福音).收集好八种不限种类的种子即可完成此任务.%n%n想要解锁下一个任务,你需要一台LV扫描仪.%n%n要是你以前没做过,可以考虑制作一些文档柜.它们可存储、携带大量同种物品,非常适合种子袋.另外,文档柜会将存储物按名称排序.想要找到特定的种子袋,将它的名字输入NEI搜索栏,然后双击搜索栏,使其黄色高亮.现在你就可以很容易地在文档柜中发现你要找的种子袋了.%n%n或者直接把不要的种子丢进箱子里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACzw==",
+            "tooltip": "<strong>初次杂交</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        },
+        {
+            "name": "第一个手作面包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/636.png",
+            "x": 444.0,
+            "y": 204.0,
+            "data": "在熔炉烘焙你的生面团,做些好吃的面包吧.你的第一个面包!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACfA==",
+            "tooltip": "<strong>第一个手作面包</strong></br>前置任务需求:</br>...一分收获</br>生面团"
+        },
+        {
+            "name": "鱼类诱饵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/630.png",
+            "x": 684.0,
+            "y": 204.0,
+            "data": "为你的动物陷阱制作一些鱼类诱饵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACdg==",
+            "tooltip": "<strong>鱼类诱饵</strong></br>前置任务需求:</br>捕鱼陷阱"
+        },
+        {
+            "name": "捕鱼陷阱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/633.png",
+            "x": 636.0,
+            "y": 156.0,
+            "data": "钓鱼可能很无聊,何不用陷阱自动捕鱼？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACeQ==",
+            "tooltip": "<strong>捕鱼陷阱</strong></br>前置任务需求:</br>重要的工具</br>钓鱼伙伴"
+        },
+        {
+            "name": "捕鱼陷阱2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1009.png",
+            "x": 636.0,
+            "y": 204.0,
+            "data": "钓鱼真的很无聊.那为什么不用捕鱼陷阱来自动捕鱼呢？%n%n那么来做一个2.0版本的捕鱼陷阱吧!不需要鱼饵呦~~~",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD8Q==",
+            "tooltip": "<strong>捕鱼陷阱2.0</strong></br>前置任务需求:</br>熔炼!</br>捕鱼陷阱"
+        },
+        {
+            "name": "面粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/635.png",
+            "x": 444.0,
+            "y": 108.0,
+            "data": "做面包的第一步是使用研钵或磨粉机磨碎小麦以取得面粉.面粉可以用于许多潘马斯的食物配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACew==",
+            "tooltip": "<strong>面粉</strong></br>前置任务需求:</br>大麦时间</br>...一分收获</br>小麦时刻"
+        },
+        {
+            "name": "花的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/725.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "在作物架上种植染料？试着种一些花,如果你将玫瑰及蒲公英配种,可以得到一种新的花以及不同颜色的染料.%n%n你需要将4种原版花放置在作物架上种植.它们同样需要较高的亮度才能生长.%n%n想要获得\"玫瑰种子\",你需要将罂粟种植在作物架上.老实说,只有几种花可以用.%n%n[note]如果你真的想要这些染料,请改用彩虹仙人掌.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC1Q==",
+            "tooltip": "<strong>花的力量</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        },
+        {
+            "name": "食物2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1178.png",
+            "x": 588.0,
+            "y": 300.0,
+            "data": "忘记你有关食物的一切知识吧!有了全新的装罐机,你可以将食物变成营养丰富的罐头来填饱肚子了. 罐头可以快速恢复你的饱食度,这会让你感觉很快乐!而且随便吃多少都不会有减持.%n%n别等饱食度掉到底才吃罐头,罐头恢复的饱食度非线性.一次吃3个效率最高.(此数据为玩家提供)  然鹅译者认为罐头根本不值钱,想怎么吃就怎么吃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEmg==",
+            "tooltip": "<strong>食物2.0</strong></br>前置任务需求:</br>HV卷板机"
+        },
+        {
+            "name": "淡水和牛奶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1010.png",
+            "x": 588.0,
+            "y": 12.0,
+            "data": "很多合成表都需要用到牛奶和淡水.但是普通的制作方法很麻烦.%n%n但是如果使用林业工作台就容易得多.把所有装有牛奶或者水的桶都放进工作台的缓存区,按住Shift点击一下合成表,就可以一次全部处理完毕了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD8g==",
+            "tooltip": "<strong>淡水和牛奶</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "煎鸡蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1088.png",
+            "x": 540.0,
+            "y": 300.0,
+            "data": "超简单!用平底锅来煎鸡蛋!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEQA==",
+            "tooltip": "<strong>煎鸡蛋</strong></br>前置任务需求:</br>厨具"
+        },
+        {
+            "name": "水果诱饵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/628.png",
+            "x": 540.0,
+            "y": 12.0,
+            "data": "为你的动物陷阱制作一些美味的水果诱饵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACdA==",
+            "tooltip": "<strong>水果诱饵</strong></br>前置任务需求:</br>动物陷阱</br>橡树不是苹果树"
+        },
+        {
+            "name": "转基因作物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2729.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "有三种机器为转基因服务. 你不仅需要大功率的能源,还需要成吨的UU-M.%n%n这三种机器只能处理特定等级以下的作物. 这个等级计算公式为(作物等级+2)/2,再向上取整. 所以LV机器只能处理1级作物,而MV机器就能处理3级作物. %n%n[note]LV",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKqQ==",
+            "tooltip": "<strong>转基因作物</strong></br>前置任务需求:</br>种子不再未知</br>我不去就山,让山来就我"
+        },
+        {
+            "name": "热棉花糖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1486.png",
+            "x": 528.0,
+            "y": 348.0,
+            "data": "下一步是在工业高炉内通入氡气,以4500K的炉温加热生糖浆,使其闪闪发光.%n%n现在,你又获得了麻痹II效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFzg==",
+            "tooltip": "<strong>热棉花糖</strong></br>前置任务需求:</br>难看的糖浆"
+        },
+        {
+            "name": "谷物诱饵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/627.png",
+            "x": 492.0,
+            "y": 60.0,
+            "data": "为你的动物陷阱制作一些良好的谷物诱饵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACcw==",
+            "tooltip": "<strong>谷物诱饵</strong></br>前置任务需求:</br>动物陷阱</br>小麦时刻"
+        },
+        {
+            "name": "萤石1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1806.png",
+            "x": 156.0,
+            "y": 348.0,
+            "data": "你已经到过下界并收集了萤石.除了合成用途,你还可以用它来照明.你可以将萤石涂色(不幸的是,在1.7.10,不支持彩光)或者用手锯将其切成小粒,这样既能照明又不占太大地方.%n%n你能找到或培育出多种能出产萤石的植物,比如辉光花.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHDg==",
+            "tooltip": "<strong>萤石1</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "火药?更像土灰!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1932.png",
+            "x": 300.0,
+            "y": 396.0,
+            "data": "爬行者之草(Creeperweed)可为你提供火药,不需要担心爆炸.  它还很多特性(用于杂交),是优秀的父本或母本.%n%n皮革藤(Corium)可以比较容易地杂交出爬行者之草.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHjA==",
+            "tooltip": "<strong>火药?更像土灰!</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "丰盛的早餐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1089.png",
+            "x": 492.0,
+            "y": 300.0,
+            "data": "现在让我们吧所有的东西放在一起,来做一顿丰盛而美味的早餐.%n%n一些烹饪熟的肉、马铃薯蛋糕、烤面包、煎鸡蛋和美味的果汁将会让你早餐很有营养!%n%n在这里只能使用熟肉和果汁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEQQ==",
+            "tooltip": "<strong>丰盛的早餐</strong></br>前置任务需求:</br>煎鸡蛋</br>美味烤面包</br>果汁</br>马铃薯蛋糕"
+        },
+        {
+            "name": "蜂蜜的糖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1283.png",
+            "x": 684.0,
+            "y": 60.0,
+            "data": "蜂蜜中含有大量的糖,因此多准备一些蜂蜜可能是个好主意.%n%n[note]只要背包中有单元或者桶装的流体就可以提交了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFAw==",
+            "tooltip": "<strong>蜂蜜的糖</strong></br>前置任务需求:</br>黄蜂蜂蜜"
+        },
+        {
+            "name": "啤酒花--啤酒原料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1288.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "如果你想要一些低度数的啤酒,那么你现在需要杂交出啤酒花来酿造它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFCA==",
+            "tooltip": "<strong>啤酒花--啤酒原料</strong></br>前置任务需求:</br>种子不再未知"
+        },
+        {
+            "name": "不再饥饿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/600.png",
+            "x": 492.0,
+            "y": 12.0,
+            "data": "饥饿问题一直跟随着你,消耗你的精力,从不让你休息.这世界充满各种营养的水果、蔬菜、餐点.靠这些解决你永不满足的饥渴吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACWA==",
+            "tooltip": "<strong>不再饥饿</strong></br>前置任务需求:</br>好累...必须...睡觉..."
+        },
+        {
+            "name": "我喜欢大三明治",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1855.png",
+            "x": 492.0,
+            "y": 156.0,
+            "data": "现在你有了面团,有多种大三明治可供选择.它们能提供大量的饱食度而且制作简单.%n%n蔬菜和奶酪三明治制作工序较多,不是好的选择.%n%n如果你需要更多的饮食选择,这些三明治也有正常尺寸的种类.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHPw==",
+            "tooltip": "<strong>我喜欢大三明治</strong></br>前置任务需求:</br>生面团"
+        },
+        {
+            "name": "铁木比普通木材好",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1930.png",
+            "x": 348.0,
+            "y": 348.0,
+            "data": "获得钢叶藤(steeleafranks)的必要步骤?或许不是.但是铁木是一种优秀的木材,可以制作一柄无比耐用的擀面杖,或是合适的镰刀.%n%n爬行者之草(Creeperweed)有较高几率杂交出活根(liveroot).%n%n译者注:你一定不能错过铁木做的软锤,怕是能用一辈子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHig==",
+            "tooltip": "<strong>铁木比普通木材好</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "果汁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1086.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "大部分的水果都可以榨成果汁. 这是一个获得更多食物种类的方法,并且果汁比直接吃水果的营养价值要高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEPg==",
+            "tooltip": "<strong>果汁</strong></br>前置任务需求:</br>软锤大冒险!"
+        },
+        {
+            "name": "路过时挡好你的私处,小心辐射",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1929.png",
+            "x": 60.0,
+            "y": 348.0,
+            "data": "核能草会掉落核能叶子,可将晶质铀矿石增产到4倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHiQ==",
+            "tooltip": "<strong>路过时挡好你的私处,小心辐射</strong></br>前置任务需求:</br>独眼奥丁之子"
+        },
+        {
+            "name": "就像妈妈以前做的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1854.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "果酱三明治是一种很好的食物来源,提供不错的饱食度,且容易制作. 几乎所有的水果都可以用炖锅加糖制成果酱.有几种不同的坚果奶油可供选择.花生可在森林、山峦或冰原生物群系中的陆地菜园找到.  腰果可在丛林或者沼泽的树上找到. 板栗可在更温暖的森林里找到. 开心果树在丛林里.许多这些树苗都可与村民交易获得.%n%n为了保存你的所有配方,你可以用厨房多方块结构(如果你想要看到所有可用的配方),或者林业的工作台(如果对你来说只有有限的9个配方也没问题的话).%n%n有些三明治提供更多的饱食度,所以在购买对应树苗前请先查看NEI!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHPg==",
+            "tooltip": "<strong>就像妈妈以前做的</strong></br>前置任务需求:</br>厨具</br>第一个手作面包"
+        },
+        {
+            "name": "厨具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/665.png",
+            "x": 540.0,
+            "y": 252.0,
+            "data": "为了烹调健康的食物,你需要先制做一些工具.炖锅,罐,撖面杖,研钵,搅拌钵,软锤,平底锅,刀.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACmQ==",
+            "tooltip": "<strong>厨具</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "厨具2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1836.png",
+            "x": 588.0,
+            "y": 252.0,
+            "data": "小刀这样的GT工具在处理食物时用完了?潘马斯的工具(砧板、榨汁机、烤盘)可以永远使用.%n%n当你能烧制不锈钢,到达高压后,你就能制作这些工具了,基本永远都不会坏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHLA==",
+            "tooltip": "<strong>厨具2.0</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>厨具"
+        },
+        {
+            "name": "Korn and Doppelkorn(科恩酒和经过两次蒸馏的科恩酒)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1276.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "Korn是德国的小麦,所以这就是这种酒叫Korn的原因. Doppelkorn(双蒸)意味着更多蒸馏,更高的酒精含量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE_A==",
+            "tooltip": "<strong>Korn and Doppelkorn(科恩酒和经过两次蒸馏的科恩酒)</strong></br>前置任务需求:</br>石油提纯</br>小麦汁"
+        },
+        {
+            "name": "钢叶2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1807.png",
+            "x": 396.0,
+            "y": 348.0,
+            "data": "不必把暮色森林翻个底朝天来寻找钢叶,你只需种田就行了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHDw==",
+            "tooltip": "<strong>钢叶2</strong></br>前置任务需求:</br>铁木比普通木材好"
+        },
+        {
+            "name": "魔法金属莓(Magic Metal Berry)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1803.png",
+            "x": 300.0,
+            "y": 300.0,
+            "data": "..这显然是我乐队的名字.但这也是一种可以生产神秘锭或者虚空金属的强大作物.在其下方放置铁块或神秘锭块可以使其生产神秘锭,若是在其下方放置虚空金属块,那么它就会生产虚空金属.  与其他矿物莓类似,它必须在较低的光照等级下才能生长.任何矿物莓都有不错的概率杂交出魔法金属莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHCw==",
+            "tooltip": "<strong>魔法金属莓(Magic Metal Berry)</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "来自大地的金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1601.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "随着更高等级的作物杂交成功,你甚至可以增加矿石产量. 将某些纤维和树叶与粉碎的矿石搅拌,可使你的矿石产量翻两番(4倍),或者你可以将它们直接转化为小撮粉. 你也可以将这些材料与UU物质搅拌在一起,直接制成洗净的粉碎矿.%n%n证明你获得这些金属作物的能力,我会再给你一些肥料以及一些属性不错的稀有种子袋.优质源作物是精华莓(essence-berry)或别的矿莓.%n%n你需要将合适的矿石方块放在作物下方才能使其完全长成.为了获得最佳的生长条件,在矿物方块和作物之间放最多3块泥土.%n%n对于铁叶草或者金叶草,你需要使用金属块而不是GT矿石方块-原版矿石块可以在暮色森林的地精矿洞中找到.当然在硬币任务栏你可以买到这类矿石.WAILA将会告诉你作物是否接受你放的方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGQQ==",
+            "tooltip": "<strong>来自大地的金属</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "天外金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1795.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块置于作物之下,才能使其完全成熟.%n%n另外,高阶作物掉落种子的几率更低,所以在尝试左键获取种子袋之前,最好再繁殖一株保险...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHAw==",
+            "tooltip": "<strong>天外金属</strong></br>前置任务需求:</br>来自大地的金属"
+        },
+        {
+            "name": "大地母亲的乳汁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1933.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "牛奶疣(Milkwart)意味着你可以把你的牛群扔了.这很棒,不是么?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHjQ==",
+            "tooltip": "<strong>大地母亲的乳汁</strong></br>前置任务需求:</br>素食皮革?"
+        },
+        {
+            "name": "最适作物/最强作物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2770.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "将粘性甘蔗(stickreed)培育到20/31/10(译者注:其实极限是21/31/0),然后用它来杂交出其他作物,新作物即可继承三围属性.当然这样的粘性甘蔗还可以与需要提高自身三围的其他作物杂交.%n%n在沼泽/雨林生物群系,高度130格左右建立农场,或是用各种改变生物群系的方法也可以达到同样的效果.这样不止可以让作物快速生长获得产物,还可以快速培育作物.%n%n推荐使用多方块农场(林业).如果你的作物长得飞快,可同时再加上作物收割机.或是添加更多齿轮箱.%n%n深色玻璃很适合矿莓类作物.%n%n为了避免杂草成灾,将林业农场搭建成上下错位的棋盘格吧.虽然这样看起来很傻...成长值上限可从23提升到31,还能获得2点空气质量值加成!%n%n肥料花(fertilia)可以产出更多肥料.%n%n如果忽略怪物的其他掉落物的话,用农场代替怪物屠宰场是个不错的主意.虽说精英怪会掉落一些特殊物品.%n%n如果需要的话,可使用实体方块(TE)模式的世界加速器加速作物生长.主要用于加速杂交培育,初始生长,以及专供元始浆果作物(primordial-berry).%n%n随着你的电压等级不断提升,你可以用UU-M配合机器直接制出31/31/0的作物.这是否值得取决于你.%n%n如果想要获得EV以上的材料,你得考虑考虑养蜂了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK0g==",
+            "tooltip": "<strong>最适作物/最强作物</strong></br>前置任务需求:</br>转基因作物"
+        },
+        {
+            "name": "More Red,less Wheat(更多的红色,更少的小麦)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1737.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "当将作物杂交以获取产出作物时,尝试使用与产出作物等级接近、并且具有相似属性的作物.%n%n例如,Redwheat(红麦)具有\"红色\",\"小麦\"和\"红石\"属性并且是第6阶作物.而Netherwart(地狱疣)具有\"红色\"并且是第5阶. 使用作物分析仪的作物计算器模式查看用两个地狱疣杂交出红麦的几率.%n%n你还需要确保光照水平在5-10之间,以便进行这种特定的杂交育种.%n%n其实吧,到了MV之后,你就能用萤石作物(种植荧光种子)产出的萤石离心出红石了.还有红石块作物(种植红石瓜种子).甚至直接挖掘都行.红麦这么麻烦的作物,还是一边待着去吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGyQ==",
+            "tooltip": "<strong>More Red,less Wheat(更多的红色,更少的小麦)</strong></br>前置任务需求:</br>啤酒花--啤酒原料"
+        },
+        {
+            "name": "农场\"智者\"手册",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/718.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "如果你想知道如何种植作物,你看这页就对了!拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子.你也可以把一些植物和浆果直接放在作物架上.最好的初始植物是花、小麦、仙人掌和甘蔗.%n%n接着使用你的工具耕块田,并在田中央放上水源. 建议开垦许多3x1大小的田且相互之间隔离,并且能能够同时看到每块3x1田地的中心.如下所示:%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土水土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n现在将作物架放在3x1田地的两端,接着放些种子到作物架上,然后等一会.%n%n等作物架上的作物完全成熟后,你可以试试在中间放上双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一个作物架.%n%n如果你运气够好,你可以获得一些将来可以被扫描的新型未知种子.%n%n记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.%n%n使用3x1大小的田可以降低你的工作量.每5-10分钟检查一次,清除杂草,收集新种子.即使你忘记了,也只会损失一两颗种子.%n%n如果你杂交出了某些稀有种子,可以另外开辟3x3或5x5的田地,把稀有种子种在中间，旁边放上三围较高的种子,杂交改良它的属性.但你得更加留心,因为这样一旦长杂草就可能会毁了整块育种田.%n%n请注意,杂交架边的作物越多,新作物就越容易长出来,显然作物数上限为4.同时这也是繁殖同种作物的方法,IC2不像农业工艺(Agricraft)只需通过单个作物剪枝即可快速繁殖.%n%n若是杂交产生了新作物,别把它留在密集的田地里.左键作物架将其拔起,运气好的话能获得种子袋.在3x1的种子生产田种植不需要特殊照顾的三围较低的作物.留下高三围的作物种子,以备进一步杂交.%n%n杂交只会发生在周围有两个及以上成熟作物的杂交架里.你有很高的几率获得与父本母本相同的作物,余下个位数的几率,作物可能发生突变,产生新的作物.参考IC2作物分析仪任务获知更多细节.%n译者注:抗性过高会降低杂交几率,可以使用生长较快的作物自交培育出三围较高的作物,如粘性甘蔗,然后将使用低三围作物杂交出的稀有种子与高三围作物杂交,改良稀有种子的属性.%n译者再注:不要无限提升作物的生长属性,当生长值大于等于24时,作物将获得类似杂草的属性,疯狂地使临近空作物架滋生杂草,相信我,这会是一场灾难.所以讲生长属性控制在21或以下,至于为什么,涉及到杂交机制问题,这里太小写不下,简而言之,两个21属性的作物杂交产生的新作物生长属性不会超过23.收获属性可以堆到最高31,至于抗性,我至今没发现它有啥用,该长杂草照样长.另外,高三围作物要求必须保持水分充沛,否则种下后会消失,并留下空的作物架,所以你需要一台作物监管机.%n%n当杂交架与两种或两种以上近乎成熟的作物相邻时,杂交就有可能发生.%n译者三注:不推荐使用两种以上作物杂交,使用IC作物分析仪的作物计算器模式你就会发现,使用两种以上作物杂交出稀有作物的几率极低.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACzg==",
+            "tooltip": "<strong>农场\"智者\"手册</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "苔藓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2048.png",
+            "x": 300.0,
+            "y": 252.0,
+            "data": "放弃了在暮色森林里寻找苔藓?你可以很容易地种植一种能为你产出各种苔藓的作物,非常适合你的匠魂工具.你可以从睡莲(lilypad)开始培育.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIAA==",
+            "tooltip": "<strong>苔藓</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "新\"线\"程",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1797.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "厌倦了杀戮蜘蛛来获取线? 种植一些亚麻吧,这是纯天然绿色的线的来源.%n%n你也可以直接将棉花种子种植在作物架上.  再加上下个任务的一些皮革,你就能很容易地获得钉紧的皮革,进而获得柔软的皮革.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHBQ==",
+            "tooltip": "<strong>新\"线\"程</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "鸡,一只也别想跑!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1857.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "你喜欢派吗?当然!  有许多种派可供选择.  鸡肉派是最容易做的派之一.只需生鸡肉、土豆、胡萝卜和面团.水果派要简单一点,所以提供的饱食度不太多,但是在你等待最好食物的过程中,它们对填饱肚子很有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHQQ==",
+            "tooltip": "<strong>鸡,一只也别想跑!</strong></br>前置任务需求:</br>厨具</br>生面团"
+        },
+        {
+            "name": "其他魔法花",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1804.png",
+            "x": 348.0,
+            "y": 300.0,
+            "data": "其他魔法花有:水银花(shimmerleaf)、曼陀罗(mandragora)、狼毒草(wolf's-bane)等.  译者注:还有比较常见的烈焰草(cinderpearl)和最终极的元始莓(primordial-berry),不过元始莓默认无法培育出来,可在配置文件中修改.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHDA==",
+            "tooltip": "<strong>其他魔法花</strong></br>前置任务需求:</br>魔法金属莓(Magic Metal Berry)"
+        },
+        {
+            "name": "自产肥料的植物?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1808.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "给我签个名!肥料花(Fertilia)会为你生产肥料.%n%n比较容易杂交出肥料花的作物有:蜘蛛花(spidernip)、山精草(trollplant)、奇妙花(venomilia)或僵尸草(zomplant).当心奇妙花,不只是因为它有毒,还因为它更容易长杂草(生长8+)!%n%n你可以用肥料花的掉落物和IC2肥料在搅拌机中制作可用于多方块农场的林业肥料.%n%n[note]另外,肥料花极端稀有,就算用僵尸草杂交也只有0.76％的几率,所以请做好花大概3次永恒(three-eternities)时间的准备.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHEA==",
+            "tooltip": "<strong>自产肥料的植物?</strong></br>前置任务需求:</br>种子不再未知"
+        },
+        {
+            "name": "马铃薯蛋糕",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1087.png",
+            "x": 492.0,
+            "y": 252.0,
+            "data": "用土豆、洋葱、黄油和平底锅来制作非常美味的马铃薯蛋糕!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEPw==",
+            "tooltip": "<strong>马铃薯蛋糕</strong></br>前置任务需求:</br>厨具"
+        },
+        {
+            "name": "马玲薯、胡萝卜、南瓜和西瓜.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/723.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "你的种子有三种不同的数值－－生长、产量、抗性(GGR).%n%n在没有第三方工具(比如NBT编辑器!)的情况下,只能透过交叉繁殖配种来改变作物的GGR.两株植物交叉繁殖产生的作物的GGR值,会介在两株亲代GGR的中间.有时,它的值可能会高一点点或低一点点.因此,想要取得更高的GGR值,你必须历经数代的繁殖配种.%n%nGGR的最高数值是31,而最低值为0.%n%n[note]顺便一提,如果你想要跳过这些步骤,NBT编辑指令为/nbtedit me,点击左上角的'root',然后向下滚动到物品栏,再找到种子袋(先清空物品栏可以更容易找到),找到包含属性信息的页面并点击图标.找到GGR属性信息后,选择一项,然后单击左上角的\"编辑\",别忘了保存.[/note]%n%n[warn]记住这可能会让你的玩家永久变砖!所以在编辑你的实际玩家前请做好备份.[/warn]%n%n当然,在服务器上别想这么干.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC0w==",
+            "tooltip": "<strong>马玲薯、胡萝卜、南瓜和西瓜.</strong></br>前置任务需求:</br>种子不再未知"
+        },
+        {
+            "name": "南瓜派",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2439.png",
+            "x": 588.0,
+            "y": 204.0,
+            "data": "南瓜派是一种传统的美国甜点,在万圣节、感恩节和圣诞节期间特别受欢迎.%n2南瓜+3糖再加擀面杖,多简单.%n好好享受吧.%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJhw==",
+            "tooltip": "<strong>南瓜派</strong></br>前置任务需求:</br>厨具"
+        },
+        {
+            "name": "全速前进",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1604.png",
+            "x": 204.0,
+            "y": 252.0,
+            "data": "从菜油中生产生物柴油.%n%n你可以尝试杂交蒲公英(dandelion)、可可豆(cocoa)、马铃薯(potato)或柠檬(lemon).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGRA==",
+            "tooltip": "<strong>全速前进</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "真正op的食物",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1483.png",
+            "x": 444.0,
+            "y": 348.0,
+            "data": "你听说Dezil的棉花糖是非常OP的食物,偶尔能在宝箱中找到.让我来告诉你如何制作它怎么样?%n%n在梦之世界制作出水心之酿后,将一点面粉、糖、世界盐和龙尘放入你的IV搅拌机.%n放入水心之酿后,此配方会开始合成,最后生成难看的糖浆————一种恶臭的、令人厌恶的...玩意.%n%n当心,手持这玩意时,会获得失明II效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFyw==",
+            "tooltip": "<strong>真正op的食物</strong></br>前置任务需求:</br>水心之酿</br>IV搅拌机"
+        },
+        {
+            "name": "红配黄",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2266.png",
+            "x": 396.0,
+            "y": 204.0,
+            "data": "石榴石实际上比蓝宝石更有价值.它们是初期铬和锰的可靠来源.而这两样金属对HV机器的制造来说是必不可少的. 你需要在田地下方放个石榴石块(任意类型)才能培育出它. 可以通过粉碎锰铝榴石矿石获取石榴石(副产物),还可以用聚爆压缩机将石榴石粉重新压成晶体,再制作成块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI2g==",
+            "tooltip": "<strong>红配黄</strong></br>前置任务需求:</br>深蓝色的蓝宝石之海"
+        },
+        {
+            "name": "甘蔗和树脂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1600.png",
+            "x": 252.0,
+            "y": 204.0,
+            "data": "你将获得的第一批有用作物之一是粘性甘蔗.它生长迅速,可以生产甘蔗(在其完全长成前收获)和粘性树脂.粘性甘蔗易于培育,是与其他作物杂交以提高它们三围(GGR:生长、产量、抗性)的优良选择.最好的做法是将其控制在21/31/10,然后再以它们为父本母本杂交培育.24+的生长值会使作物表现得像杂草一样,所以需要留一次杂交可能产生的增值富余.%n%n我会用一些肥料交换你的甘蔗与粘性树脂各两组.%n%n[note]PS：杂交出这种作物之后,你就可以把橡胶树丢到一边了.[/note]%n%n[note]得到粘性甘蔗种子之后你可能需要一个基础扫描仪，当然任何等级都可以。请参阅LV章节相关任务，注意需要MV电路板。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGQA==",
+            "tooltip": "<strong>甘蔗和树脂</strong></br>前置任务需求:</br>种子不再未知"
+        },
+        {
+            "name": "可再生石油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1809.png",
+            "x": 108.0,
+            "y": 300.0,
+            "data": "种出石油?就像养蜂生产石油一样意义非凡!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHEQ==",
+            "tooltip": "<strong>可再生石油</strong></br>前置任务需求:</br>煤...来自凋灵甘蔗?"
+        },
+        {
+            "name": "机械化作物收割",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1862.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "作物收割机可以自动收割11x11x3范围的作物,太棒了! 又因为多方块农场在HV阶段,所以前期作物收割机就是最好的农业自动化选择了.%n%n如果你需要其在特定阶段收割作物,需要在其中放入作物分析仪.否则只要可以收割,作物收割机就会即刻工作.比如种植粘性甘蔗的时候,如果不放分析仪,收割机就会在2阶段(收获甘蔗)工作,而不会等到4阶段(收获粘性树脂).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHRg==",
+            "tooltip": "<strong>机械化作物收割</strong></br>前置任务需求:</br>作物自动化"
+        },
+        {
+            "name": "朗姆酒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1281.png",
+            "x": 636.0,
+            "y": 108.0,
+            "data": "好喝!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFAQ==",
+            "tooltip": "<strong>朗姆酒</strong></br>前置任务需求:</br>工业之路"
+        },
+        {
+            "name": "独眼奥丁之子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1928.png",
+            "x": 108.0,
+            "y": 348.0,
+            "data": "雷神之草(God-of-Thunder-plant)可将你从下界获得的钍矿石增产到4倍. 它还可以用来培育核能草(Reactoria).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHiA==",
+            "tooltip": "<strong>独眼奥丁之子</strong></br>前置任务需求:</br>煤...来自凋灵甘蔗?"
+        },
+        {
+            "name": "加快你的植物生长进度",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/722.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "为了加快生长过程,你可以使用些肥料.你会注意到,无论如何,骨粉不再起作用了.在化学反应釜中,用水搅拌些木灰、磷灰石或方解石,就能得到你需要的肥料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC0g==",
+            "tooltip": "<strong>加快你的植物生长进度</strong></br>前置任务需求:</br>乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...</br>初次杂交"
+        },
+        {
+            "name": "石芯草(Stone lillies)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1805.png",
+            "x": 252.0,
+            "y": 396.0,
+            "data": "石芯草(Stonelilly)使你能获得花岗岩、玄武岩或是大理石的粉末.是获得方解石、氟或铝的可再生方法(还有一点点铀).%n%n你需要将此前提到的原石置于作物之下才能让它完全成熟.%n%n还有一种灰石芯草(Grey-stonelilly)可以产出石粉(谁会要那玩意??)、黄石芯草(Yellow-stonelilly)可以产出沙子或末地石粉.对聪明的化学家来说很有用!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHDQ==",
+            "tooltip": "<strong>石芯草(Stone lillies)</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "甘蔗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1277.png",
+            "x": 636.0,
+            "y": 12.0,
+            "data": "甘蔗是糖的来源,如果你想要一些酒和糖,那么你就需要甘蔗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE_Q==",
+            "tooltip": "<strong>甘蔗</strong></br>前置任务需求:</br>粉碎 v0.1 Alpha"
+        },
+        {
+            "name": "甜到牙了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1606.png",
+            "x": 156.0,
+            "y": 252.0,
+            "data": "甘蔗无法满足你对糖的需求？每个甜菜(sugar-beet)可制出8糖.马铃薯(potato)或胡萝卜(carrot)可以很容易地杂交出甜菜.%n%n嗯...现在我想要一些糖果.从你的甜菜里榨取一些糖来.我会分给你一点.%n%n[note]提取其中的糖,再将其电解成O2吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGRg==",
+            "tooltip": "<strong>甜到牙了</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "一片又一片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1607.png",
+            "x": 252.0,
+            "y": 300.0,
+            "data": "当你开辟了更大的田地后,收获作物可能会变成一件真正的麻烦事. 为你自己制作GT镰刀,让收获变得容易,5x5",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGRw==",
+            "tooltip": "<strong>一片又一片</strong></br>前置任务需求:</br>甘蔗和树脂"
+        },
+        {
+            "name": "美味烤面包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/638.png",
+            "x": 444.0,
+            "y": 252.0,
+            "data": "再次烘焙你的面包,把它做成烤面包!？它能为你提供更多营养点数,而且具有更高的烹饪潜力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACfg==",
+            "tooltip": "<strong>美味烤面包</strong></br>前置任务需求:</br>...一分收获</br>第一个手作面包"
+        },
+        {
+            "name": "囤积:糖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1282.png",
+            "x": 684.0,
+            "y": 12.0,
+            "data": "囤积糖是不是一个好主意呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFAg==",
+            "tooltip": "<strong>囤积:糖</strong></br>前置任务需求:</br>蜂蜜的糖</br>甘蔗"
+        },
+        {
+            "name": "大地在哭泣",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1798.png",
+            "x": 156.0,
+            "y": 396.0,
+            "data": "需要氯的另一种来源? 培育一些恶魂甘蔗(Tearstalk)吧,可收获恶魂之泪,从中可以提取出盐水.%n%n;-;%n%n地狱疣(nether-wart)可以比较容易地杂交出恶魂甘蔗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHBg==",
+            "tooltip": "<strong>大地在哭泣</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "工业之路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1280.png",
+            "x": 636.0,
+            "y": 60.0,
+            "data": "生产朗姆酒也可以是自动化的,但是你要遵循工业制造原则.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFAA==",
+            "tooltip": "<strong>工业之路</strong></br>前置任务需求:</br>发酵酿酒!</br>甘蔗"
+        },
+        {
+            "name": "铲子时间到",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1270.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "多功能铲结合了除草铲、锄头和铲子的功能.如果你有点分不太清楚,请仅在必要时使用它,因为很容易弄乱,不知道自己是要除草还是收获作物,很容易不小心打坏作物. %n%n手持多功能铲右键没有完全成熟的作物,有极低的几率获得种子. 而[warn]左键[/warn]没有完全成熟的作物不会有任何收获.%n%n当作物完全成熟后,左键掉落种子的几率会更高. 而[warn]右键[/warn]完全成熟的作物,种子的掉落几率反而会比正常左键低.%n%n注意,高阶/高属性作物掉落种子的几率更低,而且是低得多.%n%n[note]公式是:1+tanh((-1)(X+5((-抗性/2)+生长+产量)/21)/12); X为作物等级(0-16).  别问我这个公式算出来的几率是左键还是右键,问Bart去,或者直接看源码.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE9g==",
+            "tooltip": "<strong>铲子时间到</strong></br>前置任务需求:</br>杂草</br>进阶卷板机"
+        },
+        {
+            "name": "更好(?)的泥土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1793.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "将泥土与沙子放入组装机,再加上一些种子油,你就能获得花土.  这是完美的农田,不需要附近存在水源,你在上面跳跃不会破坏它.但是如果你在上面疾跑可能会将其变回泥土,所以小心点.%n%n与被浇灌的耕地不同,花土无法提供额外的湿度值加成,也不能加速IC2作物生长,所以你就不用考虑什么最大最小了.%n%n附魔土、催生灯、洒水器等也是一样.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHAQ==",
+            "tooltip": "<strong>更好(?)的泥土</strong></br>前置任务需求:</br>初次杂交"
+        },
+        {
+            "name": "难看的糖浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1484.png",
+            "x": 492.0,
+            "y": 396.0,
+            "data": "下一步是把这个难看的糖浆弄得像点样子.使用棉花糖模具,在压模机内给难看的糖浆塑形,得到生糖浆.记得用完后消毒.%n%n当心,手持生糖浆时,会获得失明II和饥饿II效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFzA==",
+            "tooltip": "<strong>难看的糖浆</strong></br>前置任务需求:</br>真正op的食物"
+        },
+        {
+            "name": "种子不再未知",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/721.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "利用你的扫描仪来扫描你已拥有的所有未知种子.%n %n种子可以再次被栽种用于培育更好、适应性更佳的作物.%n%n稍后你可以使用你的便携式扫描仪(三录仪)直接扫描作物架上的作物.%n%n养分与田地之下的泥土方块(最多4块)、生物群系(沼泽与丛林最好,其实是蘑菇岛--基本上任何潮湿或湿润的生物群系都不错,比如雨林或河口)、空气质量(Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC0Q==",
+            "tooltip": "<strong>种子不再未知</strong></br>前置任务需求:</br>初次杂交"
+        },
+        {
+            "name": "素食主义者,但仍想吃肉?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1802.png",
+            "x": 204.0,
+            "y": 396.0,
+            "data": "与其杀死动物来获得肉类,不如培育一些疯狂的转基因作物为你生产动物产品.科学万岁!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHCg==",
+            "tooltip": "<strong>素食主义者,但仍想吃肉?</strong></br>前置任务需求:</br>一片又一片"
+        },
+        {
+            "name": "素食皮革?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1931.png",
+            "x": 156.0,
+            "y": 204.0,
+            "data": "如果你想要留着你的牛和马来产奶和...胶水...你可以用皮革藤(Corium)来获得皮革.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHiw==",
+            "tooltip": "<strong>素食皮革?</strong></br>前置任务需求:</br>新\"线\"程"
+        },
+        {
+            "name": "蔬菜诱饵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/629.png",
+            "x": 588.0,
+            "y": 60.0,
+            "data": "为你的动物陷阱制作一些蔬菜诱饵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACdQ==",
+            "tooltip": "<strong>蔬菜诱饵</strong></br>前置任务需求:</br>动物陷阱"
+        },
+        {
+            "name": "伏特加",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1278.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "\"伏特加\"在俄语中是\"可爱的小水\"的意思,这是一种酒精含量很高的饮品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE_g==",
+            "tooltip": "<strong>伏特加</strong></br>前置任务需求:</br>小麦汁</br>MV阶段你会讨厌这个 #2"
+        },
+        {
+            "name": "黄蜂蜂蜜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1284.png",
+            "x": 684.0,
+            "y": 108.0,
+            "data": "在下界可以找到巨型黄蜂. 快! 潜入蜂巢偷一些蜂蜜!%n%n[note]只要背包中有单元或者桶装的流体就可以提交了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFBA==",
+            "tooltip": "<strong>黄蜂蜂蜜</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "到处都是水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1602.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "虽然你必须在水附近种植作物,但除非你一直手动浇水,否则它们实际上不会得到任何水合作用. 制作一个水化单元并将其用于作物,以提高其生长速度.%n%n你可以将水化单元放入离心机中回收空单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGQg==",
+            "tooltip": "<strong>到处都是水</strong></br>前置任务需求:</br>初次杂交"
+        },
+        {
+            "name": "\"盆栽\"树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2405.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "你可以直接将原版树苗放置在作物架上.这样你就能获得\"盆栽\"树.盆栽树的产物与普通树相同,还能节约树木生长、被砍伐时的CPU计算.%n%n而这些通常是消耗服务器资源的大头,所以如果你想玩得流畅,就用盆栽树为你的热解炉提供木材吧.它们同样可以以极快的速度出产成吨的木材,尤其是属性提高后,你还有什么理由不将其用在你的自动化树场呢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJZQ==",
+            "tooltip": "<strong>\"盆栽\"树</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        },
+        {
+            "name": "除草剂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1543.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "除草剂可防止杂草在空作物架上生长(消耗除草剂). 它对作物质量的损害是无稽之谈,我们检查过代码,可以向你保证.除非作物有杂草属性(奇妙花(venomilia)生长值8+,其他作物生长值24+),那么它可能会损失1点属性.而且还可以再次培育回来.且这种损失只有在使用过多下才可能出现,而作物监管机不会滥用除草剂.%n%n用法:%n当手持除草剂时,右键单击作物架以使用它. 它也可以放置在作物监管机中,自动将其应用于作物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGBw==",
+            "tooltip": "<strong>除草剂</strong></br>前置任务需求:</br>作物自动化</br>工业酿造"
+        },
+        {
+            "name": "杂草",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/724.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "杂草会不时地在你空的作物架/杂交架上生长.它们会在其上生长并蔓延,吞噬你珍贵的作物,所以请在你想要恢复到上一个备份前,仔细注意并用你的除草剪清除杂草.%n以后你可以制作除草剂来除草(除草剂用尽之前不会产生杂草).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC1A==",
+            "tooltip": "<strong>杂草</strong></br>前置任务需求:</br>初次杂交"
+        },
+        {
+            "name": "杂草II",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/720.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "杂草,杂草,更多的杂草.当你进行作物杂交育种时,获得了大量的杂草.%n%n需要换一些沼气单元来发电？或者换一些可以给田地照明的萤石？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC0A==",
+            "tooltip": "<strong>杂草II</strong></br>前置任务需求:</br>扫描蜜蜂、种子以及更多</br>杂草"
+        },
+        {
+            "name": "小麦时刻",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/634.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "是时候种些小麦,用于动物陷阱中所需要的谷物诱饵.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACeg==",
+            "tooltip": "<strong>小麦时刻</strong></br>前置任务需求:</br>...一分收获"
+        },
+        {
+            "name": "小麦汁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1272.png",
+            "x": 540.0,
+            "y": 108.0,
+            "data": "酿造啤酒或者其他含酒精饮料的第一步就是制取小麦汁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE-A==",
+            "tooltip": "<strong>小麦汁</strong></br>前置任务需求:</br>小麦时刻"
+        },
+        {
+            "name": "Bob到底是谁?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1950.png",
+            "x": 396.0,
+            "y": 396.0,
+            "data": "想要些绿宝石用来买东西或是做些别的?这里有个来源.%n%n译者注:Bobsyeruncleranks,这个作物就叫这,恕我才疏学浅,实在不知道怎么翻...Bob's-Yer-Uncle是happy-Mondys乐队的一首歌,也是一个芝加哥乐队.%n%n译者再注:这个词的最初来源是英国熟语\"Bob's your uncle\",意为\"就在这儿了\"或者\"这就完成了\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHng==",
+            "tooltip": "<strong>Bob到底是谁?</strong></br>前置任务需求:</br>钢叶2"
+        },
+        {
+            "name": "为什么我的作物像鸡一样叫?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1801.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "因为它能下蛋!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHCQ==",
+            "tooltip": "<strong>为什么我的作物像鸡一样叫?</strong></br>前置任务需求:</br>大地母亲的乳汁"
+        },
+        {
+            "name": "巫术种子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1560.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "要获得巫术种子,你需要在远离水的草地上使用锄头.要打开剩余的任务线,你需要完成神秘时代的任务、研究魔导手册中巫术章节的条目.%n%n传说,当曼德拉草的根被挖出来时,它会尖叫并杀死所有听到它的人.这种说法只是部分正确.一个完全成长的曼德拉草可能会尖叫,给周围的人带来巨大的不适.这就是为什么最好在晚上收获曼德拉草根的原因,那时植物更可能处于休眠状态. 曼德拉草是用曼德拉草种子种植而出的,可以通过手持锄右键草地,或破坏部分(或完全)成长的曼德拉草来获得.%n%n破坏完全成长的曼德拉草将产生曼德拉草根和曼德拉草种子,还可能会唤醒曼德拉草并导致各种各样的麻烦(以及对耳朵的折磨!).%n%n颠茄种子可以种植并最终成长为多阶段的颠茄.可以收获完全成长的颠茄以获得更多的颠茄种子和颠茄花.%n%n雪玲花种子可以种植并最终成长为多阶段的雪铃花.可以收获完全成熟的雪铃花以获得更多的雪玲花种子,雪球,偶尔会掉落冰针.%n%n水洋蓟种子可以种植并最终成长为多阶段的水洋蓟.可以收获完全成熟的水洋蓟,以获得更多的水洋蓟种子和水洋蓟球茎.水洋蓟种子只能种植在静水方块上.%n%n大蒜是一种可种植的作物,可用于制作美味的食物,并能克制吸血鬼.它可以种植在耕地上,并分五个阶段生长.当完全成长时,可以收获最多三个掉落的大蒜.收获的大蒜可以重新种植,也可以用于合成.%n%n大蒜还可以用来制作肉汤,特别的营养餐.它也是制作大蒜环的主要成分,大蒜环是防止吸血鬼的有效工具.最后,女巫可以使用大蒜在巫师炼药锅中的制作吸血鬼弱化药剂,狩巫人还可以用大蒜制作狩巫黎明套装.%n%n狼毒草种子可以种植并最终成长为两格高的狼毒草.可以收获完全成长的狼毒草,以获得更多的狼毒草种子和狼毒草.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGGA==",
+            "tooltip": "<strong>巫术种子</strong></br>前置任务需求:</br>园丁"
+        },
+        {
+            "name": "啥啥分不清楚?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1920.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "许多植物看起来都差不多.总有一天你可以用机器区分它们,还能得知更多详细信息.但是现在你需要制作一个简易的植物透镜,至少能分辨它们的物种.%n%n使用透镜后,你可以知道以下信息:%n种类%n作物等级%n是否可以生长(某些作物有特殊要求)%n是否可以收获%n生长状态,到下一阶段的进度",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHgA==",
+            "tooltip": "<strong>啥啥分不清楚?</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        }
+    ],
+    "links": [
+        {
+            "source": "线材轧机v0.2测试版",
+            "target": "钓鱼伙伴"
+        },
+        {
+            "source": "可再生石油",
+            "target": "女孩最好的朋友"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "分析你的作物"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "分析你的作物"
+        },
+        {
+            "source": "钢叶2",
+            "target": "我授予你骑士称号"
+        },
+        {
+            "source": "重要的工具",
+            "target": "动物陷阱"
+        },
+        {
+            "source": "...一分收获",
+            "target": "大麦时间"
+        },
+        {
+            "source": "铁木比普通木材好",
+            "target": "你最好把你的防化服穿上"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "比牛奶好"
+        },
+        {
+            "source": "一片又一片",
+            "target": "猎杀烈焰人太过困难?"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "我不去就山,让山来就我"
+        },
+        {
+            "source": "潮湿而温暖？",
+            "target": "我不去就山,让山来就我"
+        },
+        {
+            "source": "猎杀烈焰人太过困难?",
+            "target": "煤...来自凋灵甘蔗?"
+        },
+        {
+            "source": "书",
+            "target": "懒人厨房(Cooking for Blockheads)"
+        },
+        {
+            "source": "热棉花糖",
+            "target": "冷却你的棉花糖"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "香脆腐肉"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "作物自动化"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "作物自动化"
+        },
+        {
+            "source": "分析你的作物",
+            "target": "作物信息"
+        },
+        {
+            "source": "你尝过金属的味道么?",
+            "target": "深蓝色的蓝宝石之海"
+        },
+        {
+            "source": "冷却你的棉花糖",
+            "target": "Dezil的棉花糖"
+        },
+        {
+            "source": "...一分收获",
+            "target": "生面团"
+        },
+        {
+            "source": "面粉",
+            "target": "生面团"
+        },
+        {
+            "source": "感觉有点像菜鸟...",
+            "target": "你尝过金属的味道么?"
+        },
+        {
+            "source": "作物信息",
+            "target": "更多状态数据"
+        },
+        {
+            "source": "伏特加",
+            "target": "野格(德国野格牌利口酒)"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "作物加速"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "感觉有点像菜鸟..."
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "初次杂交"
+        },
+        {
+            "source": "...一分收获",
+            "target": "第一个手作面包"
+        },
+        {
+            "source": "生面团",
+            "target": "第一个手作面包"
+        },
+        {
+            "source": "捕鱼陷阱",
+            "target": "鱼类诱饵"
+        },
+        {
+            "source": "重要的工具",
+            "target": "捕鱼陷阱"
+        },
+        {
+            "source": "钓鱼伙伴",
+            "target": "捕鱼陷阱"
+        },
+        {
+            "source": "熔炼!",
+            "target": "捕鱼陷阱2.0"
+        },
+        {
+            "source": "捕鱼陷阱",
+            "target": "捕鱼陷阱2.0"
+        },
+        {
+            "source": "大麦时间",
+            "target": "面粉"
+        },
+        {
+            "source": "...一分收获",
+            "target": "面粉"
+        },
+        {
+            "source": "小麦时刻",
+            "target": "面粉"
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "花的力量"
+        },
+        {
+            "source": "HV卷板机",
+            "target": "食物2.0"
+        },
+        {
+            "source": "重要的工具",
+            "target": "淡水和牛奶"
+        },
+        {
+            "source": "厨具",
+            "target": "煎鸡蛋"
+        },
+        {
+            "source": "动物陷阱",
+            "target": "水果诱饵"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "水果诱饵"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "转基因作物"
+        },
+        {
+            "source": "我不去就山,让山来就我",
+            "target": "转基因作物"
+        },
+        {
+            "source": "难看的糖浆",
+            "target": "热棉花糖"
+        },
+        {
+            "source": "动物陷阱",
+            "target": "谷物诱饵"
+        },
+        {
+            "source": "小麦时刻",
+            "target": "谷物诱饵"
+        },
+        {
+            "source": "一片又一片",
+            "target": "萤石1"
+        },
+        {
+            "source": "一片又一片",
+            "target": "火药?更像土灰!"
+        },
+        {
+            "source": "煎鸡蛋",
+            "target": "丰盛的早餐"
+        },
+        {
+            "source": "美味烤面包",
+            "target": "丰盛的早餐"
+        },
+        {
+            "source": "果汁",
+            "target": "丰盛的早餐"
+        },
+        {
+            "source": "马铃薯蛋糕",
+            "target": "丰盛的早餐"
+        },
+        {
+            "source": "黄蜂蜂蜜",
+            "target": "蜂蜜的糖"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "啤酒花--啤酒原料"
+        },
+        {
+            "source": "好累...必须...睡觉...",
+            "target": "不再饥饿"
+        },
+        {
+            "source": "生面团",
+            "target": "我喜欢大三明治"
+        },
+        {
+            "source": "一片又一片",
+            "target": "铁木比普通木材好"
+        },
+        {
+            "source": "软锤大冒险!",
+            "target": "果汁"
+        },
+        {
+            "source": "独眼奥丁之子",
+            "target": "路过时挡好你的私处,小心辐射"
+        },
+        {
+            "source": "厨具",
+            "target": "就像妈妈以前做的"
+        },
+        {
+            "source": "第一个手作面包",
+            "target": "就像妈妈以前做的"
+        },
+        {
+            "source": "重要的工具",
+            "target": "厨具"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "厨具2.0"
+        },
+        {
+            "source": "厨具",
+            "target": "厨具2.0"
+        },
+        {
+            "source": "石油提纯",
+            "target": "Korn and Doppelkorn(科恩酒和经过两次蒸馏的科恩酒)"
+        },
+        {
+            "source": "小麦汁",
+            "target": "Korn and Doppelkorn(科恩酒和经过两次蒸馏的科恩酒)"
+        },
+        {
+            "source": "铁木比普通木材好",
+            "target": "钢叶2"
+        },
+        {
+            "source": "一片又一片",
+            "target": "魔法金属莓(Magic Metal Berry)"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "来自大地的金属"
+        },
+        {
+            "source": "来自大地的金属",
+            "target": "天外金属"
+        },
+        {
+            "source": "素食皮革?",
+            "target": "大地母亲的乳汁"
+        },
+        {
+            "source": "转基因作物",
+            "target": "最适作物/最强作物"
+        },
+        {
+            "source": "啤酒花--啤酒原料",
+            "target": "More Red,less Wheat(更多的红色,更少的小麦)"
+        },
+        {
+            "source": "重要的工具",
+            "target": "农场\"智者\"手册"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "苔藓"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "新\"线\"程"
+        },
+        {
+            "source": "厨具",
+            "target": "鸡,一只也别想跑!"
+        },
+        {
+            "source": "生面团",
+            "target": "鸡,一只也别想跑!"
+        },
+        {
+            "source": "魔法金属莓(Magic Metal Berry)",
+            "target": "其他魔法花"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "自产肥料的植物?"
+        },
+        {
+            "source": "厨具",
+            "target": "马铃薯蛋糕"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "马玲薯、胡萝卜、南瓜和西瓜."
+        },
+        {
+            "source": "厨具",
+            "target": "南瓜派"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "全速前进"
+        },
+        {
+            "source": "水心之酿",
+            "target": "真正op的食物"
+        },
+        {
+            "source": "IV搅拌机",
+            "target": "真正op的食物"
+        },
+        {
+            "source": "深蓝色的蓝宝石之海",
+            "target": "红配黄"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "甘蔗和树脂"
+        },
+        {
+            "source": "煤...来自凋灵甘蔗?",
+            "target": "可再生石油"
+        },
+        {
+            "source": "作物自动化",
+            "target": "机械化作物收割"
+        },
+        {
+            "source": "工业之路",
+            "target": "朗姆酒"
+        },
+        {
+            "source": "煤...来自凋灵甘蔗?",
+            "target": "独眼奥丁之子"
+        },
+        {
+            "source": "乙酰水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...",
+            "target": "加快你的植物生长进度"
+        },
+        {
+            "source": "初次杂交",
+            "target": "加快你的植物生长进度"
+        },
+        {
+            "source": "一片又一片",
+            "target": "石芯草(Stone lillies)"
+        },
+        {
+            "source": "粉碎 v0.1 Alpha",
+            "target": "甘蔗"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "甜到牙了"
+        },
+        {
+            "source": "甘蔗和树脂",
+            "target": "一片又一片"
+        },
+        {
+            "source": "...一分收获",
+            "target": "美味烤面包"
+        },
+        {
+            "source": "第一个手作面包",
+            "target": "美味烤面包"
+        },
+        {
+            "source": "蜂蜜的糖",
+            "target": "囤积:糖"
+        },
+        {
+            "source": "甘蔗",
+            "target": "囤积:糖"
+        },
+        {
+            "source": "一片又一片",
+            "target": "大地在哭泣"
+        },
+        {
+            "source": "发酵酿酒!",
+            "target": "工业之路"
+        },
+        {
+            "source": "甘蔗",
+            "target": "工业之路"
+        },
+        {
+            "source": "杂草",
+            "target": "铲子时间到"
+        },
+        {
+            "source": "进阶卷板机",
+            "target": "铲子时间到"
+        },
+        {
+            "source": "初次杂交",
+            "target": "更好(?)的泥土"
+        },
+        {
+            "source": "真正op的食物",
+            "target": "难看的糖浆"
+        },
+        {
+            "source": "初次杂交",
+            "target": "种子不再未知"
+        },
+        {
+            "source": "一片又一片",
+            "target": "素食主义者,但仍想吃肉?"
+        },
+        {
+            "source": "新\"线\"程",
+            "target": "素食皮革?"
+        },
+        {
+            "source": "动物陷阱",
+            "target": "蔬菜诱饵"
+        },
+        {
+            "source": "小麦汁",
+            "target": "伏特加"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #2",
+            "target": "伏特加"
+        },
+        {
+            "source": "下界",
+            "target": "黄蜂蜂蜜"
+        },
+        {
+            "source": "初次杂交",
+            "target": "到处都是水"
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "\"盆栽\"树"
+        },
+        {
+            "source": "作物自动化",
+            "target": "除草剂"
+        },
+        {
+            "source": "工业酿造",
+            "target": "除草剂"
+        },
+        {
+            "source": "初次杂交",
+            "target": "杂草"
+        },
+        {
+            "source": "扫描蜜蜂、种子以及更多",
+            "target": "杂草II"
+        },
+        {
+            "source": "杂草",
+            "target": "杂草II"
+        },
+        {
+            "source": "...一分收获",
+            "target": "小麦时刻"
+        },
+        {
+            "source": "小麦时刻",
+            "target": "小麦汁"
+        },
+        {
+            "source": "钢叶2",
+            "target": "Bob到底是谁?"
+        },
+        {
+            "source": "大地母亲的乳汁",
+            "target": "为什么我的作物像鸡一样叫?"
+        },
+        {
+            "source": "园丁",
+            "target": "巫术种子"
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "啥啥分不清楚?"
+        }
+    ]
+}
