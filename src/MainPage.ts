@@ -119,6 +119,7 @@ export class MainPage {
 				data: this.questList[0].url,
 			};
 			this.sendMessageToIframe(data);
+			this.buttonList[0].removeClass("unselected").addClass("selected");
 		}
 	}
 
