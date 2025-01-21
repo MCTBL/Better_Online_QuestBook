@@ -46,4 +46,7 @@ export class Utils {
             selection.addRange(originalRange);
         }
     }
+    static encodeMsg2AHref(msg) {
+        return msg.replace(/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g, '<a href="$1">$1</a>');
+    }
 }

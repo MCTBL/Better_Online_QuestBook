@@ -82,8 +82,11 @@ export class QuestListPage {
                     params.data.name +
                     "</h1>" +
                     params.data.data.replaceAll("%n", "</br>"));
+                let msg = params.data.data.replaceAll("%n", "</br>");
+                msg = Utils.encodeMsg2AHref(msg);
+                console.warn(msg);
                 let data = {
-                    content: params.data.data.replaceAll("%n", "</br>"),
+                    content: msg,
                     caller: null,
                     sure: null,
                     cancel: null,

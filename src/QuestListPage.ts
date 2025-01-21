@@ -103,9 +103,12 @@ export class QuestListPage {
 					params.data.data.replaceAll("%n", "</br>")
 				);
 
+				let msg = params.data.data.replaceAll("%n", "</br>");
+				msg = Utils.encodeMsg2AHref(msg);
+				console.warn(msg);
 				let data: dialogMsg =
 				{
-					content: params.data.data.replaceAll("%n", "</br>"),
+					content: msg,
 					caller: null,//TODO 这里不能传递方法和作用域，必须重写做一个dialog
 					sure: null,
 					cancel: null,

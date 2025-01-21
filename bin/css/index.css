@@ -180,7 +180,7 @@ dialog article {
 	width: auto;
 }
 .dialogContent {
-	display: flex;
+
 	align-items: center;
 	justify-content: center;
 	min-width: 360px;
