@@ -125,8 +125,10 @@ body {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	padding: 20px;
-	border: 1px solid #ccc;
-	background-color: #fff;
+	border: 5px solid #692612;
+	/* border-image-source: radial-gradient(#692612 0, #702a15 50%, #1e0900 100%); */
+	border-radius: 10px;
+	background-color: #fbf3e0;
 	z-index: 100;
 	width: 80%;
 }
