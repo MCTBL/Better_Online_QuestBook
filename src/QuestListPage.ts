@@ -88,6 +88,11 @@ export class QuestListPage {
 				{ renderer: "canvas" }
 			);
 		}
+		this.echarts.clear();
+		this.echarts.resize();
+
+
+
 		//TODO 重写以下代码，并且把方法放到主域
 		this.echarts.on("click", (params: any) => {
 			if (params.dataType === "node") {
@@ -130,7 +135,7 @@ export class QuestListPage {
 			console.error("内容丢失");
 		}
 		window.addEventListener("resize", () => {
-			this.echarts.resize();
+			this.echarts?.resize();
 		});
 	}
 }
