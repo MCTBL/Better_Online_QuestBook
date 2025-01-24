@@ -34,21 +34,23 @@ export class MainPage {
 		});
 		$("#toggleSidebar").click(this.toggleSidebar);
 		// 绑定点击消失
-		document.getElementById("overlay")!.addEventListener("click", function () {
+		$("#overlay").click(function () {
 			hidePopup();
 		});
 		// 绑定点击复制任务详情
-		document.getElementById("copyBtn")!.addEventListener("click", function () {
-			Utils.copyH5Str(document.getElementById("popupContent")!.innerText);
+		$("#copyBtn").click(function () {
+			var str = "";
+			str += document.getElementById("title")!.innerText;
+			str += "\n";
+			str += document.getElementById("desc")!.innerText;
+			Utils.copyH5Str(str);
 			console.log("成功复制");
 		});
 		// 绑定点击复制任务ID
-		document
-			.getElementById("copyIdBtn")!
-			.addEventListener("click", function () {
-				Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
-				console.log("成功复制");
-			});
+		$("#copyIdBtn").click(function () {
+			Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
+			console.log("成功复制");
+		});
 	}
 
 	toggleSidebar() {
@@ -153,26 +155,9 @@ export class MainPage {
 				this.initMainIframe();
 				break;
 			case msgAction.showPopup:
-				// 写入任务id并隐藏
-				document.getElementById("quest_id")!.innerText = data.data.quest_id;
-				document.getElementById("quest_id")!.style.display = "none";
-
 				// 展示
-				showPopup("<h1>" + data.data.title + "</h1>", data.data.desc);
-
-				// this.showDialog(
-				// 	data.data.content,
-				// 	this,
-				// 	data.data.sure,
-				// 	data.data.cancel,
-				// 	data.data.onlySure,
-				// 	data.data.title,
-				// 	data.data.sureMsg,
-				// 	data.data.cancelMsg
-				// );
-
+				showPopup(data.data.title, data.data.desc, data.data.ID);
 				break;
 		}
 	}
-
 }
