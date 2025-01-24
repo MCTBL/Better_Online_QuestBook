@@ -10,7 +10,7 @@ export type m2qData = { action: msgAction; data: any };
 export enum msgAction {
 	init = "init",
 	ready = "ready",
-	showDialog = "showDialog",
+	showPopup = "showPopup",
 }
 
 export type dialogMsg = {

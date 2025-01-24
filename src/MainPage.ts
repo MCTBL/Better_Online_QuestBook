@@ -153,7 +153,7 @@ export class MainPage {
 			case msgAction.ready:
 				this.initMainIframe();
 				break;
-			case msgAction.showDialog:
+			case msgAction.showPopup:
 				// 写入任务id并隐藏
 				document.getElementById("quest_id")!.innerText = data.data.quest_id;
 				document.getElementById("quest_id")!.style.display = "none";

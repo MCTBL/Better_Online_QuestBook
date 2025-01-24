@@ -81,7 +81,7 @@ export class QuestListPage {
 				// 	sureMsg: "复制任务ID",
 				// 	cancelMsg: "取消"
 				// }
-				this.sendMessageToMain({ action: msgAction.showDialog, data: data });
+				this.sendMessageToMain({ action: msgAction.showPopup, data: data });
 			}
 		});
 
