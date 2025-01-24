@@ -66,21 +66,6 @@ export class QuestListPage {
 					desc: params.data.data.replaceAll("%n", "</br>"),
 					ID: params.data.quest_id,
 				};
-
-				// let msg = params.data.data.replaceAll("%n", "</br>");
-				// msg = Utils.encodeMsg2AHref(msg);
-				// console.warn(msg);
-				// let data: dialogMsg =
-				// {
-				// 	content: msg,
-				// 	caller: null,//TODO 这里不能传递方法和作用域，必须重写做一个dialog
-				// 	sure: null,
-				// 	cancel: null,
-				// 	onlySure: true,
-				// 	title: params.data.name,
-				// 	sureMsg: "复制任务ID",
-				// 	cancelMsg: "取消"
-				// }
 				this.sendMessageToMain({ action: msgAction.showPopup, data: data });
 			}
 		});

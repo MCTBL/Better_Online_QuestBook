@@ -2,7 +2,6 @@ import { m2qData, msgAction, quest } from "./Define.js";
 import { hidePopup, showPopup } from "./popup.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
-import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 
 export class MainPage {
@@ -91,7 +90,7 @@ export class MainPage {
 	createButton(index: number, quest: quest) {
 		const button = $("<button>", {
 			id: "btnQuest_" + index,
-			class: "questButton outline unselected",
+			class: "questButton unselected",
 			click: (btn: any) => {
 				this.buttonList.forEach((button) => {
 					if (button[0] == btn.currentTarget) {
@@ -176,25 +175,4 @@ export class MainPage {
 		}
 	}
 
-	showDialog(
-		content: string,
-		caller: any,
-		sure: Function | null,
-		cancel: Function | null,
-		onlySure: boolean = true,
-		title: string = "提示",
-		sureMsg: string = "确定",
-		cancelMsg: string = "取消"
-	) {
-		TipsMgr.showDialog(
-			content,
-			caller,
-			sure,
-			cancel,
-			onlySure,
-			title,
-			sureMsg,
-			cancelMsg
-		);
-	}
 }

@@ -76,6 +76,7 @@ body {
 
 #versionSelect {
 	margin-bottom: 0;
+	width: 100%;
 }
 
 .questList {
@@ -88,10 +89,10 @@ body {
 	position: static;
 	display: flex;
 	align-items: center;
-	color:#ffffff;
+	color: #ffffff;
 }
 
-.selected{
+.selected {
 	background-color: #433f39;
 }
 
@@ -112,6 +113,9 @@ body {
 	left: 10px;
 	text-align: left;
 	white-space: nowrap;
+	max-width: 190px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .popup {
@@ -127,7 +131,7 @@ body {
 	width: 80%;
 }
 
-#desc{
+#desc {
 	overflow-y: auto;
 	max-height: 60vh;
 }
@@ -195,7 +199,6 @@ dialog article {
 	width: auto;
 }
 .dialogContent {
-
 	align-items: center;
 	justify-content: center;
 	min-width: 360px;
