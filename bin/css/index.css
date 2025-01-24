@@ -130,7 +130,29 @@ body {
 	border-radius: 10px;
 	background-color: #fbf3e0;
 	z-index: 100;
-	width: 80%;
+	width: 80vw;
+	height: 80vh;
+}
+
+#popupLeft{
+	background-color: red;
+	width: 50%;
+	padding: 20px;
+	height: 80vh * 0.8;
+}
+
+#popupRight {
+	background: green;
+	width: 50%;
+	padding: 20px;
+	height: 80vh * 0.8;
+}
+
+.v-line {
+	border-left: 2px solid gray;
+	top: 50%;
+	height: 100%;
+	margin: 0 1%;
 }
 
 #desc {
@@ -149,18 +171,7 @@ body {
 	z-index: 50;
 }
 
-.copy-btn {
-	color: #fff;
-	cursor: pointer;
-	float: left;
-	border: 1px solid green;
-	background-color: #4caf50;
-	text-align: center;
-	border-radius: 5px;
-	padding: 7px;
-}
-
-.copy-id-btn {
+#popupLeft span{
 	color: #fff;
 	cursor: pointer;
 	float: left;
