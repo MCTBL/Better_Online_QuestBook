@@ -1,20 +1,4 @@
-import { dialogMsg, m2qData, msgAction } from "./Define.js";
-import { Utils } from "./Utils.js";
-
-function showPopup(content: string) {
-	if (document !== null) {
-		document.getElementById("popupContent")!.innerHTML = content;
-		document.getElementById("popup")!.style.display = "block";
-		document.getElementById("overlay")!.style.display = "block";
-	}
-}
-
-export function hidePopup() {
-	if (document !== null) {
-		document.getElementById("popup")!.style.display = "none";
-		document.getElementById("overlay")!.style.display = "none";
-	}
-}
+import { m2qData, msgAction, popup } from "./Define.js";
 
 export class QuestListPage {
 	private event: Event;
@@ -33,23 +17,6 @@ export class QuestListPage {
 		});
 
 		//TODO 重写以下代码，并且把方法放到主域
-		// 绑定点击消失
-		document.getElementById("overlay")!.addEventListener("click", function () {
-			hidePopup();
-		});
-		// 绑定点击复制任务详情
-		document.getElementById("copyBtn")!.addEventListener("click", function () {
-			Utils.copyH5Str(document.getElementById("popupContent")!.innerText);
-			console.log("成功复制");
-		});
-		// 绑定点击复制任务ID
-		document
-			.getElementById("copyIdBtn")!
-			.addEventListener("click", function () {
-				Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
-				console.log("成功复制");
-			});
-
 		// 重置echarts
 		document.getElementById("reset_btn")!.addEventListener("click", () => {
 			this.echarts.clear();
@@ -91,43 +58,32 @@ export class QuestListPage {
 		this.echarts.clear();
 		this.echarts.resize();
 
-
-
 		//TODO 重写以下代码，并且把方法放到主域
 		this.echarts.on("click", (params: any) => {
 			if (params.dataType === "node") {
-				// 写入任务id并隐藏
-				document.getElementById("quest_id")!.innerText = params.data.quest_id;
-				document.getElementById("quest_id")!.style.display = "none";
-
-				// 展示
-				showPopup(
-					"<h1>" +
-					params.data.name +
-					"</h1>" +
-					params.data.data.replaceAll("%n", "</br>")
-				);
-
-				let msg = params.data.data.replaceAll("%n", "</br>");
-				msg = Utils.encodeMsg2AHref(msg);
-				console.warn(msg);
-				let data: dialogMsg =
-				{
-					content: msg,
-					caller: null,//TODO 这里不能传递方法和作用域，必须重写做一个dialog
-					sure: null,
-					cancel: null,
-					onlySure: true,
+				let data: popup = {
 					title: params.data.name,
-					sureMsg: "复制任务ID",
-					cancelMsg: "取消"
-				}
-				this.sendMessageToMain({ action: msgAction.showDialog, data: data });
+					desc: params.data.data.replaceAll("%n", "</br>"),
+					ID: params.data.quest_id,
+				};
 
+				// let msg = params.data.data.replaceAll("%n", "</br>");
+				// msg = Utils.encodeMsg2AHref(msg);
+				// console.warn(msg);
+				// let data: dialogMsg =
+				// {
+				// 	content: msg,
+				// 	caller: null,//TODO 这里不能传递方法和作用域，必须重写做一个dialog
+				// 	sure: null,
+				// 	cancel: null,
+				// 	onlySure: true,
+				// 	title: params.data.name,
+				// 	sureMsg: "复制任务ID",
+				// 	cancelMsg: "取消"
+				// }
+				this.sendMessageToMain({ action: msgAction.showDialog, data: data });
 			}
 		});
-
-
 
 		if ((window as any).option_this_chart) {
 			this.echarts.setOption((window as any).option_this_chart);

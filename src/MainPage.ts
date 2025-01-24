@@ -1,7 +1,9 @@
 import { m2qData, msgAction, quest } from "./Define.js";
+import { hidePopup, showPopup } from "./popup.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
 import { TipsMgr } from "./TipsMgr.js";
+import { Utils } from "./Utils.js";
 
 export class MainPage {
 	private questList: quest[] = [];
@@ -32,6 +34,22 @@ export class MainPage {
 			this.onGetMessageFromIframe(event);
 		});
 		$("#toggleSidebar").click(this.toggleSidebar);
+		// 绑定点击消失
+		document.getElementById("overlay")!.addEventListener("click", function () {
+			hidePopup();
+		});
+		// 绑定点击复制任务详情
+		document.getElementById("copyBtn")!.addEventListener("click", function () {
+			Utils.copyH5Str(document.getElementById("popupContent")!.innerText);
+			console.log("成功复制");
+		});
+		// 绑定点击复制任务ID
+		document
+			.getElementById("copyIdBtn")!
+			.addEventListener("click", function () {
+				Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
+				console.log("成功复制");
+			});
 	}
 
 	toggleSidebar() {
@@ -136,16 +154,24 @@ export class MainPage {
 				this.initMainIframe();
 				break;
 			case msgAction.showDialog:
-				this.showDialog(
-					data.data.content,
-					this,
-					data.data.sure,
-					data.data.cancel,
-					data.data.onlySure,
-					data.data.title,
-					data.data.sureMsg,
-					data.data.cancelMsg
-				);
+				// 写入任务id并隐藏
+				document.getElementById("quest_id")!.innerText = data.data.quest_id;
+				document.getElementById("quest_id")!.style.display = "none";
+
+				// 展示
+				showPopup("<h1>" + data.data.title + "</h1>", data.data.desc);
+
+				// this.showDialog(
+				// 	data.data.content,
+				// 	this,
+				// 	data.data.sure,
+				// 	data.data.cancel,
+				// 	data.data.onlySure,
+				// 	data.data.title,
+				// 	data.data.sureMsg,
+				// 	data.data.cancelMsg
+				// );
+
 				break;
 		}
 	}

@@ -1,6 +1,11 @@
-export type quest = { title: string, url: string, icon: string, title_zh?: string }
+export type quest = {
+	title: string;
+	url: string;
+	icon: string;
+	title_zh?: string;
+};
 
-export type m2qData = { action: msgAction, data: any }
+export type m2qData = { action: msgAction; data: any };
 
 export enum msgAction {
 	init = "init",
@@ -8,21 +13,25 @@ export enum msgAction {
 	showDialog = "showDialog",
 }
 
-
 export type dialogMsg = {
-	content: string,
-	caller: any,
-	sure: Function | null,
-	cancel: Function | null,
-	onlySure: boolean,
-	title: string,
-	sureMsg: string,
-	cancelMsg: string
-}
+	content: string;
+	caller: any;
+	sure: Function | null;
+	cancel: Function | null;
+	onlySure: boolean;
+	title: string;
+	sureMsg: string;
+	cancelMsg: string;
+};
+
+export type popup = {
+	title: String;
+	desc: String;
+	ID: String;
+};
 
 /**对话框的class */
-export var myDialog =
-	`
+export var myDialog = `
 <dialog close id = "myDialog">
 	<article>
 		<header>
