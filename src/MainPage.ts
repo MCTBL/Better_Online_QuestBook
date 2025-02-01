@@ -113,6 +113,7 @@ export class MainPage {
 		});
 		button.data("questData", quest);
 
+		// TODO change to json's icon
 		const img = $("<img>", {
 			src:
 				"./" +
