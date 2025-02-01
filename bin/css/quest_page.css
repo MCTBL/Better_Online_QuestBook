@@ -97,4 +97,8 @@ div #rewardsBox {
 #desc {
 	font-size: 20px;
 	line-height: 30px;
+	color: rgb(0, 0, 0);
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
 }

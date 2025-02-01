@@ -52,7 +52,6 @@ export function MCcolor(source_str: string): string {
 			child.style.fontWeight = fontWeight;
 			child.style.textDecoration = textDecoration;
 			child.style.fontStyle = fontStyle;
-			child.style.fontFamily = "Minecraft";
 			child.innerHTML = temp;
 			target.append(child);
 		}
