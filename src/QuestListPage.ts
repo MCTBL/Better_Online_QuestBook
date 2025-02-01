@@ -63,7 +63,7 @@ export class QuestListPage {
 		this.echarts.on("click", (params: any) => {
 			if (params.dataType === "node") {
 				let data: popup = {
-					title: params.data.name,
+					title: params.data.title,
 					desc: params.data.data,
 					ID: params.data.quest_id,
 				};
