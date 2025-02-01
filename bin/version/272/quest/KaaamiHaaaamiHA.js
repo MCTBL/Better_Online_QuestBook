@@ -59,7 +59,7 @@
             "data": [
                 {
                     "name": "\u5730\u5fc3\u4e4b\u65c5",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2410.png",
                     "x": 12.0,
                     "y": 60.0,
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u9774\u5b50",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/318.png",
                     "x": 276.0,
                     "y": 252.0,
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "\u51c0\u5316\u4f60\u7684\u626d\u66f2",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/1110.png",
                     "x": 60.0,
                     "y": 156.0,
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u62a4\u817f",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/312.png",
                     "x": 228.0,
                     "y": 204.0,
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "\u795e\u5947\u7684\u5e03\u5339",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/316.png",
                     "x": 336.0,
                     "y": 156.0,
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "\u7075\u5b9d",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/320.png",
                     "x": 168.0,
                     "y": 156.0,
@@ -125,7 +125,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u5934\u5dfe",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/310.png",
                     "x": 228.0,
                     "y": 60.0,
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u5934\u5dfe",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/311.png",
                     "x": 276.0,
                     "y": 60.0,
@@ -147,7 +147,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u6cd5\u888d",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/314.png",
                     "x": 228.0,
                     "y": 108.0,
@@ -158,7 +158,7 @@
                 },
                 {
                     "name": "\u560e\u5623\u8106\u9e21\u8089\u5473",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/1109.png",
                     "x": 108.0,
                     "y": 156.0,
@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u94f2",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/325.png",
                     "x": 60.0,
                     "y": 108.0,
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u9550",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/322.png",
                     "x": 108.0,
                     "y": 60.0,
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u5251",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/324.png",
                     "x": 60.0,
                     "y": 252.0,
@@ -202,7 +202,7 @@
                 },
                 {
                     "name": "\u795e\u7684\u529b\u91cf",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/307.png",
                     "x": 336.0,
                     "y": 108.0,
@@ -213,7 +213,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u6cd5\u888d",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/315.png",
                     "x": 276.0,
                     "y": 108.0,
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "\u795e\u5947\u7684\u4f20\u9001\u6838\u5fc3",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/330.png",
                     "x": 168.0,
                     "y": 60.0,
@@ -235,7 +235,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u94f2",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/323.png",
                     "x": 108.0,
                     "y": 108.0,
@@ -246,7 +246,7 @@
                 },
                 {
                     "name": "\u300c \u300d",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2888.png",
                     "x": 384.0,
                     "y": 108.0,
@@ -257,7 +257,7 @@
                 },
                 {
                     "name": "\u7075\u5b9d\u6756\u7aef",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2727.png",
                     "x": 204.0,
                     "y": 300.0,
@@ -268,7 +268,7 @@
                 },
                 {
                     "name": "\u6211\u4eec\u4e3a\u4ec0\u4e48\u8981\u6b65\u884c\uff1f",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/331.png",
                     "x": 168.0,
                     "y": 108.0,
@@ -279,7 +279,7 @@
                 },
                 {
                     "name": "\u7075\u5b9d\u6756\u82af",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2726.png",
                     "x": 300.0,
                     "y": 300.0,
@@ -290,7 +290,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u65a7",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/326.png",
                     "x": 60.0,
                     "y": 204.0,
@@ -301,7 +301,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u9774\u5b50",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/317.png",
                     "x": 228.0,
                     "y": 252.0,
@@ -312,7 +312,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u5251",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/321.png",
                     "x": 108.0,
                     "y": 252.0,
@@ -323,7 +323,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u65a7\u5934",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/319.png",
                     "x": 108.0,
                     "y": 204.0,
@@ -334,7 +334,7 @@
                 },
                 {
                     "name": "\u8fd9\u4e9b\u4e1c\u897f\u4e0d\u4f1a'\u56de\u6765'\u4e86",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2887.png",
                     "x": 336.0,
                     "y": 60.0,
@@ -345,7 +345,7 @@
                 },
                 {
                     "name": "\u91ca\u653e\u529b\u91cf-\u9550",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/327.png",
                     "x": 60.0,
                     "y": 60.0,
@@ -356,7 +356,7 @@
                 },
                 {
                     "name": "\u6c38\u4e0d\u78e8\u635f\u7684\u62a4\u817f",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/313.png",
                     "x": 276.0,
                     "y": 204.0,
@@ -367,7 +367,7 @@
                 },
                 {
                     "name": "\u76f8\u53cd\u4e16\u754c\u7684\u788e\u7247",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/309.png",
                     "x": 252.0,
                     "y": 156.0,
@@ -378,7 +378,7 @@
                 },
                 {
                     "name": "\u628a\u6240\u6709\u6838\u5fc3\u90fd\u5b58\u8d77\u6765.",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/328.png",
                     "x": 384.0,
                     "y": 156.0,
@@ -389,7 +389,7 @@
                 },
                 {
                     "name": "\u6700\u597d\u7684\u6cd5\u6756",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2728.png",
                     "x": 252.0,
                     "y": 300.0,
@@ -400,7 +400,7 @@
                 },
                 {
                     "name": "\u90a3\u4e9b\u4e1c\u897f\u53bb\u54ea\u4e86\uff1f",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/329.png",
                     "x": 156.0,
                     "y": 252.0,

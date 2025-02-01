@@ -59,7 +59,7 @@
             "data": [
                 {
                     "name": "Rule of Threes",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5662664545508156018.png",
                     "x": 336.0,
                     "y": 180.0,
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "\u7b2c13\u9636\u6bb5(UXV)",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6509950608256890330.png",
                     "x": 72.0,
                     "y": 180.0,
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "\u4f60\u6210\u529f\u4e86!",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3296.png",
                     "x": 204.0,
                     "y": 216.0,
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "\u4ec0\u4e48?\u4f60\u662f\u600e\u4e48\u505a\u5230\u7684?",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2598.png",
                     "x": 204.0,
                     "y": 0.0,
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "\u661f\u95e8\u5e95\u5ea7\u65b9\u5757",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2574.png",
                     "x": 252.0,
                     "y": 24.0,
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "Simulating a Solar System",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7454595483869697856.png",
                     "x": 204.0,
                     "y": 252.0,
@@ -125,7 +125,7 @@
                 },
                 {
                     "name": "\u5728\u5b87\u5b99\u661f\u8fb0\u95f4\u7ec4\u88c5",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5622946374684694237.png",
                     "x": 336.0,
                     "y": 252.0,
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "\u4f60\u53ef\u80fd\u9700\u8981\u8fd9\u4e9b",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2594.png",
                     "x": 156.0,
                     "y": 120.0,
@@ -147,7 +147,7 @@
                 },
                 {
                     "name": "\u661f\u95e8\u5916\u73af\u65b9\u5757",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2573.png",
                     "x": 156.0,
                     "y": 24.0,
@@ -158,7 +158,7 @@
                 },
                 {
                     "name": "\u7194\u878d\u78c1\u6d41\u4f53\u7ea6\u675f\u6052\u661f\u7269\u8d28",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5865034814944347891.png",
                     "x": 72.0,
                     "y": 252.0,
@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "\u661f\u95e8\u547d\u4ee4",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2597.png",
                     "x": 132.0,
                     "y": 72.0,
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "\u661f\u95e8\u5bfc\u6807\u65b9\u5757",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2575.png",
                     "x": 276.0,
                     "y": 72.0,
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "\u6c38\u6052",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5606710145730409374.png",
                     "x": 132.0,
                     "y": 216.0,
@@ -202,7 +202,7 @@
                 },
                 {
                     "name": "\u661f\u95e8\u5bfc\u6807\u5347\u7ea7",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2576.png",
                     "x": 252.0,
                     "y": 120.0,
@@ -213,7 +213,7 @@
                 },
                 {
                     "name": "\u5929\u5802\u4e4b\u95e8?",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2572.png",
                     "x": 204.0,
                     "y": 144.0,
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "\u5236\u9020\u592a\u9633\u7cfb...\u4f46\u662f\u5e76\u884c\u5316!",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4851697106472398149.png",
                     "x": 336.0,
                     "y": 216.0,
@@ -235,7 +235,7 @@
                 },
                 {
                     "name": "\u4f60\u4eec\u7684\u4e3b\u548c\u6551\u4e16\u795e,UXV\u90e8\u4ef6\u88c5\u914d\u7ebf",
-                    "symbolSize": 75,
+                    "symbolSize": 40,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8646551172440344443.png",
                     "x": 276.0,
                     "y": 216.0,

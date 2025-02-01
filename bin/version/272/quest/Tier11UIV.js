@@ -59,7 +59,7 @@
             "data": [
                 {
                     "name": "\u6f06\u9ed1\u4e4b\u95e8!",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2413.png",
                     "x": -456.0,
                     "y": 120.0,
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "\u66f4\u597d\u7684\u8d85\u5bfc\u4f53\u51b7\u5374\u6db2",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7880130124221230423.png",
                     "x": -180.0,
                     "y": 216.0,
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "UIV\u80fd\u6e90\u4ed3",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7565512237463838538.png",
                     "x": -276.0,
                     "y": 36.0,
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "\u6df7\u6c8c\u80fd\u91cf",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/2701.png",
                     "x": -264.0,
                     "y": 252.0,
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "Project Godforge",
-                    "symbolSize": 75,
+                    "symbolSize": 73,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6893323685044150631.png",
                     "x": -48.0,
                     "y": 36.0,
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "Heliothermal Plasma Fabricator",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5675835535531457502.png",
                     "x": 24.0,
                     "y": 108.0,
@@ -125,7 +125,7 @@
                 },
                 {
                     "name": "\u8d85\u7ef4\u5ea6\u7b49\u79bb\u5b50\u6405\u62cc\u673a",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8023095913103763378.png",
                     "x": -276.0,
                     "y": -36.0,
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "\u771f\u6b63\u7684\u661f\u7403\u541e\u566c\u8005",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5355942527641797439.png",
                     "x": -456.0,
                     "y": -48.0,
@@ -147,7 +147,7 @@
                 },
                 {
                     "name": "\u5728\u661f\u8fb0\u95f4\u7ec4\u88c5",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9080536097015359642.png",
                     "x": -504.0,
                     "y": -48.0,
@@ -158,7 +158,7 @@
                 },
                 {
                     "name": "\u4ee5\u592a\u4e4b\u529b",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3235.png",
                     "x": -192.0,
                     "y": 252.0,
@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "Heliofusion Exoticizer",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7880209593223277990.png",
                     "x": -48.0,
                     "y": 132.0,
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "No, it's not a Typo",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5562896910886444976.png",
                     "x": -48.0,
                     "y": -36.0,
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "\u8fd9\u89c4\u77e9\u4f60\u65e9\u5c31\u61c2\u7684 Pt.2",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3237.png",
                     "x": -396.0,
                     "y": 36.0,
@@ -202,7 +202,7 @@
                 },
                 {
                     "name": "Crayon and Melon",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8810543536998436147.png",
                     "x": -156.0,
                     "y": -36.0,
@@ -213,7 +213,7 @@
                 },
                 {
                     "name": "Ultimate Voltages Require Ultimate Lubricant\u2122!",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4677630017092864794.png",
                     "x": -324.0,
                     "y": -108.0,
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "Helioflux Melting Core my Beloved",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9020796615899025430.png",
                     "x": 48.0,
                     "y": 36.0,
@@ -235,7 +235,7 @@
                 },
                 {
                     "name": "\u54c8\u54c8,\u8d85\u65f6\u7a7a\u91d1\u5c5e\u952d\u8f6c\u8f6c\u8f6c",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8415680337631262256.png",
                     "x": -480.0,
                     "y": 36.0,
@@ -246,7 +246,7 @@
                 },
                 {
                     "name": "\u4ece\u4f60\u7684\u7b2c\u4e00\u5757\u6d77\u73c0\u73cd\u4e2d\u589e\u6b96\u66f4\u591a",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7423471752612220255.png",
                     "x": -480.0,
                     "y": 180.0,
@@ -257,7 +257,7 @@
                 },
                 {
                     "name": "\u5347\u7ea7\u6c38\u6052\u7ebf\u5708",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3219.png",
                     "x": -276.0,
                     "y": 108.0,
@@ -268,7 +268,7 @@
                 },
                 {
                     "name": "Star Fuel and Dark Matter",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8332322836118716550.png",
                     "x": -156.0,
                     "y": 36.0,
@@ -279,7 +279,7 @@
                 },
                 {
                     "name": "\u5347\u7ea7\u6d77\u73c0\u73cd\u7ebf\u5708",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3218.png",
                     "x": -324.0,
                     "y": 180.0,
@@ -290,7 +290,7 @@
                 },
                 {
                     "name": "\u6570\u4e0d\u80dc\u6570\u7684\u592a\u7a7a\u7535\u68af\u6a21\u5757",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8476538164944458841.png",
                     "x": -480.0,
                     "y": -12.0,
@@ -301,7 +301,7 @@
                 },
                 {
                     "name": "\u4f60\u7684\u7b2c\u4e00\u5757\u65f6\u7a7a",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6861911456329097050.png",
                     "x": -228.0,
                     "y": 180.0,
@@ -312,7 +312,7 @@
                 },
                 {
                     "name": "\u4e9a\u7a33\u6001\u9feb",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6117290316329622558.png",
                     "x": -276.0,
                     "y": -108.0,
@@ -323,7 +323,7 @@
                 },
                 {
                     "name": "\u6838\u805a\u53d8,\u4f46\u662fMK5",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5258609888143859259.png",
                     "x": -228.0,
                     "y": -108.0,
@@ -334,7 +334,7 @@
                 },
                 {
                     "name": "\u9632\u6c34\u79d1\u6280,\u5b8c\u7f8e\u6837\u677f",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4618074744092982901.png",
                     "x": -228.0,
                     "y": 264.0,
@@ -345,7 +345,7 @@
                 },
                 {
                     "name": "\u9b54\u5bfc\u6e90\u8d28\u5b58\u50a8\u5143\u4ef6",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5026883587627462782.png",
                     "x": 36.0,
                     "y": 228.0,
@@ -356,7 +356,7 @@
                 },
                 {
                     "name": "\u7b2c11\u9636\u6bb5(UIV)",
-                    "symbolSize": 75,
+                    "symbolSize": 73,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5694412901591210156.png",
                     "x": -588.0,
                     "y": 36.0,
@@ -367,7 +367,7 @@
                 },
                 {
                     "name": "\u6234\u68ee\u7403\u5730\u9762\u5355\u5143",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3039.png",
                     "x": -108.0,
                     "y": 252.0,
@@ -378,7 +378,7 @@
                 },
                 {
                     "name": "UMV\u7535\u8def\u677f",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3242.png",
                     "x": -84.0,
                     "y": 204.0,
@@ -389,7 +389,7 @@
                 },
                 {
                     "name": "\u6df7\u6c8c\u6838\u5fc3",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/465.png",
                     "x": -276.0,
                     "y": 216.0,
@@ -400,7 +400,7 @@
                 },
                 {
                     "name": "3\u9636PCB\u5de5\u5382",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3278.png",
                     "x": -504.0,
                     "y": 120.0,
@@ -411,7 +411,7 @@
                 },
                 {
                     "name": "\u859b\u5b9a\u8c14\u7684\u732b\u5df2\u7ecf\u5728\u76d2\u5b50\u5916\u4e86",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7501398759330786959.png",
                     "x": 36.0,
                     "y": 180.0,
@@ -422,7 +422,7 @@
                 },
                 {
                     "name": "An Even More Mega EBF",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6067382707378224204.png",
                     "x": 24.0,
                     "y": -36.0,
@@ -433,7 +433,7 @@
                 },
                 {
                     "name": "UIV\u529b\u573a\u53d1\u751f\u5668",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8127302345207551228.png",
                     "x": -12.0,
                     "y": 204.0,
@@ -444,7 +444,7 @@
                 },
                 {
                     "name": "UIV\u8d85\u5bfc",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6806178318679823136.png",
                     "x": -396.0,
                     "y": 108.0,
@@ -455,7 +455,7 @@
                 },
                 {
                     "name": "Pseudostable Black Hole Containment Field",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4646567102207181371.png",
                     "x": -156.0,
                     "y": 108.0,
@@ -466,7 +466,7 @@
                 },
                 {
                     "name": "3\u9636\u7eb3\u7c73\u953b\u7089",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3281.png",
                     "x": -480.0,
                     "y": 84.0,
@@ -477,7 +477,7 @@
                 },
                 {
                     "name": "Another Type of Steel",
-                    "symbolSize": 50,
+                    "symbolSize": 49,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7374234948579230118.png",
                     "x": -396.0,
                     "y": -36.0,
@@ -488,7 +488,7 @@
                 },
                 {
                     "name": "\u6211\u5e94\u8be5\u5728\u54ea\u5efa\u9020\u6234\u68ee\u7403?",
-                    "symbolSize": 25,
+                    "symbolSize": 24,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3040.png",
                     "x": -60.0,
                     "y": 252.0,

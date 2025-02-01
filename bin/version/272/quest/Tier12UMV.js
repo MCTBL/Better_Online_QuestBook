@@ -59,7 +59,7 @@
             "data": [
                 {
                     "name": "Storing Computation in the Cloud",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7444237521495181899.png",
                     "x": 60.0,
                     "y": -132.0,
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "A Second Ring has Hit the Godforge",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4764888386348873901.png",
                     "x": 24.0,
                     "y": -36.0,
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "\u6052\u661f\u50ac\u5316\u5242",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5769420916380359643.png",
                     "x": 216.0,
                     "y": 240.0,
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "\u4e00\u53ea\u4f4d\u4e8e\u65f6\u95f4\u5c3d\u5934\u7684\u773c\u775b",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7384462910267243515.png",
                     "x": 324.0,
                     "y": 108.0,
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "UXV\u7535\u8def\u677f",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3244.png",
                     "x": 60.0,
                     "y": -84.0,
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "UMV\u8d85\u5bfc",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4972516930668425636.png",
                     "x": -48.0,
                     "y": 108.0,
@@ -125,7 +125,7 @@
                 },
                 {
                     "name": "\u6700\u540e--\u5b87\u5b99\u7d20\uff01",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6897090588793529674.png",
                     "x": 432.0,
                     "y": 180.0,
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "\u7a7a\u51bb\u5854",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3277.png",
                     "x": -96.0,
                     "y": 72.0,
@@ -147,7 +147,7 @@
                 },
                 {
                     "name": "\u73cd\u60dc\u4f60\u81ea\u5df1",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3233.png",
                     "x": 432.0,
                     "y": 36.0,
@@ -158,7 +158,7 @@
                 },
                 {
                     "name": "\u8c03\u5f8b\u6e90\u91d1",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9143660827823771849.png",
                     "x": -24.0,
                     "y": -36.0,
@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "Tier 4 QFT Catalysts",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7369799697449707989.png",
                     "x": 0.0,
                     "y": -84.0,
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "\u767d\u77ee\u661f\u7269\u8d28",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5796823047327111175.png",
                     "x": 288.0,
                     "y": 180.0,
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "What Do I Use This Stuff On?",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6820538323233352514.png",
                     "x": 288.0,
                     "y": 240.0,
@@ -202,7 +202,7 @@
                 },
                 {
                     "name": "Wireless Multi-Amp Hatches",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6794591825239688845.png",
                     "x": -48.0,
                     "y": -84.0,
@@ -213,7 +213,7 @@
                 },
                 {
                     "name": "\u9ed1\u77ee\u661f\u7269\u8d28",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7959189288003028041.png",
                     "x": 360.0,
                     "y": 180.0,
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "\u662f\u7684,\u592a\u7a7a\u7535\u68af\u518d\u6b21\u5347\u7ea7",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-9189987553802947566.png",
                     "x": -144.0,
                     "y": -48.0,
@@ -235,7 +235,7 @@
                 },
                 {
                     "name": "Raw Stellar Plasma",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7995813544306558907.png",
                     "x": 216.0,
                     "y": 180.0,
@@ -246,7 +246,7 @@
                 },
                 {
                     "name": "\u4f60\u51c6\u5907\u597d\u4e86\u5417?",
-                    "symbolSize": 75,
+                    "symbolSize": 105,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-8323783763671749098.png",
                     "x": 324.0,
                     "y": 12.0,
@@ -257,7 +257,7 @@
                 },
                 {
                     "name": "\u8fd8\u5dee\u4e00\u70b9\u70b9",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/3243.png",
                     "x": -24.0,
                     "y": 60.0,
@@ -268,7 +268,7 @@
                 },
                 {
                     "name": "\u4f1f\u5927\u7684\u94bb\u673a\u4e4b\u795e",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6890147797704476497.png",
                     "x": 360.0,
                     "y": 240.0,
@@ -279,7 +279,7 @@
                 },
                 {
                     "name": "Magnetic Monopole Matter",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-4905890280735412841.png",
                     "x": 432.0,
                     "y": 240.0,
@@ -290,7 +290,7 @@
                 },
                 {
                     "name": "\u8282\u7701\u4f60\u7684\u65f6\u7a7a",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6892498627708657446.png",
                     "x": 60.0,
                     "y": 108.0,
@@ -301,7 +301,7 @@
                 },
                 {
                     "name": "\u7ef4\u5ea6\u6536\u655b",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7053414737734297359.png",
                     "x": 96.0,
                     "y": 60.0,
@@ -312,7 +312,7 @@
                 },
                 {
                     "name": "UMV\u529b\u573a\u53d1\u751f\u5668",
-                    "symbolSize": 37,
+                    "symbolSize": 52,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6232511347414889484.png",
                     "x": 60.0,
                     "y": 12.0,
@@ -323,7 +323,7 @@
                 },
                 {
                     "name": "\u72c2\u996e\u6574\u4e2a\u884c\u661f\u7684\u6c14\u4f53",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7951601137615098449.png",
                     "x": -96.0,
                     "y": -48.0,
@@ -334,7 +334,7 @@
                 },
                 {
                     "name": "\u661f\u661f\uff0c\u597d\u591a\u661f\u661f",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6892214430748682531.png",
                     "x": 432.0,
                     "y": -12.0,
@@ -345,7 +345,7 @@
                 },
                 {
                     "name": "UMV\u80fd\u6e90\u4ed3",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-7159553166987312386.png",
                     "x": 0.0,
                     "y": 108.0,
@@ -356,7 +356,7 @@
                 },
                 {
                     "name": "\u4e9a\u7a7a\u95f4\u51b7\u5374",
-                    "symbolSize": 18,
+                    "symbolSize": 26,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-5636991039177227943.png",
                     "x": -144.0,
                     "y": 72.0,
@@ -367,7 +367,7 @@
                 },
                 {
                     "name": "\u7b2c12\u9636\u6bb5(UMV)",
-                    "symbolSize": 56,
+                    "symbolSize": 79,
                     "symbol": "image://version/272/quests_icons/QuestIcon/-6087268361248963518.png",
                     "x": -120.0,
                     "y": 12.0,
