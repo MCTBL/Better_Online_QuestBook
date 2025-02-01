@@ -32,3 +32,8 @@
 - [ ] 3,实现更好的工具链
 - [x] 4,弄个图标吧
 - [ ] 5,弄个好看一点的logo吧
+
+---
+
+now it looks like
+![now](pic/now.png)
