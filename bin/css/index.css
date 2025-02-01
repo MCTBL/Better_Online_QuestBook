@@ -118,78 +118,6 @@ body {
 	text-overflow: ellipsis;
 }
 
-.popup {
-	display: none;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	padding: 20px;
-	border: 5px solid #692612;
-	/* border-image-source: radial-gradient(#692612 0, #702a15 50%, #1e0900 100%); */
-	border-radius: 10px;
-	background-color: #fbf3e0;
-	z-index: 100;
-	width: 80vw;
-	height: 80vh;
-}
-
-#popupLeft{
-	background-color: red;
-	width: 50%;
-	padding: 20px;
-	height: 80vh * 0.8;
-}
-
-#popupRight {
-	background: green;
-	width: 50%;
-	padding: 20px;
-	height: 80vh * 0.8;
-}
-
-.v-line {
-	border-left: 2px solid gray;
-	top: 50%;
-	height: 100%;
-	margin: 0 1%;
-}
-
-#desc {
-	overflow-y: auto;
-	max-height: 60vh;
-}
-
-.overlay {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: 50;
-}
-
-#popupLeft span{
-	color: #fff;
-	cursor: pointer;
-	float: left;
-	border: 1px solid green;
-	background-color: #4caf50;
-	text-align: center;
-	border-radius: 5px;
-	padding: 7px;
-}
-
-.quest_id {
-	display: none;
-}
-
-span {
-	margin: 10px;
-}
-
 footer {
 	height: 10vh;
 	font-size: 5vh;
@@ -201,20 +129,4 @@ footer {
 #this_chart {
 	width: 100vw;
 	height: 100vh;
-}
-
-#myDialog {
-	max-width: 90vw;
-	max-height: 90vh;
-}
-
-dialog article {
-	width: auto;
-}
-.dialogContent {
-	align-items: center;
-	justify-content: center;
-	min-width: 360px;
-	min-height: 130px;
-	text-align: center;
 }
