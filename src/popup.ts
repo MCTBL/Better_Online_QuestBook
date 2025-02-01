@@ -1,11 +1,14 @@
+import { MCcolor } from "./ProcessMCColor.js";
+
 export function showPopup(title: string, desc: string, ID: string) {
 	if (document !== null) {
 		// 写入任务id并隐藏
 		document.getElementById("quest_id")!.innerText = ID;
 		document.getElementById("quest_id")!.style.display = "none";
 
-		document.getElementById("title")!.innerHTML = "<h1>" + title + "</h1>";
-		document.getElementById("desc")!.innerHTML = processDesc(desc);
+		document.getElementById("title")!.innerHTML =
+			"<h1>" + MCcolor(title) + "</h1>";
+		document.getElementById("desc")!.innerHTML = processDesc(MCcolor(desc));
 
 		document.getElementById("popup")!.style.display = "flex";
 		document.getElementById("overlay")!.style.display = "block";
