@@ -64,7 +64,7 @@ export class QuestListPage {
 			if (params.dataType === "node") {
 				let data: popup = {
 					title: params.data.name,
-					desc: params.data.data.replaceAll("%n", "</br>"),
+					desc: params.data.data,
 					ID: params.data.quest_id,
 				};
 				this.sendMessageToMain({ action: msgAction.showPopup, data: data });
