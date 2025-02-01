@@ -8,6 +8,7 @@ export function showPopup(title: string, desc: string, ID: string) {
 		document.getElementById("desc")!.innerHTML = processDesc(desc);
 		document.getElementById("popup")!.style.display = "flex";
 		document.getElementById("overlay")!.style.display = "block";
+		document.getElementById("mainPage")!.focus();
 	}
 }
 
