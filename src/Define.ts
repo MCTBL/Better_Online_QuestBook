@@ -11,6 +11,7 @@ export enum msgAction {
 	init = "init",
 	ready = "ready",
 	showPopup = "showPopup",
+	resetChart = "resetChart",
 }
 
 export type dialogMsg = {
@@ -29,5 +30,3 @@ export type popup = {
 	desc: String;
 	ID: String;
 };
-
-

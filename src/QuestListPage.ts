@@ -6,7 +6,6 @@ export class QuestListPage {
 
 	constructor() {
 		this.init();
-		this.event = new Event("reset");
 	}
 
 	init() {
@@ -14,15 +13,6 @@ export class QuestListPage {
 			this.onMessageFromMain();
 			let data = { action: msgAction.ready, data: null };
 			this.sendMessageToMain(data);
-		});
-
-		//TODO 重写以下代码，并且把方法放到主域
-		// 重置echarts
-		document.getElementById("reset_btn")!.addEventListener("click", () => {
-			this.echarts.clear();
-			if ((window as any).option_this_chart) {
-				this.echarts.setOption((window as any).option_this_chart);
-			}
 		});
 	}
 
@@ -37,8 +27,19 @@ export class QuestListPage {
 				case msgAction.init:
 					this.loadJSData(data.data);
 					break;
+				case msgAction.resetChart:
+					this.resetChart();
+					break;
 			}
 		});
+	}
+
+	// 重置echarts
+	resetChart() {
+		this.echarts.clear();
+		if ((window as any).option_this_chart) {
+			this.echarts.setOption((window as any).option_this_chart);
+		}
 	}
 
 	loadJSData(url: string) {

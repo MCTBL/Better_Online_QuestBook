@@ -52,9 +52,12 @@ export class MainPage {
 			console.log("成功复制");
 		});
 		addEventListener("keydown", (event: KeyboardEvent) => {
-			console.log(event.key);
 			if (event.key == "Escape" || event.key == "e") {
 				hidePopup();
+			}
+			if (event.key == "r") {
+				let data: m2qData = { action: msgAction.resetChart, data: null };
+				this.sendMessageToIframe(data);
 			}
 		});
 	}
