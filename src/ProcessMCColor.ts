@@ -18,7 +18,7 @@ export function MCcolor(source_str: string): string {
 		// 开始遍历分段的motd
 		var one_match = source_str.match(reg)![i]; // 获取motd分割后的第[i]段
 		var first_char = one_match.substring(0, 1); // 获取第[i]段的第一个字符
-		var child = document.createElement("sub");
+		var child = document.createElement("quest_desc");
 		var style = functioncolor(first_char); // 创建判断样式后的返回值变量
 		if (style.substring(0, 1) == "#") {
 			color = style;
