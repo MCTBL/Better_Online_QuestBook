@@ -130,3 +130,13 @@ footer {
 	width: 100vw;
 	height: 100vh;
 }
+
+.copy-btn,
+.copy-id-btn {
+	transition: transform 0.1s ease-in-out;
+}
+
+.copy-btn:active,
+.copy-id-btn:active {
+	transform: scale(1.1);
+}

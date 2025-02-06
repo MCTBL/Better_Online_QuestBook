@@ -10,6 +10,9 @@ export class MainPage {
 
 	private showSidebar: boolean = true;
 
+	//等待任务列表加载完成
+	private isWaitQuestList: boolean = false;
+
 	constructor() {
 		$(() => {
 			this.initPage();
@@ -95,6 +98,11 @@ export class MainPage {
 				$("#sidebar").append(button);
 				this.buttonList.push(button);
 			});
+
+			if (this.isWaitQuestList) {//等待任务列表加载完成
+				this.initMainIframe();
+				this.isWaitQuestList = false;
+			}
 		});
 	}
 
@@ -143,12 +151,17 @@ export class MainPage {
 			let data: m2qData = { action: msgAction.init, data: url };
 			this.sendMessageToIframe(data);
 		} else {
-			let data: m2qData = {
-				action: msgAction.init,
-				data: this.questList[0].url,
-			};
-			this.sendMessageToIframe(data);
-			this.buttonList[0].removeClass("unselected").addClass("selected");
+			if (!this.questList.length) {
+				//异步加载，可能没有初始化完成
+				this.isWaitQuestList = true;
+			} else {
+				let data: m2qData = {
+					action: msgAction.init,
+					data: this.questList[0].url,
+				};
+				this.sendMessageToIframe(data);
+				this.buttonList[0].removeClass("unselected").addClass("selected");
+			}
 		}
 	}
 
