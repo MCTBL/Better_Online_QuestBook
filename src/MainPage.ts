@@ -37,22 +37,24 @@ export class MainPage {
 		});
 		$("#toggleSidebar").click(this.toggleSidebar);
 		// 绑定点击消失
-		$("#overlay").click(function () {
+		$("#overlay").click(() => {
 			hidePopup();
 		});
 		// 绑定点击复制任务详情
-		$("#copyBtn").click(function () {
+		$("#copyBtn").click(() => {
 			var str = "";
 			str += document.getElementById("title")!.innerText;
 			str += "\n";
 			str += document.getElementById("desc")!.innerText;
 			Utils.copyH5Str(str);
 			console.log("成功复制");
+			this.showTips("复制成功");
 		});
 		// 绑定点击复制任务ID
-		$("#copyIdBtn").click(function () {
+		$("#copyIdBtn").click(() => {
 			Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
 			console.log("成功复制");
+			this.showTips("复制成功");
 		});
 		addEventListener("keydown", (event: KeyboardEvent) => {
 			if (event.key == "Escape" || event.key == "e") {
@@ -182,5 +184,19 @@ export class MainPage {
 				showPopup(data.data.title, data.data.desc, data.data.ID);
 				break;
 		}
+	}
+
+	private tipsTimer: number = 0;
+	showTips(msg: string) {
+		$("#tips").text(msg);
+		$("#tips").css("width", (msg.length * 30 + 40) + "px");
+		$("#tips").animate({ bottom: "0px" }, 500);
+		if (this.tipsTimer) {
+			clearTimeout(this.tipsTimer);
+			this.tipsTimer = 0;
+		}
+		this.tipsTimer = setTimeout(() => {
+			$("#tips").animate({ bottom: "-70px" }, 500);
+		}, 2000);
 	}
 }

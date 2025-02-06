@@ -140,3 +140,20 @@ footer {
 .copy-id-btn:active {
 	transform: scale(1.1);
 }
+
+#tips {
+	z-index: 99;
+	font-size: 30px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	color: rgb(0, 0, 0);
+	position: absolute;
+	right: 0px;
+	bottom: -70px;
+	border: 5px solid #692612;
+	border-radius: 10px;
+	background-color: #fbf3e0;
+}
