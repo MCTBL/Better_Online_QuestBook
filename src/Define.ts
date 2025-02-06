@@ -30,3 +30,9 @@ export type popup = {
 	desc: String;
 	ID: String;
 };
+
+
+export enum localEnum {
+	mainIframeUrl = "mainIframeUrl",
+	selectBtnIndex = "selectBtnIndex",
+}

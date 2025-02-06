@@ -1,4 +1,4 @@
-import { m2qData, msgAction, quest } from "./Define.js";
+import { localEnum, m2qData, msgAction, quest } from "./Define.js";
 import { hidePopup, showPopup } from "./popup.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
@@ -11,13 +11,16 @@ export class MainPage {
 	private showSidebar: boolean = true;
 
 	//等待任务列表加载完成
-	private isWaitQuestList: boolean = false;
+	// private isWaitQuestList: boolean = false;
 
 	constructor() {
 		$(() => {
-			this.initPage();
-			this.addEvent();
-			this.loadList();
+			const iframe = $("#mainIframe");
+			iframe.on("load", () => {//iframe加载完成
+				this.initPage();
+				this.addEvent();
+				this.loadList();
+			});
 		});
 	}
 
@@ -63,6 +66,11 @@ export class MainPage {
 				this.sendMessageToIframe(data);
 			}
 		});
+
+		$("#logoImg").click(() => {
+			//TODO 随机多次点击才能出现的 添加梦大师语录或者其他彩蛋
+			// this.showTips("GTNH like a job");
+		});
 	}
 
 	toggleSidebar() {
@@ -98,11 +106,7 @@ export class MainPage {
 				$("#sidebar").append(button);
 				this.buttonList.push(button);
 			});
-
-			if (this.isWaitQuestList) {//等待任务列表加载完成
-				this.initMainIframe();
-				this.isWaitQuestList = false;
-			}
+			this.initMainIframe();
 		});
 	}
 
@@ -111,14 +115,19 @@ export class MainPage {
 			id: "btnQuest_" + index,
 			class: "questButton unselected",
 			click: (btn: any) => {
-				this.buttonList.forEach((button) => {
+				this.buttonList.forEach((button, index) => {
 					if (button[0] == btn.currentTarget) {
+						localStorage.setItem(localEnum.selectBtnIndex, index.toString());
 						button.removeClass("unselected").addClass("selected");
 					} else {
 						button.removeClass("selected").addClass("unselected");
 					}
 				});
 				let data: m2qData = { action: msgAction.init, data: quest.url };
+				let url = localStorage.getItem(localEnum.mainIframeUrl);
+				if (url != quest.url) {
+					localStorage.setItem(localEnum.mainIframeUrl, quest.url);
+				}
 				this.sendMessageToIframe(data);
 			},
 		});
@@ -146,22 +155,23 @@ export class MainPage {
 	}
 
 	initMainIframe() {
-		let url = localStorage.getItem("mainIframeUrl");
+		let url = localStorage.getItem(localEnum.mainIframeUrl);
 		if (url) {
 			let data: m2qData = { action: msgAction.init, data: url };
 			this.sendMessageToIframe(data);
 		} else {
-			if (!this.questList.length) {
-				//异步加载，可能没有初始化完成
-				this.isWaitQuestList = true;
-			} else {
-				let data: m2qData = {
-					action: msgAction.init,
-					data: this.questList[0].url,
-				};
-				this.sendMessageToIframe(data);
-				this.buttonList[0].removeClass("unselected").addClass("selected");
-			}
+			let data: m2qData = {
+				action: msgAction.init,
+				data: this.questList[0].url,
+			};
+			this.sendMessageToIframe(data);
+		}
+
+		let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
+		if (selectBtnIndex && this.buttonList && this.buttonList.length) {
+			this.buttonList[parseInt(selectBtnIndex)].removeClass("unselected").addClass("selected");
+		} else {
+			this.buttonList[0].removeClass("unselected").addClass("selected");
 		}
 	}
 
@@ -175,7 +185,7 @@ export class MainPage {
 		let data: m2qData = event.data;
 		switch (data.action) {
 			case msgAction.ready:
-				this.initMainIframe();
+				// this.initMainIframe();
 				break;
 			case msgAction.showPopup:
 				// 展示

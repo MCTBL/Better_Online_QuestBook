@@ -11,8 +11,6 @@ export class QuestListPage {
 	init() {
 		$(() => {
 			this.onMessageFromMain();
-			let data = { action: msgAction.ready, data: null };
-			this.sendMessageToMain(data);
 		});
 	}
 
