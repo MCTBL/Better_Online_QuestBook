@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BetterQuestBook</title>
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="./css/quest_page.css" />
+		<script src="./libs/jquery.min.js"></script>
+		<script type="module" src="./js/index.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>BetterQuestBook</title>
-	<link rel="stylesheet" href="./css/index.css" />
-	<link rel="stylesheet" href="./css/quest_page.css" />
-	<script src="./libs/jquery.min.js"></script>
-	<script type="module" src="./js/index.js"></script>
-</head>
-
-<body>
-	<div id="sidebar" class="grid">
-		<!-- <input type="text" id="search" placeholder="搜索" /> -->
-		<div id="logo">
-			<img id="logoImg" src="./logo.png" />
-		</div>
-		<select required id="versionSelect"></select>
-	</div>
-	<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-		xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-	</svg>
-	<div id="mainPage" tabindex="0">
-		<iframe src="./QuestListPage.html" id="mainIframe"></iframe>
-	</div>
-	<div class="overlay" id="overlay"></div>
-	<div class="popup" id="popup">
-		<p id="title"></p>
-		<div id="leftAndRight">
-			<div id="popupLeft">
-				<div id="descBox">
-					<p id="desc"></p>
-					<p id="quest_id"></p>
-				</div>
-				<div id="rewardsBox">
-
-				</div>
-				<div id="buttonsBox">
-					<span class="copy-btn" id="copyBtn">复制任务描述</span>
-					<span class="copy-id-btn" id="copyIdBtn">复制任务id</span>
-				</div>
+	<body>
+		<div id="sidebar" class="grid">
+			<!-- <input type="text" id="search" placeholder="搜索" /> -->
+			<div id="logo">
+				<img id="logoImg" src="./logo.png" />
 			</div>
-			<div class="v-line"></div>
-			<div id="popupRight">114514</div>
+			<select required id="versionSelect"></select>
 		</div>
-	</div>
-	<div id="tips">
-		复制成功
-	</div>
-	</div>
-</body>
-
+		<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+		</svg>
+		<div id="mainPage" tabindex="0">
+			<iframe src="./QuestListPage.html" id="mainIframe"></iframe>
+		</div>
+		<div class="overlay" id="overlay"></div>
+		<div class="popup" id="popup">
+			<p id="title"></p>
+			<div id="leftAndRight">
+				<div id="popupLeft">
+					<div id="descBox">
+						<p id="desc"></p>
+						<p id="quest_id"></p>
+					</div>
+					<div id="rewardsBox"></div>
+					<div id="buttonsBox">
+						<span class="copy-btn" id="copyBtn">复制任务描述</span>
+						<span class="copy-id-btn" id="copyIdBtn">复制任务id</span>
+					</div>
+				</div>
+				<div class="v-line"></div>
+				<div id="popupRight">114514</div>
+			</div>
+		</div>
+		<div id="tips">复制成功</div>
+	</body>
 </html>

@@ -47,13 +47,11 @@ export class MainPage {
 			str += "\n";
 			str += document.getElementById("desc")!.innerText;
 			Utils.copyH5Str(str);
-			console.log("成功复制");
 			this.showTips("复制成功");
 		});
 		// 绑定点击复制任务ID
 		$("#copyIdBtn").click(() => {
 			Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
-			console.log("成功复制");
 			this.showTips("复制成功");
 		});
 		addEventListener("keydown", (event: KeyboardEvent) => {
