@@ -49,7 +49,7 @@ export type questAllData = {
 	[key: string]: questData;
 }
 /**单页任务数据 */
-export type questData = { data: quest[], link: questLink[] }
+export type questData = { data: quest[], links: questLink[] }
 
 /**任务前置 */
 export type questLink = {

@@ -70,6 +70,14 @@ body {
 	align-items: center;
 }
 
+
+#search{
+	width: 100%;
+	position: sticky;
+	top: 200px;
+}
+
+
 #logoImg {
 	margin: auto;
 }

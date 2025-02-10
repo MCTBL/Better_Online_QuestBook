@@ -46,7 +46,7 @@ export class QuestListPage {
 	loadJSData(quest: questData) {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 		this.pageData.series[0].data = quest.data;
-		this.pageData.series[0].links = quest.link;
+		this.pageData.series[0].links = quest.links;
 		this.initEcharts();
 	}
 
