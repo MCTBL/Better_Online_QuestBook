@@ -7,8 +7,9 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"sourceMap": false,
-        "outDir": "./bin/js",
+		"outDir": "./bin/js",
 		"moduleResolution": "node",
 		"strictPropertyInitialization": false
-	}
+	},
+	"include": ["src/**/*"]
 }

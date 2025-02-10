@@ -1,17 +1,20 @@
-import { localEnum, m2qData, msgAction, quest } from "./Define.js";
-import { hidePopup, showPopup } from "./popup.js";
+import { localEnum, m2qData, msgAction, quest, questAllData, questData, questLine } from "./Define.js";
+import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
 import { Utils } from "./Utils.js";
 
 export class MainPage {
-	private questList: quest[] = [];
+	private questLine: questLine[] = [];
 	private buttonList: JQuery<HTMLElement>[] = [];
-
+	/**是否展示侧边栏 */
 	private showSidebar: boolean = true;
+	/**所有任务的数据 */
+	private questAllData: questAllData = {};
+	/**所有任务的无序数据，用于检索 */
+	private questList: quest[] = [];
 
-	//等待任务列表加载完成
-	// private isWaitQuestList: boolean = false;
+
 
 	constructor() {
 		$(() => {
@@ -19,7 +22,7 @@ export class MainPage {
 			iframe.on("load", () => {//iframe加载完成
 				this.initPage();
 				this.addEvent();
-				this.loadList();
+				this.loadQuestLine();
 			});
 		});
 	}
@@ -41,7 +44,7 @@ export class MainPage {
 		$("#toggleSidebar").click(this.toggleSidebar);
 		// 绑定点击消失
 		$("#overlay").click(() => {
-			hidePopup();
+			PopMgr.hidePopup();
 		});
 		// 绑定点击复制任务详情
 		$("#copyBtn").click(() => {
@@ -59,7 +62,7 @@ export class MainPage {
 		});
 		addEventListener("keydown", (event: KeyboardEvent) => {
 			if (event.key == "Escape" || event.key == "e") {
-				hidePopup();
+				PopMgr.hidePopup();
 			}
 			if (event.key == "r") {
 				let data: m2qData = { action: msgAction.resetChart, data: null };
@@ -98,19 +101,31 @@ export class MainPage {
 		}
 	}
 
-	loadList() {
+	// 加载任务列表
+	loadQuestLine() {
 		$.getJSON(ProjectData.getQuestLinePath(), (data: any) => {
-			this.questList = data;
-			this.questList.forEach((quest, index) => {
+			this.questLine = data;
+			this.questLine.forEach((quest, index) => {
 				let button = this.createButton(index, quest);
 				$("#sidebar").append(button);
 				this.buttonList.push(button);
 			});
+			this.loadQuestData();
+		});
+	}
+
+
+	loadQuestData() {
+		$.getJSON(ProjectData.getQuestDataPath(), (data: any) => {
+			this.questAllData = data;
+			for (let key in this.questAllData) {
+				this.questList.push(...this.questAllData[key].data);
+			}
 			this.initMainIframe();
 		});
 	}
 
-	createButton(index: number, quest: quest) {
+	createButton(index: number, quest: questLine) {
 		const button = $("<button>", {
 			id: "btnQuest_" + index,
 			class: "questButton unselected",
@@ -123,11 +138,11 @@ export class MainPage {
 						button.removeClass("selected").addClass("unselected");
 					}
 				});
-				let data: m2qData = { action: msgAction.init, data: quest.url };
-				let url = localStorage.getItem(localEnum.mainIframeUrl);
-				if (url != quest.url) {
-					localStorage.setItem(localEnum.mainIframeUrl, quest.url);
-				}
+				let data: m2qData = {
+					action: msgAction.init,
+					data: this.questAllData[quest.quest],
+				};
+
 				this.sendMessageToIframe(data);
 			},
 		});
@@ -135,12 +150,7 @@ export class MainPage {
 
 		// TODO change to json's icon
 		const img = $("<img>", {
-			src:
-				"./" +
-				ProjectData.getPath("") +
-				"/quests_icons/QuestLineIcon/" +
-				quest.url.split("/").pop()!.replace(".js", "") +
-				".png",
+			src: ProjectData.getPath("quests_icons/QuestLineIcon/") + quest.quest + ".png",
 			class: "questIcon",
 		});
 
@@ -155,26 +165,31 @@ export class MainPage {
 	}
 
 	initMainIframe() {
-		let url = localStorage.getItem(localEnum.mainIframeUrl);
-		if (url) {
-			let data: m2qData = { action: msgAction.init, data: url };
-			this.sendMessageToIframe(data);
+		let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
+		let btn: JQuery<HTMLElement> | undefined;
+		if (selectBtnIndex && this.buttonList && this.buttonList.length) {
+			btn = this.buttonList[parseInt(selectBtnIndex)];
 		} else {
+			btn = this.buttonList[0];
+		}
+		btn?.removeClass("unselected").addClass("selected");
+		let quest: string = btn.data("questData").quest;
+		let questData: questData = this.questAllData[quest];
+		if (questData) {
 			let data: m2qData = {
 				action: msgAction.init,
-				data: this.questList[0].url,
+				data: questData,
 			};
+			console.log(data);
 			this.sendMessageToIframe(data);
+		} else {
+			console.error("任务数据异常");
+			this.showTips("任务数据异常");
 		}
 
-		let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
-		if (selectBtnIndex && this.buttonList && this.buttonList.length) {
-			this.buttonList[parseInt(selectBtnIndex)].removeClass("unselected").addClass("selected");
-		} else {
-			this.buttonList[0].removeClass("unselected").addClass("selected");
-		}
 	}
 
+	/**发送消息到子域 */
 	sendMessageToIframe(msg: m2qData) {
 		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
 		iframe.contentWindow!.postMessage(msg, "*");
@@ -188,8 +203,8 @@ export class MainPage {
 				// this.initMainIframe();
 				break;
 			case msgAction.showPopup:
-				// 展示
-				showPopup(data.data.title, data.data.desc, data.data.ID);
+				// 展示任务详情
+				PopMgr.showPopup(data.data.title, data.data.desc, data.data.ID);
 				break;
 		}
 	}
