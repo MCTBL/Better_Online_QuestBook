@@ -1,8 +1,8 @@
 node_modules
 bin/js/
-tmp/DefaultQuests
-tmp/lang/
-tmp/html/
-tmp/js/
-tmp/json/
-tmp
+tools/DefaultQuests
+tools/lang/
+tools/html/
+tools/js/
+tools/json/
+tools
