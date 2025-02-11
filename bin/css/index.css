@@ -18,6 +18,7 @@ body {
 	row-gap: 2px;
 	left: 0px;
 	position: absolute;
+
 }
 
 #sidebar::-webkit-scrollbar {
@@ -28,12 +29,12 @@ body {
 	width: 100%;
 	position: sticky;
 	top: 0px;
-	z-index: 1; /* 确保在其他内容之上 */
 	background-color: white;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
     align-items: center;
+	z-index: 10;
 }
 
 
@@ -171,3 +172,13 @@ body {
 	border-radius: 10px;
 	background-color: #fbf3e0;
 }
+
+#searchPopup{
+	background-color: rgba(0, 0, 0, 0.658);
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 5;
+	display: none;
+}
+
