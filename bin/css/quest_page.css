@@ -102,3 +102,7 @@ div #rewardsBox {
 	text-decoration: none;
 	font-style: normal;
 }
+
+#desc a {
+	word-wrap: break-word;
+}
