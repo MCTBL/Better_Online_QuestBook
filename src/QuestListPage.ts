@@ -26,7 +26,7 @@ export class QuestListPage {
 			let data: m2qData = event.data;
 			switch (data.action) {
 				case msgAction.init:
-					this.loadJSData(data.data);
+					this.loadJsonData(data.data);
 					break;
 				case msgAction.resetChart:
 					this.resetChart();
@@ -37,13 +37,12 @@ export class QuestListPage {
 
 	// 重置echarts
 	resetChart() {
-		this.echarts.clear();
-		if ((window as any).option_this_chart) {
-			this.echarts.setOption((window as any).option_this_chart);
-		}
+		this.echarts?.clear();
+		this.echarts?.resize();
+		this.echarts?.setOption(this.pageData);
 	}
 
-	loadJSData(quest: questData) {
+	loadJsonData(quest: questData) {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 		this.pageData.series[0].data = quest.data;
 		this.pageData.series[0].links = quest.links;
@@ -57,9 +56,6 @@ export class QuestListPage {
 				"white",
 				{ renderer: "canvas" }
 			);
-			this.echarts.clear();
-			this.echarts.resize();
-
 			this.echarts.on("click", (params: any) => {
 				if (params.dataType === "node") {
 					let data: popupData = {
@@ -75,7 +71,7 @@ export class QuestListPage {
 				this.echarts?.resize();
 			});
 		}
-		this.echarts.setOption(this.pageData);
+		this.resetChart();
 	}
 }
 

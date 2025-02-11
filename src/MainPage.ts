@@ -150,7 +150,7 @@ export class MainPage {
 
 		// TODO change to json's icon
 		const img = $("<img>", {
-			src: ProjectData.getPath("quests_icons/QuestLineIcon/") + quest.quest + ".png",
+			src: ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`),
 			class: "questIcon",
 		});
 
