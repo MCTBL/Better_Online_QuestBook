@@ -62,6 +62,7 @@ export class QuestListPage {
 						title: params.data.title,
 						desc: params.data.data,
 						ID: params.data.quest_id,
+						quest_logo: params.data.symbol.replace("image://", ""),
 					};
 					this.sendMessageToMain({ action: msgAction.showPopup, data: data });
 				}

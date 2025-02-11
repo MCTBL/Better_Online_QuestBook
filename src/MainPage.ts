@@ -1,4 +1,12 @@
-import { localEnum, m2qData, msgAction, quest, questAllData, questData, questLine } from "./Define.js";
+import {
+	localEnum,
+	m2qData,
+	msgAction,
+	quest,
+	questAllData,
+	questData,
+	questLine,
+} from "./Define.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
@@ -14,12 +22,11 @@ export class MainPage {
 	/**所有任务的无序数据，用于检索 */
 	private questList: quest[] = [];
 
-
-
 	constructor() {
 		$(() => {
 			const iframe = $("#mainIframe");
-			iframe.on("load", () => {//iframe加载完成
+			iframe.on("load", () => {
+				//iframe加载完成
 				this.initPage();
 				this.addEvent();
 				this.loadQuestLine();
@@ -73,7 +80,7 @@ export class MainPage {
 			);
 			this.showSidebar = false;
 		}
-	}
+	};
 
 	// 加载任务列表
 	loadQuestLine() {
@@ -87,7 +94,6 @@ export class MainPage {
 			this.loadQuestData();
 		});
 	}
-
 
 	loadQuestData() {
 		$.getJSON(ProjectData.getQuestDataPath(), (data: any) => {
@@ -160,7 +166,6 @@ export class MainPage {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
 		}
-
 	}
 
 	/**发送消息到子域 */
@@ -168,9 +173,6 @@ export class MainPage {
 		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
-
-
-
 
 	//事件
 
@@ -182,10 +184,15 @@ export class MainPage {
 				break;
 			case msgAction.showPopup:
 				// 展示任务详情
-				PopMgr.showPopup(data.data.title, data.data.desc, data.data.ID);
+				PopMgr.showPopup(
+					data.data.title,
+					data.data.desc,
+					data.data.ID,
+					data.data.quest_logo
+				);
 				break;
 		}
-	}
+	};
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "Escape" || event.key == "e") {
 			PopMgr.hidePopup();
@@ -194,22 +201,14 @@ export class MainPage {
 			let data: m2qData = { action: msgAction.resetChart, data: null };
 			this.sendMessageToIframe(data);
 		}
-	}
+	};
 
 	onClickLogo = () => {
 		//TODO 随机多次点击才能出现的 添加梦大师语录或者其他彩蛋
 		// this.showTips("GTNH like a job");
+	};
 
-	}
+	onSearchFocus = () => {};
 
-
-
-	onSearchFocus = () => {
-
-	}
-
-	onSearchBlur = () => {
-
-	}
-
+	onSearchBlur = () => {};
 }

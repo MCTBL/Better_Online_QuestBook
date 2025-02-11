@@ -2,25 +2,26 @@ import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 
 export class PopMgr {
-
 	private static nowTitle: string = "";
 	private static nowDesc: string = "";
 	private static nowID: string = "";
 
-
 	static onCopyDesc = () => {
 		Utils.copyH5Str(`${this.nowTitle}\n${this.nowDesc}`);
 		TipsMgr.showTips("复制成功");
-	}
+	};
 
 	static onCopyId = () => {
 		Utils.copyH5Str(this.nowID);
 		TipsMgr.showTips("复制成功");
-	}
+	};
 
-
-	static showPopup(title: string, desc: string, ID: string) {
-
+	static showPopup(
+		title: string,
+		desc: string,
+		ID: string,
+		quest_logo: string
+	) {
 		this.nowTitle = title;
 		this.nowDesc = desc;
 		this.nowID = ID;
@@ -28,6 +29,7 @@ export class PopMgr {
 		$("#quest_id").text(ID).hide();
 		$("#popTitle").html("<h1>" + Utils.expMCcolor(title) + "</h1>");
 		$("#popDesc").html(this.processDesc(Utils.expMCcolor(desc)));
+		$("#quest_logo")[0].setAttribute("src", quest_logo);
 
 		$("#popup").css("display", "flex");
 		$("#overlay").css("display", "block");

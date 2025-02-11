@@ -41,7 +41,7 @@
 }
 
 #popupRight {
-	background: green;
+	/* background: green; */
 	width: 50%;
 	padding: 20px;
 }
@@ -79,7 +79,7 @@ div #descBox {
 	border: 1px solid #692612;
 	border-width: 3px;
 	border-radius: 10px;
-	height: 47.5%;
+	height: 95%;
 	overflow-y: auto;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -106,4 +106,9 @@ div #rewardsBox {
 
 #popDesc a {
 	word-wrap: break-word;
+}
+
+#quest_logo {
+	display: block;
+	margin: 0 auto;
 }
