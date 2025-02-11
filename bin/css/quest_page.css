@@ -67,7 +67,7 @@
 	display: none;
 }
 
-#title {
+#popTitle {
 	text-align: center;
 	margin: -13px;
 	font-size: 16px;
@@ -94,7 +94,7 @@ div #rewardsBox {
 	margin-bottom: 10px;
 }
 
-#desc {
+#popDesc {
 	font-size: 20px;
 	line-height: 30px;
 	color: rgb(0, 0, 0);
@@ -103,6 +103,6 @@ div #rewardsBox {
 	font-style: normal;
 }
 
-#desc a {
+#popDesc a {
 	word-wrap: break-word;
 }

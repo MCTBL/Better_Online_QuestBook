@@ -2,13 +2,13 @@ import { localEnum, m2qData, msgAction, quest, questAllData, questData, questLin
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
-import { Utils } from "./Utils.js";
+import { TipsMgr } from "./TipsMgr.js";
 
 export class MainPage {
 	private questLine: questLine[] = [];
 	private buttonList: JQuery<HTMLElement>[] = [];
 	/**是否展示侧边栏 */
-	private showSidebar: boolean = true;
+	private showSidebar: boolean = false;
 	/**所有任务的数据 */
 	private questAllData: questAllData = {};
 	/**所有任务的无序数据，用于检索 */
@@ -38,45 +38,19 @@ export class MainPage {
 	}
 
 	addEvent() {
-		addEventListener("message", (event: MessageEvent) => {
-			this.onGetMessageFromIframe(event);
-		});
-		$("#toggleSidebar").click(this.toggleSidebar);
+		addEventListener("message", this.onGetMessageFromIframe);
+		$("#toggleSidebar").on("click", this.toggleSidebar);
 		// 绑定点击消失
-		$("#overlay").click(() => {
-			PopMgr.hidePopup();
-		});
-		// 绑定点击复制任务详情
-		$("#copyBtn").click(() => {
-			var str = "";
-			str += document.getElementById("title")!.innerText;
-			str += "\n";
-			str += document.getElementById("desc")!.innerText;
-			Utils.copyH5Str(str);
-			this.showTips("复制成功");
-		});
-		// 绑定点击复制任务ID
-		$("#copyIdBtn").click(() => {
-			Utils.copyH5Str(document.getElementById("quest_id")!.innerText);
-			this.showTips("复制成功");
-		});
-		addEventListener("keydown", (event: KeyboardEvent) => {
-			if (event.key == "Escape" || event.key == "e") {
-				PopMgr.hidePopup();
-			}
-			if (event.key == "r") {
-				let data: m2qData = { action: msgAction.resetChart, data: null };
-				this.sendMessageToIframe(data);
-			}
-		});
+		$("#overlay").on("click", PopMgr.hidePopup);
 
-		$("#logoImg").click(() => {
-			//TODO 随机多次点击才能出现的 添加梦大师语录或者其他彩蛋
-			// this.showTips("GTNH like a job");
-		});
+		addEventListener("keydown", this.onKeyDown);
+
+		$("#logoImg").on("click", this.onClickLogo);
+		$("#search").on("focus", this.onSearchFocus);
+		$("#search").on("blur", this.onSearchBlur);
 	}
 
-	toggleSidebar() {
+	toggleSidebar = () => {
 		if (!this.showSidebar) {
 			$("#sidebar").animate({ left: "-280px" }, 500);
 			$("#mainPage").animate(
@@ -107,7 +81,7 @@ export class MainPage {
 			this.questLine = data;
 			this.questLine.forEach((quest, index) => {
 				let button = this.createButton(index, quest);
-				$("#sidebar").append(button);
+				$("#questList").append(button);
 				this.buttonList.push(button);
 			});
 			this.loadQuestData();
@@ -184,7 +158,7 @@ export class MainPage {
 			this.sendMessageToIframe(data);
 		} else {
 			console.error("任务数据异常");
-			this.showTips("任务数据异常");
+			TipsMgr.showTips("任务数据异常");
 		}
 
 	}
@@ -195,8 +169,12 @@ export class MainPage {
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
 
-	onGetMessageFromIframe(event: MessageEvent) {
-		console.warn(event);
+
+
+
+	//事件
+
+	onGetMessageFromIframe = (event: MessageEvent) => {
 		let data: m2qData = event.data;
 		switch (data.action) {
 			case msgAction.ready:
@@ -208,18 +186,30 @@ export class MainPage {
 				break;
 		}
 	}
-
-	private tipsTimer: number = 0;
-	showTips(msg: string) {
-		$("#tips").text(msg);
-		$("#tips").css("width", (msg.length * 30 + 40) + "px");
-		$("#tips").animate({ bottom: "0px" }, 500);
-		if (this.tipsTimer) {
-			clearTimeout(this.tipsTimer);
-			this.tipsTimer = 0;
+	onKeyDown = (event: KeyboardEvent) => {
+		if (event.key == "Escape" || event.key == "e") {
+			PopMgr.hidePopup();
 		}
-		this.tipsTimer = setTimeout(() => {
-			$("#tips").animate({ bottom: "-70px" }, 500);
-		}, 2000);
+		if (event.key == "r") {
+			let data: m2qData = { action: msgAction.resetChart, data: null };
+			this.sendMessageToIframe(data);
+		}
 	}
+
+	onClickLogo = () => {
+		//TODO 随机多次点击才能出现的 添加梦大师语录或者其他彩蛋
+		// this.showTips("GTNH like a job");
+
+	}
+
+
+
+	onSearchFocus = () => {
+
+	}
+
+	onSearchBlur = () => {
+
+	}
+
 }

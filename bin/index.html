@@ -12,25 +12,29 @@
 
 	<body>
 		<div id="sidebar" class="grid">
-			<div id="logo">
+			<div id="mainTitle">
 				<img id="logoImg" src="./logo.png" />
+				<input type="text" id="search" placeholder="搜索" />
+				<select required id="versionSelect"></select>
 			</div>
-			<input type="text" id="search" placeholder="搜索" />
-			<select required id="versionSelect"></select>
+			<div id="questList"></div>
 		</div>
-		<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-		</svg>
+
 		<div id="mainPage" tabindex="0">
 			<iframe src="./QuestListPage.html" id="mainIframe"></iframe>
 		</div>
+
+		<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+		</svg>
+
 		<div class="overlay" id="overlay"></div>
 		<div class="popup" id="popup">
-			<p id="title"></p>
+			<p id="popTitle"></p>
 			<div id="leftAndRight">
 				<div id="popupLeft">
 					<div id="descBox">
-						<p id="desc"></p>
+						<p id="popDesc"></p>
 						<p id="quest_id"></p>
 					</div>
 					<div id="rewardsBox"></div>
@@ -43,6 +47,7 @@
 				<div id="popupRight">暂未实现</div>
 			</div>
 		</div>
+
 		<div id="tips">复制成功</div>
 	</body>
 </html>
