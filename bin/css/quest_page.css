@@ -10,6 +10,10 @@
 	margin: 10px;
 }
 
+#popupLeft span:hover {
+	transform: scale(1.1);
+}
+
 .popup {
 	flex-direction: column;
 	display: none;
