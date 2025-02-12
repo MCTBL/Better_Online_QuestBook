@@ -83,10 +83,12 @@ export class MainPage {
 			this.questAllData = data;
 			for (let key in this.questAllData) {
 				let questList = this.questAllData[key].data;
-				for (let i = 0; i < questList.length; i++) {
-					let quest = questList[i];
-					this.titleToQuest[quest.name] = quest;
-					this.questIdToQuest[quest.quest_id] = quest;
+				if (questList) {
+					for (let i = 0; i < questList.length; i++) {
+						let quest = questList[i];
+						this.titleToQuest[quest.name] = quest;
+						this.questIdToQuest[quest.quest_id] = quest;
+					}
 				}
 			}
 			this.initMainIframe();
@@ -238,7 +240,7 @@ export class MainPage {
 
 	onSeachInput = () => {
 		let value = $("#search").val();
-		if(value){
+		if (value) {
 			let questList: quest[] = [];
 			for (let key in this.titleToQuest) {
 				if (key.indexOf(value.toString()) != -1) {
