@@ -223,6 +223,11 @@ body {
 	border-radius: 10px;
 	background-color: #fbf3e0;
 	position: relative;
+	cursor: pointer;
+}
+
+.searchItem:hover {
+	transform: scale(1.05);
 }
 
 .searchImg {

@@ -114,9 +114,18 @@ export class QuestListPage {
 				// </div>
 				let item: JQuery<HTMLElement>;
 				item = $(`<div class="searchItem" data-id="${quest.quest_id}"></div>`);
-				let img = $(`<img class="searchImg" src="${quest.symbol.replace("image://", "")}" />`);
-				let title = $(`<div class="searchTitle">${quest.title}</div>`);
-				let desc = $(`<div class="searchDesc">${quest.data.substring(0, 50)}</div>`);
+				let img = $(
+					`<img class="searchImg" src="${quest.symbol.replace(
+						"image://",
+						""
+					)}" />`
+				);
+				let title = $(
+					`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
+				);
+				let desc = $(
+					`<div class="searchDesc">${quest.data.substring(0, 50)}</div>`
+				);
 				item.append(img);
 				item.append(title);
 				item.append(desc);
@@ -125,13 +134,11 @@ export class QuestListPage {
 						action: msgAction.showPopup,
 						data: quest.quest_id,
 					});
-				})
+				});
 				$("#questSearchList").append(item);
 			}
 		}
 	}
-
-
 }
 
 new QuestListPage();
