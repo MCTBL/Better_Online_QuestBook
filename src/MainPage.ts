@@ -57,30 +57,7 @@ export class MainPage {
 		$("#search").on("blur", this.onSearchBlur);
 	}
 
-	toggleSidebar = () => {
-		if (!this.showSidebar) {
-			$("#sidebar").animate({ left: "-280px" }, 500);
-			$("#mainPage").animate(
-				{
-					left: "0px",
-					width: "100%",
-				},
-				500
-			);
-			this.showSidebar = true;
-		} else {
-			$("#sidebar").animate({ left: "0px" }, 500);
-			let width = $(window).width()! - 280;
-			$("#mainPage").animate(
-				{
-					left: "280px",
-					width: width + "px",
-				},
-				500
-			);
-			this.showSidebar = false;
-		}
-	};
+
 
 	// 加载任务列表
 	loadQuestLine() {
@@ -120,9 +97,8 @@ export class MainPage {
 				});
 				let data: m2qData = {
 					action: msgAction.init,
-					data: this.questAllData[quest.quest],
+					data: { title: quest.title_zh ? quest.title_zh : quest.title, data: this.questAllData[quest.quest] },
 				};
-
 				this.sendMessageToIframe(data);
 			},
 		});
@@ -153,14 +129,13 @@ export class MainPage {
 			btn = this.buttonList[0];
 		}
 		btn?.removeClass("unselected").addClass("selected");
-		let quest: string = btn.data("questData").quest;
-		let questData: questData = this.questAllData[quest];
+		let quest: questLine = btn.data("questData");
+		let questData: questData = this.questAllData[quest.quest];
 		if (questData) {
 			let data: m2qData = {
 				action: msgAction.init,
-				data: questData,
+				data: { title: quest.title_zh ? quest.title_zh : quest.title, data: questData },
 			};
-			console.log(data);
 			this.sendMessageToIframe(data);
 		} else {
 			console.error("任务数据异常");
@@ -208,7 +183,32 @@ export class MainPage {
 		// this.showTips("GTNH like a job");
 	};
 
-	onSearchFocus = () => {};
+	toggleSidebar = () => {
+		if (!this.showSidebar) {
+			$("#sidebar").animate({ left: "-280px" }, 500);
+			$("#mainPage").animate(
+				{
+					left: "0px",
+					width: "100%",
+				},
+				500
+			);
+			this.showSidebar = true;
+		} else {
+			$("#sidebar").animate({ left: "0px" }, 500);
+			let width = $(window).width()! - 280;
+			$("#mainPage").animate(
+				{
+					left: "280px",
+					width: width + "px",
+				},
+				500
+			);
+			this.showSidebar = false;
+		}
+	};
 
-	onSearchBlur = () => {};
+	onSearchFocus = () => { };
+
+	onSearchBlur = () => { };
 }

@@ -18,7 +18,6 @@ body {
 	row-gap: 2px;
 	left: 0px;
 	position: absolute;
-
 }
 
 #sidebar::-webkit-scrollbar {
@@ -33,10 +32,9 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-    align-items: center;
+	align-items: center;
 	z-index: 10;
 }
-
 
 #logoImg {
 	margin: auto;
@@ -70,8 +68,6 @@ body {
 	left: 0px;
 }
 
-
-
 #questList::-webkit-scrollbar {
 	display: none; /* 对 Webkit 浏览器隐藏滚动条 */
 }
@@ -90,8 +86,6 @@ body {
 #toggleSidebar:hover {
 	opacity: 1;
 }
-
-
 
 #mainPage {
 	position: absolute;
@@ -173,7 +167,7 @@ body {
 	background-color: #fbf3e0;
 }
 
-#searchPopup{
+#searchPopup {
 	background-color: rgba(0, 0, 0, 0.658);
 	position: fixed;
 	height: 100vh;
@@ -182,3 +176,10 @@ body {
 	display: none;
 }
 
+#questTitle {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	font-size: 26px;
+	padding: 4px 4px;
+}

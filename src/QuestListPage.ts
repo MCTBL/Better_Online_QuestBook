@@ -42,10 +42,11 @@ export class QuestListPage {
 		this.echarts?.setOption(this.pageData);
 	}
 
-	loadJsonData(quest: questData) {
+	loadJsonData(res: {data:questData,title:string}) {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
-		this.pageData.series[0].data = quest.data;
-		this.pageData.series[0].links = quest.links;
+		this.pageData.series[0].data = res.data.data;
+		this.pageData.series[0].links = res.data.links;
+		$("#questTitle").text(res.title);
 		this.initEcharts();
 	}
 
