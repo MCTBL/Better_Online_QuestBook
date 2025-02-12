@@ -25,14 +25,8 @@ export class QuestListPage {
 
 	addEvent() {
 		addEventListener("message", this.onMessageFromMain);
-		$("#btnCloseSp").on("click", this.onClosePop)
+		$("#btnCloseSp").on("click", this.onClosePop);
 	}
-
-
-
-
-
-
 
 	// 重置echarts
 	resetChart() {
@@ -41,7 +35,7 @@ export class QuestListPage {
 		this.echarts?.setOption(this.pageData);
 	}
 
-	getPageData(res: { data: questData, title: string }) {
+	getPageData(res: { data: questData; title: string }) {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 		this.pageData.series[0].data = res.data.data;
 		this.pageData.series[0].links = res.data.links;
@@ -57,8 +51,14 @@ export class QuestListPage {
 				{ renderer: "canvas" }
 			);
 			this.echarts.on("click", (params: any) => {
-				if (params.dataType === "node") {
-					this.sendMessageToMain({ action: msgAction.showPopup, data: params.data.quest_id });
+				if (
+					params.dataType === "node" &&
+					params.data.hasOwnProperty("quest_id")
+				) {
+					this.sendMessageToMain({
+						action: msgAction.showPopup,
+						data: params.data.quest_id,
+					});
 				}
 			});
 
@@ -68,8 +68,6 @@ export class QuestListPage {
 		}
 		this.resetChart();
 	}
-
-
 
 	onMessageFromMain = (event: MessageEvent) => {
 		let data: m2qData = event.data;
@@ -87,13 +85,13 @@ export class QuestListPage {
 				console.warn("未知的消息", data);
 				break;
 		}
-	}
+	};
 
 	onClosePop = () => {
 		$("#searchPopup").hide();
 		this.sendMessageToMain({ action: msgAction.closeSearchPopup, data: null });
 		this.questList = [];
-	}
+	};
 
 	showSearchPopup(res?: quest[]) {
 		this.clearSearchList();
@@ -104,15 +102,9 @@ export class QuestListPage {
 		$("#searchPopup").show();
 	}
 
-	clearSearchList() {
+	clearSearchList() {}
 
-	}
-
-	showSearchList() {
-
-	}
-
-
+	showSearchList() {}
 }
 
 new QuestListPage();

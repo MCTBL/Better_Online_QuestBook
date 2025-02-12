@@ -95,7 +95,6 @@ export class ProjectData {
 			},
 		],
 		tooltip: {
-			show: true,
 			trigger: "item",
 			triggerOn: "mousemove|click",
 			axisPointer: {

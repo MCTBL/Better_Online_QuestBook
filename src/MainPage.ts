@@ -5,7 +5,7 @@ import {
 	quest,
 	questAllData,
 	questData,
-	questLine
+	questLine,
 } from "./Define.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
@@ -20,12 +20,10 @@ export class MainPage {
 	/**所有任务的数据 */
 	private questAllData: questAllData = {};
 
-
 	/**标题对应任务数据 */
 	private titleToQuest: { [key: string]: quest } = {};
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [key: string]: quest } = {};
-
 
 	constructor() {
 		$(() => {
@@ -62,8 +60,6 @@ export class MainPage {
 		$("#search").on("blur", this.onSearchBlur);
 		$("#search").on("input", this.onSeachInput);
 	}
-
-
 
 	// 加载任务列表
 	loadQuestLine() {
@@ -110,7 +106,10 @@ export class MainPage {
 				});
 				let data: m2qData = {
 					action: msgAction.init,
-					data: { title: quest.title_zh ? quest.title_zh : quest.title, data: this.questAllData[quest.quest] },
+					data: {
+						title: quest.title_zh ? quest.title_zh : quest.title,
+						data: this.questAllData[quest.quest],
+					},
 				};
 				this.sendMessageToIframe(data);
 			},
@@ -147,7 +146,10 @@ export class MainPage {
 		if (questData) {
 			let data: m2qData = {
 				action: msgAction.init,
-				data: { title: quest.title_zh ? quest.title_zh : quest.title, data: questData },
+				data: {
+					title: quest.title_zh ? quest.title_zh : quest.title,
+					data: questData,
+				},
 			};
 			this.sendMessageToIframe(data);
 		} else {
@@ -161,7 +163,6 @@ export class MainPage {
 		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
-
 
 	clearSeachInput() {
 		$("#search").val("");
@@ -177,7 +178,6 @@ export class MainPage {
 				break;
 			case msgAction.showPopup:
 				// 展示任务详情
-				console.log(data.data);
 				let quest = this.questIdToQuest[data.data];
 				if (quest) {
 					PopMgr.showPopup(quest);
@@ -247,9 +247,12 @@ export class MainPage {
 					questList.push(this.titleToQuest[key]);
 				}
 			}
-			this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: questList });
+			this.sendMessageToIframe({
+				action: msgAction.showSearchPopup,
+				data: questList,
+			});
 		}
-	}
+	};
 
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
 }
