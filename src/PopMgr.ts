@@ -1,3 +1,4 @@
+import { quest } from "./Define.js";
 import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 
@@ -5,6 +6,7 @@ export class PopMgr {
 	private static nowTitle: string = "";
 	private static nowDesc: string = "";
 	private static nowID: string = "";
+	private static nowLogo: string = "";
 
 	static onCopyDesc = () => {
 		Utils.copyH5Str(`${this.nowTitle}\n${this.nowDesc}`);
@@ -16,20 +18,16 @@ export class PopMgr {
 		TipsMgr.showTips("复制成功");
 	};
 
-	static showPopup(
-		title: string,
-		desc: string,
-		ID: string,
-		quest_logo: string
-	) {
-		this.nowTitle = title;
-		this.nowDesc = desc;
-		this.nowID = ID;
+	static showPopup(res: quest) {
+		this.nowTitle = res.title;
+		this.nowDesc = res.data;
+		this.nowID = res.quest_id;
+		this.nowLogo = res.symbol
 
-		$("#quest_id").text(ID).hide();
-		$("#popTitle").html("<h1>" + Utils.expMCcolor(title) + "</h1>");
-		$("#popDesc").html(this.processDesc(Utils.expMCcolor(desc)));
-		$("#quest_logo")[0].setAttribute("src", quest_logo);
+		$("#quest_id").text(this.nowID).hide();
+		$("#popTitle").html("<h1>" + Utils.expMCcolor(this.nowTitle) + "</h1>");
+		$("#popDesc").html(this.processDesc(Utils.expMCcolor(this.nowDesc)));
+		$("#quest_logo")[0].setAttribute("src", this.nowLogo.replace("image://", ""));
 
 		$("#popup").css("display", "flex");
 		$("#overlay").css("display", "block");

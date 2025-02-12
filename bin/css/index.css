@@ -168,12 +168,22 @@ body {
 }
 
 #searchPopup {
-	background-color: rgba(0, 0, 0, 0.658);
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	z-index: 5;
 	display: none;
+	background-color:#f5f0d3;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#btnCloseSp {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	color: #5b2312;
 }
 
 #questTitle {

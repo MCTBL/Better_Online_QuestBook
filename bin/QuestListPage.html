@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/index.css" />
+		<script src="./libs/echarts.min.js"></script>
+		<script src="./libs/jquery.min.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
-	<link rel="stylesheet" href="./css/index.css" />
-	<script src="./libs/echarts.min.js"></script>
-	<script src="./libs/jquery.min.js"></script>
-</head>
-
-<body style="flex-direction: column;">
-	<div id="this_chart" class="chart-container"></div>
-	<script type="module" src="./js/QuestListPage.js"></script>
-	<span id="questTitle"></span>
-</body>
-
+	<body style="flex-direction: column">
+		<div id="this_chart" class="chart-container"></div>
+		<script type="module" src="./js/QuestListPage.js"></script>
+		<span id="questTitle"></span>
+		<!-- 搜索弹窗 -->
+		<div id="searchPopup">
+			<svg id="btnCloseSp" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+				<path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+			</svg>
+		</div>
+	</body>
 </html>

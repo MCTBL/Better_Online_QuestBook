@@ -5,7 +5,7 @@ import {
 	quest,
 	questAllData,
 	questData,
-	questLine,
+	questLine
 } from "./Define.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
@@ -19,8 +19,13 @@ export class MainPage {
 	private showSidebar: boolean = false;
 	/**所有任务的数据 */
 	private questAllData: questAllData = {};
-	/**所有任务的无序数据，用于检索 */
-	private questList: quest[] = [];
+
+
+	/**标题对应任务数据 */
+	private titleToQuest: { [key: string]: quest } = {};
+	/**任务ID对应任务数据 */
+	private questIdToQuest: { [key: string]: quest } = {};
+
 
 	constructor() {
 		$(() => {
@@ -55,6 +60,7 @@ export class MainPage {
 		$("#logoImg").on("click", this.onClickLogo);
 		$("#search").on("focus", this.onSearchFocus);
 		$("#search").on("blur", this.onSearchBlur);
+		$("#search").on("input", this.onSeachInput);
 	}
 
 
@@ -76,7 +82,12 @@ export class MainPage {
 		$.getJSON(ProjectData.getQuestDataPath(), (data: any) => {
 			this.questAllData = data;
 			for (let key in this.questAllData) {
-				this.questList.push(...this.questAllData[key].data);
+				let questList = this.questAllData[key].data;
+				for (let i = 0; i < questList.length; i++) {
+					let quest = questList[i];
+					this.titleToQuest[quest.name] = quest;
+					this.questIdToQuest[quest.quest_id] = quest;
+				}
 			}
 			this.initMainIframe();
 		});
@@ -149,6 +160,11 @@ export class MainPage {
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
 
+
+	clearSeachInput() {
+		$("#search").val("");
+	}
+
 	//事件
 
 	onGetMessageFromIframe = (event: MessageEvent) => {
@@ -159,12 +175,20 @@ export class MainPage {
 				break;
 			case msgAction.showPopup:
 				// 展示任务详情
-				PopMgr.showPopup(
-					data.data.title,
-					data.data.desc,
-					data.data.ID,
-					data.data.quest_logo
-				);
+				console.log(data.data);
+				let quest = this.questIdToQuest[data.data];
+				if (quest) {
+					PopMgr.showPopup(quest);
+				} else {
+					console.warn("任务ID没有对应数据！" + data.data);
+				}
+				break;
+			case msgAction.closeSearchPopup:
+				// 清理搜索框
+				this.clearSeachInput();
+				break;
+			default:
+				console.warn("未知的消息", data);
 				break;
 		}
 	};
@@ -208,7 +232,22 @@ export class MainPage {
 		}
 	};
 
-	onSearchFocus = () => { };
+	onSearchFocus = () => {
+		this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
+	};
+
+	onSeachInput = () => {
+		let value = $("#search").val();
+		if(value){
+			let questList: quest[] = [];
+			for (let key in this.titleToQuest) {
+				if (key.indexOf(value.toString()) != -1) {
+					questList.push(this.titleToQuest[key]);
+				}
+			}
+			this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: questList });
+		}
+	}
 
 	onSearchBlur = () => { };
 }
