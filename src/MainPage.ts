@@ -114,6 +114,7 @@ export class MainPage {
 					},
 				};
 				this.sendMessageToIframe(data);
+				this.onClosePop();
 			},
 		});
 		button.data("questData", quest);
@@ -205,6 +206,7 @@ export class MainPage {
 	};
 
 	toggleSidebar = () => {
+		this.onClosePop();
 		if (!this.showSidebar) {
 			$("#sidebar").animate({ left: "-280px" }, 500);
 			$("#mainPage").animate(
