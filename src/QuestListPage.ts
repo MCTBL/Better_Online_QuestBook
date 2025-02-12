@@ -124,7 +124,9 @@ export class QuestListPage {
 					`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
 				);
 				let desc = $(
-					`<div class="searchDesc">${quest.data.substring(0, 50)}</div>`
+					`<div class="searchDesc">${Utils.expMCcolor(
+						quest.data.substring(0, 50)
+					)}</div>`
 				);
 				item.append(img);
 				item.append(title);
