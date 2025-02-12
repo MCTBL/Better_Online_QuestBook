@@ -25,7 +25,6 @@ export class QuestListPage {
 
 	addEvent() {
 		addEventListener("message", this.onMessageFromMain);
-		$("#btnCloseSp").on("click", this.onClosePop);
 	}
 
 	// 重置echarts
@@ -81,30 +80,58 @@ export class QuestListPage {
 			case msgAction.showSearchPopup:
 				this.showSearchPopup(data.data);
 				break;
+			case msgAction.closeSearchPopup:
+				this.clearSearchList();
+				break;
 			default:
 				console.warn("未知的消息", data);
 				break;
 		}
 	};
 
-	onClosePop = () => {
-		$("#searchPopup").hide();
-		this.sendMessageToMain({ action: msgAction.closeSearchPopup, data: null });
-		this.questList = [];
-	};
-
 	showSearchPopup(res?: quest[]) {
-		this.clearSearchList();
+		$("#questSearchList").empty();
 		if (res) {
 			this.questList = res;
 			this.showSearchList();
+			$("#searchPopup").show();
 		}
-		$("#searchPopup").show();
 	}
 
-	clearSearchList() {}
+	clearSearchList() {
+		$("#questSearchList").empty();
+		$("#searchPopup").hide();
+	}
 
-	showSearchList() {}
+	showSearchList() {
+		if (this.questList && this.questList.length) {
+			for (let i = 0; i < this.questList.length; i++) {
+				let quest = this.questList[i];
+				// <div class="searchItem" data-id="1">
+				// 	<img class="searchImg" src="http://192.168.50.82:9192/version/272/quests_icons/QuestIcon/2925.png" />
+				// 	<div class="searchTitle">熟练的神秘使</div>
+				// 	<div class="searchDesc">我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究</div>
+				// </div>
+				let item: JQuery<HTMLElement>;
+				item = $(`<div class="searchItem" data-id="${quest.quest_id}"></div>`);
+				let img = $(`<img class="searchImg" src="${quest.symbol.replace("image://", "")}" />`);
+				let title = $(`<div class="searchTitle">${quest.title}</div>`);
+				let desc = $(`<div class="searchDesc">${quest.data.substring(0, 50)}</div>`);
+				item.append(img);
+				item.append(title);
+				item.append(desc);
+				item.on("click", () => {
+					this.sendMessageToMain({
+						action: msgAction.showPopup,
+						data: quest.quest_id,
+					});
+				})
+				$("#questSearchList").append(item);
+			}
+		}
+	}
+
+
 }
 
 new QuestListPage();

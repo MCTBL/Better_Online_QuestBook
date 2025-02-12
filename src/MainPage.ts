@@ -59,6 +59,8 @@ export class MainPage {
 		$("#search").on("focus", this.onSearchFocus);
 		$("#search").on("blur", this.onSearchBlur);
 		$("#search").on("input", this.onSeachInput);
+
+		$("#btnCloseSp").on("click", this.onClosePop);
 	}
 
 	// 加载任务列表
@@ -67,7 +69,7 @@ export class MainPage {
 			this.questLine = data;
 			this.questLine.forEach((quest, index) => {
 				let button = this.createButton(index, quest);
-				$("#questList").append(button);
+				$("#questLineList").append(button);
 				this.buttonList.push(button);
 			});
 			this.loadQuestData();
@@ -164,9 +166,6 @@ export class MainPage {
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
 
-	clearSeachInput() {
-		$("#search").val("");
-	}
 
 	//事件
 
@@ -184,10 +183,6 @@ export class MainPage {
 				} else {
 					console.warn("任务ID没有对应数据！" + data.data);
 				}
-				break;
-			case msgAction.closeSearchPopup:
-				// 清理搜索框
-				this.clearSeachInput();
 				break;
 			default:
 				console.warn("未知的消息", data);
@@ -251,8 +246,19 @@ export class MainPage {
 				action: msgAction.showSearchPopup,
 				data: questList,
 			});
+		}else{
+			// 让用户手动取消
+			// this.sendMessageToIframe({
+			// 	action: msgAction.closeSearchPopup,
+			// 	data: null,
+			// });
 		}
 	};
 
+
+	onClosePop = () => {
+		$("#search").val("");
+		this.sendMessageToIframe({ action: msgAction.closeSearchPopup, data: null });
+	};
 	onSearchBlur = () => {};
 }
