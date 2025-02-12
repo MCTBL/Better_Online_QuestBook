@@ -13,6 +13,8 @@ export enum msgAction {
 	ready = "ready",
 	showPopup = "showPopup",
 	resetChart = "resetChart",
+	closeSearchPopup = "closeSearchPopup",
+	showSearchPopup = "showSearchPopup",
 }
 
 export type dialogMsg = {
@@ -26,12 +28,6 @@ export type dialogMsg = {
 	cancelMsg: string;
 };
 
-export type popupData = {
-	title: String;
-	desc: String;
-	ID: String;
-	quest_logo: String;
-};
 
 export enum localEnum {
 	// /**上次打开的任务页面 */
@@ -58,6 +54,7 @@ export type questLink = {
 };
 /**任务数据 */
 export type quest = {
+	title: string;
 	name: string;
 	symbolSize: number;
 	symbol: string;

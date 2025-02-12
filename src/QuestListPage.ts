@@ -1,4 +1,4 @@
-import { m2qData, msgAction, popupData, questData } from "./Define.js";
+import { m2qData, msgAction, quest, questData } from "./Define.js";
 import { ProjectData } from "./ProjectData.js";
 import { Utils } from "./Utils.js";
 
@@ -7,13 +7,15 @@ export class QuestListPage {
 	private echarts: echarts.ECharts;
 	private pageData: any;
 
+	private questList: quest[];
+
 	constructor() {
 		this.init();
 	}
 
 	init() {
 		$(() => {
-			this.onMessageFromMain();
+			this.addEvent();
 		});
 	}
 
@@ -21,19 +23,16 @@ export class QuestListPage {
 		window.parent.postMessage(data, "*");
 	}
 
-	onMessageFromMain() {
-		addEventListener("message", (event: MessageEvent) => {
-			let data: m2qData = event.data;
-			switch (data.action) {
-				case msgAction.init:
-					this.loadJsonData(data.data);
-					break;
-				case msgAction.resetChart:
-					this.resetChart();
-					break;
-			}
-		});
+	addEvent() {
+		addEventListener("message", this.onMessageFromMain);
+		$("#btnCloseSp").on("click", this.onClosePop)
 	}
+
+
+
+
+
+
 
 	// 重置echarts
 	resetChart() {
@@ -42,7 +41,7 @@ export class QuestListPage {
 		this.echarts?.setOption(this.pageData);
 	}
 
-	loadJsonData(res: {data:questData,title:string}) {
+	getPageData(res: { data: questData, title: string }) {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 		this.pageData.series[0].data = res.data.data;
 		this.pageData.series[0].links = res.data.links;
@@ -59,13 +58,7 @@ export class QuestListPage {
 			);
 			this.echarts.on("click", (params: any) => {
 				if (params.dataType === "node") {
-					let data: popupData = {
-						title: params.data.title,
-						desc: params.data.data,
-						ID: params.data.quest_id,
-						quest_logo: params.data.symbol.replace("image://", ""),
-					};
-					this.sendMessageToMain({ action: msgAction.showPopup, data: data });
+					this.sendMessageToMain({ action: msgAction.showPopup, data: params.data.quest_id });
 				}
 			});
 
@@ -75,6 +68,51 @@ export class QuestListPage {
 		}
 		this.resetChart();
 	}
+
+
+
+	onMessageFromMain = (event: MessageEvent) => {
+		let data: m2qData = event.data;
+		switch (data.action) {
+			case msgAction.init:
+				this.getPageData(data.data);
+				break;
+			case msgAction.resetChart:
+				this.resetChart();
+				break;
+			case msgAction.showSearchPopup:
+				this.showSearchPopup(data.data);
+				break;
+			default:
+				console.warn("未知的消息", data);
+				break;
+		}
+	}
+
+	onClosePop = () => {
+		$("#searchPopup").hide();
+		this.sendMessageToMain({ action: msgAction.closeSearchPopup, data: null });
+		this.questList = [];
+	}
+
+	showSearchPopup(res?: quest[]) {
+		this.clearSearchList();
+		if (res) {
+			this.questList = res;
+			this.showSearchList();
+		}
+		$("#searchPopup").show();
+	}
+
+	clearSearchList() {
+
+	}
+
+	showSearchList() {
+
+	}
+
+
 }
 
 new QuestListPage();
