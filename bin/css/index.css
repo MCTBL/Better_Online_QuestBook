@@ -177,6 +177,7 @@ body {
 }
 
 #questTitle {
+	font-family: "Minecraft";
 	position: absolute;
 	top: 0;
 	left: 0px;
