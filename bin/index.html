@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="./css/index.css" />
 		<link rel="stylesheet" href="./css/quest_page.css" />
 		<script src="./libs/jquery.min.js"></script>
+		<script src="./libs/html2canvas.min.js"></script>
 		<script type="module" src="./js/index.js"></script>
 	</head>
 
@@ -42,16 +43,29 @@
 				<div id="popupLeft">
 					<div id="descBox">
 						<p id="popDesc"></p>
-						<p id="quest_id"></p>
-					</div>
-					<!-- <div id="rewardsBox"></div> -->
-					<div id="buttonsBox">
-						<span class="copy-btn" id="copyBtn">复制任务描述</span>
-						<span class="copy-id-btn" id="copyIdBtn">复制任务id</span>
 					</div>
 				</div>
 				<div class="v-line"></div>
 				<div id="popupRight"><img id="quest_logo" /></div>
+
+				<div id="buttonsBox">
+					<div id="quest_id"></div>
+					<button id="copyBtn">复制任务描述</button>
+					<button id="copyIdBtn">复制任务id</button>
+				</div>
+
+				<svg id="screenShot" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"
+					></path>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"></path>
+				</svg>
+
+				<svg id="btnClosePop" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+				</svg>
 			</div>
 		</div>
 		<!-- 提示框 -->

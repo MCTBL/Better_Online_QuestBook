@@ -24,7 +24,7 @@ export class PopMgr {
 		this.nowID = res.quest_id;
 		this.nowLogo = res.symbol.replace("image://", "");
 
-		$("#quest_id").text(this.nowID).hide();
+		$("#quest_id").text(this.nowID);
 		$("#popTitle").html("<h1>" + this.nowTitle + "</h1>");
 		$("#popDesc").html(this.nowDesc);
 		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
@@ -39,6 +39,12 @@ export class PopMgr {
 		// 绑定点击复制任务ID
 		$("#copyIdBtn").off("click", this.onCopyId);
 		$("#copyIdBtn").on("click", this.onCopyId);
+
+		$("btnClosePop").off("click", this.hidePopup);
+		$("#btnClosePop").on("click", this.hidePopup);
+
+		$("#screenShot").off("click", this.screenShot);
+		$("#screenShot").on("click", this.screenShot);
 	}
 
 	static processDesc(desc: string): string {
@@ -86,5 +92,9 @@ export class PopMgr {
 	static hidePopup() {
 		$("#popup").css("display", "none");
 		$("#overlay").css("display", "none");
+	}
+
+	static screenShot() {
+		// Utils.screenShot();
 	}
 }

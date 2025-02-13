@@ -44,7 +44,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) {}
+		} catch (err) { }
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -298,8 +298,25 @@ export class Utils {
 
 		return textWithUrls;
 	}
+
+
+	static screenshot(node: HTMLElement) {
+		html2canvas(node).then((canvas:any) => {
+			$(canvas).css("position", "fixed").css("top", "0").css("left", "0").css("z-index", "999999").css("background", "rgba(0,0,0,0.5)").css("width", "80%").css("height", "80%").css("cursor", "pointer").click(function () {
+				$(this).remove();
+			});
+			document.body.appendChild(canvas)
+		});
+	}
+
 }
 
+
+
+
+
+
+//模拟一个简单的weakmap
 class SimpleWeakMap {
 	private _keys: any[];
 	private _values: any[];

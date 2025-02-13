@@ -1,19 +1,18 @@
 {
-  "name": "Better_Online_QuestBook",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/echarts": "^4.9.22",
-    "@types/jquery": "^3.5.32"
-  },
-  "dependencies": {
-    "anywhere": "^1.6.0"
-  }
+	"name": "Better_Online_QuestBook",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/echarts": "^4.9.22",
+		"@types/jquery": "^3.5.32",
+		"anywhere": "^1.6.0"
+	},
+	"dependencies": {}
 }
