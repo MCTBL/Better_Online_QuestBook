@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'MyFont';
-    src: url('../fonts/WenQuanYiBitmapSong16px-Medium.woff2') format('truetype');
+	font-family: "MyFont";
+	src: url("../fonts/WenQuanYiBitmapSong16px-Medium.woff2") format("truetype");
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
-	font-family: 'MyFont', sans-serif;
+	font-family: "MyFont", sans-serif;
 }
 
 #sidebar {
@@ -49,23 +49,33 @@ body {
 	top: 0px;
 }
 
-#search {
-	width: 80%;
+#inputDiv {
 	position: absolute;
+	width: 277px;
+	height: 42px;
 	top: 200px;
+	border: 1px solid #000; /* 外描边 */
+}
+
+#search {
+	width: 230px;
+	position: absolute;
 	left: 0px;
 	height: 40px;
 	line-height: 40px;
 	box-sizing: border-box;
 	font-size: 20px;
+	border: none;
+}
+#search:focus {
+	outline: none;
 }
 
 #btnCloseSp {
 	position: absolute;
-	top: 195px;
-	left: 225px;
-	width: 50px;
-	height: 50px;
+	left: 240px;
+	width: 40px;
+	height: 40px;
 	color: #5b2312;
 }
 
@@ -204,7 +214,6 @@ body {
 	left: 5px;
 	font-size: 32px;
 	padding: 4px 4px;
-
 }
 
 #questSearchList {
@@ -268,4 +277,12 @@ body {
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 	line-clamp: 2;
+}
+
+#changeLang {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
 }
