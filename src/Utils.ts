@@ -126,7 +126,7 @@ export class Utils {
 		if (colorcod == "a") {
 			return "#55ff55"; // 返回对应的颜色
 		} else if (colorcod == "b") {
-			return "#55ffff"; // 返回对应的颜色
+			return "#4de6e6"; // 返回对应的颜色
 		} else if (colorcod == "c") {
 			return "#ff5555"; // 返回对应的颜色
 		} else if (colorcod == "d") {
