@@ -1,5 +1,4 @@
 export class Utils {
-
 	static rotScreen() {
 		var main = document.getElementById("main")!;
 		window.addEventListener("resize", function () {
@@ -7,8 +6,14 @@ export class Utils {
 		});
 		adjustImageSize();
 		function adjustImageSize() {
-			var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-			var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+			var windowHeight =
+				window.innerHeight ||
+				document.documentElement.clientHeight ||
+				document.body.clientHeight;
+			var windowWidth =
+				window.innerWidth ||
+				document.documentElement.clientWidth ||
+				document.body.clientWidth;
 			main.style.height = windowHeight + "px";
 			main.style.width = windowWidth + "px";
 			if (windowWidth > windowHeight) {
@@ -39,7 +44,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) { }
+		} catch (err) {}
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -48,14 +53,12 @@ export class Utils {
 		}
 	}
 
-
-
 	static encodeMsg2AHref(msg: string): string {
-		return msg.replace(/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g, '<a href="$1">$1</a>');
+		return msg.replace(
+			/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g,
+			'<a href="$1">$1</a>'
+		);
 	}
-
-
-
 
 	static expMCcolor(source_str: string): string {
 		if (!source_str.includes("§")) {
@@ -174,18 +177,19 @@ export class Utils {
 	//https://www.cnblogs.com/truestar666/p/16111890.html
 	static deepClone(target: any) {
 		// WeakMap作为记录对象Hash表（用于防止循环引用）
-		const map = new SimpleWeakMap();//防止没有
+		const map = new SimpleWeakMap(); //防止没有
 
 		// 判断是否为object类型的辅助函数，减少重复代码
 		function isObject(target: any) {
-			return (typeof target === 'object' && target) || typeof target === 'function'
+			return (
+				(typeof target === "object" && target) || typeof target === "function"
+			);
 		}
 
 		function clone(data: any): any {
-
 			// 基础类型直接返回值
 			if (!isObject(data)) {
-				return data
+				return data;
 			}
 
 			// 日期或者正则对象则直接构造一个新的对象返回
@@ -194,14 +198,14 @@ export class Utils {
 			}
 
 			// 处理函数对象
-			if (typeof data === 'function') {
-				return "not support";// new Function('return ' + data.toString())() 微信不支持
+			if (typeof data === "function") {
+				return "not support"; // new Function('return ' + data.toString())() 微信不支持
 			}
 
 			// 如果该对象已存在，则直接返回该对象
-			const exist = map.get(data)
+			const exist = map.get(data);
 			if (exist) {
-				return exist
+				return exist;
 			}
 
 			//处理Array对象
@@ -215,63 +219,85 @@ export class Utils {
 
 			// 处理Map对象
 			if (data instanceof Map) {
-				const result = new Map()
-				map.set(data, result)
+				const result = new Map();
+				map.set(data, result);
 				data.forEach((val, key) => {
 					// 注意：map中的值为object的话也得深拷贝
 					if (isObject(val)) {
-						result.set(key, clone(val))
+						result.set(key, clone(val));
 					} else {
-						result.set(key, val)
+						result.set(key, val);
 					}
-				})
-				return result
+				});
+				return result;
 			}
 
 			// 处理Set对象
 			if (data instanceof Set) {
-				const result = new Set()
-				map.set(data, result)
-				data.forEach(val => {
+				const result = new Set();
+				map.set(data, result);
+				data.forEach((val) => {
 					// 注意：set中的值为object的话也得深拷贝
 					if (isObject(val)) {
-						result.add(clone(val))
+						result.add(clone(val));
 					} else {
-						result.add(val)
+						result.add(val);
 					}
-				})
-				return result
+				});
+				return result;
 			}
 
 			// 收集键名（考虑了以Symbol作为key以及不可枚举的属性）
-			const keys = Reflect.ownKeys(data)
+			const keys = Reflect.ownKeys(data);
 			// 利用 Object 的 getOwnPropertyDescriptors 方法可以获得对象的所有属性以及对应的属性描述
 			var allDesc: any = {};
 			Object.keys(data).forEach(function (key: any) {
 				allDesc[key] = Object.getOwnPropertyDescriptor(data, key);
 			});
 			// 结合 Object 的 create 方法创建一个新对象，并继承传入原对象的原型链， 这里得到的result是对data的浅拷贝
-			const result = Object.create(Object.getPrototypeOf(data), allDesc)
+			const result = Object.create(Object.getPrototypeOf(data), allDesc);
 
 			// 新对象加入到map中，进行记录
-			map.set(data, result)
+			map.set(data, result);
 
 			// Object.create()是浅拷贝，所以要判断并递归执行深拷贝
-			keys.forEach(key => {
-				const val = data[key]
+			keys.forEach((key) => {
+				const val = data[key];
 				if (isObject(val)) {
 					// 属性值为 对象类型 或 函数对象 的话也需要进行深拷贝
-					result[key] = clone(val)
+					result[key] = clone(val);
 				} else {
-					result[key] = val
+					result[key] = val;
 				}
-			})
-			return result
+			});
+			return result;
 		}
 
-		return clone(target)
+		return clone(target);
 	}
 
+	static removeHTMLTags(html: string): string {
+		// 将<br/>替换为换行符
+		let textWithUrls = html.replace(/<br\s*\/?>/gi, "\n");
+
+		// 正则表达式匹配<a>标签，并捕获href属性值
+		const aTagRegex = /<a\s+[^>]*?href=["']([^"']*)["'][^>]*?>([^<]*?)<\/a>/gi;
+
+		// 替换函数，用于处理每个匹配的<a>标签
+		const replacer = (match: string, url: string, text: string): string => {
+			// 保留href属性值，并用空格分隔URL和文本
+			return `${url}`;
+		};
+
+		// 首先处理<a>标签，保留href属性值和文本
+		textWithUrls = textWithUrls.replace(aTagRegex, replacer);
+
+		// 正则表达式匹配并移除所有剩余的HTML标签
+		const tagRegex = /<[^>]*>/g;
+		textWithUrls = textWithUrls.replace(tagRegex, "");
+
+		return textWithUrls;
+	}
 }
 
 class SimpleWeakMap {

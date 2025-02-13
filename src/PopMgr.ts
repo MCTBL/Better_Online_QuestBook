@@ -9,7 +9,7 @@ export class PopMgr {
 	private static nowLogo: string = "";
 
 	static onCopyDesc = () => {
-		Utils.copyH5Str(`${this.nowTitle}\n${this.nowDesc}`);
+		Utils.copyH5Str(Utils.removeHTMLTags(`${this.nowTitle}\n${this.nowDesc}`));
 		TipsMgr.showTips("复制成功");
 	};
 
@@ -19,15 +19,15 @@ export class PopMgr {
 	};
 
 	static showPopup(res: quest) {
-		this.nowTitle = res.title;
-		this.nowDesc = res.data;
+		this.nowTitle = Utils.expMCcolor(res.title);
+		this.nowDesc = this.processDesc(Utils.expMCcolor(res.data));
 		this.nowID = res.quest_id;
-		this.nowLogo = res.symbol
+		this.nowLogo = res.symbol.replace("image://", "");
 
 		$("#quest_id").text(this.nowID).hide();
-		$("#popTitle").html("<h1>" + Utils.expMCcolor(this.nowTitle) + "</h1>");
-		$("#popDesc").html(this.processDesc(Utils.expMCcolor(this.nowDesc)));
-		$("#quest_logo")[0].setAttribute("src", this.nowLogo.replace("image://", ""));
+		$("#popTitle").html("<h1>" + this.nowTitle + "</h1>");
+		$("#popDesc").html(this.nowDesc);
+		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
 
 		$("#popup").css("display", "flex");
 		$("#overlay").css("display", "block");
