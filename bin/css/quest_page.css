@@ -1,4 +1,4 @@
-.popup {
+#popup {
 	flex-direction: column;
 	display: none;
 	position: fixed;
@@ -40,7 +40,7 @@
 	margin: 0 1%;
 }
 
-.overlay {
+#overlay {
 	display: none;
 	position: fixed;
 	top: 0;
@@ -137,6 +137,6 @@ div #rewardsBox {
 }
 
 #quest_logo {
-	display: block;
-	margin: 30% auto;
+	margin: 15%;
+	width: 70%;
 }

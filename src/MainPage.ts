@@ -53,8 +53,7 @@ export class MainPage {
 	addEvent() {
 		addEventListener("message", this.onGetMessageFromIframe);
 		$("#toggleSidebar").on("click", this.toggleSidebar);
-		// 绑定点击消失
-		$("#overlay").on("click", PopMgr.hidePopup);
+
 
 		addEventListener("keydown", this.onKeyDown);
 
@@ -192,9 +191,6 @@ export class MainPage {
 		}
 	};
 	onKeyDown = (event: KeyboardEvent) => {
-		if (event.key == "Escape" || event.key == "e") {
-			PopMgr.hidePopup();
-		}
 		if (event.key == "r") {
 			let data: m2qData = { action: msgAction.resetChart, data: null };
 			this.sendMessageToIframe(data);

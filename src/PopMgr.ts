@@ -32,18 +32,26 @@ export class PopMgr {
 		$("#popup").css("display", "flex");
 		$("#overlay").css("display", "block");
 		$("#mainPage").focus();
+		removeEventListener("keydown", this.onKeyDown);
+		addEventListener("keydown", this.onKeyDown);
+		// 绑定点击消失
+		$("#overlay").off("click");
+		$("#overlay").on("click", this.hidePopup);
 
-		$("#copyBtn").off("click", this.onCopyDesc);
+		$("#popup").off("click");
+		$("#popup").on("click", this.onClickPop);
+
+		$("#copyBtn").off("click");
 		// 绑定点击复制任务详情
 		$("#copyBtn").on("click", this.onCopyDesc);
 		// 绑定点击复制任务ID
-		$("#copyIdBtn").off("click", this.onCopyId);
+		$("#copyIdBtn").off("click");
 		$("#copyIdBtn").on("click", this.onCopyId);
 
-		$("btnClosePop").off("click", this.hidePopup);
+		$("btnClosePop").off("click");
 		$("#btnClosePop").on("click", this.hidePopup);
 
-		$("#screenShot").off("click", this.screenShot);
+		$("#screenShot").off("click");
 		$("#screenShot").on("click", this.screenShot);
 	}
 
@@ -89,12 +97,22 @@ export class PopMgr {
 		return new_desc;
 	}
 
-	static hidePopup() {
+	static hidePopup = () => {
 		$("#popup").css("display", "none");
 		$("#overlay").css("display", "none");
 	}
 
+	static onClickPop = (args: Event) => {
+		args.stopPropagation();//停止冒泡
+	}
+
 	static screenShot() {
 		// Utils.screenShot();
+	}
+
+	static onKeyDown = (event: KeyboardEvent) => {
+		if (event.key == "Escape" || event.key == "e") {
+			PopMgr.hidePopup();
+		}
 	}
 }
