@@ -232,7 +232,7 @@ export class MainPage {
 	};
 
 	onSearchFocus = () => {
-		this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
+		// this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
 	};
 
 	onSeachInput = () => {
@@ -248,7 +248,7 @@ export class MainPage {
 				action: msgAction.showSearchPopup,
 				data: questList,
 			});
-		}else{
+		} else {
 			// 让用户手动取消
 			// this.sendMessageToIframe({
 			// 	action: msgAction.closeSearchPopup,
@@ -262,5 +262,5 @@ export class MainPage {
 		$("#search").val("");
 		this.sendMessageToIframe({ action: msgAction.closeSearchPopup, data: null });
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 }

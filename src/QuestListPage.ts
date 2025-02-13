@@ -112,32 +112,36 @@ export class QuestListPage {
 				// 	<div class="searchTitle">熟练的神秘使</div>
 				// 	<div class="searchDesc">我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究</div>
 				// </div>
-				let item: JQuery<HTMLElement>;
-				item = $(`<div class="searchItem" data-id="${quest.quest_id}"></div>`);
-				let img = $(
-					`<img class="searchImg" src="${quest.symbol.replace(
-						"image://",
-						""
-					)}" />`
-				);
-				let title = $(
-					`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
-				);
-				let desc = $(
-					`<div class="searchDesc">${Utils.expMCcolor(
-						quest.data.substring(0, 50)
-					)}</div>`
-				);
-				item.append(img);
-				item.append(title);
-				item.append(desc);
-				item.on("click", () => {
-					this.sendMessageToMain({
-						action: msgAction.showPopup,
-						data: quest.quest_id,
+				if (quest) {
+					let item: JQuery<HTMLElement>;
+					item = $(`<div class="searchItem" data-id="${quest.quest_id}"></div>`);
+					let img = $(
+						`<img class="searchImg" src="${quest.symbol.replace(
+							"image://",
+							""
+						)}" />`
+					);
+					let title = $(
+						`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
+					);
+					let desc = $(
+						`<div class="searchDesc">${Utils.expMCcolor(
+							quest.data.substring(0, 50)
+						)}</div>`
+					);
+					item.append(img);
+					item.append(title);
+					item.append(desc);
+					item.on("click", () => {
+						this.sendMessageToMain({
+							action: msgAction.showPopup,
+							data: quest.quest_id,
+						});
 					});
-				});
-				$("#questSearchList").append(item);
+					$("#questSearchList").append(item);
+				} else {
+					console.warn(quest);
+				}
 			}
 		}
 	}
