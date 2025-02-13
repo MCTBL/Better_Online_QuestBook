@@ -233,7 +233,7 @@ export class MainPage {
 	};
 
 	onSearchFocus = () => {
-		this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
+		// this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
 	};
 
 	onSeachInput = () => {
@@ -265,5 +265,5 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 }
