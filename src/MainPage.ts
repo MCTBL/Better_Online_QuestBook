@@ -37,6 +37,7 @@ export class MainPage {
 				this.initPage();
 				this.addEvent();
 				this.loadQuestLine();
+				this.initButton();
 			});
 		});
 	}
@@ -49,13 +50,19 @@ export class MainPage {
 			});
 			$("#versionSelect").append(option);
 		}
-		this.language = navigator.language;
+		let tempLang = localStorage.getItem(localEnum.selectLanguage);
+
+		if (tempLang) {
+			this.language = tempLang;
+		} else {
+			this.language = navigator.language;
+			localStorage.setItem(localEnum.selectLanguage, this.language);
+		}
 	}
 
 	addEvent() {
 		addEventListener("message", this.onGetMessageFromIframe);
 		$("#toggleSidebar").on("click", this.toggleSidebar);
-
 
 		addEventListener("keydown", this.onKeyDown);
 
@@ -65,6 +72,20 @@ export class MainPage {
 		$("#search").on("input", this.onSeachInput);
 
 		$("#btnCloseSp").on("click", this.onClosePop);
+
+		$("#changeLang").on("click", this.changeLanguage);
+	}
+
+	initButton() {
+		if (this.language.includes("zh")) {
+			$("#copyBtn").append("复制任务描述");
+			$("#copyIdBtn").append("复制任务id");
+			$("#tips").append("复制成功");
+		} else {
+			$("#copyBtn").append("Copy task description");
+			$("#copyIdBtn").append("Copy task ID");
+			$("#tips").append("Copy success");
+		}
 	}
 
 	// 加载任务列表
@@ -172,7 +193,6 @@ export class MainPage {
 	}
 
 	//事件
-
 	onGetMessageFromIframe = (event: MessageEvent) => {
 		let data: m2qData = event.data;
 		switch (data.action) {
@@ -260,5 +280,15 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
+
+	changeLanguage() {
+		if (localStorage.getItem(localEnum.selectLanguage)!.includes("zh")) {
+			localStorage.setItem(localEnum.selectLanguage, "en-US");
+		} else {
+			localStorage.setItem(localEnum.selectLanguage, "zh-CN");
+		}
+		// $("#mainIframe").trigger("load");
+		location.reload();
+	}
 }

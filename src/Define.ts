@@ -28,7 +28,6 @@ export type dialogMsg = {
 	cancelMsg: string;
 };
 
-
 export enum localEnum {
 	// /**上次打开的任务页面 */
 	// mainIframeUrl = "mainIframeUrl",
@@ -38,6 +37,7 @@ export enum localEnum {
 	// 	questData = "questData",
 	// 	/**任务数据版本 */
 	// 	questDataVersion = "questDataVersion",
+	selectLanguage = "selectLanguage",
 }
 
 /**所有的任务数据 */

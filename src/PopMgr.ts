@@ -31,6 +31,7 @@ export class PopMgr {
 
 		$("#popup").css("display", "flex");
 		$("#overlay").css("display", "block");
+		$("#quest_id").css("display", "none");
 		$("#mainPage").focus();
 		removeEventListener("keydown", this.onKeyDown);
 		addEventListener("keydown", this.onKeyDown);
@@ -100,11 +101,11 @@ export class PopMgr {
 	static hidePopup = () => {
 		$("#popup").css("display", "none");
 		$("#overlay").css("display", "none");
-	}
+	};
 
 	static onClickPop = (args: Event) => {
-		args.stopPropagation();//停止冒泡
-	}
+		args.stopPropagation(); //停止冒泡
+	};
 
 	static screenShot() {
 		// Utils.screenShot();
@@ -114,5 +115,5 @@ export class PopMgr {
 		if (event.key == "Escape" || event.key == "e") {
 			PopMgr.hidePopup();
 		}
-	}
+	};
 }
