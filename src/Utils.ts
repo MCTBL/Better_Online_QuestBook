@@ -309,6 +309,13 @@ export class Utils {
 		});
 	}
 
+	static showLoading(){
+		$("#loadingMask").show();
+	}
+
+	static hideLoading(){
+		$("#loadingMask").hide();
+	}
 }
 
 

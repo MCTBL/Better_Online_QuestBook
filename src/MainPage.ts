@@ -11,6 +11,7 @@ import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
 import { TipsMgr } from "./TipsMgr.js";
+import { Utils } from "./Utils.js";
 
 export class MainPage {
 	private questLine: questLine[] = [];
@@ -29,6 +30,7 @@ export class MainPage {
 
 	constructor() {
 		$(() => {
+			Utils.showLoading();
 			const iframe = $("#mainIframe");
 			iframe.on("load", () => {
 				//iframe加载完成
@@ -92,6 +94,7 @@ export class MainPage {
 				}
 			}
 			this.initMainIframe();
+			Utils.hideLoading();
 		});
 	}
 

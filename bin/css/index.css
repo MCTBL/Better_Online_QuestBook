@@ -171,10 +171,8 @@ body {
 	height: 100vh;
 }
 
-
-
 #tips {
-	z-index: 99;
+	z-index: 50;
 	font-size: 30px;
 	height: 50px;
 	display: flex;
@@ -277,4 +275,16 @@ body {
 	right: 5px;
 	width: 30px;
 	height: 30px;
+}
+
+#loadingMask {
+	width: 100%;
+	height: 100%;
+	background-color: #000000cc;
+	z-index: 99;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
 }
