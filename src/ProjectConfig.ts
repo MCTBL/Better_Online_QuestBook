@@ -6,6 +6,6 @@ export class ProjectConfig {
 	static readonly versionList = ["2.7.2"];
 	static readonly resList = ["272", "270"];
 	static readonly questLinePath = "quest_line.json";
-	static readonly questDataPath = "quest_json.json";
+	static readonly questDataPath = "quest_json";
 }
 (window as any).ProjectConfig = ProjectConfig;

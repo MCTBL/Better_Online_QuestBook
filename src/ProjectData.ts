@@ -17,8 +17,12 @@ export class ProjectData {
 	}
 
 	/**获取任务数据地址 */
-	static getQuestDataPath() {
-		return this.getPath(ProjectConfig.questDataPath);
+	static getQuestDataPath(language: string) {
+		var questDataPath = this.getPath(ProjectConfig.questDataPath);
+		if (language.includes("en")) {
+			questDataPath = questDataPath + "_en";
+		}
+		return questDataPath + ".json";
 	}
 
 	/**默认echarts配置 */

@@ -25,6 +25,8 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [key: string]: quest } = {};
 
+	public language: string;
+
 	constructor() {
 		$(() => {
 			const iframe = $("#mainIframe");
@@ -45,6 +47,7 @@ export class MainPage {
 			});
 			$("#versionSelect").append(option);
 		}
+		this.language = navigator.language;
 	}
 
 	addEvent() {
@@ -77,7 +80,7 @@ export class MainPage {
 	}
 
 	loadQuestData() {
-		$.getJSON(ProjectData.getQuestDataPath(), (data: any) => {
+		$.getJSON(ProjectData.getQuestDataPath(this.language), (data: any) => {
 			this.questAllData = data;
 			for (let key in this.questAllData) {
 				let questList = this.questAllData[key].data;
@@ -109,7 +112,7 @@ export class MainPage {
 				let data: m2qData = {
 					action: msgAction.init,
 					data: {
-						title: quest.title_zh ? quest.title_zh : quest.title,
+						title: this.language.includes("zh") ? quest.title_zh : quest.title,
 						data: this.questAllData[quest.quest],
 					},
 				};
@@ -119,14 +122,13 @@ export class MainPage {
 		});
 		button.data("questData", quest);
 
-		// TODO change to json's icon
 		const img = $("<img>", {
 			src: ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`),
 			class: "questIcon",
 		});
 
 		const txt = $("<span>", {
-			text: quest.title_zh ? quest.title_zh : quest.title,
+			text: this.language.includes("zh") ? quest.title_zh : quest.title,
 			class: "questText",
 		});
 
@@ -150,7 +152,7 @@ export class MainPage {
 			let data: m2qData = {
 				action: msgAction.init,
 				data: {
-					title: quest.title_zh ? quest.title_zh : quest.title,
+					title: this.language.includes("zh") ? quest.title_zh : quest.title,
 					data: questData,
 				},
 			};
@@ -166,7 +168,6 @@ export class MainPage {
 		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
 		iframe.contentWindow!.postMessage(msg, "*");
 	}
-
 
 	//事件
 
@@ -248,7 +249,7 @@ export class MainPage {
 				action: msgAction.showSearchPopup,
 				data: questList,
 			});
-		}else{
+		} else {
 			// 让用户手动取消
 			// this.sendMessageToIframe({
 			// 	action: msgAction.closeSearchPopup,
@@ -257,10 +258,12 @@ export class MainPage {
 		}
 	};
 
-
 	onClosePop = () => {
 		$("#search").val("");
-		this.sendMessageToIframe({ action: msgAction.closeSearchPopup, data: null });
+		this.sendMessageToIframe({
+			action: msgAction.closeSearchPopup,
+			data: null,
+		});
 	};
 	onSearchBlur = () => {};
 }
