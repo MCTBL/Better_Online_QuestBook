@@ -249,11 +249,7 @@ export class MainPage {
 				data: questList,
 			});
 		} else {
-			// 让用户手动取消
-			// this.sendMessageToIframe({
-			// 	action: msgAction.closeSearchPopup,
-			// 	data: null,
-			// });
+			this.onClosePop();
 		}
 	};
 
