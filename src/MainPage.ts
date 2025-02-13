@@ -260,7 +260,11 @@ export class MainPage {
 		if (value) {
 			let questList: quest[] = [];
 			for (let key in this.titleToQuest) {
-				if (key.indexOf(value.toString()) != -1) {
+				if (
+					key
+						.toLocaleUpperCase()
+						.indexOf(value.toString().toLocaleUpperCase()) != -1
+				) {
 					questList.push(this.titleToQuest[key]);
 				}
 			}
