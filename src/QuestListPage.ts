@@ -91,7 +91,7 @@ export class QuestListPage {
 
 	showSearchPopup(res?: quest[]) {
 		$("#questSearchList").empty();
-		if (res) {
+		if (res && res.length) {
 			this.questList = res;
 			this.showSearchList();
 			$("#searchPopup").show();

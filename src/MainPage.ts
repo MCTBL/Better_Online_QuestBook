@@ -290,7 +290,7 @@ export class MainPage {
 				$("#btnCloseSp").animate({ opacity: 1 }, 500);
 			}
 			let questList: quest[] = [];
-			for (let key in this.titleToQuest) {
+			for (let key in this.titleToQuest[ProjectData.language]) {
 				if (
 					key
 						.toLocaleUpperCase()
