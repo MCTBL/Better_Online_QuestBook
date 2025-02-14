@@ -77,6 +77,8 @@ body {
 	width: 40px;
 	height: 40px;
 	color: #5b2312;
+	display: none;
+	opacity: 0;
 }
 
 #versionSelect {
@@ -276,6 +278,14 @@ body {
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
+}
+
+#btnShowMsg {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 5px;
+	right: 5px;
 }
 
 #loadingMask {

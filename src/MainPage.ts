@@ -188,7 +188,6 @@ export class MainPage {
 			for (let i = 0; i < this.buttonList.length; i++) {
 				let btn = this.buttonList[i];
 				let quest: questLine = btn.data("questData");
-				let questData: questData = this.questAllData[ProjectData.language][quest.quest];
 				let title = ProjectData.language == lang.zh ? quest.title_zh : quest.title;
 				btn.find(".questText").text(title!);
 			}
@@ -286,6 +285,10 @@ export class MainPage {
 	onSeachInput = () => {
 		let value = $("#search").val();
 		if (value) {
+			if ($("#btnCloseSp").css("display") == "none") {
+				$("#btnCloseSp").show();
+				$("#btnCloseSp").animate({ opacity: 1 }, 500);
+			}
 			let questList: quest[] = [];
 			for (let key in this.titleToQuest) {
 				if (
@@ -307,6 +310,8 @@ export class MainPage {
 
 	onClosePop = () => {
 		$("#search").val("");
+		$("#btnCloseSp").hide();
+		$("#btnCloseSp").css("opacity", 0);
 		this.sendMessageToIframe({
 			action: msgAction.closeSearchPopup,
 			data: null,
