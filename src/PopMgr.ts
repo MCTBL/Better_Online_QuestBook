@@ -11,12 +11,12 @@ export class PopMgr {
 
 	static onCopyDesc = () => {
 		Utils.copyH5Str(Utils.removeHTMLTags(`${this.nowTitle}\n${this.nowDesc}`));
-		TipsMgr.showTips("复制成功");
+		TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
 	};
 
 	static onCopyId = () => {
 		Utils.copyH5Str(this.nowID);
-		TipsMgr.showTips("复制成功");
+		TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
 	};
 
 	static showPopup(res: quest) {
