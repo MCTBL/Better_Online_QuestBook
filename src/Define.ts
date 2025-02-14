@@ -37,7 +37,13 @@ export enum localEnum {
 	// 	questData = "questData",
 	// 	/**任务数据版本 */
 	// 	questDataVersion = "questDataVersion",
-	selectLanguage = "selectLanguage",
+	/**用户选中的语言 */
+	language = "language",
+}
+
+export enum lang {
+	zh = "zh",
+	en = "en",
 }
 
 /**所有的任务数据 */

@@ -1,4 +1,5 @@
-import { quest } from "./Define.js";
+import { lang, quest } from "./Define.js";
+import { ProjectData } from "./ProjectData.js";
 import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 
@@ -42,12 +43,19 @@ export class PopMgr {
 		$("#popup").off("click");
 		$("#popup").on("click", this.onClickPop);
 
-		$("#copyBtn").off("click");
 		// 绑定点击复制任务详情
+		$("#copyBtn").off("click");
 		$("#copyBtn").on("click", this.onCopyDesc);
 		// 绑定点击复制任务ID
 		$("#copyIdBtn").off("click");
 		$("#copyIdBtn").on("click", this.onCopyId);
+
+
+		$("#copyBtn").text(ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc");
+		$("#copyIdBtn").text(ProjectData.language == lang.zh ? "复制任务ID" : "Copy ID");
+
+
+
 
 		$("btnClosePop").off("click");
 		$("#btnClosePop").on("click", this.hidePopup);

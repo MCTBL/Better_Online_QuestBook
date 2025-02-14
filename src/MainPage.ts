@@ -1,4 +1,5 @@
 import {
+	lang,
 	localEnum,
 	m2qData,
 	msgAction,
@@ -19,14 +20,15 @@ export class MainPage {
 	/**是否展示侧边栏 */
 	private showSidebar: boolean = false;
 	/**所有任务的数据 */
-	private questAllData: questAllData = {};
+	private questAllData: { [lang: string]: questAllData } = {};
 
 	/**标题对应任务数据 */
-	private titleToQuest: { [key: string]: quest } = {};
+	private titleToQuest: { [lang: string]: { [key: string]: quest } } = {};
 	/**任务ID对应任务数据 */
-	private questIdToQuest: { [key: string]: quest } = {};
+	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
-	public language: string;
+
+
 
 	constructor() {
 		$(() => {
@@ -34,10 +36,10 @@ export class MainPage {
 			const iframe = $("#mainIframe");
 			iframe.on("load", () => {
 				//iframe加载完成
+				this.initLang();
 				this.initPage();
 				this.addEvent();
 				this.loadQuestLine();
-				this.initButton();
 			});
 		});
 	}
@@ -50,13 +52,22 @@ export class MainPage {
 			});
 			$("#versionSelect").append(option);
 		}
-		let tempLang = localStorage.getItem(localEnum.selectLanguage);
+	}
 
-		if (tempLang) {
-			this.language = tempLang;
+
+	initLang() {
+		if (localStorage.getItem(localEnum.language)) {
+			if (localStorage.getItem(localEnum.language) == lang.zh) {
+				ProjectData.language = lang.zh;
+			} else {
+				ProjectData.language = lang.en;
+			}
 		} else {
-			this.language = navigator.language;
-			localStorage.setItem(localEnum.selectLanguage, this.language);
+			if (navigator.language.includes("zh")) {
+				ProjectData.language = lang.zh;
+			} else {
+				ProjectData.language = lang.en;
+			}
 		}
 	}
 
@@ -73,19 +84,7 @@ export class MainPage {
 
 		$("#btnCloseSp").on("click", this.onClosePop);
 
-		$("#changeLang").on("click", this.changeLanguage);
-	}
-
-	initButton() {
-		if (this.language.includes("zh")) {
-			$("#copyBtn").append("复制任务描述");
-			$("#copyIdBtn").append("复制任务id");
-			$("#tips").append("复制成功");
-		} else {
-			$("#copyBtn").append("Copy task description");
-			$("#copyIdBtn").append("Copy task ID");
-			$("#tips").append("Copy success");
-		}
+		$("#changeLang").on("click", this.onChangeLang);
 	}
 
 	// 加载任务列表
@@ -102,21 +101,29 @@ export class MainPage {
 	}
 
 	loadQuestData() {
-		$.getJSON(ProjectData.getQuestDataPath(this.language), (data: any) => {
-			this.questAllData = data;
-			for (let key in this.questAllData) {
-				let questList = this.questAllData[key].data;
-				if (questList) {
-					for (let i = 0; i < questList.length; i++) {
-						let quest = questList[i];
-						this.titleToQuest[quest.name] = quest;
-						this.questIdToQuest[quest.quest_id] = quest;
+		if (this.questAllData && this.questAllData[ProjectData.language] != null) {
+			this.initMainIframe();
+		} else {
+			$.getJSON(ProjectData.getQuestDataPath(ProjectData.language), (data: any) => {
+				this.questAllData[ProjectData.language] = data;
+				let allData = this.questAllData[ProjectData.language];
+				let qn: any = {};
+				let qid: any = {};
+				for (let key in allData) {
+					let questList = allData[key].data;
+					if (questList) {
+						for (let i = 0; i < questList.length; i++) {
+							let quest = questList[i];
+							qn[quest.title] = quest;
+							qid[quest.quest_id] = quest;
+						}
 					}
 				}
-			}
-			this.initMainIframe();
-			Utils.hideLoading();
-		});
+				this.titleToQuest[ProjectData.language] = qn;
+				this.questIdToQuest[ProjectData.language] = qid;
+				this.initMainIframe();
+			});
+		}
 	}
 
 	createButton(index: number, quest: questLine) {
@@ -135,8 +142,8 @@ export class MainPage {
 				let data: m2qData = {
 					action: msgAction.init,
 					data: {
-						title: this.language.includes("zh") ? quest.title_zh : quest.title,
-						data: this.questAllData[quest.quest],
+						title: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
+						data: this.questAllData[ProjectData.language][quest.quest],
 					},
 				};
 				this.sendMessageToIframe(data);
@@ -151,7 +158,7 @@ export class MainPage {
 		});
 
 		const txt = $("<span>", {
-			text: this.language.includes("zh") ? quest.title_zh : quest.title,
+			text: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
 			class: "questText",
 		});
 
@@ -161,6 +168,12 @@ export class MainPage {
 	}
 
 	initMainIframe() {
+
+		//处理一些零碎的数据
+		$("#search").val("");
+		$("#search").attr("placeholder", ProjectData.language == lang.zh ? "搜索任务" : "Search Quest");
+
+
 		let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
 		let btn: JQuery<HTMLElement> | undefined;
 		if (selectBtnIndex && this.buttonList && this.buttonList.length) {
@@ -169,22 +182,37 @@ export class MainPage {
 			btn = this.buttonList[0];
 		}
 		btn?.removeClass("unselected").addClass("selected");
+
+
+		if (this.buttonList.length) {
+			for (let i = 0; i < this.buttonList.length; i++) {
+				let btn = this.buttonList[i];
+				let quest: questLine = btn.data("questData");
+				let questData: questData = this.questAllData[ProjectData.language][quest.quest];
+				let title = ProjectData.language == lang.zh ? quest.title_zh : quest.title;
+				btn.find(".questText").text(title!);
+			}
+		}
+
 		let quest: questLine = btn.data("questData");
-		let questData: questData = this.questAllData[quest.quest];
+		let questData: questData = this.questAllData[ProjectData.language][quest.quest];
 		if (questData) {
 			let data: m2qData = {
 				action: msgAction.init,
 				data: {
-					title: this.language.includes("zh") ? quest.title_zh : quest.title,
+					title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
 					data: questData,
 				},
 			};
 			this.sendMessageToIframe(data);
+
+			Utils.hideLoading();
 		} else {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
 		}
 	}
+
 
 	/**发送消息到子域 */
 	sendMessageToIframe(msg: m2qData) {
@@ -201,7 +229,7 @@ export class MainPage {
 				break;
 			case msgAction.showPopup:
 				// 展示任务详情
-				let quest = this.questIdToQuest[data.data];
+				let quest = this.questIdToQuest[ProjectData.language][data.data];
 				if (quest) {
 					PopMgr.showPopup(quest);
 				} else {
@@ -265,7 +293,7 @@ export class MainPage {
 						.toLocaleUpperCase()
 						.indexOf(value.toString().toLocaleUpperCase()) != -1
 				) {
-					questList.push(this.titleToQuest[key]);
+					questList.push(this.titleToQuest[ProjectData.language][key]);
 				}
 			}
 			this.sendMessageToIframe({
@@ -284,15 +312,21 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 
-	changeLanguage() {
-		if (localStorage.getItem(localEnum.selectLanguage)!.includes("zh")) {
-			localStorage.setItem(localEnum.selectLanguage, "en-US");
+
+	onChangeLang = () => {
+		Utils.showLoading();
+		if (ProjectData.language == lang.zh) {
+			ProjectData.language = lang.en;
 		} else {
-			localStorage.setItem(localEnum.selectLanguage, "zh-CN");
+			ProjectData.language = lang.zh;
 		}
-		// $("#mainIframe").trigger("load");
-		location.reload();
+
+		localStorage.setItem(localEnum.language, ProjectData.language);
+
+
+		this.onClosePop();
+		this.loadQuestData();
 	}
 }

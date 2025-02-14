@@ -1,6 +1,14 @@
+import { lang } from "./Define.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 
 export class ProjectData {
+
+
+
+	/**默认为中文 */
+	static language: lang = lang.zh;
+
+
 	static selectVersionIndex: number = 0;
 	static getPath(url: string) {
 		return (
@@ -17,9 +25,9 @@ export class ProjectData {
 	}
 
 	/**获取任务数据地址 */
-	static getQuestDataPath(language: string) {
+	static getQuestDataPath(language: lang) {
 		var questDataPath = this.getPath(ProjectConfig.questDataPath);
-		if (language.includes("en")) {
+		if (language == lang.en) {
 			questDataPath = questDataPath + "_en";
 		}
 		return questDataPath + ".json";
