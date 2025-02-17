@@ -112,9 +112,11 @@ export class QuestListPage {
 				// 	<div class="searchTitle">熟练的神秘使</div>
 				// 	<div class="searchDesc">我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究</div>
 				// </div>
-				if (quest) {
+				if (quest && quest.title != undefined) {
 					let item: JQuery<HTMLElement>;
-					item = $(`<div class="searchItem" data-id="${quest.quest_id}"></div>`);
+					item = $(
+						`<div class="searchItem" data-id="${quest.quest_id}"></div>`
+					);
 					let img = $(
 						`<img class="searchImg" src="${quest.symbol.replace(
 							"image://",
