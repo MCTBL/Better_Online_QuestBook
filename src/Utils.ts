@@ -44,7 +44,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) { }
+		} catch (err) {}
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -132,7 +132,7 @@ export class Utils {
 		} else if (colorcod == "d") {
 			return "#ff55ff"; // 返回对应的颜色
 		} else if (colorcod == "e") {
-			return "#ffff55"; // 返回对应的颜色
+			return "#bebe00"; // 返回对应的颜色
 		} else if (colorcod == "f") {
 			return "#ffffff"; // 返回对应的颜色
 		} else if (colorcod == "g") {
@@ -299,29 +299,32 @@ export class Utils {
 		return textWithUrls;
 	}
 
-
 	static screenshot(node: HTMLElement) {
-		html2canvas(node).then((canvas:any) => {
-			$(canvas).css("position", "fixed").css("top", "0").css("left", "0").css("z-index", "999999").css("background", "rgba(0,0,0,0.5)").css("width", "80%").css("height", "80%").css("cursor", "pointer").click(function () {
-				$(this).remove();
-			});
-			document.body.appendChild(canvas)
+		html2canvas(node).then((canvas: any) => {
+			$(canvas)
+				.css("position", "fixed")
+				.css("top", "0")
+				.css("left", "0")
+				.css("z-index", "999999")
+				.css("background", "rgba(0,0,0,0.5)")
+				.css("width", "80%")
+				.css("height", "80%")
+				.css("cursor", "pointer")
+				.click(function () {
+					$(this).remove();
+				});
+			document.body.appendChild(canvas);
 		});
 	}
 
-	static showLoading(){
+	static showLoading() {
 		$("#loadingMask").show();
 	}
 
-	static hideLoading(){
+	static hideLoading() {
 		$("#loadingMask").hide();
 	}
 }
-
-
-
-
-
 
 //模拟一个简单的weakmap
 class SimpleWeakMap {
