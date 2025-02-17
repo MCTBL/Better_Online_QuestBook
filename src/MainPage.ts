@@ -27,9 +27,6 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
-
-
-
 	constructor() {
 		$(() => {
 			Utils.showLoading();
@@ -53,7 +50,6 @@ export class MainPage {
 			$("#versionSelect").append(option);
 		}
 	}
-
 
 	initLang() {
 		if (localStorage.getItem(localEnum.language)) {
@@ -104,25 +100,28 @@ export class MainPage {
 		if (this.questAllData && this.questAllData[ProjectData.language] != null) {
 			this.initMainIframe();
 		} else {
-			$.getJSON(ProjectData.getQuestDataPath(ProjectData.language), (data: any) => {
-				this.questAllData[ProjectData.language] = data;
-				let allData = this.questAllData[ProjectData.language];
-				let qn: any = {};
-				let qid: any = {};
-				for (let key in allData) {
-					let questList = allData[key].data;
-					if (questList) {
-						for (let i = 0; i < questList.length; i++) {
-							let quest = questList[i];
-							qn[quest.title] = quest;
-							qid[quest.quest_id] = quest;
+			$.getJSON(
+				ProjectData.getQuestDataPath(ProjectData.language),
+				(data: any) => {
+					this.questAllData[ProjectData.language] = data;
+					let allData = this.questAllData[ProjectData.language];
+					let qn: any = {};
+					let qid: any = {};
+					for (let key in allData) {
+						let questList = allData[key].data;
+						if (questList) {
+							for (let i = 0; i < questList.length; i++) {
+								let quest = questList[i];
+								qn[quest.title] = quest;
+								qid[quest.quest_id] = quest;
+							}
 						}
 					}
+					this.titleToQuest[ProjectData.language] = qn;
+					this.questIdToQuest[ProjectData.language] = qid;
+					this.initMainIframe();
 				}
-				this.titleToQuest[ProjectData.language] = qn;
-				this.questIdToQuest[ProjectData.language] = qid;
-				this.initMainIframe();
-			});
+			);
 		}
 	}
 
@@ -142,7 +141,9 @@ export class MainPage {
 				let data: m2qData = {
 					action: msgAction.init,
 					data: {
-						title: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
+						title: ProjectData.language.includes("zh")
+							? quest.title_zh
+							: quest.title,
 						data: this.questAllData[ProjectData.language][quest.quest],
 					},
 				};
@@ -168,11 +169,12 @@ export class MainPage {
 	}
 
 	initMainIframe() {
-
 		//处理一些零碎的数据
 		$("#search").val("");
-		$("#search").attr("placeholder", ProjectData.language == lang.zh ? "搜索任务" : "Search Quest");
-
+		$("#search").attr(
+			"placeholder",
+			ProjectData.language == lang.zh ? "搜索任务" : "Search Quest"
+		);
 
 		let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
 		let btn: JQuery<HTMLElement> | undefined;
@@ -183,18 +185,19 @@ export class MainPage {
 		}
 		btn?.removeClass("unselected").addClass("selected");
 
-
 		if (this.buttonList.length) {
 			for (let i = 0; i < this.buttonList.length; i++) {
 				let btn = this.buttonList[i];
 				let quest: questLine = btn.data("questData");
-				let title = ProjectData.language == lang.zh ? quest.title_zh : quest.title;
+				let title =
+					ProjectData.language == lang.zh ? quest.title_zh : quest.title;
 				btn.find(".questText").text(title!);
 			}
 		}
 
 		let quest: questLine = btn.data("questData");
-		let questData: questData = this.questAllData[ProjectData.language][quest.quest];
+		let questData: questData =
+			this.questAllData[ProjectData.language][quest.quest];
 		if (questData) {
 			let data: m2qData = {
 				action: msgAction.init,
@@ -211,7 +214,6 @@ export class MainPage {
 			TipsMgr.showTips("任务数据异常");
 		}
 	}
-
 
 	/**发送消息到子域 */
 	sendMessageToIframe(msg: m2qData) {
@@ -296,7 +298,10 @@ export class MainPage {
 						.toLocaleUpperCase()
 						.indexOf(value.toString().toLocaleUpperCase()) != -1
 				) {
-					questList.push(this.titleToQuest[ProjectData.language][key]);
+					let tempQuest = this.titleToQuest[ProjectData.language][key];
+					if (tempQuest.title != undefined) {
+						questList.push(tempQuest);
+					}
 				}
 			}
 			this.sendMessageToIframe({
@@ -317,8 +322,7 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => { };
-
+	onSearchBlur = () => {};
 
 	onChangeLang = () => {
 		Utils.showLoading();
@@ -330,8 +334,7 @@ export class MainPage {
 
 		localStorage.setItem(localEnum.language, ProjectData.language);
 
-
 		this.onClosePop();
 		this.loadQuestData();
-	}
+	};
 }
