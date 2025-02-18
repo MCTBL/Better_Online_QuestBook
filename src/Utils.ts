@@ -108,7 +108,9 @@ export class Utils {
 				textDecoration = "none"; // 默认没有下划线或删除线
 				fontStyle = "normal"; // 默认字体不倾斜
 			}
-			var temp = one_match.substr(1);
+
+			var temp = one_match.substr(style == "unknown style" ? 0 : 1);
+
 			if (temp.length != 0) {
 				child.style.color = color;
 				child.style.fontWeight = fontWeight;
