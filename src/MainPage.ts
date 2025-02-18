@@ -124,9 +124,6 @@ export class MainPage {
 						if (questList) {
 							for (let i = 0; i < questList.length; i++) {
 								let quest = questList[i];
-
-								quest.emphasis = ProjectData.emphasis;//似乎不用深拷贝
-
 								qn[quest.title] = quest;
 								qid[quest.quest_id] = quest;
 								// //添加一个假任务
