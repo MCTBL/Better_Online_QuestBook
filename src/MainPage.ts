@@ -1,12 +1,12 @@
 import {
-	lang,
-	localEnum,
-	m2qData,
-	msgAction,
-	quest,
-	questAllData,
-	questData,
-	questLine,
+    lang,
+    localEnum,
+    m2qData,
+    msgAction,
+    quest,
+    questAllData,
+    questData,
+    questLine,
 } from "./Define.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
@@ -64,6 +64,16 @@ export class MainPage {
 			} else {
 				ProjectData.language = lang.en;
 			}
+		}
+		this.initTitle();
+	}
+
+
+	initTitle() {
+		if (ProjectData.language == lang.zh) {
+			document.title = ProjectConfig.projectName_zh;
+		} else {
+			document.title = ProjectConfig.projectName;
 		}
 	}
 
@@ -330,9 +340,12 @@ export class MainPage {
 			ProjectData.language = lang.en;
 		} else {
 			ProjectData.language = lang.zh;
+
 		}
 
 		localStorage.setItem(localEnum.language, ProjectData.language);
+
+		this.initTitle();
 
 		this.onClosePop();
 		this.loadQuestData();

@@ -1,5 +1,6 @@
 export class ProjectConfig {
-	static readonly projectName = "BetterOnlineQuestBook";
+	static readonly projectName = "BetterQuestBook";
+	static readonly projectName_zh = "更好的任务书";
 	static readonly projectVersion = "1.0.0";
 	static readonly projectDescription = "BetterOnlineQuestBook";
 	static readonly projectAuthor = ["MCTBL", "Grievous_Rain"];
