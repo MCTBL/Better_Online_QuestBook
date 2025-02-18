@@ -69,4 +69,5 @@ export type quest = {
 	data: string;
 	quest_id: string;
 	tooltip: string;
+	is_main: number;
 };

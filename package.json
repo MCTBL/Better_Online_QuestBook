@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"debug": "concurrently \"tsc -w\" \"cd bin && anywhere 9191\""
 	},
 	"keywords": [],
 	"author": "",
@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@types/echarts": "^4.9.22",
 		"@types/jquery": "^3.5.32",
-		"anywhere": "^1.6.0"
-	},
-	"dependencies": {}
+		"anywhere": "^1.6.0",
+		"concurrently": "^9.1.2"
+	}
 }

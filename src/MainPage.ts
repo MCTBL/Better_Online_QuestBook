@@ -1,12 +1,12 @@
 import {
-    lang,
-    localEnum,
-    m2qData,
-    msgAction,
-    quest,
-    questAllData,
-    questData,
-    questLine,
+	lang,
+	localEnum,
+	m2qData,
+	msgAction,
+	quest,
+	questAllData,
+	questData,
+	questLine,
 } from "./Define.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
@@ -119,13 +119,25 @@ export class MainPage {
 					let qid: any = {};
 					for (let key in allData) {
 						let questList = allData[key].data;
+						let nameIndex = 0;
+						let fakeQuestList = [];
 						if (questList) {
 							for (let i = 0; i < questList.length; i++) {
 								let quest = questList[i];
 								qn[quest.title] = quest;
 								qid[quest.quest_id] = quest;
+								// //添加一个假任务
+								let fakeQuest = Utils.deepClone(ProjectData.fakeQuest);
+								fakeQuest.x = quest.x;
+								fakeQuest.y = quest.y;
+								fakeQuest.name = nameIndex;// quest.quest_id;
+								nameIndex++;
+								fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
+								fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+								fakeQuestList.push(fakeQuest);
 							}
 						}
+						allData[key].data = fakeQuestList.concat(allData[key].data);
 					}
 					this.titleToQuest[ProjectData.language] = qn;
 					this.questIdToQuest[ProjectData.language] = qid;
@@ -332,7 +344,7 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 
 	onChangeLang = () => {
 		Utils.showLoading();

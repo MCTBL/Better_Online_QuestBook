@@ -33,6 +33,26 @@ export class ProjectData {
 		return questDataPath + ".json";
 	}
 
+
+	/**默认假任务配置 */
+	static readonly fakeQuest =
+		{
+			"name": 5,//顺序
+			"symbolSize": 29,//1.3倍
+			"symbol": "image://static/not_main.png",//main或者notmain
+			"x": 252.0,//任务一致
+			"y": 180.0,//任务一致
+			"emphasis": {
+				"disabled": true
+			},
+			"select": {
+				"disabled": true
+			},
+			"tooltip": {
+				"show": false
+			}
+		};
+
 	/**默认echarts配置 */
 	static readonly echartsConfig = {
 		backgroundColor: "#f5f0d3",
