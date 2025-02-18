@@ -227,6 +227,10 @@ body {
 	overflow-x: hidden;
 }
 
+#questSearchList::-webkit-scrollbar {
+	display: none; /* 对 Webkit 浏览器隐藏滚动条 */
+}
+
 .searchItem {
 	width: 300px;
 	height: 80px;
@@ -235,6 +239,7 @@ body {
 	background-color: #fbf3e0;
 	position: relative;
 	cursor: pointer;
+	scale: 0.95;
 }
 
 .searchItem:hover {
@@ -251,6 +256,7 @@ body {
 
 .searchTitle {
 	position: absolute;
+	top: 5px;
 	left: 80px;
 	font-size: 24px;
 	width: 220px;

@@ -30,9 +30,7 @@ export class PopMgr {
 		$("#popDesc").html(this.nowDesc);
 		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
 
-		$("#popup").css("display", "flex");
-		$("#overlay").css("display", "block");
-		$("#quest_id").css("display", "none");
+
 		$("#mainPage").focus();
 		removeEventListener("keydown", this.onKeyDown);
 		addEventListener("keydown", this.onKeyDown);
@@ -62,6 +60,11 @@ export class PopMgr {
 
 		$("#screenShot").off("click");
 		$("#screenShot").on("click", this.screenShot);
+
+		$("#popup").css("scale", 0.8);
+		$("#overlay").css("display", "flex");
+		$("#popup").animate({ scale: 1 }, 200);
+
 	}
 
 	static processDesc(desc: string): string {
@@ -107,7 +110,6 @@ export class PopMgr {
 	}
 
 	static hidePopup = () => {
-		$("#popup").css("display", "none");
 		$("#overlay").css("display", "none");
 	};
 

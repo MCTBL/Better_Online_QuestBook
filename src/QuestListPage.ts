@@ -38,7 +38,7 @@ export class QuestListPage {
 		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 		this.pageData.series[0].data = res.data.data;
 		this.pageData.series[0].links = res.data.links;
-		$("#questTitle").text(res.title);
+		Utils.typeText("#questTitle", res.title);
 		this.initEcharts();
 	}
 

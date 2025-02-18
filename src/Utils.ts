@@ -1,4 +1,31 @@
 export class Utils {
+
+	private static typingInterval: number | null = null;
+
+	/**打字机 */
+	static typeText(selector: string, text: string, speed: number = 50) {
+		const element = $(selector);
+		element.text("");
+		let index = 0;
+
+		// 清除之前的 interval
+		if (this.typingInterval !== null) {
+			clearInterval(this.typingInterval);
+		}
+
+		this.typingInterval = setInterval(() => {
+			if (index < text.length) {
+				element.append(text.charAt(index));
+				index++;
+			} else {
+				if (!isNaN(Number(this.typingInterval))) {
+					clearInterval(Number(this.typingInterval));
+				}
+				this.typingInterval = null;
+			}
+		}, speed);
+	}
+
 	static rotScreen() {
 		var main = document.getElementById("main")!;
 		window.addEventListener("resize", function () {
@@ -44,7 +71,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) {}
+		} catch (err) { }
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -319,12 +346,14 @@ export class Utils {
 		});
 	}
 
-	static showLoading() {
-		$("#loadingMask").show();
-	}
 
-	static hideLoading() {
-		$("#loadingMask").hide();
+	/**洗牌算法 */
+	static shuffle<T>(array: T[]): T[] {
+		for (let i = array.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
 	}
 }
 

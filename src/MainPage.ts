@@ -8,6 +8,7 @@ import {
 	questData,
 	questLine,
 } from "./Define.js";
+import { EeggMgr } from "./EeggMgr.js";
 import { PopMgr } from "./PopMgr.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 import { ProjectData } from "./ProjectData.js";
@@ -29,7 +30,7 @@ export class MainPage {
 
 	constructor() {
 		$(() => {
-			Utils.showLoading();
+			TipsMgr.showLoading();
 			const iframe = $("#mainIframe");
 			iframe.on("load", () => {
 				//iframe加载完成
@@ -37,8 +38,23 @@ export class MainPage {
 				this.initPage();
 				this.addEvent();
 				this.loadQuestLine();
+				this.showProjectMsg();
 			});
 		});
+	}
+
+
+	showProjectMsg() {
+		setTimeout(() => {
+			console.clear();
+			console.log(
+				`%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc}\n\n%c作者: ${ProjectConfig.projectAuthor}\n\n%c项目地址: ${ProjectConfig.projectUrl}`,
+				"color:#252525; font-size: 30px;",
+				"color:#e12885; font-size: 18px;",
+				"color:#137a7f; font-size: 20px;",
+				"color:#525658; font-size: 16px;"
+			);
+		}, 300);
 	}
 
 	initPage() {
@@ -84,6 +100,7 @@ export class MainPage {
 		addEventListener("keydown", this.onKeyDown);
 
 		$("#logoImg").on("click", this.onClickLogo);
+		$("#logoImg").on("contextmenu", this.onRightClickLogo);
 		$("#search").on("focus", this.onSearchFocus);
 		$("#search").on("blur", this.onSearchBlur);
 		$("#search").on("input", this.onSeachInput);
@@ -230,7 +247,7 @@ export class MainPage {
 			};
 			this.sendMessageToIframe(data);
 
-			Utils.hideLoading();
+			TipsMgr.hideLoading();
 		} else {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
@@ -272,9 +289,14 @@ export class MainPage {
 	};
 
 	onClickLogo = () => {
-		//TODO 随机多次点击才能出现的 添加梦大师语录或者其他彩蛋
-		// this.showTips("GTNH like a job");
+		EeggMgr.showEegg();
 	};
+
+	onRightClickLogo = (evt: Event) => {
+		evt.preventDefault(); //拦截邮件点击
+		evt.stopPropagation(); //拦截事件冒泡
+		console.warn("右键点击");
+	}
 
 	toggleSidebar = () => {
 		this.onClosePop();
@@ -347,7 +369,7 @@ export class MainPage {
 	onSearchBlur = () => { };
 
 	onChangeLang = () => {
-		Utils.showLoading();
+		TipsMgr.showLoading();
 		if (ProjectData.language == lang.zh) {
 			ProjectData.language = lang.en;
 		} else {
