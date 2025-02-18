@@ -33,6 +33,12 @@ export class ProjectData {
 		return questDataPath + ".json";
 	}
 
+	/**任务淡出配置 */
+	static readonly emphasis = {
+		"disabled": true,
+		"scale": 1,
+		"focus": "None"
+	}
 
 	/**默认假任务配置 */
 	static readonly fakeQuest =
