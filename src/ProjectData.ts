@@ -2,12 +2,8 @@ import { lang } from "./Define.js";
 import { ProjectConfig } from "./ProjectConfig.js";
 
 export class ProjectData {
-
-
-
 	/**默认为中文 */
 	static language: lang = lang.zh;
-
 
 	static selectVersionIndex: number = 0;
 	static getPath(url: string) {
@@ -124,6 +120,11 @@ export class ProjectData {
 				edgeSymbol: ["circle", "arrow"],
 				edgeSymbolSize: 10,
 				links: null,
+				emphasis: {
+					disabled: true,
+					scale: 1,
+					focus: "None",
+				},
 			},
 		],
 		legend: [
