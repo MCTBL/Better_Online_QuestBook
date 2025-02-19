@@ -1,6 +1,6 @@
 export class Utils {
 
-	private static typingInterval: number | null = null;
+	private static typingInterval: any = null;
 
 	/**打字机 */
 	static typeText(selector: string, text: string, speed: number = 50) {
