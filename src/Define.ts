@@ -1,3 +1,5 @@
+import { ProjectConfig } from "./ProjectConfig";
+
 /**任务栏 */
 export type questLine = {
 	title: string;
@@ -70,5 +72,4 @@ export type quest = {
 	quest_id: string;
 	tooltip: string;
 	is_main: number;
-	emphasis:any;
 };

@@ -11,12 +11,16 @@ export class PopMgr {
 
 	static onCopyDesc = () => {
 		Utils.copyH5Str(Utils.removeHTMLTags(`${this.nowTitle}\n${this.nowDesc}`));
-		TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
+		TipsMgr.showTips(
+			ProjectData.language == lang.zh ? "复制成功" : "Copy Success"
+		);
 	};
 
 	static onCopyId = () => {
 		Utils.copyH5Str(this.nowID);
-		TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
+		TipsMgr.showTips(
+			ProjectData.language == lang.zh ? "复制成功" : "Copy Success"
+		);
 	};
 
 	static showPopup(res: quest) {
@@ -29,7 +33,6 @@ export class PopMgr {
 		$("#popTitle").html("<h1>" + this.nowTitle + "</h1>");
 		$("#popDesc").html(this.nowDesc);
 		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
-
 
 		$("#mainPage").focus();
 		removeEventListener("keydown", this.onKeyDown);
@@ -48,12 +51,12 @@ export class PopMgr {
 		$("#copyIdBtn").off("click");
 		$("#copyIdBtn").on("click", this.onCopyId);
 
-
-		$("#copyBtn").text(ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc");
-		$("#copyIdBtn").text(ProjectData.language == lang.zh ? "复制任务ID" : "Copy ID");
-
-
-
+		$("#copyBtn").text(
+			ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc"
+		);
+		$("#copyIdBtn").text(
+			ProjectData.language == lang.zh ? "复制任务ID" : "Copy ID"
+		);
 
 		$("btnClosePop").off("click");
 		$("#btnClosePop").on("click", this.hidePopup);
@@ -64,7 +67,14 @@ export class PopMgr {
 		$("#popup").css("scale", 0.8);
 		$("#overlay").css("display", "flex");
 		$("#popup").animate({ scale: 1 }, 200);
+	}
 
+	static showInfoPopup(): void {
+		this.showPopup(
+			ProjectData.language.includes("zh")
+				? (ProjectData.infoQuest[1] as quest)
+				: (ProjectData.infoQuest[0] as quest)
+		);
 	}
 
 	static processDesc(desc: string): string {

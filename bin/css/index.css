@@ -296,6 +296,7 @@ body {
 	height: 40px;
 	bottom: 5px;
 	right: 5px;
+	cursor: pointer;
 }
 
 #loadingMask {

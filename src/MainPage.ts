@@ -43,12 +43,11 @@ export class MainPage {
 		});
 	}
 
-
 	showProjectMsg() {
 		setTimeout(() => {
 			console.clear();
 			console.log(
-				`%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc}\n\n%c作者: ${ProjectConfig.projectAuthor}\n\n%c项目地址: ${ProjectConfig.projectUrl}`,
+				`%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc_zh}\n\n%c作者: ${ProjectConfig.projectAuthor}\n\n%c项目地址: ${ProjectConfig.projectUrl}`,
 				"color:#252525; font-size: 30px;",
 				"color:#e12885; font-size: 18px;",
 				"color:#137a7f; font-size: 20px;",
@@ -84,7 +83,6 @@ export class MainPage {
 		this.initTitle();
 	}
 
-
 	initTitle() {
 		if (ProjectData.language == lang.zh) {
 			document.title = ProjectConfig.projectName_zh;
@@ -108,6 +106,8 @@ export class MainPage {
 		$("#btnCloseSp").on("click", this.onClosePop);
 
 		$("#changeLang").on("click", this.onChangeLang);
+
+		$("#btnShowMsg").on("click", this.onClickInfo);
 	}
 
 	// 加载任务列表
@@ -147,10 +147,13 @@ export class MainPage {
 								let fakeQuest = Utils.deepClone(ProjectData.fakeQuest);
 								fakeQuest.x = quest.x;
 								fakeQuest.y = quest.y;
-								fakeQuest.name = nameIndex;// quest.quest_id;
+								fakeQuest.name = nameIndex; // quest.quest_id;
 								nameIndex++;
 								fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
-								fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+								fakeQuest.symbol =
+									"image://static/" +
+									(quest.is_main == 1 ? "main" : "not_main") +
+									".png";
 								fakeQuestList.push(fakeQuest);
 							}
 						}
@@ -296,7 +299,7 @@ export class MainPage {
 		evt.preventDefault(); //拦截邮件点击
 		evt.stopPropagation(); //拦截事件冒泡
 		console.warn("右键点击");
-	}
+	};
 
 	toggleSidebar = () => {
 		this.onClosePop();
@@ -366,7 +369,7 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();
@@ -374,7 +377,6 @@ export class MainPage {
 			ProjectData.language = lang.en;
 		} else {
 			ProjectData.language = lang.zh;
-
 		}
 
 		localStorage.setItem(localEnum.language, ProjectData.language);
@@ -384,4 +386,8 @@ export class MainPage {
 		this.onClosePop();
 		this.loadQuestData();
 	};
+
+	onClickInfo() {
+		PopMgr.showInfoPopup();
+	}
 }
