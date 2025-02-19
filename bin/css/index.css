@@ -310,3 +310,8 @@ body {
 	align-items: center;
 	position: fixed;
 }
+
+.githubLink {
+	text-decoration: none;
+	color: inherit;
+}

@@ -47,9 +47,11 @@ export class PopMgr {
 		// 绑定点击复制任务详情
 		$("#copyBtn").off("click");
 		$("#copyBtn").on("click", this.onCopyDesc);
+		$("#copyBtn").css("display", "block");
 		// 绑定点击复制任务ID
 		$("#copyIdBtn").off("click");
 		$("#copyIdBtn").on("click", this.onCopyId);
+		$("#copyIdBtn").css("display", "block");
 
 		$("#copyBtn").text(
 			ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc"
@@ -75,6 +77,8 @@ export class PopMgr {
 				? (ProjectData.infoQuest[1] as quest)
 				: (ProjectData.infoQuest[0] as quest)
 		);
+		$("#copyBtn").css("display", "none");
+		$("#copyIdBtn").css("display", "none");
 	}
 
 	static processDesc(desc: string): string {
