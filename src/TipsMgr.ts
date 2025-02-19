@@ -1,5 +1,5 @@
 export class TipsMgr {
-	static tipsTimer: number = 0;
+	static tipsTimer: any = 0;
 	static showTips(msg: string) {
 		const chineseCharCount = (msg.match(/[\u4e00-\u9fa5]/g) || []).length;
 		const otherCharCount = msg.length - chineseCharCount;
