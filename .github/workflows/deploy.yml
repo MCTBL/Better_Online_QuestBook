@@ -23,6 +23,9 @@ jobs:
           npm install
           npm install -g typescript
 
+      - name: install
+        run: tsc -v
+
       - name: tsc
         run: tsc
 
