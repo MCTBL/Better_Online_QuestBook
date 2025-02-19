@@ -23,7 +23,7 @@ jobs:
           npm install
           npm install -g typescript
 
-      - name: install
+      - name: check tsc
         run: tsc -v
 
       - name: tsc
