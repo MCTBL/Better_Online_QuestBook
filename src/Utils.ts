@@ -83,7 +83,7 @@ export class Utils {
 	static encodeMsg2AHref(msg: string): string {
 		return msg.replace(
 			/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g,
-			'<a href="$1">$1</a>'
+			'<a href="$1" target="_blank">$1</a>'
 		);
 	}
 

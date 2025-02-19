@@ -88,7 +88,7 @@ export class PopMgr {
 			if (temp[i] !== undefined) {
 				if (i % 2 === 1 && temp[i].trim().length > 0) {
 					let temp_str = temp[i];
-					new_desc += `<a href="${temp_str}">${temp_str}</a>`;
+					new_desc += `<a href="${temp_str}" target="_blank">${temp_str}</a>`;
 				} else {
 					new_desc += temp[i];
 				}
