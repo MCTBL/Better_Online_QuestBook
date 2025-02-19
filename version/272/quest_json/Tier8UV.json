@@ -1,0 +1,722 @@
+{
+    "data": [
+        {
+            "name": "复制细菌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2714.png",
+            "x": 120.0,
+            "y": 264.0,
+            "data": "复制细菌需要准备%n1)一个无菌培养皿%n2)一个质膜(由干细胞制成,或在制作酶溶液时获得)%n3)干细胞%n4)相应数据球%n5)液态DNA%n6)一台UV生物实验室%n7)克隆细胞合成模块%n%n数据球可以改换为任意想要复制的细菌数据. 请记住,以常规方式获得第二个细菌培养皿可能会更容易,并且通常存在一种替代方法,该方法可以利用其产生的液体使其具有更高的成功几率.%n%nPS： 此配方是唯一使用模块的配方,所以你可以一眼就看到,但数字会改变,所以我无法准确指出在哪个页面.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKmg==",
+            "tooltip": "<strong>复制细菌</strong></br>前置任务需求:</br>复制细菌-数据球"
+        },
+        {
+            "name": "承认吧,UV阶段你喜欢的Pt 1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2614.png",
+            "x": 516.0,
+            "y": 60.0,
+            "data": "你还好吗? 你的肝还在吗? 你的头发还在吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKNg==",
+            "tooltip": "<strong>承认吧,UV阶段你喜欢的Pt 1</strong></br>前置任务需求:</br>第8阶段(UV)"
+        },
+        {
+            "name": "承认吧,UV阶段你喜欢的Pt 2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2615.png",
+            "x": 288.0,
+            "y": 276.0,
+            "data": "试着不时出门吧,那会很有趣的! 除非你患有广场恐惧症.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKNw==",
+            "tooltip": "<strong>承认吧,UV阶段你喜欢的Pt 2</strong></br>前置任务需求:</br>第8阶段(UV)"
+        },
+        {
+            "name": "晶体SoC的进阶生产方法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8574346973951287410.png",
+            "x": 288.0,
+            "y": 120.0,
+            "data": "我们可以通过在激光蚀刻机中再蚀刻一遍晶体芯片来获得晶体SoC.随着电路板需求日益增长,这种方法也显得力不从心了.有没有什么更先进的方法能够批量生产晶体SoC？%n%n这里有一种新材料：掺铈镥铝石榴石(Ce:LuAG)%n镥铝石榴石在制作晶体SoC方面有着更好的性能表现.(实际上LuAG是一种激光材料)如果你需要更快的生产晶体SoC的速度,用镥铝石榴石应该是一个不错的主意.%n%n第一步将镥、铝、氧和一点铈搅拌混合得到\"混合物\",然后将混合物和熔融镥一并放入高压釜中,得到第一颗镥铝石榴石宝石.如果你已经获得了气奥你也可以直接用气奥.然后用镥铝石榴石宝石和镥铝氧混合物在高压釜中继续生产得到精致的镥铝石榴石.%n%n搞定第一颗宝石后,你当然可以继续用高压釜进行晶体生长生产.不过,用真空炉生产精致镥铝石榴石应该是一个更好的选择.当然,这取决于你的喜好.%n%n镥啊，镥，需要一大堆的镥.你怎么获取这一大堆镥呢？钍裂变或许有点过时了.看看Bee养的？或者镧系纳米萃取科技？",
+            "quest_id": "yo1cuNvYSU2JAczbJLAfjg==",
+            "tooltip": "<strong>晶体SoC的进阶生产方法</strong></br>前置任务需求:</br>更便宜的IV电路"
+        },
+        {
+            "name": "一切美好的事物...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2647.png",
+            "x": 600.0,
+            "y": 144.0,
+            "data": "T7火箭. 很好,只剩一个了. 在那之前,新的星球有: 妊神星、柯伊伯带、鸟神星和冥王星.%n%n冥王星在柯伊伯带之前,而妊神星和鸟神星在其后.%n%n新矿脉有黑钚、石榴石和红石榴石矿脉. 新矿石有: 黑钚、硼砂、白石棉、石榴石、下界之星、雄黄、红石榴石和黄石榴石.%n%n别忘了星球石头!%n%n最后一阶火箭设计图在冥王星. 这也是最后一个地牢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKVw==",
+            "tooltip": "<strong>一切美好的事物...</strong></br>前置任务需求:</br>7阶火箭</br>第8阶段(UV)"
+        },
+        {
+            "name": "镅掺杂的晶圆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2041.png",
+            "x": 516.0,
+            "y": 264.0,
+            "data": "这些是目前的终极晶圆,也是最高效的晶圆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH-Q==",
+            "tooltip": "<strong>镅掺杂的晶圆</strong></br>前置任务需求:</br>用等离子净化水"
+        },
+        {
+            "name": "生物仓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3274.png",
+            "x": 72.0,
+            "y": 0.0,
+            "data": "随着新技术投入运用,我得制造一个新仓室,存储湿件基板和正在研发的生物基板所需的神经元.%n%n生物仓是一次简单的升级,它无需太多资源.不明白为什么我没有早把它做出来.%n%n[note]可使用任意玻璃.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMyg==",
+            "tooltip": "<strong>生物仓</strong></br>前置任务需求:</br>PCB工厂"
+        },
+        {
+            "name": "更便宜的IV电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2638.png",
+            "x": 324.0,
+            "y": 120.0,
+            "data": "晶体SoC让晶体处理器的成本大大降低.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKTg==",
+            "tooltip": "<strong>更便宜的IV电路</strong></br>前置任务需求:</br>UV能源仓"
+        },
+        {
+            "name": "电路,组装!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2635.png",
+            "x": 288.0,
+            "y": 60.0,
+            "data": "想要制造湿件系列电路板(UHV等级的电路板),你需要制造ZPM电路组装机.%n%n什么? 你觉得有了多方块就可以跳过这些单方块的升级? 好吧,太遗憾了! 用于铭刻的第一块电路板必须使用单方块电路组装机才能做出来...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKSw==",
+            "tooltip": "<strong>电路,组装!</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 2</br>第8阶段(UV)"
+        },
+        {
+            "name": "复制细菌-数据球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2713.png",
+            "x": 120.0,
+            "y": 216.0,
+            "data": "获取样品瓶后,你需要将信息编码写入数据球. 同样,很多时候你得反复进行多次尝试(写入失败的数据球会返还),但是写入这种样品瓶数据的成功率是100％.%n%n[note]请查看大肠杆菌样品瓶的用途以获知配方.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKmQ==",
+            "tooltip": "<strong>复制细菌-数据球</strong></br>前置任务需求:</br>复制细菌-DNA样品瓶"
+        },
+        {
+            "name": "复制细菌-DNA样品瓶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2712.png",
+            "x": 120.0,
+            "y": 168.0,
+            "data": "DNA样品瓶是复制细菌的必需品. 大部分样品瓶的制取几率都很低,但这种是100％. 我相信你可以自己弄清楚的,但请记住,模块不会被消耗,另外某种IC2作物可作为洗涤粉的材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKmA==",
+            "tooltip": "<strong>复制细菌-DNA样品瓶</strong></br>前置任务需求:</br>复制细菌-液体"
+        },
+        {
+            "name": "提取你想要的",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4661739323824919812.png",
+            "x": 258.0,
+            "y": -6.0,
+            "data": "直接在煮解池中将镧系矿石氯化溶解得到对应矿石的浓缩液。然后用对应的萃取用纳米树脂提取溶液中的主要材料，剩下的（氯化稀土浓缩液）中有用的镧系元素仍然非常富集。%n%n你可以用任何种类的萃取纳米树脂来提取余下溶液中有用的部分。用什么纳米树脂，就能得到什么镧系材料。每桶氯化稀土浓缩液可以进行三次这种萃取。第一次浓缩液处理成富集液，然后富集液处理成稀释液，最后得到废液。%n%n在萃取过后，纳米树脂会变成 \"满溢的\" 状态。将这些\"满溢的\"纳米树脂放入电解机，纳米蜂群会在电场的影响下将树脂中存储的\"粒子\"转移出来。然后你可以得到纳米树脂并将他们投入到下一轮工作当中，一遍又一遍循环往复，且没有休息时间。%n%n是的，稀土，不再稀有。赞美纳米科技！",
+            "quest_id": "LzCq9t0cT4-_TizIr_Iq_A==",
+            "tooltip": "<strong>提取你想要的</strong></br>前置任务需求:</br>纳米树脂 - 粒子收集者"
+        },
+        {
+            "name": "复制细菌-液体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2711.png",
+            "x": 120.0,
+            "y": 120.0,
+            "data": "好吧,你可以说已经获得了不少种类的细菌培养皿,但你想要更多么? 在细菌培养缸中仅需要一个,因为它不会被消耗; 但制备DNA样品瓶的时候可就会消耗了,所以你得学学如何复制它们.%n%n首先,你需要大肠杆菌培养皿.%n%n然后再制出大肠杆菌液体.[note](名字看起来有点不同,不过问题不大)[/note]%n%n将其离心以获得液态DNA.%n%n再与氡搅拌混合即可获得荧光DNA(FluorecentdDNA).%n%n大肠杆菌液体还可以离心获得质膜[Plasma-Membranes](10％几率)和酶溶液[EnzymesSollution],一起试试吧.%n%n再次离心酶溶液即可获得聚合酶(Polymerase).%n%n要是你打算复制许多细菌培养皿或者挑战一下概率的话,你就需要一大批大肠杆菌液体.%n%n想要获知复制细菌相关物品需求,请搜索'培养皿'、'DNA样品瓶'或'质粒'. 光有数据球可没法存储这些复杂的数据,请查看DNA样品瓶的用途.%n%n一堆液体拼写错误,别怪我.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKlw==",
+            "tooltip": "<strong>复制细菌-液体</strong></br>前置任务需求:</br>消毒!,杀菌!"
+        },
+        {
+            "name": "通用酵母菌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2715.png",
+            "x": 120.0,
+            "y": 312.0,
+            "data": "如果你在NEI中查询如何制作,你可能会感到很困惑--需要用它制造出的液体来制造它. NEI骗了你. 与之前的配方一样,NEI没有正确显示配方(这些配方应该在NEI的同一页附近,它俩似乎也可用于生产无菌培养皿,(虽然有点不对...) 而且还要求奇怪的模块).%n%n你需要制作出腐肉菌,获取DNA样品瓶,然后得到数据球. 名字变为了(β-内酰胺酶),这是正常现象.%n%n然后,对普通酵母做同样的事情(得到正确的酵母!).%n%n然后,你需要使用某种配方来组合来自数据球的信息,并从中获取普通酵母质粒.%n%n最后,将腐肉菌,普通酵母质粒,青霉素(通过离心普通酵母菌液体获得),以及蒸馏水. 为此你需要转换模块. 100％成功.%n%n用普通配方制取更多培养皿吧,因为当你把它转化成DNA样品瓶的时候,它会变成β-内酰胺酶...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKmw==",
+            "tooltip": "<strong>通用酵母菌</strong></br>前置任务需求:</br>复制细菌"
+        },
+        {
+            "name": "高能激光纯化",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7118851089254229135.png",
+            "x": 432.0,
+            "y": 336.0,
+            "data": "为了获得更纯净的水,您需要使用强激光来精确轰击水并去除杂质.与以往的[Waterline]一样,这个多方块提出了一个复杂的自动化难题.",
+            "quest_id": "WqDynhbQQ4GdNMKm0BlbcQ==",
+            "tooltip": "<strong>高能激光纯化</strong></br>前置任务需求:</br>用等离子净化水"
+        },
+        {
+            "name": "智能电路",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2652.png",
+            "x": 24.0,
+            "y": 168.0,
+            "data": "湿件电路板的另一组件就是神经元处理器. 需要使用装配线合成.%n%n*我不会告诉你所需的材料,但我可以告诉你需要准备250L无菌培养基、250L-UU物质和1000L冷却液.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKXA==",
+            "tooltip": "<strong>智能电路</strong></br>前置任务需求:</br>能够维生的基板"
+        },
+        {
+            "name": "套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1202.png",
+            "x": 360.0,
+            "y": 444.0,
+            "data": "想要制造鿫, 你首先需要制造锎. 锎由铍和钚239聚变而来. 在两步聚变反应之后, 你得到了在整个整合包中最好的惰性气体, 可以用于很多场合. %n%n在这个阶段, 你可以将它输入虚空采矿场来增加采矿速度, 或是电力高炉来使其运行的更快, 尽管电力高炉的增益目前还很弱 (将来很快会改变). 随后, 鿫可以被用于其他地方, 比如光学电路板, 或是制造亚稳态鿫, 这会在日后大量使用. %n%n鿫的复制正在被淘汰, 聚变配方得到了大幅增强, 所以你不必再继续复制, 同时你的聚变反应堆应该持续制造鿫.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsg==",
+            "tooltip": "<strong>套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)</strong></br>前置任务需求:</br>聚变反应堆MK3-升级"
+        },
+        {
+            "name": "凯芙拉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3282.png",
+            "x": 600.0,
+            "y": 192.0,
+            "data": "凯夫拉可以用于部分高阶材料合成. 虽然凯夫拉产线又臭又长, 但是nei足以帮助你完成这坨东西. %n%n[note]提示: 如果不想做这条52步长的产线, 你或许可以看看凯夫拉蜂. 如果你的科技等级足够高的话(UMV+), 量子操纵者的配方也可以帮你跳过这一切.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM0g==",
+            "tooltip": "<strong>凯芙拉</strong></br>前置任务需求:</br>第8阶段(UV)"
+        },
+        {
+            "name": "终于不需要修机器了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1840.png",
+            "x": 168.0,
+            "y": 276.0,
+            "data": "有了这个,你再也不用处理多方块机器的维护问题了,它也不会消耗零件. 当然,这玩意造起来可不便宜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHMA==",
+            "tooltip": "<strong>终于不需要修机器了!</strong></br>前置任务需求:</br>研究站"
+        },
+        {
+            "name": "1阶纳米锻炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3279.png",
+            "x": 120.0,
+            "y": 0.0,
+            "data": "一定有种方式,可以让纳米机器人,在机器中参与加工.虽说可以在装配线中制造碳纳米蜂群,但效率极低.一定还有更好的方式.%n%n这台纳米锻炉如何,它能够将方块切割成纳米级薄片,然后制成第一个纳米蜂群,而生产出来的纳米蜂群又可以参与制造,几秒内即可造出数以千计的同类.%n%n[note]纳米锻炉是一台庞大的多方块机器,在几分钟内需要消耗更加庞大的能量.支持TecTech的多A能源仓/激光仓.需要在控制器的GUI中放入一个碳纳米蜂群,方可解锁1阶配方.[/note]%n%n[note]另外,NEI中纳米锻炉配方没有最低电压要求.如果你想要让配方正常运行,只需达到其功率即可,不用管电压.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMzw==",
+            "tooltip": "<strong>1阶纳米锻炉</strong></br>前置任务需求:</br>消毒!,杀菌!"
+        },
+        {
+            "name": "纳米树脂 - 粒子收集者",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4804005527088963644.png",
+            "x": 210.0,
+            "y": -6.0,
+            "data": "将纳米蜂群分布在P-507中然后在激光蚀刻机的高能激光环境中为其标记目标粒子信息，我们就得到了萃取用基元，称之为 \"纳米树脂\"。%n%n这些纳米蜂群会自动收集溶液中的目标粒子并将其储存在树脂当中。值得注意的是实际生产速度将会受纳米蜂群数量的限制，所以如果你想用这种方法大规模生产镧系资源，你需要准备更多的纳米树脂。%n%n这里是所有的十五种萃取用纳米树脂。",
+            "quest_id": "gKMT2pblSg69VL5tAtlfxA==",
+            "tooltip": "<strong>纳米树脂 - 粒子收集者</strong></br>前置任务需求:</br>纳米科技加持镧系生产"
+        },
+        {
+            "name": "来自空间中的中子素",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2673.png",
+            "x": 612.0,
+            "y": 276.0,
+            "data": "现在让我们来制作宇宙中子态素,它大量用于游戏后期物品的制造.%n离心黑钚有几率获得中子态素尘埃. 再通过聚爆压缩机将其制成中子态素颗粒.%n%n将颗粒再次聚爆最终可获得中子态素锭.%n%n[note]无尽贪婪的中子态素锭和GT的宇宙中子态素锭共用矿辞,它们不同于GT的中子锭.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKcQ==",
+            "tooltip": "<strong>来自空间中的中子素</strong></br>前置任务需求:</br>第8阶段(UV)"
+        },
+        {
+            "name": "PCB工厂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3273.png",
+            "x": 24.0,
+            "y": 0.0,
+            "data": "之前,所有电路基板都是在化学反应釜中制造的.该做出改变了,一定还有一种更高效的制造方式.经过几天的研究,我找到它了,一座专门印制电路基板的工厂.%n%nPCB工厂可以使用各种塑料,制造出各种可用的电路基板. 印制机构在尝试超频时过热了,所以我得继续寻找解决办法. 另外带有神经元的基板也还需一段的时间才能实现印制,但这并不难实现.%n%n线宽：线宽指基板上各组件之间,传输电信号所用的金属线宽.可以缩小线宽,节省资源但降低加工速度;或是增大线宽,加速制造但消耗更多资源.%n%n公式：%n- 产量",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMyQ==",
+            "tooltip": "<strong>PCB工厂</strong></br>前置任务需求:</br>能够维生的基板"
+        },
+        {
+            "name": "用等离子净化水",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7613245622972716356.png",
+            "x": 432.0,
+            "y": 264.0,
+            "data": "和往常一样,在利用镅制造更好的晶圆之前,你需要更好的纯净水.这一次,我们将使用等离子体来快速加热水,然后再将其冷却下来.%n%n有些机制可能与你设置pH中和处理的方法相似,也许你可以扩展一下你在那里学到的知识?%n%n[note]这个多方块机器对等离子体和冷却剂输入仓室的位置非常挑剔.如果你不知道它为什么不成型,很可能是你忘了将这些仓室放在正确的位置.使用全息投影仪查看它们的位置.[/note]",
+            "quest_id": "pMGI_sXdQSKWWFFxTunqvA==",
+            "tooltip": "<strong>用等离子净化水</strong></br>前置任务需求:</br>UV能源仓"
+        },
+        {
+            "name": "量子计算机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2007.png",
+            "x": 216.0,
+            "y": 168.0,
+            "data": "量子计算机(QC)是一种极其复杂的机器,主要用于为研究站和其他一些多方块机器生成算力.在使用之前,你需要了解一些事情.%n%n建造指示. 与装配线一样,量子计算机也是以一系列切片的形式构建的.第一片和最后一片是基础舱室的唯一的有效位置.中间的切片主要用于安装计算机机架.多块结构全息投影仪会显示最小长度的量子计算机,但同时持有多个投影仪会显示/构建更长的版本,最大长度可达16.在计算机散热风扇前还有一个强制性的空气块.%n%n输出. 对于某些配方来说,计算不过是一个整数输入--就像EU一样.可能存在最低吞吐量要求、需要达到的阈值或两者兼而有之(NEI会告诉你一切).量子计算机每秒都会产生算力,由光传输连接器传输,由光接收连接器接收,并由需要它的机器或流程“消耗”.没有方法可以存储算力,同一时间只能有一个传输或接收舱口连接到同一根光纤电缆上.如果绝对有必要,带有QOS的网络交换机可以拆分/连接,但要知道,它的运行既需要电力,也需要维护.%n%n机器之间可以使用另一组光传输和光接收连接器将附加的量子计算机串联起来,但它们不能共用同一个光传输连接器.%n%n未定元. 量子计算机有一个独特的维护要求,只有通过平衡未定元解析器内的薛定谔矩阵才能纠正--这是一个额外的仓室,必须安装在机器的第一或最后一片上.从基本的“未定元解析器”开始,不过后面还可以解锁两种升级版的仓室,这两种先进未定元解析器会降低谜题的难度,或者直接杀死谜题?%n%n未定元解析器的界面中间是薛定谔矩阵,左右两边各有8个按钮.点击一个按钮,再点击另一个按钮,就能切换矩阵中相应两个单元格的状态.这意味着切换它们的闪烁速度(在基础未定元解析器中)或颜色(在未定元解析器X中).谜题的目标是平衡矩阵中发光LED灯周围的状态,使所有的LED灯都变成绿色.%n%n可调参数. 在控制器的GUI中,有两个可配置的参数,即超频比和过压比,它们可以改变计算和发热的方式.超频比越高,计算量越大,过压比越高,发热量越大.单独来看,这将鼓励玩家尽可能提高超频,尽可能降低过电压,但这两个参数之间的巨大差异会对计算产生影响.此外,过压比小于1会导致QC随机降低算力,降低的幅度与它与1的距离成正比.我们强烈建议您仔细研究这些参数,因为所有最佳设置都会这样做.%n%n请参阅相邻的任务,了解有关计算机机架和生成算力的更多信息.%n%nWIKI 量子计算机：gtnh.huijiwiki.com/p/506%n(编者注:2.7.0重做了量子计算机,wiki内容可能过时)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH1w==",
+            "tooltip": "<strong>量子计算机</strong></br>前置任务需求:</br>UV能源仓</br>毕业之路的开端"
+        },
+        {
+            "name": "量子力学有点热",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2699.png",
+            "x": 168.0,
+            "y": 168.0,
+            "data": "量子计算机(QC)根据机器的长度有2到24个计算机箱。每个计算机箱有四个插槽，可以放置电路板(用于产生热量和计算)或散热片(用于散热).虽然概念上类似于核反应堆,但组件的具体位置并不重要.每个计算机箱都是独立的,这意味着不可能有一个计算机箱全部放电路.另一个计算机箱全部放散热片.%n%n计算机箱的计算能力是所有组件单独计算的总和.例如,两个APU(T3)和两个冷却核心的计算能力为 240 + 240 + 0 + 0",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKiw==",
+            "tooltip": "<strong>量子力学有点热</strong></br>前置任务需求:</br>量子计算机"
+        },
+        {
+            "name": "量子功率IC",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2633.png",
+            "x": 516.0,
+            "y": 384.0,
+            "data": "量子功率IC用于制造UEV->UIV和UIV->UMV变压器,以及UHV能源仓和动力仓.%n%n[note]你需要一台UHV切割机或是合适电压的多方块机器(工业切割机)来切割晶圆.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKSQ==",
+            "tooltip": "<strong>量子功率IC</strong></br>前置任务需求:</br>镅掺杂的晶圆"
+        },
+        {
+            "name": "研究站",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2008.png",
+            "x": 216.0,
+            "y": 276.0,
+            "data": "既然你已经开始构建你珍贵的量子计算机了,再加上研究站怎么样?同样的步骤,让全息投影仪告诉你如何构建这台多方块机器(主方块下方至少要有3格空间,这样你才能看到完整的结构显示).结构快要完成时,在背部放下一个能源仓、一个副光学接口和一个维护仓.%n%n结构彻底完成后,只要量子计算机开着,你就可以随时扫描(当然需要正确连接).你需要将被扫描物品放进物品固定容器中,然后将一个闪存放入主方块右下角的槽位中.当运算全部结束后,装有被扫描物品所有数据的闪存就会出现在主方块里.%n%n还听不明白?很好,这就是探究精神!  如果你想获得精确的测量结果,一定要在单机测试这些危险的东西.%n%n不要忘了为你的光纤涂色,否则它将不会连接!%n%n译者注:运行过程中不要拆掉任何方块,否则就会爆炸!%n%n[note]请注意,有些研究需要非常夸张的电流.[/note]%n%n WIKI 研究站：gtnh.huijiwiki.com/p/527",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH2A==",
+            "tooltip": "<strong>研究站</strong></br>前置任务需求:</br>量子计算机"
+        },
+        {
+            "name": "太空电梯",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3283.png",
+            "x": 288.0,
+            "y": 468.0,
+            "data": "太空电梯是一个模块化结构.它可以安装不同的太空电梯模块,以承担如挖矿/抽取流体/组装等不同的任务.%n%n开始时,你的太空电梯将拥有6个模块插槽.通过升级结构中的加速轨道方块,加速轨道Mk-III将使你的太空电梯支持12个模块插槽,加速轨道Mk-V将扩展太空电梯至24个模块插槽.加速轨道方块的等级也将影响能使用的太空电梯模块的最高等级.模块之间不共享I/O,即每个模块的界面中只能看到自己的I/O插槽.为了启动太空电梯,你只需要为其中央结构供能,能量将自动分配给所有已插入的模块.%n%n插入模块并为其提供正确的I/O后,可以使用参数对其进行进一步配置.%n%n你可以在NEI查看哪些流体可以通过太空钻机模块抽取.它在工作时将消耗1A-UHV.气体类型和行星类型是你需要调节的参数.%n%n在NEI中还可以查看太空采矿模块可以获得的所有矿石.部署无人机,安装目标矿物所需要的钻头和连杆,并提供算力支持以及氦、铋或氡等离子体.提供更高等级的等离子体会加速配方和并增加从配方中获得的额外堆叠数量.通过调整参数,你可以设置并行数量,过载和距离.当无人机钻头配置与你设置的参数同时满足多个配方时,模块将进行考虑权重的随机选择,你可以在NEI中查看配方权重.%n%n太空电梯还可以让你前往其他星球,但这是单程票,千万注意!%n%n采矿模块还有循环模式.在静态模式下,它将保持你设定好的距离.而在循环模式下,它将在每次配方检查后更改其距离(你可以配置允许的距离范围和每次改变的步长).%n%n这里有一个很好的电子表格，可用于查看这些插槽的材料机会和其他值:[url]https://docs.google.com/spreadsheets/d/1xRApa3HnQiJDstr8I5csIi24Mx4mJNsalRJh8PVa52M/edit#gid",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM0w==",
+            "tooltip": "<strong>太空电梯</strong></br>前置任务需求:</br>7阶重型装甲板</br>力场发生器(UV)"
+        },
+        {
+            "name": "消毒!,杀菌!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2649.png",
+            "x": 120.0,
+            "y": 60.0,
+            "data": "把培养基原液放入IV流体加热器,将其转化为无菌培养基,用于制造湿件维生电路基板和神经元处理器. 但培养基原液还需要用于生产干细胞,让我们先做它吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKWQ==",
+            "tooltip": "<strong>消毒!,杀菌!</strong></br>前置任务需求:</br>这不是你做奶酪的方式"
+        },
+        {
+            "name": "超级电脑和湿件",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2655.png",
+            "x": 120.0,
+            "y": 384.0,
+            "data": "湿件处理器超级电脑是UV电路板.%n%n你需要TecTech的研究站配合量子计算机,才能获得湿件主机的装配线闪存,所以在继续此任务线之前,请先制造这两台大家伙.%n%n[note]如果你看不到相关的任务,请返回ZPM阶段任务栏,并完成你跳过的TecTech任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKXw==",
+            "tooltip": "<strong>超级电脑和湿件</strong></br>前置任务需求:</br>湿件处理器集群"
+        },
+        {
+            "name": "人造晶体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6507513553367570596.png",
+            "x": 252.0,
+            "y": 120.0,
+            "data": "用镥铝石榴石制作晶体SoC要比用晶体芯片直接刻蚀快太多太多了！何况还可以直接蚀刻成先进晶体芯片原料。%n%n记得留一些镥铝石榴石宝石用于晶体生长的生产。",
+            "quest_id": "w4JcJ33CSWGlsKrmyHxnXA==",
+            "tooltip": "<strong>人造晶体</strong></br>前置任务需求:</br>晶体SoC的进阶生产方法"
+        },
+        {
+            "name": "能够维生的基板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2650.png",
+            "x": 24.0,
+            "y": 60.0,
+            "data": "湿件维生电路基板是湿件电路板的基础. 这种基板的制造完全不同于之前的电路基板,需要相当多的资源!%n%n但在用于制造电路板之前,你还需要进行一定的蚀刻. 我猜你已经精通电路板的制造了,只需查阅NEI,我就不再赘述了 :P",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKWg==",
+            "tooltip": "<strong>能够维生的基板</strong></br>前置任务需求:</br>消毒!,杀菌!"
+        },
+        {
+            "name": "这不是你做奶酪的方式",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2651.png",
+            "x": 216.0,
+            "y": 60.0,
+            "data": "湿件电路板需要无菌培养基和干细胞,所以让我们从此开始吧!%n%n首先需要\"细菌\". 通过细菌培养缸或者酿造室都可以获得.而培养缸更加高效,不过培养缸需要培养物,所以还是得先走酿造室这条路. 培养缸需要至少在放射仓内放入铋杆以提供正确剂量的辐射,以及最低EV等级的玻璃来生存细菌. 有3个不同的配方,稍后你可以试试更高阶的配方.(使用培养缸比较省物品,但工序更加复杂)%n%n你还需要肉末和琼脂. 所以需要一个稳定的肉类来源,*珠海渔场、动物农场或是IC2的作物(Meatrose或Goldfish)都可以.%n%n琼脂的加工链更加复杂,但与铂系处理比起来就是小巫见大巫了. 琼脂需要消耗的肉更多...%n%n用一些细菌来制作出合适的培养皿(15％几率),然后将培养皿放入细菌培养缸的控制器方块.要生产培养基原液,细菌培养缸要求至少IV等级的玻璃和铀杆提供辐射. 同样还有更高阶的配方.%n%n[note]培养皿在细菌培养缸中不会被消耗.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKWw==",
+            "tooltip": "<strong>这不是你做奶酪的方式</strong></br>前置任务需求:</br>细菌培养缸</br>生物实验室</br>电路,组装!"
+        },
+        {
+            "name": "第8阶段(UV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2613.png",
+            "x": 516.0,
+            "y": 168.0,
+            "data": "UV,嗯? 这是原版GT的上限,因此在这之后的内容到目前为止并没有很多,但请继续吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKNQ==",
+            "tooltip": "<strong>第8阶段(UV)</strong></br>前置任务需求:</br>第7阶段(ZPM)</br>超能硅岩锭</br>这不是只有中子星核心才有的吗?</br>晶体处理器主机</br>制造镅"
+        },
+        {
+            "name": "再来一个聚变堆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1203.png",
+            "x": 408.0,
+            "y": 444.0,
+            "data": "虽然有一个聚变堆已经很好了,但是为什么不再来一个呢? 现在你可以使用你的MK3型聚变堆来便宜的生产镅了.%n%n成本只有1个钚锭和2桶氢,这个配方可以让你相对于MK2反应堆更加便宜和快速的生产镅. 通过聚变堆获得镅等离子体,然后将等离子态的镅放入等离子涡轮机,这样不但获得了液态镅,并且还可以赚取一部分电能.免费能源!%n%n至少需要132个楣板用于制造控制器方块和聚变机械方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsw==",
+            "tooltip": "<strong>再来一个聚变堆</strong></br>前置任务需求:</br>聚变反应堆MK3-升级"
+        },
+        {
+            "name": "聚变反应堆MK3-升级",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1198.png",
+            "x": 360.0,
+            "y": 384.0,
+            "data": "MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续升级？%n%nMK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半.%n%n你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以完成几乎所有的聚变配方(启动电量小于640M-EU). 每个能源仓可输入32768EU/t的持续电流用于聚变反应堆工作,而UV能源仓本身能够接收高达2A的电流和低于524288EU/t的持续供电而不会爆炸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAErg==",
+            "tooltip": "<strong>聚变反应堆MK3-升级</strong></br>前置任务需求:</br>UV能源仓</br>量子功率IC</br>力场发生器(UV)"
+        },
+        {
+            "name": "纳米科技加持镧系生产",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5799940466139612122.png",
+            "x": 162.0,
+            "y": -6.0,
+            "data": "解锁碳纳米蜂群之后，我们就可以用它来大量提取需要的镧系资源。%n%n当然你最好做好心理准备，在得到纳米锻炉之前，这很贵的！",
+            "quest_id": "rdpQZW1YQ92vgnjgHVW8Jg==",
+            "tooltip": "<strong>纳米科技加持镧系生产</strong></br>前置任务需求:</br>消毒!,杀菌!"
+        },
+        {
+            "name": "UV组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2626.png",
+            "x": 360.0,
+            "y": 60.0,
+            "data": "你是否已经制作了大规模自动装配机? 如果你还没有,你就需要制作终极组装构建者才能更进一步了.要用它做T6火箭.也能做下一级的线圈.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKQg==",
+            "tooltip": "<strong>UV组装机</strong></br>前置任务需求:</br>承认吧,UV阶段你喜欢的Pt 1"
+        },
+        {
+            "name": "UV能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2628.png",
+            "x": 360.0,
+            "y": 168.0,
+            "data": "下一阶的聚变反应堆需要这种能源仓,这样你就能制造镅等离子体了,同时能源仓还可用于升级多方块机器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKRA==",
+            "tooltip": "<strong>UV能源仓</strong></br>前置任务需求:</br>UV组装机</br>皮米能量晶圆</br>UV超导(524,288 EU/t)"
+        },
+        {
+            "name": "力场发生器(UV)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2623.png",
+            "x": 288.0,
+            "y": 384.0,
+            "data": "多少人看到UV首先想到的是紫外线? 这些东西会对我们发射紫外线吗? 毕竟这里头确实有发射器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKPw==",
+            "tooltip": "<strong>力场发生器(UV)</strong></br>前置任务需求:</br>湿件主机</br>承认吧,UV阶段你喜欢的Pt 2"
+        },
+        {
+            "name": "UV超导(524,288 EU/t)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2620.png",
+            "x": 432.0,
+            "y": 168.0,
+            "data": "我想知道它们在什么温度下开始出现超导性?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKPA==",
+            "tooltip": "<strong>UV超导(524,288 EU/t)</strong></br>前置任务需求:</br>第8阶段(UV)"
+        },
+        {
+            "name": "湿件主机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2656.png",
+            "x": 216.0,
+            "y": 384.0,
+            "data": "湿件主机是湿件系列的最后一种电路板,它也是你获得的第一种UHV电路板.%n%n无需铭刻,它是在装配线中合成的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKYA==",
+            "tooltip": "<strong>湿件主机</strong></br>前置任务需求:</br>制造三钛</br>研究站</br>ZPM超导(131,072 EU/t)</br>超级电脑和湿件"
+        },
+        {
+            "name": "湿件处理器集群",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2654.png",
+            "x": 24.0,
+            "y": 384.0,
+            "data": "湿件处理器集群是ZPM电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKXg==",
+            "tooltip": "<strong>湿件处理器集群</strong></br>前置任务需求:</br>你的第一块湿件电路板"
+        },
+        {
+            "name": "哪个博士? 这个博士",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2670.png",
+            "x": 516.0,
+            "y": 0.0,
+            "data": "如果你之前没做过这个,请返回查看MV阶段的机械臂作为前置的,位置在切片、嫁接、杂交任务栏的加速缓慢的机器任务获知其工作方式. 这台机器能提供最高加速倍率,256x,耗能在1.5M-3M-EU/t,所以先确认一下自己的供电能力,或者控制其开关.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKbg==",
+            "tooltip": "<strong>哪个博士? 这个博士</strong></br>前置任务需求:</br>承认吧,UV阶段你喜欢的Pt 1"
+        },
+        {
+            "name": "你的第一块湿件电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2653.png",
+            "x": 24.0,
+            "y": 276.0,
+            "data": "第一种湿件LuV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKXQ==",
+            "tooltip": "<strong>你的第一块湿件电路板</strong></br>前置任务需求:</br>智能电路"
+        }
+    ],
+    "links": [
+        {
+            "source": "复制细菌-数据球",
+            "target": "复制细菌"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "承认吧,UV阶段你喜欢的Pt 1"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "承认吧,UV阶段你喜欢的Pt 2"
+        },
+        {
+            "source": "更便宜的IV电路",
+            "target": "晶体SoC的进阶生产方法"
+        },
+        {
+            "source": "7阶火箭",
+            "target": "一切美好的事物..."
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "一切美好的事物..."
+        },
+        {
+            "source": "用等离子净化水",
+            "target": "镅掺杂的晶圆"
+        },
+        {
+            "source": "PCB工厂",
+            "target": "生物仓"
+        },
+        {
+            "source": "UV能源仓",
+            "target": "更便宜的IV电路"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 2",
+            "target": "电路,组装!"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "电路,组装!"
+        },
+        {
+            "source": "复制细菌-DNA样品瓶",
+            "target": "复制细菌-数据球"
+        },
+        {
+            "source": "复制细菌-液体",
+            "target": "复制细菌-DNA样品瓶"
+        },
+        {
+            "source": "纳米树脂 - 粒子收集者",
+            "target": "提取你想要的"
+        },
+        {
+            "source": "消毒!,杀菌!",
+            "target": "复制细菌-液体"
+        },
+        {
+            "source": "复制细菌",
+            "target": "通用酵母菌"
+        },
+        {
+            "source": "用等离子净化水",
+            "target": "高能激光纯化"
+        },
+        {
+            "source": "能够维生的基板",
+            "target": "智能电路"
+        },
+        {
+            "source": "聚变反应堆MK3-升级",
+            "target": "套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "凯芙拉"
+        },
+        {
+            "source": "研究站",
+            "target": "终于不需要修机器了!"
+        },
+        {
+            "source": "消毒!,杀菌!",
+            "target": "1阶纳米锻炉"
+        },
+        {
+            "source": "纳米科技加持镧系生产",
+            "target": "纳米树脂 - 粒子收集者"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "来自空间中的中子素"
+        },
+        {
+            "source": "能够维生的基板",
+            "target": "PCB工厂"
+        },
+        {
+            "source": "UV能源仓",
+            "target": "用等离子净化水"
+        },
+        {
+            "source": "UV能源仓",
+            "target": "量子计算机"
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "量子计算机"
+        },
+        {
+            "source": "量子计算机",
+            "target": "量子力学有点热"
+        },
+        {
+            "source": "镅掺杂的晶圆",
+            "target": "量子功率IC"
+        },
+        {
+            "source": "量子计算机",
+            "target": "研究站"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "太空电梯"
+        },
+        {
+            "source": "力场发生器(UV)",
+            "target": "太空电梯"
+        },
+        {
+            "source": "这不是你做奶酪的方式",
+            "target": "消毒!,杀菌!"
+        },
+        {
+            "source": "湿件处理器集群",
+            "target": "超级电脑和湿件"
+        },
+        {
+            "source": "晶体SoC的进阶生产方法",
+            "target": "人造晶体"
+        },
+        {
+            "source": "消毒!,杀菌!",
+            "target": "能够维生的基板"
+        },
+        {
+            "source": "细菌培养缸",
+            "target": "这不是你做奶酪的方式"
+        },
+        {
+            "source": "生物实验室",
+            "target": "这不是你做奶酪的方式"
+        },
+        {
+            "source": "电路,组装!",
+            "target": "这不是你做奶酪的方式"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "第8阶段(UV)"
+        },
+        {
+            "source": "超能硅岩锭",
+            "target": "第8阶段(UV)"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "第8阶段(UV)"
+        },
+        {
+            "source": "晶体处理器主机",
+            "target": "第8阶段(UV)"
+        },
+        {
+            "source": "制造镅",
+            "target": "第8阶段(UV)"
+        },
+        {
+            "source": "聚变反应堆MK3-升级",
+            "target": "再来一个聚变堆"
+        },
+        {
+            "source": "UV能源仓",
+            "target": "聚变反应堆MK3-升级"
+        },
+        {
+            "source": "量子功率IC",
+            "target": "聚变反应堆MK3-升级"
+        },
+        {
+            "source": "力场发生器(UV)",
+            "target": "聚变反应堆MK3-升级"
+        },
+        {
+            "source": "消毒!,杀菌!",
+            "target": "纳米科技加持镧系生产"
+        },
+        {
+            "source": "承认吧,UV阶段你喜欢的Pt 1",
+            "target": "UV组装机"
+        },
+        {
+            "source": "UV组装机",
+            "target": "UV能源仓"
+        },
+        {
+            "source": "皮米能量晶圆",
+            "target": "UV能源仓"
+        },
+        {
+            "source": "UV超导(524,288 EU/t)",
+            "target": "UV能源仓"
+        },
+        {
+            "source": "湿件主机",
+            "target": "力场发生器(UV)"
+        },
+        {
+            "source": "承认吧,UV阶段你喜欢的Pt 2",
+            "target": "力场发生器(UV)"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "UV超导(524,288 EU/t)"
+        },
+        {
+            "source": "制造三钛",
+            "target": "湿件主机"
+        },
+        {
+            "source": "研究站",
+            "target": "湿件主机"
+        },
+        {
+            "source": "ZPM超导(131,072 EU/t)",
+            "target": "湿件主机"
+        },
+        {
+            "source": "超级电脑和湿件",
+            "target": "湿件主机"
+        },
+        {
+            "source": "你的第一块湿件电路板",
+            "target": "湿件处理器集群"
+        },
+        {
+            "source": "承认吧,UV阶段你喜欢的Pt 1",
+            "target": "哪个博士? 这个博士"
+        },
+        {
+            "source": "智能电路",
+            "target": "你的第一块湿件电路板"
+        }
+    ]
+}

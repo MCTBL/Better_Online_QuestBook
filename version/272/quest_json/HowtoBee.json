@@ -1,0 +1,1182 @@
+{
+    "data": [
+        {
+            "name": "养蜂员背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2745.png",
+            "x": 348.0,
+            "y": 204.0,
+            "data": "顾名思义,它非常有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKuQ==",
+            "tooltip": "<strong>养蜂员背包</strong></br>前置任务需求:</br>养蜂员箱子"
+        },
+        {
+            "name": "鳞翅目昆虫学家的背包,哈欠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2747.png",
+            "x": 204.0,
+            "y": 204.0,
+            "data": "我不确定这些在你的基地里到处乱飞的蝴蝶有什么用,不过这个包你想做就做呗.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKuw==",
+            "tooltip": "<strong>鳞翅目昆虫学家的背包,哈欠</strong></br>前置任务需求:</br>装蝴蝶的箱子? 真的吗?"
+        },
+        {
+            "name": "养蜂员箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1111.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "只能存储蜜蜂的箱子. 不过它可以存储多达125种不同的蜜蜂!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEVw==",
+            "tooltip": "<strong>养蜂员箱子</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "装蝴蝶的箱子? 真的吗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2746.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "将你那毫无用处的蝴蝶存放在此.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKug==",
+            "tooltip": "<strong>装蝴蝶的箱子? 真的吗?</strong></br>前置任务需求:</br>研究蝴蝶"
+        },
+        {
+            "name": "高级诱变机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/513.png",
+            "x": 444.0,
+            "y": 324.0,
+            "data": "一个更加先进版本的诱变机. 它会消耗更多的能量来让蜜蜂发生突变,并且你可以选择你想要的突变类型. 这台机器是生产高级蜜蜂的必备工具!%n%n[note]制造它需要中子蜂.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACAQ==",
+            "tooltip": "<strong>高级诱变机</strong></br>前置任务需求:</br>诱变机"
+        },
+        {
+            "name": "蜂箱组",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1123.png",
+            "x": 156.0,
+            "y": 384.0,
+            "data": "蜂箱组是蜂房的进阶版. 可自然增加蜜蜂的生产速度(以及通过蜂箱组框架支架添加多达六个框架的能力)，并且还可以用组件赋予其他的能力.%n%n可以使用蜂箱组加热器或蜂箱组风扇来调节蜂箱组的内部温度,以适应需要更热或更冷气候的蜜蜂.%n%n除非对环境非常满意,否则某些特定的蜜蜂将不会生产其特产. 想要满足这一点,你需要使环境的温度和湿度完全符合该蜜蜂的初始要求,即未培育强化过温度/湿度适应性时的要求. 某些蜜蜂还需要在蜂箱组下方有特定方块.%n%n也可以使用基因突变器来增加突变的机会,蜂箱组日光灯和挡雨方块允许蜜蜂分别在夜间和下雨期间工作,即使没有夜行和耐雨飞行性基因也没关系. 还可加入孵化室以使用多余的蜂王浆制造持续数代的公主蜂.%n%n[note]如果想要培育对蜂箱下方方块有特殊要求的蜜蜂,你需要将所需的方块放在底部正中,然后将蜂箱组当做普通蜂箱使用.%n%n译者注:对于需要提交大量物品的任务,提交站是不错的选择.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEYw==",
+            "tooltip": "<strong>蜂箱组</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "分析仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1954.png",
+            "x": 396.0,
+            "y": 384.0,
+            "data": "基因工程的分析仪和林业的分析仪功能上没啥区别,显示蜜蜂、树、蝴蝶和花的基因组.它还能用于揭示DNA序列上的基因.  与林业分析仪不同,这台分析仪需要能量(RF或EU)和DNA染料,染色染色体并直接测定基因组.分析仪单次运行需要15秒.%n%n任务书内关于这几个任务的资料来自Binnie的wiki：[url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHog==",
+            "tooltip": "<strong>分析仪</strong></br>前置任务需求:</br>基因分离器"
+        },
+        {
+            "name": "分析它们",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/503.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "每一只蜜蜂都有很多属性来决定它们的行为.比如它们在雨中或者在夜晚的行为之类的.你必须对蜜蜂的这些行为进行跟踪分析.这玩意不太好用,因为它无法显示隐性基因,但俗话说得好,\"不浪费,不愁缺\".%n%n你将需要用纸来分析每只蜜蜂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB9w==",
+            "tooltip": "<strong>分析它们</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "要有光",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/518.png",
+            "x": 504.0,
+            "y": 144.0,
+            "data": "给公主蜂注射基因性状好麻烦？懒得去寻找大量的蜜蜂？这都不是问题,有了这个漂亮的小装置,你可以用大量的能量、液体DNA和蛋白质来制造你想要的任何蜜蜂. 唯一的缺点就是:所有制造出的蜜蜂都是卑贱种,这意味着这些小家伙在繁衍90个周期以上后有断代的可能性.%n%n当然,工业蜂箱有个升级可以解决这个问题.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACBg==",
+            "tooltip": "<strong>要有光</strong></br>前置任务需求:</br>相当残酷的处理方式</br>施瓦辛格的液化机"
+        },
+        {
+            "name": "一个新家",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/502.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "既然你已经摧毁了可怜的蜜蜂们的家园,你就应该给它们弄个新的.这种简易蜂房不会使你的蜜蜂发生变异.但你还是需要蜂窝来为蜜蜂制作更好的住房.  简易蜂房的生产速度还不错,但不能自动化.%n%n提示-在你的蜂房附近种些原版树苗.简易蜂房比起\"更好的住房\"有3倍的授粉速度.蜜蜂会给树木授粉,然后你就可以开始林业树木杂交了.我推荐你把橡木和白桦相邻种植,它们会给你林业树木的杂交开个好头.%n%n当然,如果你忘了采取预防措施,一段时间后你就会发现自己被大量蝴蝶淹没，还很卡……%n%n你可能还注意到了带有'鲜花'特性的蜜蜂会让花扩散开来. 可以利用这一点获取薰衣草之类的罕见花卉.如果你不想让花到处都是,只需要把泥土或者草方块换掉,或者换掉这个属性,亦或降低授粉速度和活动范围.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB9g==",
+            "tooltip": "<strong>一个新家</strong></br>前置任务需求:</br>框架"
+        },
+        {
+            "name": "养蜂员套装",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/996.png",
+            "x": 252.0,
+            "y": 12.0,
+            "data": "如果你已经收集了24块丝绸,那么你可以制作一套完整的养蜂员套装来保护你自己免遭蜜蜂的蜇伤或是别的什么负面效果. 你还可以用这套装备来给玄钢装备升级来让它们也具有同样的效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5A==",
+            "tooltip": "<strong>养蜂员套装</strong></br>前置任务需求:</br>木工机</br>丝绸"
+        },
+        {
+            "name": "相当残酷的处理方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/516.png",
+            "x": 456.0,
+            "y": 144.0,
+            "data": "你在培育蜜蜂的时候可能会产生很多多余的雄峰(或者是树苗,如果你种树的话).如果你没有扔掉它们,也许你可以把它们变成...有用的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACBA==",
+            "tooltip": "<strong>相当残酷的处理方式</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "蜜蜂嗡嗡作响还是尖叫？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1515.png",
+            "x": 84.0,
+            "y": 276.0,
+            "data": "这些框架会使突变的发生率增加,它们超级有用.%n%n按住Shift即可查看这些框架的属性,你应该注意到了有些数据旁边还有括号,括号内的数字是最大叠加后的数据.这只对更多蜜蜂(Extra-Bees)的框架有效.%n%n同时使用多个框架时,其各项数据计算时是相乘而不是相加,所以在蜂箱组中放入4个框架后,灵魂框架就达到了极限,而加速框架需要使用9个才会达到极限,当然这只是同种框架的极限,你还可以继续增加.%n%n举个例子,5x[电刺激器]3x[基因突变器]4x1.8x[框架]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF6w==",
+            "tooltip": "<strong>蜜蜂嗡嗡作响还是尖叫？</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "施瓦辛格的液化机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/517.png",
+            "x": 552.0,
+            "y": 144.0,
+            "data": "人们常说,早餐要吃好.这台机器可以把生肉转变成液态蛋白质,用来根据基因模板制造蜜蜂.这与早餐绝对一点关系都没有.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACBQ==",
+            "tooltip": "<strong>施瓦辛格的液化机</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "一天一刺激,医生找上门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2093.png",
+            "x": 108.0,
+            "y": 384.0,
+            "data": "电刺激器,一块能加装4个电子管的电子板,提供多种功能.  表中所有数据均为百分率%n%n铁电子管-产量:150(最高500)%n钻石电子管-产量:250(最高1000)%n磷灰石电子管-授粉:150(最高500)%n黑曜石电子管-寿命:80(最小20)%n青金石电子管-寿命:150(最高500)%n烈焰电子管-模拟地狱般(下界)的温度%n金电子管-突变:150(最高500)%n锡电子管-范围:40(最小10)、产量:90(最小50)%n青铜电子管-范围:150(最高500)%n%n这些刺激也会导致基因衰退几率提高50％.而这会影响卑贱种的死亡时间,所以如果你用的是始祖种,那就不用担心.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAILQ==",
+            "tooltip": "<strong>一天一刺激,医生找上门</strong></br>前置任务需求:</br>蜂箱组"
+        },
+        {
+            "name": "“蜂”富你的知识",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2108.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "这个数据库会记录你发现的所有关于蜜蜂的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIPA==",
+            "tooltip": "<strong>“蜂”富你的知识</strong></br>前置任务需求:</br>扫描还是不扫描--这并非一个问题"
+        },
+        {
+            "name": "蜜蜂在黑暗中嗡嗡作响",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1516.png",
+            "x": 36.0,
+            "y": 336.0,
+            "data": "就算用上灵魂框架都需要太长时间,无法满足你的口味?那就试试湮灭框架吧,它会在一个蜜蜂刻(27s)中摧毁一只蜜蜂. 如果用了不止一个,你需要当心,有传言说它可能会伤害你的公主蜂...%n%n[note]你可以在要塞的图书馆找到这种框架,也可以用龙蛋合成.%n奥法修复台可以修复包括此种在内的大多数框架.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF7A==",
+            "tooltip": "<strong>蜜蜂在黑暗中嗡嗡作响</strong></br>前置任务需求:</br>蜜蜂之死"
+        },
+        {
+            "name": "百万蜜蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2089.png",
+            "x": 156.0,
+            "y": 432.0,
+            "data": "如果你想要终极的蜜蜂生产速度,工业蜂箱是唯一的道路.  工业蜂箱中类似框架的升级是不会损坏的. 产量升级可以叠加最多8个.还有许多环境模拟类的升级、基因寿命类升级、授粉升级之类的,还有最关键的自动化升级-工业化量产的关键.%n%n现在工业蜂箱是GT机器.它最高可以接受UV电压,最大4A电流,但是基础功率只有37EU/t.你不再需要世界加速器了,并且工业蜂箱只有一个电压等级,所以也不存在超频.但是有全新的,作用类似于世界加速器的速度升级,可以直接放入机器中.你会用得上它们的,它们可以大幅提升速度--同时也会大幅增加能耗.最后一级的速度升级也会提升产量.%n%n不过我想不该唠叨太多,去做一个,自己琢磨吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIKQ==",
+            "tooltip": "<strong>百万蜜蜂</strong></br>前置任务需求:</br>蜂箱组"
+        },
+        {
+            "name": "蜂浆,早餐,很好,Weirdos",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2768.png",
+            "x": 36.0,
+            "y": 216.0,
+            "data": "你还要这个做什么?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK0A==",
+            "tooltip": "<strong>蜂浆,早餐,很好,Weirdos</strong></br>前置任务需求:</br>团结起来,蜜蜂们!"
+        },
+        {
+            "name": "空白的基因样本",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/514.png",
+            "x": 408.0,
+            "y": 204.0,
+            "data": "如果你想获得一只蜜蜂身上的基因样本,那么你需要大量的电力,一个实验器皿和一个空的基因模板. 你其实不需要很多的模板,因为你可以把你不需要的或者不想要的基因模板扔进炉子里面烧成空白的.与此同时你可以开始研究基因工程这个mod了,虽然我们知道基因工业特别好用……基因工程可以用于蜜蜂、树木和园艺的花,因此它有自己的任务线.基因工业(Gendustry)对培育蜜蜂来说确实很好用,但需要顶级的设备才能进行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACAg==",
+            "tooltip": "<strong>空白的基因样本</strong></br>前置任务需求:</br>第5阶段(IV)</br>改善它们的家园"
+        },
+        {
+            "name": "我不去就山,让山来就我",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2415.png",
+            "x": 108.0,
+            "y": 12.0,
+            "data": "你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,不得不经常面对狼群. 别急着打包所有东西,搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登录才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围,范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看\"替代魔法\"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJbw==",
+            "tooltip": "<strong>我不去就山,让山来就我</strong></br>前置任务需求:</br>种子不再未知</br>潮湿而温暖？"
+        },
+        {
+            "name": "忙碌的蜜蜂尽情嗡鸣",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2092.png",
+            "x": 204.0,
+            "y": 384.0,
+            "data": "这些升级通过使蜜蜂保持工作(不因环境因素停止工作),极大地提升你的生产效率.%n%n挡雨方块-可在雨中工作%n蜂箱组日光灯-为没有夜行性的蜜蜂提供光照%n蜂箱组加热器-将平均温度提高20％(需要能量)%n蜂箱组风扇-将平均温度降低20％(需要能量)%n蜂箱组保湿器-有两种模式,水和岩浆%n岩浆-温度提高10％,湿度降低20％%n水-温度降低10％,湿度提高20％%n%n很遗憾,暂时没有升级可以让这些蜜蜂喜欢穴居环境...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAILA==",
+            "tooltip": "<strong>忙碌的蜜蜂尽情嗡鸣</strong></br>前置任务需求:</br>蜂箱组"
+        },
+        {
+            "name": "蜜蜂之死",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1513.png",
+            "x": 84.0,
+            "y": 336.0,
+            "data": "这些框架可以让你更快地杀死蜜蜂.是为了早日繁殖下一代对吧?不是因为你不喜欢它们是吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF6Q==",
+            "tooltip": "<strong>蜜蜂之死</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "钻石制品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/510.png",
+            "x": 504.0,
+            "y": 204.0,
+            "data": "也被称为实验器皿.做好准备.为了完成严肃的蜜蜂培育工作,你需要大量的钻石! 我没和你开玩笑,真的需要很多!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB_g==",
+            "tooltip": "<strong>钻石制品</strong></br>前置任务需求:</br>基因模板"
+        },
+        {
+            "name": "最快突变",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2090.png",
+            "x": 36.0,
+            "y": 276.0,
+            "data": "GT++的诱变框架可使你的蜜蜂在眨眼间完成突变.只是记得制作它的时候要穿好防化服!%n%n[note]低于6耐久的框架会在其生效前直接损坏.所以速度只能提升到125倍,但我觉得已经足够了,不是吗?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIKg==",
+            "tooltip": "<strong>最快突变</strong></br>前置任务需求:</br>蜜蜂嗡嗡作响还是尖叫？"
+        },
+        {
+            "name": "研究蝴蝶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2106.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "蝴蝶的能力有限,这台分析仪会为你详细介绍它们的能力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIOg==",
+            "tooltip": "<strong>研究蝴蝶</strong></br>前置任务需求:</br>扫描还是不扫描--这并非一个问题"
+        },
+        {
+            "name": "先说重要的事情",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/500.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "像往常一样,如果你想开始养殖蜜蜂,首先要准备一些最基础的东西————比如一个捕虫网.要完成这个任务,你需要制作GT的捕虫网.稍后你可以自行选择制作奥术捕虫网或者涡轮捕虫网3000.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB9A==",
+            "tooltip": "<strong>先说重要的事情</strong></br>前置任务需求:</br>线材轧机v0.2测试版"
+        },
+        {
+            "name": "蝴蝶效应",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2109.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "这个数据库将会记录你有关蝴蝶的一切知识.%n%n对了,园艺学相关的东西请去\"基地建设\"任务栏查看.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIPQ==",
+            "tooltip": "<strong>蝴蝶效应</strong></br>前置任务需求:</br>研究蝴蝶"
+        },
+        {
+            "name": "框架",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1112.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "未处理框架是最简单的框架. 你不能在简易蜂房使用它们,只能用于蜂箱或蜂箱组. 它们还可用于合成蜂箱.%n%n将框架安装在蜂箱中,它们可以提高蜜蜂的各项属性. 每个未处理框架都将使蜜蜂的产量翻倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEWA==",
+            "tooltip": "<strong>框架</strong></br>前置任务需求:</br>找到一些蜜蜂"
+        },
+        {
+            "name": "基因数据库",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2099.png",
+            "x": 444.0,
+            "y": 384.0,
+            "data": "发现的基因将被记录到基因数据库中.这台手持设备按生物类型列出所有基因.为了将基因添加到空血清瓶中以允许注射,可以在手持瓶子时点击所需的基因.空血清阵列可用于同时保存多个基因.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIMw==",
+            "tooltip": "<strong>基因数据库</strong></br>前置任务需求:</br>测序仪"
+        },
+        {
+            "name": "基因池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2095.png",
+            "x": 348.0,
+            "y": 432.0,
+            "data": "另一个重要资源就是原生DNA. 原生DNA可以从蜜蜂、树或花等任何可繁殖的有机体中获得,使用基因池来收集.  基因池需要乙醇和酶来分解有机体来产生原生DNA.注意,这个过程只会产生原生DNA,不保存任何基因或等位基因.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAILw==",
+            "tooltip": "<strong>基因池</strong></br>前置任务需求:</br>恒温箱"
+        },
+        {
+            "name": "基因压印机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/511.png",
+            "x": 504.0,
+            "y": 264.0,
+            "data": "通过这一台强大的机器，你可以向样本注射基因样本（修改蜜蜂、树木或蝴蝶的任何属性）来调整他们的能力。基因样本或者基因模板不会被消耗。机器有30%%的概率将始祖种降级为卑贱种，还有80%的概率杀死卑贱种。每次注射都需要消耗一个基因药皿。",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB_w==",
+            "tooltip": "<strong>基因压印机</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "基因采样机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/509.png",
+            "x": 600.0,
+            "y": 204.0,
+            "data": "使用这台机器,你可以从样本(蜂蜜、树苗、蝴蝶或者花朵)中提取一个随机的性状.样本在被提取的过程中将被摧毁. 这个过程需要一个空的基因样本和一个基因药皿.%n%n获得的样品是随机的,所以记得回收那些多余的基因样本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB_Q==",
+            "tooltip": "<strong>基因采样机</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "基因模板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/515.png",
+            "x": 456.0,
+            "y": 204.0,
+            "data": "基因模板用来将多个基因样本组合到一起形成一个完整的模板.一个基因模板可以用于给蜜蜂一次添加多个特性,但如果你在一个模板中填充满所有13个特性,那么你就可以使用液体DNA和蛋白质直接造出一只蜜蜂. 当然这些基因模板和基因样板一样,都是可以复制的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACAw==",
+            "tooltip": "<strong>基因模板</strong></br>前置任务需求:</br>空白的基因样本"
+        },
+        {
+            "name": "基因转换机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/512.png",
+            "x": 552.0,
+            "y": 264.0,
+            "data": "物种或者性状的DNA样本相当有研究价值.你应该在手中常备每个物种/特效/性状的DNA样本. 通过这台机器,你能够复制DNA样本,使用一个空的基因药皿和基因模板来复制DNA样本.%n%n[note]当然,要是用不上的当然不用留着.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACAA==",
+            "tooltip": "<strong>基因转换机</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "团结起来,蜜蜂们!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2767.png",
+            "x": 84.0,
+            "y": 216.0,
+            "data": "这些框架有助于防止基因衰退.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKzw==",
+            "tooltip": "<strong>团结起来,蜜蜂们!</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "廉价的生物群系改变",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2416.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "如果你不想将生物群系变更为特定的某一种,只想让蜜蜂拥有中性的环境,也许用节点比较适合你.你可以试着种植银树,这样有几率获得一个纯净节点,你也可以用各种方式搬回来一个纯净节点.%n%n请注意,\"无能量\"的纯净节点不会改变任何东西,除非它有生命(Victus).你可以试试凶险或污染节点,但...有些事可没有后悔药.节点的影响范围半径11格. 想要变回原有生物群系,可以使用天域花(半径7格). 请注意,岩精和精灵都会在魔法类生物群系中生成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJcA==",
+            "tooltip": "<strong>廉价的生物群系改变</strong></br>前置任务需求:</br>我不去就山,让山来就我"
+        },
+        {
+            "name": "找到一些蜜蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/501.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "下一步:在世界各地找一些野生蜂巢.你能找到11个种类的蜂巢,其中8种可以在主世界被发现.找到任意一种蜜蜂以完成这个任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB9Q==",
+            "tooltip": "<strong>找到一些蜜蜂</strong></br>前置任务需求:</br>先说重要的事情"
+        },
+        {
+            "name": "去寻找一些热带蜜蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/992.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "接下来,你需要找到一些热带蜜蜂. 这种蜜蜂的蜂巢可以在丛林生物群系找到. 你要小心这些蜜蜂,它们攻击性很强,可以使你中毒. 热带蜜蜂的产物是热带蜂窝,热带蜂窝可以提取出制造养蜂员套装所需要的丝缕.试着找些蜂巢以获取原始的蜜蜂.要是找不着,你也可以使用生物群系指南针以寻找特定生物群系.%n译者注:服务器慎用...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD4A==",
+            "tooltip": "<strong>去寻找一些热带蜜蜂</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "高级品种:博士",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/523.png",
+            "x": 600.0,
+            "y": 324.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACCw==",
+            "tooltip": "<strong>高级品种:博士</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "高级品种:恶龙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/522.png",
+            "x": 648.0,
+            "y": 324.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACCg==",
+            "tooltip": "<strong>高级品种:恶龙</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "高级品种:硅晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/525.png",
+            "x": 696.0,
+            "y": 324.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACDQ==",
+            "tooltip": "<strong>高级品种:硅晶</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "潮湿而温暖？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1511.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "别再猜你所在生物群系的湿度和温度了. 使用栖息地定位仪来了解当地的气候.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF5w==",
+            "tooltip": "<strong>潮湿而温暖？</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "巨型工业蜂箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3284.png",
+            "x": 156.0,
+            "y": 480.0,
+            "data": "又叫做巨型蜂箱.%n%n它有三种主要模式(使用螺丝刀切换)和两种运行模式(用shift+螺丝刀切换):%n%n输入模式:不消耗能量.将蜂后放进输入总线,以将它们放入内部缓冲区.%n%n输出模式:不消耗能量.会让你的蜜蜂回到输出总线.%n%n运行模式-普通:处理时间为5秒.每个蜂后都将使机器多消耗1A-LuV.所有蜜蜂都受到64倍加速和8个产量升级以及一个基因稳定升级的影响.最妙的是,巨型蜂箱将为其中的每个蜜蜂都提供完美环境.%n%n你还可以通过为机器提供蜂王浆来增加产量.每粒蜂王浆将为每只蜜蜂提供5％的奖励,最高可为200％,仅在每次运行开始时消耗并仅应用于该次运行.当然,正常的蜜蜂属性仍然有效,不过巨蜂箱可以为任意蜜蜂提供完美的环境.%n%n运行模式-蜂群:在这种模式下你只能放入1个蜂后.巨型蜂箱将以每次运行消耗100蜂王浆的代价慢慢生产出卑贱种公主蜂.基本处理时间为1分钟并需要1A-IV,但该过程可以超频.%n%n[note]是的,你需要成千上万的皇后,而不是公主,所以加油让它生![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM1A==",
+            "tooltip": "<strong>巨型工业蜂箱</strong></br>前置任务需求:</br>承认吧,UV阶段你喜欢的Pt 1</br>百万蜜蜂"
+        },
+        {
+            "name": "浸渍框架2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1113.png",
+            "x": 156.0,
+            "y": 276.0,
+            "data": "浸渍框架比未处理框架更好,每一个浸渍框架都可以使蜜蜂的产量翻倍.相比未处理框架来说浸渍框架拥有更高的耐久,但是比标定框架的耐久要低一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEWQ==",
+            "tooltip": "<strong>浸渍框架2</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "恒温箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2088.png",
+            "x": 300.0,
+            "y": 432.0,
+            "data": "这是一台合成机器,可将物品和液体加热到能够促进细菌生长的温度.  培养的第一步就是制作培养基液体(水+培养基).随后将其与小麦一起培养以产生细菌.这种细菌液体可以与糖一起进行第三次培养,产生酶.酶是其他机器也要用到的重要物质.  因此,制造酶的最佳方法是用三个恒温箱构造一个流水线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIKA==",
+            "tooltip": "<strong>恒温箱</strong></br>前置任务需求:</br>欢迎来到生物课堂!"
+        },
+        {
+            "name": "基因注射器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2103.png",
+            "x": 540.0,
+            "y": 432.0,
+            "data": "最后一步就是基因注射(接种).目前唯一能插入基因的机器就是基因注射器.这需要细菌质粒-由细菌和烈焰粉培养而成,把基因转移到有机体中.%n%n只有幼小阶段的有机体才能被注入,比如蜜蜂幼体(蜜蜂)、花粉(树和花)、幼虫(蝴蝶).利用液体培养基可以将蜜蜂幼体转化为雄峰.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAINw==",
+            "tooltip": "<strong>基因注射器</strong></br>前置任务需求:</br>PCR仪"
+        },
+        {
+            "name": "基因分离器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2096.png",
+            "x": 396.0,
+            "y": 432.0,
+            "data": "基因分离器与基因池的工作方式类似,但不会完全破坏基因.它会从蜜蜂、树苗或花这类有机体中随机提取基因片段,并复制到空白序列中.此过程需要乙醇作为溶剂,还需要酶来切断DNA.在分析序列之前,我们不知道该基因是什么.但是,在送给测序仪之前不需要对其进行分析.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIMA==",
+            "tooltip": "<strong>基因分离器</strong></br>前置任务需求:</br>基因池"
+        },
+        {
+            "name": "保持冷静,破浪乘蜂(Keep Calm and Bee On)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2255.png",
+            "x": 36.0,
+            "y": 156.0,
+            "data": "此框架可以让你的蜜蜂持续更长时间,并同时提升活动范围以帮助林业树木培育.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIzw==",
+            "tooltip": "<strong>保持冷静,破浪乘蜂(Keep Calm and Bee On)</strong></br>前置任务需求:</br>巧克力框架"
+        },
+        {
+            "name": "巧克力框架",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1514.png",
+            "x": 84.0,
+            "y": 156.0,
+            "data": "巧克力框架可用于增加产量,但会缩短蜜蜂寿命. 精明的养蜂员可以使用它来加速突变,在蜂箱中使用3个这种框架即可快速更新迭代.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF6g==",
+            "tooltip": "<strong>巧克力框架</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "实验台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2100.png",
+            "x": 348.0,
+            "y": 384.0,
+            "data": "实验台是个可以放置各种数据库的方块(右键放置),包括养蜂员数据库、林业员数据库、园丁数据库和基因数据库. 靠近并右键放置了数据库的实验台,即可访问数据库.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAINA==",
+            "tooltip": "<strong>实验台</strong></br>前置任务需求:</br>欢迎来到生物课堂!"
+        },
+        {
+            "name": "让蜜蜂住得更舒服",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2082.png",
+            "x": 252.0,
+            "y": 432.0,
+            "data": "适应性调整器是你培育蜜蜂的关键机器.  有了大量的能量和适当的配料,你就能使蜜蜂在任何地方茁壮成长.推荐使用EIO的空间传送器为设备供能.但是,即使蜜蜂能够忍受各种气候并生产,可它们只有在最喜欢的环境下才会产出特殊产物.把蜜蜂和这些物品一起放入来调整蜜蜂的基因:%n%n雪球-更强的低温耐受性%n岩浆-更强的高温耐受性%n沙子-更强的耐旱性%n水-更强的耐湿性%n%n你应该知道适应性调整器不会返回胶囊或单元. 调整适应性需要的物品数量非常随机.%n%n[note]一个很好的开局策略是使用一只已经拥有全 1属性的蜜蜂. 然后你将来可以在任意方向继续提高它! 你并不需要使用岩浆如果你不想这样做. 也不再需要单元了. 你可以只使用沙子和雪球.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIIg==",
+            "tooltip": "<strong>让蜜蜂住得更舒服</strong></br>前置任务需求:</br>欢迎来到生物课堂!"
+        },
+        {
+            "name": "全图鉴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2286.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "大师级的养蜂员需要大师级的图鉴-全图鉴.确保你能满足蜜蜂的所有需求,这样它们才能在蜂箱中正常工作!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI7g==",
+            "tooltip": "<strong>全图鉴</strong></br>前置任务需求:</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "诱变机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/508.png",
+            "x": 396.0,
+            "y": 324.0,
+            "data": "等待突变的过程是既漫长又恼人,而且大部分突变的结果很令人沮丧.但是有了这台机器,你可以100％的得到纯种的突变产物. 如果公主蜂和雄峰的组合有多种突变产物,那么突变的结果也会是随机的.但是那又如何？%n%n[note]现在,在最后的任务栏(奖励区),你可以将你的战利品袋(Bees-Advanced)升级为战利品袋(Bees-Expert).%n%n如果你之前没能从某个品种的蜜蜂身上获取特殊效果的基因,这是个重新获取的法子.%n%n制造它需要硅岩蜂,以及其他基因工业的机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB_A==",
+            "tooltip": "<strong>诱变机</strong></br>前置任务需求:</br>第6阶段(LuV)</br>扮演上帝"
+        },
+        {
+            "name": "只要最好:穴居性",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/528.png",
+            "x": 696.0,
+            "y": 84.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征. 拥有穴居性的蜜蜂可以在被遮盖住的蜂箱中工作 - 更多的蜂箱!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACEA==",
+            "tooltip": "<strong>只要最好:穴居性</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:夜行性",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/527.png",
+            "x": 600.0,
+            "y": 84.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.蜜蜂没日没夜,整日整夜地工作!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACDw==",
+            "tooltip": "<strong>只要最好:夜行性</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:生育能力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/521.png",
+            "x": 744.0,
+            "y": 180.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征. 蜜蜂到处都是!%n%n[note]生育能力4是培育蜜蜂的重要属性,但生育能力1却是蜜蜂投入生产时你最需要的属性.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACCQ==",
+            "tooltip": "<strong>只要最好:生育能力</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:耐湿性",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/520.png",
+            "x": 744.0,
+            "y": 132.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.%n%n[note]耐湿性带来的湿度适应无法使蜜蜂处于最佳状态(无法生产特殊产物),绝大多数情况下,耐温性全2就足够了. 3+的耐湿性没有什么意义,因为湿度范围没有那么大.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACCA==",
+            "tooltip": "<strong>只要最好:耐湿性</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:耐雨飞行",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/526.png",
+            "x": 648.0,
+            "y": 84.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.雨中养蜂!但还是请确保你的GT机器不在雨中!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACDg==",
+            "tooltip": "<strong>只要最好:耐雨飞行</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:快到模糊",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/524.png",
+            "x": 744.0,
+            "y": 228.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.嗡嗡嗡嗡嗡嗡,努力工作,真的很嗡嗡!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACDA==",
+            "tooltip": "<strong>只要最好:快到模糊</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只要最好:耐温性",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/519.png",
+            "x": 744.0,
+            "y": 84.0,
+            "data": "为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.%n%n[note]耐温性带来的温度适应无法使蜜蜂处于最佳状态(无法生产特殊产物),而绝大多数情况下,耐温性全3就足够了. 在常温区域,耐温性全3可以让所有种类的蜜蜂正常工作. 当然,这项属性的极限是全5,如果你感兴趣的话,通过适应性调整器,可以让地狱蜂在寒冷区域正常工作.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACBw==",
+            "tooltip": "<strong>只要最好:耐温性</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只有最好: 树木培育",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2748.png",
+            "x": 744.0,
+            "y": 276.0,
+            "data": "为那些喜欢林业树木的人准备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKvA==",
+            "tooltip": "<strong>只有最好: 树木培育</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "只有最坏: 树木销毁!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2749.png",
+            "x": 744.0,
+            "y": 324.0,
+            "data": "为那些不喜欢花草树木的人准备 :(",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKvQ==",
+            "tooltip": "<strong>只有最坏: 树木销毁!</strong></br>前置任务需求:</br>基因采样机"
+        },
+        {
+            "name": "花粉收集装备",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7336878164390242998.png",
+            "x": 456.0,
+            "y": 264.0,
+            "data": "获取花粉的简单方法就是右击树叶.然而花粉收集装备是一次性使用的,所以可以多制作一些.",
+            "quest_id": "FLhv4l1HSSmaLiwukzMVSg==",
+            "tooltip": "<strong>花粉收集装备</strong></br>前置任务需求:</br>钻石制品"
+        },
+        {
+            "name": "PCR仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2098.png",
+            "x": 492.0,
+            "y": 432.0,
+            "data": "血清和序列可以放置在PCR仪中,以增加其强度和所含DNA的数量.在用于基因注射器之前,血清至少需要聚合一次.聚合需要原生DNA和聚合菌.原生DNA由基因池获得,而聚合菌可用骨粉培养细菌液体获得.金粒可作为催化剂,加速聚合过程.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIMg==",
+            "tooltip": "<strong>PCR仪</strong></br>前置任务需求:</br>测序仪"
+        },
+        {
+            "name": "标定框架(生产框架)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1114.png",
+            "x": 156.0,
+            "y": 336.0,
+            "data": "标定框架比浸渍框架还要好.%n每个标定框架可提高一倍的产量.经过验证在三种林业原版框架中(未处理、浸渍和标定)标定框架是最经久耐用的!%n%n你可以制作它们或从村民那里购买.如果你找不到养蜂员村民,还有几个其他选择.治疗一个僵尸村民、在村庄中添加门来让村民们自己增加人口、或是用丘比特的弓和箭...%n%n魔法框架相关:%n魔法蜜蜂的所有框架都以魔法框架为核心.同时魔法框架本身也有特殊功能-打破最大产量提升.普通框架无法达到16倍以上的产量(4框架),但有了魔法框架,这个最大值可以继续提升-不过有一点需要注意,超过16倍的产量会让你的蜜蜂超负荷工作,有一定几率退化成卑贱种.这种退化可能发生在任何蜜蜂刻(bee-tick),不止是蜜蜂死亡时.降低基因衰退的框架可以降低发生这种情况的几率.%n%n当然,具有悠长的寿命,高产的基因,蜂拥而至和巨量的框架,你可能认为这是值得的.%n%n请注意,普通产物的生产上限为200％,而特殊产物的生产上限为100％.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEWg==",
+            "tooltip": "<strong>标定框架(生产框架)</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "将雄峰放入罐中摇匀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1512.png",
+            "x": 204.0,
+            "y": 60.0,
+            "data": "如果你培育的蜜蜂可以给你一些正面buff的话,那与其把多余的雄峰都丢了,还不如把它们放在蜜蜂收集者的罐子中,以便在基地的任何地方获得这些效果%n%n生命恢复？获得经验？还是中毒？%n%n蜜蜂收集者的罐子甚至可以连接到管道或传送带来自动传输,这样雄峰给你的效果就可以持续很长时间.%n%n[note]注：帝皇蜂的普天同庆效果在推进血魔法时十分有效.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF6A==",
+            "tooltip": "<strong>将雄峰放入罐中摇匀</strong></br>前置任务需求:</br>扫描还是不扫描--这并非一个问题"
+        },
+        {
+            "name": "图鉴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2102.png",
+            "x": 348.0,
+            "y": 156.0,
+            "data": "图鉴将现有的四个数据库合并到一个新的浏览器中,可以查看所有发现的蜜蜂、树、蝴蝶和花的特性、突变和基因.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAINg==",
+            "tooltip": "<strong>图鉴</strong></br>前置任务需求:</br>追踪你的发现(花)</br>追踪林木</br>“蜂”富你的知识</br>蝴蝶效应"
+        },
+        {
+            "name": "测序仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2097.png",
+            "x": 444.0,
+            "y": 432.0,
+            "data": "获得有你想要的基因的DNA序列后,你还得把它放入测序仪中.它使用荧光染料来标记正确的顺序,并在完成后将数据存入基因数据库.重要的是,数据只会存入放置机器者的数据库中.  如果先将序列放在PCR仪中以增加强度,则基因的测序速度会更快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIMQ==",
+            "tooltip": "<strong>测序仪</strong></br>前置任务需求:</br>基因分离器"
+        },
+        {
+            "name": "丝滑蜂窝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/993.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "处理丝滑蜂窝可以得到丝滑蜂胶,再次处理丝滑蜂胶可以得到制作养蜂员套装所需要的丝缕.%n%n这是非常漫长的过程,所以多堆几个吧.%n%n这个配方可以使用格雷或者林业的离心机来进行处理. 而想要处理更高级(也更有用)的蜂窝,只能使用GT离心机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD4Q==",
+            "tooltip": "<strong>丝滑蜂窝</strong></br>前置任务需求:</br>去寻找一些热带蜜蜂</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "遗传学家的工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2104.png",
+            "x": 252.0,
+            "y": 384.0,
+            "data": "在开始操纵遗传物质之前,你需要各种各样的工具和耗材.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIOA==",
+            "tooltip": "<strong>遗传学家的工具</strong></br>前置任务需求:</br>欢迎来到生物课堂!"
+        },
+        {
+            "name": "扮演上帝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/506.png",
+            "x": 348.0,
+            "y": 324.0,
+            "data": "为了让你的蜜蜂的杂交和变异不再随机,如你所愿,你需要诱变剂. 这种绿色的、臭臭的液体需要从放射性菌泥中提炼出来,但是这种细菌似乎只有在火星上才能找到.所以等你登陆火星之后再回来看看吧.%n%n在此期间,你可以开始研究基因工程这个mod了,虽然我们知道基因工业特别好用……但是看看合成表,你就会明白为什么你应该研究基因工程了.%n%n[note]当你能造细菌培养缸之后,记得多搞点菌泥.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB-g==",
+            "tooltip": "<strong>扮演上帝</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "顶级分析仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/505.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "这是你能做出来的最好的分析仪,能满足你所有的扫描和分析需求.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB-Q==",
+            "tooltip": "<strong>顶级分析仪</strong></br>前置任务需求:</br>多么漂亮的树叶...</br>扫描还是不扫描--这并非一个问题</br>研究蝴蝶"
+        },
+        {
+            "name": "扫描还是不扫描--这并非一个问题",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/504.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "为了让你的养蜂事业更进一步,你需要用一种更加先进的方式来观察蜜蜂的所有特征,不论是显性还是隐性的. 你只需要培育那些\"纯种\"的蜜蜂: 纯种蜜蜂的显性和隐性基因完全相同.%n%n[note]顺带一提,并非越'高级'的特性越好.蜜蜂的特性有很多,合适的才是最好的.用你喜欢的那个就行.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB-A==",
+            "tooltip": "<strong>扫描还是不扫描--这并非一个问题</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "改善它们的家园",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/507.png",
+            "x": 300.0,
+            "y": 276.0,
+            "data": "蜂房可以稳定蜜蜂的突变.例如,如果你成功培育了两种不同的蜜蜂,但隐性基因与显性基因不一致,使用蜂房可以在培育纯合子的同时防止它们突变为别的种类.%n%n而想要让它们杂交形成新的物种,你需要个新玩意-蜂箱.想要建造它们,你需要木工机和浸渍框架,以及种子油和杂酚油-需要相当的工业水准!或者如果你运气好,你可以找到养蜂员村民然后跟他买点.或许你可以让这个村民也幸运地造出更多的养蜂员村民?要是丘比特和他的弓箭刚好就在附近就好了...%n%n空蜂箱的生产效率很低,事实上比简易蜂房都低不少.但蜂箱有两大优势-框架和自动化.你现在可以在其内放入你的未处理框架或浸渍框架来提升产出-而且这种增益是可叠加的.所以3个x2框架可以给你2*2*2",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB-w==",
+            "tooltip": "<strong>改善它们的家园</strong></br>前置任务需求:</br>浸渍框架2"
+        },
+        {
+            "name": "升级你的林业背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1367.png",
+            "x": 252.0,
+            "y": 60.0,
+            "data": "使用编织丝绸,可以将你的林业背包升级. 每个包有45个插槽.%n%n你需要准备一个木工机、你的旧背包和一点种子油.%n%n如果没识别到配方,请将空背包放入合成栏中以重置它的nbt数据. 当然在这么干之前记得把里头的东西先拿出来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFVw==",
+            "tooltip": "<strong>升级你的林业背包</strong></br>前置任务需求:</br>丝绸</br>柔软的皮革"
+        },
+        {
+            "name": "蜂箱组升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2091.png",
+            "x": 204.0,
+            "y": 432.0,
+            "data": "这些蜂箱组的基础升级使它更强大.%n%n框架栏-自动化-使蜂箱组可以安装框架,每个可装三个框架.每个蜜蜂刻(27s)消耗5点耐久.如果在当前刻耐久耗尽,那么框架就会失效.%n稳定器-使蜜蜂突变的几率为0,但是不影响基因的自由组合.非常适合将某条特性培育进蜜蜂基因.%n蜂箱组能量接口-为蜂箱组中需要能量的框架供能%n孵化间-孵化蜜蜂幼体,用于注入基因或制造额外的雄峰.不兼容基因工业蜜蜂...%n蜂箱组滤网-收集蜜蜂工作范围内的花粉,而不是让它们给树授粉,收集的花粉可以手动使用. 需要手动将丝绸放入蜂箱组中.%n蜂箱组克隆盒-在蜂箱组周围生成蜂巢,其内为卑贱种蜂后.新生成的蜂后为内部蓝本的完全基因克隆体.克隆盒需要蜂王浆或芬芳块,而后者效率更高.%n%n[note]请注意,所有的升级方块都必须在蜂箱组的底部两层.同时中央方块不可为升级方块,不过底部中央方块可以为升级方块.[/note]%n%n[warn]需要能量时,蜂箱组能量接口会吸收所有电流,充满一个极小的缓存.所以请使用EIO电容或类似的设备,防止其浪费主线电流.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIKw==",
+            "tooltip": "<strong>蜂箱组升级</strong></br>前置任务需求:</br>蜂箱组"
+        },
+        {
+            "name": "欢迎来到生物课堂!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2081.png",
+            "x": 300.0,
+            "y": 384.0,
+            "data": "Binnie的基因工程(Genetics)mod使你能够提取并挑选蜜蜂、树和花的基因.但这不是免费的!你需要付出一定的代价.%n%n直接用GT的EU给这些机器供电不是好的选择(会造成大量浪费),你应该给EIO的电容库提供能量,然后再用电容库给这些机器供应RF能量. 基因工程的机器无法在GT的电流包系统下很好工作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIIQ==",
+            "tooltip": "<strong>欢迎来到生物课堂!</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "丝绸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/995.png",
+            "x": 204.0,
+            "y": 12.0,
+            "data": "离心丝滑蜂胶,有60％的几率得到丝缕.用林业木工机或者格雷的组装机将9个丝缕制成丝绸.%n%n这种编织物可以用来制作养蜂员套装或者将你的林业背包升级到45格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD4w==",
+            "tooltip": "<strong>丝绸</strong></br>前置任务需求:</br>丝滑蜂窝</br>转啊转啊转啊转..."
+        },
+        {
+            "name": "X战警,或者我应该说X-蜜蜂?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2094.png",
+            "x": 108.0,
+            "y": 432.0,
+            "data": "基因突变器能极大地加速基因突变,甚至让那些极为罕见的蜜蜂得以被培育出来.插入基因突变器的物品控制它提升多少突变.  灵魂沙-提升50％  末影珍珠-提升100％  末影之眼-提升300％",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAILg==",
+            "tooltip": "<strong>X战警,或者我应该说X-蜜蜂?</strong></br>前置任务需求:</br>蜂箱组"
+        }
+    ],
+    "links": [
+        {
+            "source": "养蜂员箱子",
+            "target": "养蜂员背包"
+        },
+        {
+            "source": "装蝴蝶的箱子? 真的吗?",
+            "target": "鳞翅目昆虫学家的背包,哈欠"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "养蜂员箱子"
+        },
+        {
+            "source": "研究蝴蝶",
+            "target": "装蝴蝶的箱子? 真的吗?"
+        },
+        {
+            "source": "诱变机",
+            "target": "高级诱变机"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "蜂箱组"
+        },
+        {
+            "source": "基因分离器",
+            "target": "分析仪"
+        },
+        {
+            "source": "一个新家",
+            "target": "分析它们"
+        },
+        {
+            "source": "相当残酷的处理方式",
+            "target": "要有光"
+        },
+        {
+            "source": "施瓦辛格的液化机",
+            "target": "要有光"
+        },
+        {
+            "source": "框架",
+            "target": "一个新家"
+        },
+        {
+            "source": "木工机",
+            "target": "养蜂员套装"
+        },
+        {
+            "source": "丝绸",
+            "target": "养蜂员套装"
+        },
+        {
+            "source": "钻石制品",
+            "target": "相当残酷的处理方式"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "蜜蜂嗡嗡作响还是尖叫？"
+        },
+        {
+            "source": "钻石制品",
+            "target": "施瓦辛格的液化机"
+        },
+        {
+            "source": "蜂箱组",
+            "target": "一天一刺激,医生找上门"
+        },
+        {
+            "source": "扫描还是不扫描--这并非一个问题",
+            "target": "“蜂”富你的知识"
+        },
+        {
+            "source": "蜜蜂之死",
+            "target": "蜜蜂在黑暗中嗡嗡作响"
+        },
+        {
+            "source": "蜂箱组",
+            "target": "百万蜜蜂"
+        },
+        {
+            "source": "团结起来,蜜蜂们!",
+            "target": "蜂浆,早餐,很好,Weirdos"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "空白的基因样本"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "空白的基因样本"
+        },
+        {
+            "source": "种子不再未知",
+            "target": "我不去就山,让山来就我"
+        },
+        {
+            "source": "潮湿而温暖？",
+            "target": "我不去就山,让山来就我"
+        },
+        {
+            "source": "蜂箱组",
+            "target": "忙碌的蜜蜂尽情嗡鸣"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "蜜蜂之死"
+        },
+        {
+            "source": "基因模板",
+            "target": "钻石制品"
+        },
+        {
+            "source": "蜜蜂嗡嗡作响还是尖叫？",
+            "target": "最快突变"
+        },
+        {
+            "source": "扫描还是不扫描--这并非一个问题",
+            "target": "研究蝴蝶"
+        },
+        {
+            "source": "线材轧机v0.2测试版",
+            "target": "先说重要的事情"
+        },
+        {
+            "source": "研究蝴蝶",
+            "target": "蝴蝶效应"
+        },
+        {
+            "source": "找到一些蜜蜂",
+            "target": "框架"
+        },
+        {
+            "source": "测序仪",
+            "target": "基因数据库"
+        },
+        {
+            "source": "恒温箱",
+            "target": "基因池"
+        },
+        {
+            "source": "钻石制品",
+            "target": "基因压印机"
+        },
+        {
+            "source": "钻石制品",
+            "target": "基因采样机"
+        },
+        {
+            "source": "空白的基因样本",
+            "target": "基因模板"
+        },
+        {
+            "source": "钻石制品",
+            "target": "基因转换机"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "团结起来,蜜蜂们!"
+        },
+        {
+            "source": "我不去就山,让山来就我",
+            "target": "廉价的生物群系改变"
+        },
+        {
+            "source": "先说重要的事情",
+            "target": "找到一些蜜蜂"
+        },
+        {
+            "source": "一个新家",
+            "target": "去寻找一些热带蜜蜂"
+        },
+        {
+            "source": "基因采样机",
+            "target": "高级品种:博士"
+        },
+        {
+            "source": "基因采样机",
+            "target": "高级品种:恶龙"
+        },
+        {
+            "source": "基因采样机",
+            "target": "高级品种:硅晶"
+        },
+        {
+            "source": "一个新家",
+            "target": "潮湿而温暖？"
+        },
+        {
+            "source": "承认吧,UV阶段你喜欢的Pt 1",
+            "target": "巨型工业蜂箱"
+        },
+        {
+            "source": "百万蜜蜂",
+            "target": "巨型工业蜂箱"
+        },
+        {
+            "source": "一个新家",
+            "target": "浸渍框架2"
+        },
+        {
+            "source": "欢迎来到生物课堂!",
+            "target": "恒温箱"
+        },
+        {
+            "source": "PCR仪",
+            "target": "基因注射器"
+        },
+        {
+            "source": "基因池",
+            "target": "基因分离器"
+        },
+        {
+            "source": "巧克力框架",
+            "target": "保持冷静,破浪乘蜂(Keep Calm and Bee On)"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "巧克力框架"
+        },
+        {
+            "source": "欢迎来到生物课堂!",
+            "target": "实验台"
+        },
+        {
+            "source": "欢迎来到生物课堂!",
+            "target": "让蜜蜂住得更舒服"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "全图鉴"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "诱变机"
+        },
+        {
+            "source": "扮演上帝",
+            "target": "诱变机"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:穴居性"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:夜行性"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:生育能力"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:耐湿性"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:耐雨飞行"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:快到模糊"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只要最好:耐温性"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只有最好: 树木培育"
+        },
+        {
+            "source": "基因采样机",
+            "target": "只有最坏: 树木销毁!"
+        },
+        {
+            "source": "钻石制品",
+            "target": "花粉收集装备"
+        },
+        {
+            "source": "测序仪",
+            "target": "PCR仪"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "标定框架(生产框架)"
+        },
+        {
+            "source": "扫描还是不扫描--这并非一个问题",
+            "target": "将雄峰放入罐中摇匀"
+        },
+        {
+            "source": "追踪你的发现(花)",
+            "target": "图鉴"
+        },
+        {
+            "source": "追踪林木",
+            "target": "图鉴"
+        },
+        {
+            "source": "“蜂”富你的知识",
+            "target": "图鉴"
+        },
+        {
+            "source": "蝴蝶效应",
+            "target": "图鉴"
+        },
+        {
+            "source": "基因分离器",
+            "target": "测序仪"
+        },
+        {
+            "source": "去寻找一些热带蜜蜂",
+            "target": "丝滑蜂窝"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "丝滑蜂窝"
+        },
+        {
+            "source": "欢迎来到生物课堂!",
+            "target": "遗传学家的工具"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "扮演上帝"
+        },
+        {
+            "source": "多么漂亮的树叶...",
+            "target": "顶级分析仪"
+        },
+        {
+            "source": "扫描还是不扫描--这并非一个问题",
+            "target": "顶级分析仪"
+        },
+        {
+            "source": "研究蝴蝶",
+            "target": "顶级分析仪"
+        },
+        {
+            "source": "一个新家",
+            "target": "扫描还是不扫描--这并非一个问题"
+        },
+        {
+            "source": "浸渍框架2",
+            "target": "改善它们的家园"
+        },
+        {
+            "source": "丝绸",
+            "target": "升级你的林业背包"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "升级你的林业背包"
+        },
+        {
+            "source": "蜂箱组",
+            "target": "蜂箱组升级"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "欢迎来到生物课堂!"
+        },
+        {
+            "source": "丝滑蜂窝",
+            "target": "丝绸"
+        },
+        {
+            "source": "转啊转啊转啊转...",
+            "target": "丝绸"
+        },
+        {
+            "source": "蜂箱组",
+            "target": "X战警,或者我应该说X-蜜蜂?"
+        }
+    ]
+}

@@ -1,0 +1,2658 @@
+{
+    "data": [
+        {
+            "name": "吸收魔法能源转化为EU(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2822.png",
+            "x": 696.0,
+            "y": 156.0,
+            "data": "这是HV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALBg==",
+            "tooltip": "<strong>吸收魔法能源转化为EU(HV)</strong></br>前置任务需求:</br>把你的魔法垃圾都扔到这里来(MV)</br>力场发生器(MV)"
+        },
+        {
+            "name": "吸收魔法能源转化为EU(MV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2823.png",
+            "x": 696.0,
+            "y": 120.0,
+            "data": "这是MV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALBw==",
+            "tooltip": "<strong>吸收魔法能源转化为EU(MV)</strong></br>前置任务需求:</br>把你的魔法垃圾都扔到这里来(MV)"
+        },
+        {
+            "name": "吸收魔法能源转化为EU(LV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2824.png",
+            "x": 696.0,
+            "y": 84.0,
+            "data": "它们通过吸收节点、龙蛋、爬行者蛋等的魔法能量来产生电力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALCA==",
+            "tooltip": "<strong>吸收魔法能源转化为EU(LV)</strong></br>前置任务需求:</br>把你的魔法垃圾都扔到这里来(LV)"
+        },
+        {
+            "name": "吸收魔法能源转化为EU(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2825.png",
+            "x": 696.0,
+            "y": 192.0,
+            "data": "这是EV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALCQ==",
+            "tooltip": "<strong>吸收魔法能源转化为EU(EV)</strong></br>前置任务需求:</br>把你的魔法垃圾都扔到这里来(HV)</br>处理器主机,你的第一种IV电路板"
+        },
+        {
+            "name": "酸之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2792.png",
+            "x": 624.0,
+            "y": 156.0,
+            "data": "这是HV版本.为什么人类真的会用到这? 每组红石粉大约价值580k-EU,所以看看自己的仓库再做决定吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK6A==",
+            "tooltip": "<strong>酸之旅</strong></br>前置任务需求:</br>高压级别的化学实验"
+        },
+        {
+            "name": "高级氙镍诺(Xeninol)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7154632998014096877.png",
+            "x": 444.0,
+            "y": 492.0,
+            "data": "在这部分,你可以在发电之余获得一些有用的东西.氙和高级镍钛诺,其中多亏了保护气配方的改革,氙在工业高炉中变得十分有用.而至于高级镍钛诺,如果你还没为它专设一个量子反常,可以试一下这个配方.谁知道将来还有些什么.%n%n由于就在最后一步聚变之前,这些配方也是和之前一样的0.144:1的比例,成为你使用压缩核聚变反应堆的障碍.需要重点关注的是倒数第二个聚变配方,高级镍钛诺等离子体,你需要9.216或者说是10台MK3聚变反应堆来供给一台聚变天体钨等离子体的MK3压缩核聚变反应堆.而如果使用压缩核聚变反应堆制作高级镍钛诺等离子体,并且只要能够为其提供充足的原料,那就可以供给6台聚变天体钨等离子体的MK3压缩核聚变反应堆.",
+            "quest_id": "D0JaazeIQ8qctaMx9xTqEw==",
+            "tooltip": "<strong>高级氙镍诺(Xeninol)</strong></br>前置任务需求:</br>玛丽锔?</br>虚恩等离子体 - MK2之末</br>阿美利卡!!!!!!!!!"
+        },
+        {
+            "name": "可选核燃料:泰伯利亚",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/198.png",
+            "x": 516.0,
+            "y": 300.0,
+            "data": "它们与铀类似不过发热仅为其一半.目前还没有现成的反应堆设计图,而且你需要T5火箭(LuV),才能到达罗斯128ba,获取泰伯利亚,我觉得完全不值.如果你不同意这一点,请为大家设计一个泰伯利亚反应堆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxg==",
+            "tooltip": "<strong>可选核燃料:泰伯利亚</strong></br>前置任务需求:</br>标准核燃料II:硅岩"
+        },
+        {
+            "name": "阿美利卡!!!!!!!!!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5802810217373252190.png",
+            "x": 408.0,
+            "y": 504.0,
+            "data": "使出“合众粉碎”来将这些粒子打到一起,然后启动可控核聚变反应,使我们能继续这个巨大的能源产线.记住,这就是镅等离子体!%n%n实际上,在单配方产能装置中,这个等离子体可能是特大等离子涡轮的最佳选择.然而,与氦和锡等离子体之前的状态相比,在MK3压缩核聚变反应堆中,它的速度比较慢,因为镅等离子体没有192x/128x的并行,更不用说它的配方时间已经是锡的8倍.%n%n为了维持你的UEV/UIV的基地,你还需要大量的Pu-241,但是这条聚变产线可以大大地减少所需的数量,即使两个输入(镅和锔)都需要钚-241.%n%n这一步所需的时间超过了这条产线最后一步的一半,因此它是主要的瓶颈之一：如果你把最后一步升级为压缩核聚变反应堆,这里你就需要37个MK3聚变反应堆来匹配产线的速度.%n%n译者注：关于\"合众粉碎\",原文为\"United States of SMASH\",是我的英雄学院中欧尔麦特的终极战斗招式.由于镅(Americium)的英文和美国(America)相似,因此在这里玩了个梗.",
+            "quest_id": "Qrjs7uh5TcSveEbaFnXFog==",
+            "tooltip": "<strong>阿美利卡!!!!!!!!!</strong></br>前置任务需求:</br>虚恩等离子体 - MK2之末"
+        },
+        {
+            "name": "合适的能源",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/190.png",
+            "x": 516.0,
+            "y": 192.0,
+            "data": "不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级你的电网,至少对高炉供电系统进行升级. 所以让我们来使用强大的能源:核能!%n%n如果你想了解反应堆的工作原理,请参考英特网以及 [url]https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases[/url] 这里的核电计算器%n%n提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍!!!请确保在高级中将计算器设置为GTNH模式.另外,所有部件悬停显示的都是基础数据(x10之前).%n%n在[url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url] 可以获知更多GTNH核反应堆信息. 目前1920EU/t的钍堆应该是最佳选择.%n%nWIKI 核反应堆：[url]gtnh.huijiwiki.com/p/977[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAvg==",
+            "tooltip": "<strong>合适的能源</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "Balance is Everything",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6774427117513567879.png",
+            "x": 264.0,
+            "y": 372.0,
+            "data": "You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!\n\nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.\n\nBut it’s a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.\n\nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in it's 16 Antimatter Hatches and consumes equal amounts of Proto Matter.\n\nThe average change in Antimatter is equal to (Antimatter Total)^0.5 * N(0.2, 0.25), where N is a Gaussian Distribution, meaning the total antimatter change may be negative.\n\nThe Produced Antimatter is distributed between the 16 hatches, sampled from N(0.2, 1). This causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!\n\nProper use of stabilization fluids can significantly reduce energy usage and boost production:\n\nIt consumes 10,000,000 + (Antimatter * 1000)^1.5 EU/t passively\nMagnetic Stabilization Fluids can mitigate the passive instability and have it's exponent reduced:\nMolten Purified Tengam Exponent = 1.35\nTachyon-Rich Fluid Exponent = 1.2\n\nFor each cycle, the SSASS uses (Antimatter * 10000)^1.5 EU\nBy regulating the gravity containment of the forge, this exponent can also be reduced:\nMolten Spacetime Exponent = 1.45\nSpatially Enlarged Fluid Exponent = 1.40\nMolten Eternity Exponent = 1.35\n\nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the exponent in the production formula:\nMolten Shirabon Exponent = 0,55\nMolthen MHDSCM Exponent = 0,60\n\nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the skew of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.\nDepleted Naquadah Fuel Mk V skew = 0.25\nDepleted Naquadah Fuel Mk VI skew = 0.30",
+            "quest_id": "K0_-BjVuR3qh_GZt19SReQ==",
+            "tooltip": "<strong>Balance is Everything</strong></br>前置任务需求:</br>Pseudostable Black Hole Containment Field"
+        },
+        {
+            "name": "基础核燃料:钍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/193.png",
+            "x": 480.0,
+            "y": 228.0,
+            "data": "钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍).甚至在烧完后还会返还1/3的钍! 所以用钍可以做一个完美的\"一劳永逸\"的电力供应装置.%n%n[warn]请注意:当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的原料.%n虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAwQ==",
+            "tooltip": "<strong>基础核燃料:钍</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "硼的聚变",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6752762253121630907.png",
+            "x": 180.0,
+            "y": 480.0,
+            "data": "硼等离子体需要氦等离子体来聚变.没错,整条能源产线是建立在氦等离子体的基础之上的!%n%n聚变硼等离子体的速度要比氦等离子体慢很多,所以如果用于聚变这俩等离子体的反应堆的数量和等级相同,氦等离子体就会严重过剩.不过正如你所知,氦等离子体对于大型等离子涡轮发电很有用,因此可以将这过剩的氦等离子体利用起来为其他的聚变反应堆供能.不过,随着规模的扩大,单是靠这个可就不大能供上电了.%n%n你需要3.75台硼等离子体的反应堆供给一台氖等离子体的反应堆.",
+            "quest_id": "Tfb8JzstRNuiSV6CKgTNRQ==",
+            "tooltip": "<strong>硼的聚变</strong></br>前置任务需求:</br>欢迎来到等离子体系列任务"
+        },
+        {
+            "name": "钙瓶颈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6653872471765810391.png",
+            "x": 180.0,
+            "y": 504.0,
+            "data": "给自己来些强筋健骨的钙(等离子体)吧.%n%n聚变钙等离子体的速度几乎是硼等离子体的两倍,所以就只需要半数于硼等离子体反应堆的聚变反应堆,又或是增加硼等离子体反应堆的数量或等级.通常情况下,聚变钙等离子体的速度要慢很多,但是聚变氖等离子体需要的钙等离子体的量并不多.%n%n记住,三条聚变链每条的最后一步,其所消耗等离子体的速率都会成倍增加,也就意味着如果你是奔着天体钨等离子体去的,那么大部分瓶颈将会出现在整个产线的末端.%n%n你需要2.13台钙等离子体的反应堆供给一台聚变氖等离子体的反应堆.",
+            "quest_id": "9j1Iwd3KRG6jqLI9m6YDKQ==",
+            "tooltip": "<strong>钙瓶颈</strong></br>前置任务需求:</br>欢迎来到等离子体系列任务"
+        },
+        {
+            "name": "天体钨等离子体 - MK3之终",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8021583113396239664.png",
+            "x": 492.0,
+            "y": 492.0,
+            "data": "到这就是MK3聚变产线的结尾了,也是三条聚变产线的总和.在氦等离子体的基础上进行了14次聚变之后,终于将这来之不易的天体钨等离子体收入囊中,其高达720M的热值可以免疫一众巨型涡轮的惩罚,直至巨型时空涡轮.%n%n要扩大等离子发电规模直至终极目标和戴森球,很可能就依靠天体钨等离子体或镅等离子体了,后者虽然是单步配方,但在单堆上的发电量要逊色于前者.64并行的天体钨等离子体的MK3压缩核聚变反应堆配合无尽涡轮有着超过80亿EU/t的发电量.要扩大上述发电的规模并没有那么...那么的难,只需要清楚哪些配方会成为最大的瓶颈并且拥有充足的原料.%n%n到目前为止,还没等离子体需要用天体钨等离子体制作,但在将来可能会新增这样的等离子体,尤其是诸如龙血等一众GT++材料.恭喜你完成这条聚变产线!愿原力与你同在.",
+            "quest_id": "LSqzsH4oS7OQrZyolb7C0A==",
+            "tooltip": "<strong>天体钨等离子体 - MK3之终</strong></br>前置任务需求:</br>高级氙镍诺(Xeninol)"
+        },
+        {
+            "name": "压缩太阳能 LV",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1332.png",
+            "x": 84.0,
+            "y": 84.0,
+            "data": "太阳的力量x10. 这个太阳能电池板抵得上10块普通太阳能电池板,但成本仅为9.这怎么可能？ 魔法!注意:它们输出GT-EU.不需要变压器!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFNA==",
+            "tooltip": "<strong>压缩太阳能 LV</strong></br>前置任务需求:</br>太阳之力(ULV)1x1</br>能够储存50\"VIS\"的法杖"
+        },
+        {
+            "name": "深地热泵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2766.png",
+            "x": 480.0,
+            "y": 120.0,
+            "data": "这台机器使用地热能加热冷却液,可以跳过流体核反应堆.%n%n请查看https://gtnh.miraheze.org/wiki/Fluid_Reactor 并用深地热泵替换流体核反应堆.%n%n这基本就是无限能源,不过用炼狱之壶配合流体热交换机也可以实现相同功能...随便啦. 这玩意非常非常贵,别忘了这一点!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKzg==",
+            "tooltip": "<strong>深地热泵</strong></br>前置任务需求:</br>量子处理器主机"
+        },
+        {
+            "name": "柴油的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1870.png",
+            "x": 192.0,
+            "y": 120.0,
+            "data": "MV内燃发电机燃烧轻燃油的速度比起LV版本更快,不过你可以将柴油自动化,并将其用作替代燃料,因为柴油更加强大.柴油可以说是现阶段可以实现自动化并产出大量能量的最简单且最高效的方式,而且如果你不断对其进行升级,它还可以持续供给你更多阶段的能源需求.%n%n另外,柴油可用作直升机背包的燃料,直升机背包是很棒的一种喷气背包类装备,它可以让你在基地内外自由移动.所以如果你有些柴油的话,强烈建议你做个直升机背包.%n%n[note]此任务还可以解锁\"摆脱死亡,游历四方\"章节中的任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHTg==",
+            "tooltip": "<strong>柴油的力量</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "双重压缩太阳能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1336.png",
+            "x": 84.0,
+            "y": 120.0,
+            "data": "72个1EU/t的太阳能合起来就是100EU/t？听起来很不错.做一个吧.它们也可以注魔.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFOA==",
+            "tooltip": "<strong>双重压缩太阳能</strong></br>前置任务需求:</br>压缩太阳能 LV</br>可怕的魔法载体"
+        },
+        {
+            "name": "二联燃料棒,双倍的快乐(double the fun(fuel))",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1899.png",
+            "x": 480.0,
+            "y": 264.0,
+            "data": "需要更多能量?何不将燃料棒结合起来?二联燃料棒可以产生更多能量(并不一定是双倍,这因燃料棒类型而异)以及更多热量(同样非双倍),却只占用一个格子.你需要更复杂的设计来处理它们,但你已经准备好了,对吧?%n%n所以何不更进一步,双倍双倍后变为四倍(4x)?四联燃料棒会产生更多更多的能量和热量,其他工作原理基本相同(在大多数情况下).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHaw==",
+            "tooltip": "<strong>二联燃料棒,双倍的快乐(double the fun(fuel))</strong></br>前置任务需求:</br>基础核燃料:钍"
+        },
+        {
+            "name": "你听到引擎声了吗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1740.png",
+            "x": 228.0,
+            "y": 228.0,
+            "data": "你老式但可靠的内燃发电机渐渐力不从心,更不用说污染问题了. 如果你想继续使用液体燃料,你需要制造一个更好的引擎.%n这台多方块可以默认产生1A的EV电压,如果你给它提供氧气,则可以产生3A. 然而,这种动力不是毫无代价的-你需要不断为机器提供少量润滑剂(如果你想提高效率和输出,则需要氧气).%n%n你还需要3个输入仓,1个消声仓和动力仓.这些仓室的等级取决于你.%n%n高十六烷值柴油和高辛烷值汽油(HOG)是这款引擎的优质燃料来源.%n%n你需要保持引擎前方的区域无方块,以便能够吸入足够的空气-甚至连火把都不能有.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGzA==",
+            "tooltip": "<strong>你听到引擎声了吗？</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "戴森球地面单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3039.png",
+            "x": 228.0,
+            "y": 408.0,
+            "data": "从本质上来说,戴森球地面单元这台多方块机器就是一大块太阳能板,稍微有点不同的是,你需要插入戴森球模块(数量取决于你想要多高的功率输出),才能获得能量产出.不过它并非一劳永逸：%n-每小时m个戴森球模块中有n个会被损耗,公式：n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL3w==",
+            "tooltip": "<strong>戴森球地面单元</strong></br>前置任务需求:</br>UMV电路板</br>耐超高温网"
+        },
+        {
+            "name": "灵气源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1334.png",
+            "x": 552.0,
+            "y": 84.0,
+            "data": "这台发电机相当棘手.它需要灵气源质,这并不常见,但它的输出很棒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFNg==",
+            "tooltip": "<strong>灵气源质发电机</strong></br>前置任务需求:</br>能量源质发电机"
+        },
+        {
+            "name": "能量源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1333.png",
+            "x": 588.0,
+            "y": 84.0,
+            "data": "厌倦了销毁无用的能量源质吗？ 那么这就是解决方案:消耗能量源质并输出GT-EU!不需要变压器!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFNQ==",
+            "tooltip": "<strong>能量源质发电机</strong></br>前置任务需求:</br>炼化源质</br>欢迎来到第1阶段,LV</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "火之源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1339.png",
+            "x": 552.0,
+            "y": 48.0,
+            "data": "所以,你摆脱了多余的能量源质,也许你也不想要火之源质？ 制造这个能够燃烧火之要素产生电力.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFOw==",
+            "tooltip": "<strong>火之源质发电机</strong></br>前置任务需求:</br>能量源质发电机"
+        },
+        {
+            "name": "木之源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1340.png",
+            "x": 588.0,
+            "y": 48.0,
+            "data": "当使用神奇的植物来获得源质时,你最终会得到几十个装满木之源质的罐子. 但不用担心! 这台发电机使用木之源质运行!真棒!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFPA==",
+            "tooltip": "<strong>木之源质发电机</strong></br>前置任务需求:</br>能量源质发电机"
+        },
+        {
+            "name": "贪婪源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1342.png",
+            "x": 624.0,
+            "y": 48.0,
+            "data": "当你耗尽能源时,这种高度扭曲的高功率源质发电机是救命稻草. 只需将一些金制品扔进你的炼金炉中,然后烧掉你得到的贪婪源质.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFPg==",
+            "tooltip": "<strong>贪婪源质发电机</strong></br>前置任务需求:</br>能量源质发电机"
+        },
+        {
+            "name": "风之源质发电机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1341.png",
+            "x": 624.0,
+            "y": 84.0,
+            "data": "甘蔗能发电吗？这台发电机使用风之源质运行,它可能不如它的同类强大,但燃料很便宜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFPQ==",
+            "tooltip": "<strong>风之源质发电机</strong></br>前置任务需求:</br>能量源质发电机"
+        },
+        {
+            "name": "更好的柴油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2787.png",
+            "x": 192.0,
+            "y": 156.0,
+            "data": "在HV阶段,你不但解锁了另一种发电机,还解锁了高十六烷值柴油.在一系列反应之后,你可以获得这种超高能内燃流体燃料,价值每桶1M-EU,并可以在这些改进型发电机中运行相当一段时间.在本阶段你同样解锁了蒸馏塔,所以或许你可以获取更多更多的燃料用于这些发电机.%n%n很遗憾,在EV阶段解锁的下一个燃料,并不是柴油一系.它需要完全不同的处理线,你应该会在之后解决它吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK4w==",
+            "tooltip": "<strong>更好的柴油</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "更多压缩注魔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1337.png",
+            "x": 120.0,
+            "y": 48.0,
+            "data": "你可以注魔压缩太阳能,获得某种场合下更高的发电量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFOQ==",
+            "tooltip": "<strong>更多压缩注魔</strong></br>前置任务需求:</br>注魔太阳能</br>双重压缩太阳能"
+        },
+        {
+            "name": "引爆液体获取能量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/532.png",
+            "x": 192.0,
+            "y": 84.0,
+            "data": "内燃发电机可以燃烧几种流体产生EU,而且只有需要的时候才会消耗燃料.其中某些流体更受欢迎,而石油处理线从LV到EV的每个阶段,均有一种不同的流体燃料.%n%n首先,LV阶段为轻燃油.相比石油本身,轻燃油的发电价值要高得多,所以你应该将石油进行蒸馏并脱硫,以获得纯净的轻燃油并将其用于发电.这是目前基地的最佳供能方案,并且轻燃油在下一阶段还可以进一步升级. 等你制造了泵并找到了一些石油,请查看\"石油工业\"任务栏以获取更多信息.%n%n如果你正在计划着搭建石油处理线,相信我,这将是你最常用的发电机类型.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACFA==",
+            "tooltip": "<strong>引爆液体获取能量</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "流体校准器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1893.png",
+            "x": 120.0,
+            "y": 264.0,
+            "data": "涡轮需要精确控制流量,否则容易造成[warn]爆炸[/warn]或浪费.  将流体校准器贴在连接到输入仓的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.%n%n[note]按住Shift,空手右键校准器可以打开GUI,进行更精确的设置.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHZQ==",
+            "tooltip": "<strong>流体校准器</strong></br>前置任务需求:</br>利用等离子体发电</br>大型燃气涡轮</br>我们需要些大家伙"
+        },
+        {
+            "name": "力量等离子体 - Mk1结束",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5166715817697893279.png",
+            "x": 228.0,
+            "y": 492.0,
+            "data": "得到之前的两种等离子体后,即刻把他们聚变成新的东西——氖等离子体.直接用的话,没准你会做出来Neon(霓虹灯/氖气)!当然更多还是用来生产后面更有用的材料,多留意一下.%n%n然而氖不是MK1最后一个需要做的等离子体.你需要在适当的阶段搞定三种等离子体的生产,和一个非等离子材料,才能开始最后的步骤得到最终想要的发电用的等离子体.非等离子体材料就是基岩,你之前遇到过的基岩.用游戏早期的压缩圆石法生产基岩的负担太大了;用T8之后虚空采矿场,或太空电梯来自动化获取基岩就会好很多.%n%n翻合成表时你大概会发现制作1000L力量等离子体只需要144L氖等离子体,后面系列任务的最终目标产出步骤也是这个数量关系,而且都是一系列聚变配方的瓶颈步骤.一台力量等离子体聚变需要0.144台氖等离子体聚变,或者说,一台聚变生产氖能供约7台生产力量等离子(准确说是6.944...台).%n%nMK1部分的核聚变产链到力量等离子体为止,这是拥有每桶150M-EU燃料值的等离子体,它在使用无尽催化剂转子的特大等离子涡轮中的效率惩罚为53.5％,而氦等离子同情况下的效率惩罚为86.1％.可能ZPM阶段你还不需要这些,但这些将会是你未来发展的奠基石.",
+            "quest_id": "tSCw6KSbR8a4TCNWlrmkYQ==",
+            "tooltip": "<strong>力量等离子体 - Mk1结束</strong></br>前置任务需求:</br>钙瓶颈</br>硼的聚变"
+        },
+        {
+            "name": "大型燃气涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1894.png",
+            "x": 156.0,
+            "y": 192.0,
+            "data": "大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓才能构建一台完整的多方块机器.别忘了流体校准器,用以控制多方块的输入流速!由于大型燃气涡轮每t需要的最佳流量远低于大型蒸汽涡轮所需的蒸汽流量,所以不需要太高级的流体校准器(目前LV就够了).%n%n每种涡轮材料都有特定的涡轮效率(效率越高,相同量的燃料获得的EU越多),而且只有燃料的通入速度与最佳流量匹配时,多方块才能达到此涡轮效率.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于燃气涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载300％,输出功率180％;超载效率等级3：最高超载450％,输出功率252％.越接近超载极限,损失的燃料效率越多.%n%n要得知最佳涡轮材料的信息,请看Discord频道中的大型涡轮计算器以及数据表格.%n%n[warn]以后版本中,大型燃气涡轮的输出功率将被限制在8192EU/t.要得到更高的输出,需要使用进阶燃气涡轮,它只能接受100kEU以上热值的燃料.%n%n译者注:也可以看看固体氧化物燃料电池MK-II(输出1A-LuV以上)或者特大燃气涡轮(输出无限制).[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHZg==",
+            "tooltip": "<strong>大型燃气涡轮</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "地热引擎(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2798.png",
+            "x": 588.0,
+            "y": 228.0,
+            "data": "以相当低效的转化率,将岩浆转化为能量.另外,似乎产生的污染比它说的要多...而且相比于它的输出电压,制造它的材料还要高2个电压等级.以上.%n%n[note]地热能不是应该对环境友好吗?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK7g==",
+            "tooltip": "<strong>地热引擎(EV)</strong></br>前置任务需求:</br>量子处理器主机"
+        },
+        {
+            "name": "地热引擎(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2799.png",
+            "x": 588.0,
+            "y": 264.0,
+            "data": "这是IV版本.几乎可以肯定,产生的污染比它说的要多...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK7w==",
+            "tooltip": "<strong>地热引擎(IV)</strong></br>前置任务需求:</br>晶体处理器主机"
+        },
+        {
+            "name": "地热引擎(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2800.png",
+            "x": 588.0,
+            "y": 300.0,
+            "data": "这是LuV版本.就算配合炼狱之壶一起使用,但真的有用吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK8A==",
+            "tooltip": "<strong>地热引擎(LuV)</strong></br>前置任务需求:</br>湿件主机"
+        },
+        {
+            "name": "不含致幻剂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2793.png",
+            "x": 624.0,
+            "y": 192.0,
+            "data": "这是EV版本.我希望你没有将其当做主力发电机...不过至少,这玩意的效率很棒,EV阶段能有88％,而且把不要的流体用作燃料总好过直接销毁它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK6Q==",
+            "tooltip": "<strong>不含致幻剂</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "Harnessing Chaos",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6186301913252184525.png",
+            "x": 264.0,
+            "y": 444.0,
+            "data": "You’ve mastered antimatter production, but raw antimatter alone won't run your machines. To turn that potential into unparalleled power, it’s time to [warn]harness the chaos[/warn] itself!\n\n[quest]Introducing the Shielded Lagrangian Annihilation Matrix![/quest]\n\nThe SLAM creates raw energy by reacting the Semi-Stable Antimatter with normal matter in a controlled environment.\n\nEvery cycle, the generator will react all antimatter and matter in hatches instantly, converting it all into energy directly. The EU output is based on the equal amounts of antimatter and matter annihilated. Therefore, imbalance between the amounts will waste your precious energy.\n\nDepending on the matter used to annihilate, the antimatter amount gets an exponent applied to it, directly increasing the amount of energy produced from 1L of antimatter - this means the more you annihilate in one go, the more efficient it is!\n\nThe maximum EU for a cycle is limited by the capacity of all laser source hatches on the structure (limited to 64), even on wireless mode.\n\n[note]It can't output more than 9.22e18 EU in a cycle, or just below 43 16M UXV Laser Sources (If you're crazy enough for it)\n[/note]\n\nThe Formula and the exponents for each of the possible matters are:\n\nGenerated EU = (Antimatter^exponent) * 1.000.000.000\n\nMolten Copper - 1.00\nMolten UIV SC Base - 1.02\nMolten UMV SC Base - 1.03\nMolten Black Dwarf Matter - 1.04",
+            "quest_id": "_O6stWM3RR-qJdcvs0i-Mw==",
+            "tooltip": "<strong>Harnessing Chaos</strong></br>前置任务需求:</br>\"Semi-Stable\" doing a lot of work in here"
+        },
+        {
+            "name": "为了供应它,你砍伐了多少森林?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2786.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "这是HV版本,效率已经低至85％.你可以通过在蒸馏塔中生产更多的苯,来弥补这一点,顺便还可以产出更多苯酚和甲苯;或者换用石脑油...目前,你有很多选择,完全足以应付你的自动化体系不断增长的能源需求.%n%n苯在HV阶段无法进行升级,还得等到EV阶段.届时,你就能制造硝基苯了,然后将其置于更大的涡轮中燃烧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK4g==",
+            "tooltip": "<strong>为了供应它,你砍伐了多少森林?</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "高压蒸汽轮机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1403.png",
+            "x": 120.0,
+            "y": 156.0,
+            "data": "在HV阶段,使用蒸汽作为你的唯一能源是非常困难的.你的燃料自动化需要非常快,你的管道需要非常巨大,最后HV蒸汽轮机的效率也仅有66％,远低于其他类型发电机的85％.%n%n这台发电机的最佳用法是配合一台高效的锅炉(类似GT++的进阶锅炉),为农场之类的特定方块供电. 如果想仅靠这种发电机为你的整个基地以及自动化体系供能,并向EV发起冲击的话,那将是一场噩梦.如果你想要提高蒸汽的效率,考虑修建大型蒸汽涡轮吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFew==",
+            "tooltip": "<strong>高压蒸汽轮机</strong></br>前置任务需求:</br>第3阶段(HV)</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "氢气、甲烷或者一些屁(天然气)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/533.png",
+            "x": 156.0,
+            "y": 84.0,
+            "data": "在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.离心橡胶树原木可以获得60mB的甲烷,还有许多其他作物也可以用这种方式产出甲烷.%n%n使用这些发电机的主要发电产线是苯,但那需要MV级机器.%n%n如果你正在计划着搭建可再生能源线,相信我,这将是你最常用的发电机类型.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACFQ==",
+            "tooltip": "<strong>氢气、甲烷或者一些屁(天然气)</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "我来教你...怎么感谢太阳！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6008922449644892285.png",
+            "x": 336.0,
+            "y": 336.0,
+            "data": "太长;不看：这个任务需求的机械方块数量是造一个最强的太阳能塔用的,这个塔要超多不锈钢,钛,HV电路板,加上一些其他材料,但是它能产出大概2A LuV.%n%n你尝试用过太阳能板吗?可能造过一些?我问你哦,这些太阳能板有什么共同点...它们不是产蒸汽就是直接产EU,太没效率了.所有人都忘记了这件事!%n%n单方块太阳很适合塞在任何有太阳的地方,给机器提供一个稳点的供电.然而,鉴于EU的存储和运输相当容易,来尝试点好东西.不同于直接发电,用周围环状排列太阳能反射器将这些太阳能光束集中到中间结构上,然后沐浴在太阳系最强的聚变反应堆的超强力量中吧!%n%n(如果你最后造了更大的聚变,别来和我咬文嚼字)%n%n大致的原理就是,将太阳光直接照在一种比水更好的储能流体上,太阳能盐.太阳能塔会加热所有塔中存储的流体,但是注意,如果里面有太多冷的太阳能盐,它们会吸走大部分热量从而降低整体的运行效率.%n%n实际上太阳能塔的热量区间是0到100000,但它只会加热30000以上热量的太阳能盐.每个循环中增加的能量取决于反射器的数量以及当前温度.理想温度刚好是上限的一半,50000热量.为了让太阳能塔工作在最高效率上,你需要慢慢加入冷的太阳能盐以维持恰当的温度.具体以什么流速加入太阳能盐就留给你自己算了,这取决于你所使用的的反射器的数量.%n%n在以上的基础上像用热冷却液那样通过热交换产生蒸汽或过热蒸汽.如果你想要太阳能塔的工作效率最大化,请把它建在永远白天的个人维度里.",
+            "quest_id": "Hn_igsosSbKsnATeYgvPgw==",
+            "tooltip": "<strong>我来教你...怎么感谢太阳！</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "不完全燃烧",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2967.png",
+            "x": 228.0,
+            "y": 300.0,
+            "data": "LuV阶段的化学燃料发电机?好吧,如果你是柴油神教或大苯环神教的狂热信徒,那你一定会喜欢上它的.%n%n%n%n这台引擎可以接受所有的柴油燃料、气体燃料以及火箭燃料(不过后面用大型火箭引擎效率更高).它还需要助燃剂才能保持正常运行.%n%n这台引擎每秒会消耗输入仓中所有的燃料与助燃剂,并基于总燃值输出能量.%n%n而效率取决于助燃剂/燃料比.这个比值越大(助燃剂越多),效率越高,最高为150％,但想要达到这个极限效率需要输入近乎无限的助燃剂.对于高辛烷值汽油这类高燃值燃料,除非不计成本地投入助燃剂,正常的效率期望约为130％.%n%n举个例子:你每秒输入100mB高辛烷值汽油以及1000mB助燃剂.效率为149％,而高辛烷值汽油的总燃值为250,000-EU. 所以输出能量为250,000*1.49/20",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALlw==",
+            "tooltip": "<strong>不完全燃烧</strong></br>前置任务需求:</br>第6阶段(LuV)"
+        },
+        {
+            "name": "反应堆扩容",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/195.png",
+            "x": 516.0,
+            "y": 156.0,
+            "data": "想要释放反应堆全部的潜力,你就需要给你的反应堆加装6个反应仓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAww==",
+            "tooltip": "<strong>反应堆扩容</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "无尽涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3192.png",
+            "x": 156.0,
+            "y": 444.0,
+            "data": "某些涡轮材料对你还不太适用,要么是因为你还没有这种材料,要么是因为涡轮动力仓不够处理等离子体的输出功率.在UHV阶段情况会有所不同,届时你可以再次将每台涡轮的最大输出x4,并且还能解锁无尽锭,作为涡轮转子的一种可选材料.%n%n大型无尽涡轮,效率270％,输出功率4,354,560-EU/t%n大型无尽催化剂涡轮,效率200％,输出功率806,400-EU/t%n%n是的,基本上就是这样.你可以使用此前涡轮任务中提到的任何材料,不过当你造出8阶火箭并可以开采无尽催化剂后,就多了这两个选择. 显然,无尽的性能要好得多,但这种材料也贵得多. 如果你坚持聚变发电的话,你就需要不少这样的涡轮,帮助你步入游戏终章.请记住,你可以输入超出最佳流量的等离子体,以损失燃料效率为代价,使得每台涡轮可以输出更高功率.%n%n制造一个UHV动力仓(普通或缓冲的)即可完成此任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMeA==",
+            "tooltip": "<strong>无尽涡轮</strong></br>前置任务需求:</br>超频时代"
+        },
+        {
+            "name": "注魔太阳能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1335.png",
+            "x": 84.0,
+            "y": 48.0,
+            "data": "压缩太阳能可通过注魔提高发电量.查看它们的tooltip,选择一种吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFNw==",
+            "tooltip": "<strong>注魔太阳能</strong></br>前置任务需求:</br>这可不是做汤的</br>压缩太阳能 LV"
+        },
+        {
+            "name": "它是'过热'蒸汽",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2828.png",
+            "x": 120.0,
+            "y": 228.0,
+            "data": "所以这意味着它会产生两倍的能量!你可以通过大型热交换机、固体氧化物燃料电池MKII或钛/钨钢锅炉获得过热蒸汽.通过高压蒸汽涡轮后,过热蒸汽会1:1地转化为普通蒸汽,所以最好再加一台普通蒸汽涡轮以达到最大利用率.加起来就是,一台高压蒸汽涡轮配合一台普通蒸汽涡轮,过热蒸汽得到了普通蒸汽3x的能量输出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALDA==",
+            "tooltip": "<strong>它是'过热'蒸汽</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "动能发电机(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2803.png",
+            "x": 372.0,
+            "y": 192.0,
+            "data": "这是EV版本,其工作原理相同.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK8w==",
+            "tooltip": "<strong>动能发电机(EV)</strong></br>前置任务需求:</br>动能发电机(HV)</br>钨钢"
+        },
+        {
+            "name": "动能发电机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1137.png",
+            "x": 372.0,
+            "y": 156.0,
+            "data": "动能发电机可以将机械能转化成电能.产生的电力取决于动能输入. 动能发电机通常和风力动能发生机、水力动能发生机一起使用.而蒸汽动能发生机只有一个等级,所以如果对蒸汽感兴趣的话,可以考虑考虑蒸汽涡轮.%n%n当放置动能发电机时,任何时候,输入端都是面向你的.所以你总是先放置动能发电机,然后再是风力/水力动能发生机,然后再将转子放入.能量可以从动能发电机的任意面输出,而每一面的最高输出即动能发电机的电压等级.%n%n警告:不正确地破坏动能发电机将无法掉落发电机.你需要使用GT扳手,右键它.它就会立刻掉落.要是它转了个方向,那就再试一次.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcQ==",
+            "tooltip": "<strong>动能发电机(HV)</strong></br>前置任务需求:</br>总算能炼钛了"
+        },
+        {
+            "name": "动能发电机(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2804.png",
+            "x": 372.0,
+            "y": 228.0,
+            "data": "这是IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK9A==",
+            "tooltip": "<strong>动能发电机(IV)</strong></br>前置任务需求:</br>铱</br>动能发电机(EV)"
+        },
+        {
+            "name": "动能发电机(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2805.png",
+            "x": 372.0,
+            "y": 264.0,
+            "data": "这是LuV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK9Q==",
+            "tooltip": "<strong>动能发电机(LuV)</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4</br>动能发电机(IV)"
+        },
+        {
+            "name": "动能发电机(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2806.png",
+            "x": 372.0,
+            "y": 300.0,
+            "data": "这是ZPM版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK9g==",
+            "tooltip": "<strong>动能发电机(ZPM)</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1</br>动能发电机(LuV)</br>这不是只有中子星核心才有的吗?"
+        },
+        {
+            "name": "水力动能发生机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1139.png",
+            "x": 408.0,
+            "y": 156.0,
+            "data": "水力动能发生机需要通过水在河流或者海洋中的流动来产生动能. 和风力动能发生机一样,水力动能发生机也需要使用木、铁、钢、碳制转子或者使用GT++的材料.%n%n如果水力动能发生机的转子不是完全浸没在水中,则机器会提醒你\"转子没有足够的空间\".如果水力动能发生机不是放置在河流、海洋或深海生物群系,那么机器会提醒你\"必须放置在河流和海洋生物群系\".查看Discord上的游戏机制表格,你能找到生物群系及其标签的列表.%n%n虽然不太方便,但水力发电机运行更加稳定.%n%n[warn]你可以通过巫术来转换生物群系.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcw==",
+            "tooltip": "<strong>水力动能发生机(HV)</strong></br>前置任务需求:</br>动能发电机(HV)"
+        },
+        {
+            "name": "水力动能发生机(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2809.png",
+            "x": 408.0,
+            "y": 228.0,
+            "data": "这是IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK-Q==",
+            "tooltip": "<strong>水力动能发生机(IV)</strong></br>前置任务需求:</br>铱</br>水力动能发生机(EV)"
+        },
+        {
+            "name": "水力动能发生机(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2811.png",
+            "x": 408.0,
+            "y": 264.0,
+            "data": "这是LuV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK-w==",
+            "tooltip": "<strong>水力动能发生机(LuV)</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4</br>水力动能发生机(IV)"
+        },
+        {
+            "name": "水力动能发生机(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2807.png",
+            "x": 408.0,
+            "y": 192.0,
+            "data": "这是EV版本,其工作原理相同.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK9w==",
+            "tooltip": "<strong>水力动能发生机(EV)</strong></br>前置任务需求:</br>水力动能发生机(HV)</br>钨钢"
+        },
+        {
+            "name": "水力动能发生机(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2813.png",
+            "x": 408.0,
+            "y": 300.0,
+            "data": "这是ZPM版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK_Q==",
+            "tooltip": "<strong>水力动能发生机(ZPM)</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1</br>水力动能发生机(LuV)</br>这不是只有中子星核心才有的吗?"
+        },
+        {
+            "name": "风力动能发生机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1138.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "风力动能发生机根据不同的风力,电力输出也会随之变化,虽然某些因素可以改变这一点.%n%n和风车不同,为了保证风力动能发生机的正常运转,你需要经常维护转子.%n一旦转子放置在GUI中,你需要确定风机的结构拥有足够的空间,并且当前位置的风力水平足够启动当前的转子.如果这些条件都满足,那么风机就会开始产生动能.%n%n将动能发电机贴到风机正确的面(黑色圆圈),动能发电机就会开始将动能转化成电能.%n%n关于风:%n首先,某一个地区的风力强度受到3个因素的影响:高度、天气和随机性.Y轴越高,风力就越强.如果Y轴低于64,那么你将没有足够的风能可以利用,风机也不会启动.天气也会不同程度的增强风力；雨天将会将会比正常提高20％的风力,雷雨天将会提高到50％.最后随机性将会使风力强度进行不规律的随机变化,但是这个随机变化将会限制在一个比较有限的范围内.%n%n检查一个位置的风力水平最简单的方式就是用风力计.%nY轴在160的高度最强,而建造的最高限制Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcg==",
+            "tooltip": "<strong>风力动能发生机(HV)</strong></br>前置任务需求:</br>动能发电机(HV)"
+        },
+        {
+            "name": "风力动能发生机(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2808.png",
+            "x": 444.0,
+            "y": 192.0,
+            "data": "这是EV版本,其工作原理相同.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK-A==",
+            "tooltip": "<strong>风力动能发生机(EV)</strong></br>前置任务需求:</br>风力动能发生机(HV)</br>钨钢"
+        },
+        {
+            "name": "风力动能发生机(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2810.png",
+            "x": 444.0,
+            "y": 228.0,
+            "data": "这是IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK-g==",
+            "tooltip": "<strong>风力动能发生机(IV)</strong></br>前置任务需求:</br>铱</br>风力动能发生机(EV)"
+        },
+        {
+            "name": "风力动能发生机(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2812.png",
+            "x": 444.0,
+            "y": 264.0,
+            "data": "这是LuV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK_A==",
+            "tooltip": "<strong>风力动能发生机(LuV)</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4</br>风力动能发生机(IV)"
+        },
+        {
+            "name": "风力动能发生机(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2814.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "这是ZPM版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK_g==",
+            "tooltip": "<strong>风力动能发生机(ZPM)</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1</br>风力动能发生机(LuV)</br>这不是只有中子星核心才有的吗?"
+        },
+        {
+            "name": "大型热交换机-\"费马大定理\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1905.png",
+            "x": 516.0,
+            "y": 120.0,
+            "data": "大型热交换机是一种产能多方块机器,可以接受非直接的燃料,输出的也不是EU.那是它是用来做什么的呢? 烧开水!%n%n实际上,它是一种蒸汽锅炉,使用某些流体替代了固体燃料,不过机制更加复杂.它的两种主要\"燃料\"是岩浆和热冷却液,而后者更强,但获取也更困难. 通过炼狱之壶或无数其他选择都可以轻易实现岩浆自动化,而热冷却液通常需要合适的产能装置.%n%n使用岩浆时,大型热交换机每1mB岩浆输出160mB蒸汽,输入岩浆速度最高为1000mB/s(也就是100％涡轮效率下4000-EU/t).而使用冷却液时,大型热交换机每1mB热冷却液输出400mB蒸汽,输入热冷却液速度最高为800mB/s(也就是100％涡轮效率下8000-EU/t).%n%n当你超出此输入速度时,输出变为过热蒸汽,需要通过高压蒸汽涡轮才能变回普通蒸汽.这时的最大输入速度为之前的两倍,转换率变为岩浆1:80而热冷却液1:200,同时100％涡轮效率下能量输出为岩浆的12000-EU/t以及热冷却液的24000-EU/t.%n%n非常强大,但也很复杂,需要大型蒸汽涡轮!%n%n想要获知更多信息,请到[url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url]阅读其机制,或去到[url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url],学习如何使用流体反应堆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHcQ==",
+            "tooltip": "<strong>大型热交换机-\"费马大定理\"</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "大型硅岩反应堆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2948.png",
+            "x": 300.0,
+            "y": 372.0,
+            "data": "这是硅岩反应堆的多方块版本,但它与单方块的硅岩反应堆完全不同.%n%n它需要的是流体态的硅岩燃料或激发态的核燃料,而输出的是枯竭的燃料. 你可以在NEI查到流体燃料的详细数据.%n%n大型硅岩反应堆运行时每秒消耗2400L液体空气,否则就会持续消耗燃料但不产出能量.%n%n[warn]仓室中存在一种以上的燃料将会导致爆炸.[/warn]%n%n输入冷却液可以提升效率.%nIC2冷却液:1.05x%n超级冷却液:1.5x%n极寒之凛冰:2.75x%n%n输入某些熔融金属可以提高输出功率.%n熔融铯:2x%n熔融铀-235:3x%n熔融硅岩:4x%n熔融原子分离催化剂:16x%n请注意:与冷却液的效率提升不同(白嫖),熔融金属提高功率的代价是消耗更多的燃料.更像是给反应堆加了'并行'.%n%n大型硅岩反应堆同样支持TecTech多A动力仓和激光仓.%n%n[note]PS：这台发电机拥有目前整个整合包最高的输出功率,在使用Mk6燃料时甚至能超越戴森球.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALhA==",
+            "tooltip": "<strong>大型硅岩反应堆</strong></br>前置任务需求:</br>力场发生器(ZPM)"
+        },
+        {
+            "name": "利用等离子体发电",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1200.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "现在,你已经拥有了一个聚变反应堆,是时候利用它进行发电了.%n%n最容易获得的产能等离子体就是氦等离子体了,虽然简单但它能提供的能量一样不少. 氘可以从可再生的水中获得,氦-3可以从末地石中获得.%n%n然而,我们需要一种方法可以将等离子体中的能量转换成EU释放出来. 要做到这一点,你需要一台大型等离子涡轮.还需要一个动力仓输出能量,你可以调整不同的动力仓来调整输出功率.用氦等离子体进行发电,那么你需要一个不低于LuV的动力仓[缓冲].%n%n另外还有单方块的等离子发电机,不过它们的效率太低了(野外采矿倒是不错).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsA==",
+            "tooltip": "<strong>利用等离子体发电</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "玛丽锔?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8084303837458271711.png",
+            "x": 408.0,
+            "y": 480.0,
+            "data": "就像是腌肉...哦不,完全不是,人们在研究放射性材料的道路上做出了许多牺牲,愿他们永垂不朽,在此向你们致敬,玛丽和皮埃尔·居里.%n%n这是整条核聚变产链上生产出的唯一一种非等离子体.但这不是重点: 重点是[warn]这是这条产线上的瓶颈之一.[/warn]每一台用以生产最终配方的聚变堆,你都会需要大约0.144台聚变堆生产锔来维持,因此如果你想使用压缩核聚变反应堆来生产最终产物,仅靠一台普通mk1反应堆来生产锔是不够的.你真正需要的数量取决于倒数第二步配方,也就是生产高级镍钛诺的那个.",
+            "quest_id": "3r7tJ7_bTuePzsh-B_jyIQ==",
+            "tooltip": "<strong>玛丽锔?</strong></br>前置任务需求:</br>虚恩等离子体 - MK2之末"
+        },
+        {
+            "name": "监视你的反应堆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/194.png",
+            "x": 480.0,
+            "y": 156.0,
+            "data": "现在你已经初步掌握了控制反应堆的一些基本知识,可以建立自己的发电站了.时刻了解你的反应堆的运行状态十分重要(或者可能你仅仅是看中了这个漂亮的大屏幕...).我这里有些东西可以帮助到你.%n%n对着你想要监视的方块使用传感工具,然后把得到的卡片放在显示面板中. 接下来,选择要显示的信息条目.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAwg==",
+            "tooltip": "<strong>监视你的反应堆</strong></br>前置任务需求:</br>反应堆扩容"
+        },
+        {
+            "name": "进阶反应堆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2829.png",
+            "x": 552.0,
+            "y": 120.0,
+            "data": "流体反应堆,还有冰箱核电和扳手反应堆(lol),是不同于普通版的进阶版本.%n%n流体反应堆的建造方式与普通反应堆不同(使用右侧的这些方块,在普通核电外围成一个5x5x5的中空立方体),目的是产生尽可能多的热冷却液(热交换后循环使用),再将其转化为电力.流体反应堆自己不发电,但更全面.将热冷却液送到大型热交换机,即可获得过热蒸汽,再将其依次通过高压蒸汽涡轮、普通蒸汽涡轮.%n%n冰箱核电(我们一般叫强冷) 指不通过散热片,而是使用冷却单元吸收热量,维持反应堆的热平衡.再用真空冷冻机恢复氦/钠钾冷却单元耐久.这样就无需通过散热片来保证产热散热平衡,意味着可以塞更多的燃料棒,但一个小问题就会...KA-BOOM!%n%n扳手反应堆 指将反应堆塞满燃料棒,启动,在其爆炸前用扳手拆掉,重置热量状态.如果你可以将这个过程自动化,你就能获得我们GTNH核科学的最高奖章!%n%n要是你还不知道MOX怎么用,让我来教教你.简而言之,MOX燃料棒的发电量随堆温升高而升高.所以你需要维持好热平衡并尽可能地提高堆温.不过太高的堆温可能造成附近的方块被融化.MOX或者超能硅岩燃料棒都有这样的功效.另外,MOX可以产出不少钚(而铀偏少).%n%n增殖反应堆 指搭建此反应堆,更倾向于获得其产物而非靠其发电,比如用钍堆获得镥,MOX堆获得钚,等等.请在NEI或wiki中查看燃料棒(枯竭xxx)的用途.%n%n[note]由于冷却液耗尽时,流体反应堆很容易爆炸,所以请确保正确设置了温度相关的红石信号,可以紧急关停反应堆.(建议其他任何反应堆都设置一个温控保险)[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALDQ==",
+            "tooltip": "<strong>进阶反应堆</strong></br>前置任务需求:</br>大型热交换机-\"费马大定理\"</br>合适的能源"
+        },
+        {
+            "name": "热交换",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/196.png",
+            "x": 552.0,
+            "y": 156.0,
+            "data": "反应堆的温度会升高.因此你需要将燃料棒的温度转移到其他什么地方去.%n热交换器可以实现这种功能,你应该每一种热交换器都制造一个,并且试一试哪一种更适合你的反应堆.%n%n你可以通读wiki后试着理解反应堆的工作原理,或者直接抄作业...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxA==",
+            "tooltip": "<strong>热交换</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "MV(中压)级蒸汽轮机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/89.png",
+            "x": 120.0,
+            "y": 120.0,
+            "data": "来到MV阶段后,你可以继续使用蒸汽.但是长久停留并不是什么好主意,其他类型的燃料将会越来越有用.原因是蒸汽涡轮的效率会随着等级提升迅速下降(这个只有75%),而且比起苯或者柴油,蒸汽还需要巨大的管道进行输送.%n%n话说回来,如果你想继续使用蒸汽的话,那么建造一台大型青铜锅炉或是之后的大型钢锅炉就是个不错的主意了.你将会需要大量的固体燃料,可能是木炭,因此请务必将其自动化!还有,绝不要忘了供水!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAWQ==",
+            "tooltip": "<strong>MV(中压)级蒸汽轮机</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "硅岩基流体燃料-MkII",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2962.png",
+            "x": 372.0,
+            "y": 408.0,
+            "data": "每mB出产2,300,000-EU/t,持续3.5秒.如果你供应得起原料，这是个增加硅岩燃料发电量的好办法. %n%n如果你打算在ZPM尝试这个, 你大概会需要巨型化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALkg==",
+            "tooltip": "<strong>硅岩基流体燃料-MkII</strong></br>前置任务需求:</br>硅岩基流体燃料-MkI"
+        },
+        {
+            "name": "硅岩基流体燃料-MkI",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2961.png",
+            "x": 336.0,
+            "y": 408.0,
+            "data": "每mB出产975,000-EU/t,持续3秒. 说不定能个等离子碰一碰. %n%n如果你想要释放硅岩燃料之力, 起码准备一条简单的硅岩线吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALkQ==",
+            "tooltip": "<strong>硅岩基流体燃料-MkI</strong></br>前置任务需求:</br>大型硅岩反应堆"
+        },
+        {
+            "name": "硅岩基流体燃料-MkIII",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2963.png",
+            "x": 408.0,
+            "y": 408.0,
+            "data": "每mB出产9,511,000-EU/t,持续4秒. 你得准备好产一大堆这玩意, 毕竟接下来所有等级的硅岩燃料产线都从Mk3开始.%n%n高级配方能减少物流的需求，但是彩色玻璃的量产问题可能之后才能解决.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALkw==",
+            "tooltip": "<strong>硅岩基流体燃料-MkIII</strong></br>前置任务需求:</br>硅岩燃料精炼厂"
+        },
+        {
+            "name": "硅岩基流体燃料-MkIV",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2964.png",
+            "x": 444.0,
+            "y": 408.0,
+            "data": "每mB出产88,540,000-EU/t,持续5秒. 这个等级的硅岩燃料已经不错了. 查看钍基流体燃料以获取所需的镨. %n%n高级配方会需要一台DTPF, 不过能进一步简化产线. %n%n这个阶段也可以考虑用熔融中子来增加压缩材料的产率了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALlA==",
+            "tooltip": "<strong>硅岩基流体燃料-MkIV</strong></br>前置任务需求:</br>硅岩基流体燃料-MkIII"
+        },
+        {
+            "name": "硅岩基流体燃料-MkV",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2965.png",
+            "x": 480.0,
+            "y": 408.0,
+            "data": "每mB出产399,576,000EU/t,持续8秒. 无尽粉和重拉多X的来源可能需要之后才能解决. %n%n高级配方需要同样多的无尽来制造时空, 不过只需要牺牲一点超时空金属产能就能获得50%%的增产.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALlQ==",
+            "tooltip": "<strong>硅岩基流体燃料-MkV</strong></br>前置任务需求:</br>硅岩基流体燃料-MkIV"
+        },
+        {
+            "name": "硅岩基流体燃料-MkVI",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5931115528477845082.png",
+            "x": 516.0,
+            "y": 408.0,
+            "data": "每mB产出2,077,795,200EU/t,持续12s. 相当离谱的发电, 也有相当离谱的消耗. 这条产线需要大量的基建, 不过能够产出数以万亿计的EU/t.%n%n配方所需的星体钛和天体钨可以从激光蚀刻或者等离子线产出.%n%n三钛可以通过聚变或者DD采矿产出. %n%n调律源金需要大量的聚变和DTPF来维持产出.%n%n在拥有鸿蒙之眼以后, 你可以使用白矮星物质来提高产率以产出更多的能量. %n%n要得到最高的MKVI燃料产出, 你还得考虑使用富快子时间流体.",
+            "quest_id": "KHL_yx4XTKOtsHHZ60ZZpg==",
+            "tooltip": "<strong>硅岩基流体燃料-MkVI</strong></br>前置任务需求:</br>硅岩基流体燃料-MkV"
+        },
+        {
+            "name": "硅岩燃料精炼厂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2959.png",
+            "x": 300.0,
+            "y": 408.0,
+            "data": "这台疯狂的机器是用来制造MkIII及以上硅岩燃料的.%n%n它的超频机制类似聚变反应堆--不能通过简单升压实现超频.你得用更高阶的线圈才行.%n%n这台多方块机器还支持TecTech多A能源仓和激光仓.%n%n举个例子,MkIV硅岩燃料要求2阶线圈,而精炼厂实际安装了3阶线圈,那么会进行一次类似于聚变反应堆的超频--功率x2,时间减半.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALjw==",
+            "tooltip": "<strong>硅岩燃料精炼厂</strong></br>前置任务需求:</br>大型硅岩反应堆"
+        },
+        {
+            "name": "铌化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5612826465399047400.png",
+            "x": 276.0,
+            "y": 480.0,
+            "data": "还记得铌钛合金吗?这回就只有铌啦!开玩笑的,钛会以一种特殊的形式参与进来...%n%n铌等离子体和锌等离子体的配方速度都很快,所以你需要的反应堆也不过1台除非你的规模非常大.日后可以根据需求进行升级,而现在需要MK2甚至是MK3的反应堆进行聚变.",
+            "quest_id": "X_rOgp6GRKiyGzwRV_p7GA==",
+            "tooltip": "<strong>铌化</strong></br>前置任务需求:</br>力量等离子体 - Mk1结束"
+        },
+        {
+            "name": "愿再无爆炸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1902.png",
+            "x": 480.0,
+            "y": 192.0,
+            "data": "有了核(弹)反应堆之后,你对基地的破坏能力突破了天际...你可以把反应堆放得远远的(20区块远),或是用防爆材料将反应堆围个严严实实.%n%nEIO的石英玻璃不再好用,忘了它们吧.请使用GTNH认证的镀层防爆石系列!  其他的可选防爆材料还包括神秘的守卫者玻璃.根据你的反应堆威力,可能需要多层防爆石,请在创造模式测试. 记得转角部位也需要闭合起来-否则爆炸会从转角的缝隙处漏出来. 至于怎么把电导出来...只要给线缆来几个90°拐弯就好了,因为爆炸是走直线的.%n%n[note]有六种镀层防爆石,具体请查看NEI[/note].%n%n[note]好吧,好吧,你不必忘记石英玻璃,我会给你一些的.也许你可以用它挡雨.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbg==",
+            "tooltip": "<strong>愿再无爆炸</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "钍基流体燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2956.png",
+            "x": 336.0,
+            "y": 372.0,
+            "data": "最便宜的流体燃料,每mB出产2200EU/t,持续25秒.%n%n它还是镨的来源之一,而镨可用于合成硅岩燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALjA==",
+            "tooltip": "<strong>钍基流体燃料</strong></br>前置任务需求:</br>大型硅岩反应堆"
+        },
+        {
+            "name": "钚基流体燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2958.png",
+            "x": 408.0,
+            "y": 372.0,
+            "data": "每mB出产32,400EU/t,持续7.5秒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALjg==",
+            "tooltip": "<strong>钚基流体燃料</strong></br>前置任务需求:</br>铀基流体燃料"
+        },
+        {
+            "name": "铀基流体燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2957.png",
+            "x": 372.0,
+            "y": 372.0,
+            "data": "每mB出产12,960EU/t,持续5秒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALjQ==",
+            "tooltip": "<strong>铀基流体燃料</strong></br>前置任务需求:</br>钍基流体燃料"
+        },
+        {
+            "name": "极端危险的核燃料:\"核心\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/490.png",
+            "x": 552.0,
+            "y": 300.0,
+            "data": "为那些真正疯狂的核工业科学家准备的.或是那些懂得上网的人(不能保证,请相信我!).如果你需要用它发电或是不想它开一秒就爆炸的话,需要使用大量的冷却单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB6g==",
+            "tooltip": "<strong>极端危险的核燃料:\"核心\"</strong></br>前置任务需求:</br>可选核燃料:泰伯利亚</br>标准核燃料II:硅岩"
+        },
+        {
+            "name": "口袋里的等离子(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2779.png",
+            "x": 264.0,
+            "y": 192.0,
+            "data": "你不想每次搬动矿机的时候都要重新安装一大套配套设施,所以你需要某种简单易用的单方块发电机为其供能.等离子发电机是一个不错的选择.只需远程传送燃料即可.%n%n[note]你可能注意到了,随着电压等级的提高,等离子发电机的燃料效率在提高,而不像其他发电机一样下降.享受这个小福利吧,虽说最高效的仍然是多方块机器:大型等离子涡轮.%n%n译者注:以后有了虚空采矿场,不用老是搬动,集中使用多方块等离子供能是个不错的主意.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK2w==",
+            "tooltip": "<strong>口袋里的等离子(EV)</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "口袋里的等离子(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2780.png",
+            "x": 264.0,
+            "y": 228.0,
+            "data": "这是IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK3A==",
+            "tooltip": "<strong>口袋里的等离子(IV)</strong></br>前置任务需求:</br>开始聚变</br>获得铕"
+        },
+        {
+            "name": "口袋里的等离子(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2781.png",
+            "x": 264.0,
+            "y": 264.0,
+            "data": "这是LuV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK3Q==",
+            "tooltip": "<strong>口袋里的等离子(LuV)</strong></br>前置任务需求:</br>开始聚变</br>制造镅"
+        },
+        {
+            "name": "口袋里的等离子(UV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2783.png",
+            "x": 264.0,
+            "y": 336.0,
+            "data": "这是UV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK3w==",
+            "tooltip": "<strong>口袋里的等离子(UV)</strong></br>前置任务需求:</br>开始聚变</br>力场发生器(UV)"
+        },
+        {
+            "name": "口袋里的等离子(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2782.png",
+            "x": 264.0,
+            "y": 300.0,
+            "data": "这是ZPM版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK3g==",
+            "tooltip": "<strong>口袋里的等离子(ZPM)</strong></br>前置任务需求:</br>开始聚变</br>制造镅"
+        },
+        {
+            "name": "便携式清洁能源(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/216.png",
+            "x": 300.0,
+            "y": 228.0,
+            "data": "这是IV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA2A==",
+            "tooltip": "<strong>便携式清洁能源(IV)</strong></br>前置任务需求:</br>HSS-S</br>量子处理器主机"
+        },
+        {
+            "name": "便携式清洁能源(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2794.png",
+            "x": 300.0,
+            "y": 192.0,
+            "data": "当你不手持燃料时,它的确是清洁能源.这种便携式能源对采矿场这类基地外机器相当有用,而它的燃料效率随电压等级的提升而提升. 不过每一级电压的提升就会要求更高浓度的硅岩(ZPM时要求超能硅岩).%n%n[note]燃料具有放射性,该死.%n%n在领取奖励之前,穿上你的防护服是一个不错的主意.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK6g==",
+            "tooltip": "<strong>便携式清洁能源(EV)</strong></br>前置任务需求:</br>HSS-G</br>纳米处理器主机"
+        },
+        {
+            "name": "便携式清洁能源(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2795.png",
+            "x": 300.0,
+            "y": 264.0,
+            "data": "这是LuV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK6w==",
+            "tooltip": "<strong>便携式清洁能源(LuV)</strong></br>前置任务需求:</br>你觉得发射器已经够糟糕了？"
+        },
+        {
+            "name": "便携式清洁能源(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2796.png",
+            "x": 300.0,
+            "y": 300.0,
+            "data": "这是ZPM版本.它需要超能硅岩.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK7A==",
+            "tooltip": "<strong>便携式清洁能源(ZPM)</strong></br>前置任务需求:</br>力场发生器(ZPM)"
+        },
+        {
+            "name": "便携式清洁能源(UV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2797.png",
+            "x": 300.0,
+            "y": 336.0,
+            "data": "这是UV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK7Q==",
+            "tooltip": "<strong>便携式清洁能源(UV)</strong></br>前置任务需求:</br>力场发生器(UV)"
+        },
+        {
+            "name": "太阳能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/933.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "现在我们应该研究一些别的可再生能源了.让我们从太阳能开始,最低等级的太阳能板发电量是1EU/t.这些太阳能板可以作为大部分GT机器的覆盖板使用,让这些机器能从太阳中获取能源(但前提是它可以看见太阳,即顶部没有不透明遮挡).%n%n千万记住挡雨,在机器上方放一层玻璃,也别忘了机器紧邻的方块也不能淋雨.%n%n[note]铝铁板需要MV冲压机床.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpQ==",
+            "tooltip": "<strong>太阳能</strong></br>前置任务需求:</br>硅晶圆"
+        },
+        {
+            "name": "太阳之力(MV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1004.png",
+            "x": 48.0,
+            "y": 120.0,
+            "data": "把那些128EU的太阳能板制造成方块,这样他们能够被放置到世界中. 使用HV级别的组装机将MV级太阳能板、MV机器外壳、一个电池和一个机械臂组装到一起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD7A==",
+            "tooltip": "<strong>太阳之力(MV)1x1</strong></br>前置任务需求:</br>太阳之力(MV)"
+        },
+        {
+            "name": "太阳之力(HV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1007.png",
+            "x": 48.0,
+            "y": 156.0,
+            "data": "把那些512EU的太阳能板制造成方块,这样它们能够被放置到世界中. 使用HV级别的组装机将HV级太阳能板、HV机器外壳、一个电池和一个机械臂组装到一起.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD7w==",
+            "tooltip": "<strong>太阳之力(HV)1x1</strong></br>前置任务需求:</br>太阳之力(HV)"
+        },
+        {
+            "name": "太阳之力(ULV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/935.png",
+            "x": 48.0,
+            "y": 12.0,
+            "data": "把一块基础太阳能板和一个ULV机器方块放入MV级别的组装机中,组装机将会把它们组装为一个ULV等级的太阳能发电机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpw==",
+            "tooltip": "<strong>太阳之力(ULV)1x1</strong></br>前置任务需求:</br>太阳能"
+        },
+        {
+            "name": "太阳之力(LV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/937.png",
+            "x": 48.0,
+            "y": 84.0,
+            "data": "历尽千辛万苦你终于可以制造LV级别的太阳能发电机了. 把LV机器外壳和LV级太阳能覆盖板放到MV的组装机里面.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADqQ==",
+            "tooltip": "<strong>太阳之力(LV)1x1</strong></br>前置任务需求:</br>太阳之力(LV)"
+        },
+        {
+            "name": "太阳之力(EV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1719.png",
+            "x": 48.0,
+            "y": 192.0,
+            "data": "将这些2048-EU/t太阳能覆盖板贴到方块上,使其可以放置在世界上. 或使用IV组装机将太阳能覆盖板与EV机器外壳,电池和机械臂结合在一起.那么此太阳能覆盖板将不再需要手动清洁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGtw==",
+            "tooltip": "<strong>太阳之力(EV)1x1</strong></br>前置任务需求:</br>太阳之力(EV)"
+        },
+        {
+            "name": "太阳之力(IV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1721.png",
+            "x": 48.0,
+            "y": 228.0,
+            "data": "将这些8192EU/t太阳能覆盖板贴到方块上,使其可以放置在世界上. 或使用LuV组装机将太阳能覆盖板与IV机器外壳、电池和机械臂结合在一起.那么此太阳能覆盖板将不再需要手动清洁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGuQ==",
+            "tooltip": "<strong>太阳之力(IV)1x1</strong></br>前置任务需求:</br>太阳之力(IV)"
+        },
+        {
+            "name": "太阳之力(LuV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2775.png",
+            "x": 48.0,
+            "y": 264.0,
+            "data": "这是不需要清洁的方块版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK1w==",
+            "tooltip": "<strong>太阳之力(LuV)1x1</strong></br>前置任务需求:</br>太阳之力(LuV)"
+        },
+        {
+            "name": "太阳之力(ZPM)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2778.png",
+            "x": 48.0,
+            "y": 300.0,
+            "data": "这是不需要清洁的方块版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK2g==",
+            "tooltip": "<strong>太阳之力(ZPM)1x1</strong></br>前置任务需求:</br>太阳之力(ZPM)"
+        },
+        {
+            "name": "太阳之力(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1672.png",
+            "x": 12.0,
+            "y": 192.0,
+            "data": "你可以制作的下一个太阳能覆盖板是EV等级的.它最多产生2048EU/t.可以用作大多数GT机器的覆盖板. 首先,你需要生产四重阳光化合物板. 制作这种太阳能覆盖板需要无尽贪婪的9x9终极工作台.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGiA==",
+            "tooltip": "<strong>太阳之力(EV)</strong></br>前置任务需求:</br>最后--聚苯并咪唑!</br>硅岩掺杂的晶圆</br>太阳之力(HV)"
+        },
+        {
+            "name": "太阳之力(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1006.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "接下来要开始制作HV级别太阳能板,它可以提供最大512EU/t的输出.可以用作大多数GT机器的覆盖板.%n首先你需要生产富集阳光化合物和铀238板. HV级别及以上的太阳能板需要在9*9格的终极工作台合成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD7g==",
+            "tooltip": "<strong>太阳之力(HV)</strong></br>前置任务需求:</br>IV组装机</br>太阳之力(MV)</br>钨钢</br>铟"
+        },
+        {
+            "name": "太阳之力(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1720.png",
+            "x": 12.0,
+            "y": 228.0,
+            "data": "你可以制作的下一个太阳能覆盖板是IV等级的.它最高产生8192-EU/t.可以用作大多数GT机器的覆盖板. 首先,你需要用强化铱和阳光化合物生产阳光合金. 制作此太阳能覆盖板需要无尽贪婪9x9终极工作台.%n%n除非你真的很喜欢太阳能,否则这可能是值得制造的最后一阶太阳能...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGuA==",
+            "tooltip": "<strong>太阳之力(IV)</strong></br>前置任务需求:</br>太阳之力(EV)</br>LuV组装机"
+        },
+        {
+            "name": "太阳之力(LV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/936.png",
+            "x": 12.0,
+            "y": 84.0,
+            "data": "现在你可以制造LV级别的太阳能板了.他可以提供最大32EU/t的输出,它同样可以作为覆盖板直接贴到GT的机器上面来给设备供电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADqA==",
+            "tooltip": "<strong>太阳之力(LV)</strong></br>前置任务需求:</br>太阳之力(ULV)</br>终极工作台</br>充能晶体"
+        },
+        {
+            "name": "太阳之力(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2774.png",
+            "x": 12.0,
+            "y": 264.0,
+            "data": "LuV太阳能覆盖板发电量为32768EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK1g==",
+            "tooltip": "<strong>太阳之力(LuV)</strong></br>前置任务需求:</br>太阳之力(IV)</br>晶体处理器主机"
+        },
+        {
+            "name": "太阳之力(MV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1003.png",
+            "x": 12.0,
+            "y": 120.0,
+            "data": "现在你可以制造MV级别的太阳能板了.它可以提供最大128EU/t的输出,同样可以作为覆盖板直接贴到GT的机器上面来给设备供电.不过,要制造MV太阳能板你首先需要制造一些阳光化合物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD6w==",
+            "tooltip": "<strong>太阳之力(MV)</strong></br>前置任务需求:</br>触发:获得阳光化合物</br>太阳之力(LV)"
+        },
+        {
+            "name": "太阳之力(UV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2777.png",
+            "x": 12.0,
+            "y": 336.0,
+            "data": "UV太阳能覆盖板发电量为524288EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK2Q==",
+            "tooltip": "<strong>太阳之力(UV)</strong></br>前置任务需求:</br>一锭在手,无尽力量</br>太阳之力(ZPM)"
+        },
+        {
+            "name": "太阳之力(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2776.png",
+            "x": 12.0,
+            "y": 300.0,
+            "data": "ZPM太阳能覆盖板发电量为131072EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK2A==",
+            "tooltip": "<strong>太阳之力(ZPM)</strong></br>前置任务需求:</br>湿件主机</br>太阳之力(LuV)"
+        },
+        {
+            "name": "太阳之力(ULV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/934.png",
+            "x": 12.0,
+            "y": 48.0,
+            "data": "下一个等级的太阳能板等级是ULV级,他们可以提供8EU/t的能源.同样他们也可以作为大部分格雷机器的覆盖板使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpg==",
+            "tooltip": "<strong>太阳之力(ULV)</strong></br>前置任务需求:</br>太阳能"
+        },
+        {
+            "name": "把'半流质'塞回发电机里(LV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2788.png",
+            "x": 228.0,
+            "y": 84.0,
+            "data": "你可能收集了大量的杂酚油,却几乎没有怎么用它.为了解决这一点,制造一台半流质发电机,然后将杂酚油作为蒸汽外的第二能源吧!单方块发电机只会在有EU需求时使用燃料,所以如果你没有消耗足够的EU,可能最终杂酚油会塞满你的缓存.%n%n想要将你焦炉中的杂酚油提取出来,你可以手动使用桶或单元,或者通过匠魂的浇注口导入GT流体管道,又或者使用电动泵覆盖板.%n%n燃烧杂酚油的方法还有不少,比方说RC的液态燃烧室,不过半流质发电机便宜得多,使用也更加方便,同时效率也相当出色(就杂酚油而言,是内燃发电机的6倍).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK5A==",
+            "tooltip": "<strong>把'半流质'塞回发电机里(LV)</strong></br>前置任务需求:</br>你会讨厌它们的#3"
+        },
+        {
+            "name": "把'半流质'塞回发电机里(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2790.png",
+            "x": 228.0,
+            "y": 156.0,
+            "data": "如果你已经为了升级石油处理线或苯处理线而修建了蒸馏塔,最终可能会获得不少额外半流质燃料,类似重燃油或杂酚油.要是已经囤了太多以至于都开始销毁了的话,制造一台HV半流质发电机吧,免费的能源不用白不用!%n%n处理木焦油的蒸馏塔出产的杂酚油就足以为自己供能,算算燃料效率,一台HV半流质发电机就绰绰有余了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK5g==",
+            "tooltip": "<strong>把'半流质'塞回发电机里(HV)</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "把'半流质'塞回发电机里(MV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2789.png",
+            "x": 228.0,
+            "y": 120.0,
+            "data": "如果你还在燃烧杂酚油作为能源的话,那么你可以使用这种机器获得MV电压.虽说不太持久,也绝不是好的主要能源,不过它终归能为你补充一些EU.%n%n另一种选择,重燃油?它的每桶燃值与苯相当,360k-EU,也是唯一一种每桶燃值超过100k-EU的半流质燃料.如果你合成柴油之后还剩下不少的话,用作半流质发电机的燃料是个不错的法子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK5Q==",
+            "tooltip": "<strong>把'半流质'塞回发电机里(MV)</strong></br>前置任务需求:</br>MV阶段你会讨厌这个 #3"
+        },
+        {
+            "name": "四重压缩太阳能(Quadruple Compressed Solar)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2815.png",
+            "x": 84.0,
+            "y": 264.0,
+            "data": "可输出10000-32768EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK_w==",
+            "tooltip": "<strong>四重压缩太阳能(Quadruple Compressed Solar)</strong></br>前置任务需求:</br>三重压缩的太阳能</br>LuV组装机"
+        },
+        {
+            "name": "五重压缩太阳能(Quintuple Compressed Solar)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2816.png",
+            "x": 84.0,
+            "y": 300.0,
+            "data": "可输出100,000-131,072EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALAA==",
+            "tooltip": "<strong>五重压缩太阳能(Quintuple Compressed Solar)</strong></br>前置任务需求:</br>ZPM组装机</br>四重压缩太阳能(Quadruple Compressed Solar)"
+        },
+        {
+            "name": "放射性同位素温差发电机2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2802.png",
+            "x": 588.0,
+            "y": 192.0,
+            "data": "可以运行相当相当长的时间.根据提供的靶丸输出能量.%n%n镅-241:16EU/t,69875天%n锶-90:30EU/t,62640天%n钚-238:64EU/t,42982天%n钋-210:480EU/t,34560天%n%n坦白来说,这玩意完全不值.特别是考虑到为了制造这些靶丸,还需要新修一台回旋加速器...甚至制造过程还要看脸!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK8g==",
+            "tooltip": "<strong>放射性同位素温差发电机2</strong></br>前置任务需求:</br>放射性同位素温差发电机1</br>我真的需要做这个吗?</br>量子处理器主机"
+        },
+        {
+            "name": "放射性同位素温差发电机1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2801.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "可以运行相当相当长的时间.根据提供的靶丸输出能量.%n%n镅-241:16EU/t,69875天%n锶-90:30EU/t,62640天%n钚-238:64EU/t,42982天%n钋-210:480EU/t,34560天%n%n坦白来说,这玩意完全不值.特别是考虑到为了制造这些靶丸,还需要新修一台回旋加速器...甚至制造过程还要看脸!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK8Q==",
+            "tooltip": "<strong>放射性同位素温差发电机1</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "火箭引擎(EV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2294.png",
+            "x": 336.0,
+            "y": 192.0,
+            "data": "这种火箭引擎是一种高污染发电设备,燃料效率为80％.每秒产生250-2000点污染.%n%n[note]有4种火箭燃料.请在太空竞赛任务栏下查看剩余燃料的制造方式.如果要自动化生产这些燃料,预计需要多个化工厂.[/note] 另外火箭引擎也有多方块版本.%n%n WIKI 火箭燃料产线：gtnh.huijiwiki.com/p/742",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI9g==",
+            "tooltip": "<strong>火箭引擎(EV)</strong></br>前置任务需求:</br>RP-1火箭燃料</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "火箭引擎(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2784.png",
+            "x": 336.0,
+            "y": 228.0,
+            "data": "这是IV版本. 它的燃料效率为70％,同时每秒产生500到4000点污染.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK4A==",
+            "tooltip": "<strong>火箭引擎(IV)</strong></br>前置任务需求:</br>在IV你会讨厌之1-4</br>RP-1火箭燃料"
+        },
+        {
+            "name": "火箭引擎(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2785.png",
+            "x": 336.0,
+            "y": 264.0,
+            "data": "这是LuV版本. 它的燃料效率为60％,同时每秒产生750到6000点污染.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK4Q==",
+            "tooltip": "<strong>火箭引擎(LuV)</strong></br>前置任务需求:</br>LuV阶段你会讨厌的1-4</br>RP-1火箭燃料"
+        },
+        {
+            "name": "转子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1140.png",
+            "x": 408.0,
+            "y": 120.0,
+            "data": "风力动能发生机或和水力动能发生机都需要转子来运作. 可通过标准自动化添加或是移除转子. 越高级的转子使用时间就越长.此外,用铱制造的转子不会磨损.而IC2的铱转子有可能因为耐久损失出现bug. 充能合金转子在当前可能是最优选择,以为它恰好可以提供满1A输出,而目前多余输出会被浪费.%n%n[note]只需制造一个转子即可完成此任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdA==",
+            "tooltip": "<strong>转子</strong></br>前置任务需求:</br>风力动能发生机(HV)</br>水力动能发生机(HV)"
+        },
+        {
+            "name": "虚恩等离子体 - MK2之末",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4721119019196807237.png",
+            "x": 360.0,
+            "y": 492.0,
+            "data": "要完成这条聚变产线,你需要用一种特殊的材料,也是GT++的材料:泰坦精钢,来激发你的星体钛等离子体.泰坦精钢可是耗电大头,这也是为什么只需要8L这么低的输入量,你也不得不利用3台冶炼泰坦精钢的合金冶炼炉供给一台聚变虚恩等离子体的MK2反应堆.如果你想扩大这条产线的规模,最佳方案就是建造一台巨型合金冶炼炉,并利用工业高炉的线圈来节省一些电力消耗,进而提高发电产线效率.%n%n虚恩等离子体有着350M的热值,也就可以很好地运行在三元金属巨型涡轮而没有惩罚,但锡等离子体由于其热值不及虚恩等离子体的一半,在相同的涡轮配置下会有74.5%%的惩罚.如果你想大规模扩大等离子发电量,可以选择MK2聚变产线,但MK3聚变产线可能是个更好的选择.%n%n0.144:1的反应堆比例也同样适用于这步.",
+            "quest_id": "DPl-UUZfTAa-ezdD_m8Huw==",
+            "tooltip": "<strong>虚恩等离子体 - MK2之末</strong></br>前置任务需求:</br>这是你的氪星石!"
+        },
+        {
+            "name": "\"Semi-Stable\" doing a lot of work in here",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5840241591017037228.png",
+            "x": 264.0,
+            "y": 408.0,
+            "data": "A cell of antimatter! Contained in a cell made of matter! Surely this is safe.\n\nAntimatter is exactly what you may imagine, the opposite of matter, for every atom in the universe, an \"anti atom\" exists, and when both meet...\n\nThey annihilate themselves, releasing a lot of energy!\n\nBut how could you capture this energy?",
+            "quest_id": "OEBBeZOSSRGu80s3RPeiVA==",
+            "tooltip": "<strong>\"Semi-Stable\" doing a lot of work in here</strong></br>前置任务需求:</br>Balance is Everything"
+        },
+        {
+            "name": "将能量送回",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1145.png",
+            "x": 372.0,
+            "y": 120.0,
+            "data": "动能发电机的兼容性得到了提升,现在无需变压器即可正常通过线缆输出能量.但在输电的时候,使用变压器升压仍然不失为一种极佳的降低损耗方式.举个例子,从160格的发电机传输到63格地表,1线损的线缆,每A电流会损失97EU,如果是HV输电,就会是97/512,将近五分之一的损失;而如果是EV输电,那么就是97/2048,不到1/20的损失,这不就是好多了嘛.(升压前需要通过一段线缆,将发电机输出的IC-EU转化为GT-EU)%n%n[warn]IC2机器不怕被雨淋,但别忘了遮盖变压器.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEeQ==",
+            "tooltip": "<strong>将能量送回</strong></br>前置任务需求:</br>转子"
+        },
+        {
+            "name": "七重压缩太阳能(Septuple Compressed Solar)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2818.png",
+            "x": 48.0,
+            "y": 372.0,
+            "data": "可输出10,000,000-33,554,432EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALAg==",
+            "tooltip": "<strong>七重压缩太阳能(Septuple Compressed Solar)</strong></br>前置任务需求:</br>六重压缩太阳能(Sextuple Compressed Solar)</br>一锭在手,无尽力量"
+        },
+        {
+            "name": "六重压缩太阳能(Sextuple Compressed Solar)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2817.png",
+            "x": 84.0,
+            "y": 372.0,
+            "data": "可输出1,000,000-2,097,152EU/t.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALAQ==",
+            "tooltip": "<strong>六重压缩太阳能(Sextuple Compressed Solar)</strong></br>前置任务需求:</br>五重压缩太阳能(Quintuple Compressed Solar)</br>UV组装机"
+        },
+        {
+            "name": "固体氧化物燃料电池 Mk II",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2826.png",
+            "x": 156.0,
+            "y": 264.0,
+            "data": "与上一级一样,但发电更多/更好.加热时间更少,但消耗燃料的速度也更快.在长期产能方面它仍然比不上全速运行的大型燃气涡轮,但它可以做到快速反应.别忘了还要配合大型高压蒸汽涡轮.%n%n正确设置后,它能提供1A以上的LuV输出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALCg==",
+            "tooltip": "<strong>固体氧化物燃料电池 Mk II</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "固体氧化物燃料电池 Mk I",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2827.png",
+            "x": 156.0,
+            "y": 228.0,
+            "data": "它可以使用气体燃料,同时产生能量和蒸汽(只在加热后产生),而且0污染.如果其他发电机都有各种污染问题的话,那么这种发电机就是最佳解决方案了.%n%n它可以产出4A-HV/t,而且燃料效率不错,同时每秒消耗100mB氧. 燃料电池还会随着时间的推移而逐渐加热,直到效率达到100％,此时它会开始同时输出蒸汽.你可以使用单方块或多方块的蒸汽轮机,从中获取额外能量.%n%n这两者结合使其比你一开始建造的大型燃气轮机更加强大.只有当你解锁了更好的材料时,它才能比燃料电池-MK-I产出更多的能量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALCw==",
+            "tooltip": "<strong>固体氧化物燃料电池 Mk I</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "标准核燃料:铀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/191.png",
+            "x": 516.0,
+            "y": 228.0,
+            "data": "这仅仅是\"普通\"的铀燃料.没有什么特殊的...它产生的能量是钍的5倍,而产生的热量为其4倍,同时持续时间为其2/5.%n%n大多数燃料棒都大同小异.通常在火星及其卫星上获取铀,别忘了从钍中也可以离心出一点铀.%n%n顺便一提,有一种'脉冲'型的反应堆(当过热后关闭反应堆).将这些棒子打包后冷静一下,这样可以让每根燃料棒达到最大的利用效率.当然,一不小心就是BOOM.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAvw==",
+            "tooltip": "<strong>标准核燃料:铀</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "标准核燃料II:硅岩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1896.png",
+            "x": 516.0,
+            "y": 264.0,
+            "data": "这些...不太值.完全可以将富集硅岩拿去做别的,比如放进硅岩反应堆发电.它们在核反应堆中的工作原理,与铀完全相同,只是消耗的材料与输出能量有所区别.%n%n[note]PS：通过离心硅岩粉或是处理矿石都可以获得富集硅岩(Nq+).[/note]%n%n[note]至于为什么硅岩燃料棒是用富集硅岩做的...这是个好问题![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHaA==",
+            "tooltip": "<strong>标准核燃料II:硅岩</strong></br>前置任务需求:</br>你的第一块硅岩锭</br>标准核燃料:铀"
+        },
+        {
+            "name": "更多蒸汽!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/70.png",
+            "x": 120.0,
+            "y": 84.0,
+            "data": "你几乎完成它了!只需要最后一个制作步骤就可以到达第1阶的需求!继续前进吧!%n%n这种蒸汽轮机可以将蒸汽转化为EU.你之前使用的能源一成不变,但从此刻开始,你可以生产EU,并通过线缆将其输送到你的机器内,取代原先需要通过管道将蒸汽直接送到机器处.相比青铜机器,电力机器无需排气口,且更加高效.%n%n另外,之后你很可能还会从蒸汽转向另一种燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAARg==",
+            "tooltip": "<strong>更多蒸汽!</strong></br>前置任务需求:</br>你的第一个电子电路</br>基础制作:马达</br>基础制作:转子"
+        },
+        {
+            "name": "大苯环神教圣堂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1869.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "MV燃气轮机是苯的完美搭档,现在你能真正制造它了.请到\"大众生物学\"任务栏查看详情,学习如何自动化制造大量的苯,或者直接查看NEI也行.从树木中获取苯是可再生的,也是一种发电的强力手段,而且如果你使用新解锁的多方块机器对产线不断升级的话,它能支持你数个阶段的发展.%n%n适时放弃蒸汽是个明智的决定,因为随着用电需求的不断提升,你需要巨大的管道来输送蒸汽,而且现阶段的蒸汽轮机效率较低. 相反,制造热解炉或高级焦炉,让木炭生产更加迅速,再从中提炼出苯,通入燃气轮机发电,太妙了,我大苯环神教!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHTQ==",
+            "tooltip": "<strong>大苯环神教圣堂</strong></br>前置任务需求:</br>MV马达"
+        },
+        {
+            "name": "这不是去太空的路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2762.png",
+            "x": 336.0,
+            "y": 300.0,
+            "data": "这台机器可以利用火箭燃料发电.想要知道怎么造火箭燃料,你得去\"太空竞赛\"章节看看.GT++有一系列专有的火箭燃料,将它们自动化可以用来在此多方块机器中发电,同时还可以为你提供探索星辰大海无尽的燃料.%n%n关于火箭引擎的数学计算非常复杂.请查看控制器方块的tooltip了解详情,不过大概的使用方式如下：提供足量的二氧化碳,选择你想要获得多少EU/t的输出,根据使用的燃料种类计算所需的燃料量,再根据EU/t值提供足量的液氢进行增压.%n%n你终归会将火箭引擎增压的,有以下几点原因.假设你至少有一个IV动力仓(缓冲),想要在正常模式输出接近动力仓极限的电力,燃料效率将会较低,但在增压模式下就会好很多.另外,这台多方块机器不会连续消耗燃料,而是在消耗和不消耗之间间隔一秒,同时输出的能量保持不变.而在此基础上增压可以带来更好的燃料效率.配合火箭燃料超高的燃值,火箭引擎的输出功率将非常可观.%n%n中文WIKI 火箭燃料产线：[url]https://gtnh.huijiwiki.com/p/742[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKyg==",
+            "tooltip": "<strong>这不是去太空的路</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "这是你的氪星石!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5875748521763021702.png",
+            "x": 312.0,
+            "y": 492.0,
+            "data": "这是俺跟你说的那个奇葩的钛。你需要把这个和泰坦精钢怼在一起来制作接下来需要的东西，GT++材料于此卷入聚变洪流。%n%n这步反应需要你先搞定前置的铌等离子和锌等离子聚变产氪等离子——一种比你之前搞到的更稀有的惰性气体，后面还有更稀有的氙。从聚变产氪等离子，到星体钛等离子，包括之前的力量等离子，这些配方的速度都是匹配好的(如果使用相同等级的核聚变反应堆)。很好，每条生产链都需要之前做的一切来运行。%n%n得到星体钛等离子体后，你可以继续准备MK2阶段最后一步了。",
+            "quest_id": "pLCgOVmqTUCudSXZusnceg==",
+            "tooltip": "<strong>这是你的氪星石!</strong></br>前置任务需求:</br>力量等离子体 - Mk1结束</br>锌ininininin...</br>铌化"
+        },
+        {
+            "name": "2阶线圈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2960.png",
+            "x": 300.0,
+            "y": 444.0,
+            "data": "它将解锁 2 个 MkIV 燃料配方和 MkV 燃料配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALkA==",
+            "tooltip": "<strong>2阶线圈</strong></br>前置任务需求:</br>硅岩燃料精炼厂"
+        },
+        {
+            "name": "3阶线圈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2966.png",
+            "x": 336.0,
+            "y": 444.0,
+            "data": "为了超频,MKVI 燃料和替代 MKV 燃料配方.等等,你想超频UXV合成表?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALlg==",
+            "tooltip": "<strong>3阶线圈</strong></br>前置任务需求:</br>2阶线圈"
+        },
+        {
+            "name": "4阶线圈",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5155982425555565036.png",
+            "x": 372.0,
+            "y": 444.0,
+            "data": "这次升级能让你比以前更快的生产燃料且允许了一个生产MKVI燃料的可选配方!%n...但是你真的需要它么?",
+            "quest_id": "KlI9Fbh9SsK4ckVNMJqGFA==",
+            "tooltip": "<strong>4阶线圈</strong></br>前置任务需求:</br>3阶线圈"
+        },
+        {
+            "name": "汞太多了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2253.png",
+            "x": 624.0,
+            "y": 120.0,
+            "data": "一小时又一小时...一天又一天...一周又一周...你为了红宝石(铬)处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.%n%n你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能白嫖点电.%n%n译者注:使用汞化学浸洗处理某些矿物可以增产.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIzQ==",
+            "tooltip": "<strong>汞太多了?</strong></br>前置任务需求:</br>你用完了黄金或者红石？"
+        },
+        {
+            "name": "把你的魔法垃圾都扔到这里来(LV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2819.png",
+            "x": 660.0,
+            "y": 84.0,
+            "data": "然后收获电力作为回馈.要是你的下界之星多到用不完,丢到这里头就是它最好的归宿了.这玩意可以吃掉几乎任何魔法材料(大部分非合成物品).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALAw==",
+            "tooltip": "<strong>把你的魔法垃圾都扔到这里来(LV)</strong></br>前置任务需求:</br>MV阶段你也会讨厌这个#6</br>信标"
+        },
+        {
+            "name": "把你的魔法垃圾都扔到这里来(MV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2820.png",
+            "x": 660.0,
+            "y": 120.0,
+            "data": "这是MV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALBA==",
+            "tooltip": "<strong>把你的魔法垃圾都扔到这里来(MV)</strong></br>前置任务需求:</br>HV阶段你最讨厌的另外2个物品</br>信标"
+        },
+        {
+            "name": "把你的魔法垃圾都扔到这里来(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2821.png",
+            "x": 660.0,
+            "y": 156.0,
+            "data": "这是HV版本.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALBQ==",
+            "tooltip": "<strong>把你的魔法垃圾都扔到这里来(HV)</strong></br>前置任务需求:</br>力场发生器(MV)</br>信标"
+        },
+        {
+            "name": "棘手的核燃料：MOX",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/192.png",
+            "x": 552.0,
+            "y": 228.0,
+            "data": "在正常情况下,MOX的发电与铀棒相同,但随着反应堆升温,MOX可以产出更多能量.想要利用这一优势,你需要尝试设计出一种接近极限温度的热平衡堆.它的燃烧时间只有铀棒的一半,且当反应堆温度超过50％时,MOX棒会放出更多热量.一根棒子顶所有引擎!%n%n[note]如果没有其他方式获取钚的话,你需要先运行一个普通的铀堆,再离心枯竭铀.别忘了MOX棒不止一种![/note]%n%n[warn]请确保在创造模式测试过且/或做好防爆工作![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAwA==",
+            "tooltip": "<strong>棘手的核燃料：MOX</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "棘手的核燃料II：超能硅岩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1897.png",
+            "x": 552.0,
+            "y": 264.0,
+            "data": "它们同样意义不大,我只想把材料还给你... 与普通MOX的区别仅仅是材料和输出不同.%n%n[note]PS：通过离心硅岩粉或富集硅岩粉、处理矿物,或热力离心枯竭硅岩燃料棒都可以获得超能硅岩(Nq*).[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHaQ==",
+            "tooltip": "<strong>棘手的核燃料II：超能硅岩</strong></br>前置任务需求:</br>棘手的核燃料：MOX"
+        },
+        {
+            "name": "三重压缩的太阳能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1338.png",
+            "x": 84.0,
+            "y": 192.0,
+            "data": "三重压缩的太阳能. 嗯,那就对了. 它们相比双重压缩太阳能贵一点,共计需要576个太阳能. 但是它们可发电1000GT-EU/t,不需要清洗.怎么会这样？ 魔法大法好.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFOg==",
+            "tooltip": "<strong>三重压缩的太阳能</strong></br>前置任务需求:</br>IV组装机</br>双重压缩太阳能"
+        },
+        {
+            "name": "涡轮仓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5852276776698153963.png",
+            "x": 192.0,
+            "y": 336.0,
+            "data": "在UV你解锁了给涡轮自动重装转子的能力.%n%n特大涡轮则能更早的默认重装转子...",
+            "quest_id": "J2ok3rFLS7quyIlHPaN0FQ==",
+            "tooltip": "<strong>涡轮仓</strong></br>前置任务需求:</br>利用等离子体发电</br>第8阶段(UV)"
+        },
+        {
+            "name": "涡轮时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1201.png",
+            "x": 156.0,
+            "y": 336.0,
+            "data": "你崭新的等离子涡轮需要一个全新的转子来驱动它.%n%n你可以使用任何GT材料制造涡轮,但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/t输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.[warn]请先在创造模式测试![/warn]%n%n使用涡轮时,需要注意流速.而所谓最佳流速,即涡轮所列不同燃料的最佳流量,除以对应的燃值.你还可以直接用大型涡轮计算器(Large-Turbine-Calculator)[在主数据表格(spreadsheet)内有个链接,指向discord中的计算器];还可以在大型涡轮运行时(只需要提供很少的燃料让它动起来就行),直接扫描主方块,即可获知该涡轮转子使用某种燃料对应的最佳流速. 使用流体校准器或流体流量调节机,确保所提供的燃料速度与涡轮的最佳流速匹配,以发挥最高的燃料效率;不过你也可以选择超出此最佳流速,以降低效率为代价,获得更高的功率输出,而蒸汽涡轮在超出最佳流速后的效率保持是最差的.在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出功率提高,但燃料效率降低,同时最高输出功率取决于涡轮转子类型及其超载效率等级.对于等离子涡轮,超载效率等级1：最高超载250％,输出功率158％;超载效率等级2：最高超载400％,输出功率214％;超载效率等级3：最高超载550％,输出功率301％.越接近超载极限,损失的燃料效率越多.%n%n决定权在你!%n%n译者注：计算流量时注意单位换算,并向上取整.%n%n[note]关于聚变的更多额外信息,请查看新任务章节\"强大的核物理\".[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEsQ==",
+            "tooltip": "<strong>涡轮时间</strong></br>前置任务需求:</br>利用等离子体发电"
+        },
+        {
+            "name": "2M涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3187.png",
+            "x": 156.0,
+            "y": 408.0,
+            "data": "希望不要超过一手之数.这里的目标是让每台涡轮都能输出接近2M-EU/t.%n%n怎么做到呢?看看UV动力仓的合成表吧,然后你就有了新的目标.等你制造出UV动力仓后,每台配备它的涡轮都可以将输出功率上限提升为2,097,152-EU/t,这再次拓展了你选择涡轮的范围.以下有一些不错的选择：%n%n大型宇宙中子态素涡轮,效率220％,输出功率1,330,560-EU/t%n大型灵宝涡轮,效率220％,输出功率1,330,560-EU/t(耐久极高)%n大型觉醒龙锭涡轮,效率190％,输出功率478,800-EU/t%n大型三元金属涡轮,效率180％,输出功率1,451,520-EU/t%n%n现在,你可能在考虑修建更多的1级核聚变反应堆,用以处理其他材料.其实即便你停下生产等离子体的反应堆,重启消耗的EU也不到1桶等离子体,所以应该没什么大不了的.%n%n制造一个UV动力仓(普通或缓冲的)即可完成此任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMcw==",
+            "tooltip": "<strong>2M涡轮</strong></br>前置任务需求:</br>2级聚变 锡等离子体"
+        },
+        {
+            "name": "耐超高温网",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3038.png",
+            "x": 228.0,
+            "y": 372.0,
+            "data": "*拍拍耐超高温网* 这个坏小子可以承受巨量热量!%n%n如果你想使用戴森球多方块结构的话,自动化合成耐超高温网是不可或缺的前提条件之一.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL3g==",
+            "tooltip": "<strong>耐超高温网</strong></br>前置任务需求:</br>这不是只有中子星核心才有的吗?"
+        },
+        {
+            "name": "很抱歉,没有贫铀弹",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1900.png",
+            "x": 480.0,
+            "y": 300.0,
+            "data": "燃料棒结束一个周期后会变为枯竭的燃料棒.你可以将其热离以回收部分材料. 根据燃料棒的不同,获得的物品也不同,请查看NEI或wiki以获取详细信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbA==",
+            "tooltip": "<strong>很抱歉,没有贫铀弹</strong></br>前置任务需求:</br>二联燃料棒,双倍的快乐(double the fun(fuel))"
+        },
+        {
+            "name": "单涡轮UV发电",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3165.png",
+            "x": 156.0,
+            "y": 372.0,
+            "data": "等你到达ZPM阶段,可以制造ZPM动力仓后,每台涡轮的输出功率可以提高到524,288-EU/t.达到这个数字后,你对涡轮材料的选择限制已经少很多了,并且可以显著增加单堆输出的总功率.只要选择合适的涡轮材料,你就可以用3台大型等离子涡轮消化掉单堆输出的所有氦离子,建议材料如下:%n%n大型高耐久性复合钢涡轮,效率230％,输出功率202,860-EU/t%n大型原子分离催化剂涡轮,效率200％,输出功率399,672-EU/t%n大型精金涡轮,效率180％,输出功率170,010-EU/t%n大型龙锭涡轮,效率170％,输出功率214,200-EU/t(耐久高)%n大型中子涡轮,效率160％,输出功率241,920-EU/t(耐久极高)%n%n根据你使用涡轮的不同,最终的效率与输出功率会有很大差异.以上所列材料中,灵宝和中子涡轮的耐久极高,基本可以近乎永久使用,而另一些效率更高但需要时不时进行更换. 如果你想要单涡轮输出尽可能高的功率,尽可能迫近动力仓的极限的话,可以提高等离子体的流量,但一定要小心!千万不要超出动力仓的极限,而且流量超过最佳流量后,随着流量的进一步提升,效率会逐渐降低.更具体的效率损失值,可以在LuV任务章节中的\"涡轮时间\"任务内找到.%n%n制造一个ZPM动力仓(普通或缓冲的)即可完成此任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMXQ==",
+            "tooltip": "<strong>单涡轮UV发电</strong></br>前置任务需求:</br>单堆发电量是多少?"
+        },
+        {
+            "name": "太阳之力(UV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2587.png",
+            "x": 48.0,
+            "y": 336.0,
+            "data": "白天时产生1A的UV电. 如果你的基地所在维度是永昼的话那就太棒了(比如花园世界).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKGw==",
+            "tooltip": "<strong>太阳之力(UV)1x1</strong></br>前置任务需求:</br>太阳之力(UV)</br>电路板大师"
+        },
+        {
+            "name": "散热1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/197.png",
+            "x": 552.0,
+            "y": 192.0,
+            "data": "你不能让热量聚集在反应堆内部,最终你需要将反应堆内部的热量散发的大气中. 不同的散热片有不同的散热能力,你需要找出哪一种散热片适合用在你设计的反应堆中. 与其他任务一样,要么通读wiki后试着理解反应堆的工作原理,要么直接抄作业...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAxQ==",
+            "tooltip": "<strong>散热1</strong></br>前置任务需求:</br>合适的能源"
+        },
+        {
+            "name": "欢迎来到等离子体系列任务",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5758255961960012806.png",
+            "x": 132.0,
+            "y": 492.0,
+            "data": "你好!如果你已经解锁了核聚变,你就可以开启这个任务系列了,不过请记住,它被分为了三个部分(即三条核聚变产链)：每个部分对应了一个等级的核聚变反应堆,从Mk-I到Mk-III%n%n所有这些核聚变产链都有一个电子表格,但其中有些反应堆数量的数字并不正确.要查看它,请访问以下GitHub链接中的Excel表格：[url]https://github.com/GTNewHorizons/GTplusplus/pull/669[/url]%n%n这些任务追踪了一些真正强大的等离子体的制造流程,当你将产线规模提升至压缩核聚变反应堆与特大等离子涡轮时,这些等离子体在游戏末期的初始阶段的发电中大放异彩.如你所见,当你使用优良材料(如三元金属,无尽等)时,这些巨型涡轮会旋转得非常快,但它们会根据使用的等离子体的燃料热值施加EU/t惩罚.这意味着氦等离子体和锡等离子体在这里的效果要比在大型等离子涡轮中弱得多.%n%n这条产线的最终产物是天体钨等离子体,即使使用时空涡轮也不会有惩罚,而且平均到每个压缩核聚变反应堆时可以在某种程度上达到氦等离子体的产出.最后一步是最慢的,但如果没有其他瓶颈,一个压缩核聚变反应堆进行最后一步反应,在特大等离子涡轮中使用无尽制成的特大涡轮时大约会有超过8B EU/t的产出.%n%n然而,达到这个目标并不容易,整个过程使用了15种聚变配方,材料自动化程度远远高于任何简单的聚变配置.这条任务链将会解释哪些简单,哪些不简单,或者甚至成为瓶颈.如果你完成了这系列任务,你将获得稳定的电力来源,直到你后续采用了戴森球或者其它接下来出现的发电手段,并且这条产线在未来仍然有用!",
+            "quest_id": "bNiieqPgSFqwFpC2DZkj-g==",
+            "tooltip": "<strong>欢迎来到等离子体系列任务</strong></br>前置任务需求:</br>开始聚变"
+        },
+        {
+            "name": "我们需要些大家伙",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/783.png",
+            "x": 120.0,
+            "y": 192.0,
+            "data": "你的基础蒸汽轮机太占空间？该解决这个问题了.这台大型蒸汽轮机可以帮助你生产大量的能源.它还能为你生产蒸馏水,不过你最好循环利用这些水. 别忘了为它制造一个涡轮并放入控制器的GUI中,否则这台多方块机器就无法正常运行.%n%n每种涡轮都有特定的最佳流量,而蒸汽又是燃料效率最高的工质,具体数值如涡轮的tooltip所示.你可以使用流体校准器覆盖板,精确调整流量以匹配各种最佳流量,不过你也可以超出最佳流量以获得更高的功率输出,不过代价是燃料效率的降低.你可以制造四种尺寸的涡轮转子,越大的转子可以提供越高的功率输出,但其效率有所不同.一般来说,大型涡轮转子最好,因为它的效率最高,并且拥有不错的最佳流量.%n%n使用涡轮时,需要注意流速.而所谓最佳流速,即涡轮所列不同燃料的最佳流量,除以对应的燃值.你还可以直接用大型涡轮计算器(Large-Turbine-Calculator)[在主数据表格(spreadsheet)内有个链接,指向discord中的计算器];还可以在大型涡轮运行时(只需要提供很少的燃料让它动起来就行),直接扫描主方块,即可获知该涡轮转子使用某种燃料对应的最佳流速. 使用流体校准器或流体流量调节机,确保所提供的燃料速度与涡轮的最佳流速匹配,以发挥最高的燃料效率;不过你也可以选择超出此最佳流速,以降低效率为代价,获得更高的功率输出,而蒸汽涡轮在超出最佳流速后的效率保持是最差的.在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出功率提高,但燃料效率降低,同时最高输出功率取决于涡轮转子类型及其超载效率等级.对于蒸汽涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载200％,输出功率133％;超载效率等级3：最高超载250％,输出功率156％.越接近超载极限,损失的燃料效率越多. 注意,输出功率不要超过你动力仓的最高输出功率,不然,嘿嘿你就有麻烦了!%n%n75K耐久以下的涡轮配方已移除.用合适的长杆,使用NEI查询用途,你就能看到有用的组装配方了.当然你也可以查我们的数据表格.  长镁铝合金杆对应小型涡轮、长钛杆对应普通涡轮,等等...%n%n登月前,最好的转子材料是暗影金属或脉冲合金.%n%n登月后,最好的HV转子由暗影金属或奥利哈钢(不过这是IV材料)制成.幸运的是,现在涡轮机可以支持多A动力仓了,所以如果你需要额外电流,试试看吧!%n%n至于其他选择,详见Discord频道中的大型涡轮计算器和数据表格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADDw==",
+            "tooltip": "<strong>我们需要些大家伙</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "那是什么?引擎太吵我啥也听不到!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1481.png",
+            "x": 228.0,
+            "y": 264.0,
+            "data": "极限内燃引擎是大型内燃引擎的IV版本升级,需要把钛换成钨钢.两者结构基本相同,所用两种材料之比几乎就是1:1,所以等你攒了几组钨钢后,它会是一种很好的发电机选择.%n%n需要注意的是,它只能接受高辛烷值汽油.这是石油出产的最后也是最强的一种内燃类燃料,而它的处理产线也是最长的.回报就是,高辛烷值汽油的能量密度非常出色,高达每桶2.5M-EU,再配合液氧在这台多方块机器中燃烧,它可以产出接近4A-IV.%n%n液氧非常重要,因为它极大地提升了多方块机器的运行速度以及燃料效率.液氧的供应速度需要达到40-L/s,所以为了维持引擎的持续运行,你需要不止一台真空冷冻机,准确来说,你需要3台HV真空冷冻机,或是1台HV+1台EV.以下情况下,可以适当降低数量：超频真空冷冻机;极限内燃引擎并没有持续运行;或者你使用了凛冰冷冻机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFyQ==",
+            "tooltip": "<strong>那是什么?引擎太吵我啥也听不到!</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "我应该在哪建造戴森球?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3040.png",
+            "x": 228.0,
+            "y": 444.0,
+            "data": "如若你仔细阅读过戴森球地面单元的tooltip(你也应该这么做),那么你可能已经注意到,tooltip中提到\"基于所在维度的系数\".事实上,戴森球所在的维度会极大影响其能量输出.%n%n按系数从高到低排序：%n337％ - 荷鲁斯%n231％ - 巴纳德C%n228％ - 奈佩里%n228％ - α半人马Bb%n211％ - 迈罕带%n198％ - 马赫斯%n198％ - 赛特%n198％ - 织女B%n194％ - 金星空间站%n181％ - 阿努比斯%n176％ - 金星%n161％ - 水星%n 141％ - 巴纳德E%n134％ - 鲸鱼座T星E%n126％ - 巴纳德F%n112％ - 罗斯128b、罗斯128ba%n110％ - 地球空间站%n100％ - 主世界、月球%n[warn]89％ - 火星空间站%n81％ - 火星、火卫一、火卫二%n61％ - 小行星%n60％ - 谷神星%n48％ - 木星空间站%n44％ - 木卫二、木卫一、木卫三%n36％ - 土星空间站%n32％ - 土卫二、土卫六、木卫四%n25％ - 天王星空间站%n23％ - 天卫四、海卫八、天卫五%n20％ - 海王星空间站%n18％ - 海卫一%n16％ - 冥王星、柯伊伯带%n15％ - 鸟神星、妊神星%n1％ - 花园、虚空世界以及矿界%n0％ - 所有其他维度[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL4A==",
+            "tooltip": "<strong>我应该在哪建造戴森球?</strong></br>前置任务需求:</br>戴森球地面单元"
+        },
+        {
+            "name": "有了魔法,谁还要UV太阳能啊",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2596.png",
+            "x": 12.0,
+            "y": 372.0,
+            "data": "当使用水注魔时,这种单方块最大可以产生600M-EU/t,这很平衡对吧...对...吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKJA==",
+            "tooltip": "<strong>有了魔法,谁还要UV太阳能啊</strong></br>前置任务需求:</br>七重压缩太阳能(Septuple Compressed Solar)</br>好刺眼! #4"
+        },
+        {
+            "name": "风力计",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1141.png",
+            "x": 444.0,
+            "y": 120.0,
+            "data": "风力计可以测试当前位置的风力强度. 使用这个工具可以非常方便地让你选择放置风机的高度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdQ==",
+            "tooltip": "<strong>风力计</strong></br>前置任务需求:</br>风力动能发生机(HV)"
+        },
+        {
+            "name": "特大涡轮燃气轮机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7393385288067338253.png",
+            "x": 120.0,
+            "y": 372.0,
+            "data": "来自GTNH的究极燃气吞噬者.查阅上方的XL蒸汽涡轮章节来了解所有涡轮共通的运作方式.%n%n[warn]该涡轮不接受苯作为燃料.[/warn]要想利用上苯产线,你需要将其升级为硝基苯产线.将会对该涡轮进一步修改使其能够接受更多高等级的燃气,而非无脑塞苯,甲烷或是其他低级燃气.",
+            "quest_id": "Ko5ln-tKSFiZZWtAmSWv8w==",
+            "tooltip": "<strong>特大涡轮燃气轮机</strong></br>前置任务需求:</br>第6阶段(LuV)</br>大型燃气涡轮"
+        },
+        {
+            "name": "特大高压蒸汽涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4842153805905438157.png",
+            "x": 120.0,
+            "y": 336.0,
+            "data": "高压,过热的能量荷载.看看上方关于特大蒸汽涡轮机的介绍来了解一下所有涡轮机之间的相同的机制.%n%n这个特大涡轮和特大蒸汽涡轮升级的方式完全相同:可接受的流体是过热蒸汽,其他流体都没用.他们应该造在一起,毕竟你这个阶段可能有的蒸汽设施都肯定会用到这两个涡轮.",
+            "quest_id": "yDY1ALr9QdG8zTbEszNaMw==",
+            "tooltip": "<strong>特大高压蒸汽涡轮</strong></br>前置任务需求:</br>第5阶段(IV)</br>它是'过热'蒸汽"
+        },
+        {
+            "name": "特大等离子涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7251205103661839761.png",
+            "x": 120.0,
+            "y": 408.0,
+            "data": "等离子体流能让涡轮旋转吗?不,只是水变成蒸汽,然后再凝成水,只有水在循环罢了.查看上面有关特大蒸汽涡轮关于特大涡轮的共有机制说明.%n%n记住,这台涡轮机与其他常规的多方块涡轮机有非常重要的区别.鉴于等离子能很容易在压缩聚变堆的加持下爆仓,特大等离子涡轮必须采取相应的措施,不然仅多余一个等离子体就会将进程中的EU数值提高到荒谬的程度.然而,特大涡轮机的产能现在有一个基于比较燃料密度与其所使用的转子材料的减值.%n%n查看[url]https://i.imgur.com/vifsk0P.png[/url],关于各种等离子体和材料的不同组合.Mk1等离子体显示为绿色,Mk2为黄色,Mk3为红色.下方的3个是聚变的终产物.%n%n这个公式有点复杂,但这里列出一些重要的数值:%n-> 氦等离子体即使使用无尽催化剂也会受到86.1%%的巨大惩罚值,与此同时锡的惩罚只有53.5%%,这意味着如果使用锡等离子体预期产能几乎是翻倍;%n-> 三元金属的数值分别为92.4%%和74.5%%;%n-> 使用无尽的惩罚数值更高,分别为97.4%%和91.1%%;%n-> 时空的数值为98.3%%和94.4%%.%n%n这意味着在UHV/UEV阶段,没法再依赖这两种等离子体直接塞给特大涡轮机.在一步配方的等离子体中,最好的选择是mk3镅等离子体,它在使用无尽催化剂时只有微不足道的0.8%%的惩罚.如果想要更快的发电速度,请查看以熔融天体钨结束的聚变,它在特大等离子涡轮机中没有惩罚值为0,并且与以前的氦等离子体产能相同.请查看下方有关聚变的任务.",
+            "quest_id": "dQ1k0UZVR8ObXotgcryKbw==",
+            "tooltip": "<strong>特大等离子涡轮</strong></br>前置任务需求:</br>利用等离子体发电</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "特大超临界蒸汽涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6562319546724824113.png",
+            "x": 120.0,
+            "y": 444.0,
+            "data": "可用的最为致密的蒸汽.查阅上方的特大蒸汽涡轮章节来了解所有涡轮共通的运作方式.%n%n在使用GTNH中最好的涡轮材料时,该涡轮会出现意料之外的与整型数据限制相关的bug.在每tick转运数十亿超临界蒸汽可能也会有其他限制.在尝试给该涡轮发电机提供终极材料涡轮时还请留意相关bug.",
+            "quest_id": "bz_RazGFSl6k7fUkEt1Lzw==",
+            "tooltip": "<strong>特大超临界蒸汽涡轮</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "特大蒸汽涡轮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4981735154459347867.png",
+            "x": 120.0,
+            "y": 300.0,
+            "data": "这是第一个特大涡轮机.因为这是第一个,所以此任务将解释一些特大涡轮机共有的机制。%n%n每个特大涡轮机可以容纳12个涡轮转子,分别位于12个转子仓中,但它们的总速度比常规同等多方块高出16倍.请确保每个转子材料相同,并且确保足够的输入流速匹配多方块设备需求！如果还需要更快的速度,可以使用螺丝刀在控制器上启用高速模式,将其速度继续提高到48倍.但是这将很快地消耗转子耐久,鉴于电力输出越高,耐久下降越更快.%n%n这些特大涡轮机还支持TecTech仓室,所以你可以用比常规输出更高的缓冲动力仓,甚至之后使用激光仓来处理最强涡轮机产生的数亿EU/t.%n%n这五台涡轮机与它们的下位替换燃料消耗相同,但也有一些例外情况将在相应的任务中提到.特大蒸汽涡轮机只消耗蒸汽,如其名字所述.",
+            "quest_id": "4HoSq97QT3G63VJFeV_0ZQ==",
+            "tooltip": "<strong>特大蒸汽涡轮</strong></br>前置任务需求:</br>第4阶段(EV)</br>我们需要些大家伙"
+        },
+        {
+            "name": "你还没有学会分离流体?真的么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2791.png",
+            "x": 228.0,
+            "y": 192.0,
+            "data": "这台多方块机器的机制与大型内燃引擎基本相同,只是燃料换作半流质燃料.如果你需要将大量重燃油之类的半流质燃料转化为EU,你可以造一台这个玩玩.%n%n[note]请查看大型内燃引擎的任务获取更多信息.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAK5w==",
+            "tooltip": "<strong>你还没有学会分离流体?真的么?</strong></br>前置任务需求:</br>总算能炼钛了</br>EV阶段让你讨厌的4个物品"
+        },
+        {
+            "name": "锌ininininin...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7026708278772253011.png",
+            "x": 276.0,
+            "y": 504.0,
+            "data": "你知道人体内有多少锌元素吗?微乎其微,但很重要.现在想象一下这些都是等离子体!%n%n和铌等离子体的配方差不多,锌等离子体的配方速度很快.唯一需要注意的是该配方消耗氚而非三元金属(Tritium not Trinium),其中,氚是氢的一种稀有同位素,可以从氘这种不太稀有的氢的同位素中获得.氚可以直接从海王星抽取,也可以用太空电梯抽取又或是简单地离心为氦等离子体而自动化的氘.",
+            "quest_id": "Ng5Ldnf3TZCefB4Mr3u-rQ==",
+            "tooltip": "<strong>锌ininininin...</strong></br>前置任务需求:</br>力量等离子体 - Mk1结束"
+        }
+    ],
+    "links": [
+        {
+            "source": "把你的魔法垃圾都扔到这里来(MV)",
+            "target": "吸收魔法能源转化为EU(HV)"
+        },
+        {
+            "source": "力场发生器(MV)",
+            "target": "吸收魔法能源转化为EU(HV)"
+        },
+        {
+            "source": "把你的魔法垃圾都扔到这里来(MV)",
+            "target": "吸收魔法能源转化为EU(MV)"
+        },
+        {
+            "source": "把你的魔法垃圾都扔到这里来(LV)",
+            "target": "吸收魔法能源转化为EU(LV)"
+        },
+        {
+            "source": "把你的魔法垃圾都扔到这里来(HV)",
+            "target": "吸收魔法能源转化为EU(EV)"
+        },
+        {
+            "source": "处理器主机,你的第一种IV电路板",
+            "target": "吸收魔法能源转化为EU(EV)"
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "酸之旅"
+        },
+        {
+            "source": "玛丽锔?",
+            "target": "高级氙镍诺(Xeninol)"
+        },
+        {
+            "source": "虚恩等离子体 - MK2之末",
+            "target": "高级氙镍诺(Xeninol)"
+        },
+        {
+            "source": "阿美利卡!!!!!!!!!",
+            "target": "高级氙镍诺(Xeninol)"
+        },
+        {
+            "source": "标准核燃料II:硅岩",
+            "target": "可选核燃料:泰伯利亚"
+        },
+        {
+            "source": "虚恩等离子体 - MK2之末",
+            "target": "阿美利卡!!!!!!!!!"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "合适的能源"
+        },
+        {
+            "source": "Pseudostable Black Hole Containment Field",
+            "target": "Balance is Everything"
+        },
+        {
+            "source": "合适的能源",
+            "target": "基础核燃料:钍"
+        },
+        {
+            "source": "欢迎来到等离子体系列任务",
+            "target": "硼的聚变"
+        },
+        {
+            "source": "欢迎来到等离子体系列任务",
+            "target": "钙瓶颈"
+        },
+        {
+            "source": "高级氙镍诺(Xeninol)",
+            "target": "天体钨等离子体 - MK3之终"
+        },
+        {
+            "source": "太阳之力(ULV)1x1",
+            "target": "压缩太阳能 LV"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "压缩太阳能 LV"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "深地热泵"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "柴油的力量"
+        },
+        {
+            "source": "压缩太阳能 LV",
+            "target": "双重压缩太阳能"
+        },
+        {
+            "source": "可怕的魔法载体",
+            "target": "双重压缩太阳能"
+        },
+        {
+            "source": "基础核燃料:钍",
+            "target": "二联燃料棒,双倍的快乐(double the fun(fuel))"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "你听到引擎声了吗？"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "你听到引擎声了吗？"
+        },
+        {
+            "source": "UMV电路板",
+            "target": "戴森球地面单元"
+        },
+        {
+            "source": "耐超高温网",
+            "target": "戴森球地面单元"
+        },
+        {
+            "source": "能量源质发电机",
+            "target": "灵气源质发电机"
+        },
+        {
+            "source": "炼化源质",
+            "target": "能量源质发电机"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "能量源质发电机"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "能量源质发电机"
+        },
+        {
+            "source": "能量源质发电机",
+            "target": "火之源质发电机"
+        },
+        {
+            "source": "能量源质发电机",
+            "target": "木之源质发电机"
+        },
+        {
+            "source": "能量源质发电机",
+            "target": "贪婪源质发电机"
+        },
+        {
+            "source": "能量源质发电机",
+            "target": "风之源质发电机"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "更好的柴油"
+        },
+        {
+            "source": "注魔太阳能",
+            "target": "更多压缩注魔"
+        },
+        {
+            "source": "双重压缩太阳能",
+            "target": "更多压缩注魔"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "引爆液体获取能量"
+        },
+        {
+            "source": "利用等离子体发电",
+            "target": "流体校准器"
+        },
+        {
+            "source": "大型燃气涡轮",
+            "target": "流体校准器"
+        },
+        {
+            "source": "我们需要些大家伙",
+            "target": "流体校准器"
+        },
+        {
+            "source": "钙瓶颈",
+            "target": "力量等离子体 - Mk1结束"
+        },
+        {
+            "source": "硼的聚变",
+            "target": "力量等离子体 - Mk1结束"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "大型燃气涡轮"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "地热引擎(EV)"
+        },
+        {
+            "source": "晶体处理器主机",
+            "target": "地热引擎(IV)"
+        },
+        {
+            "source": "湿件主机",
+            "target": "地热引擎(LuV)"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "不含致幻剂"
+        },
+        {
+            "source": "\"Semi-Stable\" doing a lot of work in here",
+            "target": "Harnessing Chaos"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "为了供应它,你砍伐了多少森林?"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "高压蒸汽轮机"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "高压蒸汽轮机"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "氢气、甲烷或者一些屁(天然气)"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "我来教你...怎么感谢太阳！"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "不完全燃烧"
+        },
+        {
+            "source": "合适的能源",
+            "target": "反应堆扩容"
+        },
+        {
+            "source": "超频时代",
+            "target": "无尽涡轮"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "注魔太阳能"
+        },
+        {
+            "source": "压缩太阳能 LV",
+            "target": "注魔太阳能"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "它是'过热'蒸汽"
+        },
+        {
+            "source": "动能发电机(HV)",
+            "target": "动能发电机(EV)"
+        },
+        {
+            "source": "钨钢",
+            "target": "动能发电机(EV)"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "动能发电机(HV)"
+        },
+        {
+            "source": "铱",
+            "target": "动能发电机(IV)"
+        },
+        {
+            "source": "动能发电机(EV)",
+            "target": "动能发电机(IV)"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "动能发电机(LuV)"
+        },
+        {
+            "source": "动能发电机(IV)",
+            "target": "动能发电机(LuV)"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "动能发电机(ZPM)"
+        },
+        {
+            "source": "动能发电机(LuV)",
+            "target": "动能发电机(ZPM)"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "动能发电机(ZPM)"
+        },
+        {
+            "source": "动能发电机(HV)",
+            "target": "水力动能发生机(HV)"
+        },
+        {
+            "source": "铱",
+            "target": "水力动能发生机(IV)"
+        },
+        {
+            "source": "水力动能发生机(EV)",
+            "target": "水力动能发生机(IV)"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "水力动能发生机(LuV)"
+        },
+        {
+            "source": "水力动能发生机(IV)",
+            "target": "水力动能发生机(LuV)"
+        },
+        {
+            "source": "水力动能发生机(HV)",
+            "target": "水力动能发生机(EV)"
+        },
+        {
+            "source": "钨钢",
+            "target": "水力动能发生机(EV)"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "水力动能发生机(ZPM)"
+        },
+        {
+            "source": "水力动能发生机(LuV)",
+            "target": "水力动能发生机(ZPM)"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "水力动能发生机(ZPM)"
+        },
+        {
+            "source": "动能发电机(HV)",
+            "target": "风力动能发生机(HV)"
+        },
+        {
+            "source": "风力动能发生机(HV)",
+            "target": "风力动能发生机(EV)"
+        },
+        {
+            "source": "钨钢",
+            "target": "风力动能发生机(EV)"
+        },
+        {
+            "source": "铱",
+            "target": "风力动能发生机(IV)"
+        },
+        {
+            "source": "风力动能发生机(EV)",
+            "target": "风力动能发生机(IV)"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "风力动能发生机(LuV)"
+        },
+        {
+            "source": "风力动能发生机(IV)",
+            "target": "风力动能发生机(LuV)"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "风力动能发生机(ZPM)"
+        },
+        {
+            "source": "风力动能发生机(LuV)",
+            "target": "风力动能发生机(ZPM)"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "风力动能发生机(ZPM)"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "大型热交换机-\"费马大定理\""
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "大型热交换机-\"费马大定理\""
+        },
+        {
+            "source": "力场发生器(ZPM)",
+            "target": "大型硅岩反应堆"
+        },
+        {
+            "source": "开始聚变",
+            "target": "利用等离子体发电"
+        },
+        {
+            "source": "虚恩等离子体 - MK2之末",
+            "target": "玛丽锔?"
+        },
+        {
+            "source": "反应堆扩容",
+            "target": "监视你的反应堆"
+        },
+        {
+            "source": "大型热交换机-\"费马大定理\"",
+            "target": "进阶反应堆"
+        },
+        {
+            "source": "合适的能源",
+            "target": "进阶反应堆"
+        },
+        {
+            "source": "合适的能源",
+            "target": "热交换"
+        },
+        {
+            "source": "MV马达",
+            "target": "MV(中压)级蒸汽轮机"
+        },
+        {
+            "source": "硅岩基流体燃料-MkI",
+            "target": "硅岩基流体燃料-MkII"
+        },
+        {
+            "source": "大型硅岩反应堆",
+            "target": "硅岩基流体燃料-MkI"
+        },
+        {
+            "source": "硅岩燃料精炼厂",
+            "target": "硅岩基流体燃料-MkIII"
+        },
+        {
+            "source": "硅岩基流体燃料-MkIII",
+            "target": "硅岩基流体燃料-MkIV"
+        },
+        {
+            "source": "硅岩基流体燃料-MkIV",
+            "target": "硅岩基流体燃料-MkV"
+        },
+        {
+            "source": "硅岩基流体燃料-MkV",
+            "target": "硅岩基流体燃料-MkVI"
+        },
+        {
+            "source": "大型硅岩反应堆",
+            "target": "硅岩燃料精炼厂"
+        },
+        {
+            "source": "力量等离子体 - Mk1结束",
+            "target": "铌化"
+        },
+        {
+            "source": "合适的能源",
+            "target": "愿再无爆炸"
+        },
+        {
+            "source": "大型硅岩反应堆",
+            "target": "钍基流体燃料"
+        },
+        {
+            "source": "铀基流体燃料",
+            "target": "钚基流体燃料"
+        },
+        {
+            "source": "钍基流体燃料",
+            "target": "铀基流体燃料"
+        },
+        {
+            "source": "可选核燃料:泰伯利亚",
+            "target": "极端危险的核燃料:\"核心\""
+        },
+        {
+            "source": "标准核燃料II:硅岩",
+            "target": "极端危险的核燃料:\"核心\""
+        },
+        {
+            "source": "开始聚变",
+            "target": "口袋里的等离子(EV)"
+        },
+        {
+            "source": "开始聚变",
+            "target": "口袋里的等离子(IV)"
+        },
+        {
+            "source": "获得铕",
+            "target": "口袋里的等离子(IV)"
+        },
+        {
+            "source": "开始聚变",
+            "target": "口袋里的等离子(LuV)"
+        },
+        {
+            "source": "制造镅",
+            "target": "口袋里的等离子(LuV)"
+        },
+        {
+            "source": "开始聚变",
+            "target": "口袋里的等离子(UV)"
+        },
+        {
+            "source": "力场发生器(UV)",
+            "target": "口袋里的等离子(UV)"
+        },
+        {
+            "source": "开始聚变",
+            "target": "口袋里的等离子(ZPM)"
+        },
+        {
+            "source": "制造镅",
+            "target": "口袋里的等离子(ZPM)"
+        },
+        {
+            "source": "HSS-S",
+            "target": "便携式清洁能源(IV)"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "便携式清洁能源(IV)"
+        },
+        {
+            "source": "HSS-G",
+            "target": "便携式清洁能源(EV)"
+        },
+        {
+            "source": "纳米处理器主机",
+            "target": "便携式清洁能源(EV)"
+        },
+        {
+            "source": "你觉得发射器已经够糟糕了？",
+            "target": "便携式清洁能源(LuV)"
+        },
+        {
+            "source": "力场发生器(ZPM)",
+            "target": "便携式清洁能源(ZPM)"
+        },
+        {
+            "source": "力场发生器(UV)",
+            "target": "便携式清洁能源(UV)"
+        },
+        {
+            "source": "硅晶圆",
+            "target": "太阳能"
+        },
+        {
+            "source": "太阳之力(MV)",
+            "target": "太阳之力(MV)1x1"
+        },
+        {
+            "source": "太阳之力(HV)",
+            "target": "太阳之力(HV)1x1"
+        },
+        {
+            "source": "太阳能",
+            "target": "太阳之力(ULV)1x1"
+        },
+        {
+            "source": "太阳之力(LV)",
+            "target": "太阳之力(LV)1x1"
+        },
+        {
+            "source": "太阳之力(EV)",
+            "target": "太阳之力(EV)1x1"
+        },
+        {
+            "source": "太阳之力(IV)",
+            "target": "太阳之力(IV)1x1"
+        },
+        {
+            "source": "太阳之力(LuV)",
+            "target": "太阳之力(LuV)1x1"
+        },
+        {
+            "source": "太阳之力(ZPM)",
+            "target": "太阳之力(ZPM)1x1"
+        },
+        {
+            "source": "最后--聚苯并咪唑!",
+            "target": "太阳之力(EV)"
+        },
+        {
+            "source": "硅岩掺杂的晶圆",
+            "target": "太阳之力(EV)"
+        },
+        {
+            "source": "太阳之力(HV)",
+            "target": "太阳之力(EV)"
+        },
+        {
+            "source": "IV组装机",
+            "target": "太阳之力(HV)"
+        },
+        {
+            "source": "太阳之力(MV)",
+            "target": "太阳之力(HV)"
+        },
+        {
+            "source": "钨钢",
+            "target": "太阳之力(HV)"
+        },
+        {
+            "source": "铟",
+            "target": "太阳之力(HV)"
+        },
+        {
+            "source": "太阳之力(EV)",
+            "target": "太阳之力(IV)"
+        },
+        {
+            "source": "LuV组装机",
+            "target": "太阳之力(IV)"
+        },
+        {
+            "source": "太阳之力(ULV)",
+            "target": "太阳之力(LV)"
+        },
+        {
+            "source": "终极工作台",
+            "target": "太阳之力(LV)"
+        },
+        {
+            "source": "充能晶体",
+            "target": "太阳之力(LV)"
+        },
+        {
+            "source": "太阳之力(IV)",
+            "target": "太阳之力(LuV)"
+        },
+        {
+            "source": "晶体处理器主机",
+            "target": "太阳之力(LuV)"
+        },
+        {
+            "source": "触发:获得阳光化合物",
+            "target": "太阳之力(MV)"
+        },
+        {
+            "source": "太阳之力(LV)",
+            "target": "太阳之力(MV)"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "太阳之力(UV)"
+        },
+        {
+            "source": "太阳之力(ZPM)",
+            "target": "太阳之力(UV)"
+        },
+        {
+            "source": "湿件主机",
+            "target": "太阳之力(ZPM)"
+        },
+        {
+            "source": "太阳之力(LuV)",
+            "target": "太阳之力(ZPM)"
+        },
+        {
+            "source": "太阳能",
+            "target": "太阳之力(ULV)"
+        },
+        {
+            "source": "你会讨厌它们的#3",
+            "target": "把'半流质'塞回发电机里(LV)"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "把'半流质'塞回发电机里(HV)"
+        },
+        {
+            "source": "MV阶段你会讨厌这个 #3",
+            "target": "把'半流质'塞回发电机里(MV)"
+        },
+        {
+            "source": "三重压缩的太阳能",
+            "target": "四重压缩太阳能(Quadruple Compressed Solar)"
+        },
+        {
+            "source": "LuV组装机",
+            "target": "四重压缩太阳能(Quadruple Compressed Solar)"
+        },
+        {
+            "source": "ZPM组装机",
+            "target": "五重压缩太阳能(Quintuple Compressed Solar)"
+        },
+        {
+            "source": "四重压缩太阳能(Quadruple Compressed Solar)",
+            "target": "五重压缩太阳能(Quintuple Compressed Solar)"
+        },
+        {
+            "source": "放射性同位素温差发电机1",
+            "target": "放射性同位素温差发电机2"
+        },
+        {
+            "source": "我真的需要做这个吗?",
+            "target": "放射性同位素温差发电机2"
+        },
+        {
+            "source": "量子处理器主机",
+            "target": "放射性同位素温差发电机2"
+        },
+        {
+            "source": "合适的能源",
+            "target": "放射性同位素温差发电机1"
+        },
+        {
+            "source": "RP-1火箭燃料",
+            "target": "火箭引擎(EV)"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "火箭引擎(EV)"
+        },
+        {
+            "source": "在IV你会讨厌之1-4",
+            "target": "火箭引擎(IV)"
+        },
+        {
+            "source": "RP-1火箭燃料",
+            "target": "火箭引擎(IV)"
+        },
+        {
+            "source": "LuV阶段你会讨厌的1-4",
+            "target": "火箭引擎(LuV)"
+        },
+        {
+            "source": "RP-1火箭燃料",
+            "target": "火箭引擎(LuV)"
+        },
+        {
+            "source": "风力动能发生机(HV)",
+            "target": "转子"
+        },
+        {
+            "source": "水力动能发生机(HV)",
+            "target": "转子"
+        },
+        {
+            "source": "这是你的氪星石!",
+            "target": "虚恩等离子体 - MK2之末"
+        },
+        {
+            "source": "Balance is Everything",
+            "target": "\"Semi-Stable\" doing a lot of work in here"
+        },
+        {
+            "source": "转子",
+            "target": "将能量送回"
+        },
+        {
+            "source": "六重压缩太阳能(Sextuple Compressed Solar)",
+            "target": "七重压缩太阳能(Septuple Compressed Solar)"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "七重压缩太阳能(Septuple Compressed Solar)"
+        },
+        {
+            "source": "五重压缩太阳能(Quintuple Compressed Solar)",
+            "target": "六重压缩太阳能(Sextuple Compressed Solar)"
+        },
+        {
+            "source": "UV组装机",
+            "target": "六重压缩太阳能(Sextuple Compressed Solar)"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "固体氧化物燃料电池 Mk II"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "固体氧化物燃料电池 Mk II"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "固体氧化物燃料电池 Mk I"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "固体氧化物燃料电池 Mk I"
+        },
+        {
+            "source": "合适的能源",
+            "target": "标准核燃料:铀"
+        },
+        {
+            "source": "你的第一块硅岩锭",
+            "target": "标准核燃料II:硅岩"
+        },
+        {
+            "source": "标准核燃料:铀",
+            "target": "标准核燃料II:硅岩"
+        },
+        {
+            "source": "你的第一个电子电路",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "基础制作:马达",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "基础制作:转子",
+            "target": "更多蒸汽!"
+        },
+        {
+            "source": "MV马达",
+            "target": "大苯环神教圣堂"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "这不是去太空的路"
+        },
+        {
+            "source": "力量等离子体 - Mk1结束",
+            "target": "这是你的氪星石!"
+        },
+        {
+            "source": "锌ininininin...",
+            "target": "这是你的氪星石!"
+        },
+        {
+            "source": "铌化",
+            "target": "这是你的氪星石!"
+        },
+        {
+            "source": "硅岩燃料精炼厂",
+            "target": "2阶线圈"
+        },
+        {
+            "source": "2阶线圈",
+            "target": "3阶线圈"
+        },
+        {
+            "source": "3阶线圈",
+            "target": "4阶线圈"
+        },
+        {
+            "source": "你用完了黄金或者红石？",
+            "target": "汞太多了?"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#6",
+            "target": "把你的魔法垃圾都扔到这里来(LV)"
+        },
+        {
+            "source": "信标",
+            "target": "把你的魔法垃圾都扔到这里来(LV)"
+        },
+        {
+            "source": "HV阶段你最讨厌的另外2个物品",
+            "target": "把你的魔法垃圾都扔到这里来(MV)"
+        },
+        {
+            "source": "信标",
+            "target": "把你的魔法垃圾都扔到这里来(MV)"
+        },
+        {
+            "source": "力场发生器(MV)",
+            "target": "把你的魔法垃圾都扔到这里来(HV)"
+        },
+        {
+            "source": "信标",
+            "target": "把你的魔法垃圾都扔到这里来(HV)"
+        },
+        {
+            "source": "合适的能源",
+            "target": "棘手的核燃料：MOX"
+        },
+        {
+            "source": "棘手的核燃料：MOX",
+            "target": "棘手的核燃料II：超能硅岩"
+        },
+        {
+            "source": "IV组装机",
+            "target": "三重压缩的太阳能"
+        },
+        {
+            "source": "双重压缩太阳能",
+            "target": "三重压缩的太阳能"
+        },
+        {
+            "source": "利用等离子体发电",
+            "target": "涡轮仓"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "涡轮仓"
+        },
+        {
+            "source": "利用等离子体发电",
+            "target": "涡轮时间"
+        },
+        {
+            "source": "2级聚变 锡等离子体",
+            "target": "2M涡轮"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "耐超高温网"
+        },
+        {
+            "source": "二联燃料棒,双倍的快乐(double the fun(fuel))",
+            "target": "很抱歉,没有贫铀弹"
+        },
+        {
+            "source": "单堆发电量是多少?",
+            "target": "单涡轮UV发电"
+        },
+        {
+            "source": "太阳之力(UV)",
+            "target": "太阳之力(UV)1x1"
+        },
+        {
+            "source": "电路板大师",
+            "target": "太阳之力(UV)1x1"
+        },
+        {
+            "source": "合适的能源",
+            "target": "散热1"
+        },
+        {
+            "source": "开始聚变",
+            "target": "欢迎来到等离子体系列任务"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "我们需要些大家伙"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "那是什么?引擎太吵我啥也听不到!"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "那是什么?引擎太吵我啥也听不到!"
+        },
+        {
+            "source": "戴森球地面单元",
+            "target": "我应该在哪建造戴森球?"
+        },
+        {
+            "source": "七重压缩太阳能(Septuple Compressed Solar)",
+            "target": "有了魔法,谁还要UV太阳能啊"
+        },
+        {
+            "source": "好刺眼! #4",
+            "target": "有了魔法,谁还要UV太阳能啊"
+        },
+        {
+            "source": "风力动能发生机(HV)",
+            "target": "风力计"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "特大涡轮燃气轮机"
+        },
+        {
+            "source": "大型燃气涡轮",
+            "target": "特大涡轮燃气轮机"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "特大高压蒸汽涡轮"
+        },
+        {
+            "source": "它是'过热'蒸汽",
+            "target": "特大高压蒸汽涡轮"
+        },
+        {
+            "source": "利用等离子体发电",
+            "target": "特大等离子涡轮"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "特大等离子涡轮"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "特大超临界蒸汽涡轮"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "特大蒸汽涡轮"
+        },
+        {
+            "source": "我们需要些大家伙",
+            "target": "特大蒸汽涡轮"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "你还没有学会分离流体?真的么?"
+        },
+        {
+            "source": "EV阶段让你讨厌的4个物品",
+            "target": "你还没有学会分离流体?真的么?"
+        },
+        {
+            "source": "力量等离子体 - Mk1结束",
+            "target": "锌ininininin..."
+        }
+    ]
+}

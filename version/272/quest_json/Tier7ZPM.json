@@ -1,0 +1,808 @@
+{
+    "data": [
+        {
+            "name": "外壳",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/377.png",
+            "x": 660.0,
+            "y": 228.0,
+            "data": "我需要一些制造外壳的材料. 再说一次,晶体材料将是最好的选择,因为我喜欢它们的光泽. 我测试了我知道的所有晶体材料,但是没有一种晶体可以满足我的要求. 听说你最近有空？你在外边冒险的时候能不能帮我找一找合适的材料？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABeQ==",
+            "tooltip": "<strong>外壳</strong></br>前置任务需求:</br>能量,很多的能量!"
+        },
+        {
+            "name": "还有点事儿...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/385.png",
+            "x": 576.0,
+            "y": 360.0,
+            "data": "好吧,我这里有全套的组装设备.但是你能帮我准备一些额外的配件吗？ 我需要升级我的部分机器.在研究他们时我的部分机器损坏了.来吧我给你列个清单.%n%n在我测试这些生命和灵魂碎片的导电率时我的部分电路被烧毁了,我需要一些更好的电路替换它们.%n%n还有这些天杀的神秘碎片,我的钻石磨头对它们无能为力,帮我买个更好的来.%n%n还有你看到旁边那堆铑和钯了吗？什么,没看到？好吧那可能是因为机器已经气化了!你给了我2个奇点,其中第一个...哎...算了,给我弄一个更好的机器外壳吧.%n%n最后我没有稳定器所需要的力场发生器,再给我弄2个过来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABgQ==",
+            "tooltip": "<strong>还有点事儿...</strong></br>前置任务需求:</br>现在的问题!</br>我饿了</br>真贵!</br>红色和蓝色</br>闪闪发光"
+        },
+        {
+            "name": "一个重要的问题",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/380.png",
+            "x": 492.0,
+            "y": 228.0,
+            "data": "我需要打开一个虫洞.但是为此我需要一个巨大的引力场. 就像恒星爆炸,黑洞那样强大的引力场. 但是我不可能去\"杀死\"太阳.我需要某种方法来压缩物质. 但是,怎么做? 我想我可能需要专门的机器,不需要聚爆的,因为它的密度不够高.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABfA==",
+            "tooltip": "<strong>一个重要的问题</strong></br>前置任务需求:</br>能量,很多的能量!"
+        },
+        {
+            "name": "未来掠影(不含FPS下降)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2634.png",
+            "x": 336.0,
+            "y": 372.0,
+            "data": "想要前往废土世界,你需要10个遏制框架以及一个Alkalus圆盘(激活)(Alkalus-Disk-[Activated]).  与下界传送门的搭建方式一致. 这个圆盘还可以用来放火(一种特殊的火). 这种火在地面不会扩散,但它能够非常快地将一棵树烧成灰. 如果你被巨树困扰的话,它会是很棒的工具.%n%n废土世界满是GT++矿石. 如果你希望矿石的分布更加合理或者更格雷一点,与Alk讨论讨论吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKSg==",
+            "tooltip": "<strong>未来掠影(不含FPS下降)</strong></br>前置任务需求:</br>ZPM能源仓"
+        },
+        {
+            "name": "更便宜的EV电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2637.png",
+            "x": 336.0,
+            "y": 420.0,
+            "data": "电压更高后,你可以用ASoC来制造更便宜的量子处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKTQ==",
+            "tooltip": "<strong>更便宜的EV电路</strong></br>前置任务需求:</br>ZPM能源仓</br>ASoC进阶芯片级系统"
+        },
+        {
+            "name": "浓缩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2945.png",
+            "x": 312.0,
+            "y": -48.0,
+            "data": "现在,让我们将溶液中和.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALgQ==",
+            "tooltip": "<strong>浓缩</strong></br>前置任务需求:</br>富集硅岩时间"
+        },
+        {
+            "name": "配置TecTech多方块机器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2683.png",
+            "x": 396.0,
+            "y": 24.0,
+            "data": "许多TecTech的多方块机器可以通过调整内部数字--参数--来进行配置.你不再需要单独的方块执行此项操作,如今可以在GUI中直接调整参数.%n%n如果多方块GUI的\"参数\"部分中有点亮的部分(请查看之前的TecTech多方块任务),那么你就能配置此多方块,否则参数窗口没有任何作用.%n%n在这里我们用量子计算机作为示例,这可能也是你首先想要进行配置的.%n%n首先我们要了解参数命名,比如ID:0:1:I.第一个数字代表参数方块.对于量子计算机,只有方块0可用.每个这样的方块最多可以有4个可用的参数,2输入以及2输出.末尾的字母指定参数是输入(I)还是输出(O),而中间的数字区分了方块中同种参数的先后,在第一,就是0,在第二,未使用的,就是1.%n%n上面一行中的字母I表示输入(Input),要么由参数窗口配置,要么是默认值.%n%n下面一行的字母O表示输出(Output),这是机器给你的信息.(比如热量或算力)%n%n最后,参数存储卡可以让你能够轻松地将一台机器的配置复制到另一台机器上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKew==",
+            "tooltip": "<strong>配置TecTech多方块机器</strong></br>前置任务需求:</br>学习曲线?我们要去的地方没有曲线"
+        },
+        {
+            "name": "数据库",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2671.png",
+            "x": 564.0,
+            "y": 72.0,
+            "data": "你可能已经对装配线需要的闪存数量感到不知所措了. TecTech提供了一个解决方式: 数据库. 它最高能存储15x16个闪存(不装输出的话),而目前装配线一共才100出头的合成表. 另外数据库还可以同时为多条装配线提供数据支持.%n%n将控制器方块放置在离地至少1格高的位置,然后对其使用多方块机器全息投影仪以查看结构. 数据库需要维护仓和一个至少EV的能源仓,不过如果你添加了很多数据访问仓和数据库主接口的话,耗能会远超EV,所以现在用LuV能源仓作为出发点是不错的选择. 运行数据库,然后使用三录仪扫描主方块即可获知其具体耗能.%n译者注: 耗电",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKbw==",
+            "tooltip": "<strong>数据库</strong></br>前置任务需求:</br>毕业之路的开端"
+        },
+        {
+            "name": "歧化反应",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2953.png",
+            "x": 216.0,
+            "y": -48.0,
+            "data": "超能硅岩的化学性质有点怪.%n%n所有已知物质都无法让它析出.从溶液中获取超能硅岩的唯一方法就是用高能粒子进行轰击.%n%n但是,产物中只有一部分可以进行下一步处理,而剩余部分需要重新进行纯化.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALiQ==",
+            "tooltip": "<strong>歧化反应</strong></br>前置任务需求:</br>纯化"
+        },
+        {
+            "name": "能量注入仪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/457.png",
+            "x": 564.0,
+            "y": 120.0,
+            "data": "能量注入仪,是科技版的奥法修复台,可以修复物品,也可以为物品充能.%n%n给能量注入仪供能,即可为其输入总线中的物品充能.充能完毕的物品将被移至输出总线.物品将由使用的能源仓提供相应数量的能量.%n%n当同时提供UU物质和能量时,能量注入仪可基于其充能功能,延伸出修复物品的能力.但是,无法修复GT工具.修复模式下,每修复1点耐久,消耗1升UU物质以及1000EU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAByQ==",
+            "tooltip": "<strong>能量注入仪</strong></br>前置任务需求:</br>毕业之路的开端"
+        },
+        {
+            "name": "富集硅岩时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2920.png",
+            "x": 312.0,
+            "y": 0.0,
+            "data": "富集硅岩线比硅岩线短多了,也容易多了. 一般来说,富集硅岩的用途是作为燃料或是合成UV阶段的神经元处理器,所以如果你不想要这条富集硅岩线的话,请忽略这些任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALaA==",
+            "tooltip": "<strong>富集硅岩时间</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "富集硅岩锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2919.png",
+            "x": 408.0,
+            "y": -48.0,
+            "data": "啊哈,你做到了.%n%n你可以选择将其与锌一起在工业高炉中熔炼,或是将其电解.两种方式均可以获得富集硅岩,并完全回收锌,所以如果你要的是锭,工业高炉会更好.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALZw==",
+            "tooltip": "<strong>富集硅岩锭</strong></br>前置任务需求:</br>线性加速器"
+        },
+        {
+            "name": "铕掺杂的晶圆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2630.png",
+            "x": 396.0,
+            "y": 156.0,
+            "data": "比硅岩掺杂的晶圆更有效率.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKRg==",
+            "tooltip": "<strong>铕掺杂的晶圆</strong></br>前置任务需求:</br>絮凝</br>获得铕"
+        },
+        {
+            "name": "真贵!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/381.png",
+            "x": 660.0,
+            "y": 300.0,
+            "data": "是的,是的!就是它! 多给我准备一些!我可能会需要很多这种材料...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABfQ==",
+            "tooltip": "<strong>真贵!</strong></br>前置任务需求:</br>触发未知水晶"
+        },
+        {
+            "name": "絮凝",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7136280042712085534.png",
+            "x": 288.0,
+            "y": 156.0,
+            "data": "您想开始使用新获得的铕来制造更好的晶圆,但事实证明,您以前制造纯净水的方法已经不够用了.您需要先使用絮凝净化装置来制造更好的纯净水.要运行这台机器,你需要大量的聚氯化铝,但幸运的是,如果你能妥善回收废液,你就能把氯全部回收回来.",
+            "quest_id": "sZ9d2SzSSLSc9tccXG_L4g==",
+            "tooltip": "<strong>絮凝</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1</br>臭氧化"
+        },
+        {
+            "name": "聚变反应堆MK2-更大,更好,更强",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1197.png",
+            "x": 48.0,
+            "y": 372.0,
+            "data": "现在你已经有了铕块,可以将聚变反应堆升级到MK2了.%n%nMK2型聚变反应堆搭建方式和MK1完全一样,不同的是你需要将LuV机械方块升级到聚变机械方块,超导线圈也要升级到专为聚变反应堆设计的聚变线圈.所有的输入/输出仓都需要升级到ZPM级.%n%nMK2型反应堆可以处理启动电量少于320M-EU和持续供电少于65536EU/t的聚变配方. 另外,如果你用MK2反应堆处理MK1的配方,将会获得超频.不同于普通超频,聚变反应堆超频时功率变为2倍,处理速度也变为2倍,即无损超频.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAErQ==",
+            "tooltip": "<strong>聚变反应堆MK2-更大,更好,更强</strong></br>前置任务需求:</br>ZPM能源仓</br>极度致密</br>皮米能量晶圆</br>获得铕</br>力场发生器(ZPM)"
+        },
+        {
+            "name": "我饿了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/376.png",
+            "x": 576.0,
+            "y": 264.0,
+            "data": "我的工作很多!请拿点吃的给我.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABeA==",
+            "tooltip": "<strong>我饿了</strong></br>前置任务需求:</br>能量,很多的能量!"
+        },
+        {
+            "name": "我需要一个稳定器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/379.png",
+            "x": 540.0,
+            "y": 228.0,
+            "data": "如何打开虫洞是一个问题,而如何稳定虫洞是另外一个问题.我需要保证打开的虫洞不能威胁到我们的安全. 我想我需要某些晶体.为什么？因为我喜欢晶体.给我找一个有用巨大力量并且由透明材质构成的水晶好吗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABew==",
+            "tooltip": "<strong>我需要一个稳定器</strong></br>前置任务需求:</br>能量,很多的能量!"
+        },
+        {
+            "name": "我需要一个能量\"插头\"",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/378.png",
+            "x": 612.0,
+            "y": 228.0,
+            "data": "我正在制造的这台设备需要某种插头来做能量的出口. 我需要某种能够引导巨大能量的材料. 我曾经考虑过超导体.但是这种材料不能安装在我最想要的水晶外壳上面. 所以我还是需要2种晶体,一种晶体作为能源输出装置的正极,另外要一种作为负极.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABeg==",
+            "tooltip": "<strong>我需要一个能量\"插头\"</strong></br>前置任务需求:</br>能量,很多的能量!"
+        },
+        {
+            "name": "激光解决一切",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2730.png",
+            "x": 504.0,
+            "y": 24.0,
+            "data": "激光仓是发送大电流能量的高端方式,起步就是32A. 目前共有32/64/96/128/256/1024/4096/16384/65536/262144/1048576这些电流数. 激光仓实在是太强大,导致除了黑科技TecTech以外,只有少量多方块机器支持它们: 兰波顿超级电容库、巨型工业高炉、巨型真空冷冻机,以及能源站. 请记住,激光真空管、激光源仓和激光靶仓都需要涂色才能正常使用. 另外,激光源仓",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKqg==",
+            "tooltip": "<strong>激光解决一切</strong></br>前置任务需求:</br>毕业之路的开端"
+        },
+        {
+            "name": "学习曲线?我们要去的地方没有曲线",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2005.png",
+            "x": 396.0,
+            "y": 72.0,
+            "data": "只有悬崖和万丈深渊,稍不注意就会粉身碎骨.TecTech可以成为冒险、恐惧、满足之源.  感谢Piky/Scripted为我们摸索出一条坦途.这条路上洒满了先行者Scripted/Piky的鲜血.现在轮到你了!  想要获知TecTech的更多细节,访问此wiki页面[url]https://github.com/Technus/TecTech/wiki[/url] %n%n不过,在Discord中你能获得更好的帮助.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH1Q==",
+            "tooltip": "<strong>学习曲线?我们要去的地方没有曲线</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "线性加速器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2947.png",
+            "x": 360.0,
+            "y": -48.0,
+            "data": "我认为你应该已经知道怎么处理它了.%n%n适合9岁以上使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALgw==",
+            "tooltip": "<strong>线性加速器</strong></br>前置任务需求:</br>浓缩"
+        },
+        {
+            "name": "制造镅",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1199.png",
+            "x": 12.0,
+            "y": 468.0,
+            "data": "想要将反应堆进一步升级,并可以制造UV电动马达,需要用到一些镅. 这个配方很贵,但是如果你造出了MK3型反应堆,你将会得到一个简单,而又便宜的配方.不过在此之前,你需要大量的镅,所以最好确保你的镥库存充足.MK3型反应堆至少需要128块镅板(实际测下来最少316,最多432),以及控制电脑MK-III需要的13个镅(9个用来扫描以获得合成表,4个用来合成.)%n%n让我们从48个锭开始吧,刚好够一个UV电动马达.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAErw==",
+            "tooltip": "<strong>制造镅</strong></br>前置任务需求:</br>聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "name": "制造三钛",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2658.png",
+            "x": 84.0,
+            "y": 468.0,
+            "data": "想要制造三钛,首先需要制造铿铀.%n%n三钛用于T6火箭、重力装甲、多方块采矿场IV以及UHV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKYg==",
+            "tooltip": "<strong>制造三钛</strong></br>前置任务需求:</br>聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "name": "纳米功率IC",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2632.png",
+            "x": 396.0,
+            "y": 240.0,
+            "data": "纳米功率IC用于制造太阳能,UV->UHV变压器,以及ZPM能源仓和动力仓.%n%n[note]你需要ZPM切割机,或者工业切割机用于切割晶圆.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKSA==",
+            "tooltip": "<strong>纳米功率IC</strong></br>前置任务需求:</br>铕掺杂的晶圆"
+        },
+        {
+            "name": "超能硅岩锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2955.png",
+            "x": 168.0,
+            "y": -48.0,
+            "data": "将其与镁粉一起在工业高炉中进行熔炼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALiw==",
+            "tooltip": "<strong>超能硅岩锭</strong></br>前置任务需求:</br>歧化反应"
+        },
+        {
+            "name": "N.N.Q.Q.N.Q.Q",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2950.png",
+            "x": 264.0,
+            "y": 0.0,
+            "data": "你想要些超能硅岩?%n%n抱歉,从前的超能硅岩粉变成了目前面目可憎的氧化超能硅岩混合物粉--由于NERF.你得像处理硅岩那样再造一条产线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALhg==",
+            "tooltip": "<strong>N.N.Q.Q.N.Q.Q</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "现在的问题!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/384.png",
+            "x": 492.0,
+            "y": 300.0,
+            "data": "哦!物质聚合机!我怎么就没想到呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABgA==",
+            "tooltip": "<strong>现在的问题!</strong></br>前置任务需求:</br>触发奇点"
+        },
+        {
+            "name": "再来一次",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2954.png",
+            "x": 168.0,
+            "y": 0.0,
+            "data": "与硅岩类似,P-507和超能硅岩的混溶性也非常完美.大部分的超能硅岩可以再次浓缩.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALig==",
+            "tooltip": "<strong>再来一次</strong></br>前置任务需求:</br>纯化"
+        },
+        {
+            "name": "填色游戏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2678.png",
+            "x": 444.0,
+            "y": 48.0,
+            "data": "你需要用颜料刷才能把这些高大上的光缆涂上颜色.使用水桶去除涂色.%n%n另外,你也可以用IC2的刷子、GT喷漆罐,或是AE2的染色器.%n%n[note]现在BC的颜料刷可以一次性连续粉刷大量的线缆和管道了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKdg==",
+            "tooltip": "<strong>填色游戏</strong></br>前置任务需求:</br>学习曲线?我们要去的地方没有曲线"
+        },
+        {
+            "name": "pH中和",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8868495820464237601.png",
+            "x": 288.0,
+            "y": 240.0,
+            "data": "如果您想大幅提升铕掺杂晶圆的加工速度,这台机器就是您的最佳选择.使用从这台机器获得的pH中性水,您可以将晶圆处理速度提高一倍.%n%n这是[Waterline]中第一个真正复杂的自动化挑战,您需要弄清楚如何处理pH中和过程.祝您玩得开心!%n%n[note]这个多方块对酸和碱的仓室位置非常挑剔.如果你不知道为什么它没有形成,很可能是你忘记将这些仓室放在正确的位置.使用全息投影仪查看它们的位置.[/note]",
+            "quest_id": "eon8hLumTS-E7MYJ4TFT3w==",
+            "tooltip": "<strong>pH中和</strong></br>前置任务需求:</br>ZPM能源仓"
+        },
+        {
+            "name": "能量,很多的能量!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/375.png",
+            "x": 576.0,
+            "y": 168.0,
+            "data": "嗨!你好.我手头有一个项目需要帮助. 我想创造一个巨大的能量源,但是有一些问题需要先解决. 当然,帮助我会得到不错的奖励的!%n%n[note]当你手持我提到的物品时,获取下一个物品的任务将会触发.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABdw==",
+            "tooltip": "<strong>能量,很多的能量!</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "皮米能量晶圆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2631.png",
+            "x": 396.0,
+            "y": 468.0,
+            "data": "皮米功率IC用于制造太阳能,UHV->UEV变压器,以及UV能源仓和动力仓.%n%n[note]你需要UV切割机,或者工业切割机用于切割晶圆.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKRw==",
+            "tooltip": "<strong>皮米能量晶圆</strong></br>前置任务需求:</br>纳米功率IC"
+        },
+        {
+            "name": "纯化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2951.png",
+            "x": 264.0,
+            "y": -48.0,
+            "data": "钡会与硫酸发生反应,变成不溶性的粉,这样我们就可以将溶液纯化.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALhw==",
+            "tooltip": "<strong>纯化</strong></br>前置任务需求:</br>N.N.Q.Q.N.Q.Q"
+        },
+        {
+            "name": "回收铟",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2952.png",
+            "x": 216.0,
+            "y": 0.0,
+            "data": "铟自由!%n%n你有两种可选的处理方式.%n%n1)在化学反应釜中与钙粉反应.%n%n2)在搅拌机中与氢氧化镓粉混合.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALiA==",
+            "tooltip": "<strong>回收铟</strong></br>前置任务需求:</br>N.N.Q.Q.N.Q.Q"
+        },
+        {
+            "name": "回收三元金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2946.png",
+            "x": 360.0,
+            "y": 0.0,
+            "data": "(我感觉你会直接把富集硅岩丢掉,只保留三元金属.lol)%n%n将其与氢在化学反应釜中反应即可获得三元金属,当然,也可以直接电解.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALgg==",
+            "tooltip": "<strong>回收三元金属</strong></br>前置任务需求:</br>富集硅岩时间"
+        },
+        {
+            "name": "红色和蓝色",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/382.png",
+            "x": 612.0,
+            "y": 300.0,
+            "data": "真的嘛?一种红蓝晶体?太棒了!我想我需要每种8个,保险起见.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABfg==",
+            "tooltip": "<strong>红色和蓝色</strong></br>前置任务需求:</br>触发生命碎片和灵魂碎片"
+        },
+        {
+            "name": "精炼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2949.png",
+            "x": 120.0,
+            "y": 0.0,
+            "data": "所以它是一个圈?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALhQ==",
+            "tooltip": "<strong>精炼</strong></br>前置任务需求:</br>再来一次"
+        },
+        {
+            "name": "闪闪发光",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/383.png",
+            "x": 540.0,
+            "y": 300.0,
+            "data": "这到底是个什么？这太神奇了!我需要你提供更多的这个东西! 这种神奇的材料可以稳定虫洞.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABfw==",
+            "tooltip": "<strong>闪闪发光</strong></br>前置任务需求:</br>触发创世碎片"
+        },
+        {
+            "name": "极度致密",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7406677140276529890.png",
+            "x": 96.0,
+            "y": 240.0,
+            "data": "您现在正在制造的先进机器需要更高级的材料,以及材料所需要的更先进的加工方法.在ZPM中,您可以建造热等静压装置,它是大型电动压缩机的升级版.这种多方块设备可以在极高的压力下将材料加热到极高的温度,从而制造出瑕疵极少的超致密板材料.%n%n这台机器会在运行时会升温,必须给它一定的时间冷却.如果达到最大热阈值,会大大降低配方处理速度,甚至吞掉输入的物品.使用更好的线圈来延长过热时间,并使用热传感器仓室来自动控制它保持在恰当的温度.%n%n[note]可以运行NEI中标注\"需要热等静压装置(HIP)\"的压缩配方.[/note]",
+            "quest_id": "sB_lbhZZRnmZNjJiF8-1Hg==",
+            "tooltip": "<strong>极度致密</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1"
+        },
+        {
+            "name": "TecTech多方块机器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2682.png",
+            "x": 444.0,
+            "y": 96.0,
+            "data": "TecTech多方块机器的一般功能%n%n多安能源仓/动力仓和激光仓-使能量分配更便捷..%n%n导能-允许连接到的动力仓从控制器获得能量并输出,就像有源变压器一样(这也是为什么那些有此功能的控制器方块的合成表中总有个有源变压器的原因...).[warn]拆卸多方块机器时,请确保关闭了导能按钮,不然BOOM![/warn]%n%n可构造界面-使用多方块机器全息投影仪显示结构(*有一个API可以让任何方块都实现此功能,但目前几乎没有任何作用).%n%n%n在TecTech多方块机器的GUI中,从左向右为1,剩余部分按顺时针排序.%n%n1) 各项参数-它们是控制器与玩家、参数舱口进行通信的方式. 指示灯指示状态,而将鼠标悬停在上方时可以看到更多详细信息. tooltip包含ID形式为仓室ID:参数编号:指向,当前状态,当前值,以及简短说明.%n%n2) 不确定度状态-这9个方块指示机器的不确定度状态(未定元). 如果指示灯亮起,代表这台机器需要未定元解析器. 红色",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKeg==",
+            "tooltip": "<strong>TecTech多方块机器</strong></br>前置任务需求:</br>学习曲线?我们要去的地方没有曲线"
+        },
+        {
+            "name": "毕业之路的开端",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2006.png",
+            "x": 504.0,
+            "y": 72.0,
+            "data": "欢迎来到TecTech!这里有你毕业所需的真正的巅峰科技.但是,学习TecTech常常让人摸不着头脑,所以仔细听.%n%n首先你需要制造所需机器的多种机械方块:超能机械方块,电子计算机机械方块,高级计算机方块和计算机散热器.你需要大量这些机械方块才能继续前进.%n%n我们列举出来的只是举个例子,实际需要的只会更多、更多、更多.%n%n使用光缆将机器连接起来. 确保它们已被涂色,同时光缆连接到的方块也要被涂色.%n%n*投影仪将会显示完整机器的全息图像,左下角的聊天栏会显示可变方块的注释. 如果堆叠更多投影仪的话,你就可以看到较大版本的全息图(比如量子计算机).%n%n译者注:TecTech多方块机器的控制器GUI界面的闪电或是电源图标亮起时,不要破坏任何结构方块,否则会引发爆炸!运行过程中更不能破坏结构方块!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH1g==",
+            "tooltip": "<strong>毕业之路的开端</strong></br>前置任务需求:</br>学习曲线?我们要去的地方没有曲线"
+        },
+        {
+            "name": "最终的目标",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3251.png",
+            "x": 576.0,
+            "y": 456.0,
+            "data": "在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想.这个虫洞对我没什么实际用处,所以现在它是你的了. 最后再次感谢你,我的朋友!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMsw==",
+            "tooltip": "<strong>最终的目标</strong></br>前置任务需求:</br>还有点事儿..."
+        },
+        {
+            "name": "第7阶段(ZPM)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2610.png",
+            "x": 288.0,
+            "y": 72.0,
+            "data": "ZPM阶段. 都叫它ZPM,你知道这个名字是来自美剧《星际之门-SG1》的零点模块(Zero-Point-Module)吗,延续这个故事,试试看吧! 也许你已经在世界中找到一个电量几乎耗尽的零点模块了.如果你能找到些帮助,或许甚至能创造一个全新的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKMg==",
+            "tooltip": "<strong>第7阶段(ZPM)</strong></br>前置任务需求:</br>第6阶段(LuV)</br>获得铕"
+        },
+        {
+            "name": "变压并...保持",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2731.png",
+            "x": 504.0,
+            "y": 120.0,
+            "data": "有源变压器可以进行任意电压间的变换,而损耗仅为0.004％,如果不介意这部分损耗的话,使用有源变压器可比用一大串变压器层层变压高端多了. 不过这玩意有点贵... 同时,这台机器还可以用于转折激光仓发出的激光,说不定这才是它的正确用法!%n%n它无需维护仓,只需有输入/输出仓即可.%n%n[warn]如果不想在拆卸机器时引发爆炸,一定记得关掉'导能'按钮![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKqw==",
+            "tooltip": "<strong>变压并...保持</strong></br>前置任务需求:</br>毕业之路的开端"
+        },
+        {
+            "name": "这不是只有中子星核心才有的吗?",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2669.png",
+            "x": 192.0,
+            "y": 312.0,
+            "data": "UV阶段你需要用到中子锭,T7火箭也是,所以让我们来制作一些吧.%n%n首先寻找拥有中子粉贫瘠矿的星球,处理获得中子粉. 然后将其与氦等离子体混合制成粗制中子素粉. 需要炉温9000K并提供491,520-EU/t的高炉. 此配方会消耗大量的时间和电力. 最好另起一台工业高炉或是炽焱高炉. 当然多起几台也行. 或是升级你的巨型工业高炉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKbQ==",
+            "tooltip": "<strong>这不是只有中子星核心才有的吗?</strong></br>前置任务需求:</br>ZPM能源仓"
+        },
+        {
+            "name": "没有人去过的地方",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2646.png",
+            "x": 228.0,
+            "y": 36.0,
+            "data": "另一枚火箭,另一组星球. 这也是建造火箭的意义所在,不是吗?%n%n这回只有两个新的星球可登陆: 海卫八和海卫一. 它们都是海王星的卫星.%n%n新矿脉有中子、铌和钍矿脉. 新矿石有: 精金、镓、硅岩、中子、铌、钚-241、钛、铀-235、铀-238和钇矿石.%n%n在海卫一可以通过贫瘠矿获得黑钚.%n%n记得到访星球后收集一些星球石头.%n%nT7火箭的设计图在海卫八.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKVg==",
+            "tooltip": "<strong>没有人去过的地方</strong></br>前置任务需求:</br>6阶火箭</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "ZPM阶段永远不够Pt 1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2611.png",
+            "x": 96.0,
+            "y": 72.0,
+            "data": "你知道该做什么.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKMw==",
+            "tooltip": "<strong>ZPM阶段永远不够Pt 1</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "ZPM阶段永远不够Pt 2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2612.png",
+            "x": 0.0,
+            "y": 72.0,
+            "data": "只需要做一点(相信我).%n%n[note]PS： 你可以制造ZPM的电路装配线,并开始搭建湿件产线,不过湿件产线的任务位于UV阶段,主要是因为最后一步湿件主机需要到UV阶段才可以制造.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKNA==",
+            "tooltip": "<strong>ZPM阶段永远不够Pt 2</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1"
+        },
+        {
+            "name": "ZPM组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2625.png",
+            "x": 192.0,
+            "y": 156.0,
+            "data": "与之前一样,你需要相同等级的组装机来制造能源仓. 同时还用于合成三元金属线圈.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKQQ==",
+            "tooltip": "<strong>ZPM组装机</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 1"
+        },
+        {
+            "name": "ZPM能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2627.png",
+            "x": 288.0,
+            "y": 372.0,
+            "data": "下一阶的聚变反应堆需要这种能源仓,这样你就能制造镅和三钛了,同时能源仓还可用于升级多方块机器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKQw==",
+            "tooltip": "<strong>ZPM能源仓</strong></br>前置任务需求:</br>纳米功率IC</br>ZPM超导(131,072 EU/t)"
+        },
+        {
+            "name": "力场发生器(ZPM)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2622.png",
+            "x": 0.0,
+            "y": 240.0,
+            "data": "为什么它们是圆不溜丢的? 这样不会更难装进设备中吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKPg==",
+            "tooltip": "<strong>力场发生器(ZPM)</strong></br>前置任务需求:</br>ZPM阶段永远不够Pt 2</br>晶体处理器主机"
+        },
+        {
+            "name": "ZPM超导(131,072 EU/t)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2619.png",
+            "x": 192.0,
+            "y": 240.0,
+            "data": "你能自己弄清楚如何制作,对吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKOw==",
+            "tooltip": "<strong>ZPM超导(131,072 EU/t)</strong></br>前置任务需求:</br>ZPM组装机"
+        }
+    ],
+    "links": [
+        {
+            "source": "能量,很多的能量!",
+            "target": "外壳"
+        },
+        {
+            "source": "现在的问题!",
+            "target": "还有点事儿..."
+        },
+        {
+            "source": "我饿了",
+            "target": "还有点事儿..."
+        },
+        {
+            "source": "真贵!",
+            "target": "还有点事儿..."
+        },
+        {
+            "source": "红色和蓝色",
+            "target": "还有点事儿..."
+        },
+        {
+            "source": "闪闪发光",
+            "target": "还有点事儿..."
+        },
+        {
+            "source": "能量,很多的能量!",
+            "target": "一个重要的问题"
+        },
+        {
+            "source": "ZPM能源仓",
+            "target": "未来掠影(不含FPS下降)"
+        },
+        {
+            "source": "ZPM能源仓",
+            "target": "更便宜的EV电路"
+        },
+        {
+            "source": "ASoC进阶芯片级系统",
+            "target": "更便宜的EV电路"
+        },
+        {
+            "source": "富集硅岩时间",
+            "target": "浓缩"
+        },
+        {
+            "source": "学习曲线?我们要去的地方没有曲线",
+            "target": "配置TecTech多方块机器"
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "数据库"
+        },
+        {
+            "source": "纯化",
+            "target": "歧化反应"
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "能量注入仪"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "富集硅岩时间"
+        },
+        {
+            "source": "线性加速器",
+            "target": "富集硅岩锭"
+        },
+        {
+            "source": "絮凝",
+            "target": "铕掺杂的晶圆"
+        },
+        {
+            "source": "获得铕",
+            "target": "铕掺杂的晶圆"
+        },
+        {
+            "source": "触发未知水晶",
+            "target": "真贵!"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "絮凝"
+        },
+        {
+            "source": "臭氧化",
+            "target": "絮凝"
+        },
+        {
+            "source": "ZPM能源仓",
+            "target": "聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "source": "极度致密",
+            "target": "聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "source": "皮米能量晶圆",
+            "target": "聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "source": "获得铕",
+            "target": "聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "source": "力场发生器(ZPM)",
+            "target": "聚变反应堆MK2-更大,更好,更强"
+        },
+        {
+            "source": "能量,很多的能量!",
+            "target": "我饿了"
+        },
+        {
+            "source": "能量,很多的能量!",
+            "target": "我需要一个稳定器"
+        },
+        {
+            "source": "能量,很多的能量!",
+            "target": "我需要一个能量\"插头\""
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "激光解决一切"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "学习曲线?我们要去的地方没有曲线"
+        },
+        {
+            "source": "浓缩",
+            "target": "线性加速器"
+        },
+        {
+            "source": "聚变反应堆MK2-更大,更好,更强",
+            "target": "制造镅"
+        },
+        {
+            "source": "聚变反应堆MK2-更大,更好,更强",
+            "target": "制造三钛"
+        },
+        {
+            "source": "铕掺杂的晶圆",
+            "target": "纳米功率IC"
+        },
+        {
+            "source": "歧化反应",
+            "target": "超能硅岩锭"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "N.N.Q.Q.N.Q.Q"
+        },
+        {
+            "source": "触发奇点",
+            "target": "现在的问题!"
+        },
+        {
+            "source": "纯化",
+            "target": "再来一次"
+        },
+        {
+            "source": "学习曲线?我们要去的地方没有曲线",
+            "target": "填色游戏"
+        },
+        {
+            "source": "ZPM能源仓",
+            "target": "pH中和"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "能量,很多的能量!"
+        },
+        {
+            "source": "纳米功率IC",
+            "target": "皮米能量晶圆"
+        },
+        {
+            "source": "N.N.Q.Q.N.Q.Q",
+            "target": "纯化"
+        },
+        {
+            "source": "N.N.Q.Q.N.Q.Q",
+            "target": "回收铟"
+        },
+        {
+            "source": "富集硅岩时间",
+            "target": "回收三元金属"
+        },
+        {
+            "source": "触发生命碎片和灵魂碎片",
+            "target": "红色和蓝色"
+        },
+        {
+            "source": "再来一次",
+            "target": "精炼"
+        },
+        {
+            "source": "触发创世碎片",
+            "target": "闪闪发光"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "极度致密"
+        },
+        {
+            "source": "学习曲线?我们要去的地方没有曲线",
+            "target": "TecTech多方块机器"
+        },
+        {
+            "source": "学习曲线?我们要去的地方没有曲线",
+            "target": "毕业之路的开端"
+        },
+        {
+            "source": "还有点事儿...",
+            "target": "最终的目标"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "第7阶段(ZPM)"
+        },
+        {
+            "source": "获得铕",
+            "target": "第7阶段(ZPM)"
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "变压并...保持"
+        },
+        {
+            "source": "ZPM能源仓",
+            "target": "这不是只有中子星核心才有的吗?"
+        },
+        {
+            "source": "6阶火箭",
+            "target": "没有人去过的地方"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "没有人去过的地方"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "ZPM阶段永远不够Pt 1"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "ZPM阶段永远不够Pt 2"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 1",
+            "target": "ZPM组装机"
+        },
+        {
+            "source": "纳米功率IC",
+            "target": "ZPM能源仓"
+        },
+        {
+            "source": "ZPM超导(131,072 EU/t)",
+            "target": "ZPM能源仓"
+        },
+        {
+            "source": "ZPM阶段永远不够Pt 2",
+            "target": "力场发生器(ZPM)"
+        },
+        {
+            "source": "晶体处理器主机",
+            "target": "力场发生器(ZPM)"
+        },
+        {
+            "source": "ZPM组装机",
+            "target": "ZPM超导(131,072 EU/t)"
+        }
+    ]
+}

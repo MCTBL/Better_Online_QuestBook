@@ -1,0 +1,718 @@
+{
+    "data": [
+        {
+            "name": "「 」",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2888.png",
+            "x": 468.0,
+            "y": 264.0,
+            "data": "当你以某种方式设法连接上它后,可以获得大量的研究点,但你不会因此成为上帝. 不过你也不会就此消失,所以这可能是一次体面的交易吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALSA==",
+            "tooltip": "<strong>「 」</strong></br>前置任务需求:</br>神的力量</br>终极目标:杂项"
+        },
+        {
+            "name": "对过去苦难之路的一瞥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6184321923537677060.png",
+            "x": 24.0,
+            "y": 72.0,
+            "data": "现在你已经拥有了生物处理器主机,你已经解锁了星际之门的第一个奖杯!%n是的,星门有多种奖杯,星门配方的每一次主要迭代都有一个.%n这些奖杯只是奖杯,如果你想用现在星门的高昂成本来比较一下,你可以尝试制作它们.%n要完成这些任务,你必须提交两座星门的材料.%n%n现在,让我给你上一堂简短的历史课,让你了解GT:NH的过去.%n%n那是2020年,当时的生物处理器主机几乎是GTNH发展的终点,UHV以上的材料几乎不存在,也无法制作.这也是你开始为了制作星门堆叠机器的的时间点,因为星门的等级也是UHV.从技术上讲,UEV部件是可以制作的,但它们唯一的用途是放在处理阵列中的单方块机器(在那时处理阵列最多只能容纳16台UEV机器)和漆黑之门.UEV-UMV能源仓是可以制作的,但它们的配方只是简单的外壳+导线合成配方%n......对于UHV+内容来说,也仅此而已.%n随着虚空采矿机的加入,以前认为不可能的事情开始变得可以实现,那就是一组星门套装.具体来说,是合成一套星门,而不是像其他人一样只是找到它们.%n%n其中一个被称为Gigaplex的小组全力以赴,最终成功完成了任务,证明了只要有足够的决心,制作星门是可能的.%n%n因此,在2021年2月16日,第一套人造的星门诞生了.%n%n附注：如果您想尽可能忠实于曾经的挑战,请尝试在不使用任何当时不存在的现代功能的情况下完成此任务.以下是当时不存在的主要功能的不完全列表(排名不分先后)：PCB工厂,太空电梯,部件装配线,进阶装配线AAL,精密组装机PrAss,工业屠宰场EEC,极限工业温室EIG,压缩聚变堆,巨型化学反应釜MCR,巨型合金冶炼炉MABS%n-任何与蜜蜂有关的GT机器%n-任何UEV或以上的多方块机器%n-XL涡轮机,硅岩燃料,大型源质发电机LEG%n-低于1tick的超频,批处理模式,多方块机器上的产物溢出保护%n-并行数超过64的处理阵列(如果使用UEV机器,它们会自动降级为UHV)%n-ME缓存指令器,AE2FC(AE流体合成套件),存储输入总线/仓,样板输入总成,ME输出总线/仓,非递归的AE组件配方%n%n-使用Shift一键将配方写入AE模板(呃啊)%n-游戏前中期的QoL,例如单方块机器GUI中的免费控制电路,地图上可见的探矿mod,使用螺丝刀重新编程电路,在制作装配线配方之前在NEI中看到它们的合成等等%n%n附注中的附注：这个任务故意漏掉了混沌电容库,因为混沌核心配方现在需要时空,但混沌电容库配方自那以后没有任何变化.总而言之,这些电容库的成本在当时完全可以忽略不计,现在也是如此,它们只是作为SG的魔法门而已.",
+            "quest_id": "_vOu6ZYdRiOqLN_5-uBU_A==",
+            "tooltip": "<strong>对过去苦难之路的一瞥</strong></br>前置任务需求:</br>电路板大师"
+        },
+        {
+            "name": "组装活体电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2636.png",
+            "x": 312.0,
+            "y": 408.0,
+            "data": "想要制造生物系列电路板,你需要制造UV电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKTA==",
+            "tooltip": "<strong>组装活体电路板</strong></br>前置任务需求:</br>我告诉你,那不是霉菌!</br>承认吧,UV阶段你喜欢的Pt 2"
+        },
+        {
+            "name": "超越极限",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2696.png",
+            "x": 120.0,
+            "y": 216.0,
+            "data": "为了制造UEV部件或生物电路板,你需要合成一种全新的活性焊料,这种焊料要求强化博特姆合金机械方块为外壳的化工厂. 这些合金造起来可就不太容易了!%n%n我相信你一定可以弄清楚其他材料的制造,除了高级镍钛诺可能让你有点头疼. 它是由镍钛诺60块配合量子反常在激光蚀刻机制成的. 这意味着你需要先搭一个UV电压的紧凑式回旋加速器,并连续碰上两次1％的几率. 祝你好运!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKiA==",
+            "tooltip": "<strong>超越极限</strong></br>前置任务需求:</br>重大升级</br>量子反常"
+        },
+        {
+            "name": "生物电路板2: 生物袋鼠",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2663.png",
+            "x": 24.0,
+            "y": 312.0,
+            "data": "生物处理器集群是第二种生物电路板. 它是UV电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKZw==",
+            "tooltip": "<strong>生物电路板2: 生物袋鼠</strong></br>前置任务需求:</br>拜托...不要被这些电路板打败了"
+        },
+        {
+            "name": "更廉价的LuV电路板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5813797741888729661.png",
+            "x": 216.0,
+            "y": -36.0,
+            "data": "活性晶体芯片更具效率，让你的湿件处理器变得更便宜！",
+            "quest_id": "Yxrhi0z7SUuvUT3BrsENww==",
+            "tooltip": "<strong>更廉价的LuV电路板</strong></br>前置任务需求:</br>UHV能源仓"
+        },
+        {
+            "name": "获取中子素的另一种方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2676.png",
+            "x": 372.0,
+            "y": 348.0,
+            "data": "有了无尽锭,你就能用无尽贪婪的中子态素收集器来获得中子态素尘埃. 无需任何能量.%n%n[note]警告:这台机器非常慢,所以或许你应该帮帮它...[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKdA==",
+            "tooltip": "<strong>获取中子素的另一种方式</strong></br>前置任务需求:</br>一锭在手,无尽力量"
+        },
+        {
+            "name": "压缩星核",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2674.png",
+            "x": 312.0,
+            "y": 216.0,
+            "data": "下一种材料是无尽催化剂. 无尽催化剂需要疯狂地压缩. 唯一可以做到的就是中子态素压缩机.查阅多方块结构任务组中的中子态素压缩机任务.%n%n想要获得催化剂,你需要前往织女座B通过贫瘠矿获得粉. 然后将64个无尽催化剂粉压缩成一个无尽催化剂.%n%n当然你想试试无尽贪婪那个疯狂的手搓无尽催化剂的配方也没人拦着你,挑战自我吧 :P%n%n[note]这台压缩机还可用于制造奇点,最终制成永恒奇点.[/note]%n%n[note]如果想要自动化合成奇点,现在,在样板终端中可以用鼠标中键调整样板中物品的数量,这可以超越通常的限制.[/note]%n%n译者注:最大可到每格2.1G.感谢vfyjxf!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKcg==",
+            "tooltip": "<strong>压缩星核</strong></br>前置任务需求:</br>最后的边疆?"
+        },
+        {
+            "name": "龙芯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/464.png",
+            "x": 408.0,
+            "y": 72.0,
+            "data": "好,这张图纸太完美了!不管属于何种外星文明,它正是你所需要的.来做个龙芯吧.%n%n%n[note]你可以在冥王星地牢中找到图纸.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB0A==",
+            "tooltip": "<strong>龙芯</strong></br>前置任务需求:</br>龙之进化"
+        },
+        {
+            "name": "龙之进化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/388.png",
+            "x": 408.0,
+            "y": 120.0,
+            "data": "你反反复复摆弄了很久,试图将魔法和科技结合起来.看来你终于找到了方法!你将神秘使和血魔法师的力量与UHV科技结合,找到了一种将龙的力量精炼成一个小核心的方式.你确信这台机器就可以做这件事--只要你知道如何准确地组装这个核心.%n%n%n[note]使用多方块机器全息投影仪了解其搭建方式.你也可以升级龙芯,不过这需要更高等级的图纸,同时还得升级多方块机器.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABhA==",
+            "tooltip": "<strong>龙之进化</strong></br>前置任务需求:</br>灵宝</br>最后的边疆?</br>恶魔入侵</br>创造天地的力量"
+        },
+        {
+            "name": "UHV阶段更难,更好,更快,更强... Pt 2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2618.png",
+            "x": 24.0,
+            "y": 24.0,
+            "data": "记得每小时休息一次(lol).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKOg==",
+            "tooltip": "<strong>UHV阶段更难,更好,更快,更强... Pt 2</strong></br>前置任务需求:</br>UHV阶段更难,更好,更快,更强... Pt 1"
+        },
+        {
+            "name": "UHV阶段更难,更好,更快,更强... Pt 1",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2617.png",
+            "x": 120.0,
+            "y": 24.0,
+            "data": "你知道你可以玩其他游戏吗?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKOQ==",
+            "tooltip": "<strong>UHV阶段更难,更好,更快,更强... Pt 1</strong></br>前置任务需求:</br>第9阶段(UHV)"
+        },
+        {
+            "name": "我可以随便用无线接入器了,谢谢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2528.png",
+            "x": 564.0,
+            "y": 336.0,
+            "data": "中子能源元件可以为你的网络提供无限的能量. 你需要无尽锭才能制造它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ4A==",
+            "tooltip": "<strong>我可以随便用无线接入器了,谢谢</strong></br>前置任务需求:</br>致密能源元件</br>终极目标:杂项"
+        },
+        {
+            "name": "我告诉你,那不是霉菌!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2659.png",
+            "x": 408.0,
+            "y": 408.0,
+            "data": "现在让我们制造生物细胞. 你需要加热生物培养基原液将其转化为灭菌生物培养基.%n%n然后再通过化学反应釜获得生物细胞.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKYw==",
+            "tooltip": "<strong>我告诉你,那不是霉菌!</strong></br>前置任务需求:</br>我发誓,不会更糟的!"
+        },
+        {
+            "name": "工业化生产藻类",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2681.png",
+            "x": 468.0,
+            "y": 216.0,
+            "data": "你可能已经注意到了,生物电路板需要的鲸鱼座藻类数量有点...夸张.光靠剪刀来收集这些藻类实在令人痛苦,而谁又想专门为了剪藻类专门写个程序控制机器人代劳呢?现在终于有了一种工业化手段生产藻类,何其幸运啊!%n%n你需要准备的第一种材料是...鲸鱼座藻类!将藻类配合从同一星球抽出的不明液体制成合适的培养皿.几率同样低得令人发指,你还需要准备最高级的生物实验室.%n%n拥有培养皿后你就能制造海藻基质(SeaweedBroth),由未知营养琼脂(UnknownNutrientAgar)与一系列物品混合制成.最后离心即可获得藻类.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKeQ==",
+            "tooltip": "<strong>工业化生产藻类</strong></br>前置任务需求:</br>我发誓,不会更糟的!"
+        },
+        {
+            "name": "无限氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2589.png",
+            "x": 516.0,
+            "y": 348.0,
+            "data": "提供无限的氧气,之前只能用来重新填充其他氧气罐,不过现在你可以将其直接装备在氧气罐槽位中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKHQ==",
+            "tooltip": "<strong>无限氧气罐</strong></br>前置任务需求:</br>终极目标:杂项"
+        },
+        {
+            "name": "几乎无尽的VIS?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2585.png",
+            "x": 564.0,
+            "y": 288.0,
+            "data": "提供巨量的VIS存储,且手持时可以自动回满.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKGQ==",
+            "tooltip": "<strong>几乎无尽的VIS?</strong></br>前置任务需求:</br>终极目标:杂项</br>最好的法杖"
+        },
+        {
+            "name": "无尽的基础",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2582.png",
+            "x": 372.0,
+            "y": 276.0,
+            "data": "想要继续前进,你会需要一大堆无尽的.准备好受苦吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKFg==",
+            "tooltip": "<strong>无尽的基础</strong></br>前置任务需求:</br>一锭在手,无尽力量"
+        },
+        {
+            "name": "集成矿石处理厂 - 一体化！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7616949155129872515.png",
+            "x": 72.0,
+            "y": 72.0,
+            "data": "集成矿石处理厂允许你一次性进行多进程的矿石处理.",
+            "quest_id": "3hN7FykMSJSWSykZiEWvfQ==",
+            "tooltip": "<strong>集成矿石处理厂 - 一体化！</strong></br>前置任务需求:</br>UHV阶段更难,更好,更快,更强... Pt 1</br>电路板大师"
+        },
+        {
+            "name": "我发誓,不会更糟的!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2657.png",
+            "x": 408.0,
+            "y": 216.0,
+            "data": "想要制造下一阶的电路板(生物电路板),你需要生物培养基原液. 有三种配方可以获得此原液.%n%n第一种配方需要干细胞、神秘水晶和鲸鱼座T星E藻类提取物,提供LuV电压和94SV(钚),在细菌培养缸中生产. 制出生物培养基原液的比例是4:1.%n%n第二种配方基于第一种,但把三钛换成了无尽催化剂,要求ZPM电压和140SV(富集硅岩). 制取比例是1:1.%n%n第三种配方是最具效率的,但它需要生物细胞(你暂时还没有),和4个无尽催化剂粉,要求UV电压和150SV(超能硅岩). 制取比例是1:2.%n%n[note]第二和第三种方法使用不同于第一种的培养皿.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKYQ==",
+            "tooltip": "<strong>我发誓,不会更糟的!</strong></br>前置任务需求:</br>最后的边疆?"
+        },
+        {
+            "name": "水冷塔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3275.png",
+            "x": 252.0,
+            "y": 276.0,
+            "data": "我在不超频的状态下,已经达到了这台多方块的上限,所以我觉得为其添加一座水冷塔,为印制机构降温. 这座水冷塔可以让PCB工厂进行常规超频,就像其他多方块机器一样,速度x2,功率x4.%n%n需要为水冷塔的输入仓提供蒸馏水,以吸收多余的热量.%n%[/note]运行时,水冷塔每秒消耗10升蒸馏水,让机器进行2/4超频.输入仓位于水冷塔的底层中央.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMyw==",
+            "tooltip": "<strong>水冷塔</strong></br>前置任务需求:</br>一锭在手,无尽力量</br>PCB工厂"
+        },
+        {
+            "name": "电路板大师",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2665.png",
+            "x": 24.0,
+            "y": 120.0,
+            "data": "生物主机是游戏中的第一种UEV电路板.%n%n这确实是一大成就,干得好!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKaQ==",
+            "tooltip": "<strong>电路板大师</strong></br>前置任务需求:</br>超级电脑...和细胞?"
+        },
+        {
+            "name": "终极目标:杂项",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2595.png",
+            "x": 468.0,
+            "y": 312.0,
+            "data": "在解锁了无尽之后,你就可以开始制作你的第一个创造物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKIw==",
+            "tooltip": "<strong>终极目标:杂项</strong></br>前置任务需求:</br>一锭在手,无尽力量"
+        },
+        {
+            "name": "突变很棒,不是嘛?",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2660.png",
+            "x": 216.0,
+            "y": 408.0,
+            "data": "制造生物基板与制造湿件基板很像,就是... 太贵了!%n%n想要获得超生物突变电路基板,你需要用中子箔对其进行刻画.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKZA==",
+            "tooltip": "<strong>突变很棒,不是嘛?</strong></br>前置任务需求:</br>组装活体电路板"
+        },
+        {
+            "name": "2阶纳米锻炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3280.png",
+            "x": 204.0,
+            "y": 276.0,
+            "data": "碳纳米蜂群作为初始工人很不错,但它们只有十分基础的蜂群网络,对更复杂的系统就有些力不从心了.所以想要生产更复杂的纳米蜂群,我们需要一种更加先进的新型纳米蜂群.%n%n中子纳米蜂群,是1阶和2阶蜂群之间的过渡蜂群,还有其他用途.%n%n[note]将中子纳米蜂群放入控制器的GUI后,你需要等待多方块机器再次检查结构,或简单地拆除控制器,重新放置后迅速塞入中子纳米蜂群.这样纳米锻炉即可制造2阶纳米蜂群.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM0A==",
+            "tooltip": "<strong>2阶纳米锻炉</strong></br>前置任务需求:</br>量子反常</br>1阶纳米锻炉"
+        },
+        {
+            "name": "一锭在手,无尽力量",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2675.png",
+            "x": 312.0,
+            "y": 312.0,
+            "data": "这里是任务书有限公司. 如果你是合法玩到这里的话,我们严重关切你的健康. 你可以随时暂停游戏出去走走,不是吗?%n%n顺便一提,无尽锭只需要手搓即可获得,多简单呀. 你就是天选之人.%n%[note]现在你解锁了一系列终极物品的合成. 查看终极目标任务栏或是终极工作台的NEI合成表,你就能知道这些终极物品都是啥了.[/note]%n%n[note]还有一点需要注意,当你需要通过终极工作台大量合成时,别忘了还有个极限自动合成台(你会需要它的).[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKcw==",
+            "tooltip": "<strong>一锭在手,无尽力量</strong></br>前置任务需求:</br>压缩星核"
+        },
+        {
+            "name": "光学贴片元件",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3216.png",
+            "x": 468.0,
+            "y": 120.0,
+            "data": "你现在能制作光学贴片元件了!它们是UEV+电路板的必要元件.%n%n有些原材料要用合金冶炼炉制造,也许是时候再来几台了.%n%n[note]如果你还没有锶的话,可以从氧化锶(处理稀土III获取)、锰铝榴石泡沫或是漆黑世界的虚空采矿场产出中得到.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMkA==",
+            "tooltip": "<strong>光学贴片元件</strong></br>前置任务需求:</br>异氙菌"
+        },
+        {
+            "name": "2阶PCB工厂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3276.png",
+            "x": 516.0,
+            "y": 120.0,
+            "data": "随着纳米锻炉的落成,我们可以免费提升基板产量了,但纳米蜂群需要容器.现有的机械方块还不足以承载,我们还需要另行寻找.%n%n经过一些研究,以无尽为框架,以富集钬为隔层的机械方块似乎工作良好.它可以让纳米蜂群通过直达印制机构基座,这样可以直接去除多余的材料,而无需降速.%n%n[note]在输入总线中放入银纳米蜂群,可解锁2阶配方.同时可解锁PCB工厂的并行,公式如下：并行",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMzA==",
+            "tooltip": "<strong>2阶PCB工厂</strong></br>前置任务需求:</br>等等,PBI(聚苯并咪唑)不是最后一种塑料?</br>PCB工厂"
+        },
+        {
+            "name": "拜托...不要被这些电路板打败了",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2662.png",
+            "x": 24.0,
+            "y": 408.0,
+            "data": "生物处理器是你能制造的第一块生物电路板. 它是ZPM电路板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKZg==",
+            "tooltip": "<strong>拜托...不要被这些电路板打败了</strong></br>前置任务需求:</br>有自我意识的电路板"
+        },
+        {
+            "name": "量子反常",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/458.png",
+            "x": 228.0,
+            "y": 216.0,
+            "data": "所有的理论知识都告诉你它不可能存在.但,它出现了.%n%n也许你能找到这东西的什么用处?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAByg==",
+            "tooltip": "<strong>量子反常</strong></br>前置任务需求:</br>第9阶段(UHV)</br>我真的需要做这个吗?"
+        },
+        {
+            "name": "有自我意识的电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2661.png",
+            "x": 120.0,
+            "y": 408.0,
+            "data": "制造一个生物处理器单元. 它是生物电路板的重要组件.%n%n*通过装配线进行合成,需要冷却液、UU物质和灭菌生物培养基.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKZQ==",
+            "tooltip": "<strong>有自我意识的电路板</strong></br>前置任务需求:</br>突变很棒,不是嘛?"
+        },
+        {
+            "name": "焊料正在失效",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2679.png",
+            "x": 120.0,
+            "y": 312.0,
+            "data": "在取得了这么多进步之后,有些东西似乎并不完美.装配线制造的每台机器都能正常工作，但迄今为止最先进的机器似乎......边缘有些粗糙.进一步检查后发现,铋铅合金140还不够好.看来无穷无尽的震动破坏了焊接点的稳定性,你的活电路已经对这种粗糙的焊接合金产生了抵抗力，不管发生了什么......%n%n很可能新材料会彻底打破铋铅合金140将部件焊接在一起的能力.正因为如此,是时候对这项技术进行新的开发了，而之前你的活电路的排斥给了你一个绝佳的主意.任何一种新材料都可能有一些新的行为会破坏你的组装工作，但如果焊料本身了解了这些复杂情况,并学会了如何适应它们,为它们而变异呢?%n%n没错: 突变活性焊料.%n%n这种化学反应只有在大规模的化工厂才有可能,并且需要配备最先进的外壳: 博特姆合金.此外,你需要使用的催化剂已经被彻底消耗掉了,以至于你不得不在变异的超能硅岩上使用无尽来换取催化剂.除非你设法在你的化工厂中安装[note]钨钢管道方块[/note]和[warn]觉醒龙锭线圈[/warn],以防止催化剂失去耐久,否则你的无尽仍然会在制作过程中损失殆尽.任何更好的线圈也有同样的效果.%n%n新焊料本身则是另一回事.湿件技术太原始了,你的生物细胞拒绝与任何作为焊接载体的液体结合.当你试着用热锡和铋的混合物时,它终于起作用了,但实际上焊接并没有成功.看来,生物细胞还没有学会如何完成它们的新任务,这可以通过添加一种示例材料作为测试对象来解决,像无限催化剂这样简单的东西......但要把细胞和粉末粘合在一起似乎是不可能的.你需要更多的能量......不仅仅是大量的 EU ,还需要一些浓缩的、炙热的、闪烁着能量的东西!%n%n是的,当你决定添加等离子体而不是热流体时,所有有生命的东西都会立即死亡.这并不奇怪.不过,生物细胞确实能在热流体中存活,所以我们只需要一些温度控制,以及细胞和等离子体之间的一些隔离......是的,重力之星可以用于此.我们仍然需要冷却等离子体,这样强化细胞才能以液态形式与等离子体混合,并且单靠 EU 就太贵了.极寒之凛冰已被证明效率出奇的高,这也许是由于它的起源,一个生物的组成部分,暴雪人.%n%n这就对了!突变活性焊料现已完成.高度智能的生物细胞被等离子体的集中热量激发,同时由于重力之星的影响而与它们保持一定距离,它们分析无限催化剂粉,以了解材料的不稳定性.这是一个非常缓慢的过程,但与此同时,极寒之凛冰和 EU 对等离子体进行缓慢冷却,直到学习过程结束,生物细胞落入锡和铋中,现在它们是液态的,这在以前是行之有效的.最后,在新知识的武装下,细胞流经基于超能硅岩的无限强化的催化剂,这样它们就能在研究完焊接材料后实时变异.%n%n这应适用于今后的任何焊接需要,无论材料如何.希望如此,至少...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKdw==",
+            "tooltip": "<strong>焊料正在失效</strong></br>前置任务需求:</br>我告诉你,那不是霉菌!</br>一锭在手,无尽力量</br>超越极限"
+        },
+        {
+            "name": "超级电脑...和细胞?",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2664.png",
+            "x": 24.0,
+            "y": 216.0,
+            "data": "生物处理器超级电脑是第三种生物电路板. 它是UHV电路板.%n%n*想要获得它的闪存,TecTech研究站需要至少4,000,000-EU/t(8A-UV)的供电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKaA==",
+            "tooltip": "<strong>超级电脑...和细胞?</strong></br>前置任务需求:</br>生物电路板2: 生物袋鼠</br>焊料正在失效"
+        },
+        {
+            "name": "最后的边疆?",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2648.png",
+            "x": 312.0,
+            "y": 120.0,
+            "data": "进度中最后一个普通的火箭.在这之后只有T9星系的母舰和漆黑世界(Deep-Dark)了,其内蕴含了几乎所有的矿石,还有更多的一些东西.%n%n虽然8阶火箭可以让你登陆6颗新的星球,但只有两种新矿脉.%n%n巴纳德星系在星图的西北偏北,你可以到访巴纳德C、E和F.%n半人马星系在NE东北位置,你可以登陆半人马Bb(比邻星无法登陆).[note]记得穿上宇航服![/note]%n鲸鱼座T星系在西南偏南部,你可以到访宜居行星鲸鱼座T星E.%n织女座星系在西北偏西,而你可以登陆织女座B.%n%n新矿脉为镉和钐矿脉. 新矿石有: 镉、铯、铈、镧、钕、钐和熔火之石.%n%n在巴纳德E、F,鲸鱼座T星E和织女座B都可以通过贫瘠矿获得觉醒龙锭粉.%n在巴纳德F有基岩锭的贫瘠矿.%n在织女座B有无尽催化剂的贫瘠矿.%n%n除了矿石和星球石头,还可以收集一些巴纳德C树苗和泥土,这样就能回去自己种植了(拉多X). 到处都是的彩虹晶体打碎后会掉落神秘水晶碎片.%n%n更重要的是在鲸鱼座T星E收集藻类. UEV的电路板需要这些藻类作为原料,虽然之后可以通过工业手段生产,但你需要一定数量的初始藻类. 不明液体可以在巴纳德C通过地面湖泊或地下流体井获取.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKWA==",
+            "tooltip": "<strong>最后的边疆?</strong></br>前置任务需求:</br>第9阶段(UHV)"
+        },
+        {
+            "name": "第9阶段(UHV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2616.png",
+            "x": 228.0,
+            "y": 120.0,
+            "data": "...等等,你到这了? 嗯,我们还没有真正完成,但我想你可以环顾四周?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKOA==",
+            "tooltip": "<strong>第9阶段(UHV)</strong></br>前置任务需求:</br>湿件主机</br>来自空间中的中子素</br>第8阶段(UV)"
+        },
+        {
+            "name": "UHV能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2629.png",
+            "x": 216.0,
+            "y": 24.0,
+            "data": "如果你想建造8阶火箭或MK4聚变反应堆,你就需要这种能源仓. 当然,更主要的用途还是升级多方块机器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKRQ==",
+            "tooltip": "<strong>UHV能源仓</strong></br>前置任务需求:</br>UHV阶段更难,更好,更快,更强... Pt 1</br>UHV超导(2,097,152 EU/t)"
+        },
+        {
+            "name": "力场发生器(UHV)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2624.png",
+            "x": 120.0,
+            "y": 120.0,
+            "data": "我想知道是不是因为它们基本上就是弯曲的导线,所以才是圆的--这里面的导线可太多了.%n%n顺便一提,力场还有更高一级的存在,请到\"终极目标\"任务栏寻找它的任务,并开始制造你的漆黑传送门. 它非常非常有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKQA==",
+            "tooltip": "<strong>力场发生器(UHV)</strong></br>前置任务需求:</br>电路板大师"
+        },
+        {
+            "name": "UHV超导(2,097,152 EU/t)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2621.png",
+            "x": 312.0,
+            "y": 24.0,
+            "data": "在这之上还有UEV、UIV、UMV、UXV和MAX的导线.UEV、UIV、UMV甚至也还有超导线. 你可以选用UHV超导线,也可以使用超便宜的材料并承受一些损耗来输送电力. 同时也有其他选择,比如AE的EU-P2P或者现场供电.%n%n什么,UHV超导线? 你不是已经做了吗?%n%n别忘了工业高炉基于功率等级的炉温调节特性.所以你可以用通流琥珀金线圈配合UV级供能(达到10501K炉温),处理UHV超导粗胚. 但炽焱高炉就做不到这一点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKPQ==",
+            "tooltip": "<strong>UHV超导(2,097,152 EU/t)</strong></br>前置任务需求:</br>第9阶段(UHV)"
+        },
+        {
+            "name": "无限的LP",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2455.png",
+            "x": 516.0,
+            "y": 276.0,
+            "data": "制成这个终极气血宝珠,你将拥有无限的LP. 但你仍然需要血液来进行合成,不是吗? (查看永魂之泣(Cry-of-the-Eternal-soul)仪式)%n%n译者注: 此宝珠LP上限为10亿,但注意需要手持此宝珠才能补充灵魂网络中的LP,机制类似的还有创造法杖或中子法杖.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJlw==",
+            "tooltip": "<strong>无限的LP</strong></br>前置任务需求:</br>终极目标:杂项</br>你能够有多黑暗？"
+        },
+        {
+            "name": "太阳之力(UV)1x1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2587.png",
+            "x": 72.0,
+            "y": 168.0,
+            "data": "白天时产生1A的UV电. 如果你的基地所在维度是永昼的话那就太棒了(比如花园世界).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKGw==",
+            "tooltip": "<strong>太阳之力(UV)1x1</strong></br>前置任务需求:</br>太阳之力(UV)</br>电路板大师"
+        },
+        {
+            "name": "等等,PBI(聚苯并咪唑)不是最后一种塑料?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3249.png",
+            "x": 516.0,
+            "y": 168.0,
+            "data": "来做一种全新的塑料吧!你在巴纳德C上发现的树木有些非常有趣的特性.但是,你不能只使用提取得到的粗制拉多X.必须经过严格分步的精炼流程!%n%n你需要用它制造大量东西,如UIV和UMV超导、UEV+仓室,以及戴森球部件.%n%n和之前的塑料不同,这里需要的大多数步骤都不是化学反应.这些步骤的速度也很慢,所以可能需要一个巨型多方块机器帮助解决问题.这条产线也强调了大规模生产等离子的必要性.而且你今后只会需要更多.%n%n[note]副产物重拉多X可以用于硅岩基流体燃料-MkV.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMsQ==",
+            "tooltip": "<strong>等等,PBI(聚苯并咪唑)不是最后一种塑料?</strong></br>前置任务需求:</br>异氙菌"
+        },
+        {
+            "name": "无线 3.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2543.png",
+            "x": 468.0,
+            "y": 360.0,
+            "data": "此升级可以无限拓展你的无线范围,甚至不需要无线访问点! 想要制作它,你需要提供无尽锭.%n%n[warn]遗憾的是,这玩意bug很多. 总是莫名其妙地消失或者掉出终端.[/warn]%n%n[note]现在大部分bug已经修复了.也许好用些了?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ7w==",
+            "tooltip": "<strong>无线 3.0</strong></br>前置任务需求:</br>终极目标:杂项</br>无线 2.0"
+        },
+        {
+            "name": "双足飞龙核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/462.png",
+            "x": 408.0,
+            "y": 24.0,
+            "data": "双足飞龙是少见的以两条腿走路的龙.肯定更加强大.通过研究龙芯,你发现了改进它的方式--双足飞龙核心.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABzg==",
+            "tooltip": "<strong>双足飞龙核心</strong></br>前置任务需求:</br>龙芯</br>电路板大师"
+        },
+        {
+            "name": "异氙菌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2717.png",
+            "x": 468.0,
+            "y": 168.0,
+            "data": "要制造下一级别的塑料,拉多X聚合物,或者下一级的贴片元件,你需要异氙.%n%n要做出异氙菌的培养皿有点难.配方类似于通用酵母菌. 请注意,所有这条线上的配方都是低概率配方.%n%n第一步是获取巴纳德菌,然后是DNA样品瓶,再然后是数据球.如果你之前没有获得树苗和泥土(种植更多的树并获取原木)的话,回到巴纳德C采集一些吧.%n%n与通用酵母菌配方的唯一区别就是--巴纳德菌的数据球替换了普通酵母.你需要先获取巴纳德菌质粒.%n%n再次,下一步的配方还是一样的,只是换成了鲸鱼座T星E菌和巴纳德菌质粒,有7.5%%的几率可以制得异氙菌.%n%n你也可以选择正常的配方来制取更多培养皿,因为复制很容易失败.%n%n当你有了培养皿后,应该能自己找出制造异氙的方法.%n%n[note]过了这么多年,现在NEI终于支持显示转化的配方了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKnQ==",
+            "tooltip": "<strong>异氙菌</strong></br>前置任务需求:</br>工业化生产藻类</br>通用酵母菌"
+        }
+    ],
+    "links": [
+        {
+            "source": "神的力量",
+            "target": "「 」"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "「 」"
+        },
+        {
+            "source": "电路板大师",
+            "target": "对过去苦难之路的一瞥"
+        },
+        {
+            "source": "我告诉你,那不是霉菌!",
+            "target": "组装活体电路板"
+        },
+        {
+            "source": "承认吧,UV阶段你喜欢的Pt 2",
+            "target": "组装活体电路板"
+        },
+        {
+            "source": "重大升级",
+            "target": "超越极限"
+        },
+        {
+            "source": "量子反常",
+            "target": "超越极限"
+        },
+        {
+            "source": "拜托...不要被这些电路板打败了",
+            "target": "生物电路板2: 生物袋鼠"
+        },
+        {
+            "source": "UHV能源仓",
+            "target": "更廉价的LuV电路板"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "获取中子素的另一种方式"
+        },
+        {
+            "source": "最后的边疆?",
+            "target": "压缩星核"
+        },
+        {
+            "source": "龙之进化",
+            "target": "龙芯"
+        },
+        {
+            "source": "灵宝",
+            "target": "龙之进化"
+        },
+        {
+            "source": "最后的边疆?",
+            "target": "龙之进化"
+        },
+        {
+            "source": "恶魔入侵",
+            "target": "龙之进化"
+        },
+        {
+            "source": "创造天地的力量",
+            "target": "龙之进化"
+        },
+        {
+            "source": "UHV阶段更难,更好,更快,更强... Pt 1",
+            "target": "UHV阶段更难,更好,更快,更强... Pt 2"
+        },
+        {
+            "source": "第9阶段(UHV)",
+            "target": "UHV阶段更难,更好,更快,更强... Pt 1"
+        },
+        {
+            "source": "致密能源元件",
+            "target": "我可以随便用无线接入器了,谢谢"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "我可以随便用无线接入器了,谢谢"
+        },
+        {
+            "source": "我发誓,不会更糟的!",
+            "target": "我告诉你,那不是霉菌!"
+        },
+        {
+            "source": "我发誓,不会更糟的!",
+            "target": "工业化生产藻类"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "无限氧气罐"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "几乎无尽的VIS?"
+        },
+        {
+            "source": "最好的法杖",
+            "target": "几乎无尽的VIS?"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "无尽的基础"
+        },
+        {
+            "source": "UHV阶段更难,更好,更快,更强... Pt 1",
+            "target": "集成矿石处理厂 - 一体化！"
+        },
+        {
+            "source": "电路板大师",
+            "target": "集成矿石处理厂 - 一体化！"
+        },
+        {
+            "source": "最后的边疆?",
+            "target": "我发誓,不会更糟的!"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "水冷塔"
+        },
+        {
+            "source": "PCB工厂",
+            "target": "水冷塔"
+        },
+        {
+            "source": "超级电脑...和细胞?",
+            "target": "电路板大师"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "终极目标:杂项"
+        },
+        {
+            "source": "组装活体电路板",
+            "target": "突变很棒,不是嘛?"
+        },
+        {
+            "source": "量子反常",
+            "target": "2阶纳米锻炉"
+        },
+        {
+            "source": "1阶纳米锻炉",
+            "target": "2阶纳米锻炉"
+        },
+        {
+            "source": "压缩星核",
+            "target": "一锭在手,无尽力量"
+        },
+        {
+            "source": "异氙菌",
+            "target": "光学贴片元件"
+        },
+        {
+            "source": "等等,PBI(聚苯并咪唑)不是最后一种塑料?",
+            "target": "2阶PCB工厂"
+        },
+        {
+            "source": "PCB工厂",
+            "target": "2阶PCB工厂"
+        },
+        {
+            "source": "有自我意识的电路板",
+            "target": "拜托...不要被这些电路板打败了"
+        },
+        {
+            "source": "第9阶段(UHV)",
+            "target": "量子反常"
+        },
+        {
+            "source": "我真的需要做这个吗?",
+            "target": "量子反常"
+        },
+        {
+            "source": "突变很棒,不是嘛?",
+            "target": "有自我意识的电路板"
+        },
+        {
+            "source": "我告诉你,那不是霉菌!",
+            "target": "焊料正在失效"
+        },
+        {
+            "source": "一锭在手,无尽力量",
+            "target": "焊料正在失效"
+        },
+        {
+            "source": "超越极限",
+            "target": "焊料正在失效"
+        },
+        {
+            "source": "生物电路板2: 生物袋鼠",
+            "target": "超级电脑...和细胞?"
+        },
+        {
+            "source": "焊料正在失效",
+            "target": "超级电脑...和细胞?"
+        },
+        {
+            "source": "第9阶段(UHV)",
+            "target": "最后的边疆?"
+        },
+        {
+            "source": "湿件主机",
+            "target": "第9阶段(UHV)"
+        },
+        {
+            "source": "来自空间中的中子素",
+            "target": "第9阶段(UHV)"
+        },
+        {
+            "source": "第8阶段(UV)",
+            "target": "第9阶段(UHV)"
+        },
+        {
+            "source": "UHV阶段更难,更好,更快,更强... Pt 1",
+            "target": "UHV能源仓"
+        },
+        {
+            "source": "UHV超导(2,097,152 EU/t)",
+            "target": "UHV能源仓"
+        },
+        {
+            "source": "电路板大师",
+            "target": "力场发生器(UHV)"
+        },
+        {
+            "source": "第9阶段(UHV)",
+            "target": "UHV超导(2,097,152 EU/t)"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "无限的LP"
+        },
+        {
+            "source": "你能够有多黑暗？",
+            "target": "无限的LP"
+        },
+        {
+            "source": "太阳之力(UV)",
+            "target": "太阳之力(UV)1x1"
+        },
+        {
+            "source": "电路板大师",
+            "target": "太阳之力(UV)1x1"
+        },
+        {
+            "source": "异氙菌",
+            "target": "等等,PBI(聚苯并咪唑)不是最后一种塑料?"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "无线 3.0"
+        },
+        {
+            "source": "无线 2.0",
+            "target": "无线 3.0"
+        },
+        {
+            "source": "龙芯",
+            "target": "双足飞龙核心"
+        },
+        {
+            "source": "电路板大师",
+            "target": "双足飞龙核心"
+        },
+        {
+            "source": "工业化生产藻类",
+            "target": "异氙菌"
+        },
+        {
+            "source": "通用酵母菌",
+            "target": "异氙菌"
+        }
+    ]
+}

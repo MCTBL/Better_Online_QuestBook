@@ -1,0 +1,482 @@
+{
+    "data": [
+        {
+            "name": "「 」",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2888.png",
+            "x": 384.0,
+            "y": 108.0,
+            "data": "当你以某种方式设法连接上它后,可以获得大量的研究点,但你不会因此成为上帝. 不过你也不会就此消失,所以这可能是一次体面的交易吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALSA==",
+            "tooltip": "<strong>「 」</strong></br>前置任务需求:</br>神的力量</br>终极目标:杂项"
+        },
+        {
+            "name": "最好的法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2728.png",
+            "x": 252.0,
+            "y": 300.0,
+            "data": "这是除了毕业装备/创造法杖以外,你能制造的最强法杖. 还有一个权杖版.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKqA==",
+            "tooltip": "<strong>最好的法杖</strong></br>前置任务需求:</br>她放弃了</br>灵宝杖芯</br>灵宝杖端"
+        },
+        {
+            "name": "把所有核心都存起来.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/328.png",
+            "x": 384.0,
+            "y": 156.0,
+            "data": "赫敏的手袋.(哈利波特7里面赫敏的神奇手袋,被施以无痕伸展咒.)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABSA==",
+            "tooltip": "<strong>把所有核心都存起来.</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "灵宝杖端",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2727.png",
+            "x": 204.0,
+            "y": 300.0,
+            "data": "与暗影金属有关,不过它们更棒.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKpw==",
+            "tooltip": "<strong>灵宝杖端</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "灵宝杖芯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2726.png",
+            "x": 300.0,
+            "y": 300.0,
+            "data": "现在你可以制造最好的法杖杖芯了,那还等什么.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKpg==",
+            "tooltip": "<strong>灵宝杖芯</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "灵宝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/320.png",
+            "x": 168.0,
+            "y": 156.0,
+            "data": "将灵液和虚空金属以及铱锇合金结合,我们可以转换出一种新型的金属. 这种金属十分柔软,但是却超级耐用. 并且这种金属有着令人难以置信的魔力传导性!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABQA==",
+            "tooltip": "<strong>灵宝</strong></br>前置任务需求:</br>相反世界的碎片"
+        },
+        {
+            "name": "神奇的布匹",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/316.png",
+            "x": 336.0,
+            "y": 156.0,
+            "data": "将布匹和灵液结合,你将创造出一种堪比秘银的布匹.它比羊毛还要轻,但是却比钢铁还要坚固.而且,它如同你所知道的材料一样可以注入魔法力量.这真是制造新型装甲的绝佳材料!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABPA==",
+            "tooltip": "<strong>神奇的布匹</strong></br>前置任务需求:</br>相反世界的碎片"
+        },
+        {
+            "name": "地心之旅",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2410.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "在得到一把新镐子并清理了一两座山之后,你想知道自己能否挖得...更深.给了基岩一镐子后,你看到一条深入地心的路.探索这个新世界后,你记下了几条发现:%n%nA) 似乎没有生命%nB) 充满了基岩,需要用新镐子才能清理%nC) 到处都是一条条上下贯通的矿脉%nD) 某些矿石很奇怪,不同于你习惯的矿石%nE) 由于矿机无法破坏基岩,所以你想使用它的话,得先为它打通一条路.%nF) 离开此世界后,你将出现在附近的地表,你此类记忆的缺失可能是由于缺氧. 有可能. (离开基岩世界后,你将会被传送到附近的地表,不会传送到地底窒息,但不保证不会传送到树的内部!)%n%n在你带回来的矿石样品中,你找到了大量\"基础\"或者\"中级\"矿石和宝石,还有一些你不认识的!也许得再去一趟?  %n%n另外,由于某种原因,你似乎闻起来像奶酪?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJag==",
+            "tooltip": "<strong>地心之旅</strong></br>前置任务需求:</br>释放力量-镐"
+        },
+        {
+            "name": "神奇的传送核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/330.png",
+            "x": 168.0,
+            "y": 60.0,
+            "data": "如果你的快捷栏中有绑定的仙域珍珠,仙域召唤核心即可将你传送回相应的仙域之门. 优先激活快捷栏最左侧的珍珠,所以你可以同时携带多个珍珠到处旅行!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABSg==",
+            "tooltip": "<strong>神奇的传送核心</strong></br>前置任务需求:</br>我们为什么要步行？"
+        },
+        {
+            "name": "嘎嘣脆鸡肉味",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1109.png",
+            "x": 108.0,
+            "y": 156.0,
+            "data": "在进行很长很长时间的神秘研究后,你找到了一次性永久祛除扭曲的方法-纯净泪水. 吃掉它将祛除你身上所有的扭曲. 但是小心,祛除扭曲的同时可能产生的负面效果会十分致命.%n%n译者注:会将身上扭曲值会产生的效果一次性爆发出来,且持续时间非常长,建议吃完赶紧自杀.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEVQ==",
+            "tooltip": "<strong>嘎嘣脆鸡肉味</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "净化你的扭曲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1110.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "你有没有一个梦想,祛除扭曲的同时不会产生副作用？ 净化护身符会让你的梦想成真.它能随时间一点一滴地祛除你身上的扭曲,所以不会有副作用!%n%n别忘了戴上它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEVg==",
+            "tooltip": "<strong>净化你的扭曲</strong></br>前置任务需求:</br>嘎嘣脆鸡肉味"
+        },
+        {
+            "name": "相反世界的碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/309.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "今天早上,你只想往死里打自己的脸.在你过去的旅程中,你已经见过了许多不同颜色的神奇的碎片.但是和你每天使用的那些基础要素的碎片不同,这两种碎片似乎包含了它们所在世界的原始本质.天堂和地狱....两个截然相反的世界.%n%n你认为可以用它们来制造一些...强力的东西.%n%n[note]PS：对,我知道合成时不会消耗珍珠,不过接受这个故事设定,好吗?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABNQ==",
+            "tooltip": "<strong>相反世界的碎片</strong></br>前置任务需求:</br>神的力量"
+        },
+        {
+            "name": "神的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/307.png",
+            "x": 336.0,
+            "y": 108.0,
+            "data": "你发现这颗珍珠会对你造成一些有趣的影响.曾经在你耳边的那些低语消失了,并且扩大了你在某些方面的感知力. 你能\"感觉\"到在你身边的魔力.这值得进一步研究一下.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABMw==",
+            "tooltip": "<strong>神的力量</strong></br>前置任务需求:</br>创造天地的力量"
+        },
+        {
+            "name": "这些东西不会'回来'了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2887.png",
+            "x": 336.0,
+            "y": 60.0,
+            "data": "这种珍珠比较实用的用途之一,就是制造更好的炼金炉. 通过这种炼金炉,你可以用更快的速度,将物品炼成源质.%n%n[note]在合成过程中,珍珠不会被消耗,也不会损失耐久.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALRw==",
+            "tooltip": "<strong>这些东西不会'回来'了</strong></br>前置任务需求:</br>神的力量"
+        },
+        {
+            "name": "永不磨损的斧头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/319.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "用新金属打造的斧头永远不会损坏,并且可以更容易的获得高等级的附魔.不过有什么让你觉得可以更进一步...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABPw==",
+            "tooltip": "<strong>永不磨损的斧头</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "永不磨损的靴子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/318.png",
+            "x": 276.0,
+            "y": 252.0,
+            "data": "它们永远不会损坏.多么方便啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABPg==",
+            "tooltip": "<strong>永不磨损的靴子</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "永不磨损的头巾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/311.png",
+            "x": 276.0,
+            "y": 60.0,
+            "data": "它永远不会损坏.多么方便啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABNw==",
+            "tooltip": "<strong>永不磨损的头巾</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "永不磨损的护腿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/313.png",
+            "x": 276.0,
+            "y": 204.0,
+            "data": "它们永远不会损坏.多么方便啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABOQ==",
+            "tooltip": "<strong>永不磨损的护腿</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "永不磨损的镐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/322.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "用新金属打造的镐永远不会损坏,并且可以更容易的获得高等级的附魔.不过有什么让你觉得可以更进一步...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABQg==",
+            "tooltip": "<strong>永不磨损的镐</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "永不磨损的法袍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/315.png",
+            "x": 276.0,
+            "y": 108.0,
+            "data": "它永远不会损坏.多么方便啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABOw==",
+            "tooltip": "<strong>永不磨损的法袍</strong></br>前置任务需求:</br>神奇的布匹"
+        },
+        {
+            "name": "永不磨损的铲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/323.png",
+            "x": 108.0,
+            "y": 108.0,
+            "data": "用新金属打造的铲永远不会损坏,并且可以更容易的获得高等级的附魔.不过有什么让你觉得可以更进一步...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABQw==",
+            "tooltip": "<strong>永不磨损的铲</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "永不磨损的剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/321.png",
+            "x": 108.0,
+            "y": 252.0,
+            "data": "用新金属打造的剑永远不会损坏,并且可以更容易的获得高等级的附魔.不过有什么让你觉得可以更进一步...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABQQ==",
+            "tooltip": "<strong>永不磨损的剑</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "释放力量-头巾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/310.png",
+            "x": 228.0,
+            "y": 60.0,
+            "data": "为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABNg==",
+            "tooltip": "<strong>释放力量-头巾</strong></br>前置任务需求:</br>灵宝</br>永不磨损的头巾"
+        },
+        {
+            "name": "释放力量-护腿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/312.png",
+            "x": 228.0,
+            "y": 204.0,
+            "data": "为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABOA==",
+            "tooltip": "<strong>释放力量-护腿</strong></br>前置任务需求:</br>灵宝</br>永不磨损的护腿"
+        },
+        {
+            "name": "释放力量-法袍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/314.png",
+            "x": 228.0,
+            "y": 108.0,
+            "data": "为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABOg==",
+            "tooltip": "<strong>释放力量-法袍</strong></br>前置任务需求:</br>灵宝</br>永不磨损的法袍"
+        },
+        {
+            "name": "释放力量-靴子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/317.png",
+            "x": 228.0,
+            "y": 252.0,
+            "data": "为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABPQ==",
+            "tooltip": "<strong>释放力量-靴子</strong></br>前置任务需求:</br>灵宝</br>永不磨损的靴子"
+        },
+        {
+            "name": "释放力量-剑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/324.png",
+            "x": 60.0,
+            "y": 252.0,
+            "data": "为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABRA==",
+            "tooltip": "<strong>释放力量-剑</strong></br>前置任务需求:</br>永不磨损的剑"
+        },
+        {
+            "name": "释放力量-斧",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/326.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABRg==",
+            "tooltip": "<strong>释放力量-斧</strong></br>前置任务需求:</br>永不磨损的斧头"
+        },
+        {
+            "name": "释放力量-铲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/325.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABRQ==",
+            "tooltip": "<strong>释放力量-铲</strong></br>前置任务需求:</br>永不磨损的铲"
+        },
+        {
+            "name": "释放力量-镐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/327.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABRw==",
+            "tooltip": "<strong>释放力量-镐</strong></br>前置任务需求:</br>永不磨损的镐"
+        },
+        {
+            "name": "那些东西去哪了？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/329.png",
+            "x": 156.0,
+            "y": 252.0,
+            "data": "最好不要问这个问题...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABSQ==",
+            "tooltip": "<strong>那些东西去哪了？</strong></br>前置任务需求:</br>灵宝"
+        },
+        {
+            "name": "我们为什么要步行？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/331.png",
+            "x": 168.0,
+            "y": 108.0,
+            "data": "...这个小装置可以让你几乎能免费的进行传送.这是作弊么？很OP？不,当然不是,这是一个仙域之门!%n%n每台设备可设置10个,所以要有创造力! ...不过它不能跨维度传送. 但在自己基地周边快速旅行是完全够用了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABSw==",
+            "tooltip": "<strong>我们为什么要步行？</strong></br>前置任务需求:</br>相反世界的碎片"
+        }
+    ],
+    "links": [
+        {
+            "source": "神的力量",
+            "target": "「 」"
+        },
+        {
+            "source": "终极目标:杂项",
+            "target": "「 」"
+        },
+        {
+            "source": "她放弃了",
+            "target": "最好的法杖"
+        },
+        {
+            "source": "灵宝杖芯",
+            "target": "最好的法杖"
+        },
+        {
+            "source": "灵宝杖端",
+            "target": "最好的法杖"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "把所有核心都存起来."
+        },
+        {
+            "source": "灵宝",
+            "target": "灵宝杖端"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "灵宝杖芯"
+        },
+        {
+            "source": "相反世界的碎片",
+            "target": "灵宝"
+        },
+        {
+            "source": "相反世界的碎片",
+            "target": "神奇的布匹"
+        },
+        {
+            "source": "释放力量-镐",
+            "target": "地心之旅"
+        },
+        {
+            "source": "我们为什么要步行？",
+            "target": "神奇的传送核心"
+        },
+        {
+            "source": "灵宝",
+            "target": "嘎嘣脆鸡肉味"
+        },
+        {
+            "source": "嘎嘣脆鸡肉味",
+            "target": "净化你的扭曲"
+        },
+        {
+            "source": "神的力量",
+            "target": "相反世界的碎片"
+        },
+        {
+            "source": "创造天地的力量",
+            "target": "神的力量"
+        },
+        {
+            "source": "神的力量",
+            "target": "这些东西不会'回来'了"
+        },
+        {
+            "source": "灵宝",
+            "target": "永不磨损的斧头"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "永不磨损的靴子"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "永不磨损的头巾"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "永不磨损的护腿"
+        },
+        {
+            "source": "灵宝",
+            "target": "永不磨损的镐"
+        },
+        {
+            "source": "神奇的布匹",
+            "target": "永不磨损的法袍"
+        },
+        {
+            "source": "灵宝",
+            "target": "永不磨损的铲"
+        },
+        {
+            "source": "灵宝",
+            "target": "永不磨损的剑"
+        },
+        {
+            "source": "灵宝",
+            "target": "释放力量-头巾"
+        },
+        {
+            "source": "永不磨损的头巾",
+            "target": "释放力量-头巾"
+        },
+        {
+            "source": "灵宝",
+            "target": "释放力量-护腿"
+        },
+        {
+            "source": "永不磨损的护腿",
+            "target": "释放力量-护腿"
+        },
+        {
+            "source": "灵宝",
+            "target": "释放力量-法袍"
+        },
+        {
+            "source": "永不磨损的法袍",
+            "target": "释放力量-法袍"
+        },
+        {
+            "source": "灵宝",
+            "target": "释放力量-靴子"
+        },
+        {
+            "source": "永不磨损的靴子",
+            "target": "释放力量-靴子"
+        },
+        {
+            "source": "永不磨损的剑",
+            "target": "释放力量-剑"
+        },
+        {
+            "source": "永不磨损的斧头",
+            "target": "释放力量-斧"
+        },
+        {
+            "source": "永不磨损的铲",
+            "target": "释放力量-铲"
+        },
+        {
+            "source": "永不磨损的镐",
+            "target": "释放力量-镐"
+        },
+        {
+            "source": "灵宝",
+            "target": "那些东西去哪了？"
+        },
+        {
+            "source": "相反世界的碎片",
+            "target": "我们为什么要步行？"
+        }
+    ]
+}

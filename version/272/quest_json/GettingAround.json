@@ -1,0 +1,1102 @@
+{
+    "data": [
+        {
+            "name": "进阶电力喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/653.png",
+            "x": 132.0,
+            "y": 120.0,
+            "data": "进阶电力喷气背包是电动喷气背包的升级版.%n可以装备在胸甲部位,当充满EU电力时,可以飞行.它并没有任何保护功能,但其内部储存的3MEU电力可以为你的工具充电,如同进阶电池背包一样运作.%n%n进阶喷气背包的最大飞行高度是256层.%n%n[note]在控制里的重力装甲(gravisuite)栏下的fly键开启喷气背包.空格键提升高度.悬停模式可通过按住空格并按下IC2切换模式的快捷键激活.进阶电力喷气背包也可以为物品栏中的工具充能.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjQ==",
+            "tooltip": "<strong>进阶电力喷气背包</strong></br>前置任务需求:</br>第4阶段(EV)</br>复合背心</br>电力喷气背包"
+        },
+        {
+            "name": "进阶纳米重力胸甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/654.png",
+            "x": 132.0,
+            "y": 216.0,
+            "data": "将进阶电力喷气背包及纳米护甲组合,会得到进阶纳米重力胸甲.就可以拥有胸甲的防护能力,并可使用喷气背包自由的移动.%n%n[note]用起来跟进阶电力喷气背包一样.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjg==",
+            "tooltip": "<strong>进阶纳米重力胸甲</strong></br>前置任务需求:</br>碳皮肤</br>进阶电力喷气背包"
+        },
+        {
+            "name": "选择另一个发射方式？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9191592960624051857.png",
+            "x": 372.0,
+            "y": 216.0,
+            "data": "你是否厌倦了每次等待火箭升空，想要一种更快的替代方案？末影接口的传送台是一个很好的选择，它是一个3x3x1的结构，使用RF供电时，才能将玩家传送到设定的坐标。%n%n想要设置坐标，您需要使用坐标选择仪，通过Shift右键单击来标记一个区域，然后通过Shift右键末影接口传送台的中间来设置坐标。%n%n然后站在传送器中间用已记录坐标的坐标记录仪右击传送台进行传送。%n",
+            "quest_id": "iWmU5h_ZSPqAcObmxgW5bw==",
+            "tooltip": "<strong>选择另一个发射方式？</strong></br>前置任务需求:</br>力场发生器(ZPM)</br>制造镅"
+        },
+        {
+            "name": "天使翅膀",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1344.png",
+            "x": 36.0,
+            "y": 168.0,
+            "data": "既然你现在可以获得比纸板更好的材料,你就想制造翅膀.天使的翅膀.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFQA==",
+            "tooltip": "<strong>天使翅膀</strong></br>前置任务需求:</br>神秘烹饪"
+        },
+        {
+            "name": "天使之翼-结合!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1356.png",
+            "x": 84.0,
+            "y": 264.0,
+            "data": "最后一步是把量子盔甲和量子翅膀结合起来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFTA==",
+            "tooltip": "<strong>天使之翼-结合!</strong></br>前置任务需求:</br>量子胸甲"
+        },
+        {
+            "name": "天使之翼-超力!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1355.png",
+            "x": 36.0,
+            "y": 264.0,
+            "data": "从矿石到钢锭,从纳米到量子,随着你的进步,你的技术水平也会提高,你的翅膀也应该如此.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFSw==",
+            "tooltip": "<strong>天使之翼-超力!</strong></br>前置任务需求:</br>秘密-天使-刺客</br>量子装甲"
+        },
+        {
+            "name": "一种更快捷的出行方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1926.png",
+            "x": 36.0,
+            "y": -72.0,
+            "data": "你准备好长途旅行了吗?带上新的午餐盒、鞍、栓绳还有一匹马,我们就可以开始一次旅行了.请勿涉入深水,马不喜欢穿过深水.如果在深水区落马了,你可以尝试重复骑上并每次移动一小段距离,对于小河来说,这样比泅渡更快.当两岸距离不远时,你也可以直接纵马跳过.%n%n如果你是单机玩家或是在本地服务器进行游戏,马是一种非常不错的出行方式.但在非本地服务器的话,如果你的网络不够给力或是服务器的TPS堪忧,骑马可能会出问题...而基本所有官方服务器都有这样的问题...%n%n当你下马要调查某物时,别忘了把马拴在栅栏上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHhg==",
+            "tooltip": "<strong>一种更快捷的出行方式</strong></br>前置任务需求:</br>柔软的皮革"
+        },
+        {
+            "name": "更炫酷的靴子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2260.png",
+            "x": 180.0,
+            "y": 168.0,
+            "data": "电子旅行者之靴有2％的魔力减免,以及普通旅行者之靴的所有优点.%n%n此外,感谢我们超绝魔法开发者,它还具备一系列新功能：%n%n- 可配置的跳跃提升：你可以选择0%%, 25%%, 50%%, 75%%, 或者100%%的跳跃提升.%n%n- 可配置的速度提升：与跳跃提升类似,你可以根据自己的喜好调整速度提升百分比.%n%n-飞行惯性：开启时,该功能可以在飞行时取消惯性,即使在高速移动时也能精确控制方向.%n%n- 全方位移动：此选项允许你决定速度提升应用于所有方向,还是仅在直线奔跑时生效.%n%n[note]这些快捷键默认未设置.最简单的配置方式是进入“选项” -> “控制”,开启“类别”按钮,输入“Thaumic Boots”.然后根据需要为各功能分配快捷键.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI1A==",
+            "tooltip": "<strong>更炫酷的靴子</strong></br>前置任务需求:</br>靴子是用来走路的"
+        },
+        {
+            "name": "船模具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/672.png",
+            "x": -204.0,
+            "y": 24.0,
+            "data": "别怀疑,为了做更高阶的船,你需要一个新的范本.%n%n但是首先你需要制作一台压模机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACoA==",
+            "tooltip": "<strong>船模具</strong></br>前置任务需求:</br>橡皮艇"
+        },
+        {
+            "name": "增加你的速度",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1186.png",
+            "x": -60.0,
+            "y": 24.0,
+            "data": "如果你决定不使用火车头,仅仅想用1节或者2节车厢的话,你可以使用推进轨道. 使用拉杆或者其他方式提供红石信号可以激活轨道. 它们同样可用于减速,尤其是转弯的时候!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEog==",
+            "tooltip": "<strong>增加你的速度</strong></br>前置任务需求:</br>横贯铁路"
+        },
+        {
+            "name": "增加你的速度 v2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1810.png",
+            "x": -12.0,
+            "y": 120.0,
+            "data": "高速过渡轨道和推进轨道让你的矿车以匪夷所思的速度移动.  不要完全使用普通轨道,否则你的矿车将会爆炸.  不要试图在高速行驶时转弯,否则...你猜对了,你的矿车将会爆炸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHEg==",
+            "tooltip": "<strong>增加你的速度 v2</strong></br>前置任务需求:</br>横贯大陆的高速铁路"
+        },
+        {
+            "name": "碳纤维轻艇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/670.png",
+            "x": -252.0,
+            "y": 72.0,
+            "data": "与其他小艇不同,这惊人的碳纤维轻艇*坚不可摧*!这表示你可以开着它冲向沙滩、荷叶,甚至是鳄鱼--连一点刮伤都不会有!%n%n警告:对任何驶入岩浆或虚空造成的损伤,我们恕不负责.%n%n*因此,不予保修.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACng==",
+            "tooltip": "<strong>碳纤维轻艇</strong></br>前置任务需求:</br>船模具</br>基础压模机"
+        },
+        {
+            "name": "矿车与区块加载器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1379.png",
+            "x": 36.0,
+            "y": 72.0,
+            "data": "当从远距离运输石油时,火车将需要一个区块加载器. 制作一个,我会免费给你第二个.%n%n[note]此任务在多人游戏中可能无法完成?[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFYw==",
+            "tooltip": "<strong>矿车与区块加载器</strong></br>前置任务需求:</br>区块加载</br>流体装载机和卸载机"
+        },
+        {
+            "name": "仙域之门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8279404553732255962.png",
+            "x": 420.0,
+            "y": 168.0,
+            "data": "仙域之门有一点贵,但是可以提供非常方便的单个维度内的旅行.%n%n在仙域之门上使用一个仙域珍珠Shift+左键点击,使仙域珍珠与特定的仙域之门调谐,并将这个珍珠插入另一个仙域之门的槽中.%n%n当站在天域之门上方时按下Shift键以打开传送菜单. 如果你想方便的识别不同的位置,最好在铁砧上给珍珠命名.",
+            "quest_id": "OWIeO5C1RheNGaVsrwmPJg==",
+            "tooltip": "<strong>仙域之门</strong></br>前置任务需求:</br>相反世界的碎片"
+        },
+        {
+            "name": "错位宝石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5457259343752885948.png",
+            "x": 372.0,
+            "y": 312.0,
+            "data": "它们的耐久有限.因此可以选择将它们放在基座上以避免损失耐久,或使用奥法修复台进行修复.",
+            "quest_id": "SxCNz5_RSym0Q-uKaG2JRA==",
+            "tooltip": "<strong>错位宝石</strong></br>前置任务需求:</br>龙芯"
+        },
+        {
+            "name": "燃煤喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/649.png",
+            "x": 84.0,
+            "y": -24.0,
+            "data": "你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.%n%n将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.%n%n这些喷气背包的最大飞行高度是185层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机背包的理想高度是100层.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACiQ==",
+            "tooltip": "<strong>燃煤喷气背包</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "直升机背包,更擅悬停",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/650.png",
+            "x": 84.0,
+            "y": 24.0,
+            "data": "直升机背包是第一个有盘旋模式的喷气背包.它可以使用所有桶装的燃料.%n%n桶装杂酚油、岩浆、石油,或燃料都可以.%n%n装备你的喷气背包,按shift以及探险背包动作键来启动它.你可以在正常模式跟盘旋模式间切换.%n%n最大飞行高度是200层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机背包的理想高度是100层.%n%n[note]掉落物会被吹走,就像现实里的直升机一样,所以在末地或悬崖边需要注意这一点.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACig==",
+            "tooltip": "<strong>直升机背包,更擅悬停</strong></br>前置任务需求:</br>柴油的力量"
+        },
+        {
+            "name": "撬棍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/676.png",
+            "x": -108.0,
+            "y": -24.0,
+            "data": "撬棍有RC版本跟GT版本(以及神秘的RC版本).可以用来操作RC的机器,或用来移除在GT管道和机器上的覆盖板(电动泵,传送带等等).并可以更快地拆除轨道之类的对象.撬棍也可用来存取RC的物品库存.%n%n手持撬棍Shift+右键以链接矿车.点击首个矿车后依次点击添加更多矿车.链接的矿车数量越多,运行越慢.%n%n撬棍也可以当武器使用,虽然攻击会消耗双倍耐久(就像其他的非武器工具一样...). 译者注:食我物理学圣剑啦!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACpA==",
+            "tooltip": "<strong>撬棍</strong></br>前置任务需求:</br>手动转辙机"
+        },
+        {
+            "name": "'简便'传送",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2461.png",
+            "x": 420.0,
+            "y": 120.0,
+            "data": "传送器非常好用,虽然制作起来比较痛苦... 对着1号传送器使用传送方位核心可以记录坐标,将这个核心放入2号传送器中,给2号传送器一个红石信号即可将范围内的物品、实体、还有方块传送到1号传送器上方. 当然这会消耗LP. 跟高级的核心拥有更大的范围.%n%n译者注: 在服务器使用此装置传送含NBT的方块时需要特别注意,服务器性能不够或者网络卡顿可能造成数据丢失. 没错我说的就是GT机器,我不会告诉你我用这玩意弄丢过好几个矿机...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJnQ==",
+            "tooltip": "<strong>'简便'传送</strong></br>前置任务需求:</br>导师气血宝珠:接近了"
+        },
+        {
+            "name": "电动船",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/671.png",
+            "x": -204.0,
+            "y": 120.0,
+            "data": "电动船的运作和原版的船相似,以相当快的速度穿过水面.当撞击时将会掉出他的原型,而不是通常的木棒.这当然非常好,但如果我们利用电力引擎呢？在胸甲一栏穿上电力储存装置,例如电池背包或储电背包.电动船将会吸取背包的电力,并推动你以超音速前进!每前进一格约消耗100EU,所以就算很好的电池背包也持续不了多久!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACnw==",
+            "tooltip": "<strong>电动船</strong></br>前置任务需求:</br>充气床</br>碳纤维轻艇"
+        },
+        {
+            "name": "电力供给单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1190.png",
+            "x": -108.0,
+            "y": 72.0,
+            "data": "为了使你的轨道交通进入电气化时代,你需要给你新铺设的电力轨道提供能源. 你现在需要电力供给单元、电力分路线缆和线缆支撑架. 你可以使用一个MFE或者变压器来获取GT输入的电能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEpg==",
+            "tooltip": "<strong>电力供给单元</strong></br>前置任务需求:</br>横贯大陆的电力轨道"
+        },
+        {
+            "name": "电力喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/651.png",
+            "x": 132.0,
+            "y": 72.0,
+            "data": "你的第一个电力喷气背包.你需要按IC2的切换模式键及空格键来切换飞行模式.当你想下降时,记得关闭悬停模式,否则会耗尽你的喷气背包.%n%n喷气背包唯一的限制是不能飞超过185层.%n%n想要在旅途中为喷气背包充电,你需要制作一个IC2能量充电电池.你需要将喷气背包从装备栏脱下,放入快捷栏,然后shift+右键激活充电电池.充电电池还有更高级的型号,不过我用不着.你要是感兴趣就查查NEI吧.%n%n以后还可以制作重力胸甲的充电背包、GT++的充电工具包(腰带),它们可以为你物品栏和装备栏中的物品充电.%n%n最后,还有GT++的无线充电器,它可以为你物品栏和装备栏中的物品充电,以你的基地为中心,覆盖很大一片范围.当你完成了你的纳米套装后会有一个相关任务解锁.唯一要记住的就是,当你去了其他维度,你的喷气背包将不会被实时充电!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACiw==",
+            "tooltip": "<strong>电力喷气背包</strong></br>前置任务需求:</br>压缩万物</br>第3阶段(HV)"
+        },
+        {
+            "name": "电力机车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1185.png",
+            "x": -156.0,
+            "y": -24.0,
+            "data": "电力机车比蒸汽机车还要先进不少. 想要使用电力机车,你首先需要铺设电动轨道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEoQ==",
+            "tooltip": "<strong>电力机车</strong></br>前置任务需求:</br>蒸汽机车</br>MV(中压)级蒸汽轮机"
+        },
+        {
+            "name": "喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/647.png",
+            "x": 132.0,
+            "y": -24.0,
+            "data": "滑翔翼让你可以安全降落,但没办法让你往上飞.研究蓝石后,你发现他的能量足够让你做出第一个喷气背包.%n%n一个钻石胸甲加上四个空电池,就足够让你飞上天.%n%n但它并没有悬停模式,所以最好带着你的滑翔翼.%n%n提示:这个喷气背包无法飞到超过Y-128的高度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAChw==",
+            "tooltip": "<strong>喷气背包</strong></br>前置任务需求:</br>空电池(蓝石)"
+        },
+        {
+            "name": "高级错位宝石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7236257860167570143.png",
+            "x": 372.0,
+            "y": 360.0,
+            "data": "非常强力.",
+            "quest_id": "G7ACOCTJRi-bk6XQxZVtIQ==",
+            "tooltip": "<strong>高级错位宝石</strong></br>前置任务需求:</br>觉醒核心</br>错位宝石"
+        },
+        {
+            "name": "脚蹼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2899.png",
+            "x": 180.0,
+            "y": -72.0,
+            "data": "可能你运气不错,在宝箱或地牢里找到了脚蹼.%n%n脚蹼可以让玩家的游泳速度与行走速度一致.唯一的问题是它不提供护甲值.%n%n如果你正在建造水面建筑,或在水下挖掘粘土或沙砾,你就会发现这玩意真好用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALUw==",
+            "tooltip": "<strong>脚蹼</strong></br>前置任务需求:</br>触发脚蹼</br>好累...必须...睡觉..."
+        },
+        {
+            "name": "流体装载机和卸载机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1182.png",
+            "x": 36.0,
+            "y": 24.0,
+            "data": "如果你想把石油从很远的油田运输回来,并且实现自动化.那么你需要一套流体装载/卸载机.在石油装载或卸载过程中,封锁轨道会让列车长时间停留.%n%n[note]PS： 在进入LV阶段后应该尽可能转换为使用长距离流体管道，除非你真的很喜欢火车。[/note]%n%n关于如何使用这些设备的详细信息，需要你亲自去研究（GTNH仅更改了配方，并未更改Railcraft的功能），这里简单罗列一些可能该做的事情：%n%n1. 从你的基地到油井铺设好一圈轨道。%n2. 在油井侧放置一个封锁轨道，在轨道上方两格高出放流体装载机。封锁轨道应该处于锁定模式，用撬棍右键轨道来切换模式。%n3. 在流体装载机的过滤器标记储罐车，并调整至空载发车模式。%n4. 用你喜欢的方式将油从油井自动导入流体装载机。%n5. 在基地侧放置一个封锁轨道并在轨道下放置流体卸载机，其他就像装载机那边一样。%n6. 同样设置机车的自动化 - 蒸汽机车上方放置装载机并设置为手动模式和过滤机车。%n%n或者把它修好，或者研究更细致点，或者你意识到它一趟能运32桶然后决定就这样吧，或者你可以去Discord问怎么会有人用火车。",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEng==",
+            "tooltip": "<strong>流体装载机和卸载机</strong></br>前置任务需求:</br>横贯铁路"
+        },
+        {
+            "name": "像鹰...我是说乌鸦一样飞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2066.png",
+            "x": 228.0,
+            "y": -24.0,
+            "data": "这个斗篷是滑翔翼不错的替代品.在巫师宝具章节中还有许多有趣的物品值得一看.%n如果你想为\"gliding(滑翔)\"绑定快捷键 - 在控制中配置\"激活能力1\"(Active-Ability-1),然后手持物品,再在聊天栏输入\"/travellersgear bind 1\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIEg==",
+            "tooltip": "<strong>像鹰...我是说乌鸦一样飞</strong></br>前置任务需求:</br>人靠衣装...巫师也一样</br>能够储存50\"VIS\"的法杖</br>魔法羽毛"
+        },
+        {
+            "name": "像...玛丽·波平斯一样飞?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2060.png",
+            "x": 228.0,
+            "y": 24.0,
+            "data": "奥法缰绳使你能够飞翔,消耗源质罐子中的能量(Potentia)源质.可惜速度不快,或许更深入的研究能解决这个问题吧.%n%n译者注:玛丽·波平斯(Mary Poppins),是英国作家P·L·特拉弗斯的儿童文学系列《玛丽·波平斯》的主角,其形象是一位仙女保姆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIDA==",
+            "tooltip": "<strong>像...玛丽·波平斯一样飞?</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "无忧无虑地飞翔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2061.png",
+            "x": 228.0,
+            "y": 72.0,
+            "data": "啊哈,这个更棒!  有了这根腰带,你可以像个真正的巫师一样飞来飞去了.可惜这需要消耗额外的能量(Potentia)源质,所以继续你的研究吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIDQ==",
+            "tooltip": "<strong>无忧无虑地飞翔</strong></br>前置任务需求:</br>像...玛丽·波平斯一样飞?"
+        },
+        {
+            "name": "燃气喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/652.png",
+            "x": 84.0,
+            "y": 72.0,
+            "data": "这个喷气背包使用IC2的沼气,最高可飞到245层. 你需要使用IC2的切换模式键+空格键来切换飞行模式.%n%n你的喷气背包可以在IC2装罐机中装填燃料,共需30桶沼气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjA==",
+            "tooltip": "<strong>燃气喷气背包</strong></br>前置任务需求:</br>压缩万物</br>第3阶段(HV)</br>柴油的力量"
+        },
+        {
+            "name": "滑翔翼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/645.png",
+            "x": 132.0,
+            "y": -72.0,
+            "data": "如果你想跳下悬崖,而不出现某某玩家从高处跌落的讯息,找个办法降低你的掉落速度应该是个好主意. 商店里的羽落药水卖光了,做个滑翔翼吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAChQ==",
+            "tooltip": "<strong>滑翔翼</strong></br>前置任务需求:</br>熔炼!</br>柔软的皮革"
+        },
+        {
+            "name": "重力胸甲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/655.png",
+            "x": 132.0,
+            "y": 264.0,
+            "data": "重力胸甲由量子护甲、LuV变压器、终极蓝博顿电池背包、超导线缆、冷却核心、重力引擎、终极晶体电脑、致密铿铀板、蓝博顿能量球簇、力场发生器(IV)、电动马达(ZPM)、铿铀螺丝、熔融焊锡、熔融三钛组合而成.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.%n%n或者找找Wiki上怎么说(其他靠谱的教程也行).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACjw==",
+            "tooltip": "<strong>重力胸甲</strong></br>前置任务需求:</br>制造三钛</br>量子胸甲"
+        },
+        {
+            "name": "坚不可摧的容器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7733034115414850723.png",
+            "x": -252.0,
+            "y": -24.0,
+            "data": "鉴于你的神秘魔法研究，你得出结论，宏伟之木确实是一种非常适合建造坚固船只的材料。充分利用这种材料的潜力使你能够建造一艘速度稍快且永远不会因碰撞而损毁的船。",
+            "quest_id": "-MexGhcYQ0OUrr5xgriDXQ==",
+            "tooltip": "<strong>坚不可摧的容器</strong></br>前置任务需求:</br>奥法工作台</br>让我们荡起双桨（Row, Row, Row Your Boat）"
+        },
+        {
+            "name": "充气床",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/669.png",
+            "x": -156.0,
+            "y": 72.0,
+            "data": "哦不,我是指船...充气船是第一艘不会撞坏的船.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACnQ==",
+            "tooltip": "<strong>充气床</strong></br>前置任务需求:</br>船模具</br>基础压模机"
+        },
+        {
+            "name": "喷气背包v.0.1 内部测试",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/874.png",
+            "x": 84.0,
+            "y": -72.0,
+            "data": "你喜欢飞行吗？好,那做个滑溜溜的弹跳板,享受那美好的视野!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADag==",
+            "tooltip": "<strong>喷气背包v.0.1 内部测试</strong></br>前置任务需求:</br>压缩材料"
+        },
+        {
+            "name": "发射控制器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1452.png",
+            "x": 372.0,
+            "y": 120.0,
+            "data": "发射控制器在GTNH中被修改，提供额外的功能.在发射控制器连接的火箭发射平台上发射火箭,如果设置合适的话,倒数时间可以很短,而且你会直接被传送到接收平台.虽然这会消耗最大燃料存储的一半燃料. 这一操作在高延迟服务器中十分有用,可以作为没有魔法手段时候的传送手段.你需要放置一个带有发射控制器的火箭发射台,可能还有一个燃料注入器在另一边.%n%n如果你不为自己使用火箭,你可以试试使用货运火箭.要使用满载货运火箭,需要装备一个火箭发射台,用于发送物品,包括:%n%n燃料注入器%n发射控制器%n货物装载器%n以及接收方:%n%n燃料注入器%n发射控制器%n货物卸载器%n%n也可以使用BC管道(不存在的)将物品转移到火箭中. 下一步是在两个发射控制器中设置频率(即设置:A到目标B,B到目标A). 查看发射控制器以设置自动发射. 第一次必须右键单击货运火箭并按右上角的发射.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFrA==",
+            "tooltip": "<strong>发射控制器</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "让我们在熔岩上冲浪吧！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4660293697819101110.png",
+            "x": -252.0,
+            "y": 24.0,
+            "data": "神秘船是宏伟之木船的升级版本。你从制造由魔法材料制成的船只中获得的经验使你能够建造一艘速度更快的船。此外，神秘涂层不仅允许它在河流中航行，还能在熔岩河流中航行！带上它在下界度假并享受吧。",
+            "quest_id": "BC7LS6iHTYW_U0-SuIA4Sg==",
+            "tooltip": "<strong>让我们在熔岩上冲浪吧！</strong></br>前置任务需求:</br>魔晶</br>神秘烹饪</br>坚不可摧的容器"
+        },
+        {
+            "name": "火车头0.1测试版",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1183.png",
+            "x": -108.0,
+            "y": -72.0,
+            "data": "熔炉车是价格低廉的火车头. 拿着煤炭或者木炭点击熔炉车它就会开始移动.%n%n这只是个玩具，你可能会需要下一个任务的蒸汽机车来制作真正的火车.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEnw==",
+            "tooltip": "<strong>火车头0.1测试版</strong></br>前置任务需求:</br>让矿车可以蓄水、储物和制造物品"
+        },
+        {
+            "name": "长距离能量输送",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2063.png",
+            "x": 276.0,
+            "y": 72.0,
+            "data": "没有法师想被限制在短时间飞行内.有了这个自动化魔法(Automagy)的奥法尖塔,你就可以将魔法能量直接传输到你的奥法缰绳中.  想要获得正确的神秘块,你需要把9个神秘锭压缩成GT神秘锭块,然后用凿子处理这个方块,使其变成正确的样式.%n%n这个多方块结构需要0.01级的vis才能运行.你可以使用2-6个奥法能量柱,额外的能量柱用于扩展范围.给这个结构提供0.01级的风(Aer)vis使其运行,它会接收能量(Potentia)源质传输给飞行者.这个结构还接收风(Aer)和飞行(Volatus)源质,分别提升传输范围和传输速率.右键控制器的某一面来控制该面接收何种源质.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIDw==",
+            "tooltip": "<strong>长距离能量输送</strong></br>前置任务需求:</br>像...玛丽·波平斯一样飞?"
+        },
+        {
+            "name": "矿车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/677.png",
+            "x": -12.0,
+            "y": -72.0,
+            "data": "当你做好第一台车,旅程就可以开始了.%n%n好吧,还不行,你还需要先准备一些轨道.%n%n[note]这里是任务书有限公司. 我们不保证矿车或火车的实用性. 而且当你有了锤子和背包后,一次性掏空一个矿脉不费吹灰之力.[/warn]%n%n[warn]警告: 不受保护的矿车可能因雷击而脱轨.用玻璃遮盖该区域,以防矿车消失.[/warn]%n%n[warn]另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或复制.[/warn]%n%n[note]只有在整乐子的时候才需要考虑这些，这些功能都有更好的替代方案，包括但不限于长距离运输管道。过多的矿车和火车会给服务器造成巨大延迟，您可能会被要求将火车切换成其他方式。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACpQ==",
+            "tooltip": "<strong>矿车</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "让矿车可以蓄水、储物和制造物品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1181.png",
+            "x": -60.0,
+            "y": -72.0,
+            "data": "想运输石油或者其他的流体？想在矿车上安装工作台或者储物箱？ 那么我们来制造这些各种功能的矿车吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEnQ==",
+            "tooltip": "<strong>让矿车可以蓄水、储物和制造物品</strong></br>前置任务需求:</br>矿车"
+        },
+        {
+            "name": "异界之门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7440565615906063856.png",
+            "x": 468.0,
+            "y": 120.0,
+            "data": "神秘视界的异界传送门可以让你进入口袋世界.可以为一个口袋世界设置多个(最多四个)异界传送门,它们甚至可以让你往返于其他其他位面之间.",
+            "quest_id": "U6wfKJSxTiyYvcz-f-76EA==",
+            "tooltip": "<strong>异界之门</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "装填喷气背包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/648.png",
+            "x": 132.0,
+            "y": 24.0,
+            "data": "好极了...你现在有一个空的喷气背包. 你需要25个蓝石粉来完全装满它. 制作蓝石发电机跟充电台以便使用蓝石的能量.%n%n你马上就会发现,虽然充电又快又便宜,但是也会在眨眼间就用尽了.尽管如此,配合滑翔翼可以让你飞上空中,逃离一些困境.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACiA==",
+            "tooltip": "<strong>装填喷气背包</strong></br>前置任务需求:</br>喷气背包"
+        },
+        {
+            "name": "定位器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7756273166616703872.png",
+            "x": 372.0,
+            "y": 264.0,
+            "data": "定位器允许你传送到已标记的位置，甚至可以跨纬度。%n%n[note]因为耗电量非常大，所以建议使用重力胸甲或其他什么能源供电。[/note]",
+            "quest_id": "8QSORTVOSOaUXC6mQurMgA==",
+            "tooltip": "<strong>定位器</strong></br>前置任务需求:</br>聚变反应堆MK3-升级"
+        },
+        {
+            "name": "让我们荡起双桨（Row, Row, Row Your Boat）",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/666.png",
+            "x": -204.0,
+            "y": -72.0,
+            "data": "你住在水边却没有船？兄弟,振作起来.%n%n你需要木板、台阶跟刀来制作一艘. (这个任务编号666,小心点,有什么事要发生了.)%n%n译者注:在西方666象征着魔鬼. %n%n[note]不过这里可是任务书,忘了那些有的没的象征意义吧. 标准的世界生成不包含海洋地形,所以船的实用性受到了极大的限制. 虽然有许多河流,但马可能更实用--如果不在服务器里的话.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACmg==",
+            "tooltip": "<strong>让我们荡起双桨（Row, Row, Row Your Boat）</strong></br>前置任务需求:</br>重要的工具"
+        },
+        {
+            "name": "橡皮艇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/668.png",
+            "x": -204.0,
+            "y": -24.0,
+            "data": "橡皮艇只需要一些橡胶片.和原版的木船一样,撞到方块上会损坏并散开.但并不会返还木棍跟木板,而是返还损坏的橡皮艇.可以用两个橡胶片来修复这只橡皮艇!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACnA==",
+            "tooltip": "<strong>橡皮艇</strong></br>前置任务需求:</br>让我们荡起双桨（Row, Row, Row Your Boat）"
+        },
+        {
+            "name": "秘密-天使-刺客",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1345.png",
+            "x": 36.0,
+            "y": 216.0,
+            "data": "用纳米技术注入你的翅膀似乎是下一步,进一步改进并结合魔法与科技的力量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFQQ==",
+            "tooltip": "<strong>秘密-天使-刺客</strong></br>前置任务需求:</br>天使翅膀</br>碳皮肤"
+        },
+        {
+            "name": "比梯子好多了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1985.png",
+            "x": 372.0,
+            "y": 24.0,
+            "data": "电梯非常适合在你的基地用于快速垂直运输.离开有色电梯将停在同一颜色的电梯上.用一些更多门(Malisis-doors)mod的门来做出\"真正\"电梯的效果. 旋转电梯会根据玩家面朝的方向将玩家向下或向上传送.很适合于你的电梯井位于某一层的一侧,而另一侧是另外一层.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHwQ==",
+            "tooltip": "<strong>比梯子好多了</strong></br>前置任务需求:</br>工业高炉时代"
+        },
+        {
+            "name": "用腰带加速",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9078433263530968349.png",
+            "x": 228.0,
+            "y": -72.0,
+            "data": "这些植物魔法的腰带能够被动地提高你的移动速度和跳跃高度,且让你能自动走上一格高的坡,仅仅需要你把它装备在腰带栏,这多方便！%n%n你会需要一种方法来为这些腰带提供能量,用魔力石板或用链接了魔力池的魔力手镜.%n%n旅居者腰带提供基础的速度加持和跳跃高度,并自动爬坡.环游者腰带提供的速度和跳跃高度是旅居者腰带的两倍.%n%n平原腰带稍微有点特别,它会随着你移动缓慢加速,最高可以为你提供11倍于旅居者腰带的速度!%n%n[note]你只需要制作一个腰带来完成任务.[/note]",
+            "quest_id": "aXAQD7T1SnGCAu0L4iV64w==",
+            "tooltip": "<strong>用腰带加速</strong></br>前置任务需求:</br>植物魔法注魔"
+        },
+        {
+            "name": "蒸汽机车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1184.png",
+            "x": -156.0,
+            "y": -72.0,
+            "data": "蒸汽机车比熔炉车好得多.你可以控制机车的速度和方向.你需要向蒸汽机车内添加水和煤炭来给机车提供动力.%n%n你可以使用水箱或其他水源，在驻停时将流体装载机放在机车上方为机车添水。当然也可以将装载机放在轨道下侧，或轨道上方间隔一格的位置，来为你留出乘车的间隙。（不坐在矿车里你无法真正驾驶火车。）%n%n蒸汽机车可以使用任何蒸汽锅炉的燃料，也许你会想用煤炭块或类似的燃料。你可以用物品装载机来自动填燃料。%n%n一旦获得稳定的MV能源，你可能会转而使用电力机车。",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEoA==",
+            "tooltip": "<strong>蒸汽机车</strong></br>前置任务需求:</br>熔炼!</br>火车头0.1测试版"
+        },
+        {
+            "name": "爬坡助手",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1779.png",
+            "x": 180.0,
+            "y": -24.0,
+            "data": "活塞靴子是为探险者准备的一双弹力鞋.%n%n它能提升一点足部护甲并能赋予有趣的跳跃提升! 它们能使穿戴者跳起三格高并提升跑步速度. 它们还能使穿戴者在疾跑时自动爬上一格高的障碍物. 可以在铁砧上使用皮革维修.%n%n总之,尽快合成它吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG8w==",
+            "tooltip": "<strong>爬坡助手</strong></br>前置任务需求:</br>什么鬼东西？</br>柔软的皮革"
+        },
+        {
+            "name": "手动转辙机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/675.png",
+            "x": -60.0,
+            "y": -24.0,
+            "data": "手动转辙机是手动版本的电动转辙机,需要玩家来操作而非使用红石信号.%n%n用于多种信号系统,主要是用来切换转辙轨及Y型轨的运作方式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACow==",
+            "tooltip": "<strong>手动转辙机</strong></br>前置任务需求:</br>一种非常重要的合金</br>猜火车</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "传送机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8863044341591625965.png",
+            "x": 372.0,
+            "y": 168.0,
+            "data": "IC2传送机允许在两个已连接的传送机之间传送.%n由于巨大的能量需求,它需要能量存储方块直接相邻.%n%n[note]能量需求由两个传送机间的距离和物品栏里的物品数量决定[/note].%n%n[note]据官方wiki说传送机bug很多.[/note]",
+            "quest_id": "tJdwTeS6TOOFACQhNuUvEw==",
+            "tooltip": "<strong>传送机</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "末影人的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/133.png",
+            "x": 372.0,
+            "y": 72.0,
+            "data": "电梯很棒,但它们仅限于垂直传送,作用范围也很有限. 旅行锚没有角度上的限制.你可以从一个锚传送到128格内的任何其他锚. 只需站在一个锚上,看向你希望传送到的锚,再按下Shift,即可完成传送. 你可以命名它们,甚至把它们设为私人的.它们有2秒的传送冷却时间.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAhQ==",
+            "tooltip": "<strong>末影人的力量</strong></br>前置任务需求:</br>机器框架</br>LV力场发生器"
+        },
+        {
+            "name": "横贯铁路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/866.png",
+            "x": -12.0,
+            "y": 24.0,
+            "data": "已发现的不同矿脉看来似乎相隔颇远.想缩短路程的其中一个方法就是制造一条从基地通往不同矿脉的铁路,然而,让人难过的是,这将耗费你大量的铁和杂酚油...来,别忘了把最后一个象征性的铆钉放在你的其中一条新火车路线上!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADYg==",
+            "tooltip": "<strong>横贯铁路</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>猜火车"
+        },
+        {
+            "name": "横贯大陆的高速铁路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1187.png",
+            "x": -12.0,
+            "y": 72.0,
+            "data": "你梦想过在我的世界中驾驶高速列车嘛？ 你的梦想可以在高速轨道上面实现.但是要小心,当你改变方向或者准备停车的时候需要降低速度.否则...BOOM!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEow==",
+            "tooltip": "<strong>横贯大陆的高速铁路</strong></br>前置任务需求:</br>横贯铁路</br>工业高炉时代"
+        },
+        {
+            "name": "横贯大陆的防爆铁路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1188.png",
+            "x": 36.0,
+            "y": -24.0,
+            "data": "在下界铺设铁路十分危险. 因此你需要铺设特殊设计过的防爆强化轨道. 不过希望你比铁路更加防爆...%n%n强化轨道的移动速度比普通轨道快25％.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEpA==",
+            "tooltip": "<strong>横贯大陆的防爆铁路</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>横贯铁路"
+        },
+        {
+            "name": "横贯大陆的电力轨道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1189.png",
+            "x": -60.0,
+            "y": 72.0,
+            "data": "电力轨道需要和你的电力机车一起使用. 你需要给轨道提供电力.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.%n%n[note]你也可以在搜索栏搜索特定名称,在本例就是搜索电力轨道![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEpQ==",
+            "tooltip": "<strong>横贯大陆的电力轨道</strong></br>前置任务需求:</br>复仇者联盟,组装!</br>横贯铁路"
+        },
+        {
+            "name": "猜火车",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/667.png",
+            "x": -12.0,
+            "y": -24.0,
+            "data": "木制铁轨不需要机器就可以做出来,不过记得查看NEI来获得更便宜的组装机配方.功能跟正常铁轨一样,但是最大速度比较低.(为了安全的原因) %n%n[note]提示:木制铁轨可以用于史蒂夫矿车农场.[/note]%n%n译者注:《猜火车》是英国作家欧文·威尔士创作的一部小说.本书的腔调和风格,开创了虚构小说前所未有的一个新世纪.其在1996年改编成电影,更是成为经典.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACmw==",
+            "tooltip": "<strong>猜火车</strong></br>前置任务需求:</br>矿车"
+        },
+        {
+            "name": "旅行者靴子升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1786.png",
+            "x": 180.0,
+            "y": 24.0,
+            "data": "你的靴子可以配备一些升级,如水上步行,二重跳,铅靴或黏滑靴子.%n%n水上步行可以让你走过水.%n二重跳让你可以在空中再次跳跃.%n铅靴允许你在水下行走,防止你游泳,还可以获得额外空气.%n黏滑靴子可减少你受到的掉落伤害.%n%n提示:%n自动修复也可以添加到靴子上.%n%n每件护甲都有3个用于升级的插槽.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG-g==",
+            "tooltip": "<strong>旅行者靴子升级</strong></br>前置任务需求:</br>旅行者的装备"
+        },
+        {
+            "name": "瞬移!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1509.png",
+            "x": 324.0,
+            "y": 72.0,
+            "data": "旅行权杖可以让你在基地中自由移动. 手持旅行权杖,按住Shift并右键可以向着面对的方向传送.如果你有旅行锚的话,手持旅行权杖右键即可直接传送到锚处. 普通传送范围为16格,而锚传送范围为128格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF5Q==",
+            "tooltip": "<strong>瞬移!</strong></br>前置任务需求:</br>末影人的力量</br>充能晶体"
+        },
+        {
+            "name": "传送²",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3293.png",
+            "x": 324.0,
+            "y": 264.0,
+            "data": "如果能用传送的,那为啥还用走的?本次全新升级的传送之杖更快、更远,而且绝无断电风险.%n%n右键:%n*若指向一个旅行锚:传送到其位置,2048格范围%n*若指向一个方块:传送到其位置,512格范围%n*若范围内没有指向方块:向前传送,64格范围%n*若指向一个2格内的方块:传送到这面墙的另一端,16格范围%n*没有任何冷却时间%n%nShift右键:与右键相同,但是忽略旅行锚%n*旅行锚会在按住shift时隐藏%n%n[note]提示:你可能无法看到太远的传送锚,但只要它们在范围内且被加载,你仍然可以传送过去;可以用JounneyMap路径点来标注旅行锚.[/note]%n%n[note]注意:右键和shift右键的功能是完全可配置的.查看EnderIO的config配置文件!%n配置动作值：%n0：不执行任何操作%n1：向前传送/传送到所看的位置%n2：传送到旅行锚%n3：传送到旅行锚,若没有锚则向前传送/传送到所看的位置[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM3Q==",
+            "tooltip": "<strong>传送²</strong></br>前置任务需求:</br>来自空间中的中子素</br>瞬移!"
+        },
+        {
+            "name": "蹬鼻子上脸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2261.png",
+            "x": 180.0,
+            "y": 216.0,
+            "data": "纳米旅行者之靴有电子旅行者之靴的所有优点,还拥有更高的魔力减免,跑得更快,跳得更高.对大师级的魔法工程师来说,这是双完美的靴子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI1Q==",
+            "tooltip": "<strong>蹬鼻子上脸</strong></br>前置任务需求:</br>更炫酷的靴子</br>碳皮肤"
+        },
+        {
+            "name": "跨越星河",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2262.png",
+            "x": 180.0,
+            "y": 264.0,
+            "data": "量子旅行者之靴,让你跑起来迅疾如风.可能会出问题让你站着不动!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI1g==",
+            "tooltip": "<strong>跨越星河</strong></br>前置任务需求:</br>量子装甲</br>蹬鼻子上脸"
+        },
+        {
+            "name": "更多不同的木轨",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/674.png",
+            "x": -108.0,
+            "y": 24.0,
+            "data": "你需要一台组装机来组装木制十字轨、木制Y型轨、木制转辙轨.它们使你可以结合或切换通往不同地点的轨道.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACog==",
+            "tooltip": "<strong>更多不同的木轨</strong></br>前置任务需求:</br>撬棍"
+        },
+        {
+            "name": "飞行时工作?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2062.png",
+            "x": 180.0,
+            "y": 72.0,
+            "data": "有了这些设备,你现在可以在不被减速的情况下同时飞行和工作了.  你可以在魔导手册巫师宝具章节找到它们.你需要一些迅捷药水.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIDg==",
+            "tooltip": "<strong>飞行时工作?</strong></br>前置任务需求:</br>像...玛丽·波平斯一样飞?"
+        },
+        {
+            "name": "就像在动漫中一样!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1343.png",
+            "x": 84.0,
+            "y": 120.0,
+            "data": "你想飞.很想啊. 所以你需要胶带和翅膀!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFPw==",
+            "tooltip": "<strong>就像在动漫中一样!</strong></br>前置任务需求:</br>你的第一根法杖"
+        }
+    ],
+    "links": [
+        {
+            "source": "第4阶段(EV)",
+            "target": "进阶电力喷气背包"
+        },
+        {
+            "source": "复合背心",
+            "target": "进阶电力喷气背包"
+        },
+        {
+            "source": "电力喷气背包",
+            "target": "进阶电力喷气背包"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "进阶纳米重力胸甲"
+        },
+        {
+            "source": "进阶电力喷气背包",
+            "target": "进阶纳米重力胸甲"
+        },
+        {
+            "source": "力场发生器(ZPM)",
+            "target": "选择另一个发射方式？"
+        },
+        {
+            "source": "制造镅",
+            "target": "选择另一个发射方式？"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "天使翅膀"
+        },
+        {
+            "source": "量子胸甲",
+            "target": "天使之翼-结合!"
+        },
+        {
+            "source": "秘密-天使-刺客",
+            "target": "天使之翼-超力!"
+        },
+        {
+            "source": "量子装甲",
+            "target": "天使之翼-超力!"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "一种更快捷的出行方式"
+        },
+        {
+            "source": "靴子是用来走路的",
+            "target": "更炫酷的靴子"
+        },
+        {
+            "source": "橡皮艇",
+            "target": "船模具"
+        },
+        {
+            "source": "横贯铁路",
+            "target": "增加你的速度"
+        },
+        {
+            "source": "横贯大陆的高速铁路",
+            "target": "增加你的速度 v2"
+        },
+        {
+            "source": "船模具",
+            "target": "碳纤维轻艇"
+        },
+        {
+            "source": "基础压模机",
+            "target": "碳纤维轻艇"
+        },
+        {
+            "source": "区块加载",
+            "target": "矿车与区块加载器"
+        },
+        {
+            "source": "流体装载机和卸载机",
+            "target": "矿车与区块加载器"
+        },
+        {
+            "source": "相反世界的碎片",
+            "target": "仙域之门"
+        },
+        {
+            "source": "龙芯",
+            "target": "错位宝石"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "燃煤喷气背包"
+        },
+        {
+            "source": "柴油的力量",
+            "target": "直升机背包,更擅悬停"
+        },
+        {
+            "source": "手动转辙机",
+            "target": "撬棍"
+        },
+        {
+            "source": "导师气血宝珠:接近了",
+            "target": "'简便'传送"
+        },
+        {
+            "source": "充气床",
+            "target": "电动船"
+        },
+        {
+            "source": "碳纤维轻艇",
+            "target": "电动船"
+        },
+        {
+            "source": "横贯大陆的电力轨道",
+            "target": "电力供给单元"
+        },
+        {
+            "source": "压缩万物",
+            "target": "电力喷气背包"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "电力喷气背包"
+        },
+        {
+            "source": "蒸汽机车",
+            "target": "电力机车"
+        },
+        {
+            "source": "MV(中压)级蒸汽轮机",
+            "target": "电力机车"
+        },
+        {
+            "source": "空电池(蓝石)",
+            "target": "喷气背包"
+        },
+        {
+            "source": "觉醒核心",
+            "target": "高级错位宝石"
+        },
+        {
+            "source": "错位宝石",
+            "target": "高级错位宝石"
+        },
+        {
+            "source": "触发脚蹼",
+            "target": "脚蹼"
+        },
+        {
+            "source": "好累...必须...睡觉...",
+            "target": "脚蹼"
+        },
+        {
+            "source": "横贯铁路",
+            "target": "流体装载机和卸载机"
+        },
+        {
+            "source": "人靠衣装...巫师也一样",
+            "target": "像鹰...我是说乌鸦一样飞"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "像鹰...我是说乌鸦一样飞"
+        },
+        {
+            "source": "魔法羽毛",
+            "target": "像鹰...我是说乌鸦一样飞"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "像...玛丽·波平斯一样飞?"
+        },
+        {
+            "source": "像...玛丽·波平斯一样飞?",
+            "target": "无忧无虑地飞翔"
+        },
+        {
+            "source": "压缩万物",
+            "target": "燃气喷气背包"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "燃气喷气背包"
+        },
+        {
+            "source": "柴油的力量",
+            "target": "燃气喷气背包"
+        },
+        {
+            "source": "熔炼!",
+            "target": "滑翔翼"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "滑翔翼"
+        },
+        {
+            "source": "制造三钛",
+            "target": "重力胸甲"
+        },
+        {
+            "source": "量子胸甲",
+            "target": "重力胸甲"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "坚不可摧的容器"
+        },
+        {
+            "source": "让我们荡起双桨（Row, Row, Row Your Boat）",
+            "target": "坚不可摧的容器"
+        },
+        {
+            "source": "船模具",
+            "target": "充气床"
+        },
+        {
+            "source": "基础压模机",
+            "target": "充气床"
+        },
+        {
+            "source": "压缩材料",
+            "target": "喷气背包v.0.1 内部测试"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "发射控制器"
+        },
+        {
+            "source": "魔晶",
+            "target": "让我们在熔岩上冲浪吧！"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "让我们在熔岩上冲浪吧！"
+        },
+        {
+            "source": "坚不可摧的容器",
+            "target": "让我们在熔岩上冲浪吧！"
+        },
+        {
+            "source": "让矿车可以蓄水、储物和制造物品",
+            "target": "火车头0.1测试版"
+        },
+        {
+            "source": "像...玛丽·波平斯一样飞?",
+            "target": "长距离能量输送"
+        },
+        {
+            "source": "重要的工具",
+            "target": "矿车"
+        },
+        {
+            "source": "矿车",
+            "target": "让矿车可以蓄水、储物和制造物品"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "异界之门"
+        },
+        {
+            "source": "喷气背包",
+            "target": "装填喷气背包"
+        },
+        {
+            "source": "聚变反应堆MK3-升级",
+            "target": "定位器"
+        },
+        {
+            "source": "重要的工具",
+            "target": "让我们荡起双桨（Row, Row, Row Your Boat）"
+        },
+        {
+            "source": "让我们荡起双桨（Row, Row, Row Your Boat）",
+            "target": "橡皮艇"
+        },
+        {
+            "source": "天使翅膀",
+            "target": "秘密-天使-刺客"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "秘密-天使-刺客"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "比梯子好多了"
+        },
+        {
+            "source": "植物魔法注魔",
+            "target": "用腰带加速"
+        },
+        {
+            "source": "熔炼!",
+            "target": "蒸汽机车"
+        },
+        {
+            "source": "火车头0.1测试版",
+            "target": "蒸汽机车"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "爬坡助手"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "爬坡助手"
+        },
+        {
+            "source": "一种非常重要的合金",
+            "target": "手动转辙机"
+        },
+        {
+            "source": "猜火车",
+            "target": "手动转辙机"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "手动转辙机"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "传送机"
+        },
+        {
+            "source": "机器框架",
+            "target": "末影人的力量"
+        },
+        {
+            "source": "LV力场发生器",
+            "target": "末影人的力量"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "横贯铁路"
+        },
+        {
+            "source": "猜火车",
+            "target": "横贯铁路"
+        },
+        {
+            "source": "横贯铁路",
+            "target": "横贯大陆的高速铁路"
+        },
+        {
+            "source": "工业高炉时代",
+            "target": "横贯大陆的高速铁路"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "横贯大陆的防爆铁路"
+        },
+        {
+            "source": "横贯铁路",
+            "target": "横贯大陆的防爆铁路"
+        },
+        {
+            "source": "复仇者联盟,组装!",
+            "target": "横贯大陆的电力轨道"
+        },
+        {
+            "source": "横贯铁路",
+            "target": "横贯大陆的电力轨道"
+        },
+        {
+            "source": "矿车",
+            "target": "猜火车"
+        },
+        {
+            "source": "旅行者的装备",
+            "target": "旅行者靴子升级"
+        },
+        {
+            "source": "末影人的力量",
+            "target": "瞬移!"
+        },
+        {
+            "source": "充能晶体",
+            "target": "瞬移!"
+        },
+        {
+            "source": "来自空间中的中子素",
+            "target": "传送²"
+        },
+        {
+            "source": "瞬移!",
+            "target": "传送²"
+        },
+        {
+            "source": "更炫酷的靴子",
+            "target": "蹬鼻子上脸"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "蹬鼻子上脸"
+        },
+        {
+            "source": "量子装甲",
+            "target": "跨越星河"
+        },
+        {
+            "source": "蹬鼻子上脸",
+            "target": "跨越星河"
+        },
+        {
+            "source": "撬棍",
+            "target": "更多不同的木轨"
+        },
+        {
+            "source": "像...玛丽·波平斯一样飞?",
+            "target": "飞行时工作?"
+        },
+        {
+            "source": "你的第一根法杖",
+            "target": "就像在动漫中一样!"
+        }
+    ]
+}

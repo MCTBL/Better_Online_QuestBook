@@ -1,0 +1,2310 @@
+{
+    "data": [
+        {
+            "name": "偏二甲肼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/856.png",
+            "x": 120.0,
+            "y": 432.0,
+            "data": "要制造偏二甲肼,你需要将2单位的肼和2单位的甲醛以及4单位的氢气配合甲醛催化剂在化工厂内进行反应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADWA==",
+            "tooltip": "<strong>偏二甲肼</strong></br>前置任务需求:</br>甲醛"
+        },
+        {
+            "name": "2-乙基蒽氢醌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2690.png",
+            "x": 120.0,
+            "y": 156.0,
+            "data": "想要制备这种听起来很厉害的化学物质,你需要将名字类似的2-乙基蒽醌和氢配合橙色催化剂在化工厂内结合.%n%n[note]你需要钯来制造催化剂.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKgg==",
+            "tooltip": "<strong>2-乙基蒽氢醌</strong></br>前置任务需求:</br>2-乙基蒽醌</br>再沉...什么?"
+        },
+        {
+            "name": "2-乙基蒽醌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2691.png",
+            "x": 180.0,
+            "y": 156.0,
+            "data": "还有人想知道为什么这些化学物质的名称中有数字吗? 没有? 只有我? 继续前进,将邻苯二甲酸酐粉和乙苯在化工厂内结合以制备2-乙基蒽醌.%n%n顺便一提,另一个配方在处理链的后期会用到. 你可以循环使用2-乙基蒽醌,如果你不打算扩大产能的话,这些就够了.%n%n[note]下一个任务,你会需要钯.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKgw==",
+            "tooltip": "<strong>2-乙基蒽醌</strong></br>前置任务需求:</br>你怎么念?"
+        },
+        {
+            "name": "更好的火箭燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6913291740074859566.png",
+            "x": 132.0,
+            "y": 84.0,
+            "data": "如果你想去比火星更远的太空,那么你需要更好的火箭燃料.从这里开始,只有一个选择.化工厂是产线的核心.如果你还没做化工厂,你应该研究一下.它有四个独立的等级系统,一开始可能有点令人生畏,但有本MC手册可以告诉你关于它的全部信息.另外,请查看GT++任务栏中的化工厂任务.%n%n[warn]请注意不要参考NEI预览化工厂,它是错的.[/warn]%n%nWIKI 埃克森美孚化工厂：https://gtnh.huijiwiki.com/wiki/埃克森美孚化工厂",
+            "quest_id": "qz7VHLFvQx6gDw3KZDIj0g==",
+            "tooltip": "<strong>更好的火箭燃料</strong></br>前置任务需求:</br>RP-1火箭燃料</br>硝基!(高十六烷值柴油)"
+        },
+        {
+            "name": "生成氧气的更好方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8825008741784511339.png",
+            "x": 1128.0,
+            "y": 276.0,
+            "data": "这是一种一体化氧气生产方案.只需要给它一个小麦种子然后持续提供能量即可.",
+            "quest_id": "wB7bY61aRE6Fh0VOZjeclQ==",
+            "tooltip": "<strong>生成氧气的更好方式</strong></br>前置任务需求:</br>4阶火箭"
+        },
+        {
+            "name": "高级晶圆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/831.png",
+            "x": 408.0,
+            "y": 60.0,
+            "data": "更先进的晶圆可以制造更先进的机器,比如高级太阳能板和进入星辰大海最重要的终极工作台. 高级晶圆也可以用于建立空间站.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADPw==",
+            "tooltip": "<strong>高级晶圆</strong></br>前置任务需求:</br>晶圆1"
+        },
+        {
+            "name": "气密闸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1465.png",
+            "x": 636.0,
+            "y": 84.0,
+            "data": "气密闸是一种气密门,用于连通封闭的房间之间或封闭的房间与外部空间. 它由气密框架和一个气闸控制器制成.%n%n气密闸将在房间关闭时保存室内空气. 但是当气闸打开时,房间不再密封,必须佩戴氧气装置,直到气闸关闭. 在极端温度的环境中,还必须装备隔热套装.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFuQ==",
+            "tooltip": "<strong>气密闸</strong></br>前置任务需求:</br>氧气供给器"
+        },
+        {
+            "name": "弧光灯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1464.png",
+            "x": 984.0,
+            "y": 132.0,
+            "data": "弧光灯是一种非常明亮的灯. 它是指向性的————意味着它会在所朝向的方向投射更亮的光线. 可以使用标准扳手旋转其朝向.%n%n包括弧光灯在内,靠近光源的方块的亮度为:%n%n红石火把:3-6%n火把:9-12%n萤石:10-13%n弧光灯:13-14%n%n弧光灯可以照亮相当大的区域--例如整个房间--使其光照等级为14:几乎和白昼时一样明亮.%n%n弧光灯也具有主动驱逐怪物的有趣特性. 它的光线不仅可以防止怪物在附近生成,而且无比明亮,以至于怪物靠近它们,就会转身走开. 这种怪物驱逐效果被证实可用于:僵尸、骷髅、爬行者、进化的僵尸、进化的骷髅、进化的爬行者. 它也适用于其他类型的怪物(需要确认). 但它对蜘蛛(它们不怕阳光)或boss怪没有影响.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFuA==",
+            "tooltip": "<strong>弧光灯</strong></br>前置任务需求:</br>3阶火箭"
+        },
+        {
+            "name": "一份奖励",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/214.png",
+            "x": 456.0,
+            "y": 216.0,
+            "data": "一步步走到这里可不容易!不过,抵达月球仅仅是旅程的开始,因为以后游戏中还有更强大而更有趣的东西.你已经证明了你非常强大,并且已经成功通过了这一阶段的挑战. 祝贺你!%n%n选择一个奖励任务吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA1g==",
+            "tooltip": "<strong>一份奖励</strong></br>前置任务需求:</br>月球地牢"
+        },
+        {
+            "name": "你准备好了吗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1068.png",
+            "x": 300.0,
+            "y": 252.0,
+            "data": "你准备好去月球了吗？多准备一些东西可以帮助你活下去,防止你死在月球上.%n%n如果你在月球上死掉那么你将两手空空地回到地球. 坟墓就在你死亡的地方. 灵魂绑定附魔可以在你死亡时把该物品留在你身上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAELA==",
+            "tooltip": "<strong>你准备好了吗？</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "太空采矿机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1450.png",
+            "x": 780.0,
+            "y": 84.0,
+            "data": "太空采矿机是一种自动采矿车辆,它可以四处移动,开凿隧道并挖掘所有发现的东西,然后将其全部带回到停靠的基地. 它不是玩家可乘坐的载具,所以不要试图爬进它内部!%n%n[note]这玩意对GT矿石有效,这实在是太不科学了,违背了wiki上的说法.不过这玩意非常非常笨...而且还慢. 而且貌似会丢掉一多半的矿石. 如果你需要巨量的星球石头,可以考虑用这玩意,至于矿石就算了...[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFqg==",
+            "tooltip": "<strong>太空采矿机</strong></br>前置任务需求:</br>太空采矿机设计图"
+        },
+        {
+            "name": "太空采矿机基地",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1451.png",
+            "x": 780.0,
+            "y": 36.0,
+            "data": "要构建码头,将8个太空采矿机基地方块摆放成一个立方体,2x2x2. 当放置最后一个基地方块后,它应自动转换为太空采矿机基地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFqw==",
+            "tooltip": "<strong>太空采矿机基地</strong></br>前置任务需求:</br>太空采矿机"
+        },
+        {
+            "name": "太空采矿机设计图",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1447.png",
+            "x": 780.0,
+            "y": 132.0,
+            "data": "太空采矿机需要一个设计图. 在NASA工作台的最后一页中解锁设计图. %n%n如果你在此前版本已经消耗设计图,将其合成为了设计图芯片,可通过激光蚀刻机将其还原成设计图.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFpw==",
+            "tooltip": "<strong>太空采矿机设计图</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "0阶火箭?什么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7352238207613032698.png",
+            "x": 348.0,
+            "y": 456.0,
+            "data": "你不能乘坐这个火箭去往任何行星或者卫星,并且它还是最贵的-亏死了?不见得!通过穿梭机火箭,你可以建造和使用一艘母舰.%n%n穿梭机火箭需要和T8火箭相同的燃料.",
+            "quest_id": "Oiy66UDmTVeZ95pN0yunBg==",
+            "tooltip": "<strong>0阶火箭?什么?</strong></br>前置任务需求:</br>不需要击败boss!多么令人伤心!</br>穿梭机的脚,踩踩踩...</br>穿梭机鼻锥"
+        },
+        {
+            "name": "菌泥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1469.png",
+            "x": 636.0,
+            "y": 228.0,
+            "data": "菌泥是一种在火星上自然产生的流体方块. 它在火星巨大的地下洞穴中少量生成.%n%n收集它以生产基因工业(gendustry)蜜蜂突变的诱变剂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFvQ==",
+            "tooltip": "<strong>菌泥</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "更大的氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1437.png",
+            "x": 552.0,
+            "y": 132.0,
+            "data": "中型氧气罐是一种储氧罐,可容纳多达2000个单位的氧气. 它可以在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐.要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的GalactiCraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFnQ==",
+            "tooltip": "<strong>更大的氧气罐</strong></br>前置任务需求:</br>找一些陨铁"
+        },
+        {
+            "name": "助推器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1431.png",
+            "x": 588.0,
+            "y": 216.0,
+            "data": "地球到火星的距离远远大于到月球,因此火箭需要助推器才能到达.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFlw==",
+            "tooltip": "<strong>助推器</strong></br>前置任务需求:</br>2阶重型装甲板"
+        },
+        {
+            "name": "2阶助推器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1731.png",
+            "x": 1080.0,
+            "y": 384.0,
+            "data": "现在行星和卫星之间的距离要大得多,因此火箭需要更大的助推器才能到达目的地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGww==",
+            "tooltip": "<strong>2阶助推器</strong></br>前置任务需求:</br>5阶重型装甲板"
+        },
+        {
+            "name": "3阶助推器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2704.png",
+            "x": 732.0,
+            "y": 492.0,
+            "data": "现如今,你想到达的星球之间的距离越来越远,因此火箭需要更大的助推器来达到目的地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKkA==",
+            "tooltip": "<strong>3阶助推器</strong></br>前置任务需求:</br>7阶重型装甲板"
+        },
+        {
+            "name": "4阶助推器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2709.png",
+            "x": 480.0,
+            "y": 516.0,
+            "data": "不同星系之间的距离是天文数字,因此火箭需要更巨大的助推器才能到达目的地.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKlQ==",
+            "tooltip": "<strong>4阶助推器</strong></br>前置任务需求:</br>8阶重型装甲板"
+        },
+        {
+            "name": "车座",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/817.png",
+            "x": 444.0,
+            "y": 120.0,
+            "data": "车座是登陆舱的组件之一.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADMQ==",
+            "tooltip": "<strong>车座</strong></br>前置任务需求:</br>频率模块"
+        },
+        {
+            "name": "我能为我的父亲建造一艘母舰吗？",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4765124701548164912.png",
+            "x": 456.0,
+            "y": 360.0,
+            "data": "母舰是一个可以移动到其他天体(甚至恒星!)的空间站.它是唯一能到达最外层的星系——阿蒙·拉星系的方法.阿蒙·拉星系有总共六个行星和卫星可以登陆.最重要的一个是赛特,在它上面可以找到生镃矿石.",
+            "quest_id": "1R8whL35Qnm93uBUpchI0A==",
+            "tooltip": "<strong>我能为我的父亲建造一艘母舰吗？</strong></br>前置任务需求:</br>0阶火箭?什么?</br>别告诉我我需要看纸质地图！"
+        },
+        {
+            "name": "货运火箭:纯粹是为了好玩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/205.png",
+            "x": 732.0,
+            "y": 84.0,
+            "data": "不需要仅仅为了运输矿物,而亲自飞到遥远的行星去.%n%n[note]实用性:有待商榷.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAzQ==",
+            "tooltip": "<strong>货运火箭:纯粹是为了好玩</strong></br>前置任务需求:</br>货运火箭设计图</br>目标:火星</br>发射控制器"
+        },
+        {
+            "name": "货运火箭设计图",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1449.png",
+            "x": 732.0,
+            "y": 132.0,
+            "data": "货运火箭能够在星际间运输固体物品,是在不依赖于末影箱子的情况下在星际间运输物品的完美方式.%n%n这枚火箭可装载2000L火箭燃料. 安全燃料水平为80％.%n%n你可以用箱子填入正确的插槽,以将存储空间增加到36以及54格.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFqQ==",
+            "tooltip": "<strong>货运火箭设计图</strong></br>前置任务需求:</br>火星地牢"
+        },
+        {
+            "name": "岩穴藤蔓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1470.png",
+            "x": 636.0,
+            "y": 276.0,
+            "data": "岩穴藤蔓是一种有毒植物,在火星地下自然生长. 它在巨大的洞穴中从天花板一直长到地板上,布满菌泥,还可发光,可以捕捉到它里面的怪物.%n%n任何接触这种植物的怪物都会中毒,被困住并失去生命值至1生命值(半心). 像僵尸和骷髅一样对中毒免疫的怪物不会失去生命值.%n%n它们从固体方块的底部向下生长,直到距离地面1个方块.%n%n可以用手破坏经过的岩穴藤蔓,但你会受到伤害或中毒而它们没有掉落物,即使使用精准采集附魔也不会获得任何东西. 用剪刀可以获取其物品形式.%n%n获得之后,你就可以将它们种在其他地方,它们就可以重新生长,就像仙人掌一样.%n%n[note]这意味着...它们仍然毫无用处.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFvg==",
+            "tooltip": "<strong>岩穴藤蔓</strong></br>前置任务需求:</br>菌泥"
+        },
+        {
+            "name": "谷神星地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1530.png",
+            "x": 984.0,
+            "y": 180.0,
+            "data": "谷神星地牢与之前的地牢机制一样,谷神星BOSS将掉落宝箱钥匙,宝箱中有4阶火箭的设计图.%n%n而4阶火箭将带你前往金星和水星以及木星的卫星.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF-g==",
+            "tooltip": "<strong>谷神星地牢</strong></br>前置任务需求:</br>3阶火箭"
+        },
+        {
+            "name": "CN3H7O3(紫色)火箭燃料",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2688.png",
+            "x": 150.0,
+            "y": 318.0,
+            "data": "想要制造T5火箭需要的CN3H7O3,你需要将一甲基肼和硝酸在化工厂内结合. 别忘了把你的化工厂升级为钨钢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKgA==",
+            "tooltip": "<strong>CN3H7O3(紫色)火箭燃料</strong></br>前置任务需求:</br>硝酸</br>一甲基肼"
+        },
+        {
+            "name": "煤焦蒸馏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2685.png",
+            "x": 96.0,
+            "y": 84.0,
+            "data": "有两种方法能制取邻苯二甲酸.此任务将介绍其中一种,而另一种将在IV章节中介绍.不过,我们不仅需要煤焦用于生产邻苯二甲酸,还需要它来生产蒽!%n%n想要蒸馏获得煤焦,你需要先准备一下. 使用工业焦炉或热解炉,处理木炭、褐煤、煤或焦煤.%n%n由于你需要多种产物,所以使用蒸馏塔吧. 除了石脑油以外,其他所有产物都可用于制造火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKfQ==",
+            "tooltip": "<strong>煤焦蒸馏</strong></br>前置任务需求:</br>你闻起来像掉到了酒桶里!</br>更好的火箭燃料"
+        },
+        {
+            "name": "密集肼",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2686.png",
+            "x": 150.0,
+            "y": 234.0,
+            "data": "从T3火箭开始需要密集肼作为燃料,为了星辰大海,你得制造一些.%n%n它是5阶240EU/t的配方,所以你需要钛建造的化工厂.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKfg==",
+            "tooltip": "<strong>密集肼</strong></br>前置任务需求:</br>肼"
+        },
+        {
+            "name": "终极工作台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/809.png",
+            "x": 444.0,
+            "y": 84.0,
+            "data": "Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话,它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV部件、晶圆,以及一个水晶矩阵.然后...没错,你确实需要很多下界之星.%n%n提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.%n%n另外,如果你搞不到凋灵骷髅头,劈刀或者炽焰之啄颅剑都挺好用的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADKQ==",
+            "tooltip": "<strong>终极工作台</strong></br>前置任务需求:</br>高级晶圆"
+        },
+        {
+            "name": "它包含了一个黑洞吗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6419188510011851715.png",
+            "x": 456.0,
+            "y": 300.0,
+            "data": "人工重力发生器让你能随意改变它附近的重力场.人工重力干扰器在开启时能让装备它的人不受改变的重力影响.%n%n[note]可别用它来做坏事...[/note]",
+            "quest_id": "rfqcIf4uT--m6nYPenl8PQ==",
+            "tooltip": "<strong>它包含了一个黑洞吗？</strong></br>前置任务需求:</br>我能为我的父亲建造一艘母舰吗？"
+        },
+        {
+            "name": "别告诉我我需要看纸质地图！",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5127090567145017193.png",
+            "x": 444.0,
+            "y": 432.0,
+            "data": "母舰导航控制台用于选择母舰的目的地。",
+            "quest_id": "hB5tvfilRVi42OpLLhCwlw==",
+            "tooltip": "<strong>别告诉我我需要看纸质地图！</strong></br>前置任务需求:</br>2阶纳米锻炉</br>8阶火箭</br>UHV阶段更难,更好,更快,更强... Pt 2"
+        },
+        {
+            "name": "土卫二地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2752.png",
+            "x": 1032.0,
+            "y": 492.0,
+            "data": "经过无数小时的寻找,你终于发现了土卫二地牢. 土卫二Boss将掉落宝箱钥匙,宝箱中有6阶火箭的设计图.%n%n这将解锁海王星的卫星.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKwA==",
+            "tooltip": "<strong>土卫二地牢</strong></br>前置任务需求:</br>5阶火箭"
+        },
+        {
+            "name": "EVA装备",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1732.png",
+            "x": 1128.0,
+            "y": 228.0,
+            "data": "能飞的时候谁想在表面上跋涉？ 用喷气背包升级你的胸甲并在金星周围飞行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGxA==",
+            "tooltip": "<strong>EVA装备</strong></br>前置任务需求:</br>到熔融之海底部的旅程"
+        },
+        {
+            "name": "特大型燃料罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2703.png",
+            "x": 744.0,
+            "y": 528.0,
+            "data": "每枚火箭都需要燃料罐. 对于7阶火箭,你需要制作两个大型和两个特大型燃料罐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKjw==",
+            "tooltip": "<strong>特大型燃料罐</strong></br>前置任务需求:</br>7阶重型装甲板"
+        },
+        {
+            "name": "炫酷!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8282566777789973916.png",
+            "x": 516.0,
+            "y": 360.0,
+            "data": "你需要一个火箭引擎来驱动你的母舰.每个火箭引擎由一个火箭引擎喷口和1到10个火箭引擎方块纵向排列组成.每个火箭引擎方块提供2M牛顿的推力,最多可以装载10,000L的硅岩基流体燃料-MkII.%n%n[note]母舰的重量被固定为1500kg, 所以你可以随意设计你的超级太空游轮. 需要的引擎数量始终不变.[/note]",
+            "quest_id": "OaE5CLFfQ8CNDmlmBWB6ZA==",
+            "tooltip": "<strong>炫酷!</strong></br>前置任务需求:</br>我能为我的父亲建造一艘母舰吗？"
+        },
+        {
+            "name": "超炫酷!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6780762385437645051.png",
+            "x": 564.0,
+            "y": 360.0,
+            "data": "离子推进器是火箭引擎的进阶版本.每个离子推进器方块提供25M牛顿的推力,最多可以装载2,000L的氙.它还需要电力.",
+            "quest_id": "zLE6OyCFT8ih5eSJVainBQ==",
+            "tooltip": "<strong>超炫酷!</strong></br>前置任务需求:</br>炫酷!"
+        },
+        {
+            "name": "找一些陨铁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1426.png",
+            "x": 516.0,
+            "y": 132.0,
+            "data": "要达到像火星或它的卫星火卫一和火卫二这样的T2星球,你需要一个更好的火箭. 你的下一个目标需要陨铁制作2阶火箭重型装甲板.%n%n在地表下能找到贫瘠陨铁矿.使用HV采矿机或多方块采矿场以获得对贫瘠矿的增产.贫瘠陨铁矿只存在于Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFkg==",
+            "tooltip": "<strong>找一些陨铁</strong></br>前置任务需求:</br>月球地牢"
+        },
+        {
+            "name": "甲醛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/857.png",
+            "x": 120.0,
+            "y": 396.0,
+            "data": "在化工厂中将甲醛催化剂、氧气和甲醇进行反应会产生一些甲醛.%n%n你可以使用热解炉,从几种来源中蒸馏出甲醇,也可以使用你在工业高炉中收集的二氧化碳气体制取甲醇.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADWQ==",
+            "tooltip": "<strong>甲醛</strong></br>前置任务需求:</br>甲醛催化剂"
+        },
+        {
+            "name": "甲醛催化剂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2395.png",
+            "x": 120.0,
+            "y": 360.0,
+            "data": "制取甲醛需要催化剂.你需要在搅拌机中混合铁粉和钒粉,把得到的粉末和催化剂载体放进组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJWw==",
+            "tooltip": "<strong>甲醛催化剂</strong></br>前置任务需求:</br>CN3H7O3(紫色)火箭燃料"
+        },
+        {
+            "name": "频率模块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/818.png",
+            "x": 408.0,
+            "y": 96.0,
+            "data": "频率模块可以帮助你在宇宙中正常的听见声音.(如果你是和你的朋友一起玩的话,你可以将它和遥感装置一起使用,这样你的朋友可以在基地里看到你的位置.) 你的装备栏和登陆舱需要使用它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADMg==",
+            "tooltip": "<strong>频率模块</strong></br>前置任务需求:</br>晶圆1"
+        },
+        {
+            "name": "给你的月球车加油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1436.png",
+            "x": 516.0,
+            "y": 96.0,
+            "data": "月球车需要燃料才能工作. 构建一个3x3燃料补给台,将其与燃料注入器连接,并将月球车放在上面.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFnA==",
+            "tooltip": "<strong>给你的月球车加油</strong></br>前置任务需求:</br>月球巡逻队"
+        },
+        {
+            "name": "加油站",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/821.png",
+            "x": 264.0,
+            "y": 180.0,
+            "data": "将燃料注入火箭需要一台燃料注入机. 将它放置到发射台任何一侧的中部.绿色的面是输入能量面,而黄色面是输出燃料面.要是你不想浪费单元的话,用管道泵入燃料吧.%n%n如果不想被动流失能量,或是另拉一条电线的话,你可以使用电池为其供能.%n%n[note]火箭着陆时,会保留其内的燃料,所以除非你想一次造访多个星球,其他情况下无需携带燃料注入机. 要是你没有加满燃料的话另当别论.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADNQ==",
+            "tooltip": "<strong>加油站</strong></br>前置任务需求:</br>小型燃料罐"
+        },
+        {
+            "name": "气态行星",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3209.png",
+            "x": 984.0,
+            "y": 276.0,
+            "data": "你可能还想要全面了解可以通过行星气体钻机采集到些什么.所以让我们开始吧：%n%n%n木星%n1 氢 - 15000 L/s%n2 氦 - 500 L/s%n3 氮 - 300 L/s%n4 氧 - 200 L/s%n%n土星%n1 氢 - 18000 L/s%n2 氦 - 800 L/s%n3 氧 - 500 L/s%n4 液氧 - 150 L/s%n%n天王星%n1 氘 - 5000 L/s%n2 氖 - 450 L/s%n3 氩 - 250 L/s%n4 氪 - 100 L/s%n%n海王星%n1 氚 - 3000 L/s%n2 氦-3 - 500 L/s%n3 氨 - 400 L/s%n4 氙 - 350 L/s",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMiQ==",
+            "tooltip": "<strong>气态行星</strong></br>前置任务需求:</br>太空钻机"
+        },
+        {
+            "name": "抓钩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1472.png",
+            "x": 540.0,
+            "y": 252.0,
+            "data": "抓钩是一只钩爪配上绳子,玩家抛出后,会向抛出的方向摆动. 对于到达跳不上去的高处或在小行星间旅行非常有用. [note](或者,你懂的,飞翔.)[/note]%n%n按住右键以将抓钩瞄准想要到达的方块,类似于弓的瞄准. 释放右键--类似于用弓箭射击--将自己拉往瞄准的方向.%n%n为了获得最佳效果,将抓钩瞄准比你想要到达的点高1或2格的位置.%n%n如果此时没有可供安全落地的平台,你会摔下去,受到掉落伤害,因此安全使用抓钩需要一些技巧.%n%n在下界传送门、末地传送门或是低高度的空间站上(Y小于30)使用抓钩得小心一点. 如果抓钩跨越维度,可能会产生奇怪的后果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFwA==",
+            "tooltip": "<strong>抓钩</strong></br>前置任务需求:</br>隔热布匹"
+        },
+        {
+            "name": "宇航服-重力靴子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1734.png",
+            "x": 1176.0,
+            "y": 180.0,
+            "data": "这些靴子可以帮助你在低重力环境中更快地坠落. 也有可能不行,也许吧...试一试.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGxg==",
+            "tooltip": "<strong>宇航服-重力靴子</strong></br>前置任务需求:</br>到熔融之海底部的旅程"
+        },
+        {
+            "name": "H8N4C2O4(绿色)火箭燃料",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/147.png",
+            "x": 150.0,
+            "y": 474.0,
+            "data": "这是终极的火箭燃料,你可以凭借它到达任何地方. 当然,还要有合适的火箭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAkw==",
+            "tooltip": "<strong>H8N4C2O4(绿色)火箭燃料</strong></br>前置任务需求:</br>四氧化二氮</br>重大升级</br>偏二甲肼"
+        },
+        {
+            "name": "3阶重型火箭鼻锥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1727.png",
+            "x": 1008.0,
+            "y": 360.0,
+            "data": "每枚火箭都需要一个鼻锥. 5阶火箭需要一个3阶重型火箭鼻锥.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGvw==",
+            "tooltip": "<strong>3阶重型火箭鼻锥</strong></br>前置任务需求:</br>5阶重型装甲板"
+        },
+        {
+            "name": "4阶重型火箭鼻锥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2707.png",
+            "x": 756.0,
+            "y": 420.0,
+            "data": "每枚火箭都需要一个鼻锥. 7阶火箭需要一个4阶重型火箭鼻锥.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKkw==",
+            "tooltip": "<strong>4阶重型火箭鼻锥</strong></br>前置任务需求:</br>7阶重型装甲板"
+        },
+        {
+            "name": "3阶重型火箭引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1728.png",
+            "x": 1080.0,
+            "y": 432.0,
+            "data": "每枚火箭都需要火箭引擎. 5阶和6阶火箭需要3阶重型火箭引擎.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGwA==",
+            "tooltip": "<strong>3阶重型火箭引擎</strong></br>前置任务需求:</br>2阶助推器"
+        },
+        {
+            "name": "4阶重型火箭引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2705.png",
+            "x": 684.0,
+            "y": 492.0,
+            "data": "每枚火箭都需要火箭引擎. 7阶和8阶火箭需要3阶重型火箭引擎.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKkQ==",
+            "tooltip": "<strong>4阶重型火箭引擎</strong></br>前置任务需求:</br>3阶助推器"
+        },
+        {
+            "name": "3阶重型火箭鳍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1729.png",
+            "x": 1044.0,
+            "y": 372.0,
+            "data": "每枚火箭都需要一些火箭鳍. 5阶火箭需要3阶重型火箭鳍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGwQ==",
+            "tooltip": "<strong>3阶重型火箭鳍</strong></br>前置任务需求:</br>5阶重型装甲板"
+        },
+        {
+            "name": "4阶重型火箭鳍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2706.png",
+            "x": 744.0,
+            "y": 456.0,
+            "data": "每枚火箭都需要一些火箭鳍. 7阶火箭需要4阶重型火箭鳍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKkg==",
+            "tooltip": "<strong>4阶重型火箭鳍</strong></br>前置任务需求:</br>7阶重型装甲板"
+        },
+        {
+            "name": "重型火箭发动机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1458.png",
+            "x": 840.0,
+            "y": 120.0,
+            "data": "每枚火箭都需要火箭发动机. 3阶和4阶火箭需要重型火箭发动机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFsg==",
+            "tooltip": "<strong>重型火箭发动机</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "重型火箭鳍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1459.png",
+            "x": 828.0,
+            "y": 84.0,
+            "data": "每枚火箭都需要一些火箭鳍. 3阶火箭需要重型火箭鳍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFsw==",
+            "tooltip": "<strong>重型火箭鳍</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "重型火箭鼻锥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1457.png",
+            "x": 864.0,
+            "y": 204.0,
+            "data": "每枚火箭都需要一个鼻锥. 3阶火箭需要一个重型火箭鼻锥.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFsQ==",
+            "tooltip": "<strong>重型火箭鼻锥</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "氦3和月球上的盐水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1742.png",
+            "x": 372.0,
+            "y": 252.0,
+            "data": "月球富含氦-3,它已被吹拂了数十亿年的太阳风嵌入月球的表层.%n%n还有少量的盐水,电解可以获得氯. 而你需要大量的氯来处理金红石,以得到钛.%n%n还有更多行星和卫星的基岩下方会生成气体和液体.带上多方块钻机来收集这些流体吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGzg==",
+            "tooltip": "<strong>氦3和月球上的盐水</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "你怎么念?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2692.png",
+            "x": 180.0,
+            "y": 120.0,
+            "data": "想要制造邻苯二甲酸酐粉,你需要脱水机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKhA==",
+            "tooltip": "<strong>你怎么念?</strong></br>前置任务需求:</br>邻苯二甲酸,酷孩子的方式"
+        },
+        {
+            "name": "我该怎么为这*玩意充电?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2848.png",
+            "x": 1176.0,
+            "y": 228.0,
+            "data": "鉴于有许多玩家对此提出疑问,并且它确实与相当多的方法都不兼容,我们在这个任务告诉了你什么可以为它有效充电.%n%n[note]你只需要选择其一.[/note]%n%n另外别忘了,如果你只想充电的话,能量存储模块/储能簇可以接收EU输入,而太阳能板却不行(而太阳风发电机因为某些原因也不兼容...).更高级的充电更快(高级太阳能板只需指向太阳即可在整个白天以100％%功率发电,而普通太阳能板只能在正午发电,另外混合太阳能板更快.而且混合太阳能板再也不会只是放下来就让游戏崩溃了!)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALIA==",
+            "tooltip": "<strong>我该怎么为这*玩意充电?</strong></br>前置任务需求:</br>EVA装备"
+        },
+        {
+            "name": "肼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2394.png",
+            "x": 180.0,
+            "y": 192.0,
+            "data": "在化学反应釜中将氨和过氧化氢反应可以制取出肼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJWg==",
+            "tooltip": "<strong>肼</strong></br>前置任务需求:</br>氨1</br>过氧化氢"
+        },
+        {
+            "name": "过氧化氢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2396.png",
+            "x": 120.0,
+            "y": 192.0,
+            "data": "过氧化氢需在GT++化工厂制取.  将空气、2-乙基蒽氢醌和蒽进行反应.%n%n2-乙基蒽醌是可以完全回收的,所以不用做太多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJXA==",
+            "tooltip": "<strong>过氧化氢</strong></br>前置任务需求:</br>2-乙基蒽氢醌</br>氨1"
+        },
+        {
+            "name": "木卫一地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1723.png",
+            "x": 1080.0,
+            "y": 276.0,
+            "data": "经过无数小时的岩浆游泳,你会发现木卫一地牢.木卫一Boss将掉落宝箱钥匙,宝箱中有5阶火箭的设计图.%n%n这将解锁土星和天王星的卫星.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGuw==",
+            "tooltip": "<strong>木卫一地牢</strong></br>前置任务需求:</br>4阶火箭"
+        },
+        {
+            "name": "到熔融之海底部的旅程",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1733.png",
+            "x": 1128.0,
+            "y": 180.0,
+            "data": "金星很热,很热,它可以融化铅.最重要的是,金星大气是如此厚实,90倍于主世界,它将粉碎你.更不用说还有硫酸了! 你需要制造一套特殊的套装才能在金星上生存,而不会立即死亡.%n%n[note]一些盔甲现在也可以在这些大气中生存.在它们的tooltip中会有说明.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGxQ==",
+            "tooltip": "<strong>到熔融之海底部的旅程</strong></br>前置任务需求:</br>4阶火箭控制电脑"
+        },
+        {
+            "name": "大型燃料罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1730.png",
+            "x": 1152.0,
+            "y": 360.0,
+            "data": "每个火箭都需要燃料罐. 对于5阶火箭,你需要制作两个中型和两个重型燃料罐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGwg==",
+            "tooltip": "<strong>大型燃料罐</strong></br>前置任务需求:</br>5阶重型装甲板"
+        },
+        {
+            "name": "重型氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1468.png",
+            "x": 684.0,
+            "y": 276.0,
+            "data": "重型氧气罐是一个储氧罐,最多可容纳4000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFvA==",
+            "tooltip": "<strong>重型氧气罐</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "发射控制器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1452.png",
+            "x": 684.0,
+            "y": 132.0,
+            "data": "发射控制器在GTNH中被修改，提供额外的功能.在发射控制器连接的火箭发射平台上发射火箭,如果设置合适的话,倒数时间可以很短,而且你会直接被传送到接收平台.虽然这会消耗最大燃料存储的一半燃料. 这一操作在高延迟服务器中十分有用,可以作为没有魔法手段时候的传送手段.你需要放置一个带有发射控制器的火箭发射台,可能还有一个燃料注入器在另一边.%n%n如果你不为自己使用火箭,你可以试试使用货运火箭.要使用满载货运火箭,需要装备一个火箭发射台,用于发送物品,包括:%n%n燃料注入器%n发射控制器%n货物装载器%n以及接收方:%n%n燃料注入器%n发射控制器%n货物卸载器%n%n也可以使用BC管道(不存在的)将物品转移到火箭中. 下一步是在两个发射控制器中设置频率(即设置:A到目标B,B到目标A). 查看发射控制器以设置自动发射. 第一次必须右键单击货运火箭并按右上角的发射.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFrA==",
+            "tooltip": "<strong>发射控制器</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "自动化装卸火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/204.png",
+            "x": 732.0,
+            "y": 36.0,
+            "data": "如果你不能自动装卸火箭的货物,那么有一个自动货运火箭有什么用？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAzA==",
+            "tooltip": "<strong>自动化装卸火箭</strong></br>前置任务需求:</br>目标:火星</br>货运火箭:纯粹是为了好玩"
+        },
+        {
+            "name": "液氧与面包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1371.png",
+            "x": 552.0,
+            "y": 48.0,
+            "data": "液态氧气罐是补充氧气罐的替代方案.%n%n将氧单元放入真空冷冻机中,即可得到1个液氧单元.将液氧转移到容器里,然后再转移到液态氧气罐中.%n%n要重新填充氧气罐,只需将罐和液态氧气罐放入氧气压缩机中即可传输氧气,也可以用氧气收集器.%n%n每个液氧单元可以装满4个重型氧气罐,6个中型氧气罐或12个轻型氧气罐.%n%n这太格雷了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFWw==",
+            "tooltip": "<strong>液氧与面包</strong></br>前置任务需求:</br>氧气压缩机"
+        },
+        {
+            "name": "火星地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1446.png",
+            "x": 732.0,
+            "y": 180.0,
+            "data": "火星地牢与月球地牢机制一样,火星BOSS将掉落宝箱钥匙,宝箱中有3阶火箭的设计图.%n%n如果你需要太空采矿机或货运火箭的设计图,杀死另一个火星BOSS并交换设计图.%n在你踏上回家的旅途前,请务必查看EV任务栏中所有有关火星的任务,看看是否有遗漏.%n%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFpg==",
+            "tooltip": "<strong>火星地牢</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "火星登陆舱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1432.png",
+            "x": 588.0,
+            "y": 144.0,
+            "data": "软登陆舱是软着陆所必需的. 将火星登陆舱放在降落伞上并用气囊包围-这样就可以了,希望吧.%n%n提示:有时你不能右键或破坏登陆舱.尝试将漏斗放在下方抽出物品. 为了避免这种情况,请在确认登陆舱完全停稳后再离开. 红灯停,绿灯行,每个人都要遵守对吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFmA==",
+            "tooltip": "<strong>火星登陆舱</strong></br>前置任务需求:</br>2阶重型装甲板"
+        },
+        {
+            "name": "中型燃料罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1460.png",
+            "x": 828.0,
+            "y": 276.0,
+            "data": "每个火箭都需要燃料储存罐. 对于3阶火箭,你需要制作两个轻型和两个中型燃料罐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFtA==",
+            "tooltip": "<strong>中型燃料罐</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "一甲基肼",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2687.png",
+            "x": 156.0,
+            "y": 276.0,
+            "data": "制造CN3H7O3(紫色)火箭燃料的必需品. 同样需要通过化工厂制造.%n%n[note]查询CN3H7O3的合成配方,可以找到一甲基肼的正确配方.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKfw==",
+            "tooltip": "<strong>一甲基肼</strong></br>前置任务需求:</br>密集肼"
+        },
+        {
+            "name": "抵达月球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1072.png",
+            "x": 300.0,
+            "y": 300.0,
+            "data": "我有一个小礼物送给你:一个护身符,在这无比黑暗满地怪物的夜晚很有用.%n%n首先,你必须证明你可以自己在月球上生存.挖掘一些月面草皮、泥土和岩石后,你就可以获得它.%n%n务必留意HV任务栏,看看在月球你需要寻找哪些矿物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEMA==",
+            "tooltip": "<strong>抵达月球</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "月球车设计图",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1435.png",
+            "x": 480.0,
+            "y": 132.0,
+            "data": "月球车需要一个设计图. 在NASA工作台的最后一页中解锁设计图. %n%n[note]如果你在此前版本已经消耗设计图,将其合成为了设计图芯片,可通过激光蚀刻机将其还原成设计图.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFmw==",
+            "tooltip": "<strong>月球车设计图</strong></br>前置任务需求:</br>月球地牢"
+        },
+        {
+            "name": "月球的白天和黑夜时间",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1445.png",
+            "x": 372.0,
+            "y": 216.0,
+            "data": "月球的昼夜周期为2小时40分钟,相当于8个主世界昼夜,它与主世界中的月相相关联. 月球上的白天从满月持续到下一个新月(4个主世界日,相当于1小时20分钟),相应的,黑夜从新月持续到下一个满月.%n%n自第一个主世界满月之夜发射,你降落后可以安全度过前4天的主世界日(月昼),然后接下来的4个主世界日更危险,因为敌对的怪物将能够在黑暗中生成,等等. 如果你计算错误,月相可以告诉你月球的昼夜更替. 满月是月球白天的开始,新月(或黑暗的)是月球黑夜的开始.%n%n在夜间,环境光线水平变得非常低,允许敌对的怪物在地面上生成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFpQ==",
+            "tooltip": "<strong>月球的白天和黑夜时间</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "月球地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1433.png",
+            "x": 480.0,
+            "y": 180.0,
+            "data": "在到处寻找陨铁时,你会发现一个月球地牢. 地牢入口看起来像一个深洞,别跟陨石坑搞混了. 去跟月球BOSS好好干一架吧.BOSS会掉落装有2阶火箭设计图的宝箱钥匙,而宝箱就在隔壁.%n%n如果你想要第二张2阶火箭设计图,以换取月球车设计图,那就在另一个地牢里再次杀死月球BOSS.%n%n打开NASA工作台的GUI,点击下一个,将设计图放入新增设计图页面内的插槽中,点击解锁设计图即可. 此解锁与玩家绑定,所以你可以放心地移动工作台.%n%n[note]如果你在此前版本已经消耗设计图,将其合成为了设计图芯片,可通过激光蚀刻机将其还原成设计图.[/note]%n%n[note]所有的地牢机制都是一样的,区别仅在于BOSS不同. 另外,有的时候BOSS房或者宝箱房没有生成,如果四周挖开都没找到的话,请再找一个地牢吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFmQ==",
+            "tooltip": "<strong>月球地牢</strong></br>前置任务需求:</br>火箭发射平台</br>加油站</br>1阶火箭</br>氧气压缩机"
+        },
+        {
+            "name": "登陆月球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/816.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "登陆月球应该实现软着陆. 因此你需要一个频率模块来探测月球上的一些状况,还需要一个舒服的座椅(后面可能还要造个月球车).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADMA==",
+            "tooltip": "<strong>登陆月球</strong></br>前置任务需求:</br>车座</br>火箭引擎"
+        },
+        {
+            "name": "月球巡逻队",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1434.png",
+            "x": 480.0,
+            "y": 96.0,
+            "data": "在月球或其他星球表面上移动得更快会很有趣. 我相信它完全安全.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFmg==",
+            "tooltip": "<strong>月球巡逻队</strong></br>前置任务需求:</br>月球车设计图"
+        },
+        {
+            "name": "萘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2694.png",
+            "x": 96.0,
+            "y": 120.0,
+            "data": "将煤焦油和硫酸混合以获得含硫煤焦油.%n%n然后蒸馏煤焦油获得萘. 看起来很简单? 会越来越难的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKhg==",
+            "tooltip": "<strong>萘</strong></br>前置任务需求:</br>煤焦蒸馏"
+        },
+        {
+            "name": "NASA工作台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2744.png",
+            "x": 336.0,
+            "y": 12.0,
+            "data": "NASA工作台用于装配火箭及其他相关载具. 把它造出来,然后走向你的星辰大海吧.%n%n[note]提示:请查看使用枯竭水晶和世界盐制造下界之星的合成表. 使用岩浆膏、烈焰粉和小撮下界之星粉即可复制枯竭水晶.[/note]%n%n[note]另外,如果你的凋灵骷髅头不足,可以试试制造劈刀或炽焰之啄颅剑.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKuA==",
+            "tooltip": "<strong>NASA工作台</strong></br>前置任务需求:</br>第3阶段(HV)</br>复仇者联盟3,组装!</br>处理器主机,你的第一种IV电路板"
+        },
+        {
+            "name": "漂亮又舒适 - 在太空!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1473.png",
+            "x": 780.0,
+            "y": 228.0,
+            "data": "即使在最寒冷的外层空间,这些保暖衣服也能让你保持温暖. 几乎所有3阶以上的星球都需要它们.%n%n[note]你还需要一些聚苯并咪唑(PBI).[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFwQ==",
+            "tooltip": "<strong>漂亮又舒适 - 在太空!</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "四氧化二氮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2293.png",
+            "x": 180.0,
+            "y": 360.0,
+            "data": "想要制取四氧化二氮,你需要将一些铜粉和硝酸配合橙色金属催化剂在化工厂内进行反应. 催化剂需要用到钯,你已经囤积了一些是吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI9Q==",
+            "tooltip": "<strong>四氧化二氮</strong></br>前置任务需求:</br>CN3H7O3(紫色)火箭燃料</br>硝酸</br>钯"
+        },
+        {
+            "name": "不需要击败boss!多么令人伤心!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5074117915743852125.png",
+            "x": 384.0,
+            "y": 492.0,
+            "data": "你不需要击败任何外星BOSS来获取这张图纸.但你还是得花点时间.%n%n在研究站中扫描8阶火箭设计图后,你可以用装配线制作穿梭机设计图.",
+            "quest_id": "gAchVo6VSBO5lRyjs6Rpow==",
+            "tooltip": "<strong>不需要击败boss!多么令人伤心!</strong></br>前置任务需求:</br>力场发生器(UHV)</br>8阶火箭</br>UHV阶段更难,更好,更快,更强... Pt 2"
+        },
+        {
+            "name": "氧气分配器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1440.png",
+            "x": 336.0,
+            "y": 300.0,
+            "data": "氧气分配器从氧气收集器中吸取氧气,并产生氧气气泡,提供一个安全呼吸的区域,无需供氧装备. 气泡是围绕分配器的球体,能穿过墙壁(或任何方块). 或者,你可以使用氧气供给器(需要压缩戴斯板)将氧气留在房间内.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFoA==",
+            "tooltip": "<strong>氧气分配器</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "氧气收集器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/828.png",
+            "x": 444.0,
+            "y": 48.0,
+            "data": "氧气收集器可以从树木或农作物中收集氧气,并提供给如氧气分配器、氧气供给器、氧气压缩机或其他需要氧气的设备.如果你打算在月球建立一个基地,那么就需要这个设备提供持续的氧气供应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADPA==",
+            "tooltip": "<strong>氧气收集器</strong></br>前置任务需求:</br>氧气罐"
+        },
+        {
+            "name": "氧气压缩机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/829.png",
+            "x": 516.0,
+            "y": 48.0,
+            "data": "氧气压缩机是用来补充未满或者已经耗尽的氧气罐内氧气的设备. 将氧气通过氧气管道连接到蓝色一侧输入机器内部,电源则要从灰色的面输入.在机器的GUI右下角放入氧气罐他就会将氧气压缩进氧气罐内.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADPQ==",
+            "tooltip": "<strong>氧气压缩机</strong></br>前置任务需求:</br>氧气罐"
+        },
+        {
+            "name": "供氧系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/822.png",
+            "x": 480.0,
+            "y": 12.0,
+            "data": "供氧系统是用来将氧气罐内的氧气输送至氧气面罩内. 这对宇航员来说可是非常重要的东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADNg==",
+            "tooltip": "<strong>供氧系统</strong></br>前置任务需求:</br>氧气面罩"
+        },
+        {
+            "name": "氧气面罩",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/823.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "氧气面罩是用来在没有氧气的行星上面呼吸的供氧系统的一部分.其他的还需要供氧设备和氧气罐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADNw==",
+            "tooltip": "<strong>氧气面罩</strong></br>前置任务需求:</br>NASA工作台</br>基础电路组装机"
+        },
+        {
+            "name": "氧气供给器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1467.png",
+            "x": 636.0,
+            "y": 132.0,
+            "data": "氧气供给器是一种用氧气填充房间的机器(虽然氧气通常不可见),最多可填充达800-1000块(堆叠多个供给器),允许玩家在没有氧气装备的情况下进行呼吸. 与氧气分配器不同,氧气供给器将氧气限制在它所处的房间内. 必须给供给器提供能量和足够的氧气. 请参阅氧气收集器以供应氧气.%n%n供给器仅适用于与外部空间完全密封的房间. 这可以通过完全封闭的房间或气密闸来实现. 供给器的上方必须没有任何东西阻挡其通风口. 它将每5秒检查空间的密闭性,因此请务必随时保持密封.%n%n每个供给器每秒至少需要320单位空气才能连续工作,否则会失效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFuw==",
+            "tooltip": "<strong>氧气供给器</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/824.png",
+            "x": 480.0,
+            "y": 48.0,
+            "data": "轻型氧气罐可以储存1000单位的氧气,在没有氧气的区域可以作为便携式的氧气来源.%n%n使用方法:%n每次最多装备两个任意类型的氧气罐,打开物品栏,点击上方的Galacticraft标签,在这里你将会看到携带各种装备的位置.将氧气罐放进氧气罐槽位即可完成装备. 还有其他类型的氧气罐,中型氧气罐储存的氧气量是轻型的2倍,重型氧气罐则是4倍,超大型氧气罐是8倍,极大型氧气罐是16倍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADOA==",
+            "tooltip": "<strong>氧气罐</strong></br>前置任务需求:</br>供氧系统</br>氧气面罩"
+        },
+        {
+            "name": "降落伞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/830.png",
+            "x": 516.0,
+            "y": 12.0,
+            "data": "降落伞可以防止在返回主世界大气层是是降落的时候摔死. 降落伞是太空旅行中不可缺少的必备装备之一. 不带着降落伞就进行太空之旅是非常危险的. 如果你试图不带降落伞发射火箭,甚至会收到警告. 使用组装机可节省材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADPg==",
+            "tooltip": "<strong>降落伞</strong></br>前置任务需求:</br>供氧系统"
+        },
+        {
+            "name": "永久氧气系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1439.png",
+            "x": 336.0,
+            "y": 336.0,
+            "data": "你决定在月球上停留更长时间,寻找一个永久性的氧气设备来重新填充你的户外装备并建造一个小基地. 别忘了你的工具和装甲需要修理!————DreamMaster2018!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFnw==",
+            "tooltip": "<strong>永久氧气系统</strong></br>前置任务需求:</br>氧气分配器"
+        },
+        {
+            "name": "邻苯二甲酸,酷孩子的方式",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2693.png",
+            "x": 132.0,
+            "y": 120.0,
+            "data": "在化学反应釜中用萘和锂制成邻苯二甲酸.%n%n讽刺的是,你无法用石脑油制出这个.%n%n译者注:邻苯二甲酸的英文名是Phthalic acid,石脑油的英文名是Naphtha,两者都含有\"phtha\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKhQ==",
+            "tooltip": "<strong>邻苯二甲酸,酷孩子的方式</strong></br>前置任务需求:</br>萘"
+        },
+        {
+            "name": "行星之泪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2072.png",
+            "x": 300.0,
+            "y": 216.0,
+            "data": "你确实会为所有等阶行星的繁琐要求而流泪的.这里有一份有用的参考资料.%n%n1阶-需要供氧设备%n月球%n%n2阶-需要隔热套装%n火星%n火卫一%n火卫二%n%n3阶-需要2阶隔热套装%n小行星-无重力环境,因为没有行星%n谷神星%n木卫二%n木卫三%n木卫四%n罗斯128b-宜居行星(无需供氧设备/隔热套装)%n%n4阶-需要2阶隔热套装%n木卫一%n水星%n金星-需要宇航服%n%n5阶-需要2阶隔热套装%n土卫二%n土卫六%n天卫五%n天卫四%n罗斯128ba%n%n6阶-需要2阶隔热套装%n海卫八%n海卫一%n%n7阶-需要2阶隔热套装%n柯伊伯带-无重力环境%n冥王星%n妊神星%n鸟神星%n%n8阶-需要2阶隔热套装%n半人马Bb-需要宇航服%n巴纳德C-宜居行星(无需供氧设备/隔热套装)%n织女B%n巴纳德E%n巴纳德F%n鲸鱼座E-宜居行星(无需供氧设备/隔热套装)%n%n9阶%n荷鲁斯-需要1阶隔热套装%n奈佩尔-宜居行星(无需供氧设备/隔热套装)%n迈罕带%n马赫斯%n赛特%n阿努比斯-需要2阶隔热套装%n%n译者注:%n%n宇航服-隔热套装-供氧设备-宜居行星%n这四个需求依次降低,高需求必须先满足低需求.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIGA==",
+            "tooltip": "<strong>行星之泪</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "冥王星地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2708.png",
+            "x": 576.0,
+            "y": 492.0,
+            "data": "经过无数小时的寻找,你终于发现了冥王星地牢. 冥王星Boss将掉落宝箱钥匙,宝箱中有8阶火箭的设计图或龙芯图纸.%n%n这将解锁太阳系外的许多星球,比如巴纳德星系.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKlA==",
+            "tooltip": "<strong>冥王星地牢</strong></br>前置任务需求:</br>7阶火箭"
+        },
+        {
+            "name": "海卫八地牢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2750.png",
+            "x": 840.0,
+            "y": 492.0,
+            "data": "经过无数小时的寻找,你终于发现了海卫八地牢. 海卫八Boss将掉落宝箱钥匙,宝箱中有7阶火箭的设计图.%n%n这将解锁冥王星和柯伊伯带.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKvg==",
+            "tooltip": "<strong>海卫八地牢</strong></br>前置任务需求:</br>6阶火箭"
+        },
+        {
+            "name": "回收火箭,保护环境",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1430.png",
+            "x": 504.0,
+            "y": 216.0,
+            "data": "为什么不回收旧的1阶火箭来获得新的2阶火箭的组件？ 将旧火箭放入电弧炉或等离子电弧炉中以回收大量材料.%n%n在回收之前请确认是否已经不再需要旧火箭了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFlg==",
+            "tooltip": "<strong>回收火箭,保护环境</strong></br>前置任务需求:</br>压缩万物</br>月球地牢"
+        },
+        {
+            "name": "选择奖励:奖励包",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/218.png",
+            "x": 480.0,
+            "y": 252.0,
+            "data": "你不需要私人维度？好吧那么你可能很高兴得到一些奖励包. 做好你的选择!你只有一次机会.%n%n[note]PS： 奖励包里面基本没啥东西,别选.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA2g==",
+            "tooltip": "<strong>选择奖励:奖励包</strong></br>前置任务需求:</br>一份奖励</br>选择奖励:私人维度"
+        },
+        {
+            "name": "选择奖励:私人维度",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/217.png",
+            "x": 432.0,
+            "y": 252.0,
+            "data": "厌倦了你基地里面的怪物？想在一些特别的地方来建造你的新家？比如一个私有维度？ 那么现在这就是你的机会,你只有一次选择的机会!%n%n当你首次激活传送门时,你可以把这个私人维度设置成你想要的样子：可以是一个虚空世界,或是任意超平坦世界,只由类似草方块、石头、圆石、基岩等方块构成.%n请注意! 完成世界的设置后,你就只能改变渲染设置了(Shift+右键传送门),比如天空颜色.%n只有服务器管理员为你解锁之后,你才可以再次编辑世界生成设置 (指令为/pspace allow-worldgen-change DIMID).%n%n[note]PS：深渊世界也是一片虚空.[/note]%n%n如果你之前用的是UtilityWorlds这个mod的bug花园或bug虚空世界的话,现在这是个新mod,应该解决了大部分的已知问题(比如血魔法相关问题,等等).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA2Q==",
+            "tooltip": "<strong>选择奖励:私人维度</strong></br>前置任务需求:</br>一份奖励</br>选择奖励:奖励包"
+        },
+        {
+            "name": "火箭引擎",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/815.png",
+            "x": 408.0,
+            "y": 132.0,
+            "data": "每一个火箭都需要一台引擎.制作2台1阶火箭引擎,因为到达月球时登陆舱也需要一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADLw==",
+            "tooltip": "<strong>火箭引擎</strong></br>前置任务需求:</br>1阶重型装甲板"
+        },
+        {
+            "name": "火箭尾鳍",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/814.png",
+            "x": 300.0,
+            "y": 120.0,
+            "data": "每一个火箭都需要一些火箭尾鳍.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADLg==",
+            "tooltip": "<strong>火箭尾鳍</strong></br>前置任务需求:</br>1阶重型装甲板"
+        },
+        {
+            "name": "火箭燃料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/827.png",
+            "x": 276.0,
+            "y": 12.0,
+            "data": "火箭每次飞行都需要一些燃料,所以为你的火箭提炼一些火箭燃料吧.%n%nT1/T2火箭有两种选项:高十六烷值柴油或RP-1火箭燃料.下个任务就是关于后者的.%n%n更高级的火箭需要更强的燃料.%n%n为了登陆月球,你最好把火箭装满燃料,不然可能就回不来了.但你也可以制作一些额外的燃料罐随身携带以解决燃料问题.%n%n火箭燃料的消耗与目的地以及燃料类型相关,同时,更高级的火箭可以存储更多燃料且消耗更少. 另外,星球引力也会影响燃料使用量,引力越低,登陆所需的燃料越少.%n%n WIKI 火箭燃料产线：gtnh.huijiwiki.com/p/742",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADOw==",
+            "tooltip": "<strong>火箭燃料</strong></br>前置任务需求:</br>NASA工作台"
+        },
+        {
+            "name": "火箭发射平台",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/820.png",
+            "x": 300.0,
+            "y": 180.0,
+            "data": "发射火箭当然需要发射平台. 建立一个3x3大小的火箭发射平台然后将你的火箭放在中央.%n%n确保你身上没有闪电扭曲效果,否则你会很伤心的. - 雷雨以及类似会影响实体的现象都可能击落你的火箭,因此请确认天气条件.%n%n[warn]发射前,请清理上方空域! 就算是云也不能有...[/warn]%n%n查看 [url]https://wiki.gtnewhorizons.com/wiki/Rockets[/url] 页面获取检查列表!%n%n[note]同时请注意,发射时会产生污染,大量污染. 所以要么把发射场放在远离基地的地方,要么使用污染清洗机. 不过T4之前可以不用担心这个问题.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADNA==",
+            "tooltip": "<strong>火箭发射平台</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "火箭鼻锥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/813.png",
+            "x": 372.0,
+            "y": 120.0,
+            "data": "每个火箭都需要鼻锥.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADLQ==",
+            "tooltip": "<strong>火箭鼻锥</strong></br>前置任务需求:</br>1阶重型装甲板"
+        },
+        {
+            "name": "1阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/810.png",
+            "x": 336.0,
+            "y": 180.0,
+            "data": "在经过数小时的辛勤努力,你的1阶火箭终于已经准备就绪.但是点火登月之前你需要把它真正造出来.%n%n如果你制作了带箱子的火箭, 有一个合成配方可以把它转换为任务所需的火箭. 详见NEI.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADKg==",
+            "tooltip": "<strong>1阶火箭</strong></br>前置任务需求:</br>登陆月球</br>小型燃料罐</br>1阶火箭控制电脑</br>火箭鼻锥</br>火箭尾鳍</br>火箭引擎"
+        },
+        {
+            "name": "2阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1429.png",
+            "x": 636.0,
+            "y": 180.0,
+            "data": "经过数小时的努力和大量的工业TNT,你的第二枚火箭终于准备好了. 但在你去火星之前,你需要再制作一些东西.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFlQ==",
+            "tooltip": "<strong>2阶火箭</strong></br>前置任务需求:</br>2阶火箭控制电脑</br>助推器</br>火星登陆舱"
+        },
+        {
+            "name": "3阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1454.png",
+            "x": 936.0,
+            "y": 180.0,
+            "data": "经过几天的艰苦努力并消耗了数百吨的工业TNT,你的第三枚火箭终于准备好了.%n%n你需要密集肼或更高级的火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFrg==",
+            "tooltip": "<strong>3阶火箭</strong></br>前置任务需求:</br>3阶登陆舱</br>重型火箭鼻锥</br>重型火箭发动机</br>重型火箭鳍</br>中型燃料罐</br>3阶火箭控制电脑"
+        },
+        {
+            "name": "4阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1535.png",
+            "x": 1080.0,
+            "y": 228.0,
+            "data": "经过数周的艰苦努力,用掉了成千上万的工业TNT,你的第四枚火箭终于准备好了. 但在去木卫一、金星或水星之前,你需要再制作一些东西.%n%n你需要密集肼或更高级的火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF_w==",
+            "tooltip": "<strong>4阶火箭</strong></br>前置任务需求:</br>4阶火箭控制电脑"
+        },
+        {
+            "name": "5阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1726.png",
+            "x": 1080.0,
+            "y": 492.0,
+            "data": "经过一个月的努力,消耗了数以万计的工业TNT,你的第五枚火箭终于准备好了. 但在你出发去土星和天王星卫星之前,你需要再制作一些东西.%n%n你需要CN3H7O3(紫色)或者更高级的火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGvg==",
+            "tooltip": "<strong>5阶火箭</strong></br>前置任务需求:</br>3阶重型火箭引擎</br>3阶重型火箭鳍</br>大型燃料罐</br>5阶火箭控制电脑</br>3阶重型火箭鼻锥"
+        },
+        {
+            "name": "6阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2640.png",
+            "x": 888.0,
+            "y": 492.0,
+            "data": "有了6阶火箭,你就能登陆更多星球了.%n%n不过你需要CN3H7O3(紫色)或者更高阶的火箭燃料.%n%n[note]如果你想在ZPM阶段建造它的话,就需要使用GT++多方块组装机.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKUA==",
+            "tooltip": "<strong>6阶火箭</strong></br>前置任务需求:</br>6阶火箭控制电脑"
+        },
+        {
+            "name": "7阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2642.png",
+            "x": 624.0,
+            "y": 492.0,
+            "data": "有了7阶火箭,你现在能登陆太阳系边缘的某些星球.%n%n你还需要H8N4C2O4(绿色)火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKUg==",
+            "tooltip": "<strong>7阶火箭</strong></br>前置任务需求:</br>4阶重型火箭引擎</br>4阶重型火箭鳍</br>4阶重型火箭鼻锥</br>7阶火箭控制电脑</br>特大型燃料罐"
+        },
+        {
+            "name": "8阶火箭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2644.png",
+            "x": 432.0,
+            "y": 492.0,
+            "data": "目前最高阶的火箭,你现在可以到访其他星系了.%n某些憨憨星系除外.%n%n你还需要H8N4C2O4(绿色)火箭燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKVA==",
+            "tooltip": "<strong>8阶火箭</strong></br>前置任务需求:</br>4阶助推器</br>8阶火箭控制电脑"
+        },
+        {
+            "name": "RP-1火箭燃料",
+            "symbolSize": 46.800000000000004,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2684.png",
+            "x": 150.0,
+            "y": 18.0,
+            "data": "T1/T2火箭可以选择用RP-1火箭燃料驱动.首先,你需要柴油或者煤焦. 从长远来看,煤焦是更好的选择,它蒸馏出的其他产物可用于生产其他火箭燃料.[note]%n%n柴油需要20单元,煤焦需要30单元. 除非你用的是蒸馏塔,在这种情况下,它不能配平 :([/note]%n%n在蒸馏室中蒸馏获得煤油,再蒸馏就能获得RP-1. 最后一步你需要化工厂.%n%nRP-1火箭燃料是一个4阶240EU/t的配方,所以你需要不锈钢与HV机械方块建造的化工厂.%n%n因为太空中没有氧气,你还需要氧化剂.但由于GC的火箭只能携带一种流体,所以我们稍稍简化了一下.只要将液氧与RP-1混合就可以得到功能齐备的RP-1火箭燃料.%n%n如果你对建造/使用化工厂感到困惑的话,请参考同名手册或GT++任务栏中的同名任务.%n%n[note]PS：火箭燃料也可用作火箭引擎发电机或者多方块机器大型火箭引擎的燃料.[/note]%n%n[warn]请注意不要参考NEI预览化工厂,它是错的.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKfA==",
+            "tooltip": "<strong>RP-1火箭燃料</strong></br>前置任务需求:</br>火箭燃料"
+        },
+        {
+            "name": "火星上的盐水和氯苯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1743.png",
+            "x": 588.0,
+            "y": 276.0,
+            "data": "火星富含盐水和氯苯. 如果你比较缺氯的话,这两种流体都可以电解出氯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGzw==",
+            "tooltip": "<strong>火星上的盐水和氯苯</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "重大升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2695.png",
+            "x": 204.0,
+            "y": 432.0,
+            "data": "如果你觉得'嘿,这个紫色的东西还不错,为什么不做绿色的呢?',好吧,首先,你可能需要专业协助. 其次,你需要进入ZPM阶段才能制造所需的机械方块,完毕. 一台ZPM的合金冶炼炉是制作部件必不可少的机器,所以等你制造出ZPM能源仓再来吧.%n%n你可能可以自行解决大部分问题,但请记住,某些材料需要在合金冶炼炉中才能制成,固化,打粉,然后作为另一配方的原料重新投入合金冶炼炉中. 比如: 路菲恩化合物需要的哈斯特洛依合金-N, 以及铼和镝.%n%n铼是由非标合金冶炼炉配方制出的,而镝需要稀土(III)或前往废土世界才能制得. 你还需要稀土(II)或稀土(III)中的镱或者再次前往废土世界.[warn]矿脉可能非常难找, 因为它非常稀有.[/warn]你也可以试试通过GT++的研磨机和浮选机从铁铝榴石矿石中提取镱.%n%n玩得开心!%n%n[note]几乎可以肯定,你将需要的比任务要求的多,但一如既往,确切的数量取决于你的仓室/总线数量.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKhw==",
+            "tooltip": "<strong>重大升级</strong></br>前置任务需求:</br>第7阶段(ZPM)"
+        },
+        {
+            "name": "穿梭机鼻锥",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5843632203454110643.png",
+            "x": 372.0,
+            "y": 528.0,
+            "data": "这个鼻锥没有其他火箭那样的尖头.这是好事还是坏事?我不知道,我只会给你发任务.所以造个穿梭机鼻锥!不然我就吊销你的发展执照!",
+            "quest_id": "5IXO2dAUTXOu5z94yxWkTQ==",
+            "tooltip": "<strong>穿梭机鼻锥</strong></br>前置任务需求:</br>凯芙拉</br>8阶火箭"
+        },
+        {
+            "name": "在太空中睡觉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1463.png",
+            "x": 936.0,
+            "y": 228.0,
+            "data": "冬眠舱用于在其他星球上睡觉并跳过漫长的黑夜. 它可以在任何时间使用,甚至在白天,也可以在任何世界使用,包括主世界. 白天使用冬眠舱将跳至下一个日出的时间,除了在小行星,太阳在那里总是锁定在西方. 一旦玩家使用了冬眠舱,在他再次使用冬眠舱之前有300秒的冷却时间. 打破和放回冬眠舱或尝试使用不同的冬眠舱将不会重置冷却时间,除非死亡. 冬眠舱工作不需要能量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFtw==",
+            "tooltip": "<strong>在太空中睡觉</strong></br>前置任务需求:</br>3阶火箭"
+        },
+        {
+            "name": "黏滑怪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1471.png",
+            "x": 684.0,
+            "y": 228.0,
+            "data": "黏滑怪是一种实用怪物,它会在火星表面发现的黏滑怪蛋中生成. 它分享了原版狼和骡子的一些特征:它可以变形并攻击威胁其主人的怪物,并且可以配备一个特殊的箱子来运输物品.%n%n作为一个友方怪物,黏滑怪将积极帮助并跟随玩家--并且将试图保护他们. 它们也可能具有中立行为,也就是说,如果被非所有者挑衅或伤害,它们就可以进行攻击.%n%n提示:你可以使用以下方式喂养黏滑怪:%n%n船%n熟鱼%n火药%n金锭%n红石中继器%n木门%n%n黏滑怪的所有者可以编辑黏滑怪的背包,运输物品.%n%n获取任意黏滑怪蛋即可完成此任务-注意,你可能需要一柄重镐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFvw==",
+            "tooltip": "<strong>黏滑怪</strong></br>前置任务需求:</br>2阶火箭"
+        },
+        {
+            "name": "小型燃料罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/819.png",
+            "x": 264.0,
+            "y": 132.0,
+            "data": "每一个火箭都需要储存燃料的储罐. 1阶火箭需要制作两个小型燃料罐.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADMw==",
+            "tooltip": "<strong>小型燃料罐</strong></br>前置任务需求:</br>1阶重型装甲板"
+        },
+        {
+            "name": "太空钻机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3037.png",
+            "x": 1032.0,
+            "y": 276.0,
+            "data": "你可能曾经想过：太阳系中有这么多气态巨行星-有没有办法\"收获\"它们?当然有.只要构建\"行星气体钻机\"这种多方块机器,你就可以无限抽取那些气态巨行星(木星、土星、天王星和海王星)的大气了.当然,你还需要在目标行星上空建造空间站,距离也需要把控好,既要方便抽取,又不会坠入大气.%n%n通过GUI中的编程电路控制抽取深度,即可提取不同气体.同时还需要提供64*深度的采矿管道,以到达选定的深度.%n%n此多方块运行时功率为：d*4^(T+2),T为空间站等级,d为深度.%n%n可以在\"提示、技巧\"章节找到你可以在何处泵取何种流体的概述.%n%n木星%n1 氢 - 15000 L/s%n2 氦 - 500 L/s%n3 氮 - 300 L/s%n4 氧 - 200 L/s%n%n土星%n1 氢 - 18000 L/s%n2 氦 - 800 L/s%n3 氧 - 500 L/s%n4 液态氧 - 150 L/s%n%n天王星%n1 氘 - 5000 L/s%n2 氖 - 450 L/s%n3 氩 - 250 L/s%n4 氪 - 100 L/s%n%n海王星%n1 氚 - 3000 L/s%n2 氦-3 - 500 L/s%n3 氨 - 400 L/s%n4 氙 - 350 L/s",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL3Q==",
+            "tooltip": "<strong>太空钻机</strong></br>前置任务需求:</br>空间站</br>4阶火箭"
+        },
+        {
+            "name": "空间站",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1067.png",
+            "x": 372.0,
+            "y": 300.0,
+            "data": "你可以建造一个自己的空间站!你可以在你的空间站上面加装四个旋转推进机让其旋转.%n%n空间站上面的一天要比地球上面长很多,因此你可以有更多的时间来使用太阳能发电机发电!%n%n你可以在以下星球上空建造空间站：%n月球 - T1%n火星 - T2%n木星 - T3%n金星 - T4%n土星 - T5%n天王星 - T5%n海王星 - T6%n%n提示：每个要求对应一座空间站(与以上顺序相同).你需要至少建成一座空间站,才能完成此任务.%n%n注意：如果直接从空间站起飞前往地球或其他空间站,很有可能会丢失火箭.请确保有其他手段返回(某种传送手段)或是先到其他行星/卫星中转一下(如果在此过程中出现问题,你的重生点也会在该行星/卫星上,还可以再次发射火箭).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEKw==",
+            "tooltip": "<strong>空间站</strong></br>前置任务需求:</br>1阶火箭"
+        },
+        {
+            "name": "太空火把",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1441.png",
+            "x": 408.0,
+            "y": 216.0,
+            "data": "普通火把不能在太空中工作,只能在氧气泡内区域工作.%n%n一种解决方案是萤石火把. 你还可以使用其他mod的灯和火炬之类的. 你可能需要3-5组这样的火把用来在挖掘矿脉时照明,除非你用矿机挖矿.%n%n还有就是使用夜视和卓越火炬或GregTech敌对生物驱逐器来驱赶怪物.但这些方法在官方服务器上都用不着,只要圈地,解除圈地就好了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFoQ==",
+            "tooltip": "<strong>太空火把</strong></br>前置任务需求:</br>月球的白天和黑夜时间"
+        },
+        {
+            "name": "steve@mothership:~$",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7583790943377787116.png",
+            "x": 516.0,
+            "y": 420.0,
+            "data": "这个方块用来配置母舰的名称和图标,以及设定谁被允许登上母舰、使用导航控制台和推进器.",
+            "quest_id": "FMul7onaSFmWwPZRUSR3FA==",
+            "tooltip": "<strong>steve@mothership:~$</strong></br>前置任务需求:</br>我能为我的父亲建造一艘母舰吗？"
+        },
+        {
+            "name": "超大型氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2723.png",
+            "x": 936.0,
+            "y": 132.0,
+            "data": "超大型氧气罐是一个储氧罐,最多可容纳8000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKow==",
+            "tooltip": "<strong>超大型氧气罐</strong></br>前置任务需求:</br>铱</br>3阶火箭"
+        },
+        {
+            "name": "温度控制",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1466.png",
+            "x": 684.0,
+            "y": 84.0,
+            "data": "环境温度控制器是一种用于氧气供给器的物品,可在密封空间内控制环境温度适宜.%n%n环境温度控制器适用于太冷或太热的维度,使玩家无需隔热套装即可存活.%n%n它可以放置在工作的氧气供给器中能量和氧气槽旁边的第3个槽中. 一旦环境温度控制器放入氧气供给器,它将根据当地环境加热或冷却输出的氧气,然后玩家可以安全地在密封的房间内脱下隔热套装. 尽管这看似毫无意义.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFug==",
+            "tooltip": "<strong>温度控制</strong></br>前置任务需求:</br>氧气供给器"
+        },
+        {
+            "name": "穿梭机的脚,踩踩踩...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6186734719426077723.png",
+            "x": 396.0,
+            "y": 456.0,
+            "data": "穿梭机支腿很有用,它能让穿梭机自主着陆.我强烈建议把它们做出来!反正你也没得选.",
+            "quest_id": "2qWr_EPxRGeqJE2NKQhb5Q==",
+            "tooltip": "<strong>穿梭机的脚,踩踩踩...</strong></br>前置任务需求:</br>凯芙拉</br>8阶火箭"
+        },
+        {
+            "name": "隔热布匹",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1462.png",
+            "x": 540.0,
+            "y": 216.0,
+            "data": "隔热套装是一套由先进隔热材料制成的服装. 这些服装能够在外太空的寒冷环境中使玩家免于冻死.还可以避免玩家在过热环境中酷热难耐.%n%n生命支持HUD上的温度指示器将显示玩家是否变得太热或太冷-因为温度接近危险等级时,将显示\"无效的热保护\"警告. 在火星和小行星上,只需装备一整套隔热套装就可以解决这个问题.%n%n[note]你还需要一些硅橡胶.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFtg==",
+            "tooltip": "<strong>隔热布匹</strong></br>前置任务需求:</br>2阶重型装甲板"
+        },
+        {
+            "name": "1阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/811.png",
+            "x": 336.0,
+            "y": 108.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADKw==",
+            "tooltip": "<strong>1阶火箭控制电脑</strong></br>前置任务需求:</br>1阶重型装甲板"
+        },
+        {
+            "name": "1阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/812.png",
+            "x": 336.0,
+            "y": 72.0,
+            "data": "火箭的主箭体需要使用重型装甲板来制作.让我们用压缩铝板、压缩钢板、压缩青铜板这些材料来制作37个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADLA==",
+            "tooltip": "<strong>1阶重型装甲板</strong></br>前置任务需求:</br>压缩万物</br>NASA工作台"
+        },
+        {
+            "name": "2阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1428.png",
+            "x": 588.0,
+            "y": 180.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFlA==",
+            "tooltip": "<strong>2阶火箭控制电脑</strong></br>前置任务需求:</br>2阶重型装甲板"
+        },
+        {
+            "name": "2阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1427.png",
+            "x": 540.0,
+            "y": 180.0,
+            "data": "火箭需要重型装甲板作为主箭体. 让我们用一阶重型装甲板和陨铁板制作11个2阶重型装甲板吧.%n%n同时你还需要一些钨钢.获取钨的手段有很多,处理末地石或末地石粉,或是打粉月岩都可以.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFkw==",
+            "tooltip": "<strong>2阶重型装甲板</strong></br>前置任务需求:</br>找一些陨铁</br>月球地牢"
+        },
+        {
+            "name": "3阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1448.png",
+            "x": 840.0,
+            "y": 240.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFqA==",
+            "tooltip": "<strong>3阶火箭控制电脑</strong></br>前置任务需求:</br>3阶重型装甲板"
+        },
+        {
+            "name": "3阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1453.png",
+            "x": 780.0,
+            "y": 180.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用2阶板和戴斯板制作38个3阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFrQ==",
+            "tooltip": "<strong>3阶重型装甲板</strong></br>前置任务需求:</br>火星地牢"
+        },
+        {
+            "name": "3阶登陆舱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1456.png",
+            "x": 864.0,
+            "y": 156.0,
+            "data": "软着陆需要3阶深空登陆舱. 将火星登陆舱放在一个戴斯做的笼中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFsA==",
+            "tooltip": "<strong>3阶登陆舱</strong></br>前置任务需求:</br>第4阶段(EV)</br>3阶重型装甲板"
+        },
+        {
+            "name": "4阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1531.png",
+            "x": 1080.0,
+            "y": 180.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF-w==",
+            "tooltip": "<strong>4阶火箭控制电脑</strong></br>前置任务需求:</br>4阶重型装甲板"
+        },
+        {
+            "name": "4阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1532.png",
+            "x": 1032.0,
+            "y": 180.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF_A==",
+            "tooltip": "<strong>4阶重型装甲板</strong></br>前置任务需求:</br>谷神星地牢</br>木卫四之旅</br>木卫二之旅"
+        },
+        {
+            "name": "5阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1725.png",
+            "x": 1116.0,
+            "y": 372.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGvQ==",
+            "tooltip": "<strong>5阶火箭控制电脑</strong></br>前置任务需求:</br>5阶重型装甲板"
+        },
+        {
+            "name": "5阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1724.png",
+            "x": 1080.0,
+            "y": 324.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用4阶重型装甲板和压缩量子板制作61个5阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGvA==",
+            "tooltip": "<strong>5阶重型装甲板</strong></br>前置任务需求:</br>金星之旅</br>木卫一地牢"
+        },
+        {
+            "name": "6阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2751.png",
+            "x": 936.0,
+            "y": 492.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKvw==",
+            "tooltip": "<strong>6阶火箭控制电脑</strong></br>前置任务需求:</br>6阶重型装甲板"
+        },
+        {
+            "name": "6阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2639.png",
+            "x": 984.0,
+            "y": 492.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用5阶板和压缩奥利哈钢铅板制作13个6阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKTw==",
+            "tooltip": "<strong>6阶重型装甲板</strong></br>前置任务需求:</br>土卫二地牢</br>制造三钛"
+        },
+        {
+            "name": "7阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2702.png",
+            "x": 756.0,
+            "y": 564.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKjg==",
+            "tooltip": "<strong>7阶火箭控制电脑</strong></br>前置任务需求:</br>7阶重型装甲板"
+        },
+        {
+            "name": "7阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2641.png",
+            "x": 792.0,
+            "y": 492.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用6阶板和压缩神秘水晶板制作79个7阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKUQ==",
+            "tooltip": "<strong>7阶重型装甲板</strong></br>前置任务需求:</br>这不是只有中子星核心才有的吗?</br>海卫八地牢"
+        },
+        {
+            "name": "8阶火箭控制电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2710.png",
+            "x": 480.0,
+            "y": 468.0,
+            "data": "每枚火箭都需要一台控制电脑,且电脑需要匹配火箭等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKlg==",
+            "tooltip": "<strong>8阶火箭控制电脑</strong></br>前置任务需求:</br>8阶重型装甲板"
+        },
+        {
+            "name": "8阶重型装甲板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2643.png",
+            "x": 528.0,
+            "y": 492.0,
+            "data": "火箭的主箭体需要重型装甲板. 让我们用7阶板和压缩黑钚板制作19个8阶重型装甲板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKUw==",
+            "tooltip": "<strong>8阶重型装甲板</strong></br>前置任务需求:</br>冥王星地牢</br>UHV能源仓"
+        },
+        {
+            "name": "极大型氧气罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2724.png",
+            "x": 1032.0,
+            "y": 228.0,
+            "data": "极大型氧气罐是一个储氧罐,最多可容纳16000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKpA==",
+            "tooltip": "<strong>极大型氧气罐</strong></br>前置任务需求:</br>4阶火箭"
+        },
+        {
+            "name": "晶圆1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/832.png",
+            "x": 372.0,
+            "y": 60.0,
+            "data": "你可以用硬币购买一些晶圆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADQA==",
+            "tooltip": "<strong>晶圆1</strong></br>前置任务需求:</br>NASA工作台"
+        }
+    ],
+    "links": [
+        {
+            "source": "甲醛",
+            "target": "偏二甲肼"
+        },
+        {
+            "source": "2-乙基蒽醌",
+            "target": "2-乙基蒽氢醌"
+        },
+        {
+            "source": "再沉...什么?",
+            "target": "2-乙基蒽氢醌"
+        },
+        {
+            "source": "你怎么念?",
+            "target": "2-乙基蒽醌"
+        },
+        {
+            "source": "RP-1火箭燃料",
+            "target": "更好的火箭燃料"
+        },
+        {
+            "source": "硝基!(高十六烷值柴油)",
+            "target": "更好的火箭燃料"
+        },
+        {
+            "source": "4阶火箭",
+            "target": "生成氧气的更好方式"
+        },
+        {
+            "source": "晶圆1",
+            "target": "高级晶圆"
+        },
+        {
+            "source": "氧气供给器",
+            "target": "气密闸"
+        },
+        {
+            "source": "3阶火箭",
+            "target": "弧光灯"
+        },
+        {
+            "source": "月球地牢",
+            "target": "一份奖励"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "你准备好了吗？"
+        },
+        {
+            "source": "太空采矿机设计图",
+            "target": "太空采矿机"
+        },
+        {
+            "source": "太空采矿机",
+            "target": "太空采矿机基地"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "太空采矿机设计图"
+        },
+        {
+            "source": "不需要击败boss!多么令人伤心!",
+            "target": "0阶火箭?什么?"
+        },
+        {
+            "source": "穿梭机的脚,踩踩踩...",
+            "target": "0阶火箭?什么?"
+        },
+        {
+            "source": "穿梭机鼻锥",
+            "target": "0阶火箭?什么?"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "菌泥"
+        },
+        {
+            "source": "找一些陨铁",
+            "target": "更大的氧气罐"
+        },
+        {
+            "source": "2阶重型装甲板",
+            "target": "助推器"
+        },
+        {
+            "source": "5阶重型装甲板",
+            "target": "2阶助推器"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "3阶助推器"
+        },
+        {
+            "source": "8阶重型装甲板",
+            "target": "4阶助推器"
+        },
+        {
+            "source": "频率模块",
+            "target": "车座"
+        },
+        {
+            "source": "0阶火箭?什么?",
+            "target": "我能为我的父亲建造一艘母舰吗？"
+        },
+        {
+            "source": "别告诉我我需要看纸质地图！",
+            "target": "我能为我的父亲建造一艘母舰吗？"
+        },
+        {
+            "source": "货运火箭设计图",
+            "target": "货运火箭:纯粹是为了好玩"
+        },
+        {
+            "source": "目标:火星",
+            "target": "货运火箭:纯粹是为了好玩"
+        },
+        {
+            "source": "发射控制器",
+            "target": "货运火箭:纯粹是为了好玩"
+        },
+        {
+            "source": "火星地牢",
+            "target": "货运火箭设计图"
+        },
+        {
+            "source": "菌泥",
+            "target": "岩穴藤蔓"
+        },
+        {
+            "source": "3阶火箭",
+            "target": "谷神星地牢"
+        },
+        {
+            "source": "硝酸",
+            "target": "CN3H7O3(紫色)火箭燃料"
+        },
+        {
+            "source": "一甲基肼",
+            "target": "CN3H7O3(紫色)火箭燃料"
+        },
+        {
+            "source": "你闻起来像掉到了酒桶里!",
+            "target": "煤焦蒸馏"
+        },
+        {
+            "source": "更好的火箭燃料",
+            "target": "煤焦蒸馏"
+        },
+        {
+            "source": "肼",
+            "target": "密集肼"
+        },
+        {
+            "source": "高级晶圆",
+            "target": "终极工作台"
+        },
+        {
+            "source": "我能为我的父亲建造一艘母舰吗？",
+            "target": "它包含了一个黑洞吗？"
+        },
+        {
+            "source": "2阶纳米锻炉",
+            "target": "别告诉我我需要看纸质地图！"
+        },
+        {
+            "source": "8阶火箭",
+            "target": "别告诉我我需要看纸质地图！"
+        },
+        {
+            "source": "UHV阶段更难,更好,更快,更强... Pt 2",
+            "target": "别告诉我我需要看纸质地图！"
+        },
+        {
+            "source": "5阶火箭",
+            "target": "土卫二地牢"
+        },
+        {
+            "source": "到熔融之海底部的旅程",
+            "target": "EVA装备"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "特大型燃料罐"
+        },
+        {
+            "source": "我能为我的父亲建造一艘母舰吗？",
+            "target": "炫酷!"
+        },
+        {
+            "source": "炫酷!",
+            "target": "超炫酷!"
+        },
+        {
+            "source": "月球地牢",
+            "target": "找一些陨铁"
+        },
+        {
+            "source": "甲醛催化剂",
+            "target": "甲醛"
+        },
+        {
+            "source": "CN3H7O3(紫色)火箭燃料",
+            "target": "甲醛催化剂"
+        },
+        {
+            "source": "晶圆1",
+            "target": "频率模块"
+        },
+        {
+            "source": "月球巡逻队",
+            "target": "给你的月球车加油"
+        },
+        {
+            "source": "小型燃料罐",
+            "target": "加油站"
+        },
+        {
+            "source": "太空钻机",
+            "target": "气态行星"
+        },
+        {
+            "source": "隔热布匹",
+            "target": "抓钩"
+        },
+        {
+            "source": "到熔融之海底部的旅程",
+            "target": "宇航服-重力靴子"
+        },
+        {
+            "source": "四氧化二氮",
+            "target": "H8N4C2O4(绿色)火箭燃料"
+        },
+        {
+            "source": "重大升级",
+            "target": "H8N4C2O4(绿色)火箭燃料"
+        },
+        {
+            "source": "偏二甲肼",
+            "target": "H8N4C2O4(绿色)火箭燃料"
+        },
+        {
+            "source": "5阶重型装甲板",
+            "target": "3阶重型火箭鼻锥"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "4阶重型火箭鼻锥"
+        },
+        {
+            "source": "2阶助推器",
+            "target": "3阶重型火箭引擎"
+        },
+        {
+            "source": "3阶助推器",
+            "target": "4阶重型火箭引擎"
+        },
+        {
+            "source": "5阶重型装甲板",
+            "target": "3阶重型火箭鳍"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "4阶重型火箭鳍"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "重型火箭发动机"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "重型火箭鳍"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "重型火箭鼻锥"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "氦3和月球上的盐水"
+        },
+        {
+            "source": "邻苯二甲酸,酷孩子的方式",
+            "target": "你怎么念?"
+        },
+        {
+            "source": "EVA装备",
+            "target": "我该怎么为这*玩意充电?"
+        },
+        {
+            "source": "氨1",
+            "target": "肼"
+        },
+        {
+            "source": "过氧化氢",
+            "target": "肼"
+        },
+        {
+            "source": "2-乙基蒽氢醌",
+            "target": "过氧化氢"
+        },
+        {
+            "source": "氨1",
+            "target": "过氧化氢"
+        },
+        {
+            "source": "4阶火箭",
+            "target": "木卫一地牢"
+        },
+        {
+            "source": "4阶火箭控制电脑",
+            "target": "到熔融之海底部的旅程"
+        },
+        {
+            "source": "5阶重型装甲板",
+            "target": "大型燃料罐"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "重型氧气罐"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "发射控制器"
+        },
+        {
+            "source": "目标:火星",
+            "target": "自动化装卸火箭"
+        },
+        {
+            "source": "货运火箭:纯粹是为了好玩",
+            "target": "自动化装卸火箭"
+        },
+        {
+            "source": "氧气压缩机",
+            "target": "液氧与面包"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "火星地牢"
+        },
+        {
+            "source": "2阶重型装甲板",
+            "target": "火星登陆舱"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "中型燃料罐"
+        },
+        {
+            "source": "密集肼",
+            "target": "一甲基肼"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "抵达月球"
+        },
+        {
+            "source": "月球地牢",
+            "target": "月球车设计图"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "月球的白天和黑夜时间"
+        },
+        {
+            "source": "火箭发射平台",
+            "target": "月球地牢"
+        },
+        {
+            "source": "加油站",
+            "target": "月球地牢"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "月球地牢"
+        },
+        {
+            "source": "氧气压缩机",
+            "target": "月球地牢"
+        },
+        {
+            "source": "车座",
+            "target": "登陆月球"
+        },
+        {
+            "source": "火箭引擎",
+            "target": "登陆月球"
+        },
+        {
+            "source": "月球车设计图",
+            "target": "月球巡逻队"
+        },
+        {
+            "source": "煤焦蒸馏",
+            "target": "萘"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "NASA工作台"
+        },
+        {
+            "source": "复仇者联盟3,组装!",
+            "target": "NASA工作台"
+        },
+        {
+            "source": "处理器主机,你的第一种IV电路板",
+            "target": "NASA工作台"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "漂亮又舒适 - 在太空!"
+        },
+        {
+            "source": "CN3H7O3(紫色)火箭燃料",
+            "target": "四氧化二氮"
+        },
+        {
+            "source": "硝酸",
+            "target": "四氧化二氮"
+        },
+        {
+            "source": "钯",
+            "target": "四氧化二氮"
+        },
+        {
+            "source": "力场发生器(UHV)",
+            "target": "不需要击败boss!多么令人伤心!"
+        },
+        {
+            "source": "8阶火箭",
+            "target": "不需要击败boss!多么令人伤心!"
+        },
+        {
+            "source": "UHV阶段更难,更好,更快,更强... Pt 2",
+            "target": "不需要击败boss!多么令人伤心!"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "氧气分配器"
+        },
+        {
+            "source": "氧气罐",
+            "target": "氧气收集器"
+        },
+        {
+            "source": "氧气罐",
+            "target": "氧气压缩机"
+        },
+        {
+            "source": "氧气面罩",
+            "target": "供氧系统"
+        },
+        {
+            "source": "NASA工作台",
+            "target": "氧气面罩"
+        },
+        {
+            "source": "基础电路组装机",
+            "target": "氧气面罩"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "氧气供给器"
+        },
+        {
+            "source": "供氧系统",
+            "target": "氧气罐"
+        },
+        {
+            "source": "氧气面罩",
+            "target": "氧气罐"
+        },
+        {
+            "source": "供氧系统",
+            "target": "降落伞"
+        },
+        {
+            "source": "氧气分配器",
+            "target": "永久氧气系统"
+        },
+        {
+            "source": "萘",
+            "target": "邻苯二甲酸,酷孩子的方式"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "行星之泪"
+        },
+        {
+            "source": "7阶火箭",
+            "target": "冥王星地牢"
+        },
+        {
+            "source": "6阶火箭",
+            "target": "海卫八地牢"
+        },
+        {
+            "source": "压缩万物",
+            "target": "回收火箭,保护环境"
+        },
+        {
+            "source": "月球地牢",
+            "target": "回收火箭,保护环境"
+        },
+        {
+            "source": "一份奖励",
+            "target": "选择奖励:奖励包"
+        },
+        {
+            "source": "选择奖励:私人维度",
+            "target": "选择奖励:奖励包"
+        },
+        {
+            "source": "一份奖励",
+            "target": "选择奖励:私人维度"
+        },
+        {
+            "source": "选择奖励:奖励包",
+            "target": "选择奖励:私人维度"
+        },
+        {
+            "source": "1阶重型装甲板",
+            "target": "火箭引擎"
+        },
+        {
+            "source": "1阶重型装甲板",
+            "target": "火箭尾鳍"
+        },
+        {
+            "source": "NASA工作台",
+            "target": "火箭燃料"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "火箭发射平台"
+        },
+        {
+            "source": "1阶重型装甲板",
+            "target": "火箭鼻锥"
+        },
+        {
+            "source": "登陆月球",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "小型燃料罐",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "1阶火箭控制电脑",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "火箭鼻锥",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "火箭尾鳍",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "火箭引擎",
+            "target": "1阶火箭"
+        },
+        {
+            "source": "2阶火箭控制电脑",
+            "target": "2阶火箭"
+        },
+        {
+            "source": "助推器",
+            "target": "2阶火箭"
+        },
+        {
+            "source": "火星登陆舱",
+            "target": "2阶火箭"
+        },
+        {
+            "source": "3阶登陆舱",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "重型火箭鼻锥",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "重型火箭发动机",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "重型火箭鳍",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "中型燃料罐",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "3阶火箭控制电脑",
+            "target": "3阶火箭"
+        },
+        {
+            "source": "4阶火箭控制电脑",
+            "target": "4阶火箭"
+        },
+        {
+            "source": "3阶重型火箭引擎",
+            "target": "5阶火箭"
+        },
+        {
+            "source": "3阶重型火箭鳍",
+            "target": "5阶火箭"
+        },
+        {
+            "source": "大型燃料罐",
+            "target": "5阶火箭"
+        },
+        {
+            "source": "5阶火箭控制电脑",
+            "target": "5阶火箭"
+        },
+        {
+            "source": "3阶重型火箭鼻锥",
+            "target": "5阶火箭"
+        },
+        {
+            "source": "6阶火箭控制电脑",
+            "target": "6阶火箭"
+        },
+        {
+            "source": "4阶重型火箭引擎",
+            "target": "7阶火箭"
+        },
+        {
+            "source": "4阶重型火箭鳍",
+            "target": "7阶火箭"
+        },
+        {
+            "source": "4阶重型火箭鼻锥",
+            "target": "7阶火箭"
+        },
+        {
+            "source": "7阶火箭控制电脑",
+            "target": "7阶火箭"
+        },
+        {
+            "source": "特大型燃料罐",
+            "target": "7阶火箭"
+        },
+        {
+            "source": "4阶助推器",
+            "target": "8阶火箭"
+        },
+        {
+            "source": "8阶火箭控制电脑",
+            "target": "8阶火箭"
+        },
+        {
+            "source": "火箭燃料",
+            "target": "RP-1火箭燃料"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "火星上的盐水和氯苯"
+        },
+        {
+            "source": "第7阶段(ZPM)",
+            "target": "重大升级"
+        },
+        {
+            "source": "凯芙拉",
+            "target": "穿梭机鼻锥"
+        },
+        {
+            "source": "8阶火箭",
+            "target": "穿梭机鼻锥"
+        },
+        {
+            "source": "3阶火箭",
+            "target": "在太空中睡觉"
+        },
+        {
+            "source": "2阶火箭",
+            "target": "黏滑怪"
+        },
+        {
+            "source": "1阶重型装甲板",
+            "target": "小型燃料罐"
+        },
+        {
+            "source": "空间站",
+            "target": "太空钻机"
+        },
+        {
+            "source": "4阶火箭",
+            "target": "太空钻机"
+        },
+        {
+            "source": "1阶火箭",
+            "target": "空间站"
+        },
+        {
+            "source": "月球的白天和黑夜时间",
+            "target": "太空火把"
+        },
+        {
+            "source": "我能为我的父亲建造一艘母舰吗？",
+            "target": "steve@mothership:~$"
+        },
+        {
+            "source": "铱",
+            "target": "超大型氧气罐"
+        },
+        {
+            "source": "3阶火箭",
+            "target": "超大型氧气罐"
+        },
+        {
+            "source": "氧气供给器",
+            "target": "温度控制"
+        },
+        {
+            "source": "凯芙拉",
+            "target": "穿梭机的脚,踩踩踩..."
+        },
+        {
+            "source": "8阶火箭",
+            "target": "穿梭机的脚,踩踩踩..."
+        },
+        {
+            "source": "2阶重型装甲板",
+            "target": "隔热布匹"
+        },
+        {
+            "source": "1阶重型装甲板",
+            "target": "1阶火箭控制电脑"
+        },
+        {
+            "source": "压缩万物",
+            "target": "1阶重型装甲板"
+        },
+        {
+            "source": "NASA工作台",
+            "target": "1阶重型装甲板"
+        },
+        {
+            "source": "2阶重型装甲板",
+            "target": "2阶火箭控制电脑"
+        },
+        {
+            "source": "找一些陨铁",
+            "target": "2阶重型装甲板"
+        },
+        {
+            "source": "月球地牢",
+            "target": "2阶重型装甲板"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "3阶火箭控制电脑"
+        },
+        {
+            "source": "火星地牢",
+            "target": "3阶重型装甲板"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "3阶登陆舱"
+        },
+        {
+            "source": "3阶重型装甲板",
+            "target": "3阶登陆舱"
+        },
+        {
+            "source": "4阶重型装甲板",
+            "target": "4阶火箭控制电脑"
+        },
+        {
+            "source": "谷神星地牢",
+            "target": "4阶重型装甲板"
+        },
+        {
+            "source": "木卫四之旅",
+            "target": "4阶重型装甲板"
+        },
+        {
+            "source": "木卫二之旅",
+            "target": "4阶重型装甲板"
+        },
+        {
+            "source": "5阶重型装甲板",
+            "target": "5阶火箭控制电脑"
+        },
+        {
+            "source": "金星之旅",
+            "target": "5阶重型装甲板"
+        },
+        {
+            "source": "木卫一地牢",
+            "target": "5阶重型装甲板"
+        },
+        {
+            "source": "6阶重型装甲板",
+            "target": "6阶火箭控制电脑"
+        },
+        {
+            "source": "土卫二地牢",
+            "target": "6阶重型装甲板"
+        },
+        {
+            "source": "制造三钛",
+            "target": "6阶重型装甲板"
+        },
+        {
+            "source": "7阶重型装甲板",
+            "target": "7阶火箭控制电脑"
+        },
+        {
+            "source": "这不是只有中子星核心才有的吗?",
+            "target": "7阶重型装甲板"
+        },
+        {
+            "source": "海卫八地牢",
+            "target": "7阶重型装甲板"
+        },
+        {
+            "source": "8阶重型装甲板",
+            "target": "8阶火箭控制电脑"
+        },
+        {
+            "source": "冥王星地牢",
+            "target": "8阶重型装甲板"
+        },
+        {
+            "source": "UHV能源仓",
+            "target": "8阶重型装甲板"
+        },
+        {
+            "source": "4阶火箭",
+            "target": "极大型氧气罐"
+        },
+        {
+            "source": "NASA工作台",
+            "target": "晶圆1"
+        }
+    ]
+}

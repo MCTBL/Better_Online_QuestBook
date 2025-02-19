@@ -1,0 +1,1798 @@
+{
+    "data": [
+        {
+            "name": "进阶电路组装机II",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1222.png",
+            "x": 84.0,
+            "y": 324.0,
+            "data": "工作站电路可以用来制造HV电路组装机.这台机器可以生产更加先进的电路板(IV).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAExg==",
+            "tooltip": "<strong>进阶电路组装机II</strong></br>前置任务需求:</br>HV阶段你最讨厌的另外2个物品</br>工作站,你的第一种EV电路板"
+        },
+        {
+            "name": "进阶电路组装机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1221.png",
+            "x": 348.0,
+            "y": 132.0,
+            "data": "EV电路板需要MV的电路组装机,制造一台吧.%n%n[note]不久之后,所有的电路板配方都会需要超净间环境,尽快搭建好超净间吧![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAExQ==",
+            "tooltip": "<strong>进阶电路组装机</strong></br>前置任务需求:</br>第3阶段(HV)</br>MV阶段你也会讨厌这个#5"
+        },
+        {
+            "name": "氨1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/854.png",
+            "x": 420.0,
+            "y": 468.0,
+            "data": "氮和氢...得到氨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADVg==",
+            "tooltip": "<strong>氨1</strong></br>前置任务需求:</br>H代表氢...字母表的其余部分太复杂了!</br>N代表氮...字母表又罢工了!</br>高压级别的化学实验"
+        },
+        {
+            "name": "UU增幅液生产器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1876.png",
+            "x": 72.0,
+            "y": 120.0,
+            "data": "想要用废料生产UU增幅液(UU-A),你需要一台UU增幅液生产器,增幅液可以提高UU-M的产量. 两种废料是等效的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHVA==",
+            "tooltip": "<strong>UU增幅液生产器</strong></br>前置任务需求:</br>为了环境循环利用"
+        },
+        {
+            "name": "它永远不会损坏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/152.png",
+            "x": 828.0,
+            "y": 276.0,
+            "data": "使用天域之剑,你的杀手乔将永远运作下去...适当的附魔能让其更有效率,但这应该不成问题.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAmA==",
+            "tooltip": "<strong>它永远不会损坏</strong></br>前置任务需求:</br>自动化怪物农场</br>分割徽章(激活)"
+        },
+        {
+            "name": "自动合成1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/144.png",
+            "x": 732.0,
+            "y": 276.0,
+            "data": "你了解的另一个自动合成方法...%n%n左侧的3x3格子中设置合成表.左侧的中间格将显示输出.右侧的物品栏是给你放原料的.输出物品将出现在右侧中间格中.%n这台机器支持自动化.%n你可以用电容升级这台机器,提高能源消耗速度与合成速度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAkA==",
+            "tooltip": "<strong>自动合成1</strong></br>前置任务需求:</br>酷刑装置"
+        },
+        {
+            "name": "自动化怪物农场",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/151.png",
+            "x": 780.0,
+            "y": 276.0,
+            "data": "当然,僵尸喜欢那种恶心的液体(营养精华液).它会使用你给它的武器,攻击处于它范围内的一切,每次攻击时消耗少量的液体.它也会攻击玩家,所以要小心.谣言说,有一种武器在这个\"机器\"中使用时永远不会损坏...%n%n[note]另外,其内储存的精华液超过75％才会运行.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAlw==",
+            "tooltip": "<strong>自动化怪物农场</strong></br>前置任务需求:</br>美味的...</br>噬魂者"
+        },
+        {
+            "name": "HV自动采矿机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/932.png",
+            "x": 540.0,
+            "y": 240.0,
+            "data": "和LV和MV的自动采矿机差不多. HV采矿机需要128EU/t的供能才能工作.它可以在以自己为中心49x49格的范围内搜索矿石(可用螺丝刀调整范围)(刚好3x3区块,非常适合区块加载器),并且比MV的自动采矿机还要快上两倍!还有增产3的奖励!对贫瘠矿尤其有效...%n%n如果你想要更好的采矿机,请查看多方块任务.%n%n别忘了遮雨!这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADpA==",
+            "tooltip": "<strong>HV自动采矿机</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "复仇者联盟3,组装!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/770.png",
+            "x": 612.0,
+            "y": 384.0,
+            "data": "你知道这是做什么用的.(",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADAg==",
+            "tooltip": "<strong>复仇者联盟3,组装!</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "铝土矿渣",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2974.png",
+            "x": 624.0,
+            "y": 648.0,
+            "data": "现在,这些泥浆可以在一个化学反应中被分离.除了我们直接获得的氧化铝,最重要的部分是铝土矿渣,我们将继续加工它.你也可以继续离心废液,再拿到一些额外的副产品.%n%n如果你还没有氢氧化铝,去NEI里找找看.你可以从铝酸钠或红宝石、蓝宝石或绿色蓝宝石里得到它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALng==",
+            "tooltip": "<strong>铝土矿渣</strong></br>前置任务需求:</br>热泥浆"
+        },
+        {
+            "name": "更好的磁化杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2917.png",
+            "x": 432.0,
+            "y": 156.0,
+            "data": "在本阶段你还用不到它们,但要制造EV马达,就需要磁化钕杆了,所以在进入EV阶段之前,你得先做好这个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALZQ==",
+            "tooltip": "<strong>更好的磁化杆</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "更大、更好、更强?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/988.png",
+            "x": 828.0,
+            "y": 132.0,
+            "data": "谐振电容库是目前EIO非创造的最大存储RF能量的电池. 它可以在单方块中存储25M-RF能量. 将多个谐振电容库组成一个更大的结构可以存储更多的能量.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD3A==",
+            "tooltip": "<strong>更大、更好、更强?</strong></br>前置任务需求:</br>充能晶体"
+        },
+        {
+            "name": "生物实验室",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2566.png",
+            "x": 96.0,
+            "y": 576.0,
+            "data": "生物实验室是一个多用途生物工程站. 你可以通过它来制造细菌培养皿(用于细菌培养缸),也可以制造DNA样品瓶和数据球,还有质粒样品瓶用于复制细菌.%n%n培养皿之后会在\"多方块结构\"任务栏中的\"细菌培养缸\"中用到.如果你有工业化酿造的需求,也可以现在就用;或是等后期需要研究生物工程时使用.%n%n[note]如果你到后期才做了细菌培养缸的话,大概也会做一个更高级的生物实验室.只需要任意等级的生物实验室即可完成此任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKBg==",
+            "tooltip": "<strong>生物实验室</strong></br>前置任务需求:</br>聚苯乙烯</br>聚四氟乙烯2"
+        },
+        {
+            "name": "中央处理器(CPU)",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1018.png",
+            "x": 264.0,
+            "y": 132.0,
+            "data": "集成处理器电路板需要CPU. 切割中央处理器晶圆即可生产CPU.%n%n不过生产过程需要在超净间内进行.包括激光蚀刻和切割过程.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD-g==",
+            "tooltip": "<strong>中央处理器(CPU)</strong></br>前置任务需求:</br>进阶电路组装机</br>超净间"
+        },
+        {
+            "name": "便宜的简单电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1714.png",
+            "x": 432.0,
+            "y": 192.0,
+            "data": "NAND芯片是真空管的工业替代品,便宜得多. 不过它们不能用来套娃制造电路板,只能作为ULV电路板使用. 请仔细查看所有可选的合成表!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGsg==",
+            "tooltip": "<strong>便宜的简单电路</strong></br>前置任务需求:</br>简单的SoC-芯片级的系统"
+        },
+        {
+            "name": "氯仿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1813.png",
+            "x": 180.0,
+            "y": 516.0,
+            "data": "下一步是将甲烷与氯反应,制备氯.确保你使用了正确的编程电路.%n%n现在,是时候囤积些氯了.寻找盐矿脉或是青金石矿脉.你还可以用恶魂之泪弄点盐水.你最好种植IC作物来获取恶魂之泪,你将来会需要成吨的氯!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHFQ==",
+            "tooltip": "<strong>氯仿</strong></br>前置任务需求:</br>聚四氟乙烯1"
+        },
+        {
+            "name": "世界锚",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1529.png",
+            "x": 612.0,
+            "y": 432.0,
+            "data": "你可以用HV组装机制作一个世界锚.可加载3x3区块.%n%n你需要硬币来为区块加载器供能.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n个人锚只有在玩家在线时才有效.%n%n被动锚在玩家登录后即生效,直到服务器重启才会失效.%n%n[warn]世界锚[/warn]只要服务器运行,就一直有效.重启后仍然可以即刻生效.%n%n[note]请与服务器OP确认,世界锚是否被禁用. 在官方服务器,为了保证TPS维持在较高水平,世界锚目前被禁用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF-Q==",
+            "tooltip": "<strong>世界锚</strong></br>前置任务需求:</br>复仇者联盟3,组装!"
+        },
+        {
+            "name": "掌控你的抽屉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2408.png",
+            "x": 480.0,
+            "y": 192.0,
+            "data": "现在你有了MV电路板和不锈钢,可以制造便捷的抽屉管理器了.此方块可以与半径4格内(包括Y轴)、总共最多50个相邻的抽屉构成一个整体,并对范围内的有效抽屉执行存储或取出操作(并通过正确的设置进行检索).这将使你更轻松地将采矿之旅的收获转储到存储系统中:只需对准抽屉管理器正面按住右键1-2秒,然后所有可与抽屉匹配的物品都将被存入,而你的工具之类的将被保留在原处.记住,最后放置抽屉管理器,这样所有抽屉都将被注册.%n%n你可以使用任何类型的物品管道、漏斗将其物品放入管理器(通过它可以放进其余的抽屉)中.如果用于混合农场或怪物屠宰场的存储系统,请先标记存储于抽屉中的物品,并用抽屉钥匙锁定,这样你的抽屉存储系统就能有序地存储物品了.要是没有事先标记的话,抽屉管理器就会从最近的抽屉开始填充.如果你希望将某种物品保留一个以上的抽屉的话,在远离抽屉管理器的抽屉中放入虚空升级,这样抽屉管理器就会先填充较近的那个抽屉,再填充较远的那个并销毁过量的物品.%n%n如果你想让抽屉墙转弯又不想看不到转角处的抽屉,使用桥接方块即可.如果想要有第二物品输入点,使用附属管理器(每个抽屉系统限一个,只可用于自动化).请注意,对抽屉管理器使用钥匙可对所有抽屉生效.%n%n当你拥有ME网络之后,在抽屉管理器上放置存储总线即可将抽屉系统接入你的ME网络(存储、检索、取出).记得此存储总线的优先级最好大于ME驱动器的优先级.要是你忘了锁定这些抽屉,你将会看到它们很快就被ME网络中的物品塞得乱七八糟.%n%n[warn]在抽屉管理器上使用大量的输入/输出设备将会严重影响TPS! 如果你在公共服务器上,请勿使用抽屉阵列,否则你的抽屉阵列可能会被删除,而你会被封禁.%n%n另外,官方服务器上的所有非背包交互都可能是禁用的. 祝贺你,抽屉阵列,为大家摧毁它吧.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJaA==",
+            "tooltip": "<strong>掌控你的抽屉</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "玄钢工具和武器的基础升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/998.png",
+            "x": 780.0,
+            "y": 84.0,
+            "data": "每升级一件玄钢工具或武器,你都需要一个充能晶体和10级经验. 升级需要在可靠的铁砧上面进行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5g==",
+            "tooltip": "<strong>玄钢工具和武器的基础升级</strong></br>前置任务需求:</br>充能晶体"
+        },
+        {
+            "name": "玄钢工具和武器的高级升级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/999.png",
+            "x": 780.0,
+            "y": 36.0,
+            "data": "你的玄钢工具和武器可以通过增加电容器或者其他各种物品来升级. 每次升级都需要花费一定的经验值. 只有终结之剑和玄钢镐可以使用末影晶体升级,升级后可以获得旅行附魔,让这两个物品拥有和旅行权杖一样的能力.  所有工具和武器都可以通过电容器来升级(三种电容分别将电池容量提高到15万、25万和100万).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD5w==",
+            "tooltip": "<strong>玄钢工具和武器的高级升级</strong></br>前置任务需求:</br>玄钢工具和武器的基础升级"
+        },
+        {
+            "name": "闪存",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1240.png",
+            "x": 180.0,
+            "y": 204.0,
+            "data": "闪存可以用来保存地震勘探者数据,并且闪存对于LuV阶段解锁的装配线也十分重要.因此去制造一些闪存吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE2A==",
+            "tooltip": "<strong>闪存</strong></br>前置任务需求:</br>NOR芯片和NAND芯片</br>中央处理器(CPU)"
+        },
+        {
+            "name": "目标:月球",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/162.png",
+            "x": 576.0,
+            "y": 468.0,
+            "data": "在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 不过这是一个漫长而艰巨的任务,请转到\"太空竞赛\"任务栏获取更多信息.%n%n[note]另外,IV电路板和HV组装机是这个任务栏的前置条件.[/note]%n%n如果你正在进行不上天挑战,可以手持一组钛锭触发隐藏任务,跳过本任务前进到下一步. 等你到EV阶段之后,还能手持一组钨钢锭触发.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAog==",
+            "tooltip": "<strong>目标:月球</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "二甲基氯硅烷",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1662.png",
+            "x": 324.0,
+            "y": 516.0,
+            "data": "接下来的步骤需要氯甲烷和硅粉. 经过反应后,你就可以获得二甲基二氯硅烷.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGfg==",
+            "tooltip": "<strong>二甲基氯硅烷</strong></br>前置任务需求:</br>硅橡胶"
+        },
+        {
+            "name": "蒸馏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1617.png",
+            "x": 180.0,
+            "y": 468.0,
+            "data": "为了下一步需要的一些流体/气体,如苯、乙烯和丁二烯,你需要让蒸馏塔运行数轮.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGUQ==",
+            "tooltip": "<strong>蒸馏</strong></br>前置任务需求:</br>合成橡胶"
+        },
+        {
+            "name": "末影之眼2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1233.png",
+            "x": 264.0,
+            "y": 420.0,
+            "data": "末影之眼可以在高压化学反应釜中制作.让烈焰粉和末影珍珠进行反应.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE0Q==",
+            "tooltip": "<strong>末影之眼2</strong></br>前置任务需求:</br>高压级别的化学实验"
+        },
+        {
+            "name": "充能合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/990.png",
+            "x": 636.0,
+            "y": 132.0,
+            "data": "充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在制造双层电容和HV能源仓的时候需要用到它. 在得到充能合金粉末后需要将它放入工业高炉中熔炼成充能合金锭.%n%n[note]单步搅拌的配方用到了7种原料,所以需要EV+或者多方块搅拌机.现阶段你得用另一个配方.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD3g==",
+            "tooltip": "<strong>充能合金</strong></br>前置任务需求:</br>第3阶段(HV)</br>更多的热量 - 坎塔尔线圈"
+        },
+        {
+            "name": "更大的储罐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1811.png",
+            "x": 684.0,
+            "y": 84.0,
+            "data": "4000桶还不够?想存够烧一辈子的柴油?试试超级缸II吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHEw==",
+            "tooltip": "<strong>更大的储罐</strong></br>前置任务需求:</br>聚氯乙烯片</br>脉冲合金"
+        },
+        {
+            "name": "经验存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/167.png",
+            "x": 636.0,
+            "y": 180.0,
+            "data": "死亡很痛苦,不是吗？因为死亡会导致你丢失所有宝贵的经验. 但是不要害怕,有个办法可以避免损失! 你可以通过经验交换方尖碑来把你所有的经验都存储到一个更加安全的地方.绝对比你当前能做到的所有方案都更可靠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAApw==",
+            "tooltip": "<strong>经验存储</strong></br>前置任务需求:</br>充能合金"
+        },
+        {
+            "name": "让耕种更容易一点",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1739.png",
+            "x": 636.0,
+            "y": 228.0,
+            "data": "厌倦了林业多方块农场的复杂要求？ EIO的种植站可以帮助你减轻这种痛苦.它只需要EU和工具,并且可以使用电容器轻松升级.支持大多数正常的作物和树木,但遗憾的是不支持IC2作物.%n%n[note]如果你想用它来种潘马斯的作物,你需要提供作物本身而不是种子才能让它正常运作.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGyw==",
+            "tooltip": "<strong>让耕种更容易一点</strong></br>前置任务需求:</br>酷刑装置</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "找到氟碳镧铈矿石、独居石和钕矿石",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1612.png",
+            "x": 576.0,
+            "y": 552.0,
+            "data": "许多EV机器零件(马达)需要钕. 稀土是获得钕的好方法,但在月球上,你可以找到含有钕矿石的矿脉. 矿脉中的氟碳镧铈矿还是氟的重要来源.  而且独居石还可以提取出更多稀土.  这种矿脉可在月球Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGTA==",
+            "tooltip": "<strong>找到氟碳镧铈矿石、独居石和钕矿石</strong></br>前置任务需求:</br>目标:月球"
+        },
+        {
+            "name": "找到铝土矿脉",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1011.png",
+            "x": 672.0,
+            "y": 552.0,
+            "data": "铝土矿脉蕴涵两种可以处理获得钛的矿石,铝土矿和钛铁矿. 铝土矿中还含有铝,而铝矿石这种也有铝(废话). 你需要成吨的钛,所以多挖点铝土矿脉吧.%n%n当你采矿的时候,肯定会挖到贫瘠矿并捡到一些陨铁矿,足够造火箭了. 要是还不够,或者你想多囤一点的话,可以挖掘那些从天而降的陨石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD8w==",
+            "tooltip": "<strong>找到铝土矿脉</strong></br>前置任务需求:</br>目标:月球"
+        },
+        {
+            "name": "寻找钛铁",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1424.png",
+            "x": 672.0,
+            "y": 468.0,
+            "data": "事实上你可以从铝土矿脉中中获得更多的钛铁矿. 但是你可能是来寻找铬铁矿的？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFkA==",
+            "tooltip": "<strong>寻找钛铁</strong></br>前置任务需求:</br>目标:月球"
+        },
+        {
+            "name": "流体加热器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8171783490200761150.png",
+            "x": 600.0,
+            "y": 324.0,
+            "data": "你需要一台流体加热器用于某些化学过程，比如为了最好的薯条，不过现在也需要用它来制造钠钾冷却单元。一台MV或HV流体加热器即可，造一台吧。%n%nHV设备可以在你登上月球后用于更好地处理铝土矿。",
+            "quest_id": "55XTBx8LRN2Ol_42LS6Mwg==",
+            "tooltip": "<strong>流体加热器</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "忘了什么?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2447.png",
+            "x": 120.0,
+            "y": 132.0,
+            "data": "你的工作站需要些蓝石? 回到下界并在Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJjw==",
+            "tooltip": "<strong>忘了什么?</strong></br>前置任务需求:</br>处理器集群"
+        },
+        {
+            "name": "镓,还有更多",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2976.png",
+            "x": 672.0,
+            "y": 648.0,
+            "data": "离心铝土矿渣,以获得剩余的所需物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALoA==",
+            "tooltip": "<strong>镓,还有更多</strong></br>前置任务需求:</br>铝土矿渣"
+        },
+        {
+            "name": "充分利用你的铝土矿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2978.png",
+            "x": 672.0,
+            "y": 600.0,
+            "data": "不同于直接热离, 使用更合适的处理方式可以让你从铝土矿中获得更多的镓, 并产出大量的金红石和氧化铝. %n%n首先, 制作一些铝土泥浆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALog==",
+            "tooltip": "<strong>充分利用你的铝土矿</strong></br>前置任务需求:</br>找到铝土矿脉"
+        },
+        {
+            "name": "获得第一块铂锭",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2295.png",
+            "x": 588.0,
+            "y": 48.0,
+            "data": "高效的铂处理相当复杂.但是现在,我们可以直接将其熔炼成铂锭.这可能不是最高效的方法,但是对于我们接下来要做的事情已经足够了.%n%n在这个阶段,铂的最优来源是暮色森林中的镍矿石,或末地石粉(如果你已经能在末地生存).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI9w==",
+            "tooltip": "<strong>获得第一块铂锭</strong></br>前置任务需求:</br>第3阶段(HV)</br>更多的热量 - 坎塔尔线圈"
+        },
+        {
+            "name": "隐藏式抽屉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2398.png",
+            "x": 312.0,
+            "y": 372.0,
+            "data": "你可能会注意到,当你在抽屉朝向的那面,并且碰到抽屉墙时,会有一点点的延迟.如果不想有这种延迟的话,你可以制作此钥匙,让抽屉不在前部显示物品. 对抽屉管理器使用钥匙可以对整面抽屉墙生效.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJXg==",
+            "tooltip": "<strong>隐藏式抽屉</strong></br>前置任务需求:</br>末影之眼2"
+        },
+        {
+            "name": "热泥浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2977.png",
+            "x": 624.0,
+            "y": 600.0,
+            "data": "用流体加热器加热你制造的泥浆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALoQ==",
+            "tooltip": "<strong>热泥浆</strong></br>前置任务需求:</br>充分利用你的铝土矿</br>流体加热器"
+        },
+        {
+            "name": "太多的圆石是多少?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1909.png",
+            "x": 480.0,
+            "y": 240.0,
+            "data": "超级箱III实在太可笑了.哪有人需要存储一千六百万的东西啊? 对,就是你.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHdQ==",
+            "tooltip": "<strong>太多的圆石是多少?</strong></br>前置任务需求:</br>LV力场发生器"
+        },
+        {
+            "name": "太多液体是多少?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1815.png",
+            "x": 432.0,
+            "y": 240.0,
+            "data": "你想储存的液体无穷无尽.为你自己制作一些超级缸III吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHFw==",
+            "tooltip": "<strong>太多液体是多少?</strong></br>前置任务需求:</br>LV力场发生器"
+        },
+        {
+            "name": "进阶锅炉[HV]",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1901.png",
+            "x": 828.0,
+            "y": 528.0,
+            "data": "GT++的进阶锅炉[HV]可以比MV版本更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbQ==",
+            "tooltip": "<strong>进阶锅炉[HV]</strong></br>前置任务需求:</br>总算能炼钛了"
+        },
+        {
+            "name": "HV卷板机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1289.png",
+            "x": 396.0,
+            "y": 372.0,
+            "data": "HV卷板机的速度是LV卷板机的4倍,而且它还解锁了一个重要合成表-锡罐!  有了这台卷板机,你可以将锡外壳制成锡罐.将锡罐与食物一起放入装罐机(LV就够了)可以制成罐头.这种罐头可以堆叠64个,并且让你的食谱不再复杂-无需换着花样吃东西了!一次右键,你就会吃掉你当前需要吃的所有罐头.一个缺点是,你将不再获得饱食buff和这个buff提供的轻微生命恢复效果,也无法通过多样食品获得生命值上限提升.而且,这些罐头也不适合放在午餐袋或午餐盒里,所以你不再需要那些了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFCQ==",
+            "tooltip": "<strong>HV卷板机</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "HV板材切割机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1236.png",
+            "x": 348.0,
+            "y": 276.0,
+            "data": "生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割磷掺杂的单晶硅.%n%n[note]很快你就会发现,每种切割配方都需要超净间环境了,所以记得仔细查看NEI.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE1A==",
+            "tooltip": "<strong>HV板材切割机</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "HV能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1903.png",
+            "x": 708.0,
+            "y": 384.0,
+            "data": "HV能源仓是一台高速工业高炉的关键,还能解锁更高级的配方.你大概会想要做两台以上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHbw==",
+            "tooltip": "<strong>HV能源仓</strong></br>前置任务需求:</br>复仇者联盟3,组装!</br>防止能源仓过热"
+        },
+        {
+            "name": "HV压模机",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1271.png",
+            "x": 396.0,
+            "y": 324.0,
+            "data": "你需要HV压模机来挤压那些难以加工的金属,如钨钢和HSS.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE9w==",
+            "tooltip": "<strong>HV压模机</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "HV超导(512 EU/t)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1405.png",
+            "x": 828.0,
+            "y": 576.0,
+            "data": "无损的HV超导导线如何? Titaniumonabariumdecacoppereikosaoxide(HV超导)是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有线损为0的超导导线.%n%n在高压搅拌机中搅拌钛、钡、铜和氧. 制得的粗胚粉需要用带有镍铬合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氦、钛流体管道和HV泵组合在一起,以获得512EU/t的超导导线.%n%n[note]当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFfQ==",
+            "tooltip": "<strong>HV超导(512 EU/t)</strong></br>前置任务需求:</br>总算能炼钛了</br>升级镍铬合金线圈"
+        },
+        {
+            "name": "集成处理器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1016.png",
+            "x": 264.0,
+            "y": 60.0,
+            "data": "这是4次套娃系列电路板的开端. 集成系列的电路板与后面的电路板系列不一样,仅在与命名方式不一样,其他的工作方式一致. 集成系列电路板,除了是你的第一种EV和IV电路板以外,剩下的也就是一种新等级的电路板而已. 也因此你需要两台新的电路组装机完成它们的制造.%n%n最开始的是集成处理器,这是最后一种MV电路板.你可以直接制造而不用套娃,所以它就是最便宜的. 这一点在每个系列的电路板上都适用.%n%n[note]这种先进的电路板需要超净间环境.另外,之后的所有电路板都需要超净环境.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD-A==",
+            "tooltip": "<strong>集成处理器</strong></br>前置任务需求:</br>塑料电路基板1</br>中央处理器(CPU)"
+        },
+        {
+            "name": "我看到了一切",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/163.png",
+            "x": 828.0,
+            "y": 228.0,
+            "data": "存储控制面板可以代替红石计划的存储系统(希望吧). 和红石计划一样,你必须使用管道链接每一个箱子或者桶. 除此之外,你还需要给每一个链接到存储设备的管道上面安装\"远程接入升级\"后才可以在面板上面看到里面存储的物品. 提示:这个设备需要使用营养精华液来驱动.%n%n好吧,等到你能造AE系统之后,这些都会通通过时.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAow==",
+            "tooltip": "<strong>我看到了一切</strong></br>前置任务需求:</br>创造生命"
+        },
+        {
+            "name": "防止能源仓过热",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6650556070435655322.png",
+            "x": 708.0,
+            "y": 324.0,
+            "data": "在这里你有两种新选择.分别为钠钾冷却单元任务线,或是制造一台真空冷冻机,使用氦冷却单元.",
+            "quest_id": "pXRqb1HyQYSjtHp9dt1xZg==",
+            "tooltip": "<strong>防止能源仓过热</strong></br>前置任务需求:</br>终结...</br>钠钾"
+        },
+        {
+            "name": "动能发电机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1137.png",
+            "x": 828.0,
+            "y": 480.0,
+            "data": "动能发电机可以将机械能转化成电能.产生的电力取决于动能输入. 动能发电机通常和风力动能发生机、水力动能发生机一起使用.而蒸汽动能发生机只有一个等级,所以如果对蒸汽感兴趣的话,可以考虑考虑蒸汽涡轮.%n%n当放置动能发电机时,任何时候,输入端都是面向你的.所以你总是先放置动能发电机,然后再是风力/水力动能发生机,然后再将转子放入.能量可以从动能发电机的任意面输出,而每一面的最高输出即动能发电机的电压等级.%n%n警告:不正确地破坏动能发电机将无法掉落发电机.你需要使用GT扳手,右键它.它就会立刻掉落.要是它转了个方向,那就再试一次.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcQ==",
+            "tooltip": "<strong>动能发电机(HV)</strong></br>前置任务需求:</br>总算能炼钛了"
+        },
+        {
+            "name": "水力动能发生机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1139.png",
+            "x": 828.0,
+            "y": 444.0,
+            "data": "水力动能发生机需要通过水在河流或者海洋中的流动来产生动能. 和风力动能发生机一样,水力动能发生机也需要使用木、铁、钢、碳制转子或者使用GT++的材料.%n%n如果水力动能发生机的转子不是完全浸没在水中,则机器会提醒你\"转子没有足够的空间\".如果水力动能发生机不是放置在河流、海洋或深海生物群系,那么机器会提醒你\"必须放置在河流和海洋生物群系\".查看Discord上的游戏机制表格,你能找到生物群系及其标签的列表.%n%n虽然不太方便,但水力发电机运行更加稳定.%n%n[warn]你可以通过巫术来转换生物群系.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcw==",
+            "tooltip": "<strong>水力动能发生机(HV)</strong></br>前置任务需求:</br>动能发电机(HV)"
+        },
+        {
+            "name": "风力动能发生机(HV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1138.png",
+            "x": 864.0,
+            "y": 480.0,
+            "data": "风力动能发生机根据不同的风力,电力输出也会随之变化,虽然某些因素可以改变这一点.%n%n和风车不同,为了保证风力动能发生机的正常运转,你需要经常维护转子.%n一旦转子放置在GUI中,你需要确定风机的结构拥有足够的空间,并且当前位置的风力水平足够启动当前的转子.如果这些条件都满足,那么风机就会开始产生动能.%n%n将动能发电机贴到风机正确的面(黑色圆圈),动能发电机就会开始将动能转化成电能.%n%n关于风:%n首先,某一个地区的风力强度受到3个因素的影响:高度、天气和随机性.Y轴越高,风力就越强.如果Y轴低于64,那么你将没有足够的风能可以利用,风机也不会启动.天气也会不同程度的增强风力；雨天将会将会比正常提高20％的风力,雷雨天将会提高到50％.最后随机性将会使风力强度进行不规律的随机变化,但是这个随机变化将会限制在一个比较有限的范围内.%n%n检查一个位置的风力水平最简单的方式就是用风力计.%nY轴在160的高度最强,而建造的最高限制Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEcg==",
+            "tooltip": "<strong>风力动能发生机(HV)</strong></br>前置任务需求:</br>动能发电机(HV)"
+        },
+        {
+            "name": "LV力场发生器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1871.png",
+            "x": 480.0,
+            "y": 288.0,
+            "data": "力场发生器是一种强大的设备.它通常用于合成超级缸、超级箱、质量发生器、复制机或传送机. 以及,某些人喜欢用它来提升一些物品的造价.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHTw==",
+            "tooltip": "<strong>LV力场发生器</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "LV级微型处理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1235.png",
+            "x": 324.0,
+            "y": 192.0,
+            "data": "微型处理器是制造LV电路最高等级的方法,此合成每次运行可以产出2个.%n%n除了列出的东西以外,你还需要2电阻、晶体管和电容,贴片或非贴片都可以.%n%n这种先进的电路板需要超净间环境.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE0w==",
+            "tooltip": "<strong>LV级微型处理器</strong></br>前置任务需求:</br>进阶电路组装机</br>塑料电路基板1</br>超净间"
+        },
+        {
+            "name": "私人磁铁",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1858.png",
+            "x": 732.0,
+            "y": 180.0,
+            "data": "如果你没有从战利品袋里开到过电磁铁,那就用充能晶体做一个吧.  在服务器中,如果你移动太快时,它不能很好地工作,但它能使收获作物变得简单.%n%n译者注:试试龙研的磁铁吧,现在它的造价大幅度下调了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHQg==",
+            "tooltip": "<strong>私人磁铁</strong></br>前置任务需求:</br>充能晶体"
+        },
+        {
+            "name": "处理器主机,你的第一种IV电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1225.png",
+            "x": 84.0,
+            "y": 396.0,
+            "data": "处理器主机是你可以制造的第一种IV电路板.它可以用于合成部分EV机器,以及所有基础IV机器及部件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEyQ==",
+            "tooltip": "<strong>处理器主机,你的第一种IV电路板</strong></br>前置任务需求:</br>进阶电路组装机II"
+        },
+        {
+            "name": "HV级搅拌",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/808.png",
+            "x": 516.0,
+            "y": 48.0,
+            "data": "搅拌更高级的粉末需要更高级的搅拌机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADKA==",
+            "tooltip": "<strong>HV级搅拌</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "钠钾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8162614124778304378.png",
+            "x": 648.0,
+            "y": 324.0,
+            "data": "让我们制造一些钠钾冷却单元!",
+            "quest_id": "wLYoO7hsT_SOuJGzbgDMhg==",
+            "tooltip": "<strong>钠钾</strong></br>前置任务需求:</br>流体加热器"
+        },
+        {
+            "name": "需要一个地方来存放所有这些矿石？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1517.png",
+            "x": 588.0,
+            "y": 240.0,
+            "data": "...最后,箱子的最终形态,即使被破坏了,里面的物品还是会保留!这样物品运输就会变得简单得多!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF7Q==",
+            "tooltip": "<strong>需要一个地方来存放所有这些矿石？</strong></br>前置任务需求:</br>HV自动采矿机</br>黑曜石箱子</br>玄钢箱子"
+        },
+        {
+            "name": "硝酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/851.png",
+            "x": 456.0,
+            "y": 552.0,
+            "data": "硝酸可以由水、氧气和二氧化氮制成.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADUw==",
+            "tooltip": "<strong>硝酸</strong></br>前置任务需求:</br>二氧化氮</br>O似乎是氧"
+        },
+        {
+            "name": "一氧化氮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/855.png",
+            "x": 456.0,
+            "y": 468.0,
+            "data": "要制造一氧化氮你需要在化学反应釜中结合氧和氨.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADVw==",
+            "tooltip": "<strong>一氧化氮</strong></br>前置任务需求:</br>氨1</br>O似乎是氧"
+        },
+        {
+            "name": "硝基!(高十六烷值柴油)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/557.png",
+            "x": 492.0,
+            "y": 516.0,
+            "data": "每单元1M-EU,比柴油更加高能.是的,是的,这太棒了! 制造一些高十六烷值柴油,让你的内燃发电机迸发更强大的动力吧.%n%n[note]另外,高辛烷值汽油是另一条路,所以当你在EV阶段想要转用它时,你需要重新搭建整条生产线.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACLQ==",
+            "tooltip": "<strong>硝基!(高十六烷值柴油)</strong></br>前置任务需求:</br>轻燃油1</br>四硝基甲烷"
+        },
+        {
+            "name": "二氧化氮",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/853.png",
+            "x": 456.0,
+            "y": 516.0,
+            "data": "二氧化氮需要在化学反应釜中结合氧气和一氧化氮.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADVQ==",
+            "tooltip": "<strong>二氧化氮</strong></br>前置任务需求:</br>一氧化氮</br>O似乎是氧"
+        },
+        {
+            "name": "NOR芯片和NAND芯片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1239.png",
+            "x": 180.0,
+            "y": 276.0,
+            "data": "NAND芯片可用于制造闪存、数据球和UV电路板.NOR芯片可用于制造数据球和LuV电路板.切割NAND或NOR晶圆即可获得相应的芯片. 虽然目前你可能只用得上闪存.%n要求超净间环境.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE1w==",
+            "tooltip": "<strong>NOR芯片和NAND芯片</strong></br>前置任务需求:</br>精确度是必要的</br>磷掺杂的晶圆</br>超净间"
+        },
+        {
+            "name": "高压级别的化学实验",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/943.png",
+            "x": 372.0,
+            "y": 420.0,
+            "data": "更高级别的化学反应需要更高级别的电压,比如说氮气和氢气反应为氨气的就需要在高压的化学反应釜里面进行.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADrw==",
+            "tooltip": "<strong>高压级别的化学实验</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "培养皿,这可不是吃的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2567.png",
+            "x": 48.0,
+            "y": 576.0,
+            "data": "你需要培养皿来培养细菌. 可以用硼玻璃、聚苯乙烯、聚四氟乙烯制作培养皿.%n%n然后必须对培养皿进行灭菌处理,以使新的培养物可以在其上生长. 你可以使用乙醇、甲醇、氨气或氯气进行灭菌.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKBw==",
+            "tooltip": "<strong>培养皿,这可不是吃的</strong></br>前置任务需求:</br>生物实验室"
+        },
+        {
+            "name": "磷掺杂的单晶硅",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1237.png",
+            "x": 264.0,
+            "y": 276.0,
+            "data": "传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下煅烧硅和磷的混合粉末,这样你就可以得到掺杂了磷的单晶硅.%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到\"多方块结构\"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考\"工业高炉时代\"任务.%n%n更高级的单晶硅可以切出更多的晶圆,制成更多的芯片.但某些时候一些低阶单晶硅也是少不了的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE1Q==",
+            "tooltip": "<strong>磷掺杂的单晶硅</strong></br>前置任务需求:</br>HV板材切割机</br>太阳能级硅</br>更多的热量 - 坎塔尔线圈"
+        },
+        {
+            "name": "磷掺杂的晶圆",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1238.png",
+            "x": 264.0,
+            "y": 204.0,
+            "data": "想要将磷掺杂的单晶硅切割成晶圆,需要MV以上的切割机,并且需要保证切割环境洁净无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE1g==",
+            "tooltip": "<strong>磷掺杂的晶圆</strong></br>前置任务需求:</br>磷掺杂的单晶硅</br>超净间"
+        },
+        {
+            "name": "玩泥巴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/769.png",
+            "x": 600.0,
+            "y": 288.0,
+            "data": "这台机器使你可以将粉末制作成水晶,在高阶配方中你将需要水晶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADAQ==",
+            "tooltip": "<strong>玩泥巴</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "聚二甲基硅氧烷粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1663.png",
+            "x": 324.0,
+            "y": 576.0,
+            "data": "将二甲基氯硅烷和水加入化学反应釜中,得到聚二甲基硅氧烷粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGfw==",
+            "tooltip": "<strong>聚二甲基硅氧烷粉</strong></br>前置任务需求:</br>二甲基氯硅烷"
+        },
+        {
+            "name": "聚苯乙烯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2565.png",
+            "x": 96.0,
+            "y": 516.0,
+            "data": "在化学反应釜中使氧气和苯乙烯反应,可以制得聚苯乙烯. 再配合流体固化机和板模具,即可获得聚苯乙烯片.%n%n[note]只有一种机器需要用到它,所以在真正用到之前不用准备太多.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKBQ==",
+            "tooltip": "<strong>聚苯乙烯</strong></br>前置任务需求:</br>苯乙烯"
+        },
+        {
+            "name": "聚四氟乙烯2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1814.png",
+            "x": 180.0,
+            "y": 576.0,
+            "data": "熔融塑料的味道闻起来很棒,不是么?将氢氟酸与氯仿反应,制备出四氟乙烯.再将其与氧反应,制备出聚四氟乙烯.%n%n最后,用流体固化器制作出聚四氟乙烯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHFg==",
+            "tooltip": "<strong>聚四氟乙烯2</strong></br>前置任务需求:</br>氯仿"
+        },
+        {
+            "name": "精确度是必要的",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/772.png",
+            "x": 180.0,
+            "y": 420.0,
+            "data": "制作高阶的电路以及其它配方时你将会常使用到这台机器.%n%n[note]你很快会发现,所有的激光蚀刻配方都需要超净间环境,所以请先造个超净间.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADBA==",
+            "tooltip": "<strong>精确度是必要的</strong></br>前置任务需求:</br>HV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "name": "处理器集群",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1017.png",
+            "x": 180.0,
+            "y": 132.0,
+            "data": "处理器系列电路板的第二步,HV等级. 你需要用两个集成处理器进行套娃. 并且依然需要在超净间进行组装.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD-Q==",
+            "tooltip": "<strong>处理器集群</strong></br>前置任务需求:</br>小型线圈"
+        },
+        {
+            "name": "生丁苯橡胶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1622.png",
+            "x": 36.0,
+            "y": 468.0,
+            "data": "倒数第二步是制取生丁苯橡胶.混合你的丁二烯,苯乙烯和氧气(也可使用空气,产量少些)制作生丁苯橡胶粉末.%n%n需要HV化学反应釜.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGVg==",
+            "tooltip": "<strong>生丁苯橡胶</strong></br>前置任务需求:</br>苯乙烯"
+        },
+        {
+            "name": "为了环境循环利用",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1906.png",
+            "x": 72.0,
+            "y": 168.0,
+            "data": "如果你有堆积如山的原木、树苗、地狱岩或别的垃圾,将它们回收然后获得废料吧.[note](废料的产出几率并非100％)[/note].废料可用于生产UU物质增幅液(UU-A),可以使生产UU物质的耗时缩短为1/4,从而节省大量能量.%n%n某些物品,例如圆石、石头、小堆或者小撮粉这类太容易获取的物品不会产生废料.但是只要你能扔进去的任何粉末或垃圾都能让你获得废料.%n%n译者注:贴在回收机上的传送带可以帮助你分辨哪些物品无法产生废料——不会产生废料的物品不会被自动输入机器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHcg==",
+            "tooltip": "<strong>为了环境循环利用</strong></br>前置任务需求:</br>工作站,你的第一种EV电路板"
+        },
+        {
+            "name": "RF太阳能板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1000.png",
+            "x": 732.0,
+            "y": 84.0,
+            "data": "使用光伏板可以给使用RF能源的机器提供能量.光伏板的输出功率为10RF/t.非常适合为低功耗RF机器供能.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD6A==",
+            "tooltip": "<strong>RF太阳能板</strong></br>前置任务需求:</br>太阳能</br>脉冲合金"
+        },
+        {
+            "name": "高级RF太阳能板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1001.png",
+            "x": 732.0,
+            "y": 36.0,
+            "data": "升级后的高级光伏板要比原来的光伏板输出高很多. 高级光伏板能达到40RF/t的输出功率.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD6Q==",
+            "tooltip": "<strong>高级RF太阳能板</strong></br>前置任务需求:</br>RF太阳能板"
+        },
+        {
+            "name": "岩石切割机LV",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1824.png",
+            "x": 864.0,
+            "y": 552.0,
+            "data": "岩石切割机是一种自带不毁和精准采集的挖掘设备.它使你能够完好无损地挖掘它们,比如玻璃或是石头,当然,你得先给它充电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHIA==",
+            "tooltip": "<strong>岩石切割机LV</strong></br>前置任务需求:</br>总算能炼钛了"
+        },
+        {
+            "name": "转子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1140.png",
+            "x": 864.0,
+            "y": 444.0,
+            "data": "风力动能发生机或和水力动能发生机都需要转子来运作. 可通过标准自动化添加或是移除转子. 越高级的转子使用时间就越长.此外,用铱制造的转子不会磨损.而IC2的铱转子有可能因为耐久损失出现bug. 充能合金转子在当前可能是最优选择,以为它恰好可以提供满1A输出,而目前多余输出会被浪费.%n%n[note]只需制造一个转子即可完成此任务.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdA==",
+            "tooltip": "<strong>转子</strong></br>前置任务需求:</br>风力动能发生机(HV)</br>水力动能发生机(HV)"
+        },
+        {
+            "name": "金红石",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1012.png",
+            "x": 768.0,
+            "y": 468.0,
+            "data": "你已经从副产物中获得了一些金红石了对吧? 或者直接'工业高炉'了一些钛铁?%n%n金红石、氯和碳制成四氯化钛,以及一些一氧化碳.你可以回收一氧化碳补充一定的碳,或者直接销毁它们.%n%n使用HV高炉将四氯化钛与镁结合煅烧,你就能获得热钛锭,以及氯化镁. 同样,你可以用钠将这些氯化镁处理后,回收所有的镁和氯.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD9A==",
+            "tooltip": "<strong>金红石</strong></br>前置任务需求:</br>寻找钛铁</br>找到铝土矿脉"
+        },
+        {
+            "name": "将能量送回",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1145.png",
+            "x": 900.0,
+            "y": 444.0,
+            "data": "动能发电机的兼容性得到了提升,现在无需变压器即可正常通过线缆输出能量.但在输电的时候,使用变压器升压仍然不失为一种极佳的降低损耗方式.举个例子,从160格的发电机传输到63格地表,1线损的线缆,每A电流会损失97EU,如果是HV输电,就会是97/512,将近五分之一的损失;而如果是EV输电,那么就是97/2048,不到1/20的损失,这不就是好多了嘛.(升压前需要通过一段线缆,将发电机输出的IC-EU转化为GT-EU)%n%n[warn]IC2机器不怕被雨淋,但别忘了遮盖变压器.[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEeQ==",
+            "tooltip": "<strong>将能量送回</strong></br>前置任务需求:</br>转子"
+        },
+        {
+            "name": "将宝石与粉末分开",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1521.png",
+            "x": 516.0,
+            "y": 420.0,
+            "data": "低压筛选机太太太慢了,你应该制作一个HV筛选机以更快地获得宝石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF8Q==",
+            "tooltip": "<strong>将宝石与粉末分开</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "分子分离器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1921.png",
+            "x": 540.0,
+            "y": 192.0,
+            "data": "大部分的离心机的配方很慢.你最好升级一下机器了.%n%n除了普通的矿物处理与甲烷制造以外,你还可以离心很多有趣的东西.萤石粉,红石,灵魂沙,岩浆,灰,行星尘,压缩空气等等.请多多留意一下.%n%n译者注: 由于熔岩岩浆和末影粘浆mod本身就有流体,所以NEI中直接对该流体查看用途是搜不出来的,可以通过对相应单元查看用途,可以看到GT版本的这两种流体.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHgQ==",
+            "tooltip": "<strong>分子分离器</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "摇起来...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1420.png",
+            "x": 516.0,
+            "y": 468.0,
+            "data": "从洗净的矿石中筛出...无论如何,工业筛选机会显著提高筛选速度.你会怎么处理这些宝石呢？%n%n[note]如果你不想用双能源仓升压的话,得再做一个机械方块.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFjA==",
+            "tooltip": "<strong>摇起来...</strong></br>前置任务需求:</br>将宝石与粉末分开</br>高压阶段的多方块结构"
+        },
+        {
+            "name": "硅橡胶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1661.png",
+            "x": 372.0,
+            "y": 516.0,
+            "data": "想制作一些合成橡胶,硅橡胶？ 第一步,你需要氯甲烷.%n%n将2单位氯+1单位甲烷放入化学反应釜. 或者你也可以用甲醇和氢氯酸.%n%n有不同的方法可以做到这一点,这个任务只是一个例子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGfQ==",
+            "tooltip": "<strong>硅橡胶</strong></br>前置任务需求:</br>高压级别的化学实验"
+        },
+        {
+            "name": "硅橡胶片",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1664.png",
+            "x": 276.0,
+            "y": 576.0,
+            "data": "现在我们在聚二甲基硅氧烷粉中添加一点硫,得到熔融硅橡胶. 再使用板模具固化获得硅橡胶片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGgA==",
+            "tooltip": "<strong>硅橡胶片</strong></br>前置任务需求:</br>聚二甲基硅氧烷粉"
+        },
+        {
+            "name": "简单的SoC-芯片级的系统",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1713.png",
+            "x": 372.0,
+            "y": 192.0,
+            "data": "SoC是芯片级系统(System on a Chip)的简称,它可以降低电路板的造价. 在这里,用简单的SoC可以替换真空管,ULV电路板更便宜了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGsQ==",
+            "tooltip": "<strong>简单的SoC-芯片级的系统</strong></br>前置任务需求:</br>进阶电路组装机"
+        },
+        {
+            "name": "小型线圈",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1019.png",
+            "x": 180.0,
+            "y": 60.0,
+            "data": "生产处理器集群时需要用到小型线圈,有许多不同的方法可以制造它们.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD-w==",
+            "tooltip": "<strong>小型线圈</strong></br>前置任务需求:</br>集成处理器"
+        },
+        {
+            "name": "贴片电路元件",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1013.png",
+            "x": 588.0,
+            "y": -24.0,
+            "data": "SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产下一阶高级电路板的时候你需要用到它们.而且它们要比基础的电容、晶体管、二极管、电阻便宜. 等到你搭建了一条可靠的聚乙烯生产线,你就可以批量使用贴片电路元件节省大量资源.%n%n建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片晶体管并不划算,除非你可以通过高压粉碎机(处理铝土或是闪锌矿)或者蜜蜂提供稳定的镓来源. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD9Q==",
+            "tooltip": "<strong>贴片电路元件</strong></br>前置任务需求:</br>获得第一块铂锭</br>复仇者联盟2,组装!"
+        },
+        {
+            "name": "贴片电感",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8693302957682373366.png",
+            "x": 576.0,
+            "y": 600.0,
+            "data": "现在你有了钕,就可以制造最后一种贴片元件--贴片电感了.它可以取代此前电路板合成中用到的小型线圈.",
+            "quest_id": "3F2OXjxZT-eHWy8E4n1NCg==",
+            "tooltip": "<strong>贴片电感</strong></br>前置任务需求:</br>找到氟碳镧铈矿石、独居石和钕矿石"
+        },
+        {
+            "name": "一些罕见的高级金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1411.png",
+            "x": 420.0,
+            "y": 516.0,
+            "data": "在黄铜矿、镍黄铁矿与硝酸的某些化学反应过程中,可以得到小堆的铂、钯、铱和锇(金属粉). 你现在可能没有技术来处理它们,但是以后你需要大量这些金属.%n%n请注意,这不是获取稀有金属的正确方法.这意味着它们都不是纯净的,在经过铂线处理之前无法被利用,除了直接用高炉处理铂金属粉获得铂粒. 但真正的铂处理需要EV电压,还有一些需要IV电压. 考虑到这么做如此费时费力,现在收集太多这些金属粉好像不是个好主意.%n%n[note]化学浸洗机还可以从镍矿石中汞洗出铂. 是时候重返暮色森林了![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFgw==",
+            "tooltip": "<strong>一些罕见的高级金属</strong></br>前置任务需求:</br>硝酸</br>氨1"
+        },
+        {
+            "name": "噬魂者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/165.png",
+            "x": 732.0,
+            "y": 228.0,
+            "data": "如果我们可以利用某些生物的智慧或者能力,这是不是很棒？ 举个例子:利用末影人的传送能力或者僵尸大脑简单的逻辑能力(反正僵尸也用不到大脑",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAApQ==",
+            "tooltip": "<strong>噬魂者</strong></br>前置任务需求:</br>酷刑装置</br>一个灵魂的容器"
+        },
+        {
+            "name": "指定附魔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/170.png",
+            "x": 828.0,
+            "y": 84.0,
+            "data": "附魔书就像附魔物品一样是随机的,如果你想在你的工具或护甲上附上特定的魔咒是一件很困难的事. 现在有了一种可以指定附魔的方法.当然了,这并不便宜(译者注:其实也不贵XD).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAqg==",
+            "tooltip": "<strong>指定附魔</strong></br>前置任务需求:</br>充能晶体"
+        },
+        {
+            "name": "苯乙烯",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1620.png",
+            "x": 96.0,
+            "y": 468.0,
+            "data": "将苯与乙烯在化学反应釜中反应,可以制取出苯乙烯.%n%n[note]还会副产一些氢,存起来备用吧.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGVA==",
+            "tooltip": "<strong>苯乙烯</strong></br>前置任务需求:</br>蒸馏"
+        },
+        {
+            "name": "丁苯橡胶板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1660.png",
+            "x": 36.0,
+            "y": 516.0,
+            "data": "现在我们在生丁苯橡胶粉中加入一点硫,得到熔融丁苯橡胶,再使用板模具固化获得丁苯橡胶片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGfA==",
+            "tooltip": "<strong>丁苯橡胶板</strong></br>前置任务需求:</br>生丁苯橡胶"
+        },
+        {
+            "name": "合成橡胶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1615.png",
+            "x": 276.0,
+            "y": 468.0,
+            "data": "想要制造丁苯合成橡胶?%n%n我会告诉你怎么做的.你需要石油裂化机和蒸馏塔.有多种方式制取丁苯橡胶,这个任务只是举其中一种.%n%n第一步是用蒸汽裂化石脑油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGTw==",
+            "tooltip": "<strong>合成橡胶</strong></br>前置任务需求:</br>高压级别的化学实验"
+        },
+        {
+            "name": "聚四氟乙烯1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1812.png",
+            "x": 276.0,
+            "y": 516.0,
+            "data": "你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源可能是电解冰晶石.其他的选项有在化工厂里处理沙子或沙石来获得氟石矿石;离心石粉或黑色花岗岩粉获得的黑云母粉也可电解出氟.你还能从锂云母(来自盐矿脉)或云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.%n%n如果你已经到访过月球,也可以直接处理氟碳镧铈矿.%n%n WIKI 氟产线：gtnh.huijiwiki.com/p/808",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHFA==",
+            "tooltip": "<strong>聚四氟乙烯1</strong></br>前置任务需求:</br>高压级别的化学实验"
+        },
+        {
+            "name": "特斯拉很自豪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1502.png",
+            "x": 684.0,
+            "y": 180.0,
+            "data": "厌倦了将EnderIO物品放入电容库中来充电吗？ 是时候制作无线充电器了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF3g==",
+            "tooltip": "<strong>特斯拉很自豪</strong></br>前置任务需求:</br>新的合金-魂金</br>脉冲合金"
+        },
+        {
+            "name": "四硝基甲烷",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/841.png",
+            "x": 492.0,
+            "y": 552.0,
+            "data": "生物柴油和柴油可以通过添加四硝基甲烷提升燃值.而四硝基甲烷需要用乙烯酮和硝酸在化学反应釜中反应制得.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADSQ==",
+            "tooltip": "<strong>四硝基甲烷</strong></br>前置任务需求:</br>乙烯酮</br>硝酸"
+        },
+        {
+            "name": "创造生命",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/169.png",
+            "x": 780.0,
+            "y": 228.0,
+            "data": "通过消耗大量的能量,你可以重新激活那些原来你收集的损坏的刷怪笼.如果你之前还没有碰到过刷怪笼,那么你现在应该去找一个!%n%n如果损坏的刷怪笼的刷怪种类不是你想要的,那就还得多走几步. 将想要的怪物抓到灵魂瓶里头,然后把它和损坏的刷怪笼一起放进灵魂绑定器,即可改变刷怪笼的刷怪种类. 这个操作耗时非常长...%n%n使用铁砧将电动刷怪笼和损坏的刷怪笼结合起来,设定电动刷怪笼的刷怪类型. 接下来只需要给它供能,就可以刷怪啦!%n%n如果你将其设置为捕获模式,那就可以完全无风险地获得当前类型的怪物灵魂瓶.%n%n[note]在服务器请尽量减少使用,怪物会带来延迟. 这些怪物产物用作物替代即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAqQ==",
+            "tooltip": "<strong>创造生命</strong></br>前置任务需求:</br>噬魂者</br>充能晶体"
+        },
+        {
+            "name": "第3阶段(HV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/160.png",
+            "x": 516.0,
+            "y": 132.0,
+            "data": "照例是第一个机器外壳...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAoA==",
+            "tooltip": "<strong>第3阶段(HV)</strong></br>前置任务需求:</br>不锈钢与工业高炉</br>高级电路板</br>熔融塑料"
+        },
+        {
+            "name": "总算能炼钛了",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/860.png",
+            "x": 768.0,
+            "y": 552.0,
+            "data": "金红石、氯和碳粉可制成四氯化钛. 把它与镁放入HV工业高炉,你将获得热钛锭.将其冷冻,你就能获得你的第一块钛锭了.%n%n如果你足够欧,在月球上还能找到钛铁矿石,稍稍简化制取钛的工序.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADXA==",
+            "tooltip": "<strong>总算能炼钛了</strong></br>前置任务需求:</br>终结...</br>金红石"
+        },
+        {
+            "name": "酷刑装置",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/146.png",
+            "x": 684.0,
+            "y": 228.0,
+            "data": "当臣民们不愿合作时...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAkg==",
+            "tooltip": "<strong>酷刑装置</strong></br>前置任务需求:</br>第3阶段(HV)</br>新的合金-魂金"
+        },
+        {
+            "name": "通用研磨机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1164.png",
+            "x": 468.0,
+            "y": 420.0,
+            "data": "通用研磨机是HV阶段的重要机器之一. 它有一个额外的输出槽,在研磨的过程中这个额外的输出槽可以获得更多的材料. 你非常,非常,非常需要这台机器.有了它,你就能对镓危机说再见了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEjA==",
+            "tooltip": "<strong>通用研磨机</strong></br>前置任务需求:</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "升级RF电容库",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/987.png",
+            "x": 636.0,
+            "y": 84.0,
+            "data": "将你的基础电容库升级到电容库,以便能够储存更多的RF能量. 将多个电容库组成一个更大的结构可以存储更多的能量.%n%n另外,你还可以用电容升级你的EIO机器.升级后的机器可以存储更多能量,耗能更高,工作速度也更快.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD2w==",
+            "tooltip": "<strong>升级RF电容库</strong></br>前置任务需求:</br>基础电容库</br>充能合金"
+        },
+        {
+            "name": "UU物质(UU-M)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1877.png",
+            "x": 72.0,
+            "y": 72.0,
+            "data": "通过质量发生器,你现在可以真正制造UU物质(UU-M)了. 其实,从技术上来说,你可以不用UU-A,直接制造UU-M,但这样会很贵. 想要让质量发生器只在有UU-A的情况下运行,可以在槽位中放一个编程电路(任意配置值). UU-M用于一些非常特殊的物品合成,比如复制某些材料(请查看NEI,元素周期表上的大部分/所有);配合作物,对矿物进行增产;参与某些特定的高阶配方合成,以及...坐在UU物质里头可以获得'生命恢复'状态.%n%n质量发生器的能量使用与超频不同于普通GT机器.为了使所有等级的EU-UUM转化率一致,这台机器进行的是2/2无损超频.而且起始阶段LV时需要大电流.下面这张表更加清楚:%n%n电压等级    电流          功率      时间%n  LV          8A           256          160%n  MV          4A           512          80%n  HV          2A           1024         40%n  EV          1A           2048         20%n  IV          0.5A          4096         10%n  等等...%n%n输入能量(最好还有UU-A),然后输出UU-M. 你还得知道质量发生器和增幅液产生器无法放入处理阵列.%n%n目前而言,制造出来的UU-M还没什么用,存着就行. 想要使用UU-M需要复制机并配合数据球,这些会在下一阶段讲解. %n%n[note]你只需完成其中一项要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHVQ==",
+            "tooltip": "<strong>UU物质(UU-M)</strong></br>前置任务需求:</br>UU增幅液生产器"
+        },
+        {
+            "name": "脉冲合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/989.png",
+            "x": 708.0,
+            "y": 132.0,
+            "data": "脉冲合金是将充能合金粉末、末影之眼粉末和铬粉末搅拌并烧制再冷冻而成的一种高级合金.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD3Q==",
+            "tooltip": "<strong>脉冲合金</strong></br>前置任务需求:</br>终结...</br>充能合金</br>升级镍铬合金线圈"
+        },
+        {
+            "name": "充能晶体",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/141.png",
+            "x": 780.0,
+            "y": 132.0,
+            "data": "制造谐振电容库需要这种神奇的晶体.同时升级玄钢制造的盔甲和工具也需要用到它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAAjQ==",
+            "tooltip": "<strong>充能晶体</strong></br>前置任务需求:</br>脉冲合金"
+        },
+        {
+            "name": "风力计",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1141.png",
+            "x": 900.0,
+            "y": 480.0,
+            "data": "风力计可以测试当前位置的风力强度. 使用这个工具可以非常方便地让你选择放置风机的高度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdQ==",
+            "tooltip": "<strong>风力计</strong></br>前置任务需求:</br>风力动能发生机(HV)"
+        },
+        {
+            "name": "工作站,你的第一种EV电路板",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1014.png",
+            "x": 84.0,
+            "y": 240.0,
+            "data": "你的第一种EV电路板是工作站. 工作站是最简单的高级电路,它可以用来制造EV级别的机器. 让我们来生产一些!%n%n你可以在合金冶炼炉中将银和蓝石混合制成蓝色合金.如果你没有蓝石,用搅拌机将红石与琥珀金混合即可.玩得开心!%n%n另外,请注意,就处理蓝色合金来说,流体固化器比压模机快多了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD9g==",
+            "tooltip": "<strong>工作站,你的第一种EV电路板</strong></br>前置任务需求:</br>处理器集群"
+        },
+        {
+            "name": "HV阶段你最讨厌的另外2个物品",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1232.png",
+            "x": 264.0,
+            "y": 348.0,
+            "data": "一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE0A==",
+            "tooltip": "<strong>HV阶段你最讨厌的另外2个物品</strong></br>前置任务需求:</br>末影之眼2</br>HV阶段你最讨厌的4个物品"
+        },
+        {
+            "name": "HV阶段你最讨厌的4个物品",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1231.png",
+            "x": 516.0,
+            "y": 348.0,
+            "data": "泵、活塞、传送带、机械臂,都是HV阶段很重要的部件.每样先做一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEzw==",
+            "tooltip": "<strong>HV阶段你最讨厌的4个物品</strong></br>前置任务需求:</br>第3阶段(HV)"
+        }
+    ],
+    "links": [
+        {
+            "source": "HV阶段你最讨厌的另外2个物品",
+            "target": "进阶电路组装机II"
+        },
+        {
+            "source": "工作站,你的第一种EV电路板",
+            "target": "进阶电路组装机II"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "进阶电路组装机"
+        },
+        {
+            "source": "MV阶段你也会讨厌这个#5",
+            "target": "进阶电路组装机"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "氨1"
+        },
+        {
+            "source": "N代表氮...字母表又罢工了!",
+            "target": "氨1"
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "氨1"
+        },
+        {
+            "source": "为了环境循环利用",
+            "target": "UU增幅液生产器"
+        },
+        {
+            "source": "自动化怪物农场",
+            "target": "它永远不会损坏"
+        },
+        {
+            "source": "分割徽章(激活)",
+            "target": "它永远不会损坏"
+        },
+        {
+            "source": "酷刑装置",
+            "target": "自动合成1"
+        },
+        {
+            "source": "美味的...",
+            "target": "自动化怪物农场"
+        },
+        {
+            "source": "噬魂者",
+            "target": "自动化怪物农场"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "HV自动采矿机"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "复仇者联盟3,组装!"
+        },
+        {
+            "source": "热泥浆",
+            "target": "铝土矿渣"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "更好的磁化杆"
+        },
+        {
+            "source": "充能晶体",
+            "target": "更大、更好、更强?"
+        },
+        {
+            "source": "聚苯乙烯",
+            "target": "生物实验室"
+        },
+        {
+            "source": "聚四氟乙烯2",
+            "target": "生物实验室"
+        },
+        {
+            "source": "进阶电路组装机",
+            "target": "中央处理器(CPU)"
+        },
+        {
+            "source": "超净间",
+            "target": "中央处理器(CPU)"
+        },
+        {
+            "source": "简单的SoC-芯片级的系统",
+            "target": "便宜的简单电路"
+        },
+        {
+            "source": "聚四氟乙烯1",
+            "target": "氯仿"
+        },
+        {
+            "source": "复仇者联盟3,组装!",
+            "target": "世界锚"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "掌控你的抽屉"
+        },
+        {
+            "source": "充能晶体",
+            "target": "玄钢工具和武器的基础升级"
+        },
+        {
+            "source": "玄钢工具和武器的基础升级",
+            "target": "玄钢工具和武器的高级升级"
+        },
+        {
+            "source": "NOR芯片和NAND芯片",
+            "target": "闪存"
+        },
+        {
+            "source": "中央处理器(CPU)",
+            "target": "闪存"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "目标:月球"
+        },
+        {
+            "source": "硅橡胶",
+            "target": "二甲基氯硅烷"
+        },
+        {
+            "source": "合成橡胶",
+            "target": "蒸馏"
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "末影之眼2"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "充能合金"
+        },
+        {
+            "source": "更多的热量 - 坎塔尔线圈",
+            "target": "充能合金"
+        },
+        {
+            "source": "聚氯乙烯片",
+            "target": "更大的储罐"
+        },
+        {
+            "source": "脉冲合金",
+            "target": "更大的储罐"
+        },
+        {
+            "source": "充能合金",
+            "target": "经验存储"
+        },
+        {
+            "source": "酷刑装置",
+            "target": "让耕种更容易一点"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "让耕种更容易一点"
+        },
+        {
+            "source": "目标:月球",
+            "target": "找到氟碳镧铈矿石、独居石和钕矿石"
+        },
+        {
+            "source": "目标:月球",
+            "target": "找到铝土矿脉"
+        },
+        {
+            "source": "目标:月球",
+            "target": "寻找钛铁"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "流体加热器"
+        },
+        {
+            "source": "处理器集群",
+            "target": "忘了什么?"
+        },
+        {
+            "source": "铝土矿渣",
+            "target": "镓,还有更多"
+        },
+        {
+            "source": "找到铝土矿脉",
+            "target": "充分利用你的铝土矿"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "获得第一块铂锭"
+        },
+        {
+            "source": "更多的热量 - 坎塔尔线圈",
+            "target": "获得第一块铂锭"
+        },
+        {
+            "source": "末影之眼2",
+            "target": "隐藏式抽屉"
+        },
+        {
+            "source": "充分利用你的铝土矿",
+            "target": "热泥浆"
+        },
+        {
+            "source": "流体加热器",
+            "target": "热泥浆"
+        },
+        {
+            "source": "LV力场发生器",
+            "target": "太多的圆石是多少?"
+        },
+        {
+            "source": "LV力场发生器",
+            "target": "太多液体是多少?"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "进阶锅炉[HV]"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "HV卷板机"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "HV板材切割机"
+        },
+        {
+            "source": "复仇者联盟3,组装!",
+            "target": "HV能源仓"
+        },
+        {
+            "source": "防止能源仓过热",
+            "target": "HV能源仓"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "HV压模机"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "HV超导(512 EU/t)"
+        },
+        {
+            "source": "升级镍铬合金线圈",
+            "target": "HV超导(512 EU/t)"
+        },
+        {
+            "source": "塑料电路基板1",
+            "target": "集成处理器"
+        },
+        {
+            "source": "中央处理器(CPU)",
+            "target": "集成处理器"
+        },
+        {
+            "source": "创造生命",
+            "target": "我看到了一切"
+        },
+        {
+            "source": "终结...",
+            "target": "防止能源仓过热"
+        },
+        {
+            "source": "钠钾",
+            "target": "防止能源仓过热"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "动能发电机(HV)"
+        },
+        {
+            "source": "动能发电机(HV)",
+            "target": "水力动能发生机(HV)"
+        },
+        {
+            "source": "动能发电机(HV)",
+            "target": "风力动能发生机(HV)"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "LV力场发生器"
+        },
+        {
+            "source": "进阶电路组装机",
+            "target": "LV级微型处理器"
+        },
+        {
+            "source": "塑料电路基板1",
+            "target": "LV级微型处理器"
+        },
+        {
+            "source": "超净间",
+            "target": "LV级微型处理器"
+        },
+        {
+            "source": "充能晶体",
+            "target": "私人磁铁"
+        },
+        {
+            "source": "进阶电路组装机II",
+            "target": "处理器主机,你的第一种IV电路板"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "HV级搅拌"
+        },
+        {
+            "source": "流体加热器",
+            "target": "钠钾"
+        },
+        {
+            "source": "HV自动采矿机",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "黑曜石箱子",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "玄钢箱子",
+            "target": "需要一个地方来存放所有这些矿石？"
+        },
+        {
+            "source": "二氧化氮",
+            "target": "硝酸"
+        },
+        {
+            "source": "O似乎是氧",
+            "target": "硝酸"
+        },
+        {
+            "source": "氨1",
+            "target": "一氧化氮"
+        },
+        {
+            "source": "O似乎是氧",
+            "target": "一氧化氮"
+        },
+        {
+            "source": "轻燃油1",
+            "target": "硝基!(高十六烷值柴油)"
+        },
+        {
+            "source": "四硝基甲烷",
+            "target": "硝基!(高十六烷值柴油)"
+        },
+        {
+            "source": "一氧化氮",
+            "target": "二氧化氮"
+        },
+        {
+            "source": "O似乎是氧",
+            "target": "二氧化氮"
+        },
+        {
+            "source": "精确度是必要的",
+            "target": "NOR芯片和NAND芯片"
+        },
+        {
+            "source": "磷掺杂的晶圆",
+            "target": "NOR芯片和NAND芯片"
+        },
+        {
+            "source": "超净间",
+            "target": "NOR芯片和NAND芯片"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "高压级别的化学实验"
+        },
+        {
+            "source": "生物实验室",
+            "target": "培养皿,这可不是吃的"
+        },
+        {
+            "source": "HV板材切割机",
+            "target": "磷掺杂的单晶硅"
+        },
+        {
+            "source": "太阳能级硅",
+            "target": "磷掺杂的单晶硅"
+        },
+        {
+            "source": "更多的热量 - 坎塔尔线圈",
+            "target": "磷掺杂的单晶硅"
+        },
+        {
+            "source": "磷掺杂的单晶硅",
+            "target": "磷掺杂的晶圆"
+        },
+        {
+            "source": "超净间",
+            "target": "磷掺杂的晶圆"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "玩泥巴"
+        },
+        {
+            "source": "二甲基氯硅烷",
+            "target": "聚二甲基硅氧烷粉"
+        },
+        {
+            "source": "苯乙烯",
+            "target": "聚苯乙烯"
+        },
+        {
+            "source": "氯仿",
+            "target": "聚四氟乙烯2"
+        },
+        {
+            "source": "HV阶段你最讨厌的另外2个物品",
+            "target": "精确度是必要的"
+        },
+        {
+            "source": "小型线圈",
+            "target": "处理器集群"
+        },
+        {
+            "source": "苯乙烯",
+            "target": "生丁苯橡胶"
+        },
+        {
+            "source": "工作站,你的第一种EV电路板",
+            "target": "为了环境循环利用"
+        },
+        {
+            "source": "太阳能",
+            "target": "RF太阳能板"
+        },
+        {
+            "source": "脉冲合金",
+            "target": "RF太阳能板"
+        },
+        {
+            "source": "RF太阳能板",
+            "target": "高级RF太阳能板"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "岩石切割机LV"
+        },
+        {
+            "source": "风力动能发生机(HV)",
+            "target": "转子"
+        },
+        {
+            "source": "水力动能发生机(HV)",
+            "target": "转子"
+        },
+        {
+            "source": "寻找钛铁",
+            "target": "金红石"
+        },
+        {
+            "source": "找到铝土矿脉",
+            "target": "金红石"
+        },
+        {
+            "source": "转子",
+            "target": "将能量送回"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "将宝石与粉末分开"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "分子分离器"
+        },
+        {
+            "source": "将宝石与粉末分开",
+            "target": "摇起来..."
+        },
+        {
+            "source": "高压阶段的多方块结构",
+            "target": "摇起来..."
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "硅橡胶"
+        },
+        {
+            "source": "聚二甲基硅氧烷粉",
+            "target": "硅橡胶片"
+        },
+        {
+            "source": "进阶电路组装机",
+            "target": "简单的SoC-芯片级的系统"
+        },
+        {
+            "source": "集成处理器",
+            "target": "小型线圈"
+        },
+        {
+            "source": "获得第一块铂锭",
+            "target": "贴片电路元件"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "贴片电路元件"
+        },
+        {
+            "source": "找到氟碳镧铈矿石、独居石和钕矿石",
+            "target": "贴片电感"
+        },
+        {
+            "source": "硝酸",
+            "target": "一些罕见的高级金属"
+        },
+        {
+            "source": "氨1",
+            "target": "一些罕见的高级金属"
+        },
+        {
+            "source": "酷刑装置",
+            "target": "噬魂者"
+        },
+        {
+            "source": "一个灵魂的容器",
+            "target": "噬魂者"
+        },
+        {
+            "source": "充能晶体",
+            "target": "指定附魔"
+        },
+        {
+            "source": "蒸馏",
+            "target": "苯乙烯"
+        },
+        {
+            "source": "生丁苯橡胶",
+            "target": "丁苯橡胶板"
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "合成橡胶"
+        },
+        {
+            "source": "高压级别的化学实验",
+            "target": "聚四氟乙烯1"
+        },
+        {
+            "source": "新的合金-魂金",
+            "target": "特斯拉很自豪"
+        },
+        {
+            "source": "脉冲合金",
+            "target": "特斯拉很自豪"
+        },
+        {
+            "source": "乙烯酮",
+            "target": "四硝基甲烷"
+        },
+        {
+            "source": "硝酸",
+            "target": "四硝基甲烷"
+        },
+        {
+            "source": "噬魂者",
+            "target": "创造生命"
+        },
+        {
+            "source": "充能晶体",
+            "target": "创造生命"
+        },
+        {
+            "source": "不锈钢与工业高炉",
+            "target": "第3阶段(HV)"
+        },
+        {
+            "source": "高级电路板",
+            "target": "第3阶段(HV)"
+        },
+        {
+            "source": "熔融塑料",
+            "target": "第3阶段(HV)"
+        },
+        {
+            "source": "终结...",
+            "target": "总算能炼钛了"
+        },
+        {
+            "source": "金红石",
+            "target": "总算能炼钛了"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "酷刑装置"
+        },
+        {
+            "source": "新的合金-魂金",
+            "target": "酷刑装置"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "通用研磨机"
+        },
+        {
+            "source": "基础电容库",
+            "target": "升级RF电容库"
+        },
+        {
+            "source": "充能合金",
+            "target": "升级RF电容库"
+        },
+        {
+            "source": "UU增幅液生产器",
+            "target": "UU物质(UU-M)"
+        },
+        {
+            "source": "终结...",
+            "target": "脉冲合金"
+        },
+        {
+            "source": "充能合金",
+            "target": "脉冲合金"
+        },
+        {
+            "source": "升级镍铬合金线圈",
+            "target": "脉冲合金"
+        },
+        {
+            "source": "脉冲合金",
+            "target": "充能晶体"
+        },
+        {
+            "source": "风力动能发生机(HV)",
+            "target": "风力计"
+        },
+        {
+            "source": "处理器集群",
+            "target": "工作站,你的第一种EV电路板"
+        },
+        {
+            "source": "末影之眼2",
+            "target": "HV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "source": "HV阶段你最讨厌的4个物品",
+            "target": "HV阶段你最讨厌的另外2个物品"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "HV阶段你最讨厌的4个物品"
+        }
+    ]
+}

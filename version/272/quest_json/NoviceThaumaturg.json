@@ -1,0 +1,1550 @@
+{
+    "data": [
+        {
+            "name": "三加四,再带上二...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1912.png",
+            "x": 828.0,
+            "y": 60.0,
+            "data": "在注魔的时候,要是能知道准确稳定度就好了. 当你到达HV后,你就可以制作奥术计算器了,用它可以追踪你的注魔.这就意味着注魔百分之百安全,对吧??",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHeA==",
+            "tooltip": "<strong>三加四,再带上二...</strong></br>前置任务需求:</br>HV阶段你最讨厌的另外2个物品</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "更好的流体管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2046.png",
+            "x": 108.0,
+            "y": 252.0,
+            "data": "既然你有了铅,你就可以把你的青铜流体管道换成具有更高容量的粗青铜合金流体管道了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH_g==",
+            "tooltip": "<strong>更好的流体管道</strong></br>前置任务需求:</br>铅、方铅、银和冰晶石"
+        },
+        {
+            "name": "添加更多功能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5563376651650091647.png",
+            "x": 396.0,
+            "y": -36.0,
+            "data": "其中一种改进就是钝化红晶.%n%n钝化红晶允许你用法杖右击设置一个阈值,这能控制多强的红石信号才能通过.这对检测储罐储量或者电力缓存多少很有帮助.%n%n[note]红石专家需要注意一点： 钝化红晶会检查所在方块的信号强度,而不是像比较器那样检查前一个方块的信号强度.[/note]",
+            "quest_id": "ad_fPxg-ThqyyuppTrG1gQ==",
+            "tooltip": "<strong>添加更多功能</strong></br>前置任务需求:</br>固态定向红石"
+        },
+        {
+            "name": "一个更\"优秀\"的法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/234.png",
+            "x": 588.0,
+            "y": 252.0,
+            "data": "在你找寻和开采蕴魔石的时候你有一个想法,如何真正使用宏伟之木来制作一根新的法杖.实际上这很简单,但是过去你缺少一些很重要的东西——VIS! 在制作宏伟之木杖柄的过程中需要使用VIS的力量来保证这神奇的木头不会失去它应有的力量!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA6g==",
+            "tooltip": "<strong>一个更\"优秀\"的法杖</strong></br>前置任务需求:</br>改进你的法杖"
+        },
+        {
+            "name": "缓解扭曲",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7122426930826890446.png",
+            "x": 300.0,
+            "y": -36.0,
+            "data": "当你中毒或被虚弱时,一些牛奶就能解决问题.那么有没有类似于牛奶的东西,可以用来对抗扭曲效果呢?%n%n治愈草给出了答案.这种需要良好光照才能生长的两格高的植物,收获时会产生治愈花种子囊.这些种子囊可以与糖和合适的容器在奥术工作台中合成为玫瑰果浆.%n%n玫瑰果浆最多可以堆叠16个,使用方式与牛奶相同,能够去除一些(但不是全部)扭曲效果,以及咒流和咒喰.%n%n这种植物有一个奇怪的生命周期,种荚最初会以黄色小点的形式出现,随着成熟变成粉色,然后消失,最后再完全成熟.不过,只要有效,他就能用.",
+            "quest_id": "gVqhKJAoTfudKA5xUWMzMg==",
+            "tooltip": "<strong>缓解扭曲</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "更强大的力量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/236.png",
+            "x": 588.0,
+            "y": 204.0,
+            "data": "娜迦的力量很弱,使用娜迦鳞片制造的法杖仅能保存有限的\"VIS\".你需要一个更好、更强大的容器来让你的法杖储存更多的\"VIS\".你听说过暮色森林邪恶的巫妖的传说么？也许...他有一些东西是你想要的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA7A==",
+            "tooltip": "<strong>更强大的力量</strong></br>前置任务需求:</br>一个更\"优秀\"的法杖"
+        },
+        {
+            "name": "火把的代替品",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/255.png",
+            "x": 492.0,
+            "y": 60.0,
+            "data": "还可以替代岩浆!它可是很好的魔法热/光源.也可用于坩埚下方作为热源! 不过巫术的坩埚可不认这个. :(",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA_w==",
+            "tooltip": "<strong>火把的代替品</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "一种新的“种植”资源的办法",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/302.png",
+            "x": 348.0,
+            "y": 12.0,
+            "data": "普通植物大多用于制作食物，而这些神奇的植物（感谢神秘基础学）会为你带来一些很棒的资源！%n%n具体来说，你可以种植红石瓜（红石）、金属草（铁）、炼金草（金）、青金草（青金石）。%n%n此外，还有传说中的“彩虹仙人掌”，这将帮助那些喜欢用各种颜色建造的人们…",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABLg==",
+            "tooltip": "<strong>一种新的“种植”资源的办法</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "古怪商人",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6442987415315414167.png",
+            "x": 156.0,
+            "y": 108.0,
+            "data": "在你的旅途中,你听说过一个充满魔法的森林.据说在这个森林里,有一个有趣的小家伙可以和他交易魔法物品.包括蕴魔石碎片!据说他们在世界各地搜寻宝石和黄金,但对那些身无分文的流浪者十分冷淡.%n%n你很好奇是否能找到这个商人并购买他的商品.如果有工具可以帮助你找到这个...“魔法森林”就好了.%n%n[note]注意：这个任务接受遇见的任何类型的岩精,而不只是岩精强盗.[/note]",
+            "quest_id": "TvVeFhtYQCSmlekVCdADaQ==",
+            "tooltip": "<strong>古怪商人</strong></br>前置任务需求:</br>你的第一根法杖"
+        },
+        {
+            "name": "开采阿迪特和钴",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1837.png",
+            "x": 108.0,
+            "y": 60.0,
+            "data": "铁木比你想象的还要坚固耐用.用它制作的工具和装甲有优越的性能.用它制作镐,采掘等级能达到钴,这意味着你可以不用工业高炉也能获得阿迪特和钴.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHLQ==",
+            "tooltip": "<strong>开采阿迪特和钴</strong></br>前置任务需求:</br>铁木"
+        },
+        {
+            "name": "奥法工作台",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/227.png",
+            "x": 408.0,
+            "y": 204.0,
+            "data": "现在你需要一个台子,可以在其上制造魔法物品.它可能也是一个小小的魔法物品. 让我们来看看书上是怎么说的.%n%n或许我需要趁此机会,好好研读一下魔导手册,了解那些未知的知识,而不是在Discord上东问西问显得像一个智者.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA4w==",
+            "tooltip": "<strong>奥法工作台</strong></br>前置任务需求:</br>书写工具"
+        },
+        {
+            "name": "平衡碎片和世界盐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/242.png",
+            "x": 348.0,
+            "y": 108.0,
+            "data": "在神秘坩埚中把6中基本元素和元素碎片搅拌在一起,你就会得到平衡碎片.将平衡碎片磨碎后你可以得到\"世界盐\",这绝对是很重要的一种物质,相信我!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA8g==",
+            "tooltip": "<strong>平衡碎片和世界盐</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "更好的螺丝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/235.png",
+            "x": 588.0,
+            "y": 300.0,
+            "data": "很不幸,你的铝螺丝已经不能固定宏伟之木木棍了.不知为什么,宏伟之木木棍有一种神秘的力量在排斥着铝螺丝.不过幸运的是,你有一个高炉,可以制作出比铝更好的金属了. 快去试一试.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA6w==",
+            "tooltip": "<strong>更好的螺丝</strong></br>前置任务需求:</br>一个更\"优秀\"的法杖"
+        },
+        {
+            "name": "咕噜...咕噜...咕噜...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1106.png",
+            "x": 348.0,
+            "y": 252.0,
+            "data": "酿造台可以酿造各种各样的药水,比如说夜视、治疗、急速以及跳跃.也可以制造一些攻击性药剂或者喷溅型药水. 酿造台同时还是机器酿造室的原材料之一.%n%n只要有最基础的法杖就可以制造出酿造台.%n%n具体的合成表可以在魔导手册中的GTNH页面找到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEUg==",
+            "tooltip": "<strong>咕噜...咕噜...咕噜...</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "靴子是用来走路的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1997.png",
+            "x": 732.0,
+            "y": 60.0,
+            "data": "也用来游泳...在环游世界时,这些旅行者之靴会让你快出残影.想要制作它们,你得先研究研究注魔.%n%n还有电子版本,拥有更高的魔力减免,请查阅'电子魔法工具'章节.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHzQ==",
+            "tooltip": "<strong>靴子是用来走路的</strong></br>前置任务需求:</br>你是谁,一个女裁缝?</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "脑脑脑脑脑脑脑脑脑脑脑脑脑子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2146.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "自动化魔法非常巧妙,只有\"聪明的\"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.%n%n译者注:原标题为\"BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS\".",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIYg==",
+            "tooltip": "<strong>脑脑脑脑脑脑脑脑脑脑脑脑脑子</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "人靠衣装...巫师也一样",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2065.png",
+            "x": 444.0,
+            "y": 252.0,
+            "data": "巫师宝具(Witching-Gadgets)的纺车会解锁一些有用的材料与物品.希望没有讨厌的侏儒妖(格林童话中可以将稻草纺成金子的侏儒妖).  确认你做的是巫师宝具的纺车而不是巫术的转轮.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIEQ==",
+            "tooltip": "<strong>人靠衣装...巫师也一样</strong></br>前置任务需求:</br>奥法工作台</br>神秘烹饪"
+        },
+        {
+            "name": "远程比较器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7975621830681627535.png",
+            "x": 444.0,
+            "y": -84.0,
+            "data": "比较器是非常有用的设备,但它们需要直接与所比较的对象相邻,这就造成了很大的局限性.如果可以进行远程比较,就能摆脱这一主要限制.%n%n远程比较器让您可以做到这一点.手持水晶之眼潜行右键点击你想观察的方块进行绑定,然后把水晶之眼放在远程比较器中,就可以开始远程比较该方块了.%n%n考虑到额外的距离,虽然远程比较器的范围相当有限,你能预料到和普通比较器相比远程比较器会有小的信号延迟.不过,你很怀疑这是否会成为限制因素.",
+            "quest_id": "HF-prjNuRP-RUOYzn170cQ==",
+            "tooltip": "<strong>远程比较器</strong></br>前置任务需求:</br>不仅是用来装饰</br>固态定向红石"
+        },
+        {
+            "name": "物品计数",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7497528900357426935.png",
+            "x": 492.0,
+            "y": -84.0,
+            "data": "远程比较器使得从你想要的任何方块中获取比较器信号变得更加容易,但看着你的储物箱,你不禁觉得没有理由去费心.如果它们快满了怎么办?你想知道它们因什么而满.%n%n计数盒可以指向一个容器——可以是直接指向,也可以通过远程比较器远程指向——并通过符文白名单来指定你希望计数盒发送红石信号的条件.数量、元数据和NBT匹配都是选项,使用基本名称过滤器也是可以的.%n%n请注意,红石侧总是与读取侧相对,远程比较器必须放置在计数盒的顶部才能一起工作,这意味着在这种情况下,红石信号总是从下方输出.%n%n[note]不幸的是,符文白名单不允许使用NEI虚拟物品来设置过滤器.[/note]",
+            "quest_id": "jvbdUzcgTfGX820wUPhxCQ==",
+            "tooltip": "<strong>物品计数</strong></br>前置任务需求:</br>远程比较器"
+        },
+        {
+            "name": "魔晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/243.png",
+            "x": 492.0,
+            "y": 204.0,
+            "data": "作为一名神秘使,你喜欢一些闪亮的东西.还有什么东西能比元素碎片组成的魔晶更有光泽呢？你想要得到所有种类的魔晶!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA8w==",
+            "tooltip": "<strong>魔晶</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "诅咒之土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1103.png",
+            "x": 540.0,
+            "y": -84.0,
+            "data": "诅咒之土上会刷出强力的怪物,你可以跟它们大干一场,或者直接上床无视它们. 你可以用带有精准采集的铲子挖走诅咒之土. 这种被诅咒的土壤上面的刷怪速度很快,你可以将它们带到别的地方来建立你的刷怪装置. 另外,在原版刷怪笼下方放置一块诅咒之土,可使其无需玩家在附近也可以生成怪物.%n%n使用诅咒土在下界建造刷怪屋时,不良的设计会导致严重的TPS问题.%n%n确保诅咒土与下界不要产生一毛钱关系.比如你可以将其放置在大理石上,但大理石不能碰到任何下界相关物品(地狱岩,地狱砖等),且必须浮空.%n%n同时,诅咒土最大面积要限制在1区块以内,且与区块边缘需保持2格缓冲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAETw==",
+            "tooltip": "<strong>诅咒之土</strong></br>前置任务需求:</br>精致的珠宝</br>分割徽章(激活)"
+        },
+        {
+            "name": "分割徽章(激活)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1101.png",
+            "x": 588.0,
+            "y": -36.0,
+            "data": "也许你在宝箱中找到的分割徽章已经压了好久的箱底.还是说从凋灵那里抢到的徽章堆积如山? 好吧,无论怎么得来的,你应该听说过用一种仪式可以激活它.%n%n首先你需要一个附魔台,8个红石,一把好一点的武器和一只用来献祭的动物.用黄金套索抓住它们是一个不错的选择.要是你还没完成这个任务,查看LV阶段任务栏.%n%n把你的附魔台放在一个下方是草方块的空地上,并用红石围绕附魔台一圈.%n%n到了午夜时分,你会发现分割徽章开始发光了(手持徽章右键附魔台能够检查时间是否恰当),这个时候将用来献祭的动物放到附魔台上并杀死它.%n%n仪式完成后你就会发现分割徽章已经成功激活了.%n%n当然进行这个仪式不是没有代价的!%n%n译者注:现在可以用直接合成不稳定金属锭的配方了,并且只要按住shift一次合成多个锭,它就不会爆炸!%n%n译者再注:升级版伪逆徽章可以无限合成锭,后面的任务会介绍相应仪式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAETQ==",
+            "tooltip": "<strong>分割徽章(激活)</strong></br>前置任务需求:</br>附魔台1.0"
+        },
+        {
+            "name": "魔法泥土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1002.png",
+            "x": 348.0,
+            "y": -36.0,
+            "data": "魔法泥土可以让树苗或者作物在上面生长的更快. 多块魔法泥土堆叠在一起的时候会随机加速顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD6g==",
+            "tooltip": "<strong>魔法泥土</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "附魔台1.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1100.png",
+            "x": 540.0,
+            "y": 12.0,
+            "data": "在你制造成功可以存储50点VIS的法杖之后,就可以用它来制作附魔台了.合成表可以在魔导手册的\"GTNH\"章节中找到.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAETA==",
+            "tooltip": "<strong>附魔台1.0</strong></br>前置任务需求:</br>不用煤</br>能够储存50\"VIS\"的法杖</br>火把的代替品"
+        },
+        {
+            "name": "炼化源质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/240.png",
+            "x": 588.0,
+            "y": 108.0,
+            "data": "要获得源质,你需要炼化一些物品.当然,你仅仅应该把那些含有源质并且你不是很需要的东西炼化掉.  记得实时腾空你的蒸馏器,要是它们装满了源质,会造成TPS急剧下降.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA8A==",
+            "tooltip": "<strong>炼化源质</strong></br>前置任务需求:</br>不用煤</br>神秘烹饪</br>墙上的又一块砖..."
+        },
+        {
+            "name": "源质过滤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/254.png",
+            "x": 636.0,
+            "y": 108.0,
+            "data": "这个漂亮的小装置会帮你从炼金炉或坩埚中过滤出物品中蕴含的源质.一旦它接收到了任何一种类型源质,那么这个蒸馏器就只会接收这种源质,直到奥术蒸馏器其中的源质被全部提取完毕.你可以在炼金炉上方放置多个蒸馏器,多么方便啊. 最好蒸馏器数量可以对应正在炼金炉中物品的源质种类数.%n%n可使用标签锁定源质种类,否则每当蒸馏器再次被充满,其中很可能就是另一种源质了,这样就有可能堵塞你的源质管道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA_g==",
+            "tooltip": "<strong>源质过滤</strong></br>前置任务需求:</br>炼化源质"
+        },
+        {
+            "name": "源质存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6939546665296547760.png",
+            "x": 684.0,
+            "y": 108.0,
+            "data": "终于,你拥有了所有工具,可以将物品熔炼成源质保持其稳定,并储存以备后用.%n%n最后一步是制作源质罐子,这是一种相对简单的制品,可以将源质保持在准液态状态,这能够防止源质转化为咒波.与必须精确容纳8个源质以保持稳定的安瓿不同,源质罐子可以存储从1到64任意数量的源质.%n%n这些源质罐子可以随意拾取和携带,而大多数比这些罐子能存储更多源质的容器就不能这样了.使用标签右键点击罐子,可以将该罐子过滤为存储特定类型的源质.如果罐子是空的,可以使用预设标签.%n%n潜行状态下空手右键点击可以从罐子上移除标签,或者如果罐子没有标签,则清空其中的源质.从罐子中清空源质不会产生咒波,这是因为……魔法,我猜的.这非常方便,所以请识趣点不要过多质疑.",
+            "quest_id": "cbv93MoJQESfsccTQMCwUA==",
+            "tooltip": "<strong>源质存储</strong></br>前置任务需求:</br>源质过滤"
+        },
+        {
+            "name": "一切都很模糊?试试镜片吧",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2067.png",
+            "x": 732.0,
+            "y": 300.0,
+            "data": "在你拥有了揭示之护目镜之后,神秘视界(Thaumic-Horizons)提供了多种有用的镜片.  这个镜片可以提供夜视效果.试试其他的吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIEw==",
+            "tooltip": "<strong>一切都很模糊?试试镜片吧</strong></br>前置任务需求:</br>我可以看到一切</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "Fuuuuuu...sion(融合)!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/238.png",
+            "x": 780.0,
+            "y": 108.0,
+            "data": "你的奥术工作台在把\"vis\"注入到物品的时候表现的很好.但是,你觉得仅仅这样做是不够的.如果能把各种各样的源质也注入物品中会发生什么神奇的现象呢？可能性是无限的...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA7g==",
+            "tooltip": "<strong>Fuuuuuu...sion(融合)!</strong></br>前置任务需求:</br>炼化源质</br>能够储存50\"VIS\"的法杖</br>墙上的又一块砖..."
+        },
+        {
+            "name": "获得碎片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/233.png",
+            "x": 204.0,
+            "y": 108.0,
+            "data": "不管你是如何获得它们的，你已经收集了各种蕴魔石碎片。现在应该考虑如何使用它们…",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA6Q==",
+            "tooltip": "<strong>获得碎片</strong></br>前置任务需求:</br>蕴魔石</br>古怪商人"
+        },
+        {
+            "name": "给我,给我,给我",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2147.png",
+            "x": 444.0,
+            "y": -36.0,
+            "data": "贪婪珍珠是下一个你要互动的对象,以此来解锁自动化魔法的下一部分.制作一个贪婪珍珠,把一些东西扔到地上,然后拿着珍珠一遍又一遍地右键扔向那些物品,直到获得贪婪珍珠碎片,这会解锁更多研究项目.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIYw==",
+            "tooltip": "<strong>给我,给我,给我</strong></br>前置任务需求:</br>脑脑脑脑脑脑脑脑脑脑脑脑脑子"
+        },
+        {
+            "name": "金纹宏伟之木权杖",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/877.png",
+            "x": 780.0,
+            "y": 204.0,
+            "data": "权杖是用杖柄、元始魔力、三个杖端、一个暮色森林怪物掉落物、和一些螺丝制成的。可使用任何种类的杖柄和杖端，但三个杖端必须是同类的。权杖无法安装法杖核心，但魔力存储量是相同杖柄制成法杖的150％，并提供额外10％的魔力减免。%n%n这对于你的所有合成需求和进一步的发展都是理想的选择！%n%n[note]有多种方法可以获得足够的魔力容量来制作权杖。如果你还不能制作它，也许先进行融合，再给自己做一些具有更好的魔力减免的靴子。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADbQ==",
+            "tooltip": "<strong>金纹宏伟之木权杖</strong></br>前置任务需求:</br>元始魔力"
+        },
+        {
+            "name": "贪婪箱子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2050.png",
+            "x": 300.0,
+            "y": 252.0,
+            "data": "自动化魔法(Automagy)的贪婪箱子看起来有些有趣的用法.对神秘使来说,这也是非常重要的设备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIAg==",
+            "tooltip": "<strong>贪婪箱子</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "生长的灵气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6377301388234701261.png",
+            "x": 300.0,
+            "y": -84.0,
+            "data": "灵气可能是一种可能很难获得的源质.可能你已经从天域之华中得到了一些,天域之华是下界中少见的飞行球体(译注：神秘时代的精灵)所掉落的,或者是破坏灵气节点.这显然不是一个好的获取方式.%n%n当满月出现在头顶时,灵气花会张开花瓣,大概是为了吸收月华.对您来说有意义的是,它们偶尔会脱落花瓣,这些花瓣可以从地上收集起来作为优秀的灵气源质来源.%n%n你应该保证灵气花附近地面没有其他花草,便于你稍后收集灵气花花瓣.灵气花本身只需要种在草方块上,而不是耕地方块上,所以附近也不需要有水源.%n%n[note]大地疣也是一个可再生的灵气源质来源.它在捕鱼,农业,烹饪任务选项卡中有一个任务.[/note]",
+            "quest_id": "BiGj2-sBQ62nf0YtAKpGMw==",
+            "tooltip": "<strong>生长的灵气</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "用魔法的方式种植萤石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6516225634758235386.png",
+            "x": 396.0,
+            "y": -84.0,
+            "data": "有许多作物都能为你提供萤石粉,但是其中最好的可能是荧光花.这种神奇的作物一旦成熟便可以直接收获两个萤石粉.",
+            "quest_id": "LUwrS4RnQGilkbdPQ_DrBg==",
+            "tooltip": "<strong>用魔法的方式种植萤石</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "种出你的知识!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5722547895249924043.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "有没有想过“man,为什么所有东西都要大量依赖基础要素?”好吧,现在你不必再担心这个了!%n%n认识一下神秘玫瑰.当它的芽种植在魔晶块上时,它将利用这个块的源质成长为相同类型的蕴魔碎片!这些碎片可以被扔进你的坩埚或炼金炉中,或者像知识碎片那样使用来获得研究点.甚至复相魔晶也可以用作催化剂!%n%n[warn]警告：在污染魔晶块上种植神秘玫瑰将导致不良后果.[/warn]",
+            "quest_id": "eWOxG-reT9ewlW0CNXgQNQ==",
+            "tooltip": "<strong>种出你的知识!</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "我可以看到一切",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1998.png",
+            "x": 684.0,
+            "y": 300.0,
+            "data": "有了新法杖,你就可以制作揭示之护目镜了.  更妙的是,护目镜还会为你提供5％的魔力减免.%n%n简单的镜片升级也可以让你拥有各种视觉能力.%n%n稍后你可以制作更先进的护目镜,甚至可以将护目镜与护甲结合起来.%n%n结合神秘节点追踪器,寻找节点那都不是事儿. 神秘节点追踪器的默认快捷键是\"I\".你可以在列表中选择你扫描过的节点,然后箭头会告诉你怎么走的.你还可以对此列表排序.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHzg==",
+            "tooltip": "<strong>我可以看到一切</strong></br>前置任务需求:</br>能够储存50\"VIS\"的法杖"
+        },
+        {
+            "name": "强化护甲:武士风格",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/290.png",
+            "x": 780.0,
+            "y": 60.0,
+            "data": "是时候弄一套像样一点的盔甲了! 有了这些盔甲,对付那些精英怪的时候就不会像现在这么痛苦了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABIg==",
+            "tooltip": "<strong>强化护甲:武士风格</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "改进你的法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/232.png",
+            "x": 492.0,
+            "y": 252.0,
+            "data": "你的法杖在吸收和释放魔力方面做得很好,不过铁杖端有点太弱了.一不小心就可能会伤害到节点.也会导致你的合成更加困难.也许你应该尝试使用一些更好的材料来强化一下你的法杖.恩...金怎么样？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA6A==",
+            "tooltip": "<strong>改进你的法杖</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "无限蝙蝠!等等,什么??",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2259.png",
+            "x": 876.0,
+            "y": 96.0,
+            "data": "厌倦了扭曲招来的成千上万的蝙蝠在你耳边尖叫?用这台设备把它们吸引到一个能集中处理它们的地方吧.奥术生物磁铁可以设置吸引或排斥生物,其作用范围为收到的红石信号除以2.%n%n你可以使用灵魂模具来过滤磁铁吸引或排斥的生物.这让你有了一些自动化的思路...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAI0w==",
+            "tooltip": "<strong>无限蝙蝠!等等,什么??</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "无限的岩浆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/258.png",
+            "x": 876.0,
+            "y": 12.0,
+            "data": "好吧,这确实需要一点火之源质.但是如果你将它做出来你就再也不需要考虑岩浆的问题了. 不过,这玩意可不便宜.(魔导手册秘术学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABAg==",
+            "tooltip": "<strong>无限的岩浆</strong></br>前置任务需求:</br>无限的水源"
+        },
+        {
+            "name": "无限的水源",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/259.png",
+            "x": 876.0,
+            "y": 60.0,
+            "data": "你的努力终于迎来了结果!你再也不用为了水源而发愁了.通过魔法你终于找到了一种获得无限水源的方法!(魔导手册秘术学)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABAw==",
+            "tooltip": "<strong>无限的水源</strong></br>前置任务需求:</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "蕴魔石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/229.png",
+            "x": 156.0,
+            "y": 60.0,
+            "data": "不管你在这个维度哪个角落都会发现这里充满了魔法能量.你想知道普通的石头如果长时间暴露在这么高浓度的魔法能量中会发生什么有趣的变化. 也许是时候去看看这个维度的矿物生成了!%n%n有三种矿脉.每种矿脉中都有琥珀和朱砂矿石.它们的用途不多,但也少不了,所以至少存一点吧.%n%n即使你找到了这些蕴魔矿石,它们也不会掉落你急需的蕴魔石碎片.因此,您必须加工原矿石本身.最简单的方法就是将这些原矿石扔进锻造锤中.%n%n以后有了筛选机,就可以筛选纯净的矿石,以获得更多的碎片.高压釜也可以将碎片粉尘变成碎片.也许有一种神奇的方法可以做同样的事情?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA5Q==",
+            "tooltip": "<strong>蕴魔石</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "铁端宏伟之木法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/798.png",
+            "x": 636.0,
+            "y": 252.0,
+            "data": "制作金端宏伟之木法杖需要30vis,但你的旧法杖的极限是25.所以先做一把铁或铜端的宏伟之木法杖,达到50vis容量,然后在下一个任务,制作一把金端宏伟之木法杖.%n%n你可以在杖端,核心,或是BOSS材料上按'U'键使用NEI找到这个魔杖的正确GTNH配方.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADHg==",
+            "tooltip": "<strong>铁端宏伟之木法杖</strong></br>前置任务需求:</br>一个更\"优秀\"的法杖</br>更好的螺丝</br>更强大的力量"
+        },
+        {
+            "name": "铁木",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1158.png",
+            "x": 60.0,
+            "y": 108.0,
+            "data": "铁木比橡胶更加耐用,是制作软锤的理想材料. 收集一些地下的活根,磨碎它,然后将活根粉、铁粉和金粉搅拌混合,你就得到了一种新的魔法材料.%n%n你还可以用这种材料来制作一些独特的装备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEhg==",
+            "tooltip": "<strong>铁木</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "它叫神秘炼金塔,好不?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2886.png",
+            "x": 684.0,
+            "y": 60.0,
+            "data": "这台设备相当于自动化坩埚. 请查看魔导手册中,坩埚右边远处的研究,以获取更多信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALRg==",
+            "tooltip": "<strong>它叫神秘炼金塔,好不?</strong></br>前置任务需求:</br>源质存储"
+        },
+        {
+            "name": "告诉我要扫描什么!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1461.png",
+            "x": 300.0,
+            "y": 108.0,
+            "data": "不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组).%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪球%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵%n%n最后还有5种通常只能通过要素合成/创造节点获取的要素.可以结合以下要素获取:%n%nCognitio(思维) + Ordo(秩序)%nCognitio(思维) + Vitium(污染)%nVacuos(虚空) + Motus(移动)%nLux(光明) + Primordium(始源)%nHumanus(人类) + Iter(旅行)%n%n%n%n请注意,以上列表仅用于解锁要素,你可能还需要扫描一些特定物品(比如下界传送门),以解锁某些隐藏研究.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFtQ==",
+            "tooltip": "<strong>告诉我要扫描什么!</strong></br>前置任务需求:</br>见所未见"
+        },
+        {
+            "name": "将乌合之众拒之门外",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6318031316370662851.png",
+            "x": 540.0,
+            "y": 156.0,
+            "data": "为了确保没有不速之客入侵,你不得不把一切都造得像堡垒一样,你开始厌倦了.没错,在这个世界上生活的本质就是这样,每个黑暗角落都会徘徊着无尽的、不安分的亡灵.但难道要求有比门更方便的入口是一件很过分的事吗?%n%n现在不再是这样了.在没有任何东西放在其上时,守卫者铺路石将会在其上方投射出一个两格高的隐形力场,阻止非玩家生物通过,至少阻止那些乌合之众通过.它还有一个额外的好处,蜘蛛无法攀爬这个力场,因此也不需要悬挑结构来防止它们进入.%n%n话虽如此,由于力场无法区分你发射的箭和别人向你发射的箭,普通物体仍然可以穿过力场.此外,力场在阻挡视线方面的效果与隐形这个词的效果完全一样.%n%n当然,你并不需要担心这一点.能够在敌人无法接近你的情况下用十字弓射击东西,对你完全是有利的.",
+            "quest_id": "_N4B3gVMTZOoUdf9--7aPQ==",
+            "tooltip": "<strong>将乌合之众拒之门外</strong></br>前置任务需求:</br>墙上的又一块砖..."
+        },
+        {
+            "name": "专供凯马特(K-Mart)(大型百货连锁店)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1996.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "每一点vis都很重要,所以为你自己制作神秘使套装吧,这可以帮助你降低消耗.稍后你可以制作更好的法袍.  这些法袍之类的装备无法提供太多的护甲,所以记得在狩猎前更换装备!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHzA==",
+            "tooltip": "<strong>专供凯马特(K-Mart)(大型百货连锁店)</strong></br>前置任务需求:</br>你是谁,一个女裁缝?"
+        },
+        {
+            "name": "骑士金属",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2059.png",
+            "x": 60.0,
+            "y": 12.0,
+            "data": "骑士金属锭是从地精骑士要塞中获得的战利品.(译者注:极光宫殿的箱子中也会出现.)它们可被制作成钻石等级的装甲.你可以把寄居蟹掉落的护甲碎片堆烧制成骑士金属.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAICw==",
+            "tooltip": "<strong>骑士金属</strong></br>前置任务需求:</br>钢叶1"
+        },
+        {
+            "name": "铅、方铅、银和冰晶石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/610.png",
+            "x": 108.0,
+            "y": 204.0,
+            "data": "你无法在主世界或下界找到铅.该探索神秘的暮色森林了.在Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACYg==",
+            "tooltip": "<strong>铅、方铅、银和冰晶石</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "点亮它!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1370.png",
+            "x": 492.0,
+            "y": -36.0,
+            "data": "奥术灯创造了额外的光源,其作用类似于火把,但其范围为半径为16格的球体.不同于一般光源的是,奥术灯的光可以穿墙,或者别的任何阻碍.这个特性可能很有用...唯一的缺点,它会照亮你不需要照亮的地方,比如说工业高炉内部.%n%n当连接到奥术钻探机的底部时,奥术灯获得额外的能力:它将照亮奥术钻探机所挖掘的隧道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFWg==",
+            "tooltip": "<strong>点亮它!</strong></br>前置任务需求:</br>我该到哪找琥珀?"
+        },
+        {
+            "name": "苍穹树",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1838.png",
+            "x": 12.0,
+            "y": 204.0,
+            "data": "要是你在暮色森林游荡了不少时间,那应该会发现苍穹树.这种大树会生成许多原木和树根,树根会掉落木棍.注意!不要在树边或任何树可能长到的地方放置箱子或者别的什么,否则长出的树根/树干可能会替换掉它.你可能会发现这个特性有的时候还挺好用的(某些情况下),但你真的不应该这样做.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHLg==",
+            "tooltip": "<strong>苍穹树</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "魔法羽毛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1070.png",
+            "x": 12.0,
+            "y": 108.0,
+            "data": "想要知道自己所处的位置,以及想要去的地方,你需要制作一张地图. 这是一个充满魔力的地方,所以需要的是魔法地图! 它的主要部分就是魔法地图核心.%n%n首先,去搞点乌鸦的羽毛,杀死暮色森林里的乌鸦就能拿到.它们经常在黑曜石柱边出没.%n%n然后你需要一点火炬浆果(通常在地下)和萤石粉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAELg==",
+            "tooltip": "<strong>魔法羽毛</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "魔法地图",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1071.png",
+            "x": 12.0,
+            "y": 60.0,
+            "data": "要制作魔法地图,你需要魔法地图核心和一叠纸.%n%n右键使用魔法地图后,它会为你绘制附近区域的地图,并标注出BOSS的位置.你需要按照成就指引,依次击杀不同BOSS,以探索剩下的暮色森林.%n%n首先需要击杀的是娜迦.除了成就指引外,任务书的另一章节也会告诉你击杀BOSS的顺序. 在24个小时之内你只能得到一张魔法地图,所以要小心使用!%n%n请记住!一定要在暮色森里中使用魔法地图.在主世界或其他任意维度使用都会给服务器带来延迟!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAELw==",
+            "tooltip": "<strong>魔法地图</strong></br>前置任务需求:</br>魔法羽毛"
+        },
+        {
+            "name": "更多生命值",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5362928539393889721.png",
+            "x": 684.0,
+            "y": 204.0,
+            "data": "当你射出弩箭时你没来得及注意到你瞄准的是一种背上有着红色线条的特殊蜘蛛,无论你是怎样一个神射手也无济于事.通常,令人难以置信的疼痛会随之而来...%n%n利用你的新法杖,你可以制作红心容器了.你可以最多放10个红心容器到专用的栏位中,每个红心容器能提升一颗心的生命值上限.%n%n这可能并不够,但如果他最终让你好好的站着,而不是横着躺在棺材里,你便会庆幸你制作了这些心之容器.",
+            "quest_id": "TjJv9pSOSaW1kwzoTZ9qRw==",
+            "tooltip": "<strong>更多生命值</strong></br>前置任务需求:</br>能够储存50\"VIS\"的法杖"
+        },
+        {
+            "name": "需要更多糖?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4762573495702958200.png",
+            "x": 348.0,
+            "y": -84.0,
+            "data": "随着你使用治愈草,你可能也想扩大你的糖产能.%n%n芦苇是直接种植在草方块上而不是耕地上的,并且他会自己蔓延繁殖.一旦它完全成熟,你可以同时收获糖和甘蔗.",
+            "quest_id": "UAWjHTM_SAW95_Cji-9PiA==",
+            "tooltip": "<strong>需要更多糖?</strong></br>前置任务需求:</br>魔法泥土"
+        },
+        {
+            "name": "不用煤",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/256.png",
+            "x": 540.0,
+            "y": 60.0,
+            "data": "一种更好的方式.说实话,使用煤来制作它本身就是一种浪费.你可以使用木炭粉或者褐煤粉来生产源动之焰. 在炼金炉中使用它来作为燃料可以加速物品在炼金炉中溶解的速度.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABAA==",
+            "tooltip": "<strong>不用煤</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "这可不是做汤的",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/241.png",
+            "x": 408.0,
+            "y": 108.0,
+            "data": "至少不是做能吃的汤的.拿着法杖右键对着炼药锅来一记重击,会有神奇的事情发生. 然后在坩埚下面2格处放上地狱岩用打火石点燃它,稍后向大锅注满水.(坩埚可以和管道一起工作,来自动加水)%n%n现在你就能完成坩埚配方了!%n%n别一次加入太多东西,否则,会有坏事发生的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA8Q==",
+            "tooltip": "<strong>这可不是做汤的</strong></br>前置任务需求:</br>书写工具"
+        },
+        {
+            "name": "不仅是用来装饰",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/251.png",
+            "x": 540.0,
+            "y": 204.0,
+            "data": "当然,它们看起来很漂亮.但是奥术石砖还有一个更加重要的功能:引导大量的VIS和源质.它的第一次运用即搭建注魔祭坛和炼金炉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA-w==",
+            "tooltip": "<strong>不仅是用来装饰</strong></br>前置任务需求:</br>魔晶"
+        },
+        {
+            "name": "元始魔力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/879.png",
+            "x": 732.0,
+            "y": 252.0,
+            "data": "有了新的可存储50vis的魔杖,你可以制作一柄权杖,可存储75vis魔力. 首先你需要一些元始魔力,合成需消耗50vis.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADbw==",
+            "tooltip": "<strong>元始魔力</strong></br>前置任务需求:</br>平衡碎片和世界盐</br>能够储存50\"VIS\"的法杖"
+        },
+        {
+            "name": "始源蘑菇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1286.png",
+            "x": 408.0,
+            "y": 156.0,
+            "data": "如果你种植了一颗新的始源蘑菇,等它们成熟后收获,它们将会把收集到的要素球释放.简单来讲就是种瓜得瓜,种蘑菇得要素...%n%n找一找魔法森林生物群系,那里可以找到纤毛菇,如果实在找不到那么就去买点吧.%n%n1个南瓜加上4个小撮石粉可以完美提供所需源质.%n%n只要完全长成,就可以破坏它们,会掉落要素球,就跟刷怪一样. 不过你得带着法杖才能吸收这些要素球. 它们需要特定的光照才能生长.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFBg==",
+            "tooltip": "<strong>始源蘑菇</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "赶走腐化",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6644822685919168427.png",
+            "x": 300.0,
+            "y": 60.0,
+            "data": "那么,如何才能真正摧毁腐化之地?%n%n这些天域花会清除自身周围小范围内的腐化之地,进而杀死任何腐化草丛.它们不能清除污染节点.也不一定会让腐化的生物群系恢复原状,但它们会提供一个屏障.%n%n如果你很难在银树周围找到他们的材料水银花,你可以通过LV组装机合成水银花.他们还有一种ic作物版本.",
+            "quest_id": "aWvML-AaSIyjyNj5ElS4VQ==",
+            "tooltip": "<strong>赶走腐化</strong></br>前置任务需求:</br>腐化警告"
+        },
+        {
+            "name": "保护鱿鱼,人人有责",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/257.png",
+            "x": 444.0,
+            "y": 60.0,
+            "data": "有一个非常方便的办法获得墨水并且能让PETA(善待动物组织)的活动家们高兴. 提示:那些玫瑰的源质可能会有用...(魔导手册伪经页面-暗影玫瑰)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAABAQ==",
+            "tooltip": "<strong>保护鱿鱼,人人有责</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "书写工具",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1096.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "需要笔和纸才可以解锁某项研究. 而想要进行研究,你需要在研究台中放入笔与墨、研究笔记进行连连看,所以你最好做两个. 哦别忘了你还需要一些墨水.%n%n注意:Thaumcraft-Research-Tweaks重做了研究台的GUI.现在,各要素之间的拖&放已经整合进了GUI.你还可以在拖动要素时右键,即可直接放下要素同时不影响继续拖动;在连连看的时候同样适用. 这些新特性都已经写入了魔导手册,请查看'研究'、'研究专长'、'研究精通'和'研究拷贝'页.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAESA==",
+            "tooltip": "<strong>书写工具</strong></br>前置任务需求:</br>见所未见</br>扭曲警报"
+        },
+        {
+            "name": "寻找答案",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/225.png",
+            "x": 60.0,
+            "y": 156.0,
+            "data": "昨天晚上你做了一个梦,梦到了另外一个维度.和你所在的维度相比是如此的怪异且不同,几乎可以说是...魔幻?就像你找到的那颗小树苗一样.你决定去那里寻找答案.%n%n首先,挖个2x2的坑并填满水,周围环绕12朵花. 然后你需要丢入一个有能力打开异次元通道的水晶.不,如果仅仅是钻石是没有这种能力的!%n%n环绕的花可以是任意的原版花.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA4Q==",
+            "tooltip": "<strong>寻找答案</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV</br>这啥玩意儿？"
+        },
+        {
+            "name": "见所未见",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/226.png",
+            "x": 252.0,
+            "y": 108.0,
+            "data": "一切都是由6种基础要素组成.这6种要素可以组成更加复杂的要素,但是始终只有6种基础要素,有点像被你找到的碎片,你发现当你把碎片靠近由它们组成的东西旁边时,它们就会开始震动.也许你可以靠着这种发现来制造一个可以\"扫描\"物品的工具,并显示出组成它们的要素.这在以后可能会非常有用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA4g==",
+            "tooltip": "<strong>见所未见</strong></br>前置任务需求:</br>获得碎片"
+        },
+        {
+            "name": "精致的珠宝",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1104.png",
+            "x": 540.0,
+            "y": -36.0,
+            "data": "使用精致的珠宝可以为你的匠魂工具上面附加精准采集的附魔. 对大部分部件来说,精准采集有点...没用,因为像煤矿这样的GT矿石,本来就会完整掉落为方块. 不过,你可以用它来获取一些诅咒土、草方块之类的物品.%n%n具体的合成表可以在魔导手册的\"GTNH\"章节中找到(前置解锁附魔台).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEUA==",
+            "tooltip": "<strong>精致的珠宝</strong></br>前置任务需求:</br>附魔台1.0"
+        },
+        {
+            "name": "固态定向红石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6167478518452759927.png",
+            "x": 396.0,
+            "y": 12.0,
+            "data": "红石粉是一种奇妙的物质,但它有几个限制,只有真正的Minecraft玩家才能应对.%n%n幸运的是,通过一点魔法,红石粉可以结晶变得更容易处理.%n%n红晶可以直接放置在墙壁或天花板上,并且允许你使用法杖切换某一侧是否发送/接收红石信号.这使得在普通红石无法存在的地方进行紧凑的构建成为可能.%n%n也许可以进一步改进这些红水晶,使它们能够以某种方式操控或处理它们接收到的信号...",
+            "quest_id": "fmeCtrL-SNGqaLb208VSiQ==",
+            "tooltip": "<strong>固态定向红石</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "太渴了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2042.png",
+            "x": 300.0,
+            "y": 204.0,
+            "data": "听这储罐里水的咕噜声让我很渴.如果它被放在水源方块边,就能成为合适的水源.它还支持一些速度和容量升级.  你可以试试把它放在牛边上,它能收集牛奶,满足你所有奶酪黄油之类的需求.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH-g==",
+            "tooltip": "<strong>太渴了</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "镍的来源",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1613.png",
+            "x": 60.0,
+            "y": 204.0,
+            "data": "工业高炉的合成材料之一就是镍. 现在你已经打开了暮色传送门,是时候收集一些镍了. 镍矿脉中有硅镁镍矿石、镍矿石、辉钴矿石和镍黄铁矿石,它们都可以出产镍,镍矿脉可在暮色森林Y",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGTQ==",
+            "tooltip": "<strong>镍的来源</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "钢叶1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1159.png",
+            "x": 60.0,
+            "y": 60.0,
+            "data": "如果你在暮色森林的迷宫里找到了钢叶那么你真的很幸运. 钢叶是目前制作软锤的最佳材料,而且用钢叶制作的盔甲还可以拥有一些神奇的效果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEhw==",
+            "tooltip": "<strong>钢叶1</strong></br>前置任务需求:</br>铁木"
+        },
+        {
+            "name": "能够储存50\"VIS\"的法杖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/237.png",
+            "x": 684.0,
+            "y": 252.0,
+            "data": "使用金杖端可以使你避免铁杖端的缺点。因此，最好升级到金杖端宏伟之木法杖！%n%n你也可以考虑用魔力布匹杖端制作你的宏伟之木魔杖。这样可以额外获得5%%的魔力减免！%n%n有了这根宏伟之木魔杖，你比以往任何时候都更强大！%n%n[note]你只需要完成其中一个任务即可完成此任务。[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA7Q==",
+            "tooltip": "<strong>能够储存50\"VIS\"的法杖</strong></br>前置任务需求:</br>铁端宏伟之木法杖"
+        },
+        {
+            "name": "被困在暮色森林里了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1368.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "如果你正在暮色森林中探索时,传送门被破坏了,你就会被困在那边. 每隔24小时,你就可以用一些材料来换个新的传送水晶,从而离开这里.%n%n你也可以考虑一下自己多造一个开门水晶,放在暮色森林的箱子里以备不时之需.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFWA==",
+            "tooltip": "<strong>被困在暮色森林里了?</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "腐化警告",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7526210071214077051.png",
+            "x": 348.0,
+            "y": 60.0,
+            "data": "现在你已经能够以源质的形式使用魔力,这里是关于腐化的警告.%n%n如果存储的方法不正确,在源质状态下的魔力是不稳定的.如果放置太久,或者清空坩锅时,源质会分解.但它不是分解为魔力,而是分解为咒波.%n%n咒波可能是液态或者气态,但无论怎样,它的存在只会是个麻烦. 身处于在咒波环境下的神秘使可能会染上咒流,这种状态下引导魔力会更加困难,不过只是暂时的.%n%n更大浓度的咒波会固化成为神秘史莱姆,这些奇异的生物会试图相互融合以变得更大.它们虽然有点危险,但对和大多数怪物一样,他们也无法抵抗弩箭的攻击力.%n%n然而,如果让过多的咒波停留太久,它将腐蚀土地并形成触手.这是所谓的腐化.触手(以及其形成的腐化草丛)会传播并形成腐化之地,扭曲魔法并吞噬之.而节点尤其脆弱,如果节点处于在这种被扭曲的魔法中,它们会变为污染节点.%n%n摧毁触手可以阻止传播,但除非所有的触手都被摧毁,否则这只是暂时的.更有效的解决方法是摧毁腐化之地本身,因为在这个特定生物群系之外,触手会迅速衰竭并死亡.%n%n如果你在用你的坩埚时极其粗心,实际上你是可以创造出腐化之地的.因此,你最好尽量减少浪费源质,并清理任何你所浪费的东西.",
+            "quest_id": "JyVKlIbSSiaXjYfQ2FFLhQ==",
+            "tooltip": "<strong>腐化警告</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "秘晶头盔",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8670597739683462194.png",
+            "x": 492.0,
+            "y": 156.0,
+            "data": "如果你想提升你的神秘金属到秘晶,你可以做这个非常时髦的头盔!装备时还提供5%%的魔力减免.%n%n也许这种新材料对法杖也有效果?",
+            "quest_id": "CAqER5QVQg2Hq9lLZ9zDzg==",
+            "tooltip": "<strong>秘晶头盔</strong></br>前置任务需求:</br>神秘烹饪"
+        },
+        {
+            "name": "神秘烹饪",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1177.png",
+            "x": 492.0,
+            "y": 108.0,
+            "data": "现在是时候来制作神秘锭了. 你在进行了一番研究之后得知制作这种神秘的金属,需要将铁锭扔进包含魔法源质的大锅中.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEmQ==",
+            "tooltip": "<strong>神秘烹饪</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "选择...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/245.png",
+            "x": 972.0,
+            "y": 156.0,
+            "data": "到目前为止,你应该已经收集了许多灵气节点的位置来从中获得\"VIS\".但是你也可能注意到了,有些类型的灵气节点中的元素含量很低,比如说\"秩序\"或者\"火\". 不过有一个好消息,给我一些魔晶,我将给你一些我原来的灵气节点.虽然都是苍白节点,但是我感觉这还是挺有用的. 但是在选择前请三思,你只能在6中节点中选择一种!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA9Q==",
+            "tooltip": "<strong>选择...</strong></br>前置任务需求:</br>你已经出师了!"
+        },
+        {
+            "name": "选择:风",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/250.png",
+            "x": 972.0,
+            "y": 120.0,
+            "data": "给我6个风之魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA-g==",
+            "tooltip": "<strong>选择:风</strong></br>前置任务需求:</br>选择:火</br>选择...</br>选择:地</br>选择:混沌</br>选择:秩序</br>选择:水"
+        },
+        {
+            "name": "选择:水",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/249.png",
+            "x": 972.0,
+            "y": 192.0,
+            "data": "给我6个水之魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA-Q==",
+            "tooltip": "<strong>选择:水</strong></br>前置任务需求:</br>选择:火</br>选择...</br>选择:地</br>选择:混沌</br>选择:秩序</br>选择:风"
+        },
+        {
+            "name": "选择:火",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/244.png",
+            "x": 924.0,
+            "y": 192.0,
+            "data": "给我6个火之魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA9A==",
+            "tooltip": "<strong>选择:火</strong></br>前置任务需求:</br>选择...</br>选择:地</br>选择:混沌</br>选择:秩序</br>选择:水</br>选择:风"
+        },
+        {
+            "name": "选择:秩序",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/248.png",
+            "x": 1020.0,
+            "y": 120.0,
+            "data": "给我6个秩序魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA-A==",
+            "tooltip": "<strong>选择:秩序</strong></br>前置任务需求:</br>选择:火</br>选择...</br>选择:地</br>选择:混沌</br>选择:水</br>选择:风"
+        },
+        {
+            "name": "选择:混沌",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/247.png",
+            "x": 1020.0,
+            "y": 192.0,
+            "data": "给我6个混沌魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA9w==",
+            "tooltip": "<strong>选择:混沌</strong></br>前置任务需求:</br>选择:火</br>选择...</br>选择:地</br>选择:秩序</br>选择:水</br>选择:风"
+        },
+        {
+            "name": "选择:地",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/246.png",
+            "x": 924.0,
+            "y": 120.0,
+            "data": "给我6个地之魔晶,我就会把这个灵气节点给你.哦,不过注意.别把这个节点和其他的灵气节点放得太近,如果你放得太近,这个灵气节点内部的\"VIS\"可能就会被强大的灵气节点吞噬掉.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA9g==",
+            "tooltip": "<strong>选择:地</strong></br>前置任务需求:</br>选择:火</br>选择...</br>选择:混沌</br>选择:秩序</br>选择:水</br>选择:风"
+        },
+        {
+            "name": "夜晚不再漆黑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1565.png",
+            "x": 348.0,
+            "y": 300.0,
+            "data": "真实黑夜(Hardcore-darkness)令人痛苦,但现在夜晚将是光明的. 至少,在你看起来是光明的,怪物还是会生成!你还要小心,怪物并不会被削弱.%n%n如果你想的话,从夜视药水还可以继续加工出持续时间更长的药水.另外,你应该一次制造3个,这样就不会浪费材料了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGHQ==",
+            "tooltip": "<strong>夜晚不再漆黑</strong></br>前置任务需求:</br>咕噜...咕噜...咕噜..."
+        },
+        {
+            "name": "你已经出师了!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/252.png",
+            "x": 852.0,
+            "y": 156.0,
+            "data": "...年轻的学徒.你已经熟练掌握了如何使用法杖操纵6种基本元素,也精通了如何向各种物品中注入源质和\"VIS\"的方法.但是请记住年轻人,在探究魔法的同时,你会接触到一些邪恶力量.这种邪恶的力量会引导你去探究那些禁忌的魔法.我看到了未来可能会发生的一些事情...异常的天气、虚弱的身体、恍惚的神志、实体化的心魔,甚至会有邪恶的守卫传送到你的身边.一路小心,我的朋友...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA_A==",
+            "tooltip": "<strong>你已经出师了!</strong></br>前置任务需求:</br>金纹宏伟之木权杖</br>Fuuuuuu...sion(融合)!"
+        },
+        {
+            "name": "魔导手册",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/231.png",
+            "x": 204.0,
+            "y": 156.0,
+            "data": "你需要将到目前为止的所有发现记录下来,但是你很懒. 不过你有一根法杖,所以为什么不试着用一种很神奇的方式\"写下\"你的研究呢？ 你想知道你是否可以用你的法杖施展魔法来变化出一本魔法书,这样它就能记录你的所有发现... 你可以拿着法杖对着书架施展魔法试一试.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA5w==",
+            "tooltip": "<strong>魔导手册</strong></br>前置任务需求:</br>你的第一根法杖"
+        },
+        {
+            "name": "我为管道狂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5271180655444922868.png",
+            "x": 636.0,
+            "y": 60.0,
+            "data": "你把各种源质从炼金炉弄到到源质罐子的时候,不想让它们黏成一团?%n%n那你就来对地方了.使用源质缓存器和法杖,你不需要反复敲掉重放就能让管道里的源质乖乖装满罐子.%n%n一个简单的用法就是,把源质缓存器贴到你的奥术蒸馏器上组成一条缓存器链,用普通源质管道连出来,然后直接进入源质罐子.为了让源质在缓存器里正确流动,用法杖shift右键将缓存器的输出口调成红色.这个红圈会把此方向对源质的吸力调整到最小%n%n源质会从缓存器中被吸入普通管道然后进入源质罐子.根据你需要放置的源质罐子数量延长缓存器链条.%n%n注意：这个系统仍然会在某一个罐子装满之后堵住!%n%n如果你需要更多信息,可以查看由xlstadal制作的教程'A Thaumaturge Guide to Laying Pipe',它提供了更多关于神秘时代4管道系统的进阶知识.%n%n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]",
+            "quest_id": "xoH_knd-RV-22QEfLUtuDA==",
+            "tooltip": "<strong>我为管道狂</strong></br>前置任务需求:</br>源质过滤"
+        },
+        {
+            "name": "尝试把液体炼化成源质",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/253.png",
+            "x": 588.0,
+            "y": 60.0,
+            "data": "我有一个简单的想法.有些人仅仅为了从水或者牛奶中获得水之源质或治疗源质而浪费了大量的桶.为什么不直接炼制液体本身从而获得源质呢？哎...这真愚蠢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA_Q==",
+            "tooltip": "<strong>尝试把液体炼化成源质</strong></br>前置任务需求:</br>炼化源质"
+        },
+        {
+            "name": "理解法杖进阶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8049119362564896392.png",
+            "x": 540.0,
+            "y": 252.0,
+            "data": "更高级的神秘时代配方需要越来越多的魔力,而你最初的法杖无法满足这些需求.你需要逐步进阶,以提高你的能力.这个进阶有两个方面：%n%n首先,你需要制作更高级的法杖,下一级是宏伟之木法杖.其次,你需要提高你的合成减免.这些减免可以减少合成所需的魔力,从而让你能够合成需要更多魔力的配方.%n%n在你的进阶中,你需要依赖上述这两个方面：更好的法杖和更高的减免.然而,随着你的进阶,有许多不同的方式可以做到这两点.有些方式更侧重于减免,而另一些方式则更侧重于提升法杖.因此,任务书只会给你一些一般性的建议.%n%n例如,在制作新法杖类型时,首先制作最便宜的铁杖端,然后再尝试升级它.然而,如果你能够获得足够的减免,你可以直接用金杖端或更好的材料制作法杖,跳过铁杖端法杖的步骤.%n%n但在所有这些选项真正能用之前,让我们先来制作那根宏伟之木法杖吧!",
+            "quest_id": "bfrxXr1iSpGQS8iV95nJeA==",
+            "tooltip": "<strong>理解法杖进阶</strong></br>前置任务需求:</br>改进你的法杖"
+        },
+        {
+            "name": "扭曲警报",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1778.png",
+            "x": 252.0,
+            "y": 156.0,
+            "data": "神秘时代的设备与工具可以带来巨大的力量. 但力量是需要付出代价的.... 从版本4.2开始,这种代价以扭曲表现出来: 对角色思想与灵魂的侵蚀,逐渐对他们造成更多可怕的影响.%n%n虽然扭曲的效果小则烦人,大则致命,但积累足够多的扭曲也可以让你获得更大的力量...代价就是越发疯狂,也越发吸引黑暗力量. 至少,那在旁人看来是疯狂... 但是,当你头脑中的声音给出了有用的知识时；在你离开之前出现的怪物仍然留在你身后时,你开始怀疑:它真的是精神错乱吗？%n%n神秘扭曲学添加了一系列扭曲效果. 要万分当心,因为你肯定不想让你的基地内部或周围生成凋灵.%n%n扭曲效果与扭曲值相关.%n%n5扭曲: 讯息%n10扭曲: 虚拟爆炸%n15扭曲: 硬币、南瓜%n20扭曲: 下蛋、生成幻影%n25扭曲: 虚拟爬行者、虚拟下雨%n30扭曲: 虚拟GT音效、生成蝙蝠%n35扭曲: 流血、虚拟末影人%n40扭曲: 生成友方爬行者%n45扭曲: 跳跃提升、反胃%n50扭曲: 失眠、Vis流失%n55扭曲: 雷雨%n60扭曲: 生成九狱焱蝠%n65扭曲: 失明、中毒%n70扭曲: 牲畜之雨%n75扭曲: 生成分身%n80扭曲: 生成末影人、凋零效果%n85扭曲: 怪风%n90扭曲: 末影珍珠%n95扭曲: 火球%n100扭曲: 奥术石蕊试纸、垃圾、深渊的呼唤%n110扭曲: 黑曜石%n120扭曲: 闪电%n125扭曲: 物品栏交换%n130扭曲: 随机传送%n140扭曲: 加速%n150扭曲: 虚拟凋灵、物品栏混乱%n160扭曲: 爆炸倒数%n170扭曲: 蘑菇%n175扭曲: 下雪(生成雪傀儡)%n180扭曲: 装备腐蚀%n190扭曲: 生机勃勃%n200扭曲: 生成凋灵",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG8g==",
+            "tooltip": "<strong>扭曲警报</strong></br>前置任务需求:</br>魔导手册"
+        },
+        {
+            "name": "你是谁,一个女裁缝?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1995.png",
+            "x": 396.0,
+            "y": 252.0,
+            "data": "魔力布匹是制作华丽长袍和法师套装的关键材料.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHyw==",
+            "tooltip": "<strong>你是谁,一个女裁缝?</strong></br>前置任务需求:</br>奥法工作台"
+        },
+        {
+            "name": "我该到哪找琥珀?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1369.png",
+            "x": 492.0,
+            "y": 12.0,
+            "data": "每个神秘蕴魔石矿脉都有一点琥珀矿石. 我敢肯定你已经攒了不少了.%n%n顺便一提,用琥珀制造的GT工具自带精准采集.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFWQ==",
+            "tooltip": "<strong>我该到哪找琥珀?</strong></br>前置任务需求:</br>火把的代替品"
+        },
+        {
+            "name": "男巫女巫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/224.png",
+            "x": 492.0,
+            "y": 300.0,
+            "data": "如果你已经造好了纺车,并完成了研究,同时拥有50-vis以上的魔杖,那你就能制造这些了. %n%n它们提供的vis减免在更高效率合成和简化法杖的发展路线上很有用. 是不是应该去找找更多能减免vis的玩意?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA4A==",
+            "tooltip": "<strong>男巫女巫</strong></br>前置任务需求:</br>人靠衣装...巫师也一样</br>专供凯马特(K-Mart)(大型百货连锁店)"
+        },
+        {
+            "name": "墙上的又一块砖...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/239.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "现在是魔法时间. 在构建注魔祭坛的过程中,你会需要8块奥术石砖.还有另外4块用于炼金炉.%n%n是的,你需要一台MV精密激光蚀刻机--搞定它.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA7w==",
+            "tooltip": "<strong>墙上的又一块砖...</strong></br>前置任务需求:</br>不仅是用来装饰"
+        },
+        {
+            "name": "你的第一根法杖",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/230.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "你确信在这个世界可以找到你想要的答案.为了继续奥法之旅,你需要一些道具来处理被称为\"VIS\"的魔法能量.你猜应该制作你的第一根法杖了!%n%n如果你还没有开始讨伐暮色森林的BOSS们,那得抓紧了. 所有的法杖都需要某种暮色BOSS的掉落物,更好的法杖需要更后面的BOSS掉落物.当你首次击杀BOSS之后,就可以买到刷怪蛋了(只能在暮色使用),也可以用战利品+世界盐直接合成掉落物.%n%n你应当在NEIz中查看法杖合成表. 魔导手册中的合成表并不完成正确.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAA5g==",
+            "tooltip": "<strong>你的第一根法杖</strong></br>前置任务需求:</br>寻找答案"
+        }
+    ],
+    "links": [
+        {
+            "source": "HV阶段你最讨厌的另外2个物品",
+            "target": "三加四,再带上二..."
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "三加四,再带上二..."
+        },
+        {
+            "source": "铅、方铅、银和冰晶石",
+            "target": "更好的流体管道"
+        },
+        {
+            "source": "固态定向红石",
+            "target": "添加更多功能"
+        },
+        {
+            "source": "改进你的法杖",
+            "target": "一个更\"优秀\"的法杖"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "缓解扭曲"
+        },
+        {
+            "source": "一个更\"优秀\"的法杖",
+            "target": "更强大的力量"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "火把的代替品"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "一种新的“种植”资源的办法"
+        },
+        {
+            "source": "你的第一根法杖",
+            "target": "古怪商人"
+        },
+        {
+            "source": "铁木",
+            "target": "开采阿迪特和钴"
+        },
+        {
+            "source": "书写工具",
+            "target": "奥法工作台"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "平衡碎片和世界盐"
+        },
+        {
+            "source": "一个更\"优秀\"的法杖",
+            "target": "更好的螺丝"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "咕噜...咕噜...咕噜..."
+        },
+        {
+            "source": "你是谁,一个女裁缝?",
+            "target": "靴子是用来走路的"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "靴子是用来走路的"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "脑脑脑脑脑脑脑脑脑脑脑脑脑子"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "人靠衣装...巫师也一样"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "人靠衣装...巫师也一样"
+        },
+        {
+            "source": "不仅是用来装饰",
+            "target": "远程比较器"
+        },
+        {
+            "source": "固态定向红石",
+            "target": "远程比较器"
+        },
+        {
+            "source": "远程比较器",
+            "target": "物品计数"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "魔晶"
+        },
+        {
+            "source": "精致的珠宝",
+            "target": "诅咒之土"
+        },
+        {
+            "source": "分割徽章(激活)",
+            "target": "诅咒之土"
+        },
+        {
+            "source": "附魔台1.0",
+            "target": "分割徽章(激活)"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "魔法泥土"
+        },
+        {
+            "source": "不用煤",
+            "target": "附魔台1.0"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "附魔台1.0"
+        },
+        {
+            "source": "火把的代替品",
+            "target": "附魔台1.0"
+        },
+        {
+            "source": "不用煤",
+            "target": "炼化源质"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "炼化源质"
+        },
+        {
+            "source": "墙上的又一块砖...",
+            "target": "炼化源质"
+        },
+        {
+            "source": "炼化源质",
+            "target": "源质过滤"
+        },
+        {
+            "source": "源质过滤",
+            "target": "源质存储"
+        },
+        {
+            "source": "我可以看到一切",
+            "target": "一切都很模糊?试试镜片吧"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "一切都很模糊?试试镜片吧"
+        },
+        {
+            "source": "炼化源质",
+            "target": "Fuuuuuu...sion(融合)!"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "Fuuuuuu...sion(融合)!"
+        },
+        {
+            "source": "墙上的又一块砖...",
+            "target": "Fuuuuuu...sion(融合)!"
+        },
+        {
+            "source": "蕴魔石",
+            "target": "获得碎片"
+        },
+        {
+            "source": "古怪商人",
+            "target": "获得碎片"
+        },
+        {
+            "source": "脑脑脑脑脑脑脑脑脑脑脑脑脑子",
+            "target": "给我,给我,给我"
+        },
+        {
+            "source": "元始魔力",
+            "target": "金纹宏伟之木权杖"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "贪婪箱子"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "生长的灵气"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "用魔法的方式种植萤石"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "种出你的知识!"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "我可以看到一切"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "强化护甲:武士风格"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "改进你的法杖"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "无限蝙蝠!等等,什么??"
+        },
+        {
+            "source": "无限的水源",
+            "target": "无限的岩浆"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "无限的水源"
+        },
+        {
+            "source": "寻找答案",
+            "target": "蕴魔石"
+        },
+        {
+            "source": "一个更\"优秀\"的法杖",
+            "target": "铁端宏伟之木法杖"
+        },
+        {
+            "source": "更好的螺丝",
+            "target": "铁端宏伟之木法杖"
+        },
+        {
+            "source": "更强大的力量",
+            "target": "铁端宏伟之木法杖"
+        },
+        {
+            "source": "寻找答案",
+            "target": "铁木"
+        },
+        {
+            "source": "源质存储",
+            "target": "它叫神秘炼金塔,好不?"
+        },
+        {
+            "source": "见所未见",
+            "target": "告诉我要扫描什么!"
+        },
+        {
+            "source": "墙上的又一块砖...",
+            "target": "将乌合之众拒之门外"
+        },
+        {
+            "source": "你是谁,一个女裁缝?",
+            "target": "专供凯马特(K-Mart)(大型百货连锁店)"
+        },
+        {
+            "source": "钢叶1",
+            "target": "骑士金属"
+        },
+        {
+            "source": "寻找答案",
+            "target": "铅、方铅、银和冰晶石"
+        },
+        {
+            "source": "我该到哪找琥珀?",
+            "target": "点亮它!"
+        },
+        {
+            "source": "寻找答案",
+            "target": "苍穹树"
+        },
+        {
+            "source": "寻找答案",
+            "target": "魔法羽毛"
+        },
+        {
+            "source": "魔法羽毛",
+            "target": "魔法地图"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "更多生命值"
+        },
+        {
+            "source": "魔法泥土",
+            "target": "需要更多糖?"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "不用煤"
+        },
+        {
+            "source": "书写工具",
+            "target": "这可不是做汤的"
+        },
+        {
+            "source": "魔晶",
+            "target": "不仅是用来装饰"
+        },
+        {
+            "source": "平衡碎片和世界盐",
+            "target": "元始魔力"
+        },
+        {
+            "source": "能够储存50\"VIS\"的法杖",
+            "target": "元始魔力"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "始源蘑菇"
+        },
+        {
+            "source": "腐化警告",
+            "target": "赶走腐化"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "保护鱿鱼,人人有责"
+        },
+        {
+            "source": "见所未见",
+            "target": "书写工具"
+        },
+        {
+            "source": "扭曲警报",
+            "target": "书写工具"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "寻找答案"
+        },
+        {
+            "source": "这啥玩意儿？",
+            "target": "寻找答案"
+        },
+        {
+            "source": "获得碎片",
+            "target": "见所未见"
+        },
+        {
+            "source": "附魔台1.0",
+            "target": "精致的珠宝"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "固态定向红石"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "太渴了"
+        },
+        {
+            "source": "寻找答案",
+            "target": "镍的来源"
+        },
+        {
+            "source": "铁木",
+            "target": "钢叶1"
+        },
+        {
+            "source": "铁端宏伟之木法杖",
+            "target": "能够储存50\"VIS\"的法杖"
+        },
+        {
+            "source": "寻找答案",
+            "target": "被困在暮色森林里了?"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "腐化警告"
+        },
+        {
+            "source": "神秘烹饪",
+            "target": "秘晶头盔"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "神秘烹饪"
+        },
+        {
+            "source": "你已经出师了!",
+            "target": "选择..."
+        },
+        {
+            "source": "选择:火",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择:地",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择:混沌",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择:秩序",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择:水",
+            "target": "选择:风"
+        },
+        {
+            "source": "选择:火",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择:地",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择:混沌",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择:秩序",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择:风",
+            "target": "选择:水"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:地",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:混沌",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:秩序",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:水",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:风",
+            "target": "选择:火"
+        },
+        {
+            "source": "选择:火",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择:地",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择:混沌",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择:水",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择:风",
+            "target": "选择:秩序"
+        },
+        {
+            "source": "选择:火",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择:地",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择:秩序",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择:水",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择:风",
+            "target": "选择:混沌"
+        },
+        {
+            "source": "选择:火",
+            "target": "选择:地"
+        },
+        {
+            "source": "选择...",
+            "target": "选择:地"
+        },
+        {
+            "source": "选择:混沌",
+            "target": "选择:地"
+        },
+        {
+            "source": "选择:秩序",
+            "target": "选择:地"
+        },
+        {
+            "source": "选择:水",
+            "target": "选择:地"
+        },
+        {
+            "source": "选择:风",
+            "target": "选择:地"
+        },
+        {
+            "source": "咕噜...咕噜...咕噜...",
+            "target": "夜晚不再漆黑"
+        },
+        {
+            "source": "金纹宏伟之木权杖",
+            "target": "你已经出师了!"
+        },
+        {
+            "source": "Fuuuuuu...sion(融合)!",
+            "target": "你已经出师了!"
+        },
+        {
+            "source": "你的第一根法杖",
+            "target": "魔导手册"
+        },
+        {
+            "source": "源质过滤",
+            "target": "我为管道狂"
+        },
+        {
+            "source": "炼化源质",
+            "target": "尝试把液体炼化成源质"
+        },
+        {
+            "source": "改进你的法杖",
+            "target": "理解法杖进阶"
+        },
+        {
+            "source": "魔导手册",
+            "target": "扭曲警报"
+        },
+        {
+            "source": "奥法工作台",
+            "target": "你是谁,一个女裁缝?"
+        },
+        {
+            "source": "火把的代替品",
+            "target": "我该到哪找琥珀?"
+        },
+        {
+            "source": "人靠衣装...巫师也一样",
+            "target": "男巫女巫"
+        },
+        {
+            "source": "专供凯马特(K-Mart)(大型百货连锁店)",
+            "target": "男巫女巫"
+        },
+        {
+            "source": "不仅是用来装饰",
+            "target": "墙上的又一块砖..."
+        },
+        {
+            "source": "寻找答案",
+            "target": "你的第一根法杖"
+        }
+    ]
+}

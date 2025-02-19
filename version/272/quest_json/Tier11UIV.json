@@ -1,0 +1,694 @@
+{
+    "data": [
+        {
+            "name": "更好的超导体冷却液",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7880130124221230423.png",
+            "x": -180.0,
+            "y": 216.0,
+            "data": "时空的极低温度使它成为您所有超导体工艺的理想替代品.%n%n您再也不需要数以亿计的液氦了!%n%n[note]使用它制作较低电压等级的超导体的速度也更快.[/note]",
+            "quest_id": "65KbJVn1T1CSpCdnGfBSqQ==",
+            "tooltip": "<strong>更好的超导体冷却液</strong></br>前置任务需求:</br>你的第一块时空"
+        },
+        {
+            "name": "An Even More Mega EBF",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6067382707378224204.png",
+            "x": 24.0,
+            "y": -36.0,
+            "data": "With the project finally completed, and a new material capable of harnessing the power of a neutron star, you decide the natural first application of this immense power could be used for a far superior Blast Furnace. With a little tinkering, you decide a second may be necessary, since this module could easily be retrofitted into an ordinary Furnace as well.\n\n[note]The first module of the Godforge, Helioflare Power Forge can perform EBF recipes and Furnace recipes in separate running modes, toggleable in the UI. Note that the Furnace mode does NOT contribute towards the Conversion milestone![/note]\n\n[note]Usage of this module requires the START upgrade.[/note]",
+            "quest_id": "g0oiNbRuQpWrzFOS8l-DtA==",
+            "tooltip": "<strong>An Even More Mega EBF</strong></br>前置任务需求:</br>Project Godforge</br>No, it's not a Typo"
+        },
+        {
+            "name": "Another Type of Steel",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7374234948579230118.png",
+            "x": -396.0,
+            "y": -36.0,
+            "data": "Proto-Halkonite Steel is a super stable material, completely indestructible once formed.\n\nYou first have to make Proto-Halkonite base, which then you pour into components made out of infinity.\n\nAfter getting Creon and Mellion, you can make Proto-Halkonite materials cheaper.",
+            "quest_id": "8OMu4RdgQhyZqXRid6n-Wg==",
+            "tooltip": "<strong>Another Type of Steel</strong></br>前置任务需求:</br>超立方体</br>Ultimate Voltages Require Ultimate Lubricant™!</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "在星辰间组装",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9080536097015359642.png",
+            "x": -504.0,
+            "y": -48.0,
+            "data": "它的最大并行为16,并且可以利用先进的超导体来提高光学部件的产量.%n%n[note]您还不能一步到位地制造出终极电池,那还需要很长的路要走[/note]",
+            "quest_id": "WJ-SykCeTr2B-3SHz0mXZg==",
+            "tooltip": "<strong>在星辰间组装</strong></br>前置任务需求:</br>这规矩你早就懂的 Pt.2</br>海珀珍</br>数不胜数的太空电梯模块</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "混沌核心",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/465.png",
+            "x": -276.0,
+            "y": 216.0,
+            "data": "在末地最黑暗的角落,你找到了一条不太一样的龙.原始的力量以混沌的形式涌出,好像就要撕裂现实本身!但即使是那条龙,也被你打败了.将这种原始力量集中在一个核心中当然不容易,但看起来你找到了方法.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAB0Q==",
+            "tooltip": "<strong>混沌核心</strong></br>前置任务需求:</br>觉醒核心</br>UMV电路板</br>你的第一块时空"
+        },
+        {
+            "name": "混沌能量",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2701.png",
+            "x": -264.0,
+            "y": 252.0,
+            "data": "最终,无尽的RF! ...但我能用它来做什么?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKjQ==",
+            "tooltip": "<strong>混沌能量</strong></br>前置任务需求:</br>混沌核心"
+        },
+        {
+            "name": "Crayon and Melon",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8810543536998436147.png",
+            "x": -156.0,
+            "y": -36.0,
+            "data": "The Godforge will require new materials with the correct properties to stabilize a neutron star. With your new Transcendent Plasma Mixer and MK5 Fusion Reactor, you learn of a new material which may be suitable, which you name [note]Creon[/note].\n\nThis material is made as a plasma, and must be cooled alongside an extremely sturdy material. You try a curious mixture of dusts, which you decide to name [note]Mellion[/note].\n\n[note]These materials may also be suitable for components you need many of, you may realize UIV components seem to handle these two materials quite well...[/note]",
+            "quest_id": "WLuCkspyTZqFuqlVVxgyzQ==",
+            "tooltip": "<strong>Crayon and Melon</strong></br>前置任务需求:</br>超维度等离子搅拌机</br>核聚变,但是MK5"
+        },
+        {
+            "name": "戴森球地面单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3039.png",
+            "x": -108.0,
+            "y": 252.0,
+            "data": "从本质上来说,戴森球地面单元这台多方块机器就是一大块太阳能板,稍微有点不同的是,你需要插入戴森球模块(数量取决于你想要多高的功率输出),才能获得能量产出.不过它并非一劳永逸：%n-每小时m个戴森球模块中有n个会被损耗,公式：n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL3w==",
+            "tooltip": "<strong>戴森球地面单元</strong></br>前置任务需求:</br>UMV电路板</br>耐超高温网"
+        },
+        {
+            "name": "升级永恒线圈",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3219.png",
+            "x": -276.0,
+            "y": 108.0,
+            "data": "超越时空,突破现实.你已窥见从未存在于世间的事物,将其化作流体,又凝为固体.克服重重困难之后,它终于稳定了下来.注视着它,你觉得你几乎可以将整个宇宙握在手中.%n%n从前,你将所有材料结合为一,创造了永恒奇点,一个无限致密的宇宙样本.然而,想要将这一过程在DTPF的量级上自动化是无比荒谬的,这几乎会使你的进度完全停滞,好在你发现了充能超立方体.想要在根本上展现出时空本身,你首先得展现出第四个空间维度,这就是超立方体的含义:一个四维的立方体.%n%n立方体!你周围的一切几乎都由立方体组成.仅仅是对四维世界现实的一瞥,便使你成功地利用它来凝结时空,将其随心所欲地塑造成任何完整的永恒造物--不幸的是,这一过程无法逆转.无需多言,连生物电路也不足以维持这一极端致密、无比稳定的多维材料.%n%n这是目前最终极的升级,提供13501K的基础炉温.让你的超维度等离子锻炉(DTPF)大放异彩吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMkw==",
+            "tooltip": "<strong>升级永恒线圈</strong></br>前置任务需求:</br>升级海珀珍线圈</br>你的第一块时空</br>好吧,看起来...闪亮?</br>UIV能源仓"
+        },
+        {
+            "name": "核聚变,但是MK5",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5258609888143859259.png",
+            "x": -228.0,
+            "y": -108.0,
+            "data": "见识到调律源金的生产速度如此之慢之后,你可能想要升级一下你的聚变设备了.%n%n和它的前身MK4一样,这个版本也支持无损超频.希望这能让你的亚稳态鿫问题变得更容易解决一些.%n%n[note]如果你不想让它处理1tick配方时浪费产能,可以在GUI中设置批处理大小.[/note]%n",
+            "quest_id": "vLnSpTweSki3BaorBNQhxQ==",
+            "tooltip": "<strong>核聚变,但是MK5</strong></br>前置任务需求:</br>亚稳态鿫"
+        },
+        {
+            "name": "从你的第一块海珀珍中增殖更多",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7423471752612220255.png",
+            "x": -480.0,
+            "y": 180.0,
+            "data": "只要你从聚变中获得第一块海珀珍,你就可以轻松地在DTPF中复制它.%n%n但是,这是一个增殖循环,所以请小心的处理.",
+            "quest_id": "SoOmxNJvRcqY-ofFsWbyoQ==",
+            "tooltip": "<strong>从你的第一块海珀珍中增殖更多</strong></br>前置任务需求:</br>第11阶段(UIV)"
+        },
+        {
+            "name": "哈哈,超时空金属锭转转转",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8415680337631262256.png",
+            "x": -480.0,
+            "y": 36.0,
+            "data": "超时空金属是UIV组件中使用的主要金属.%n%n这种金属与您迄今为止处理的所有金属略有不同.您需要粉碎您的超立方体以获得粉末,然后在高温下对其进行烧炼,因此您需要冷却剂来帮助控制热量.%n%n由于超立方体粒子的不可思议的性质,您需要一种介质来使它们在三维空间中形成.出于某种原因,钨在这方面的效果非常好.%n%n由于超时空金属锭本身也不是很稳定;因此,必须在冷却过程中涂上一层泰坦精钢.%n%n[note]考虑搭建被动产线制造超时空金属锭.因为整个制造过程非常缓慢.[/note]",
+            "quest_id": "Jk9jZtb6SXSLNX9SND_J0A==",
+            "tooltip": "<strong>哈哈,超时空金属锭转转转</strong></br>前置任务需求:</br>超立方体</br>第11阶段(UIV)"
+        },
+        {
+            "name": "Helioflux Melting Core my Beloved",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-9020796615899025430.png",
+            "x": 48.0,
+            "y": 36.0,
+            "data": "As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.\n\n[note]The second module of the Godforge, Helioflux Melting Core allows processing EBF recipes by directly outputting molten metal when possible. This may not always be as efficient as other methods, but the time and scaling saved from Vacuum Freezer steps often more than makes up for this.[/note]\n\n[note]Usage of this module requires the FDIM upgrade.[/note]\n\n[warn]Helioflux Melting Core <3[/warn]",
+            "quest_id": "GslQBIW9QKaCz7FFpkrv6g==",
+            "tooltip": "<strong>Helioflux Melting Core my Beloved</strong></br>前置任务需求:</br>An Even More Mega EBF</br>Project Godforge"
+        },
+        {
+            "name": "Heliofusion Exoticizer",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7880209593223277990.png",
+            "x": -48.0,
+            "y": 132.0,
+            "data": "Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.\n\n[note]The fourth and final module of the Godforge, Heliofusion Exoticizer allows for the production of Quark Gluon Plasma and Magmatter. Initially only Quark Gluon Plasma is possible, with Magmatter requiring a much later upgrade. Consult the Godforge Information section of the UI to read how to produce these materials.[/note]\n\n[note]Usage of this module requires the QGPIU upgrade.[/note]",
+            "quest_id": "0YrjX7i4QfeSo98gSE0SWg==",
+            "tooltip": "<strong>Heliofusion Exoticizer</strong></br>前置任务需求:</br>Heliothermal Plasma Fabricator</br>Project Godforge"
+        },
+        {
+            "name": "Heliothermal Plasma Fabricator",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5675835535531457502.png",
+            "x": 24.0,
+            "y": 108.0,
+            "data": "As understanding of graviton shards continues to improve, better control over the materials they manipulate can be achieved. Graviton shards provide an alternative to electromagnetic containment of plasma using spacetime manipulation instead, allowing the Forge to directly output processed materials as plasma.\n\n[note]The third module of the Godforge, Heliothermal Plasma Fabricator can directly convert materials into their plasma form, at the cost of an immense amount of power. This may not be ideal for every plasma, but can save a lot of time on particularly slow ones. Additionally, later upgrades allow the creation of exotic plasmas which cannot be created through other means.[/note]\n\n[note]Usage of this module requires the GPCI upgrade.[/note]",
+            "quest_id": "mr9r3y_kQbWxO2Gm_RvEIg==",
+            "tooltip": "<strong>Heliothermal Plasma Fabricator</strong></br>前置任务需求:</br>Project Godforge</br>Helioflux Melting Core my Beloved"
+        },
+        {
+            "name": "升级海珀珍线圈",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3218.png",
+            "x": -324.0,
+            "y": 180.0,
+            "data": "由永生之龙的血液铸造,经由聚变之力融合而成的这种材料,凌驾于你所认知的现实之上.任何自然元素,抑或那些元素的结合,都根本无法与这种闪耀着的橙色材料相提并论,甚至连你之前取得的觉醒龙比之也判若天渊.%n%nMK-IV核聚变反应堆内到底发生了什么?这究竟是何种材料?它的粉末肉眼可见地搏动着,不同体积的搏动频率亦各不相同.--当体积趋近方块大小时,海珀珍便达到了一种完全平衡的状态,显然,你知道该对它做些什么.%n%n海珀珍不费吹灰之力便能吸入或放出能量,但试图不借助任何外部力量将其做成线圈是极为愚蠢的.此时湿件不再适用,而只有最先进的生物电路板才能承受海珀珍极无规律可循的行为.%n%n提供12601K的基础炉温.几乎可以肯定地说,你会将其用在超维度等离子锻炉(DTPF)上.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMkg==",
+            "tooltip": "<strong>升级海珀珍线圈</strong></br>前置任务需求:</br>升级无尽线圈</br>从你的第一块海珀珍中增殖更多"
+        },
+        {
+            "name": "亚稳态鿫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6117290316329622558.png",
+            "x": -276.0,
+            "y": -108.0,
+            "data": "你以为你已经完成了所有的核聚变内容?",
+            "quest_id": "AOBApHluTUurGwTeOzxj4g==",
+            "tooltip": "<strong>亚稳态鿫</strong></br>前置任务需求:</br>瓶中的银河...?"
+        },
+        {
+            "name": "3阶纳米锻炉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3281.png",
+            "x": -480.0,
+            "y": 84.0,
+            "data": "中子纳米蜂群移动比较缓慢,但拥有复杂的蜂群网络.如果有一种材料可以自行移动,一定能够以极快的速度,制造更加复杂的蜂群...感谢功能齐全的超维度等离子锻炉(DTPF),让我们可以合成超时空金属.%n%n[note]使用方式与中子纳米蜂群类似,所不同的是,现在纳米锻炉可以制造3阶纳米蜂群了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM0Q==",
+            "tooltip": "<strong>3阶纳米锻炉</strong></br>前置任务需求:</br>2阶纳米锻炉</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "No, it's not a Typo",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5562896910886444976.png",
+            "x": -48.0,
+            "y": -36.0,
+            "data": "Stabilizing the neutron star of the Godforge was successful, but now you need something new to extract the power out of it into something usable. Your experiments lead you to using the newly discovered Mellion with a Transcendent Metal Nanite to create what seems like a crystal seed of some type, which exhibits perfect thermal conductance.\n\nProcessing this seed further into a solution, you realize you can grow this crystal into a slurry-like solution, which you decide to name [note]Phonon Transfer Medium[/note]. This incredible material displays exactly the properties you were looking for, and decide that now you can move forward with the first module of the Godforge.",
+            "quest_id": "U12vBo4fQjOyzJ67qH7gUA==",
+            "tooltip": "<strong>No, it's not a Typo</strong></br>前置任务需求:</br>3阶纳米锻炉</br>Crayon and Melon"
+        },
+        {
+            "name": "3阶PCB工厂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3278.png",
+            "x": -504.0,
+            "y": 120.0,
+            "data": "为什么在我们可以运用纳米蜂群的时候,还需要用一个小喷嘴在基板上进行印制?好吧,银纳米蜂群不够坚硬,因此需要一种新的纳米蜂群...以及新的机械方块.听说天体钨是一种很好的框架材料,而量子可用作隔板,可以让这些纳米蜂群永远在内部飞行.%n%n整体结构需要进行调整,更大一点,更高一点.%n%n[note]在大多数情况下工作方式与2阶PCB工厂相同,不过可以使用金纳米蜂群,使资源消耗更低.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMzg==",
+            "tooltip": "<strong>3阶PCB工厂</strong></br>前置任务需求:</br>3阶纳米锻炉</br>2阶PCB工厂"
+        },
+        {
+            "name": "以太之力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3235.png",
+            "x": -192.0,
+            "y": 252.0,
+            "data": "这些全新的仓室让你能从任何维度的任何位置无线发送、存储、接收能量.它们可以放置在任何现有的多方块结构中,和正常的能源仓/动力仓作用相同.无线动力仓会消耗EU,并将其存储在一个与玩家绑定的全局无线网络中.这个无线网络可以存储2^(2^31)EU,远远超过了甚至是最高等级的激光仓.%n%n只要用/gt global_energy_join 玩家1 玩家2指令,就可以将其他玩家加入你的无线网络中,共享一个网络.这会使玩家1在与全局网络交互时使用玩家2的能量.%n%n你不能将导线/线缆接到无线能源仓/动力仓上.它们是为了尽量降低游戏延迟而设计的,这意味着为了防止不必要的计算发生,EU交互的时间间隔较大.这样你就无需搭建庞大的导线网络,从而节省下一些TPS延迟.%n%n[note]2^(2^31)是一个有646,456,994位的数字--如果你的计算器爆了的话.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMow==",
+            "tooltip": "<strong>以太之力</strong></br>前置任务需求:</br>你的第一块时空"
+        },
+        {
+            "name": "Project Godforge",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6893323685044150631.png",
+            "x": -48.0,
+            "y": 36.0,
+            "data": "With your research now complete, you have finally constructed it - the Forge of the Gods.\n\nThe Forge of the Gods is an immensely powerful structure constructed around a stabilized neutron star - it is so advanced that its full capabilities are not yet understood. However, through continued use, one can slowly upgrade and expand the range of abilities of the Forge, and learn the power hidden in the most extreme parts of the universe: [note]Graviton Shards[/note].\n\nThis esoteric material can only be found where conventional matter and degenerate neutronium crust matter on the surface of a neutron star meet. At this point in space, gravitons are far more common and irradiate this material mixture to create highly unstable graviton shards, which can be used to internally upgrade the Forge. While these shards cannot yet exist outside the extreme conditions of the Forge, with continued research and utilization it may be possible to eventually isolate and extract them outside the Forge - but for what purpose?\n\n[note]Click on the logo in the UI to read more on how to operate the Godforge.[/note]",
+            "quest_id": "n2AqI9hGSEegVf6hfygemQ==",
+            "tooltip": "<strong>Project Godforge</strong></br>前置任务需求:</br>Pseudostable Black Hole Containment Field</br>Star Fuel and Dark Matter</br>Crayon and Melon"
+        },
+        {
+            "name": "Pseudostable Black Hole Containment Field",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4646567102207181371.png",
+            "x": -156.0,
+            "y": 108.0,
+            "data": "As the materials around you achieve transcendental properties, you have found that traditional modes of compression like pistons or gases will not be enough to compact them as densely as you require.\n\nThe solution? Using the sheer force of gravity. By using extreme amounts of explosive force on your fourth-dimensionally engineered tesseracts, you can tear tiny rifts in the fabric of space, enough to create a seed which can birth a black hole. If you can build a machine which can harness it, it will be able to compress even the strongest materials to the most dense states possible.\n\nTaming a black hole is no easy task - even with all of your precautions, it defies your efforts to stabilize it and attempts to collapse itself constantly. Meaningfully extending the lifespan of the black hole will be extremely difficult. By bending spacetime through carefully aligned glass, you can reverse the flow of hawking radiation back into the black hole and keep it completely stable - problematically, however, the amount of spacetime required to maintain this process increases at an exponential rate.\n\nAs the black hole decays, it becomes even more powerful - but be wary, as it will eventually become unstable and you will no longer be able to recover your items from the edge of the event horizon. To safely close the black hole and restart this process, you have engineered a collapser out of the same fourth-dimensional materials.\n\n[note]The Pseudostable Black Hole Containment Field is the most powerful compressor in the game, capable of creating superdense plates out of any material, as well as being able to perform more advanced neutronium compressor recipes that will save incredible amounts of resources.[/note]\n\n[note]You must use programmed circuits in the input buses to determine if the machine will act as a Compressor or Neutronium Compressor![/note]",
+            "quest_id": "6OibD9bRQwq_hBPWz-y9xQ==",
+            "tooltip": "<strong>Pseudostable Black Hole Containment Field</strong></br>前置任务需求:</br>Another Type of Steel</br>你的第一块时空"
+        },
+        {
+            "name": "数不胜数的太空电梯模块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8476538164944458841.png",
+            "x": -480.0,
+            "y": -12.0,
+            "data": "更好的模块需要更先进的太空电梯马达才能运行.%n%n此升级将允许您在太空电梯上安装15个模块.如果你还没有搭建外圈扩展,现在也许是个好时机.%n%n[note]您可以在GUI中启用太空电梯外圈扩展.[/note]",
+            "quest_id": "nghPgh6-TuSKXUlzGXGrpw==",
+            "tooltip": "<strong>数不胜数的太空电梯模块</strong></br>前置任务需求:</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "Star Fuel and Dark Matter",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8332322836118716550.png",
+            "x": -156.0,
+            "y": 36.0,
+            "data": "In your research on Project Godforge, you determine that you need a new type of fuel to create a neutron star. Naquadah Fuel possesses some of the properties needed, but isn't enough. Stabilizing this fuel with Exotic Catalyst, and drastically increasing the density of the fuel with other things leads you to something that may just work.\n\nDuring this synthesis, you realize that this fuel could be used to make [note]Dark Matter[/note], something you previously had only seen on the Mehen Belt in the Amunra System.\n\n[note]Dark Matter Shards can be found in the Mehen Belt and mined manually, if you don't want to synthesize it.[/note]",
+            "quest_id": "II3sjr1cSPOMXaSG70S_eg==",
+            "tooltip": "<strong>Star Fuel and Dark Matter</strong></br>前置任务需求:</br>UIV能源仓"
+        },
+        {
+            "name": "魔导源质存储元件",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5026883587627462782.png",
+            "x": 36.0,
+            "y": 228.0,
+            "data": "经过对第四维度的研究,你终于发现了获取无限精华的方法.魔导源质存储元件是你从这个无穷无尽的源泉中提取精华的工具--把它想象成你的无限魔力信用卡吧！%n%n不幸的是,你必须在源质元件工作台中过滤每一种精华.如果您的技术更先进的话...",
+            "quest_id": "xdiDnTdpTgW6POwCuDlPgg==",
+            "tooltip": "<strong>魔导源质存储元件</strong></br>前置任务需求:</br>为比气体更气体的--源质--编码</br>法杖核心:邪术</br>UIV力场发生器"
+        },
+        {
+            "name": "薛定谔的猫已经在盒子外了",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7501398759330786959.png",
+            "x": 36.0,
+            "y": 180.0,
+            "data": "经过数小时的磨练、血汗、泪水和一点点超时空金属...%n您现在终于能够解决人类有史以来最难的谜题--随意点击按钮.%n%n伟大的未定元解决方案,戴森球用户的痴梦,它将让你在需要设置一些(可能是很多)量子计算机时,完全跳过那个恼人的谜题.",
+            "quest_id": "RAH2M4DoTTaX5a2Sj4hRcQ==",
+            "tooltip": "<strong>薛定谔的猫已经在盒子外了</strong></br>前置任务需求:</br>UIV力场发生器"
+        },
+        {
+            "name": "漆黑之门!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2413.png",
+            "x": -456.0,
+            "y": 120.0,
+            "data": "为了你本该得到的,无尽的财富,你需要先制造一个漆黑之门粗胚,然后再用更多的材料将其完善. 最后你终于进入了这个维度,应该蕴含了所有可以想到的矿石...%n%n[note]太倒霉了,那些可口的矿石被牢牢地锁在地幔之下. 只有通过虚空采矿场才能对它们进行开采.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJbQ==",
+            "tooltip": "<strong>漆黑之门!</strong></br>前置任务需求:</br>这规矩你早就懂的 Pt.2"
+        },
+        {
+            "name": "真正的星球吞噬者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5355942527641797439.png",
+            "x": -456.0,
+            "y": -48.0,
+            "data": "它的最大并行为8,并且支持更高级别的采矿无人机.%n%n[note]你可以用它获得纯铂系金属.如果你还没有为铂系产线制作量子操纵者,这会是一个不错的提升.[/note]",
+            "quest_id": "GHobGJFEQzK1q96l6oC8wQ==",
+            "tooltip": "<strong>真正的星球吞噬者</strong></br>前置任务需求:</br>数不胜数的太空电梯模块</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "第11阶段(UIV)",
+            "symbolSize": 93.60000000000001,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5694412901591210156.png",
+            "x": -588.0,
+            "y": 36.0,
+            "data": "现在您已经享用了奖励品中异域风味的饼干,让我们继续前进,好吗?%n%n欢迎来到UIV!这是GTNH目前最短的电压等级之一.这一级主要是解决你的DTPF催化剂问题,并获得永恒线圈.%n%n此外还有一些QOL物品被引入了,比如未定元解决方案和魔导源质存储元件.%n%n您还得以制造戴森球,这是一种非常强大的发电方案.%n%n[warn]这个电压等级还未完全完成.未来有可能发生改变.[/warn]",
+            "quest_id": "u-1Y-eQ-TLyw-WGi5EEnVA==",
+            "tooltip": "<strong>第11阶段(UIV)</strong></br>前置任务需求:</br>维度超越近在咫尺"
+        },
+        {
+            "name": "超维度等离子搅拌机",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8023095913103763378.png",
+            "x": -276.0,
+            "y": -36.0,
+            "data": "一定要考虑制作一台.%n%n超维度等离子搅拌机是一台可以满足您所有DTPF催化剂需求的强大资产.%n%n它的基本处理时间始终为5秒(对于恒星催化剂来说是10秒,但是那已经是后话了).您可以在GUI中指定机器可以运行的并行数.%n%n每个并行都会增加功率需求,因此您在增加产量的同时不会损失任何效率!%n%n[note]您的大部分电力都将用在这里.考虑升级您的硅岩燃料产线或者搭建戴森球.[/note]",
+            "quest_id": "KGDOhsZGQv2QqDzGdI_YTg==",
+            "tooltip": "<strong>超维度等离子搅拌机</strong></br>前置任务需求:</br>Another Type of Steel"
+        },
+        {
+            "name": "UIV能源仓",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7565512237463838538.png",
+            "x": -276.0,
+            "y": 36.0,
+            "data": "哇,又一种能源仓.%n%n你或许应该优先考虑升级你的装配线和精密组装机.",
+            "quest_id": "fnDuNiloR6iXAea0Lhjgtg==",
+            "tooltip": "<strong>UIV能源仓</strong></br>前置任务需求:</br>UIV超导"
+        },
+        {
+            "name": "UIV力场发生器",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8127302345207551228.png",
+            "x": -12.0,
+            "y": 204.0,
+            "data": "有一点昂贵,但是你可以用它制作很多物所超值的物品来改善游戏体验(QOL)。",
+            "quest_id": "q6WN7XY8Qf6PNgWTy7RrBA==",
+            "tooltip": "<strong>UIV力场发生器</strong></br>前置任务需求:</br>这规矩你早就懂的 Pt.2</br>UMV电路板"
+        },
+        {
+            "name": "UIV超导",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6806178318679823136.png",
+            "x": -396.0,
+            "y": 108.0,
+            "data": "没想到还要鲁格诺吧?%n%n像往常一样,搅拌你的奇妙粉末,煅烧它们,加工成导线,然后使它们超导.",
+            "quest_id": "kvqtI5rrRrOhi5jhPR-s4A==",
+            "tooltip": "<strong>UIV超导</strong></br>前置任务需求:</br>这规矩你早就懂的 Pt.2"
+        },
+        {
+            "name": "Ultimate Voltages Require Ultimate Lubricant™!",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4677630017092864794.png",
+            "x": -324.0,
+            "y": -108.0,
+            "data": "For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.",
+            "quest_id": "8JcG3DR5QU6_FbhIWHm05g==",
+            "tooltip": "<strong>Ultimate Voltages Require Ultimate Lubricant™!</strong></br>前置任务需求:</br>Stabilized Baryonic Matter</br>亚稳态鿫"
+        },
+        {
+            "name": "UMV电路板",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3242.png",
+            "x": -84.0,
+            "y": 204.0,
+            "data": "Pico电路,光学主机的直接升级版本,未来的合成会大量需要这种UMV电路.%n%n%n[note]你需要UMV级别的装配线.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMqg==",
+            "tooltip": "<strong>UMV电路板</strong></br>前置任务需求:</br>好刺眼! #4</br>UIV能源仓"
+        },
+        {
+            "name": "防水科技,完美样板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-4618074744092982901.png",
+            "x": -228.0,
+            "y": 264.0,
+            "data": "随着你能随心所欲地弯曲时空,你能防止流体和电子元件发生相互作用.%n%n现在它可以处理包含流体的处理样板.%n%n[note]除此之外，它就像样板输入总线一样工作.[/note]",
+            "quest_id": "1FFkSYHcQPO_6U185CKBiw==",
+            "tooltip": "<strong>防水科技,完美样板</strong></br>前置任务需求:</br>你这是在作弊!</br>你的第一块时空"
+        },
+        {
+            "name": "我应该在哪建造戴森球?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3040.png",
+            "x": -60.0,
+            "y": 252.0,
+            "data": "如若你仔细阅读过戴森球地面单元的tooltip(你也应该这么做),那么你可能已经注意到,tooltip中提到\"基于所在维度的系数\".事实上,戴森球所在的维度会极大影响其能量输出.%n%n按系数从高到低排序：%n337％ - 荷鲁斯%n231％ - 巴纳德C%n228％ - 奈佩里%n228％ - α半人马Bb%n211％ - 迈罕带%n198％ - 马赫斯%n198％ - 赛特%n198％ - 织女B%n194％ - 金星空间站%n181％ - 阿努比斯%n176％ - 金星%n161％ - 水星%n 141％ - 巴纳德E%n134％ - 鲸鱼座T星E%n126％ - 巴纳德F%n112％ - 罗斯128b、罗斯128ba%n110％ - 地球空间站%n100％ - 主世界、月球%n[warn]89％ - 火星空间站%n81％ - 火星、火卫一、火卫二%n61％ - 小行星%n60％ - 谷神星%n48％ - 木星空间站%n44％ - 木卫二、木卫一、木卫三%n36％ - 土星空间站%n32％ - 土卫二、土卫六、木卫四%n25％ - 天王星空间站%n23％ - 天卫四、海卫八、天卫五%n20％ - 海王星空间站%n18％ - 海卫一%n16％ - 冥王星、柯伊伯带%n15％ - 鸟神星、妊神星%n1％ - 花园、虚空世界以及矿界%n0％ - 所有其他维度[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAL4A==",
+            "tooltip": "<strong>我应该在哪建造戴森球?</strong></br>前置任务需求:</br>戴森球地面单元"
+        },
+        {
+            "name": "这规矩你早就懂的 Pt.2",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3237.png",
+            "x": -396.0,
+            "y": 36.0,
+            "data": "希望你已经准备好了大量的超时空金属:)",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMpQ==",
+            "tooltip": "<strong>这规矩你早就懂的 Pt.2</strong></br>前置任务需求:</br>Another Type of Steel</br>哈哈,超时空金属锭转转转"
+        },
+        {
+            "name": "你的第一块时空",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6861911456329097050.png",
+            "x": -228.0,
+            "y": 180.0,
+            "data": "[note]万岁,你终于可以进入UMV了![/note]%n%n从DTPF集群中产生的残留物似乎与现实有着有趣的相互作用,就好像它能让宇宙按照它的意志扭曲一样.%n%n如果你将它与一些无尽和海珀珍结合在一起来激发它,再加上一个充能超立方体将其抛向四维空间,那么它会变成什么样呢?%n%n也许这样你就能实现不可能实现的目标,成功获取整个宇宙的基石.%n%n[note]初始配方非常糟糕,所以一定要先为你的DTPF制作永恒线圈.%n%n恭喜你走到这一步![/note]",
+            "quest_id": "q5Gvvfe5Tm2gxZfi7VIgpg==",
+            "tooltip": "<strong>你的第一块时空</strong></br>前置任务需求:</br>升级海珀珍线圈"
+        }
+    ],
+    "links": [
+        {
+            "source": "你的第一块时空",
+            "target": "更好的超导体冷却液"
+        },
+        {
+            "source": "Project Godforge",
+            "target": "An Even More Mega EBF"
+        },
+        {
+            "source": "No, it's not a Typo",
+            "target": "An Even More Mega EBF"
+        },
+        {
+            "source": "超立方体",
+            "target": "Another Type of Steel"
+        },
+        {
+            "source": "Ultimate Voltages Require Ultimate Lubricant™!",
+            "target": "Another Type of Steel"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "Another Type of Steel"
+        },
+        {
+            "source": "这规矩你早就懂的 Pt.2",
+            "target": "在星辰间组装"
+        },
+        {
+            "source": "海珀珍",
+            "target": "在星辰间组装"
+        },
+        {
+            "source": "数不胜数的太空电梯模块",
+            "target": "在星辰间组装"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "在星辰间组装"
+        },
+        {
+            "source": "觉醒核心",
+            "target": "混沌核心"
+        },
+        {
+            "source": "UMV电路板",
+            "target": "混沌核心"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "混沌核心"
+        },
+        {
+            "source": "混沌核心",
+            "target": "混沌能量"
+        },
+        {
+            "source": "超维度等离子搅拌机",
+            "target": "Crayon and Melon"
+        },
+        {
+            "source": "核聚变,但是MK5",
+            "target": "Crayon and Melon"
+        },
+        {
+            "source": "UMV电路板",
+            "target": "戴森球地面单元"
+        },
+        {
+            "source": "耐超高温网",
+            "target": "戴森球地面单元"
+        },
+        {
+            "source": "升级海珀珍线圈",
+            "target": "升级永恒线圈"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "升级永恒线圈"
+        },
+        {
+            "source": "好吧,看起来...闪亮?",
+            "target": "升级永恒线圈"
+        },
+        {
+            "source": "UIV能源仓",
+            "target": "升级永恒线圈"
+        },
+        {
+            "source": "亚稳态鿫",
+            "target": "核聚变,但是MK5"
+        },
+        {
+            "source": "第11阶段(UIV)",
+            "target": "从你的第一块海珀珍中增殖更多"
+        },
+        {
+            "source": "超立方体",
+            "target": "哈哈,超时空金属锭转转转"
+        },
+        {
+            "source": "第11阶段(UIV)",
+            "target": "哈哈,超时空金属锭转转转"
+        },
+        {
+            "source": "An Even More Mega EBF",
+            "target": "Helioflux Melting Core my Beloved"
+        },
+        {
+            "source": "Project Godforge",
+            "target": "Helioflux Melting Core my Beloved"
+        },
+        {
+            "source": "Heliothermal Plasma Fabricator",
+            "target": "Heliofusion Exoticizer"
+        },
+        {
+            "source": "Project Godforge",
+            "target": "Heliofusion Exoticizer"
+        },
+        {
+            "source": "Project Godforge",
+            "target": "Heliothermal Plasma Fabricator"
+        },
+        {
+            "source": "Helioflux Melting Core my Beloved",
+            "target": "Heliothermal Plasma Fabricator"
+        },
+        {
+            "source": "升级无尽线圈",
+            "target": "升级海珀珍线圈"
+        },
+        {
+            "source": "从你的第一块海珀珍中增殖更多",
+            "target": "升级海珀珍线圈"
+        },
+        {
+            "source": "瓶中的银河...?",
+            "target": "亚稳态鿫"
+        },
+        {
+            "source": "2阶纳米锻炉",
+            "target": "3阶纳米锻炉"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "3阶纳米锻炉"
+        },
+        {
+            "source": "3阶纳米锻炉",
+            "target": "No, it's not a Typo"
+        },
+        {
+            "source": "Crayon and Melon",
+            "target": "No, it's not a Typo"
+        },
+        {
+            "source": "3阶纳米锻炉",
+            "target": "3阶PCB工厂"
+        },
+        {
+            "source": "2阶PCB工厂",
+            "target": "3阶PCB工厂"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "以太之力"
+        },
+        {
+            "source": "Pseudostable Black Hole Containment Field",
+            "target": "Project Godforge"
+        },
+        {
+            "source": "Star Fuel and Dark Matter",
+            "target": "Project Godforge"
+        },
+        {
+            "source": "Crayon and Melon",
+            "target": "Project Godforge"
+        },
+        {
+            "source": "Another Type of Steel",
+            "target": "Pseudostable Black Hole Containment Field"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "Pseudostable Black Hole Containment Field"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "数不胜数的太空电梯模块"
+        },
+        {
+            "source": "UIV能源仓",
+            "target": "Star Fuel and Dark Matter"
+        },
+        {
+            "source": "为比气体更气体的--源质--编码",
+            "target": "魔导源质存储元件"
+        },
+        {
+            "source": "法杖核心:邪术",
+            "target": "魔导源质存储元件"
+        },
+        {
+            "source": "UIV力场发生器",
+            "target": "魔导源质存储元件"
+        },
+        {
+            "source": "UIV力场发生器",
+            "target": "薛定谔的猫已经在盒子外了"
+        },
+        {
+            "source": "这规矩你早就懂的 Pt.2",
+            "target": "漆黑之门!"
+        },
+        {
+            "source": "数不胜数的太空电梯模块",
+            "target": "真正的星球吞噬者"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "真正的星球吞噬者"
+        },
+        {
+            "source": "维度超越近在咫尺",
+            "target": "第11阶段(UIV)"
+        },
+        {
+            "source": "Another Type of Steel",
+            "target": "超维度等离子搅拌机"
+        },
+        {
+            "source": "UIV超导",
+            "target": "UIV能源仓"
+        },
+        {
+            "source": "这规矩你早就懂的 Pt.2",
+            "target": "UIV力场发生器"
+        },
+        {
+            "source": "UMV电路板",
+            "target": "UIV力场发生器"
+        },
+        {
+            "source": "这规矩你早就懂的 Pt.2",
+            "target": "UIV超导"
+        },
+        {
+            "source": "Stabilized Baryonic Matter",
+            "target": "Ultimate Voltages Require Ultimate Lubricant™!"
+        },
+        {
+            "source": "亚稳态鿫",
+            "target": "Ultimate Voltages Require Ultimate Lubricant™!"
+        },
+        {
+            "source": "好刺眼! #4",
+            "target": "UMV电路板"
+        },
+        {
+            "source": "UIV能源仓",
+            "target": "UMV电路板"
+        },
+        {
+            "source": "你这是在作弊!",
+            "target": "防水科技,完美样板"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "防水科技,完美样板"
+        },
+        {
+            "source": "戴森球地面单元",
+            "target": "我应该在哪建造戴森球?"
+        },
+        {
+            "source": "Another Type of Steel",
+            "target": "这规矩你早就懂的 Pt.2"
+        },
+        {
+            "source": "哈哈,超时空金属锭转转转",
+            "target": "这规矩你早就懂的 Pt.2"
+        },
+        {
+            "source": "升级海珀珍线圈",
+            "target": "你的第一块时空"
+        }
+    ]
+}

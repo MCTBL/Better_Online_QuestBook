@@ -1,0 +1,804 @@
+{
+    "data": [
+        {
+            "name": "高级集线器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2013.png",
+            "x": 156.0,
+            "y": 240.0,
+            "data": "高级集线器具有工厂线缆的功能,可以扩展工厂管理器的范围.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH3Q==",
+            "tooltip": "<strong>高级集线器</strong></br>前置任务需求:</br>集线器"
+        },
+        {
+            "name": "高级物品栏中转站",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2004.png",
+            "x": 60.0,
+            "y": 240.0,
+            "data": "高级物品栏中转站可以对玩家物品栏添加/移除物品.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH1A==",
+            "tooltip": "<strong>高级物品栏中转站</strong></br>前置任务需求:</br>物品栏中转站"
+        },
+        {
+            "name": "你的所有卡都属于我们",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1749.png",
+            "x": 264.0,
+            "y": 72.0,
+            "data": "基板就像你认为的那样;它们是你制作的每张卡用于连接主板的基础部分.%n%n我建议制作大量的基板以备未来生产卡.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG1Q==",
+            "tooltip": "<strong>你的所有卡都属于我们</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        },
+        {
+            "name": "算术逻辑电路",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1748.png",
+            "x": 306.0,
+            "y": 168.0,
+            "data": "算术逻辑电路用于许多部件合成;往往要按8-16个甚至64个成组使用.%n%n所以请确保供应充足.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG1A==",
+            "tooltip": "<strong>算术逻辑电路</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        },
+        {
+            "name": "基础能量显示",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1764.png",
+            "x": 480.0,
+            "y": 216.0,
+            "data": "在这一部分,我们将学习如何使用适配器.将它放在你工业高炉(EBF)连着的电池箱旁边,并用线缆将它连接到计算机.%n现在让我们在计算机上键入'lua'以打开LUA环境,在LUA环境中可以直接进行测试,不需要担心反复保存调试程序的麻烦.%n%n键入'component.list()',会显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西,可能无法显示完全,而搜索整个组件列表的方式对于初学者来说太高级了.%n%n现在为它分配一个变量;例如'a",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG5A==",
+            "tooltip": "<strong>基础能量显示</strong></br>前置任务需求:</br>安装硬盘"
+        },
+        {
+            "name": "BIOS",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1758.png",
+            "x": 300.0,
+            "y": 72.0,
+            "data": "ROM是计算机启动所必需的,你也要用它们来运行无人机.%n%n你的BIOS写在这些小磁盘上,给我一个空白磁盘,我会把基本的BIOS写到它上面.%n%n你以后也可以这样做,只要制作更多计算机,将现有的BIOS刷入新磁盘或将空白的磁盘与手册结合起来.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG3g==",
+            "tooltip": "<strong>BIOS</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        },
+        {
+            "name": "方块更新检测器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2017.png",
+            "x": 204.0,
+            "y": 144.0,
+            "data": "方块更新检测器使你的工厂管理器可以检测到方块更新.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH4Q==",
+            "tooltip": "<strong>方块更新检测器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "方块交互器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2016.png",
+            "x": 12.0,
+            "y": 96.0,
+            "data": "方块交互器可以破坏并拾取或是放置方块.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH4A==",
+            "tooltip": "<strong>方块交互器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "伪装方块",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2000.png",
+            "x": 12.0,
+            "y": 144.0,
+            "data": "伪装方块能使线缆的面可以模拟任意其他方块.伪装方块在完整的程序运行中可以正常工作,因此可以实现动态更新.%n%n请注意,伪装方块与所有SFM线缆放置起来没什么区别,但它无法充当工厂线缆,因此在许多情况下需要与高级集线器结合使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH0A==",
+            "tooltip": "<strong>伪装方块</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "集线器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2012.png",
+            "x": 156.0,
+            "y": 192.0,
+            "data": "集线器使你能将尽可能多的其他线缆组合到一个方块中.你可以把红石信号接收器和红石信号发射器以及物品栏中转站统统整合到一个方块中.%n%n组合而来的线缆是一种\"终端\"类的线缆,它不能像工厂线缆一样扩展工厂管理器的范围.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH3A==",
+            "tooltip": "<strong>集线器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "硬币转换",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1777.png",
+            "x": 480.0,
+            "y": 72.0,
+            "data": "用32个Doge币换1个比特币.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG8Q==",
+            "tooltip": "<strong>硬币转换</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "计算机机箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1754.png",
+            "x": 384.0,
+            "y": 228.0,
+            "data": "100％防水.(100％漏液)%n%n计算机机箱本质上是所有计算机部件的集线器. 至少需要两根内存,一个BIOS-ROM,一个CPU和一个硬盘才能让你的计算机正常运行.%n%n能量转换器使你能用GT电网供电,软盘驱动器允许你将操作系统安装到硬盘驱动器上. 这两个部分都是必不可少的,但由于一些奇怪的原因需要2阶微芯片来制作;所以我会让你用一些材料+1阶微芯片换一点-别弄丢了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG2g==",
+            "tooltip": "<strong>计算机机箱</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "控制单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1752.png",
+            "x": 270.0,
+            "y": 168.0,
+            "data": "如此可控! 奇怪的是,这种部件要用HV电路板制作;所以这儿提供了一些,你可以用MV电路板代替HV电路板兑换,用于制作你第一台电脑的零件.不要把它们全部放在一个地方!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG2A==",
+            "tooltip": "<strong>控制单元</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        },
+        {
+            "name": "伪装方块-双面",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2002.png",
+            "x": 12.0,
+            "y": 192.0,
+            "data": "伪装方块-双面可以设置内侧和外侧独立伪装,比如你可以让它伪装成玻璃.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH0g==",
+            "tooltip": "<strong>伪装方块-双面</strong></br>前置任务需求:</br>伪装方块"
+        },
+        {
+            "name": "从那出来的所有艺术家",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2719.png",
+            "x": 432.0,
+            "y": 72.0,
+            "data": "这是创造组件. 基于各自的种类,还有T2和T3组件.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKnw==",
+            "tooltip": "<strong>从那出来的所有艺术家</strong></br>前置任务需求:</br>你的第一台电脑</br>晶体处理器主机"
+        },
+        {
+            "name": "磁盘驱动器(HDD)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1756.png",
+            "x": 384.0,
+            "y": 42.0,
+            "data": "磁盘驱动器是你存储所有程序和数据的地方.%n%n你正在玩Minecraft,但应该已经知道这一点了.除非你用的是固态硬盘(SSD).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG3A==",
+            "tooltip": "<strong>磁盘驱动器(HDD)</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "Hello World!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1761.png",
+            "x": 432.0,
+            "y": 168.0,
+            "data": "首先,让我们将OpenOS安装到计算机上,这样你就不必总是需要驱动器中的软盘.键入'install',然后在询问你是否要安装OpenOS时键入'Y'.%n%n完成后,取出软盘,扔到墙上,重新启动计算机.%n%n键入'df'以显示所有当前文件系统和挂载点,你会注意到一个名为OpenOS的文件;这是安装操作系统后的硬盘驱动器默认名称.%n%n用'label -a OpenOS HDD'更改名称,'-a'会让指令检查它后面输入的名字. [note]<-- 其中一部分显然是错误的? 请告诉我们哪部分出错了好不.[/note]%n%n现在让我们玩玩,制作你的第一个程序吧!要不做点有用的东西吧:键入'edit startup'进入新程序\"startup\"的编辑页面.来做些简单的事情,就比如永不过时的'print(\"Hello World!\")'.%n%n现在按Ctrl+S保存,按Ctrl+W退出该界面.回到你的/home根目录,键入'startup',你就会看到屏幕上显示“Hello World!”,妙不妙?%n%n现在来让\"startup\"(意为\"启动\")真正在开机启动时工作.键入'edit.shrc',\".shrc\"是一个神秘文件,在启动PC时运行shell命令.所以在\".shrc\"中键入'startup',保存并重新启动计算机.现在一开机应该就会显示“Hello World!”.妙上加妙,是吧?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG4Q==",
+            "tooltip": "<strong>Hello World!</strong></br>前置任务需求:</br>你的第一台电脑"
+        },
+        {
+            "name": "我喜欢按F5键.",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1762.png",
+            "x": 384.0,
+            "y": 102.0,
+            "data": "它是如此令人耳目一新.%n%n放置一个面向屏幕的键盘-或粘在屏幕背面,使其能够与计算机进行交互.%n%n键盘是绝对有必要的,没有它你几乎什么都做不成,但是一旦你有了一个无休止地运行的程序,那就可以安全地拆除它了.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG4g==",
+            "tooltip": "<strong>我喜欢按F5键.</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "智力是适应变化的能力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1760.png",
+            "x": 384.0,
+            "y": 138.0,
+            "data": "这个方块允许我们的计算机与GT机器和其他一切进行交互. 必需品!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG4A==",
+            "tooltip": "<strong>智力是适应变化的能力</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "物品栏中转站",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2001.png",
+            "x": 60.0,
+            "y": 192.0,
+            "data": "物品栏中转站可以访问非固定实体的物品栏,比如说矿车.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH0Q==",
+            "tooltip": "<strong>物品栏中转站</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "物品阀门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2010.png",
+            "x": 108.0,
+            "y": 192.0,
+            "data": "物品阀门使你的工厂管理器可以吸入3x3x3立方体范围内的掉落物.你还可以用它将物品沿其面朝方向扔到世界里.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH2g==",
+            "tooltip": "<strong>物品阀门</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "It's everytime these Transistors",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7132625864114193932.png",
+            "x": 336.0,
+            "y": 72.0,
+            "data": "Hello fellow achievement hunter. \n\nLooking for the OC Transistor to get one out of all these achievements?\nLucky you, because now you can craft it and it's realy simple.\n\nJust put one of your first GT Transistors in your 2x2 crafting grid and be happy with it's result. Don't forget to change it back the same way.",
+            "quest_id": "5mcwk7dYSBydA9KRHbW59A==",
+            "tooltip": "<strong>It's everytime these Transistors</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "工厂管理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1989.png",
+            "x": 108.0,
+            "y": 96.0,
+            "data": "工厂管理器是史塔西...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.虽然AE2可以处理许多不同的合成任务,但SFM可以处理更为复杂的合成任务.实际上,装配线不一定需要它.但你仍然可以沿着这个思路走下去.%n%n工厂线缆可将工厂管理器连接到物品或流体容器.%n%n在某个智者写出智者手册以前,你最好的选择就是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.%n%n设计糟糕的SFM系统会导致TPS下降.确保你的输出空置,千万不要填满.%n%n工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.%n%nmehdi2344认为我开头写的玩笑很糟糕,但他是个笨蛋,就这样.%n%n感谢这些任务的书写者Nori-Silverrage!%n%n[warn]另外,在创造模式测试时,可以使用'创造物品供应器'. Energistics-Connector被禁用,原因是它无法正确工作.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHxQ==",
+            "tooltip": "<strong>工厂管理器</strong></br>前置任务需求:</br>处理器主机,你的第一种IV电路板"
+        },
+        {
+            "name": "安装硬盘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1763.png",
+            "x": 432.0,
+            "y": 216.0,
+            "data": "好吧,你有了台电脑,它一开机就会说“Hello World!”,你觉得好极了,仿佛自己能够统治世界.%n%n现在我们来设置硬盘.再次用编辑器打开\".shrc\",按Enter换到下一行,然后键入'cd ../',这会把你正在查看的目录转到根目录.%n%n再次换行并键入'mount HDD C:'--何乐而不为呢,这可是经典(Classic)设置;这会把文件驱动器挂载到你所在的文件夹中.继续换行并键入'cd C:/',保存并重新启动计算机.%n%n现在,开机时就会显示漂亮的\"C:/\"!尝试键入'mkdir programs',这样你就有了一个专门放置程序的目录,以便组织整理.%n'cd programs'可以进入程序目录,'cd ../'可以回到上级目录;还有别的操作,比如说,你在C:中有一个名为apples的文件夹,但是你就在apples里,键入'cd ../apples'你还是会在apples里.\"..\"基本只是代表上级目录,而且可以堆叠;适用于复制和移动文件,非常有用.%n%n现在我们要做些有用的东西,带上你的适配器和线缆,去看看下一个任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG4w==",
+            "tooltip": "<strong>安装硬盘</strong></br>前置任务需求:</br>Hello World!"
+        },
+        {
+            "name": "移动工厂管理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1990.png",
+            "x": 192.0,
+            "y": 48.0,
+            "data": "曾经完成了一个很棒的程序,然后意识到你的管理器需要搬家,你必须重写整个程序?曾经需要多次复制、粘贴一段代码,然后沮丧地发现你做不到?  有了管理器复制器,你再也不会为此烦恼了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHxg==",
+            "tooltip": "<strong>移动工厂管理器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "我的小侦探",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1755.png",
+            "x": 384.0,
+            "y": 198.0,
+            "data": "一把螺丝刀和扳手. 不是真正必要的工具,但有一些用处;我建议多读读你的计算机手册.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG2w==",
+            "tooltip": "<strong>我的小侦探</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "命名",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1991.png",
+            "x": 144.0,
+            "y": 24.0,
+            "data": "工厂贴标器使你能够给予任意能与工厂管理器连接的东西一个独一无二的名字-有助于你写程序时辨认它们.%n%n在文本框中设置标签或者搜索已存储的标签-点击任意已存储标签以选中它,双击以编辑它.关闭GUI时,无论文本框中有什么都将被设置为标签.%n%n手持贴标器左键以贴上标签,右键以打开GUI.贴上一个空白标签将会移除任意已存在的标签.%n%n[warn]或许有bug或许没有.多人游戏重新登录会造成标签丢失,不过在单人游戏中没有这样的问题.玩得开心![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHxw==",
+            "tooltip": "<strong>命名</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "不是你那普通的拼盘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1757.png",
+            "x": 252.0,
+            "y": 102.0,
+            "data": "我们的硬盘需要这些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG3Q==",
+            "tooltip": "<strong>不是你那普通的拼盘</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        },
+        {
+            "name": "在线购物-第一阶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1765.png",
+            "x": 480.0,
+            "y": 120.0,
+            "data": "嘿,用比特币!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG5Q==",
+            "tooltip": "<strong>在线购物-第一阶</strong></br>前置任务需求:</br>你的第一台电脑"
+        },
+        {
+            "name": "购买线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1771.png",
+            "x": 540.0,
+            "y": 216.0,
+            "data": "我会卖给你2比特币的16根线缆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG6w==",
+            "tooltip": "<strong>购买线缆</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买软盘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1774.png",
+            "x": 576.0,
+            "y": 120.0,
+            "data": "我会卖给你一个1比特币的软盘.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG7g==",
+            "tooltip": "<strong>购买软盘</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买键盘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1775.png",
+            "x": 576.0,
+            "y": 168.0,
+            "data": "我会卖给你一个2比特币的键盘.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG7w==",
+            "tooltip": "<strong>购买键盘</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买网卡",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1766.png",
+            "x": 540.0,
+            "y": 72.0,
+            "data": "我会卖给你一个6比特币的网卡.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG5g==",
+            "tooltip": "<strong>购买网卡</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶显卡",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1769.png",
+            "x": 540.0,
+            "y": 120.0,
+            "data": "我会卖给你一个4比特币的一阶显卡.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG6Q==",
+            "tooltip": "<strong>购买第一阶显卡</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶硬盘",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1773.png",
+            "x": 576.0,
+            "y": 72.0,
+            "data": "我会卖给你一个8比特币的一阶硬盘.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG7Q==",
+            "tooltip": "<strong>购买第一阶硬盘</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶内存",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1768.png",
+            "x": 540.0,
+            "y": 168.0,
+            "data": "我会卖给你一对4比特币的一阶内存.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG6A==",
+            "tooltip": "<strong>购买第一阶内存</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶简易微芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1776.png",
+            "x": 576.0,
+            "y": 216.0,
+            "data": "我会卖给你一个2比特币的第一阶简易微芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG8A==",
+            "tooltip": "<strong>购买第一阶简易微芯片</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶显示屏",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1772.png",
+            "x": 576.0,
+            "y": 24.0,
+            "data": "我会卖给你一个3比特币的一阶显示屏.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG7A==",
+            "tooltip": "<strong>购买第一阶显示屏</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "购买第一阶无线网卡",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1767.png",
+            "x": 540.0,
+            "y": 24.0,
+            "data": "我会卖给你一个12比特币的一阶无线网卡.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG5w==",
+            "tooltip": "<strong>购买第一阶无线网卡</strong></br>前置任务需求:</br>在线购物-第一阶"
+        },
+        {
+            "name": "快速物品阀门",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2011.png",
+            "x": 108.0,
+            "y": 240.0,
+            "data": "快速物品阀门可无延迟地吸入掉落物.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH2w==",
+            "tooltip": "<strong>快速物品阀门</strong></br>前置任务需求:</br>物品阀门"
+        },
+        {
+            "name": "红石信号发射器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1999.png",
+            "x": 204.0,
+            "y": 192.0,
+            "data": "红石信号发射器的6个面都能发出红石信号.红石信号的强度可以设置为任意值,加、减和更多行为均可设置.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHzw==",
+            "tooltip": "<strong>红石信号发射器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "红石信号接收器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2015.png",
+            "x": 204.0,
+            "y": 240.0,
+            "data": "红石信号接收器的六个面都可以接收红石信号.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH3w==",
+            "tooltip": "<strong>红石信号接收器</strong></br>前置任务需求:</br>红石信号发射器"
+        },
+        {
+            "name": "RF节点",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2882.png",
+            "x": 24.0,
+            "y": 48.0,
+            "data": "RF节点就是一个RF的输入/输出节点. 我猜你有可能需要.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALQg==",
+            "tooltip": "<strong>RF节点</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "短期存储",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1750.png",
+            "x": 384.0,
+            "y": 72.0,
+            "data": "得加RAM了.%n%n内存,或RAM,本质是你计算机上的临时数据存储,可以通过程序快速访问.%n%n因此名为快速存取存储器(Rapid-Access-Memory,RAM).",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG1g==",
+            "tooltip": "<strong>短期存储</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "告示牌更新器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2009.png",
+            "x": 204.0,
+            "y": 96.0,
+            "data": "告示牌更新器使你的工厂管理器可以更新外部信息.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH2Q==",
+            "tooltip": "<strong>告示牌更新器</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "SFM基础",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2019.png",
+            "x": 72.0,
+            "y": 24.0,
+            "data": "变量-声明vs标准%n声明会创建一个包含可用方块的变量.这使工作流更新很方便.比如,你可以有个包含两个箱子的变量.你在一个漂亮的for-each循环中用到了它,之后你又添加了一个箱子.只需更新变量,for-each循环就可以用上这个箱子了.%n%n标准变量可以插入到工作流的中间(它有输入/输出),因此可以在运行中进行修改.%n%n请注意,for-each循环需要一个空变量.这在循环中列为\"元素\".%n%n全局vs本地%n全局将保留在工作流中对一个变量做的更改,反之,本地保留在工作流中对这一部分所做的所有更改.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH4w==",
+            "tooltip": "<strong>SFM基础</strong></br>前置任务需求:</br>工厂管理器"
+        },
+        {
+            "name": "第一阶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1759.png",
+            "x": 336.0,
+            "y": 120.0,
+            "data": "恭喜,我们有了搭建电脑的部件!%n%n这里有一些基础知识.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG3w==",
+            "tooltip": "<strong>第一阶</strong></br>前置任务需求:</br>你的第一个简易微芯片</br>算术逻辑电路</br>你的所有卡都属于我们</br>控制单元</br>不是你那普通的拼盘</br>BIOS"
+        },
+        {
+            "name": "伪装方块-变换",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2003.png",
+            "x": 12.0,
+            "y": 240.0,
+            "data": "伪装方块-变换使你能够修改线缆的碰撞箱,所以你可以把它变成门或者别的什么.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAH0w==",
+            "tooltip": "<strong>伪装方块-变换</strong></br>前置任务需求:</br>伪装方块-双面"
+        },
+        {
+            "name": "欢迎来到开放式电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1745.png",
+            "x": 288.0,
+            "y": 120.0,
+            "data": "你好,我的名字是Teirdalin,今天我们将开始一个最令人兴奋且有趣的mod:开放式电脑(OpenComputers)! 首先,你需要一些耐心才能学会这个mod,但你最终会得到回报!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG0Q==",
+            "tooltip": "<strong>欢迎来到开放式电脑</strong></br>前置任务需求:</br>进阶电路组装机</br>复仇者联盟2,组装!"
+        },
+        {
+            "name": "数据对CPU说了什么？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1753.png",
+            "x": 384.0,
+            "y": 168.0,
+            "data": "让我在外面缓存.%n%n你的CPU基本上代表你的计算机处理数据的速度.%n更强的CPU",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG2Q==",
+            "tooltip": "<strong>数据对CPU说了什么？</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "精彩的图像!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1751.png",
+            "x": 384.0,
+            "y": 12.0,
+            "data": "看见数字的世界.%n%n显卡使计算机能在屏幕上绘制文本和其他内容.%n%n使用更好的显卡,分辨率就会更高,也可以拥有更好的绘制功能.%n%n你还需要更高级别的显示器来显示颜色或获得触摸屏的兼容性,但这是以后需要担心的事情.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG1w==",
+            "tooltip": "<strong>精彩的图像!</strong></br>前置任务需求:</br>第一阶"
+        },
+        {
+            "name": "你的第一台电脑",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1747.png",
+            "x": 432.0,
+            "y": 120.0,
+            "data": "将你之前获得的能量转换器放置在线缆附近并将其用剪线钳连接(也可用RF或AE供能). 现在挨着转换器放置你的计算机机箱,通过科技的力量,它将为计算机机箱提供电力!%n%n译者注:其实直接给机箱接电线就行... 现在将硬盘驱动、内存和显卡放入内部,将磁盘驱动器放在计算机旁边,然后插入操作系统磁盘.将我们制作的BIOS插入机箱然后打开.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG0w==",
+            "tooltip": "<strong>你的第一台电脑</strong></br>前置任务需求:</br>智力是适应变化的能力</br>我喜欢按F5键.</br>短期存储</br>精彩的图像!</br>数据对CPU说了什么？</br>计算机机箱</br>我的小侦探</br>磁盘驱动器(HDD)"
+        },
+        {
+            "name": "你的第一个简易微芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1746.png",
+            "x": 252.0,
+            "y": 138.0,
+            "data": "简易微芯片将在你制作的大部分物品中用到,如果可能的话,我建议大量制作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG0g==",
+            "tooltip": "<strong>你的第一个简易微芯片</strong></br>前置任务需求:</br>欢迎来到开放式电脑"
+        }
+    ],
+    "links": [
+        {
+            "source": "集线器",
+            "target": "高级集线器"
+        },
+        {
+            "source": "物品栏中转站",
+            "target": "高级物品栏中转站"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "你的所有卡都属于我们"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "算术逻辑电路"
+        },
+        {
+            "source": "安装硬盘",
+            "target": "基础能量显示"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "BIOS"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "方块更新检测器"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "方块交互器"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "伪装方块"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "集线器"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "硬币转换"
+        },
+        {
+            "source": "第一阶",
+            "target": "计算机机箱"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "控制单元"
+        },
+        {
+            "source": "伪装方块",
+            "target": "伪装方块-双面"
+        },
+        {
+            "source": "你的第一台电脑",
+            "target": "从那出来的所有艺术家"
+        },
+        {
+            "source": "晶体处理器主机",
+            "target": "从那出来的所有艺术家"
+        },
+        {
+            "source": "第一阶",
+            "target": "磁盘驱动器(HDD)"
+        },
+        {
+            "source": "你的第一台电脑",
+            "target": "Hello World!"
+        },
+        {
+            "source": "第一阶",
+            "target": "我喜欢按F5键."
+        },
+        {
+            "source": "第一阶",
+            "target": "智力是适应变化的能力"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "物品栏中转站"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "物品阀门"
+        },
+        {
+            "source": "第一阶",
+            "target": "It's everytime these Transistors"
+        },
+        {
+            "source": "处理器主机,你的第一种IV电路板",
+            "target": "工厂管理器"
+        },
+        {
+            "source": "Hello World!",
+            "target": "安装硬盘"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "移动工厂管理器"
+        },
+        {
+            "source": "第一阶",
+            "target": "我的小侦探"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "命名"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "不是你那普通的拼盘"
+        },
+        {
+            "source": "你的第一台电脑",
+            "target": "在线购物-第一阶"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买线缆"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买软盘"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买键盘"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买网卡"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶显卡"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶硬盘"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶内存"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶简易微芯片"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶显示屏"
+        },
+        {
+            "source": "在线购物-第一阶",
+            "target": "购买第一阶无线网卡"
+        },
+        {
+            "source": "物品阀门",
+            "target": "快速物品阀门"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "红石信号发射器"
+        },
+        {
+            "source": "红石信号发射器",
+            "target": "红石信号接收器"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "RF节点"
+        },
+        {
+            "source": "第一阶",
+            "target": "短期存储"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "告示牌更新器"
+        },
+        {
+            "source": "工厂管理器",
+            "target": "SFM基础"
+        },
+        {
+            "source": "你的第一个简易微芯片",
+            "target": "第一阶"
+        },
+        {
+            "source": "算术逻辑电路",
+            "target": "第一阶"
+        },
+        {
+            "source": "你的所有卡都属于我们",
+            "target": "第一阶"
+        },
+        {
+            "source": "控制单元",
+            "target": "第一阶"
+        },
+        {
+            "source": "不是你那普通的拼盘",
+            "target": "第一阶"
+        },
+        {
+            "source": "BIOS",
+            "target": "第一阶"
+        },
+        {
+            "source": "伪装方块-双面",
+            "target": "伪装方块-变换"
+        },
+        {
+            "source": "进阶电路组装机",
+            "target": "欢迎来到开放式电脑"
+        },
+        {
+            "source": "复仇者联盟2,组装!",
+            "target": "欢迎来到开放式电脑"
+        },
+        {
+            "source": "第一阶",
+            "target": "数据对CPU说了什么？"
+        },
+        {
+            "source": "第一阶",
+            "target": "精彩的图像!"
+        },
+        {
+            "source": "智力是适应变化的能力",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "我喜欢按F5键.",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "短期存储",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "精彩的图像!",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "数据对CPU说了什么？",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "计算机机箱",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "我的小侦探",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "磁盘驱动器(HDD)",
+            "target": "你的第一台电脑"
+        },
+        {
+            "source": "欢迎来到开放式电脑",
+            "target": "你的第一个简易微芯片"
+        }
+    ]
+}

@@ -1,0 +1,984 @@
+{
+    "data": [
+        {
+            "name": "16槽LV级电池箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/664.png",
+            "x": 48.0,
+            "y": 84.0,
+            "data": "把你的电池箱升级成16槽,作为主要存电设备. %n%n你可以用不同的电力缓存物品, 主要是电池.可用于不同场合,比如工业高炉、电弧炉、热力离心机等等.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACmA==",
+            "tooltip": "<strong>16槽LV级电池箱</strong></br>前置任务需求:</br>电池箱"
+        },
+        {
+            "name": "终章：最后的电容！",
+            "symbolSize": 62.400000000000006,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6434507911289406845.png",
+            "x": -144.0,
+            "y": 624.0,
+            "data": "这就是最后的电容了，很遗憾不能更进一步。",
+            "quest_id": "vrE4rYLuSnmmtAklayd6gw==",
+            "tooltip": "<strong>终章：最后的电容！</strong></br>前置任务需求:</br>能更高吗？"
+        },
+        {
+            "name": "电池合金",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/609.png",
+            "x": 0.0,
+            "y": -12.0,
+            "data": "使用合金炉/搅拌机混合锑跟铅,可以得到电池合金.%n将其与一些锡线缆组合就可以得到小型电池外壳.%n%n小型",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACYQ==",
+            "tooltip": "<strong>电池合金</strong></br>前置任务需求:</br>铅辛万苦找到铅</br>锑"
+        },
+        {
+            "name": "电池箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/619.png",
+            "x": 0.0,
+            "y": 84.0,
+            "data": "电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.%n%n[note]你可以用物流输入电池,但只有空的酸性电池可以从电池箱中输出. 不,你无法循环利用它.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACaw==",
+            "tooltip": "<strong>电池箱</strong></br>前置任务需求:</br>一次性电池：汞</br>一次性电池：酸</br>可充电电池：钠</br>可充电电池：镉</br>可充电电池：锂"
+        },
+        {
+            "name": "线缆二极管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1821.png",
+            "x": -72.0,
+            "y": 84.0,
+            "data": "有时候你只需要一个二极管,无论是为了防止电流在复杂的能量系统中回流而造成烧线,或是在Thermos服务器的区块边缘. 制作一个4A二极管,我会送你个2A的!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHHQ==",
+            "tooltip": "<strong>线缆二极管</strong></br>前置任务需求:</br>二极管1"
+        },
+        {
+            "name": "能更高吗？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-6876851311040355991.png",
+            "x": -144.0,
+            "y": 564.0,
+            "data": "同时更高的EU传输速率！",
+            "quest_id": "13PWs3MhTUOgkIQq8EKhaQ==",
+            "tooltip": "<strong>能更高吗？</strong></br>前置任务需求:</br>极终与终极"
+        },
+        {
+            "name": "别把手指插进插座里",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2144.png",
+            "x": -72.0,
+            "y": 132.0,
+            "data": "如果你想让多A电流通过超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以使用线缆二级管,来很方便地限制电流,除此之外也可防止电流过大着火.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIYA==",
+            "tooltip": "<strong>别把手指插进插座里</strong></br>前置任务需求:</br>超净间"
+        },
+        {
+            "name": "能量缓冲器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2049.png",
+            "x": 0.0,
+            "y": 276.0,
+            "data": "你在能量方面的研究进展使你发明了能量缓冲器-一种简单的方块,可以存储巨量能量,而且可携带.比电池更好,这些设备可以设置输出1-16A,再加上高电流变压器,你就能把电压等级强行提高两级.  这个HV能量缓存器可以为HV机器供能几小时,或为EV机器供能将近一小时.非常适合远距离采矿作业.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIAQ==",
+            "tooltip": "<strong>能量缓冲器</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "能量水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/789.png",
+            "x": -96.0,
+            "y": 180.0,
+            "data": "在MV搅拌机中搅拌红宝石粉及红石粉,可以获得能量水晶粉. 然后再用高压釜处理制得能量水晶. 能量水晶可以储存1MEU,工作方式与HV电池一致.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADFQ==",
+            "tooltip": "<strong>能量水晶</strong></br>前置任务需求:</br>玩泥巴"
+        },
+        {
+            "name": "蚀刻兰波顿",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2148.png",
+            "x": -48.0,
+            "y": 276.0,
+            "data": "IV等级的电池需要大量的资源.  首先,你需要激光蚀刻8个兰波顿水晶.务必在超净间内完成这项工作.%n%n它们也用于一些先进的AE2芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIZA==",
+            "tooltip": "<strong>蚀刻兰波顿</strong></br>前置任务需求:</br>兰波顿水晶"
+        },
+        {
+            "name": "电流得到处都是",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1418.png",
+            "x": -192.0,
+            "y": 228.0,
+            "data": "...在我的梦里. 要是我们可以将所有发电机组集中在一个位置,而不是在每台发电机上连一堆电池,该多好啊？ 把它们放在基地里远离活动范围的部分？ 放在家外乡下的某处？ 让动物面对污染去吧. 无论如何,来着手搭建能源站吧,它可以存储EU并供给我们的基地.%n%n译者注:也可以试试兰波顿超级电容库,详见\"多方块结构\"任务栏的\"事不过三\"任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFig==",
+            "tooltip": "<strong>电流得到处都是</strong></br>前置任务需求:</br>野鸭生锈臭臭(Mallard Rust Smelly)"
+        },
+        {
+            "name": "EV电池箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1262.png",
+            "x": 96.0,
+            "y": 228.0,
+            "data": "它是EV的,好不?%n%n[note]完成一个要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE7g==",
+            "tooltip": "<strong>EV电池箱</strong></br>前置任务需求:</br>第4阶段(EV)</br>HV电池箱"
+        },
+        {
+            "name": "EV GT++电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1265.png",
+            "x": 48.0,
+            "y": 228.0,
+            "data": "想要更便宜的EV电池? 把你的旧电池放在一起捣碎,说不定就能做出来什么!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE8Q==",
+            "tooltip": "<strong>EV GT++电池</strong></br>前置任务需求:</br>EV电池箱"
+        },
+        {
+            "name": "EV阳光化合物电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1264.png",
+            "x": 0.0,
+            "y": 228.0,
+            "data": "小型阳光化合物电池是你的第一种EV电池.有些人认为它比兰波顿电池便宜,不过这取决于你的阳光化合物的产量,而且它的容量更小.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE8A==",
+            "tooltip": "<strong>EV阳光化合物电池</strong></br>前置任务需求:</br>EV电池箱</br>蓝钢"
+        },
+        {
+            "name": "极终与终极",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3295.png",
+            "x": -144.0,
+            "y": 516.0,
+            "data": "一个更昂贵但储量相同的电容器?你没看错,但它在无线电力网络中的传输速率要快得多!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAM3w==",
+            "tooltip": "<strong>极终与终极</strong></br>前置任务需求:</br>以太之力</br>好刺眼! #4</br>LSC"
+        },
+        {
+            "name": "加油抽呀~嘿哟~",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2972.png",
+            "x": 180.0,
+            "y": 132.0,
+            "data": "当你造好水库之后,应该会发现无法直接将原版水倒入水库.这是液压泵的工作.这种多方块结构有许多等级,可以让你的水库到达不同的水位(",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALnA==",
+            "tooltip": "<strong>加油抽呀~嘿哟~</strong></br>前置任务需求:</br>无限储能"
+        },
+        {
+            "name": "HV电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1144.png",
+            "x": 48.0,
+            "y": 180.0,
+            "data": "更好的机器需要更好的电池.锂是制作电池最好的材料.建议使用聚乙烯的组装机配方可以节省资源(至少在LV-HV阶段).%n%n[note]你只需完成其中一项要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEeA==",
+            "tooltip": "<strong>HV电池</strong></br>前置任务需求:</br>HV电池外壳"
+        },
+        {
+            "name": "HV电池箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1142.png",
+            "x": 96.0,
+            "y": 180.0,
+            "data": "HV的机器也需要电池箱来作为电力缓冲区.同样,HV电池箱也有1X、4X、9X和16X各种尺寸.%n%n[note]你只需完成其中一项要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdg==",
+            "tooltip": "<strong>HV电池箱</strong></br>前置任务需求:</br>能量水晶</br>HV电池"
+        },
+        {
+            "name": "HV电池外壳",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1143.png",
+            "x": 0.0,
+            "y": 180.0,
+            "data": "更好的机器需要更好的电池来驱动. 你需要制作一些HV电池外壳. 而你可以决定用这些外壳配合锂、镉、钠制作充电电池,或者将它们制作成一次性的酸性电池. 但一般推荐锂电池或钠电池.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEdw==",
+            "tooltip": "<strong>HV电池外壳</strong></br>前置任务需求:</br>第3阶段(HV)</br>MV电池外壳"
+        },
+        {
+            "name": "无限储能",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2971.png",
+            "x": 144.0,
+            "y": 132.0,
+            "data": "你不应该点击陌生人的链接! 虽然这看起来像标题党,但这是真的(从某种角度来看).%n%n利用势能!存储能量! 只需要建造一个水库,并用水铺满这广阔的区域. 你就能通过泵入更多的水存储能量,或是将水排出以获取能量. 它尤其适合风、水和太阳能等波动的能源.或者在平时储存多余的能量,等到有需要了再快速放出. 水库的容量非常巨大,而选择权在你.%n%n听起来很棒! 但是...? -的确. 有一个陷阱：泵和涡轮都一定的损失(效率). 你还有兴趣? 让我们开始制造吧!%n%n这台多方块结构具有不同寻常的外形：多方块的上方是开放的.蓄水湖将从多方块结构中延伸出来,并一格一格尽可能地蔓延.蔓延中会将植物用水替代(请保护好你的IC2作物!),而固体方块不会被替代. 另外,你可以在任意方向限制.水永远不会越过这些限制.你可以通过手持螺丝刀右键控制器方块,以打开第二GUI,设置那些限制.%n%n在你配置好限制之后,它会自动纠正到最近的有效设置.这种纠正经常发生在你试图设置超过服务器限制的数值.你可以尝试与管理员讨论提高这些限制(这些限制应该是用来限制恶意破坏的). 此外,水无法蔓延到别人的城镇上.%n你还在这个GUI的左上角发现了三个神秘按钮.从左到右：第一个按钮会缓慢移除蓄水湖方块.例如,你可以在蓄水湖蔓延过界的时候将其缩小. 此多方块结构也会默认使用此配置,因此你不用担心突然发大水. 第二、三个按钮会缓慢生成更多的蓄水湖方块.另外,第二个按钮会以粉色显示那些蓄水湖方块,这样你就可以看到它们将会在哪里生成,然后插个洞或者别的什么.在此\"debug\"模式中,你可以如空气中一样在蓄水湖中行走/呼吸/交互.这可以让你轻易建造一个沉没的村庄,装饰你的水库. 第三个按钮就是正常模式,你可以看到水并在你的能量电池中畅游.%n%n当然,控制器方块也有个普通GUI(空手右键).它会向你展示存储于水库中的能量.想要达到更高的水位需要更强的水泵.为了达到这一目的,你可以在GUI的电路板插槽中插入电路板配置电压等级.别担心：就算你设置了一个很低的电压等级也不会损失任何能量,这只影响玩家信息.你可以用奖励的电路板试试看...%n%n如果你还有其他问题、发现信息缺失或者有任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n%n[warn]警告：已经有不少水库导致的bug甚至坏档的报告. 使用时请自负风险. 如果你能提供更详细的信息，请前往GTNH github仓库报告。[/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALmw==",
+            "tooltip": "<strong>无限储能</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "兰波顿水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/806.png",
+            "x": -96.0,
+            "y": 228.0,
+            "data": "使用你的新HV搅拌机,你可以制作兰波顿粉末.将之放入高压釜来制作未加工的兰波顿水晶.使用EV组装机及高级电路,你可以制作能储存1千万EU的兰波顿水晶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADJg==",
+            "tooltip": "<strong>兰波顿水晶</strong></br>前置任务需求:</br>兰波顿粉</br>HV级搅拌"
+        },
+        {
+            "name": "兰波顿电容(ZPM)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2734.png",
+            "x": -144.0,
+            "y": 372.0,
+            "data": "相比前一级电容,除了能存储更多电能,其余没什么区别. 现在,你的兰波顿超级电容库可以存储540B到8.1T-EU.%n%n[note]要求EV等级以上的玻璃.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKrg==",
+            "tooltip": "<strong>兰波顿电容(ZPM)</strong></br>前置任务需求:</br>兰波顿电容(LuV)"
+        },
+        {
+            "name": "兰波顿电容(LuV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2733.png",
+            "x": -144.0,
+            "y": 324.0,
+            "data": "相比前一级电容,除了能存储更多电能,其余没什么区别. 现在,你的兰波顿超级电容库可以存储54B到810B-EU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKrQ==",
+            "tooltip": "<strong>兰波顿电容(LuV)</strong></br>前置任务需求:</br>兰波顿电容(IV)"
+        },
+        {
+            "name": "兰波顿电容(UV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2735.png",
+            "x": -144.0,
+            "y": 420.0,
+            "data": "相比前一级电容,除了能存储更多电能,其余没什么区别. 现在,你的兰波顿超级电容库可以存储5.4T到81T-EU.%n%n[note]要求IV等级以上的玻璃.[/note]%n%n[note]PS： 最高级的电容任务在\"终极目标\"任务栏.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKrw==",
+            "tooltip": "<strong>兰波顿电容(UV)</strong></br>前置任务需求:</br>兰波顿电容(ZPM)"
+        },
+        {
+            "name": "兰波顿电容(IV)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2894.png",
+            "x": -144.0,
+            "y": 276.0,
+            "data": "比起之前的版本,它的容量更大,其余没啥差别. 使用这种电容,你的兰波顿超级电容库可以容纳5.4B到81B-EU.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALTg==",
+            "tooltip": "<strong>兰波顿电容(IV)</strong></br>前置任务需求:</br>兰波顿能量球</br>开充!(Take charge!)"
+        },
+        {
+            "name": "兰波顿能量存储矩阵",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1820.png",
+            "x": 144.0,
+            "y": 228.0,
+            "data": "兰波顿能量存储矩阵(LESU)是GT最古老且还能使用的机器之一,它出现于MC1.3.X版本,但为了适应这个整合包,它被重做了.你可以添加几乎无限的LESU机械方块,然后你就会有巨量的能量存储.你甚至可以住在你的电池里.%n%[note]3PS：这玩意是辣鸡,别做.或者有人某天会重做或者增强它呢.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHHA==",
+            "tooltip": "<strong>兰波顿能量存储矩阵</strong></br>前置任务需求:</br>氡衰变</br>氡循环"
+        },
+        {
+            "name": "兰波顿能量球",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2149.png",
+            "x": -96.0,
+            "y": 276.0,
+            "data": "兰波顿能量球是IV等级的电池.它可以存储100M-EU.%n%n[note]提示: 到了IV,可以用它们造几台处理阵列.非常有用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIZQ==",
+            "tooltip": "<strong>兰波顿能量球</strong></br>前置任务需求:</br>蚀刻兰波顿</br>纤维强化电路基板"
+        },
+        {
+            "name": "LESU升级-EV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1828.png",
+            "x": 252.0,
+            "y": 264.0,
+            "data": "接近8组LESU机械方块,使你的LESU能达到EV电压.到目前为止都不难.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHJA==",
+            "tooltip": "<strong>LESU升级-EV等级</strong></br>前置任务需求:</br>第4阶段(EV)</br>LESU升级-HV等级"
+        },
+        {
+            "name": "LESU升级-HV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1827.png",
+            "x": 252.0,
+            "y": 228.0,
+            "data": "要升级到HV等级至少需要超过一组LESU机械方块.  更多方块,更多能量,更高电压.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHIw==",
+            "tooltip": "<strong>LESU升级-HV等级</strong></br>前置任务需求:</br>第3阶段(HV)</br>LESU升级-MV等级"
+        },
+        {
+            "name": "LESU升级-IV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1829.png",
+            "x": 216.0,
+            "y": 264.0,
+            "data": "24组LESU机械方块.你的物品栏能装下它们,但合成就是另一个问题了.%n%n[note]如果你不想事先清空背包的话,做出足够的数量后勾选复选框即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHJQ==",
+            "tooltip": "<strong>LESU升级-IV等级</strong></br>前置任务需求:</br>LESU升级-EV等级</br>第5阶段(IV)"
+        },
+        {
+            "name": "LESU升级-LuV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1830.png",
+            "x": 180.0,
+            "y": 264.0,
+            "data": "想要到达LESU所能提供的最高电压,你需要添加更多更多的LESU机械方块.总共需要8193个LESU机械方块(包括此前的所有升级所需)能使LESU接受LuV电压.要提交这个任务,你需要提交站(蒸汽时代任务栏),因为你的物品栏装不下96组.%n%n[note]我是说,你可以那么做,但只要在自动合成做完之后勾选复选框就好了.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHJg==",
+            "tooltip": "<strong>LESU升级-LuV等级</strong></br>前置任务需求:</br>第6阶段(LuV)</br>LESU升级-IV等级"
+        },
+        {
+            "name": "LESU升级-LV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1825.png",
+            "x": 180.0,
+            "y": 228.0,
+            "data": "将这么多LESU机械方块添加到你的LESU,使其从ULV升级至LV等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHIQ==",
+            "tooltip": "<strong>LESU升级-LV等级</strong></br>前置任务需求:</br>兰波顿能量存储矩阵"
+        },
+        {
+            "name": "LESU升级-MV等级",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1826.png",
+            "x": 216.0,
+            "y": 228.0,
+            "data": "添加更多LESU机械方块不但会提升你的储能量,还会使LESU升级到MV等级.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHIg==",
+            "tooltip": "<strong>LESU升级-MV等级</strong></br>前置任务需求:</br>LESU升级-LV等级"
+        },
+        {
+            "name": "让水流起来呀~流起来呀~",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2973.png",
+            "x": 216.0,
+            "y": 132.0,
+            "data": "...不能再忍了.迫不及待收获你努力工作的成果了!将水库的输出仓与水轮机的输入仓连接起来,享受最终的能量吧!你可以通过截断流体输入,或使用机器控制覆盖板,暂停此多方块结构.噢,你的水就会重新回到输出仓.%n%n祝贺你,建成了自己的水库!享受你的特大号电池吧!%n%n如果你还有其他问题、发现信息缺失或者有任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALnQ==",
+            "tooltip": "<strong>让水流起来呀~流起来呀~</strong></br>前置任务需求:</br>无限储能"
+        },
+        {
+            "name": "LV高能变压器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1269.png",
+            "x": -288.0,
+            "y": 84.0,
+            "data": "如果你需要更大的电流,那么你就需要使用高能变压器——它将提供高达64A的输出电流(输入16A). 使用软锤改变变压器的运行模式.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE9Q==",
+            "tooltip": "<strong>LV高能变压器</strong></br>前置任务需求:</br>LV高电流变压器"
+        },
+        {
+            "name": "LV变压器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1266.png",
+            "x": -192.0,
+            "y": 84.0,
+            "data": "使用LV电压驱动MV机器是可以实现的.制造一个变压器,并使用4个32EU/t的电源来给一个128EU/t的设备供电.%n%n变压器可将电压升高或降低(升压模式/降压模式),用软锤切换. 升压模式就是将4A-LV输入转换为1A-MV输出;降压模式相反. %n%n如果你不想让你的基地成为火山口,确保你理解了下面的内容: %n%n降压模式是默认模式.在降压模式,大点的一面是输入面. 而升压模式时,这一面是输出面. 要是不想爆炸,千万不要弄混了!LV机器接收到MV电就会爆炸! %n%n如果变压器直接与电源相连,或是经过电源,在连接了电器的情况下请勿切换变压器模式.最好拆掉后重新放以清空缓存的能量,而不是用扳手旋转后炸掉一排机器. 请确认已经用剪线钳断开了附近的线缆. %%不过值得记住的是,如果安培数超过了机器所需的,是不会爆炸的. 它们会因为更高等级的电压爆炸.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE8g==",
+            "tooltip": "<strong>LV变压器</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "LSC",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2700.png",
+            "x": -144.0,
+            "y": 468.0,
+            "data": "这是兰波顿超级电容库(LSC)在储量上的最终升级. 用终极电池或者真·终极电池合成的成本都一样,请随意.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKjA==",
+            "tooltip": "<strong>LSC</strong></br>前置任务需求:</br>兰波顿电容(UV)"
+        },
+        {
+            "name": "LV高电流变压器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1268.png",
+            "x": -240.0,
+            "y": 84.0,
+            "data": "如果你需要通过变压器输出一个4A以上的电流,那么你需要一个高电流变压器. 你可以输入4A-MV,输出16A-LV. 这在需要让大量LV机器同时运行时非常有用. 高电流变压器同样可以使用软锤改变升压/降压模式,与之前的普通变压器类似.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE9A==",
+            "tooltip": "<strong>LV高电流变压器</strong></br>前置任务需求:</br>LV变压器"
+        },
+        {
+            "name": "可调变压器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1822.png",
+            "x": -240.0,
+            "y": 228.0,
+            "data": "你是否被建造一长串分级变压器搞得晕头转向?不想让你的基地有爆炸的风险?想要使用TecTech的64A能源仓和动力仓来转换你的电力?制作一个可调变压器吧!%n%n[note]还需要消声仓、能源仓和动力仓. 不保证稳定工作,只能祝你好运.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHHg==",
+            "tooltip": "<strong>可调变压器</strong></br>前置任务需求:</br>总算能炼钛了"
+        },
+        {
+            "name": "MV变压器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1267.png",
+            "x": -192.0,
+            "y": 132.0,
+            "data": "使用MV电压驱动HV机器是可以实现的.制造一个MV变压器,并使用4个128EU/t的电源来给一个512EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAE8w==",
+            "tooltip": "<strong>MV变压器</strong></br>前置任务需求:</br>LV变压器</br>第2阶段(MV)"
+        },
+        {
+            "name": "超过4A?太疯狂了!",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1924.png",
+            "x": -288.0,
+            "y": 180.0,
+            "data": "为真正的用电狂人准备,可将16A降压变为64A的高能变压器,太疯狂了!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHhA==",
+            "tooltip": "<strong>超过4A?太疯狂了!</strong></br>前置任务需求:</br>电流不够?"
+        },
+        {
+            "name": "中型锂电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1083.png",
+            "x": 48.0,
+            "y": 132.0,
+            "data": "更好的机器需要更好的电池.锂是制作电池最好的材料.%n%n[note]你只需完成其中一项要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEOw==",
+            "tooltip": "<strong>中型锂电池</strong></br>前置任务需求:</br>MV电池外壳"
+        },
+        {
+            "name": "中压电池箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1082.png",
+            "x": 96.0,
+            "y": 132.0,
+            "data": "MV机器可以内置一个电池.但有时你需要存储更多能量,或者你想让整个能量线共享电池.你可以使用电池箱来存储大量电池.它们有很多规格,像1格、4格、9格和16格. %n%n[note]你只需完成其中一项要求即可.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEOg==",
+            "tooltip": "<strong>中压电池箱</strong></br>前置任务需求:</br>中型锂电池"
+        },
+        {
+            "name": "MV电池外壳",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/758.png",
+            "x": 0.0,
+            "y": 132.0,
+            "data": "更好的机器需要更好的电池.让我们为新电池做些MV级电池外壳.%n%n随你做哪种电池.但一般推荐锂电池或钠电池.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAC9g==",
+            "tooltip": "<strong>MV电池外壳</strong></br>前置任务需求:</br>电池箱</br>第2阶段(MV)"
+        },
+        {
+            "name": "纳米水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/790.png",
+            "x": -48.0,
+            "y": 180.0,
+            "data": "纳米水晶用于制作纳米装甲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADFg==",
+            "tooltip": "<strong>纳米水晶</strong></br>前置任务需求:</br>能量水晶"
+        },
+        {
+            "name": "电流不够?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1923.png",
+            "x": -240.0,
+            "y": 180.0,
+            "data": "4A或者更多怎么样?高电流变压器可以将4A电流降压变为16A电流.非常适合建立大型电网集中供电,并为你以后将高污染发电机远离你的基地做准备.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHgw==",
+            "tooltip": "<strong>电流不够?</strong></br>前置任务需求:</br>变形金刚,出击!(变压器)"
+        },
+        {
+            "name": "10亿EU",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2150.png",
+            "x": -96.0,
+            "y": 324.0,
+            "data": "如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n[note]它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).%n%n译者注:你可以用手推车搬运AFSU,不会损失任何存储的EU.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIZg==",
+            "tooltip": "<strong>10亿EU</strong></br>前置任务需求:</br>兰波顿能量球"
+        },
+        {
+            "name": "以太之力",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/3235.png",
+            "x": -96.0,
+            "y": 516.0,
+            "data": "这些全新的仓室让你能从任何维度的任何位置无线发送、存储、接收能量.它们可以放置在任何现有的多方块结构中,和正常的能源仓/动力仓作用相同.无线动力仓会消耗EU,并将其存储在一个与玩家绑定的全局无线网络中.这个无线网络可以存储2^(2^31)EU,远远超过了甚至是最高等级的激光仓.%n%n只要用/gt global_energy_join 玩家1 玩家2指令,就可以将其他玩家加入你的无线网络中,共享一个网络.这会使玩家1在与全局网络交互时使用玩家2的能量.%n%n你不能将导线/线缆接到无线能源仓/动力仓上.它们是为了尽量降低游戏延迟而设计的,这意味着为了防止不必要的计算发生,EU交互的时间间隔较大.这样你就无需搭建庞大的导线网络,从而节省下一些TPS延迟.%n%n[note]2^(2^31)是一个有646,456,994位的数字--如果你的计算器爆了的话.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAMow==",
+            "tooltip": "<strong>以太之力</strong></br>前置任务需求:</br>你的第一块时空"
+        },
+        {
+            "name": "量子水晶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/807.png",
+            "x": -48.0,
+            "y": 228.0,
+            "data": "你需要一些量子水晶,才能制造量子护甲. 将兰波顿水晶放入精密激光蚀刻机处理,可以制成量子水晶.不过你还得到达IV阶段.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADJw==",
+            "tooltip": "<strong>量子水晶</strong></br>前置任务需求:</br>兰波顿水晶</br>EV精密激光蚀刻机"
+        },
+        {
+            "name": "可充电电池：镉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/614.png",
+            "x": 0.0,
+            "y": 36.0,
+            "data": "钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.%n%n镉电池的储电量是三种电池中中等的.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACZg==",
+            "tooltip": "<strong>可充电电池：镉</strong></br>前置任务需求:</br>基础装罐机</br>电池合金"
+        },
+        {
+            "name": "可充电电池：锂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/615.png",
+            "x": 36.0,
+            "y": 36.0,
+            "data": "钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.%n%n[note]锂电池的储电量是三种电池中最大的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACZw==",
+            "tooltip": "<strong>可充电电池：锂</strong></br>前置任务需求:</br>基础装罐机</br>电池合金"
+        },
+        {
+            "name": "可充电电池：钠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/613.png",
+            "x": 72.0,
+            "y": 36.0,
+            "data": "钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.%n%n放入机器电池槽后,如果有富余能量输入的话,电池会自动充电,而当外部供电不足时,电池会放电补足. 建议用于一些高耗电机器,防止出现跳电.%n%n[note]钠电池的储电量是三种电池中最小的,不过它也是造价最低廉的.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACZQ==",
+            "tooltip": "<strong>可充电电池：钠</strong></br>前置任务需求:</br>基础装罐机</br>电池合金"
+        },
+        {
+            "name": "安全第一",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2161.png",
+            "x": -192.0,
+            "y": 36.0,
+            "data": "对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆/导线的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意,线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n大部分机器只会用到1A,但有些例外,如电弧炉、热力离心机、世界加速器、质量发生器.注意,为了确保运行时电力充足,机器可以接受比运行所需更高的电流(通常为2A),这在线损较高(通常是在LV阶段),机器接收到的1A电力包损失了太多时,尤其重要.机器接受最大电流的公式是:[(2*配方EU/t)/机器电压]+1.(\"[]\"表示向下取整) 选用线缆时请牢记这点.%n%n某些机器专用于处理多A电流,比如电池箱、变压器和线缆二级管.请查看\"EU的存储与变压\"任务栏,以了解更多信息.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+,另外ULV和LV也有自己的无线损线缆).在后期,你还可以用激光仓输送巨量电流. 甚至还有无线EU网络,不过现在还可望而不可即.%n%n跳电的单方块机器在有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为每安培2^(电压等级-1). 比如LV损失1EU,MV损失2EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行,或许发电机直供会更好? 当然,如果你想在长距离内保持电流输送始终处于峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到[url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] 阅读更多信息.%n%n WIKI 电力：[url]gtnh.huijiwiki.com/p/149[/url]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIcQ==",
+            "tooltip": "<strong>安全第一</strong></br>前置任务需求:</br>更多蒸汽!"
+        },
+        {
+            "name": "一次性电池：汞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/611.png",
+            "x": -36.0,
+            "y": 36.0,
+            "data": "汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用提取机转换回小型电池外壳.%n%n这些电池可以放在LV级GT机器的电池槽中,机器将优先使用电池电力.也可以在LV电池箱中使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACYw==",
+            "tooltip": "<strong>一次性电池：汞</strong></br>前置任务需求:</br>电池合金</br>汞"
+        },
+        {
+            "name": "一次性电池：酸",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/612.png",
+            "x": -72.0,
+            "y": 36.0,
+            "data": "汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用提取机转换回小型电池外壳.%n%n这些电池可以放在LV级GT机器的电池槽中,机器将优先使用电池的EU电力,然后才是内部的EU储存.电池也可以在LV电池箱中做为缓冲使用.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAACZA==",
+            "tooltip": "<strong>一次性电池：酸</strong></br>前置任务需求:</br>电池合金</br>硫酸1"
+        },
+        {
+            "name": "上帝的蓄电池",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2586.png",
+            "x": -48.0,
+            "y": 468.0,
+            "data": "有了这个容量超过600,000个能源站的电池,谁还要能源站啊.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKGg==",
+            "tooltip": "<strong>上帝的蓄电池</strong></br>前置任务需求:</br>UHV超导(2,097,152 EU/t)</br>力场发生器(UV)"
+        },
+        {
+            "name": "开充!(Take charge!)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2732.png",
+            "x": -144.0,
+            "y": 228.0,
+            "data": "兰波顿超级电容库是大规模储电的最佳选择.%n%n它可能会出现故障,每个维护问题将额外消耗20％能量(试试自动维护仓),所以请尽量避免故障问题.不过就算这样,它的最高能量损失也就2.2％%n%n最初也是最小的超级电容库需要任务里的这些舱室,再加上能源仓和动力仓(或激光仓).别忘了解包器可以将制成电容的电池拆出来.最后一个制作电容库的理由!%n%n你可以使用激光仓,输出相当高的电流.安装至少UV等级的玻璃才能解锁激光仓.(在能源站也是UV以上的内芯才支持激光仓.)%n%n顺便说一句,这样一台只用EV电容的兰波顿超级电容库可以存储540M到8.1B-EU. 请记住,你需要保证超过一半的方块是非-空电容,这样多方块结构才能正常工作.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKrA==",
+            "tooltip": "<strong>开充!(Take charge!)</strong></br>前置任务需求:</br>兰波顿水晶</br>纳米处理器主机"
+        },
+        {
+            "name": "变压并...保持",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2731.png",
+            "x": -192.0,
+            "y": 324.0,
+            "data": "有源变压器可以进行任意电压间的变换,而损耗仅为0.004％,如果不介意这部分损耗的话,使用有源变压器可比用一大串变压器层层变压高端多了. 不过这玩意有点贵... 同时,这台机器还可以用于转折激光仓发出的激光,说不定这才是它的正确用法!%n%n它无需维护仓,只需有输入/输出仓即可.%n%n[warn]如果不想在拆卸机器时引发爆炸,一定记得关掉'导能'按钮![/warn]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKqw==",
+            "tooltip": "<strong>变压并...保持</strong></br>前置任务需求:</br>毕业之路的开端"
+        },
+        {
+            "name": "变形金刚,出击!(变压器)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1922.png",
+            "x": -192.0,
+            "y": 180.0,
+            "data": "当你进入HV时代后,你可能会开始考虑集中发电设备并进行长距离输电.一台HV升EV的变压器将使你能低损耗地进行长距离输电.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHgg==",
+            "tooltip": "<strong>变形金刚,出击!(变压器)</strong></br>前置任务需求:</br>第3阶段(HV)</br>MV变压器"
+        },
+        {
+            "name": "谁在乎一点癌症...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1419.png",
+            "x": 48.0,
+            "y": 276.0,
+            "data": "...要是你可以不必脱光衣服为纳米套装充电？%n无线充电器可以为你的装甲和工具充电(等于或小于充电器的电压等级)(译者注: 实测大于也能充- -),而无需将其放入电池缓冲区.%n%n你还是不想要孩子...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFiw==",
+            "tooltip": "<strong>谁在乎一点癌症...</strong></br>前置任务需求:</br>碳皮肤</br>量子之眼"
+        },
+        {
+            "name": "无线的力量!?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-7126666155324853443.png",
+            "x": 144.0,
+            "y": 180.0,
+            "data": "被基地里面密密麻麻的电线整吐了?厌倦了为了满足供电要求不断升级线缆？喜欢基地里面全是闪电？%n%n那么这个多方块正合你意.特斯拉电塔是一个强大的多方块结构,可以无线输出高电流,支持所有TecTech能源仓.%n%n首先你要在电容仓里放上和初级超导特斯拉绕组相同电压的特斯拉电容.特斯拉绕组决定了电塔输出的电压级别,特斯拉电容的数量决定了电塔能输出的最大电流数.%n%n一个电容仓最多能放16个特斯拉电容,所以你可能需要根据用电需求增加电容仓数量.%n%n搭建好电塔后,右击打开控制器,根据需要配置电塔的最大传输距离.这个配置现在有点bug, 因此至少现在你不需要任何等离子就能进行配置.对应的选项是\"特斯拉电塔传输半径设置\".%n%n设置完你的电塔之后该怎么输送电力到机器呢?很高兴你问了.要送电到基地还需要使用特斯拉线圈帽.把线圈帽安装到机器上,能源仓上,甚至变压器上都能让它们从电塔获得电力.能源仓有点特殊,需要面朝上才能正确获得电力.%n%n[warn]警告!特斯拉电塔会强制输出固定电压的电流,比如说EV或者IV.当你升级初级超导特斯拉绕组前一定要确认你所有的线圈帽和收发器对应的机器都能承受升级后的电压.否则可能会导致机器爆炸.[/warn]%n%n[warn]在关闭控制器之前调整多方块结构也会导致爆炸.[/warn]",
+            "quest_id": "Dif-0NSERYGdGP7j8xAzPQ==",
+            "tooltip": "<strong>无线的力量!?</strong></br>前置任务需求:</br>环氧化物"
+        }
+    ],
+    "links": [
+        {
+            "source": "电池箱",
+            "target": "16槽LV级电池箱"
+        },
+        {
+            "source": "能更高吗？",
+            "target": "终章：最后的电容！"
+        },
+        {
+            "source": "铅辛万苦找到铅",
+            "target": "电池合金"
+        },
+        {
+            "source": "锑",
+            "target": "电池合金"
+        },
+        {
+            "source": "一次性电池：汞",
+            "target": "电池箱"
+        },
+        {
+            "source": "一次性电池：酸",
+            "target": "电池箱"
+        },
+        {
+            "source": "可充电电池：钠",
+            "target": "电池箱"
+        },
+        {
+            "source": "可充电电池：镉",
+            "target": "电池箱"
+        },
+        {
+            "source": "可充电电池：锂",
+            "target": "电池箱"
+        },
+        {
+            "source": "二极管1",
+            "target": "线缆二极管"
+        },
+        {
+            "source": "极终与终极",
+            "target": "能更高吗？"
+        },
+        {
+            "source": "超净间",
+            "target": "别把手指插进插座里"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "能量缓冲器"
+        },
+        {
+            "source": "玩泥巴",
+            "target": "能量水晶"
+        },
+        {
+            "source": "兰波顿水晶",
+            "target": "蚀刻兰波顿"
+        },
+        {
+            "source": "野鸭生锈臭臭(Mallard Rust Smelly)",
+            "target": "电流得到处都是"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "EV电池箱"
+        },
+        {
+            "source": "HV电池箱",
+            "target": "EV电池箱"
+        },
+        {
+            "source": "EV电池箱",
+            "target": "EV GT++电池"
+        },
+        {
+            "source": "EV电池箱",
+            "target": "EV阳光化合物电池"
+        },
+        {
+            "source": "蓝钢",
+            "target": "EV阳光化合物电池"
+        },
+        {
+            "source": "以太之力",
+            "target": "极终与终极"
+        },
+        {
+            "source": "好刺眼! #4",
+            "target": "极终与终极"
+        },
+        {
+            "source": "LSC",
+            "target": "极终与终极"
+        },
+        {
+            "source": "无限储能",
+            "target": "加油抽呀~嘿哟~"
+        },
+        {
+            "source": "HV电池外壳",
+            "target": "HV电池"
+        },
+        {
+            "source": "能量水晶",
+            "target": "HV电池箱"
+        },
+        {
+            "source": "HV电池",
+            "target": "HV电池箱"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "HV电池外壳"
+        },
+        {
+            "source": "MV电池外壳",
+            "target": "HV电池外壳"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "无限储能"
+        },
+        {
+            "source": "兰波顿粉",
+            "target": "兰波顿水晶"
+        },
+        {
+            "source": "HV级搅拌",
+            "target": "兰波顿水晶"
+        },
+        {
+            "source": "兰波顿电容(LuV)",
+            "target": "兰波顿电容(ZPM)"
+        },
+        {
+            "source": "兰波顿电容(IV)",
+            "target": "兰波顿电容(LuV)"
+        },
+        {
+            "source": "兰波顿电容(ZPM)",
+            "target": "兰波顿电容(UV)"
+        },
+        {
+            "source": "兰波顿能量球",
+            "target": "兰波顿电容(IV)"
+        },
+        {
+            "source": "开充!(Take charge!)",
+            "target": "兰波顿电容(IV)"
+        },
+        {
+            "source": "氡衰变",
+            "target": "兰波顿能量存储矩阵"
+        },
+        {
+            "source": "氡循环",
+            "target": "兰波顿能量存储矩阵"
+        },
+        {
+            "source": "蚀刻兰波顿",
+            "target": "兰波顿能量球"
+        },
+        {
+            "source": "纤维强化电路基板",
+            "target": "兰波顿能量球"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "LESU升级-EV等级"
+        },
+        {
+            "source": "LESU升级-HV等级",
+            "target": "LESU升级-EV等级"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "LESU升级-HV等级"
+        },
+        {
+            "source": "LESU升级-MV等级",
+            "target": "LESU升级-HV等级"
+        },
+        {
+            "source": "LESU升级-EV等级",
+            "target": "LESU升级-IV等级"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "LESU升级-IV等级"
+        },
+        {
+            "source": "第6阶段(LuV)",
+            "target": "LESU升级-LuV等级"
+        },
+        {
+            "source": "LESU升级-IV等级",
+            "target": "LESU升级-LuV等级"
+        },
+        {
+            "source": "兰波顿能量存储矩阵",
+            "target": "LESU升级-LV等级"
+        },
+        {
+            "source": "LESU升级-LV等级",
+            "target": "LESU升级-MV等级"
+        },
+        {
+            "source": "无限储能",
+            "target": "让水流起来呀~流起来呀~"
+        },
+        {
+            "source": "LV高电流变压器",
+            "target": "LV高能变压器"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "LV变压器"
+        },
+        {
+            "source": "兰波顿电容(UV)",
+            "target": "LSC"
+        },
+        {
+            "source": "LV变压器",
+            "target": "LV高电流变压器"
+        },
+        {
+            "source": "总算能炼钛了",
+            "target": "可调变压器"
+        },
+        {
+            "source": "LV变压器",
+            "target": "MV变压器"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "MV变压器"
+        },
+        {
+            "source": "电流不够?",
+            "target": "超过4A?太疯狂了!"
+        },
+        {
+            "source": "MV电池外壳",
+            "target": "中型锂电池"
+        },
+        {
+            "source": "中型锂电池",
+            "target": "中压电池箱"
+        },
+        {
+            "source": "电池箱",
+            "target": "MV电池外壳"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "MV电池外壳"
+        },
+        {
+            "source": "能量水晶",
+            "target": "纳米水晶"
+        },
+        {
+            "source": "变形金刚,出击!(变压器)",
+            "target": "电流不够?"
+        },
+        {
+            "source": "兰波顿能量球",
+            "target": "10亿EU"
+        },
+        {
+            "source": "你的第一块时空",
+            "target": "以太之力"
+        },
+        {
+            "source": "兰波顿水晶",
+            "target": "量子水晶"
+        },
+        {
+            "source": "EV精密激光蚀刻机",
+            "target": "量子水晶"
+        },
+        {
+            "source": "基础装罐机",
+            "target": "可充电电池：镉"
+        },
+        {
+            "source": "电池合金",
+            "target": "可充电电池：镉"
+        },
+        {
+            "source": "基础装罐机",
+            "target": "可充电电池：锂"
+        },
+        {
+            "source": "电池合金",
+            "target": "可充电电池：锂"
+        },
+        {
+            "source": "基础装罐机",
+            "target": "可充电电池：钠"
+        },
+        {
+            "source": "电池合金",
+            "target": "可充电电池：钠"
+        },
+        {
+            "source": "更多蒸汽!",
+            "target": "安全第一"
+        },
+        {
+            "source": "电池合金",
+            "target": "一次性电池：汞"
+        },
+        {
+            "source": "汞",
+            "target": "一次性电池：汞"
+        },
+        {
+            "source": "电池合金",
+            "target": "一次性电池：酸"
+        },
+        {
+            "source": "硫酸1",
+            "target": "一次性电池：酸"
+        },
+        {
+            "source": "UHV超导(2,097,152 EU/t)",
+            "target": "上帝的蓄电池"
+        },
+        {
+            "source": "力场发生器(UV)",
+            "target": "上帝的蓄电池"
+        },
+        {
+            "source": "兰波顿水晶",
+            "target": "开充!(Take charge!)"
+        },
+        {
+            "source": "纳米处理器主机",
+            "target": "开充!(Take charge!)"
+        },
+        {
+            "source": "毕业之路的开端",
+            "target": "变压并...保持"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "变形金刚,出击!(变压器)"
+        },
+        {
+            "source": "MV变压器",
+            "target": "变形金刚,出击!(变压器)"
+        },
+        {
+            "source": "碳皮肤",
+            "target": "谁在乎一点癌症..."
+        },
+        {
+            "source": "量子之眼",
+            "target": "谁在乎一点癌症..."
+        },
+        {
+            "source": "环氧化物",
+            "target": "无线的力量!?"
+        }
+    ]
+}

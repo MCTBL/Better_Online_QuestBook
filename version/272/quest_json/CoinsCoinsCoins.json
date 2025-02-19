@@ -1,0 +1,2544 @@
+{
+    "data": [
+        {
+            "name": "铝锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1175.png",
+            "x": 444.0,
+            "y": 192.0,
+            "data": "你可以使用硬币购买一些铝锭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAElw==",
+            "tooltip": "<strong>铝锭</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "铝杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1023.png",
+            "x": 120.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些铝杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD_w==",
+            "tooltip": "<strong>铝杆</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "铝矿莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1192.png",
+            "x": 156.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些铝矿莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEqA==",
+            "tooltip": "<strong>铝矿莓</strong></br>前置任务需求:</br>希望你已经准备好了!"
+        },
+        {
+            "name": "退火铜线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1608.png",
+            "x": 12.0,
+            "y": 228.0,
+            "data": "想要一些退火铜线缆？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGSA==",
+            "tooltip": "<strong>退火铜线缆</strong></br>前置任务需求:</br>第3阶段(HV)</br>量产退火铜"
+        },
+        {
+            "name": "蜂箱",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1051.png",
+            "x": 12.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些蜂箱.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEGw==",
+            "tooltip": "<strong>蜂箱</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "电路基板3",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/963.png",
+            "x": 300.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些电路基板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADww==",
+            "tooltip": "<strong>电路基板3</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "净化浴盐",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1169.png",
+            "x": 372.0,
+            "y": 336.0,
+            "data": "哦你看起来真脏,买点浴盐洗个澡吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEkQ==",
+            "tooltip": "<strong>净化浴盐</strong></br>前置任务需求:</br>沐浴更衣,远离扭曲烦恼"
+        },
+        {
+            "name": "祛邪肥皂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1170.png",
+            "x": 408.0,
+            "y": 336.0,
+            "data": "哦你看起来真脏,买块肥皂再洗个长长的热水澡吧,摆脱那些讨厌的扭曲.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEkg==",
+            "tooltip": "<strong>祛邪肥皂</strong></br>前置任务需求:</br>洗澡的时候打肥皂"
+        },
+        {
+            "name": "简易蜂房",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1050.png",
+            "x": 12.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些简易蜂房.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEGg==",
+            "tooltip": "<strong>简易蜂房</strong></br>前置任务需求:</br>一个新家"
+        },
+        {
+            "name": "烈焰人",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/882.png",
+            "x": 480.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.让我来温暖你~",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADcg==",
+            "tooltip": "<strong>烈焰人</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "烈焰棒",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8603019334928181566.png",
+            "x": 264.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些烈焰棒.",
+            "quest_id": "la9w2qsKRhSIm-9-4cnWwg==",
+            "tooltip": "<strong>烈焰棒</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "黄铜杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/960.png",
+            "x": 228.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些黄铜杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADwA==",
+            "tooltip": "<strong>黄铜杆</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "青铜流体管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/956.png",
+            "x": 192.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些青铜流体管道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADvA==",
+            "tooltip": "<strong>青铜流体管道</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "青铜转子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1024.png",
+            "x": 156.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些青铜转子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEAA==",
+            "tooltip": "<strong>青铜转子</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "买些鸡蛋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1861.png",
+            "x": 84.0,
+            "y": 48.0,
+            "data": "用硬币买些鸡蛋吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHRQ==",
+            "tooltip": "<strong>买些鸡蛋</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "方解石将你难住了?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1816.png",
+            "x": 552.0,
+            "y": 12.0,
+            "data": "为了方解石找了一年的青金石矿脉?我来卖给你点.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHGA==",
+            "tooltip": "<strong>方解石将你难住了?</strong></br>前置任务需求:</br>锤子时刻 v2.0"
+        },
+        {
+            "name": "运算处理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1425.png",
+            "x": 264.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些运算处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFkQ==",
+            "tooltip": "<strong>运算处理器</strong></br>前置任务需求:</br>获得第一个AE处理器"
+        },
+        {
+            "name": "找不到某些矿脉？",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1523.png",
+            "x": 336.0,
+            "y": 84.0,
+            "data": "难以找到一些基础矿石？买些矿石,然后塞进寻矿魔杖中吧.%n%n你是个聪明人,可以用一块矿石找到含有这种矿石的矿脉,然后用这个矿脉中的不同矿石再找到另一条矿脉.%n%n煮个栗子,如果选择红石,你可以用它来找到朱砂,而朱砂又可用于在暮色森林中寻找神秘的蕴魔石. 多实验实验,找到一些最佳搭配!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAF8w==",
+            "tooltip": "<strong>找不到某些矿脉？</strong></br>前置任务需求:</br>众神的神圣权柄？"
+        },
+        {
+            "name": "洞穴蜘蛛",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/885.png",
+            "x": 336.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.让我为你唱 \"小小蜘蛛 \"吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADdQ==",
+            "tooltip": "<strong>洞穴蜘蛛</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "中央处理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1037.png",
+            "x": 336.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些中央处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEDQ==",
+            "tooltip": "<strong>中央处理器</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "赛特斯石英",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/961.png",
+            "x": 264.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些赛特斯石英.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADwQ==",
+            "tooltip": "<strong>赛特斯石英</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "氯气",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1043.png",
+            "x": 624.0,
+            "y": 84.0,
+            "data": "你可以用硬币购买一些氯气.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEEw==",
+            "tooltip": "<strong>氯气</strong></br>前置任务需求:</br>氯,你最好的新朋友</br>第2阶段(MV)"
+        },
+        {
+            "name": "巧克力对你有害...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2080.png",
+            "x": 84.0,
+            "y": 264.0,
+            "data": "...但非常适合用来生产!蜂箱或蜂箱组中的巧克力框架会提高产出,但会造成寿命缩短.这对狡猾的养蜂员很有用...",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIIA==",
+            "tooltip": "<strong>巧克力对你有害...</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "铬杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1033.png",
+            "x": 228.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些铬杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAECQ==",
+            "tooltip": "<strong>铬杆</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "硬币换粘土",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1881.png",
+            "x": 228.0,
+            "y": 48.0,
+            "data": "找不到粘土?用一些硬币换一组吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHWQ==",
+            "tooltip": "<strong>硬币换粘土</strong></br>前置任务需求:</br>Clay: 堆积粘土"
+        },
+        {
+            "name": "交换煤矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2428.png",
+            "x": 588.0,
+            "y": 300.0,
+            "data": "可以把你的GT煤矿石换成原版煤矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJfA==",
+            "tooltip": "<strong>交换煤矿石</strong></br>前置任务需求:</br>铁矿"
+        },
+        {
+            "name": "铜矿莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1195.png",
+            "x": 84.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些铜矿莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEqw==",
+            "tooltip": "<strong>铜矿莓</strong></br>前置任务需求:</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "铜线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1618.png",
+            "x": 12.0,
+            "y": 192.0,
+            "data": "想要一些铜线缆？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGUg==",
+            "tooltip": "<strong>铜线缆</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "交换铜矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2433.png",
+            "x": 624.0,
+            "y": 336.0,
+            "data": "可以把你的GT铜矿石换成IC2铜矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJgQ==",
+            "tooltip": "<strong>交换铜矿石</strong></br>前置任务需求:</br>铜矿"
+        },
+        {
+            "name": "铜导线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1163.png",
+            "x": 48.0,
+            "y": 156.0,
+            "data": "你可以使用硬币购买一些铜导线.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEiw==",
+            "tooltip": "<strong>铜导线</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "棉花和线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1934.png",
+            "x": 48.0,
+            "y": 84.0,
+            "data": "花一些农民币,我会卖给你一些棉花和线.恰好用来制作钉紧的皮革!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHjg==",
+            "tooltip": "<strong>棉花和线</strong></br>前置任务需求:</br>柔软的皮革"
+        },
+        {
+            "name": "杂酚油2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/973.png",
+            "x": 516.0,
+            "y": 84.0,
+            "data": "你可以用硬币购买一些杂酚油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADzQ==",
+            "tooltip": "<strong>杂酚油2</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "2x白铜导线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1610.png",
+            "x": 48.0,
+            "y": 192.0,
+            "data": "想要一些白铜导线？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGSg==",
+            "tooltip": "<strong>2x白铜导线</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "好奇蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1064.png",
+            "x": 120.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些好奇蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEKA==",
+            "tooltip": "<strong>好奇蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "大马士革钢1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1171.png",
+            "x": 480.0,
+            "y": 120.0,
+            "data": "大马士革钢超级耐用,用这种材料制作的工具对日常工作非常有帮助.来用硬币购买一些吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEkw==",
+            "tooltip": "<strong>大马士革钢1</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "深度蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1048.png",
+            "x": 84.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些深度蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEGA==",
+            "tooltip": "<strong>深度蜂巢</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "交换钻石矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2430.png",
+            "x": 516.0,
+            "y": 336.0,
+            "data": "可以把你的GT钻石矿石换成原版钻石矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJfg==",
+            "tooltip": "<strong>交换钻石矿石</strong></br>前置任务需求:</br>哦!闪闪发光(不是白金!)"
+        },
+        {
+            "name": "二极管2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/967.png",
+            "x": 372.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些二极管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADxw==",
+            "tooltip": "<strong>二极管2</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "龙之精华",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1297.png",
+            "x": 228.0,
+            "y": 336.0,
+            "data": "你可以使用硬币购买大量的龙之精华.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFEQ==",
+            "tooltip": "<strong>龙之精华</strong></br>前置任务需求:</br>猎杀末影龙"
+        },
+        {
+            "name": "大量的龙之精华",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1307.png",
+            "x": 228.0,
+            "y": 372.0,
+            "data": "你可以使用硬币购买大量的龙之精华.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFGw==",
+            "tooltip": "<strong>大量的龙之精华</strong></br>前置任务需求:</br>龙之精华"
+        },
+        {
+            "name": "屠龙者",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2740.png",
+            "x": 192.0,
+            "y": 48.0,
+            "data": "各种各样的原因,你的龙心掉入了虚空? 也许你只是想要更多? 买一个吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKtA==",
+            "tooltip": "<strong>屠龙者</strong></br>前置任务需求:</br>这就结束了？不,这是末地!"
+        },
+        {
+            "name": "4x琥珀金导线",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1611.png",
+            "x": 48.0,
+            "y": 228.0,
+            "data": "想要一些琥珀金导线？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGSw==",
+            "tooltip": "<strong>4x琥珀金导线</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "琥珀金杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1026.png",
+            "x": 228.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些琥珀金杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEAg==",
+            "tooltip": "<strong>琥珀金杆</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "末影之眼1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1034.png",
+            "x": 264.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些末影之眼.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAECg==",
+            "tooltip": "<strong>末影之眼1</strong></br>前置任务需求:</br>第4阶段(EV)</br>末影之眼2"
+        },
+        {
+            "name": "末影蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1049.png",
+            "x": 120.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些末影蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEGQ==",
+            "tooltip": "<strong>末影蜂巢</strong></br>前置任务需求:</br>这就结束了？不,这是末地!"
+        },
+        {
+            "name": "末影人",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/884.png",
+            "x": 300.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.不准看着我的眼睛!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADdA==",
+            "tooltip": "<strong>末影人</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "末影人的头",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2550.png",
+            "x": 156.0,
+            "y": 48.0,
+            "data": "你可以用硬币买一些末影人的头!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJ9g==",
+            "tooltip": "<strong>末影人的头</strong></br>前置任务需求:</br>第4阶段(EV)</br>欢迎来到末地!"
+        },
+        {
+            "name": "末影珍珠",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1028.png",
+            "x": 120.0,
+            "y": 48.0,
+            "data": "你可以用硬币购买一些末影珍珠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEBA==",
+            "tooltip": "<strong>末影珍珠</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "工程处理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/983.png",
+            "x": 300.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些工程处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD1w==",
+            "tooltip": "<strong>工程处理器</strong></br>前置任务需求:</br>获得第一个AE处理器"
+        },
+        {
+            "name": "乙醇2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/976.png",
+            "x": 516.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些乙醇.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD0A==",
+            "tooltip": "<strong>乙醇2</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "Fire is Cool",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2739.png",
+            "x": 228.0,
+            "y": 84.0,
+            "data": "想要更多暮色的火焰喷射或者烟雾方块? 买一些吧!%n%n[note]你也可以把它们做成红石控制版![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKsw==",
+            "tooltip": "<strong>Fire is Cool</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "无瑕的绿宝石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1027.png",
+            "x": 264.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些无瑕的绿宝石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEAw==",
+            "tooltip": "<strong>无瑕的绿宝石</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "福鲁伊克斯水晶2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1455.png",
+            "x": 372.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些福鲁伊克斯水晶.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFrw==",
+            "tooltip": "<strong>福鲁伊克斯水晶2</strong></br>前置任务需求:</br>获得第一个AE处理器"
+        },
+        {
+            "name": "氟",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1892.png",
+            "x": 624.0,
+            "y": 156.0,
+            "data": "需要一些氟? 来买点吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHZA==",
+            "tooltip": "<strong>氟</strong></br>前置任务需求:</br>第4阶段(EV)</br>聚四氟乙烯1"
+        },
+        {
+            "name": "森林蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1047.png",
+            "x": 48.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些森林蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEFw==",
+            "tooltip": "<strong>森林蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "果园/菜园袋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/949.png",
+            "x": 120.0,
+            "y": 12.0,
+            "data": "寻找一些特殊的潘马斯果园十分困难,不过你可以用农民币来购买一些果园/菜园袋!%n%n[note]对了,这个里头同样包含下界的菜园.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADtQ==",
+            "tooltip": "<strong>果园/菜园袋</strong></br>前置任务需求:</br>橡树不是苹果树"
+        },
+        {
+            "name": "恶魂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/886.png",
+            "x": 516.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.至少你不是个大只的爱哭鬼？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADdg==",
+            "tooltip": "<strong>恶魂</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "目光呆滞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1883.png",
+            "x": 12.0,
+            "y": 84.0,
+            "data": "...制作玻璃粉太费力了?跟我交换点吧,价格公道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHWw==",
+            "tooltip": "<strong>目光呆滞</strong></br>前置任务需求:</br>清晰的视野"
+        },
+        {
+            "name": "胶水2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/980.png",
+            "x": 516.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些胶水.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD1A==",
+            "tooltip": "<strong>胶水2</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV</br>胶水1"
+        },
+        {
+            "name": "金矿莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1193.png",
+            "x": 192.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些金矿莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEqQ==",
+            "tooltip": "<strong>金矿莓</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "金线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1609.png",
+            "x": 12.0,
+            "y": 264.0,
+            "data": "想要一些金线缆？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGSQ==",
+            "tooltip": "<strong>金线缆</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "交换金矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2427.png",
+            "x": 552.0,
+            "y": 300.0,
+            "data": "可以把你的GT金矿石换成原版金矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJew==",
+            "tooltip": "<strong>交换金矿石</strong></br>前置任务需求:</br>铁矿"
+        },
+        {
+            "name": "进阶电路基板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/964.png",
+            "x": 300.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些进阶电路基板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADxA==",
+            "tooltip": "<strong>进阶电路基板</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "找不到植物魔法的蘑菇?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-5078863766116826815.png",
+            "x": 372.0,
+            "y": 300.0,
+            "data": "为什么不花一些硬币来节省你在暮色森林中寻找微光蘑菇的时间呢?",
+            "quest_id": "ZW-P5BllSP25hEBQTgEBQQ==",
+            "tooltip": "<strong>找不到植物魔法的蘑菇?</strong></br>前置任务需求:</br>花卉嫁接"
+        },
+        {
+            "name": "治愈之斧 2.0",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1889.png",
+            "x": 444.0,
+            "y": 84.0,
+            "data": "什么,你把斧头弄丢了?好吧,如果你稍微了解一下神秘的话,就可以自己制作一柄;不过如果你讨厌魔法,这里有另一柄.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHYQ==",
+            "tooltip": "<strong>治愈之斧 2.0</strong></br>前置任务需求:</br>不再饥饿"
+        },
+        {
+            "name": "重燃油2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1207.png",
+            "x": 588.0,
+            "y": 156.0,
+            "data": "从石油中提炼的轻燃油在MV阶段仍然是一种不错的燃料,不过现在配合上石油处理得到的其他副产物,你有了更好的选择. 轻燃油的下一级---柴油,将5桶轻燃油与1桶重燃油混合,即可获得6桶柴油,而柴油比起LV阶段的燃料拥有更高的热值.%n%n想要自动化生产柴油,你需要蒸馏室、化学反应釜以及搅拌机.在这个任务线的另外一个任务中提到,重燃油还有其他来源,这可以在你的石油供应不足时作为一种补充.你将会需要更多氢气,继续吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEtw==",
+            "tooltip": "<strong>重燃油2</strong></br>前置任务需求:</br>重燃油1</br>第2阶段(MV)"
+        },
+        {
+            "name": "全息眼镜",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2438.png",
+            "x": 372.0,
+            "y": 84.0,
+            "data": "什么? 你弄丢了全息眼镜? 好吧,这是一个替代品.  你得花几枚硬币,下次要小心!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJhg==",
+            "tooltip": "<strong>全息眼镜</strong></br>前置任务需求:</br>熔炼!"
+        },
+        {
+            "name": "狩猎之角",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2392.png",
+            "x": 444.0,
+            "y": 300.0,
+            "data": "如果你个笨蛋还没来得及杀掉角魔狩猎者,就让它刷没了的话...可以用困难些的方式重新召唤它,或者花点硬币再买一个.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJWA==",
+            "tooltip": "<strong>狩猎之角</strong></br>前置任务需求:</br>祭品"
+        },
+        {
+            "name": "九头蛇2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1076.png",
+            "x": 372.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤九头蛇!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAENA==",
+            "tooltip": "<strong>九头蛇2</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "氢单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/979.png",
+            "x": 552.0,
+            "y": 84.0,
+            "data": "你可以用硬币购买一些氢单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD0w==",
+            "tooltip": "<strong>氢单元</strong></br>前置任务需求:</br>H代表氢...字母表的其余部分太复杂了!</br>第2阶段(MV)"
+        },
+        {
+            "name": "浸渍框架1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1052.png",
+            "x": 48.0,
+            "y": 264.0,
+            "data": "浸渍框架比未处理框架更好. 相比未处理框架来说浸渍框架拥有更高的耐久,但是比标定框架的耐久要低一些. 对于产量提升来讲浸渍框架和未处理框架没有什么区别.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEHA==",
+            "tooltip": "<strong>浸渍框架1</strong></br>前置任务需求:</br>改善它们的家园"
+        },
+        {
+            "name": "铟粉",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2386.png",
+            "x": 264.0,
+            "y": 84.0,
+            "data": "想要铟? 让我买一点点!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJUg==",
+            "tooltip": "<strong>铟粉</strong></br>前置任务需求:</br>罗斯128b之旅"
+        },
+        {
+            "name": "地狱蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1053.png",
+            "x": 156.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些地狱蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEHQ==",
+            "tooltip": "<strong>地狱蜂巢</strong></br>前置任务需求:</br>这就结束了？不,这是末地!"
+        },
+        {
+            "name": "集成逻辑电路2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/971.png",
+            "x": 336.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些集成逻辑电路.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADyw==",
+            "tooltip": "<strong>集成逻辑电路2</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "铁矿莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1194.png",
+            "x": 120.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些铁矿莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEqg==",
+            "tooltip": "<strong>铁矿莓</strong></br>前置任务需求:</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "讽刺的是,这不是用于AE2的",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2738.png",
+            "x": 552.0,
+            "y": 48.0,
+            "data": "需要一些陨石,但都被挖空了? 买一些吧!%n%n[note]PS： 压印模板可在EV阶段合成.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKsg==",
+            "tooltip": "<strong>讽刺的是,这不是用于AE2的</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "氯化铁2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1044.png",
+            "x": 516.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些氯化铁.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEFA==",
+            "tooltip": "<strong>氯化铁2</strong></br>前置任务需求:</br>氯化铁1</br>第2阶段(MV)"
+        },
+        {
+            "name": "交换铁矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2345.png",
+            "x": 516.0,
+            "y": 300.0,
+            "data": "可以把你的GT铁矿石换成原版铁矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJKQ==",
+            "tooltip": "<strong>交换铁矿石</strong></br>前置任务需求:</br>铁矿"
+        },
+        {
+            "name": "铁杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/959.png",
+            "x": 120.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些铁杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADvw==",
+            "tooltip": "<strong>铁杆</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "幻影骑士",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1077.png",
+            "x": 408.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤幻影骑士!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAENQ==",
+            "tooltip": "<strong>幻影骑士</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "交换青金石矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2429.png",
+            "x": 624.0,
+            "y": 300.0,
+            "data": "可以把你的GT青金石矿石换成原版青金石矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJfQ==",
+            "tooltip": "<strong>交换青金石矿石</strong></br>前置任务需求:</br>青金岩、青金石、方纳石、方解石"
+        },
+        {
+            "name": "交换铅矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2436.png",
+            "x": 588.0,
+            "y": 372.0,
+            "data": "可以把你的GT铅矿石换成IC2铅矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJhA==",
+            "tooltip": "<strong>交换铅矿石</strong></br>前置任务需求:</br>铅、方铅、银和冰晶石"
+        },
+        {
+            "name": "巫妖",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1074.png",
+            "x": 300.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤巫妖!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEMg==",
+            "tooltip": "<strong>巫妖</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "轻燃油2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1206.png",
+            "x": 588.0,
+            "y": 120.0,
+            "data": "你可以使用硬币购买一些轻燃油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEtg==",
+            "tooltip": "<strong>轻燃油2</strong></br>前置任务需求:</br>轻燃油1</br>第2阶段(MV)"
+        },
+        {
+            "name": "逻辑处理器",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1042.png",
+            "x": 228.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些逻辑处理器.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEEg==",
+            "tooltip": "<strong>逻辑处理器</strong></br>前置任务需求:</br>获得第一个AE处理器"
+        },
+        {
+            "name": "润滑油1",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/981.png",
+            "x": 516.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些润滑油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD1Q==",
+            "tooltip": "<strong>润滑油1</strong></br>前置任务需求:</br>润滑油2</br>第2阶段(MV)"
+        },
+        {
+            "name": "魔法树苗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/984.png",
+            "x": 84.0,
+            "y": 12.0,
+            "data": "银树本身很少见,树苗就更稀少了.想要一些嘛？用硬币来购买吧,我还会附赠一些宏伟之木树苗!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD2A==",
+            "tooltip": "<strong>魔法树苗</strong></br>前置任务需求:</br>橡树不是苹果树"
+        },
+        {
+            "name": "熔岩史莱姆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/883.png",
+            "x": 444.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.想来点弹力？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADcw==",
+            "tooltip": "<strong>熔岩史莱姆</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "磁化铁杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/957.png",
+            "x": 84.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些磁化铁杆用来制作马达.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADvQ==",
+            "tooltip": "<strong>磁化铁杆</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "磁化钕杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1029.png",
+            "x": 84.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些磁化钕杆用来制作马达.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEBQ==",
+            "tooltip": "<strong>磁化钕杆</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "磁化钢杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1022.png",
+            "x": 84.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些磁化钢杆用来制作马达.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD_g==",
+            "tooltip": "<strong>磁化钢杆</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "锰矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1895.png",
+            "x": 588.0,
+            "y": 48.0,
+            "data": "找不到锰矿石?在初期没有纯锰矿石,但你又想让你的杂交作物锰叶草成熟?来买点吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHZw==",
+            "tooltip": "<strong>锰矿石</strong></br>前置任务需求:</br>准备好,第2阶段,MV"
+        },
+        {
+            "name": "肥料,肥料",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1886.png",
+            "x": 156.0,
+            "y": 84.0,
+            "data": "我是说,你还打算怎么处理这些垃圾呢?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHXg==",
+            "tooltip": "<strong>肥料,肥料</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        },
+        {
+            "name": "枫糖浆?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/872.png",
+            "x": 48.0,
+            "y": 12.0,
+            "data": "你花了大把的时间来寻找一些枫糖树？何不用你的护林员币来买些树苗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADaA==",
+            "tooltip": "<strong>枫糖浆?</strong></br>前置任务需求:</br>橡树不是苹果树"
+        },
+        {
+            "name": "沼泽蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1060.png",
+            "x": 228.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些沼泽蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEJA==",
+            "tooltip": "<strong>沼泽蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "草地蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1056.png",
+            "x": 84.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些草地蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEIA==",
+            "tooltip": "<strong>草地蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "ME玻璃线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1438.png",
+            "x": 336.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些ME玻璃线缆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFng==",
+            "tooltip": "<strong>ME玻璃线缆</strong></br>前置任务需求:</br>获得第一个AE处理器"
+        },
+        {
+            "name": "甲烷3",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/975.png",
+            "x": 552.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些甲烷.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADzw==",
+            "tooltip": "<strong>甲烷3</strong></br>前置任务需求:</br>甲烷1</br>第2阶段(MV)"
+        },
+        {
+            "name": "米诺陶",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1075.png",
+            "x": 336.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤米诺陶!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEMw==",
+            "tooltip": "<strong>米诺陶</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "温和蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1057.png",
+            "x": 120.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些温和蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEIQ==",
+            "tooltip": "<strong>温和蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "僧侣蜂2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2401.png",
+            "x": 120.0,
+            "y": 264.0,
+            "data": "通常,你可以通过与养蜂员村民交易来获取僧侣雄峰.如果你不太走运,村民都死光了,或是所在的服务器管理员禁用了村庄,可以在这里买一些.%n%n[note]我们定下昂贵的价格激励你更加努力地寻找,还可以尝试治愈僵尸村民.祝你好运![/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJYQ==",
+            "tooltip": "<strong>僧侣蜂2</strong></br>前置任务需求:</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "更多贴片电感",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8595778749524835705.png",
+            "x": 408.0,
+            "y": 264.0,
+            "data": "你可以用硬币购买一些贴片电感.",
+            "quest_id": "b8oLtR7SS86ItajFCriChw==",
+            "tooltip": "<strong>更多贴片电感</strong></br>前置任务需求:</br>第5阶段(IV)</br>贴片电感"
+        },
+        {
+            "name": "娜迦2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1073.png",
+            "x": 264.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤娜迦!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]%n%n[note]娜迦石头(nagastone)的名字坏了,这是允许所有meta#的副作用.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEMQ==",
+            "tooltip": "<strong>娜迦2</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "石脑油2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/974.png",
+            "x": 588.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些石脑油.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADzg==",
+            "tooltip": "<strong>石脑油2</strong></br>前置任务需求:</br>石脑油1</br>第2阶段(MV)"
+        },
+        {
+            "name": "需要一些皮革?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1859.png",
+            "x": 48.0,
+            "y": 48.0,
+            "data": "用硬币买些皮革吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHQw==",
+            "tooltip": "<strong>需要一些皮革?</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "需要羊毛?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1860.png",
+            "x": 12.0,
+            "y": 48.0,
+            "data": "用硬币买些羊毛吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHRA==",
+            "tooltip": "<strong>需要羊毛?</strong></br>前置任务需求:</br>锋利:超过...5..."
+        },
+        {
+            "name": "下界蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1063.png",
+            "x": 48.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些下界蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEJw==",
+            "tooltip": "<strong>下界蜂巢</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "交换下界石英矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2432.png",
+            "x": 588.0,
+            "y": 336.0,
+            "data": "可以把你的GT下界石英矿石换成原版下界石英矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJgA==",
+            "tooltip": "<strong>交换下界石英矿石</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "氮单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/978.png",
+            "x": 552.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些氮单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD0g==",
+            "tooltip": "<strong>氮单元</strong></br>前置任务需求:</br>N代表氮...字母表又罢工了!</br>第2阶段(MV)"
+        },
+        {
+            "name": "湮没蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1054.png",
+            "x": 192.0,
+            "y": 372.0,
+            "data": "你可以用硬币购买一些湮没蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEHg==",
+            "tooltip": "<strong>湮没蜂巢</strong></br>前置任务需求:</br>这就结束了？不,这是末地!"
+        },
+        {
+            "name": "海洋蜜蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1366.png",
+            "x": 192.0,
+            "y": 264.0,
+            "data": "想要一些海洋蜜蜂？有些服务器没有生成海洋生物群系,所以在这买一些吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFVg==",
+            "tooltip": "<strong>海洋蜜蜂</strong></br>前置任务需求:</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "石油",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/972.png",
+            "x": 588.0,
+            "y": 84.0,
+            "data": "想要石油?直接买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADzA==",
+            "tooltip": "<strong>石油</strong></br>前置任务需求:</br>嗨男爵,你的石油黑金现况如何？</br>第2阶段(MV)"
+        },
+        {
+            "name": "橄榄树苗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1780.png",
+            "x": 192.0,
+            "y": 12.0,
+            "data": "主世界并不会生成橄榄树,用硬币来买一个吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAG9A==",
+            "tooltip": "<strong>橄榄树苗</strong></br>前置任务需求:</br>橡树不是苹果树"
+        },
+        {
+            "name": "氧单元",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/977.png",
+            "x": 552.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些氧单元.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD0Q==",
+            "tooltip": "<strong>氧单元</strong></br>前置任务需求:</br>第2阶段(MV)</br>O似乎是氧"
+        },
+        {
+            "name": "猪人",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/881.png",
+            "x": 408.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.想来点培根吗？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADcQ==",
+            "tooltip": "<strong>猪人</strong></br>前置任务需求:</br>下界"
+        },
+        {
+            "name": "活塞",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/955.png",
+            "x": 84.0,
+            "y": 84.0,
+            "data": "你可以用硬币购买一些活塞或者粘性活塞.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADuw==",
+            "tooltip": "<strong>活塞</strong></br>前置任务需求:</br>什么鬼东西？"
+        },
+        {
+            "name": "塑料电路基板2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1036.png",
+            "x": 300.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些塑料电路基板.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEDA==",
+            "tooltip": "<strong>塑料电路基板2</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "烧绿石矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1046.png",
+            "x": 588.0,
+            "y": 12.0,
+            "data": "在你的世界中找不到烧绿石？那真是没办法,用硬币购买一些吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEFg==",
+            "tooltip": "<strong>烧绿石矿石</strong></br>前置任务需求:</br>欢迎来玩林业MOD"
+        },
+        {
+            "name": "RAM芯片",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/970.png",
+            "x": 336.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些RAM芯片.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADyg==",
+            "tooltip": "<strong>RAM芯片</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "红色合金线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1161.png",
+            "x": 12.0,
+            "y": 120.0,
+            "data": "你可以使用硬币购买一些红色合金线缆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEiQ==",
+            "tooltip": "<strong>红色合金线缆</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "交换红石矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2431.png",
+            "x": 552.0,
+            "y": 336.0,
+            "data": "可以把你的GT红石矿石换成原版红石矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJfw==",
+            "tooltip": "<strong>交换红石矿石</strong></br>前置任务需求:</br>红石"
+        },
+        {
+            "name": "电阻2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/966.png",
+            "x": 372.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些电阻.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADxg==",
+            "tooltip": "<strong>电阻2</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "共鸣蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1066.png",
+            "x": 192.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些共鸣蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEKg==",
+            "tooltip": "<strong>共鸣蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "岩石蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1062.png",
+            "x": 84.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些岩石蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEJg==",
+            "tooltip": "<strong>岩石蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "橡胶条",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1165.png",
+            "x": 480.0,
+            "y": 156.0,
+            "data": "你可以使用硬币购买一些橡胶条.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEjQ==",
+            "tooltip": "<strong>橡胶条</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "橡胶环",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1479.png",
+            "x": 480.0,
+            "y": 228.0,
+            "data": "想要一些橡胶环吗？买吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFxw==",
+            "tooltip": "<strong>橡胶环</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "橡胶片2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1619.png",
+            "x": 480.0,
+            "y": 192.0,
+            "data": "想要一些橡胶板？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGUw==",
+            "tooltip": "<strong>橡胶片2</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "正合你的胃口",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1644.png",
+            "x": 192.0,
+            "y": 84.0,
+            "data": "整合包太简单了吗？厌倦了这些枯燥的任务？在Github上发帖抨击某些不懂游戏的人把蒸汽弄得过强了吗？那么这就是你要把所有这些OP硬币变成盐的任务.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGbA==",
+            "tooltip": "<strong>正合你的胃口</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "种子袋",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/873.png",
+            "x": 12.0,
+            "y": 12.0,
+            "data": "寻找一些特殊的潘马斯种子十分困难,不过你可以用农民币来购买一些种子袋.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADaQ==",
+            "tooltip": "<strong>种子袋</strong></br>前置任务需求:</br>橡树不是苹果树"
+        },
+        {
+            "name": "嘘,别告诉0lafe...",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1884.png",
+            "x": 480.0,
+            "y": 84.0,
+            "data": "这里的捕鱼者便宜卖啦!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHXA==",
+            "tooltip": "<strong>嘘,别告诉0lafe...</strong></br>前置任务需求:</br>捕鱼陷阱2.0"
+        },
+        {
+            "name": "2x银线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1616.png",
+            "x": 12.0,
+            "y": 300.0,
+            "data": "想要一些银线缆吗？ 买一些!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAGUA==",
+            "tooltip": "<strong>2x银线缆</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "蠹虫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/888.png",
+            "x": 372.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.让我来尽可能地惹人烦.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADeA==",
+            "tooltip": "<strong>蠹虫</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "贴片电容",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1041.png",
+            "x": 408.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些贴片电容.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEEQ==",
+            "tooltip": "<strong>贴片电容</strong></br>前置任务需求:</br>第4阶段(EV)</br>贴片电路元件"
+        },
+        {
+            "name": "贴片二极管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1039.png",
+            "x": 408.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些贴片二极管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEDw==",
+            "tooltip": "<strong>贴片二极管</strong></br>前置任务需求:</br>第4阶段(EV)</br>贴片电路元件"
+        },
+        {
+            "name": "贴片电阻",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1038.png",
+            "x": 408.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些贴片电阻.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEDg==",
+            "tooltip": "<strong>贴片电阻</strong></br>前置任务需求:</br>第4阶段(EV)</br>胶水留痕(Hangover From All That Glue)?"
+        },
+        {
+            "name": "贴片晶体管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1040.png",
+            "x": 408.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些贴片晶体管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEEA==",
+            "tooltip": "<strong>贴片晶体管</strong></br>前置任务需求:</br>第4阶段(EV)</br>贴片电路元件"
+        },
+        {
+            "name": "冰雪女王",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1080.png",
+            "x": 516.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤冰雪女王!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEOA==",
+            "tooltip": "<strong>冰雪女王</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "过硫酸钠2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1045.png",
+            "x": 552.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些过硫酸钠.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEFQ==",
+            "tooltip": "<strong>过硫酸钠2</strong></br>前置任务需求:</br>第2阶段(MV)</br>过硫酸钠1"
+        },
+        {
+            "name": "不锈钢管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1032.png",
+            "x": 192.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些不锈钢管道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAECA==",
+            "tooltip": "<strong>不锈钢管道</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "不锈钢锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1176.png",
+            "x": 444.0,
+            "y": 228.0,
+            "data": "你可以使用硬币购买一些不锈钢锭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEmA==",
+            "tooltip": "<strong>不锈钢锭</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "不锈钢杆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1030.png",
+            "x": 120.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些不锈钢杆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEBg==",
+            "tooltip": "<strong>不锈钢杆</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "坚定蜂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2400.png",
+            "x": 156.0,
+            "y": 264.0,
+            "data": "通常你会在地牢的宝箱中找到坚定雄峰.如果你不太走运,它们都被人捷足先登了,或者所在的服务器管理员禁用了地牢,可以在这里买一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJYA==",
+            "tooltip": "<strong>坚定蜂</strong></br>前置任务需求:</br>培育一些帝皇蜂"
+        },
+        {
+            "name": "钢流体管道",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1025.png",
+            "x": 192.0,
+            "y": 192.0,
+            "data": "你可以用硬币购买一些钢流体管道.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEAQ==",
+            "tooltip": "<strong>钢流体管道</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "钢锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1174.png",
+            "x": 444.0,
+            "y": 156.0,
+            "data": "你可以使用硬币购买一些钢锭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAElg==",
+            "tooltip": "<strong>钢锭</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "钢转子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1031.png",
+            "x": 156.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些钢转子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEBw==",
+            "tooltip": "<strong>钢转子</strong></br>前置任务需求:</br>第4阶段(EV)"
+        },
+        {
+            "name": "粘性树脂",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2913.png",
+            "x": 300.0,
+            "y": 84.0,
+            "data": "找不到橡胶树? 造不出集水器? 不想老是搓木龙头?  花点硬币买一组粘性树脂吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAALYQ==",
+            "tooltip": "<strong>粘性树脂</strong></br>前置任务需求:</br>获得铁"
+        },
+        {
+            "name": "硫酸2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/982.png",
+            "x": 624.0,
+            "y": 120.0,
+            "data": "你可以把脱硫出来的硫化氢当做垃圾进行销毁,但其实它也是石油处理过程中的一种有用的副产物. 将其与水一起放入另一台化学反应釜中混合,即可获得稀硫酸,再将其蒸馏浓缩后即可制得硫酸.%n%n硫酸是整合包内最重要的化学物质之一,请务必借此机会完成它的自动化.硫酸是制造电路板的必需品,也是许多其他化工生成的重要原料,相信我,硫酸永远不嫌多.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAD1g==",
+            "tooltip": "<strong>硫酸2</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "T1血魔法石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2741.png",
+            "x": 372.0,
+            "y": 372.0,
+            "data": "吸血鬼币终于有用处了! 买些石板吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKtQ==",
+            "tooltip": "<strong>T1血魔法石板</strong></br>前置任务需求:</br>一阶石板"
+        },
+        {
+            "name": "T2血魔法石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2742.png",
+            "x": 408.0,
+            "y": 372.0,
+            "data": "吸血鬼币终于有用处了! 买些石板吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKtg==",
+            "tooltip": "<strong>T2血魔法石板</strong></br>前置任务需求:</br>第二阶-石板"
+        },
+        {
+            "name": "T3血魔法石板",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2743.png",
+            "x": 444.0,
+            "y": 372.0,
+            "data": "吸血鬼币终于有用处了! 买些石板吧!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAKtw==",
+            "tooltip": "<strong>T3血魔法石板</strong></br>前置任务需求:</br>第三阶-石板"
+        },
+        {
+            "name": "锡矿莓",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1196.png",
+            "x": 48.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些锡矿莓.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAErA==",
+            "tooltip": "<strong>锡矿莓</strong></br>前置任务需求:</br>是时候获得一些钢了!"
+        },
+        {
+            "name": "锡线缆",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1162.png",
+            "x": 12.0,
+            "y": 156.0,
+            "data": "你可以使用硬币购买一些锡线缆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEig==",
+            "tooltip": "<strong>锡线缆</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "交换锡矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2434.png",
+            "x": 516.0,
+            "y": 372.0,
+            "data": "可以把你的GT锡矿石换成IC2锡矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJgg==",
+            "tooltip": "<strong>交换锡矿石</strong></br>前置任务需求:</br>锡"
+        },
+        {
+            "name": "锡转子",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/958.png",
+            "x": 156.0,
+            "y": 156.0,
+            "data": "你可以用硬币购买一些锡转子.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADvg==",
+            "tooltip": "<strong>锡转子</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "厌倦了研磨甘蔗?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1882.png",
+            "x": 228.0,
+            "y": 12.0,
+            "data": "拿些硬币来跟我换点纸屑吧.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHWg==",
+            "tooltip": "<strong>厌倦了研磨甘蔗?</strong></br>前置任务需求:</br>纸屑,更好的造纸方法"
+        },
+        {
+            "name": "TNT和ITNT",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/-8657886999178451122.png",
+            "x": 300.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些TNT或者ITNT.",
+            "quest_id": "beN48jZMRCqH2QGlTH7nTg==",
+            "tooltip": "<strong>TNT和ITNT</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "晶体管2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/969.png",
+            "x": 372.0,
+            "y": 228.0,
+            "data": "你可以用硬币购买一些晶体管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADyQ==",
+            "tooltip": "<strong>晶体管2</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "热带蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1058.png",
+            "x": 156.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些热带蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEIg==",
+            "tooltip": "<strong>热带蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "非凡蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1065.png",
+            "x": 156.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些非凡蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEKQ==",
+            "tooltip": "<strong>非凡蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "交换铀矿石",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2435.png",
+            "x": 552.0,
+            "y": 372.0,
+            "data": "可以把你的GT铀矿石换成IC2铀矿石.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJgw==",
+            "tooltip": "<strong>交换铀矿石</strong></br>前置任务需求:</br>纯铀矿石"
+        },
+        {
+            "name": "暮色恶魂2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1078.png",
+            "x": 444.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤暮色恶魂!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAENg==",
+            "tooltip": "<strong>暮色恶魂2</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "真空管",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/965.png",
+            "x": 372.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些真空管.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADxQ==",
+            "tooltip": "<strong>真空管</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "原版树苗",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1069.png",
+            "x": 156.0,
+            "y": 12.0,
+            "data": "你在沙漠安家,因此要种些橡树或者白桦树苗吗？没问题!5个护林员硬币就可以从左侧列表中5棵树苗选一种购买.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAELQ==",
+            "tooltip": "<strong>原版树苗</strong></br>前置任务需求:</br>主要任务和次要任务"
+        },
+        {
+            "name": "纤毛菇",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1287.png",
+            "x": 444.0,
+            "y": 336.0,
+            "data": "你可以使用硬币购买一些纤毛菇.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAFBw==",
+            "tooltip": "<strong>纤毛菇</strong></br>前置任务需求:</br>这可不是做汤的"
+        },
+        {
+            "name": "晶圆2",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/968.png",
+            "x": 336.0,
+            "y": 120.0,
+            "data": "你可以用硬币购买一些晶圆.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADyA==",
+            "tooltip": "<strong>晶圆2</strong></br>前置任务需求:</br>第3阶段(HV)"
+        },
+        {
+            "name": "水生蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1061.png",
+            "x": 48.0,
+            "y": 336.0,
+            "data": "你可以用硬币购买一些水生蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEJQ==",
+            "tooltip": "<strong>水生蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "谁会用这种垃圾??",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2152.png",
+            "x": 624.0,
+            "y": 48.0,
+            "data": "白痴燃料!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIaA==",
+            "tooltip": "<strong>谁会用这种垃圾??</strong></br>前置任务需求:</br>另一个燃料来源"
+        },
+        {
+            "name": "凛冬蜂巢",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1059.png",
+            "x": 192.0,
+            "y": 300.0,
+            "data": "你可以用硬币购买一些凛冬蜂巢.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAEIw==",
+            "tooltip": "<strong>凛冬蜂巢</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "女巫",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/880.png",
+            "x": 264.0,
+            "y": 12.0,
+            "data": "你空虚寂寞觉得冷.在煮啥呢？",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADcA==",
+            "tooltip": "<strong>女巫</strong></br>前置任务需求:</br>欢迎来到第0.5阶,蒸汽!"
+        },
+        {
+            "name": "木头换羊?",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1885.png",
+            "x": 120.0,
+            "y": 84.0,
+            "data": "不,谢谢! 但用些硬币和一个原木换些作物架是笔不错的买卖?",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAHXQ==",
+            "tooltip": "<strong>木头换羊?</strong></br>前置任务需求:</br>农场\"智者\"手册"
+        },
+        {
+            "name": "苦艾",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2388.png",
+            "x": 408.0,
+            "y": 300.0,
+            "data": "由于mod冲突,你无法正常获得苦艾.所以你可以用硬币买一些.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAJVA==",
+            "tooltip": "<strong>苦艾</strong></br>前置任务需求:</br>变异枝条"
+        },
+        {
+            "name": "锻铁锭",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1173.png",
+            "x": 444.0,
+            "y": 120.0,
+            "data": "你可以使用硬币购买一些锻铁锭.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAElQ==",
+            "tooltip": "<strong>锻铁锭</strong></br>前置任务需求:</br>欢迎来到第1阶段,LV"
+        },
+        {
+            "name": "经验浆果",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/950.png",
+            "x": 228.0,
+            "y": 120.0,
+            "data": "用硬币来买一些经验浆果.",
+            "quest_id": "AAAAAAAAAAAAAAAAAAADtg==",
+            "tooltip": "<strong>经验浆果</strong></br>前置任务需求:</br>第2阶段(MV)"
+        },
+        {
+            "name": "雪人首领",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/1079.png",
+            "x": 480.0,
+            "y": 48.0,
+            "data": "在暮色森林中召唤雪人首领!%n%n[note]也只有在暮色森林维度才能召唤成功.[/note]",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAENw==",
+            "tooltip": "<strong>雪人首领</strong></br>前置任务需求:</br>寻找答案"
+        },
+        {
+            "name": "没有火字旁就写不出褐煤(You Can't Spell Lignite Without Ignite)",
+            "symbolSize": 31.200000000000003,
+            "symbol": "image://version/272/quests_icons/QuestIcon/2151.png",
+            "x": 624.0,
+            "y": 12.0,
+            "data": "神之燃料!",
+            "quest_id": "AAAAAAAAAAAAAAAAAAAIZw==",
+            "tooltip": "<strong>没有火字旁就写不出褐煤(You Can't Spell Lignite Without Ignite)</strong></br>前置任务需求:</br>另一个燃料来源"
+        }
+    ],
+    "links": [
+        {
+            "source": "第3阶段(HV)",
+            "target": "铝锭"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "铝杆"
+        },
+        {
+            "source": "希望你已经准备好了!",
+            "target": "铝矿莓"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "退火铜线缆"
+        },
+        {
+            "source": "量产退火铜",
+            "target": "退火铜线缆"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "蜂箱"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "电路基板3"
+        },
+        {
+            "source": "沐浴更衣,远离扭曲烦恼",
+            "target": "净化浴盐"
+        },
+        {
+            "source": "洗澡的时候打肥皂",
+            "target": "祛邪肥皂"
+        },
+        {
+            "source": "一个新家",
+            "target": "简易蜂房"
+        },
+        {
+            "source": "下界",
+            "target": "烈焰人"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "烈焰棒"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "黄铜杆"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "青铜流体管道"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "青铜转子"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "买些鸡蛋"
+        },
+        {
+            "source": "锤子时刻 v2.0",
+            "target": "方解石将你难住了?"
+        },
+        {
+            "source": "获得第一个AE处理器",
+            "target": "运算处理器"
+        },
+        {
+            "source": "众神的神圣权柄？",
+            "target": "找不到某些矿脉？"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "洞穴蜘蛛"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "中央处理器"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "赛特斯石英"
+        },
+        {
+            "source": "氯,你最好的新朋友",
+            "target": "氯气"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氯气"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "巧克力对你有害..."
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "铬杆"
+        },
+        {
+            "source": "Clay: 堆积粘土",
+            "target": "硬币换粘土"
+        },
+        {
+            "source": "铁矿",
+            "target": "交换煤矿石"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "铜矿莓"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "铜线缆"
+        },
+        {
+            "source": "铜矿",
+            "target": "交换铜矿石"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "铜导线"
+        },
+        {
+            "source": "柔软的皮革",
+            "target": "棉花和线"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "杂酚油2"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "2x白铜导线"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "好奇蜂巢"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "大马士革钢1"
+        },
+        {
+            "source": "下界",
+            "target": "深度蜂巢"
+        },
+        {
+            "source": "哦!闪闪发光(不是白金!)",
+            "target": "交换钻石矿石"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "二极管2"
+        },
+        {
+            "source": "猎杀末影龙",
+            "target": "龙之精华"
+        },
+        {
+            "source": "龙之精华",
+            "target": "大量的龙之精华"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "屠龙者"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "4x琥珀金导线"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "琥珀金杆"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "末影之眼1"
+        },
+        {
+            "source": "末影之眼2",
+            "target": "末影之眼1"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "末影蜂巢"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "末影人"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "末影人的头"
+        },
+        {
+            "source": "欢迎来到末地!",
+            "target": "末影人的头"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "末影珍珠"
+        },
+        {
+            "source": "获得第一个AE处理器",
+            "target": "工程处理器"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "乙醇2"
+        },
+        {
+            "source": "寻找答案",
+            "target": "Fire is Cool"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "无瑕的绿宝石"
+        },
+        {
+            "source": "获得第一个AE处理器",
+            "target": "福鲁伊克斯水晶2"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "氟"
+        },
+        {
+            "source": "聚四氟乙烯1",
+            "target": "氟"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "森林蜂巢"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "果园/菜园袋"
+        },
+        {
+            "source": "下界",
+            "target": "恶魂"
+        },
+        {
+            "source": "清晰的视野",
+            "target": "目光呆滞"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "胶水2"
+        },
+        {
+            "source": "胶水1",
+            "target": "胶水2"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "金矿莓"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "金线缆"
+        },
+        {
+            "source": "铁矿",
+            "target": "交换金矿石"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "进阶电路基板"
+        },
+        {
+            "source": "花卉嫁接",
+            "target": "找不到植物魔法的蘑菇?"
+        },
+        {
+            "source": "不再饥饿",
+            "target": "治愈之斧 2.0"
+        },
+        {
+            "source": "重燃油1",
+            "target": "重燃油2"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "重燃油2"
+        },
+        {
+            "source": "熔炼!",
+            "target": "全息眼镜"
+        },
+        {
+            "source": "祭品",
+            "target": "狩猎之角"
+        },
+        {
+            "source": "寻找答案",
+            "target": "九头蛇2"
+        },
+        {
+            "source": "H代表氢...字母表的其余部分太复杂了!",
+            "target": "氢单元"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氢单元"
+        },
+        {
+            "source": "改善它们的家园",
+            "target": "浸渍框架1"
+        },
+        {
+            "source": "罗斯128b之旅",
+            "target": "铟粉"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "地狱蜂巢"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "集成逻辑电路2"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "铁矿莓"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "讽刺的是,这不是用于AE2的"
+        },
+        {
+            "source": "氯化铁1",
+            "target": "氯化铁2"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氯化铁2"
+        },
+        {
+            "source": "铁矿",
+            "target": "交换铁矿石"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "铁杆"
+        },
+        {
+            "source": "寻找答案",
+            "target": "幻影骑士"
+        },
+        {
+            "source": "青金岩、青金石、方纳石、方解石",
+            "target": "交换青金石矿石"
+        },
+        {
+            "source": "铅、方铅、银和冰晶石",
+            "target": "交换铅矿石"
+        },
+        {
+            "source": "寻找答案",
+            "target": "巫妖"
+        },
+        {
+            "source": "轻燃油1",
+            "target": "轻燃油2"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "轻燃油2"
+        },
+        {
+            "source": "获得第一个AE处理器",
+            "target": "逻辑处理器"
+        },
+        {
+            "source": "润滑油2",
+            "target": "润滑油1"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "润滑油1"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "魔法树苗"
+        },
+        {
+            "source": "下界",
+            "target": "熔岩史莱姆"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "磁化铁杆"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "磁化钕杆"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "磁化钢杆"
+        },
+        {
+            "source": "准备好,第2阶段,MV",
+            "target": "锰矿石"
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "肥料,肥料"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "枫糖浆?"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "沼泽蜂巢"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "草地蜂巢"
+        },
+        {
+            "source": "获得第一个AE处理器",
+            "target": "ME玻璃线缆"
+        },
+        {
+            "source": "甲烷1",
+            "target": "甲烷3"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "甲烷3"
+        },
+        {
+            "source": "寻找答案",
+            "target": "米诺陶"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "温和蜂巢"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "僧侣蜂2"
+        },
+        {
+            "source": "第5阶段(IV)",
+            "target": "更多贴片电感"
+        },
+        {
+            "source": "贴片电感",
+            "target": "更多贴片电感"
+        },
+        {
+            "source": "寻找答案",
+            "target": "娜迦2"
+        },
+        {
+            "source": "石脑油1",
+            "target": "石脑油2"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "石脑油2"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "需要一些皮革?"
+        },
+        {
+            "source": "锋利:超过...5...",
+            "target": "需要羊毛?"
+        },
+        {
+            "source": "下界",
+            "target": "下界蜂巢"
+        },
+        {
+            "source": "下界",
+            "target": "交换下界石英矿石"
+        },
+        {
+            "source": "N代表氮...字母表又罢工了!",
+            "target": "氮单元"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氮单元"
+        },
+        {
+            "source": "这就结束了？不,这是末地!",
+            "target": "湮没蜂巢"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "海洋蜜蜂"
+        },
+        {
+            "source": "嗨男爵,你的石油黑金现况如何？",
+            "target": "石油"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "石油"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "橄榄树苗"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "氧单元"
+        },
+        {
+            "source": "O似乎是氧",
+            "target": "氧单元"
+        },
+        {
+            "source": "下界",
+            "target": "猪人"
+        },
+        {
+            "source": "什么鬼东西？",
+            "target": "活塞"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "塑料电路基板2"
+        },
+        {
+            "source": "欢迎来玩林业MOD",
+            "target": "烧绿石矿石"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "RAM芯片"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "红色合金线缆"
+        },
+        {
+            "source": "红石",
+            "target": "交换红石矿石"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "电阻2"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "共鸣蜂巢"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "岩石蜂巢"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "橡胶条"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "橡胶环"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "橡胶片2"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "正合你的胃口"
+        },
+        {
+            "source": "橡树不是苹果树",
+            "target": "种子袋"
+        },
+        {
+            "source": "捕鱼陷阱2.0",
+            "target": "嘘,别告诉0lafe..."
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "2x银线缆"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "蠹虫"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "贴片电容"
+        },
+        {
+            "source": "贴片电路元件",
+            "target": "贴片电容"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "贴片二极管"
+        },
+        {
+            "source": "贴片电路元件",
+            "target": "贴片二极管"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "贴片电阻"
+        },
+        {
+            "source": "胶水留痕(Hangover From All That Glue)?",
+            "target": "贴片电阻"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "贴片晶体管"
+        },
+        {
+            "source": "贴片电路元件",
+            "target": "贴片晶体管"
+        },
+        {
+            "source": "寻找答案",
+            "target": "冰雪女王"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "过硫酸钠2"
+        },
+        {
+            "source": "过硫酸钠1",
+            "target": "过硫酸钠2"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "不锈钢管道"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "不锈钢锭"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "不锈钢杆"
+        },
+        {
+            "source": "培育一些帝皇蜂",
+            "target": "坚定蜂"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "钢流体管道"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "钢锭"
+        },
+        {
+            "source": "第4阶段(EV)",
+            "target": "钢转子"
+        },
+        {
+            "source": "获得铁",
+            "target": "粘性树脂"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "硫酸2"
+        },
+        {
+            "source": "一阶石板",
+            "target": "T1血魔法石板"
+        },
+        {
+            "source": "第二阶-石板",
+            "target": "T2血魔法石板"
+        },
+        {
+            "source": "第三阶-石板",
+            "target": "T3血魔法石板"
+        },
+        {
+            "source": "是时候获得一些钢了!",
+            "target": "锡矿莓"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "锡线缆"
+        },
+        {
+            "source": "锡",
+            "target": "交换锡矿石"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "锡转子"
+        },
+        {
+            "source": "纸屑,更好的造纸方法",
+            "target": "厌倦了研磨甘蔗?"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "TNT和ITNT"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "晶体管2"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "热带蜂巢"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "非凡蜂巢"
+        },
+        {
+            "source": "纯铀矿石",
+            "target": "交换铀矿石"
+        },
+        {
+            "source": "寻找答案",
+            "target": "暮色恶魂2"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "真空管"
+        },
+        {
+            "source": "主要任务和次要任务",
+            "target": "原版树苗"
+        },
+        {
+            "source": "这可不是做汤的",
+            "target": "纤毛菇"
+        },
+        {
+            "source": "第3阶段(HV)",
+            "target": "晶圆2"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "水生蜂巢"
+        },
+        {
+            "source": "另一个燃料来源",
+            "target": "谁会用这种垃圾??"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "凛冬蜂巢"
+        },
+        {
+            "source": "欢迎来到第0.5阶,蒸汽!",
+            "target": "女巫"
+        },
+        {
+            "source": "农场\"智者\"手册",
+            "target": "木头换羊?"
+        },
+        {
+            "source": "变异枝条",
+            "target": "苦艾"
+        },
+        {
+            "source": "欢迎来到第1阶段,LV",
+            "target": "锻铁锭"
+        },
+        {
+            "source": "第2阶段(MV)",
+            "target": "经验浆果"
+        },
+        {
+            "source": "寻找答案",
+            "target": "雪人首领"
+        },
+        {
+            "source": "另一个燃料来源",
+            "target": "没有火字旁就写不出褐煤(You Can't Spell Lignite Without Ignite)"
+        }
+    ]
+}
