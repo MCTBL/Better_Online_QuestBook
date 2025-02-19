@@ -33,4 +33,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: bin # The folder the action should deploy.
-          branch: test
