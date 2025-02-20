@@ -1,3 +1,4 @@
+import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 
 export class EeggMgr {
@@ -9,7 +10,7 @@ export class EeggMgr {
 	//以及一些梗图
 	static readonly eeggs = {
 		txt: [
-			"GTNH like a job",
+			"GTNH is like a job",
 		],
 		img: [
 			"static/eeggs/1.png",
@@ -18,7 +19,7 @@ export class EeggMgr {
 	}
 
 	//概率
-	static readonly rate = 0.005;
+	static readonly rate = 0.1;
 
 	static showEegg() {
 		if (Math.random() < this.rate) {
@@ -33,7 +34,7 @@ export class EeggMgr {
 
 			//显示
 			if (Math.random() < 0.5) {
-				console.log(this.eeggs.txt[this.txtIndex]);
+				TipsMgr.showTips(this.eeggs.txt[this.txtIndex]);
 				this.txtIndex++;
 				if (this.txtIndex >= this.eeggs.txt.length) {
 					this.txtIndex = 0;

@@ -1,0 +1,35 @@
+name: Compile and deploy
+
+on: 
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: check node
+        run: node -v
+        
+      - name: install
+        run: |
+          npm install
+          npm install -g typescript
+
+      - name: check tsc
+        run: tsc -v
+
+      - name: tsc
+        run: tsc
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: bin # The folder the action should deploy.
