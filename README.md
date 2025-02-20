@@ -40,6 +40,6 @@
 
 ---
 
-Grievous_Rain_： `:)`
+Grievous_Rain_： `(　o=^•ェ•)o ....`
 
 MCTBL： `o(*￣▽￣*)ブ`
