@@ -1,4 +1,4 @@
-import { MainPage } from "./MainPage.js";
+import { MainPage } from "./MainPage";
 
 export class index {
 

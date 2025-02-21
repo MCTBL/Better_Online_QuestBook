@@ -8,7 +8,9 @@
 
 ### How to use locally/本地使用方式
 
-根目录下执行`pnpm i`，然后执行`pnpm run debug`即可
+*PNPM*: 根目录下执行`pnpm i`，然后执行`pnpm run build`即可
+
+*NPM*: 根目录下执行`npm i`，然后执行`npm run build`即可
 
 ### 更新说明
 

@@ -1,6 +1,6 @@
-import { m2qData, msgAction, quest, questData } from "./Define.js";
-import { ProjectData } from "./ProjectData.js";
-import { Utils } from "./Utils.js";
+import { m2qData, msgAction, quest, questData } from "./Define";
+import { ProjectData } from "./ProjectData";
+import { Utils } from "./Utils";
 
 export class QuestListPage {
 	private event: Event;

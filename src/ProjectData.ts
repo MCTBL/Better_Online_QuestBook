@@ -1,5 +1,5 @@
-import { lang, quest } from "./Define.js";
-import { ProjectConfig } from "./ProjectConfig.js";
+import { lang, quest } from "./Define";
+import { ProjectConfig } from "./ProjectConfig";
 
 export class ProjectData {
 	/**默认为中文 */

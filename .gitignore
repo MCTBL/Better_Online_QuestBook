@@ -1,5 +1,4 @@
 node_modules
-bin/js/
 tools/DefaultQuests
 tools/lang/
 tools/html/
@@ -7,3 +6,9 @@ tools/js/
 tools/json/
 tools
 bin/bundle.js
+bin/bundle.js.map
+bin/questPage.js
+bin/questPage.js.map
+/bin/*.woff2
+bin/desktop.css
+bin/mobile.css

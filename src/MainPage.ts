@@ -7,13 +7,13 @@ import {
 	questAllData,
 	questData,
 	questLine,
-} from "./Define.js";
-import { EeggMgr } from "./EeggMgr.js";
-import { PopMgr } from "./PopMgr.js";
-import { ProjectConfig } from "./ProjectConfig.js";
-import { ProjectData } from "./ProjectData.js";
-import { TipsMgr } from "./TipsMgr.js";
-import { Utils } from "./Utils.js";
+} from "./Define";
+import { EeggMgr } from "./EeggMgr";
+import { PopMgr } from "./PopMgr";
+import { ProjectConfig } from "./ProjectConfig";
+import { ProjectData } from "./ProjectData";
+import { TipsMgr } from "./TipsMgr";
+import { Utils } from "./Utils";
 
 export class MainPage {
 	private questLine: questLine[] = [];

@@ -1,7 +1,7 @@
-import { lang, quest } from "./Define.js";
-import { ProjectData } from "./ProjectData.js";
-import { TipsMgr } from "./TipsMgr.js";
-import { Utils } from "./Utils.js";
+import { lang, quest } from "./Define";
+import { ProjectData } from "./ProjectData";
+import { TipsMgr } from "./TipsMgr";
+import { Utils } from "./Utils";
 
 export class PopMgr {
 	private static nowTitle: string = "";
