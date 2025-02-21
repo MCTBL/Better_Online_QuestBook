@@ -1,3 +1,4 @@
+import { TipsMgr } from "./TipsMgr.js";
 import { Utils } from "./Utils.js";
 export class EeggMgr {
     static showEegg() {
@@ -12,7 +13,7 @@ export class EeggMgr {
             }
             //显示
             if (Math.random() < 0.5) {
-                console.log(this.eeggs.txt[this.txtIndex]);
+                TipsMgr.showTips(this.eeggs.txt[this.txtIndex]);
                 this.txtIndex++;
                 if (this.txtIndex >= this.eeggs.txt.length) {
                     this.txtIndex = 0;
@@ -34,11 +35,11 @@ EeggMgr.imgIndex = -1;
 //以及一些梗图
 EeggMgr.eeggs = {
     txt: [
-        "GTNH like a job",
+        "GTNH is like a job",
     ],
     img: [
         "static/eeggs/1.png",
     ]
 };
 //概率
-EeggMgr.rate = 0.005;
+EeggMgr.rate = 0.1;

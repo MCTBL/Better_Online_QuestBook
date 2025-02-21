@@ -73,7 +73,7 @@ export class Utils {
         }
     }
     static encodeMsg2AHref(msg) {
-        return msg.replace(/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g, '<a href="$1">$1</a>');
+        return msg.replace(/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g, '<a href="$1" target="_blank">$1</a>');
     }
     static expMCcolor(source_str) {
         if (!source_str.includes("§")) {

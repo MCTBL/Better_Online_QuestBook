@@ -141,7 +141,6 @@ export class MainPage {
     }
     showProjectMsg() {
         setTimeout(() => {
-            console.clear();
             console.log(`%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc_zh}\n\n%c作者: ${ProjectConfig.projectAuthor}\n\n%c项目地址: ${ProjectConfig.projectUrl}`, "color:#252525; font-size: 30px;", "color:#e12885; font-size: 18px;", "color:#137a7f; font-size: 20px;", "color:#525658; font-size: 16px;");
         }, 300);
     }
