@@ -1,6 +1,11 @@
 name: Compile and deploy
 
 on: 
+  pull_request:
+    types:
+    - closed
+    branches:
+    - master
   workflow_dispatch:
 
 permissions:
