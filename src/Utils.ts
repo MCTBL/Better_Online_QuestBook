@@ -335,23 +335,23 @@ export class Utils {
 		return textWithUrls;
 	}
 
-	static screenshot(node: HTMLElement) {
-		html2canvas(node).then((canvas: any) => {
-			$(canvas)
-				.css("position", "fixed")
-				.css("top", "0")
-				.css("left", "0")
-				.css("z-index", "999999")
-				.css("background", "rgba(0,0,0,0.5)")
-				.css("width", "80%")
-				.css("height", "80%")
-				.css("cursor", "pointer")
-				.click(function () {
-					$(this).remove();
-				});
-			document.body.appendChild(canvas);
-		});
-	}
+	// static screenshot(node: HTMLElement) {
+	// 	html2canvas(node).then((canvas: any) => {
+	// 		$(canvas)
+	// 			.css("position", "fixed")
+	// 			.css("top", "0")
+	// 			.css("left", "0")
+	// 			.css("z-index", "999999")
+	// 			.css("background", "rgba(0,0,0,0.5)")
+	// 			.css("width", "80%")
+	// 			.css("height", "80%")
+	// 			.css("cursor", "pointer")
+	// 			.click(function () {
+	// 				$(this).remove();
+	// 			});
+	// 		document.body.appendChild(canvas);
+	// 	});
+	// }
 
 
 	/**洗牌算法 */
