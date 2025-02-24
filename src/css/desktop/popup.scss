@@ -1,3 +1,5 @@
+@use "./Common.scss";
+
 #overlay {
 	display: none;
 	justify-content: center;
@@ -7,7 +9,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: $bgMask;
 	z-index: 11;
 }
 
@@ -17,7 +19,7 @@
 	transform: scale(0.85);
 	transform-origin: center center;
 	padding: 20px;
-	border: 5px solid #692612;
+	border: 5px solid $borderColor;
 	border-radius: 10px;
 	background-color: #fbf3e0;
 	width: 80vw;
@@ -69,7 +71,7 @@
 	text-align: center;
 	font-size: 24px;
 	transition: transform 0.1s ease-in-out;
-	border: 2px solid #692612;
+	border: 2px solid $borderColor;
 	border-radius: 2px;
 	background-color: #dbd2bb;
 	margin: 0 5px 0 0;
@@ -92,7 +94,7 @@
 #btnClosePop {
 	width: 40px;
 	height: 40px;
-	color: #5b2312;
+	color: $borderColor;
 	position: absolute;
 	top: 5px;
 	right: 5px;
@@ -106,7 +108,7 @@
 }
 
 div #descBox {
-	border: 1px solid #692612;
+	border: 1px solid $borderColor;
 	border-width: 3px;
 	border-radius: 10px;
 	height: 95%;
@@ -117,7 +119,7 @@ div #descBox {
 }
 
 div #rewardsBox {
-	border: 1px solid #692612;
+	border: 1px solid $borderColor;
 	border-width: 3px;
 	border-radius: 10px;
 	height: 47.5%;

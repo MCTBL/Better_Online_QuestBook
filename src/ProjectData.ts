@@ -2,10 +2,11 @@ import { lang, quest } from "./Define";
 import { ProjectConfig } from "./ProjectConfig";
 
 export class ProjectData {
-	/**默认为中文 */
+	/**语言
+	 * 默认为中文 */
 	static language: lang = lang.zh;
 
-	/**是否以为手机 */
+	/**是否为手机 */
 	static isPhone: boolean = false;
 
 	static selectVersionIndex: number = 0;
