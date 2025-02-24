@@ -31,6 +31,8 @@ export class MainPage {
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
+			this.initPlatform();
+
 			const iframe = $("#mainIframe");
 			iframe.on("load", () => {
 				//iframe加载完成
@@ -41,6 +43,16 @@ export class MainPage {
 				this.showProjectMsg();
 			});
 		});
+	}
+
+
+	initPlatform() {
+		let isMobile = (window as any).isMobile;
+		if (isMobile.phone) {
+			ProjectData.isPhone = true;
+		} else {
+			ProjectData.isPhone = false;
+		}
 	}
 
 	showProjectMsg() {
@@ -368,7 +380,7 @@ export class MainPage {
 			data: null,
 		});
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();

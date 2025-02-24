@@ -20,7 +20,7 @@ body {
 }
 
 #sidebar {
-	width: 280px; /* 锁定宽度，方便做平移 */
+	width: 100vw; /* 锁定宽度，方便做平移 */
 	height: 100vh; /* 使 sidebar 高度占满整个视口 */
 	display: flex;
 	flex-direction: column;
