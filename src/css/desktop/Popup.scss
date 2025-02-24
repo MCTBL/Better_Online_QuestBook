@@ -1,4 +1,4 @@
-@use "./Common.scss";
+@import "./Common.scss";
 
 #overlay {
 	display: none;
@@ -10,7 +10,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: $bgMask;
-	z-index: map-get($map: $zorderList, $key: overlay);
+	z-index: z(overlay);
 }
 
 #popup {
