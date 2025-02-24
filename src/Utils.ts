@@ -92,8 +92,15 @@ export class Utils {
 			return source_str;
 		}
 
-		var reg = /(^)?([^§]+)($)?/g; // 去掉所有§符号的正则表达式
-		var target = document.createElement("temp"); // 创建一个span最终输出的
+		var reg = /([^§]+)/g; // /(^)?([^§]+)($)?/g; // 去掉所有§符号的正则表达式
+
+		if (source_str.match(reg) == null) {
+			console.error("正则匹配失败");
+			return source_str;
+		}
+
+
+		var target = document.createElement("span"); // 创建一个span最终输出的
 		var len = source_str.match(reg)!.length; // 获取原始motd分割后的段数
 		var output = ""; // 创建最终输出的变量
 
