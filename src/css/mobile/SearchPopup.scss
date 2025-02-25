@@ -2,7 +2,7 @@
 
 #searchPopup {
 	display: none;
-	background-color: #f5f0d3;
+	background-color: $frameBg;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -38,34 +38,31 @@
 }
 
 .searchItem {
-	width: 300px;
-	height: 80px;
+	width: calc(100vw - 10px);
+	height: 100px;
 	border: 5px solid $borderColor;
 	border-radius: 10px;
 	background-color: #fbf3e0;
 	position: relative;
 	cursor: pointer;
-	scale: 0.95;
+	scale: 1;
 }
 
-.searchItem:hover {
-	transform: scale(1.05);
-}
 
 .searchImg {
-	width: 70px;
-	height: 70px;
-	left: 5px;
-	top: 5px;
+	width: 80px;
+	height: 80px;
+	left: 10px;
+	top: 10px;
 	position: absolute;
 }
 
 .searchTitle {
 	position: absolute;
 	top: 5px;
-	left: 80px;
-	font-size: 24px;
-	width: 220px;
+	left: 100px;
+	font-size: 28px;
+	width: 290px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -73,11 +70,11 @@
 
 .searchDesc {
 	position: absolute;
-	top: 35px;
-	left: 80px;
-	font-size: 20px;
-	width: 220px;
-	height: 40px;
+	top: 40px;
+	left: 100px;
+	font-size: 24px;
+	width: 280px;
+	height: 48px;
 	word-wrap: break-word;
 	overflow: hidden;
 	text-overflow: ellipsis;

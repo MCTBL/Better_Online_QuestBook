@@ -4,8 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<script src="./libs/echarts.min.js"></script>
-		<script src="./libs/jquery.min.js"></script>
 		<script>
 			(function () {
 				var f = {};
@@ -92,6 +90,9 @@
 						this.loadStylesheet("mobile.css");
 					} else {
 						this.loadStylesheet("desktop.css");
+						let script = document.createElement("script");
+						script.src = "./libs/echarts.min.js";
+						document.head.appendChild(script);
 					}
 				}
 
@@ -114,6 +115,7 @@
 				new SwitchStyle();
 			})();
 		</script>
+		<script src="./libs/jquery.min.js"></script>
 	</head>
 
 	<body style="flex-direction: column">

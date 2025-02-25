@@ -15,8 +15,18 @@ export class QuestListPage {
 
 	init() {
 		$(() => {
+			this.initPlatform();
 			this.addEvent();
 		});
+	}
+
+	initPlatform() {
+		let isMobile = (window as any).isMobile;
+		if (isMobile.phone) {
+			ProjectData.isPhone = true;
+		} else {
+			ProjectData.isPhone = false;
+		}
 	}
 
 	sendMessageToMain(data: m2qData) {
@@ -35,13 +45,19 @@ export class QuestListPage {
 	}
 
 	getPageData(res: { data: questData; title: string }) {
-		this.pageData = Utils.deepClone(ProjectData.echartsConfig);
-		this.pageData.series[0].data = res.data.data;
-		this.pageData.series[0].links = res.data.links;
 		Utils.typeText("#questTitle", res.title);
-		this.initEcharts();
+		if (ProjectData.isPhone) {
+			this.showSearchPopup(res.data.data);
+		} else {
+			this.pageData = Utils.deepClone(ProjectData.echartsConfig);
+			this.pageData.series[0].data = res.data.data;
+			this.pageData.series[0].links = res.data.links;
+			this.initEcharts();
+		}
 	}
 
+
+	//桌面端才有的
 	initEcharts() {
 		if (!this.echarts) {
 			this.echarts = echarts.init(
@@ -142,7 +158,7 @@ export class QuestListPage {
 					});
 					$("#questSearchList").append(item);
 				} else {
-					console.warn(quest);
+					// console.warn(quest);
 				}
 			}
 		}

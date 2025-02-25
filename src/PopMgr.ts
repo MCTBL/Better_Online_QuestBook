@@ -30,7 +30,7 @@ export class PopMgr {
 		this.nowLogo = res.symbol.replace("image://", "");
 
 		$("#quest_id").text(this.nowID);
-		$("#popTitle").html("<h1>" + this.nowTitle + "</h1>");
+		$("#popTitle").html(this.nowTitle);
 		$("#popDesc").html(this.nowDesc);
 		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
 

@@ -313,27 +313,35 @@ export class MainPage {
 	};
 
 	toggleSidebar = () => {
-		this.onClosePop();
+		let sidebarWidth = $("#sidebar").width();
+		$("#toggleSidebar").hide();
+		setTimeout(() => {
+			$("#toggleSidebar").show();
+		}, 500);
 		if (!this.showSidebar) {
-			$("#sidebar").animate({ left: "-280px" }, 500);
-			$("#mainPage").animate(
-				{
-					left: "0px",
-					width: "100%",
-				},
-				500
-			);
+			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, 500);
+			if (!ProjectData.isPhone) {
+				$("#mainPage").animate(
+					{
+						left: "0px",
+						width: "100%",
+					},
+					500
+				);
+			}
 			this.showSidebar = true;
 		} else {
 			$("#sidebar").animate({ left: "0px" }, 500);
-			let width = $(window).width()! - 280;
-			$("#mainPage").animate(
-				{
-					left: "280px",
-					width: width + "px",
-				},
-				500
-			);
+			if (!ProjectData.isPhone) {
+				let width = $(window).width()! - sidebarWidth!;
+				$("#mainPage").animate(
+					{
+						left: `${sidebarWidth}px`,
+						width: width + "px",
+					},
+					500
+				);
+			}
 			this.showSidebar = false;
 		}
 	};
@@ -394,7 +402,7 @@ export class MainPage {
 
 		this.initTitle();
 
-		this.onClosePop();
+		ProjectData.isPhone || this.onClosePop();
 		this.loadQuestData();
 	};
 

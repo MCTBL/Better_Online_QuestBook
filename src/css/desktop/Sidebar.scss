@@ -11,6 +11,7 @@
 	row-gap: 2px;
 	left: 0px;
 	position: absolute;
+	z-index: z(sidebar);
 }
 
 #sidebar::-webkit-scrollbar {
@@ -59,7 +60,7 @@
 
 #btnCloseSp {
 	position: absolute;
-	left: 240px;
+	right: 5px;
 	width: 40px;
 	height: 40px;
 	color: $borderColor;

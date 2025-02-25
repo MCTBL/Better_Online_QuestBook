@@ -5,6 +5,10 @@ $bgMask: #000000bb;
 // 所有的自定义深度必须在这里注册
 // 名字：深度
 $z-layers: (
+	//-----基础-------
+	"mainPage": 1,
+	"sidebar": 2,
+
 	//-----固定角标-------
 	"toggleSidebar": 101,
 	"changeLang": 102,
