@@ -22,7 +22,6 @@
 	width: 100%;
 	position: sticky;
 	top: 0px;
-	background-color: white;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -30,10 +29,21 @@
 	height: 280px;
 }
 
+#logoBg {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 200px;
+}
+
 #logoImg {
 	margin: auto;
 	position: absolute;
 	top: 0px;
+	height: 200px;
+	width: 200px;
+	left: calc((100% - 200px) / 2);
 }
 
 #inputDiv {
@@ -42,6 +52,7 @@
 	height: 42px;
 	top: 200px;
 	border: 1px solid #000; /* 外描边 */
+	background-color: #ffffff;
 }
 
 #search {

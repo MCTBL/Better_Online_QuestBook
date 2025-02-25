@@ -1,4 +1,3 @@
-import { ProjectConfig } from "./ProjectConfig";
 
 /**任务栏 */
 export type questLine = {
@@ -17,6 +16,7 @@ export enum msgAction {
 	resetChart = "resetChart",
 	closeSearchPopup = "closeSearchPopup",
 	showSearchPopup = "showSearchPopup",
+	toTop = "toTop",
 }
 
 export type dialogMsg = {

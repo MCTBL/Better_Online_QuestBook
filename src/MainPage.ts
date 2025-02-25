@@ -28,6 +28,9 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
+
+	private oldQuestData: m2qData = null!;
+
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
@@ -119,6 +122,9 @@ export class MainPage {
 		$("#changeLang").on("click", this.onChangeLang);
 
 		$("#btnShowMsg").on("click", this.onClickInfo);
+
+
+		$("#btnTop").on("click", this.onClickTop);
 	}
 
 	// 加载任务列表
@@ -200,8 +206,12 @@ export class MainPage {
 						data: this.questAllData[ProjectData.language][quest.quest],
 					},
 				};
+
+				this.oldQuestData = Utils.deepClone(data);
 				this.sendMessageToIframe(data);
-				this.onClosePop();
+				ProjectData.isPhone || this.onClosePop();
+
+				this.toggleSidebar();
 			},
 		});
 		button.data("questData", quest);
@@ -260,7 +270,7 @@ export class MainPage {
 				},
 			};
 			this.sendMessageToIframe(data);
-
+			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
 		} else {
 			console.error("任务数据异常");
@@ -315,8 +325,10 @@ export class MainPage {
 	toggleSidebar = () => {
 		let sidebarWidth = $("#sidebar").width();
 		$("#toggleSidebar").hide();
+		TipsMgr.showLoading();
 		setTimeout(() => {
 			$("#toggleSidebar").show();
+			TipsMgr.hideLoading();
 		}, 500);
 		if (!this.showSidebar) {
 			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, 500);
@@ -357,6 +369,9 @@ export class MainPage {
 				$("#btnCloseSp").show();
 				$("#btnCloseSp").animate({ opacity: 1 }, 500);
 			}
+
+			ProjectData.isPhone && $("#logoBg").animate({ opacity: 0.4 }, 500);
+
 			let questList: quest[] = [];
 			for (let key in this.titleToQuest[ProjectData.language]) {
 				if (
@@ -383,10 +398,17 @@ export class MainPage {
 		$("#search").val("");
 		$("#btnCloseSp").hide();
 		$("#btnCloseSp").css("opacity", 0);
-		this.sendMessageToIframe({
-			action: msgAction.closeSearchPopup,
-			data: null,
-		});
+		ProjectData.isPhone && $("#logoBg").css("opacity", 1);
+		if (ProjectData.isPhone) {
+			if (this.oldQuestData) {
+				this.sendMessageToIframe(this.oldQuestData);
+			}
+		} else {
+			this.sendMessageToIframe({
+				action: msgAction.closeSearchPopup,
+				data: null,
+			});
+		}
 	};
 	onSearchBlur = () => { };
 
@@ -408,5 +430,18 @@ export class MainPage {
 
 	onClickInfo() {
 		PopMgr.showInfoPopup();
+	}
+
+	onClickTop = () => {
+		// $("#btnTop").animate({ opacity: 0 }, 500);
+		if (!this.showSidebar) {
+			$("#sidebar").animate({ scrollTop: 0 }, 500);
+		} else {
+			let data: m2qData = {
+				action: msgAction.toTop,
+				data: null
+			}
+			this.sendMessageToIframe(data);
+		}
 	}
 }

@@ -45,10 +45,10 @@ export class QuestListPage {
 	}
 
 	getPageData(res: { data: questData; title: string }) {
-		Utils.typeText("#questTitle", res.title);
 		if (ProjectData.isPhone) {
 			this.showSearchPopup(res.data.data);
 		} else {
+			Utils.typeText("#questTitle", res.title);
 			this.pageData = Utils.deepClone(ProjectData.echartsConfig);
 			this.pageData.series[0].data = res.data.data;
 			this.pageData.series[0].links = res.data.links;
@@ -99,6 +99,9 @@ export class QuestListPage {
 			case msgAction.closeSearchPopup:
 				this.clearSearchList();
 				break;
+			case msgAction.toTop:
+				this.toTop();
+				break;
 			default:
 				console.warn("未知的消息", data);
 				break;
@@ -117,6 +120,10 @@ export class QuestListPage {
 	clearSearchList() {
 		$("#questSearchList").empty();
 		$("#searchPopup").hide();
+	}
+
+	toTop() {
+		$("#questSearchList").animate({ scrollTop: 0 }, 500);
 	}
 
 	showSearchList() {
