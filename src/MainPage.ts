@@ -325,25 +325,26 @@ export class MainPage {
 	toggleSidebar = () => {
 		let sidebarWidth = $("#sidebar").width();
 		$("#toggleSidebar").hide();
-		TipsMgr.showLoading();
+		// TipsMgr.showLoading();
+		let time = ProjectData.isPhone?250:500;
 		setTimeout(() => {
 			$("#toggleSidebar").show();
-			TipsMgr.hideLoading();
-		}, 500);
+			// TipsMgr.hideLoading();
+		}, time);
 		if (!this.showSidebar) {
-			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, 500);
+			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, time);
 			if (!ProjectData.isPhone) {
 				$("#mainPage").animate(
 					{
 						left: "0px",
 						width: "100%",
 					},
-					500
+					time
 				);
 			}
 			this.showSidebar = true;
 		} else {
-			$("#sidebar").animate({ left: "0px" }, 500);
+			$("#sidebar").animate({ left: "0px" }, time);
 			if (!ProjectData.isPhone) {
 				let width = $(window).width()! - sidebarWidth!;
 				$("#mainPage").animate(
@@ -351,7 +352,7 @@ export class MainPage {
 						left: `${sidebarWidth}px`,
 						width: width + "px",
 					},
-					500
+					time
 				);
 			}
 			this.showSidebar = false;
