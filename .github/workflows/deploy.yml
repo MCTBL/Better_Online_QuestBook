@@ -23,12 +23,6 @@ jobs:
           npm install
           npm run build
 
-      - name: check tsc
-        run: tsc -v
-
-      - name: tsc
-        run: tsc
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
