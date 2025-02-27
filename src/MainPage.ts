@@ -140,7 +140,7 @@ export class MainPage {
 
 	loadQuestData() {
 		if (this.questAllData && this.questAllData[ProjectData.language] != null) {
-			this.initMainIframe();
+			this.initQuestList();
 		} else {
 			$.getJSON(
 				ProjectData.getQuestDataPath(ProjectData.language),
@@ -176,7 +176,7 @@ export class MainPage {
 					}
 					this.titleToQuest[ProjectData.language] = qn;
 					this.questIdToQuest[ProjectData.language] = qid;
-					this.initMainIframe();
+					this.initQuestList();
 				}
 			);
 		}
@@ -223,8 +223,7 @@ export class MainPage {
 		return button;
 	}
 
-	initMainIframe() {
-		//处理一些零碎的数据
+	initQuestList() {
 		$("#search").val("");
 		$("#search").attr(
 			"placeholder",
@@ -297,7 +296,6 @@ export class MainPage {
 	onRightClickLogo = (evt: Event) => {
 		evt.preventDefault(); //拦截邮件点击
 		evt.stopPropagation(); //拦截事件冒泡
-		console.warn("右键点击");
 	};
 
 	toggleSidebar = () => {

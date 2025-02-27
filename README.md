@@ -34,6 +34,8 @@ tips:
 
 *PNPM*：根目录`npm run watch`
 
+如果需要开启vconsole，可以在url后面添加`?log=1`get参数
+
 ### 更新说明
 
 | 版本  | 说明                                                     |

@@ -77,10 +77,13 @@
 		</script>
 		<script>
 			(function () {
-				function loadScript(jsName) {
+				function loadScript(jsName, cb) {
 					let script = document.createElement("script");
 					script.src = "./libs/" + jsName;
 					document.head.appendChild(script);
+					script.onload = () => {
+						cb && cb();
+					};
 				}
 
 				var isMobile = {
@@ -117,6 +120,18 @@
 					}
 				};
 
+				function openLog() {
+					let href = window.location.href;
+					let url = new URL(href);
+					let params = new URLSearchParams(url.search);
+					if (params.get("log") == 1) {
+						loadScript("vconsole.min.js", () => {
+							new VConsole();
+						});
+					}
+				}
+
+				new openLog();
 				new SwitchStyle();
 			})();
 		</script>
