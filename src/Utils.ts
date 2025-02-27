@@ -1,17 +1,14 @@
 export class Utils {
-
 	private static typingInterval: any = null;
 
 	/**解析url */
-	static processUrlParameters(rawUrl: string): Map<string, string> {
-		let url = new URL(rawUrl);
+	static processUrlParameters(url: URL): Map<string, string> {
 		let map = new Map<string, string>();
 		for (var k of url.searchParams.keys()) {
 			map.set(k, url.searchParams.get(k)!);
 		}
 		return map;
 	}
-
 
 	/**打字机 */
 	static typeText(selector: string, text: string, speed: number = 50) {
@@ -37,7 +34,6 @@ export class Utils {
 		}, speed);
 	}
 
-
 	static copyH5Str(str: string) {
 		var input = str + "";
 		const el = document.createElement("textarea");
@@ -58,7 +54,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) { }
+		} catch (err) {}
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -85,7 +81,6 @@ export class Utils {
 			console.error("正则匹配失败");
 			return source_str;
 		}
-
 
 		var target = document.createElement("span"); // 创建一个span最终输出的
 		var len = source_str.match(reg)!.length; // 获取原始motd分割后的段数
@@ -321,7 +316,6 @@ export class Utils {
 
 		return textWithUrls;
 	}
-
 
 	/**洗牌算法 */
 	static shuffle<T>(array: T[]): T[] {

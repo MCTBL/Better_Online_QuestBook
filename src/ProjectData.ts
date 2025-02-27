@@ -7,6 +7,7 @@ export class ProjectData {
 	static language: lang = lang.zh;
 
 	static urlParameter: Map<string, string>;
+	static basicUrl: string;
 
 	/**是否为手机 */
 	static isPhone: boolean = false;
@@ -195,6 +196,4 @@ export class ProjectData {
 			is_main: 0,
 		},
 	];
-
-
 }

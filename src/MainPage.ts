@@ -27,22 +27,22 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
-	private oldQuestData: { title: string, data: any } = null!;
-
-
+	private oldQuestData: { title: string; data: any } = null!;
 
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
-			ProjectData.urlParameter = Utils.processUrlParameters(window.location.href);
-			this.initPlatform();
 
+			let url = new URL(window.location.href);
+			ProjectData.urlParameter = Utils.processUrlParameters(url);
+			ProjectData.basicUrl = url.origin;
+
+			this.initPlatform();
 			this.initLang();
 			this.initPage();
 			this.addEvent();
 			this.loadQuestLine();
 			this.showProjectMsg();
-
 		});
 	}
 
@@ -192,10 +192,12 @@ export class MainPage {
 					}
 				});
 				let data: any = {
-					title: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
+					title: ProjectData.language.includes("zh")
+						? quest.title_zh
+						: quest.title,
 					data: this.questAllData[ProjectData.language][quest.quest],
 				};
-				QuestList.getPageData(data)
+				QuestList.getPageData(data);
 				this.oldQuestData = Utils.deepClone(data);
 
 				ProjectData.isPhone || this.onClosePop();
@@ -254,31 +256,29 @@ export class MainPage {
 				title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
 				data: questData,
 			};
-			QuestList.getPageData(data)
+			QuestList.getPageData(data);
 			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
-			if (ProjectData.urlParameter.has("key")) {
-				var tempQuestId = ProjectData.urlParameter.get("key")!;
-				console.log(tempQuestId);
-				console.log(ProjectData.language);
-				console.log(this.questIdToQuest);
-				console.log(this.questIdToQuest[ProjectData.language]);
-				for (let questId in this.questIdToQuest[ProjectData.language]) {
-					if (tempQuestId == questId) {
-						PopMgr.showPopup(
-							this.questIdToQuest[ProjectData.language][questId]
-						);
-					}
-				}
-			}
+			this.checkHasQuestIdInParameters();
 		} else {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
 		}
 	}
 
-
-
+	checkHasQuestIdInParameters() {
+		if (ProjectData.urlParameter.has("id")) {
+			var tempQuestId = ProjectData.urlParameter.get("id")!;
+			if (tempQuestId in this.questIdToQuest[ProjectData.language]) {
+				PopMgr.showPopup(
+					this.questIdToQuest[ProjectData.language][tempQuestId]
+				);
+			} else {
+				console.error("任务id有误");
+				TipsMgr.showTips("任务id有误");
+			}
+		}
+	}
 
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "r") {
@@ -376,7 +376,7 @@ export class MainPage {
 			QuestList.clearSearchList();
 		}
 	};
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();
@@ -406,9 +406,4 @@ export class MainPage {
 			QuestList.toTop();
 		}
 	};
-
-
-
-
-
 }

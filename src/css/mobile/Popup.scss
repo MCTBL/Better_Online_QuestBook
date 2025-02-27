@@ -21,7 +21,8 @@
 	border-radius: 10px;
 	background-color: #fbf3e0;
 	width: calc(100vw - 10px);
-	height: calc(100vh - 10px);
+	// height: calc(100vh - 10px);
+	height: 80vh;
 }
 
 #leftAndRight {
@@ -60,6 +61,18 @@
 	font-size: 26px;
 }
 
+#copyLinkBtn {
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	transition: transform 0.1s ease-in-out;
+	border: 2px solid $borderColor;
+	border-radius: 2px;
+	background-color: #dbd2bb;
+	margin: 0 5px 0 0;
+	bottom: 10px;
+}
+
 #copyBtn {
 	position: absolute;
 	text-align: center;
@@ -69,8 +82,9 @@
 	border-radius: 2px;
 	background-color: #dbd2bb;
 	margin: 0 5px 0 0;
-	bottom: 50px;
+	bottom: 90px;
 }
+
 #copyIdBtn {
 	cursor: pointer;
 	float: left;
@@ -81,10 +95,11 @@
 	border-radius: 2px;
 	background-color: #dbd2bb;
 	margin: 0 5px 0 0;
-	bottom: 10px;
+	bottom: 50px;
 	position: absolute;
 }
 
+#copyLinkBtn,
 #copyIdBtn:active,
 #copyBtn:active {
 	transform: scale(1.05);
@@ -100,6 +115,7 @@
 }
 
 #btnClosePop {
+	cursor: pointer;
 	width: 40px;
 	height: 40px;
 	color: $borderColor;
@@ -122,7 +138,7 @@ div #descBox {
 	border: 1px solid $borderColor;
 	border-width: 3px;
 	border-radius: 10px;
-	height: 95%;
+	height: 50vh;
 	overflow-y: auto;
 	padding-left: 2%;
 	padding-right: 2%;
