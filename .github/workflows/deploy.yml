@@ -21,7 +21,7 @@ jobs:
       - name: install
         run: |
           npm install
-          npm install -g typescript
+          npm run build
 
       - name: check tsc
         run: tsc -v
@@ -33,3 +33,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: bin # The folder the action should deploy.
+          branch: test
