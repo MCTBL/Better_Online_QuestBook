@@ -28,7 +28,6 @@ module.exports = (env, argv) => ({
 		desktop: "./src/css/desktop/index.scss", // desktop.scss 入口
 		mobile: "./src/css/mobile/index.scss", // mobile.scss 入口
 		bundle: "./src/index.ts", // 主入口文件
-		questPage: "./src/QuestListPage.ts", // 主入口文件
 	},
 	output: {
 		filename: "[name].js", // 输出文件名

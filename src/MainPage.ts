@@ -28,7 +28,14 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
-	private oldQuestData: m2qData = null!;
+	private oldQuestData: { title: string, data: any } = null!;
+
+
+	private echarts: echarts.ECharts;
+	/**当前页面数据 桌面端才有的 */
+	private pageData: any;
+	/**搜索任务列表 */
+	private questList: quest[];
 
 	constructor() {
 		$(() => {
@@ -36,15 +43,12 @@ export class MainPage {
 			ProjectData.processUrlParameters(window.location.href);
 			this.initPlatform();
 
-			const iframe = $("#mainIframe");
-			iframe.on("load", () => {
-				//iframe加载完成
-				this.initLang();
-				this.initPage();
-				this.addEvent();
-				this.loadQuestLine();
-				this.showProjectMsg();
-			});
+			this.initLang();
+			this.initPage();
+			this.addEvent();
+			this.loadQuestLine();
+			this.showProjectMsg();
+
 		});
 	}
 
@@ -195,18 +199,12 @@ export class MainPage {
 						button.removeClass("selected").addClass("unselected");
 					}
 				});
-				let data: m2qData = {
-					action: msgAction.init,
-					data: {
-						title: ProjectData.language.includes("zh")
-							? quest.title_zh
-							: quest.title,
-						data: this.questAllData[ProjectData.language][quest.quest],
-					},
+				let data: any = {
+					title: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
+					data: this.questAllData[ProjectData.language][quest.quest],
 				};
-
+				this.getPageData(data)
 				this.oldQuestData = Utils.deepClone(data);
-				this.sendMessageToIframe(data);
 				ProjectData.isPhone || this.onClosePop();
 
 				this.toggleSidebar();
@@ -260,14 +258,11 @@ export class MainPage {
 		let questData: questData =
 			this.questAllData[ProjectData.language][quest.quest];
 		if (questData) {
-			let data: m2qData = {
-				action: msgAction.init,
-				data: {
-					title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
-					data: questData,
-				},
+			let data: any = {
+				title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
+				data: questData,
 			};
-			this.sendMessageToIframe(data);
+			this.getPageData(data)
 			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
 			if (ProjectData.urlParameter.has("key")) {
@@ -290,11 +285,7 @@ export class MainPage {
 		}
 	}
 
-	/**发送消息到子域 */
-	sendMessageToIframe(msg: m2qData) {
-		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
-		iframe.contentWindow!.postMessage(msg, "*");
-	}
+
 
 	//事件
 	onGetMessageFromIframe = (event: MessageEvent) => {
@@ -319,8 +310,7 @@ export class MainPage {
 	};
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "r") {
-			let data: m2qData = { action: msgAction.resetChart, data: null };
-			this.sendMessageToIframe(data);
+			this.resetChart();
 		}
 	};
 
@@ -398,10 +388,7 @@ export class MainPage {
 					}
 				}
 			}
-			this.sendMessageToIframe({
-				action: msgAction.showSearchPopup,
-				data: questList,
-			});
+			this.showSearchPopup(questList);
 		} else {
 			this.onClosePop();
 		}
@@ -413,17 +400,12 @@ export class MainPage {
 		$("#btnCloseSp").css("opacity", 0);
 		ProjectData.isPhone && $("#logoBg").css("opacity", 1);
 		if (ProjectData.isPhone) {
-			if (this.oldQuestData) {
-				this.sendMessageToIframe(this.oldQuestData);
-			}
+			this.getPageData(this.oldQuestData);
 		} else {
-			this.sendMessageToIframe({
-				action: msgAction.closeSearchPopup,
-				data: null,
-			});
+			this.clearSearchList();
 		}
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();
@@ -450,11 +432,143 @@ export class MainPage {
 		if (!this.showSidebar) {
 			$("#sidebar").animate({ scrollTop: 0 }, 500);
 		} else {
-			let data: m2qData = {
-				action: msgAction.toTop,
-				data: null,
-			};
-			this.sendMessageToIframe(data);
+			this.toTop();
 		}
 	};
+
+
+
+
+	//--------------以下是 “子域” -----------------
+	// 重置echarts
+	resetChart() {
+		this.echarts?.clear();
+		this.echarts?.resize();
+		this.echarts?.setOption(this.pageData);
+	}
+
+	getPageData(res: { data: questData; title: string }) {
+		if (ProjectData.isPhone) {
+			this.showSearchPopup(res.data.data);
+		} else {
+			Utils.typeText("#questTitle", res.title);
+			this.pageData = Utils.deepClone(ProjectData.echartsConfig);
+			this.pageData.series[0].data = res.data.data;
+			this.pageData.series[0].links = res.data.links;
+			this.initEcharts();
+		}
+	}
+
+
+	//桌面端才有的
+	initEcharts() {
+		if (!this.echarts) {
+			this.echarts = echarts.init(
+				document.getElementById("this_chart") as HTMLDivElement,
+				"white",
+				{ renderer: "canvas" }
+			);
+			this.echarts.on("click", (params: any) => {
+				if (
+					params.dataType === "node" &&
+					params.data.hasOwnProperty("quest_id")
+				) {
+					PopMgr.showPopup(params.data);
+				}
+			});
+
+			window.addEventListener("resize", () => {
+				this.echarts?.resize();
+			});
+		}
+		this.resetChart();
+	}
+
+	onMessageFromMain = (event: MessageEvent) => {
+		let data: m2qData = event.data;
+		switch (data.action) {
+			case msgAction.init:
+				this.getPageData(data.data);
+				break;
+			case msgAction.resetChart:
+				this.resetChart();
+				break;
+			case msgAction.showSearchPopup:
+				this.showSearchPopup(data.data);
+				break;
+			case msgAction.closeSearchPopup:
+				this.clearSearchList();
+				break;
+			case msgAction.toTop:
+				this.toTop();
+				break;
+			default:
+				console.warn("未知的消息", data);
+				break;
+		}
+	};
+
+	showSearchPopup(res?: quest[]) {
+		$("#questSearchList").empty();
+		if (res && res.length) {
+			this.questList = res;
+			this.showSearchList();
+			$("#searchPopup").show();
+		}
+	}
+
+	clearSearchList() {
+		$("#questSearchList").empty();
+		$("#searchPopup").hide();
+	}
+
+	toTop() {
+		$("#questSearchList").animate({ scrollTop: 0 }, 500);
+	}
+
+	showSearchList() {
+		if (this.questList && this.questList.length) {
+			for (let i = 0; i < this.questList.length; i++) {
+				let quest = this.questList[i];
+				// <div class="searchItem" data-id="1">
+				// 	<img class="searchImg" src="http://192.168.50.82:9192/version/272/quests_icons/QuestIcon/2925.png" />
+				// 	<div class="searchTitle">熟练的神秘使</div>
+				// 	<div class="searchDesc">我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究</div>
+				// </div>
+				if (quest && quest.title != undefined) {
+					let item: JQuery<HTMLElement>;
+					item = $(
+						`<div class="searchItem" data-id="${quest.quest_id}"></div>`
+					);
+					let img = $(
+						`<img class="searchImg" src="${quest.symbol.replace(
+							"image://",
+							""
+						)}" />`
+					);
+					let title = $(
+						`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
+					);
+					let desc = $(
+						`<div class="searchDesc">${Utils.expMCcolor(
+							quest.data.substring(0, 50)
+						)}</div>`
+					);
+					item.append(img);
+					item.append(title);
+					item.append(desc);
+					// item.on("click", () => {
+					// 	this.sendMessageToMain({
+					// 		action: msgAction.showPopup,
+					// 		data: quest.quest_id,
+					// 	});
+					// });
+					PopMgr.showPopup(quest);
+					$("#questSearchList").append(item);
+				} else {
+					// console.warn(quest);
+				}
+			}
+		}
+	}
 }

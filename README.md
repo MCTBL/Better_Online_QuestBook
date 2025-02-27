@@ -8,9 +8,26 @@
 
 ### How to use locally/本地使用方式
 
-*PNPM*: 根目录下执行`pnpm i`，然后执行`pnpm run build`即可
+#### 初始化
 
-*NPM*: 根目录下执行`npm i`，然后执行`npm run build`即可
+*PNPM*: 根目录下执行`pnpm i`
+
+*NPM*: 根目录下执行`npm i`
+
+#### 构建
+
+*PNPM*：根目录`pnpm run build`
+
+*PNPM*：根目录`npm run build`
+
+#### 开发
+
+*PNPM*：根目录`pnpm run watch`
+
+*PNPM*：根目录`npm run watch`
+
+对于开启服务器，推荐使用anywhere，记得cd到bin目录。
+
 
 ### 更新说明
 

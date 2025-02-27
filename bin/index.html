@@ -77,6 +77,12 @@
 		</script>
 		<script>
 			(function () {
+				function loadScript(jsName) {
+					let script = document.createElement("script");
+					script.src = "./libs/" + jsName;
+					document.head.appendChild(script);
+				}
+
 				var isMobile = {
 					tablet: false,
 					phone: false,
@@ -91,6 +97,7 @@
 						this.loadStylesheet("mobile.css");
 					} else {
 						this.loadStylesheet("desktop.css");
+						loadScript("echarts.min.js");
 					}
 				}
 
@@ -135,8 +142,13 @@
 			<div id="questLineList"></div>
 		</div>
 		<!-- 子域 -->
-		<div id="mainPage" tabindex="0">
-			<iframe src="./QuestListPage.html" id="mainIframe"></iframe>
+		<div id="mainPage">
+			<div id="this_chart" class="chart-container"></div>
+			<span id="questTitle"></span>
+			<!-- 搜索弹窗 -->
+			<div id="searchPopup">
+				<div id="questSearchList"></div>
+			</div>
 		</div>
 		<!-- 侧栏开关 -->
 		<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
