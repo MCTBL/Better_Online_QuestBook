@@ -7,17 +7,7 @@ export type questLine = {
 	title_zh?: string;
 };
 
-export type m2qData = { action: msgAction; data: any };
 
-export enum msgAction {
-	init = "init",
-	ready = "ready",
-	showPopup = "showPopup",
-	resetChart = "resetChart",
-	closeSearchPopup = "closeSearchPopup",
-	showSearchPopup = "showSearchPopup",
-	toTop = "toTop",
-}
 
 export type dialogMsg = {
 	content: string;

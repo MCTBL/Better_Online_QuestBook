@@ -2,6 +2,17 @@ export class Utils {
 
 	private static typingInterval: any = null;
 
+	/**解析url */
+	static processUrlParameters(rawUrl: string): Map<string, string> {
+		let url = new URL(rawUrl);
+		let map = new Map<string, string>();
+		for (var k of url.searchParams.keys()) {
+			map.set(k, url.searchParams.get(k)!);
+		}
+		return map;
+	}
+
+
 	/**打字机 */
 	static typeText(selector: string, text: string, speed: number = 50) {
 		const element = $(selector);

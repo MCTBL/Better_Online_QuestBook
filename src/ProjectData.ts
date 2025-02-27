@@ -6,7 +6,7 @@ export class ProjectData {
 	 * 默认为中文 */
 	static language: lang = lang.zh;
 
-	static urlParameter: Map<string, string> = new Map();
+	static urlParameter: Map<string, string>;
 
 	/**是否为手机 */
 	static isPhone: boolean = false;
@@ -196,10 +196,5 @@ export class ProjectData {
 		},
 	];
 
-	static processUrlParameters(rawUrl: string): void {
-		const url = new URL(rawUrl);
-		for (var k of url.searchParams.keys()) {
-			this.urlParameter.set(k, url.searchParams.get(k)!);
-		}
-	}
+
 }

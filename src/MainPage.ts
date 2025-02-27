@@ -1,8 +1,6 @@
 import {
 	lang,
 	localEnum,
-	m2qData,
-	msgAction,
 	quest,
 	questAllData,
 	questData,
@@ -40,7 +38,7 @@ export class MainPage {
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
-			ProjectData.processUrlParameters(window.location.href);
+			ProjectData.urlParameter = Utils.processUrlParameters(window.location.href);
 			this.initPlatform();
 
 			this.initLang();
@@ -53,7 +51,6 @@ export class MainPage {
 	}
 
 	initPlatform() {
-		let isMobile = (window as any).isMobile;
 		if (isMobile.phone) {
 			ProjectData.isPhone = true;
 		} else {
@@ -109,7 +106,6 @@ export class MainPage {
 	}
 
 	addEvent() {
-		addEventListener("message", this.onGetMessageFromIframe);
 		$("#toggleSidebar").on("click", this.toggleSidebar);
 
 		addEventListener("keydown", this.onKeyDown);
@@ -287,27 +283,7 @@ export class MainPage {
 
 
 
-	//事件
-	onGetMessageFromIframe = (event: MessageEvent) => {
-		let data: m2qData = event.data;
-		switch (data.action) {
-			case msgAction.ready:
-				// this.initMainIframe();
-				break;
-			case msgAction.showPopup:
-				// 展示任务详情
-				let quest = this.questIdToQuest[ProjectData.language][data.data];
-				if (quest) {
-					PopMgr.showPopup(quest);
-				} else {
-					console.warn("任务ID没有对应数据！" + data.data);
-				}
-				break;
-			default:
-				console.warn("未知的消息", data);
-				break;
-		}
-	};
+
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "r") {
 			this.resetChart();
@@ -484,29 +460,6 @@ export class MainPage {
 		this.resetChart();
 	}
 
-	onMessageFromMain = (event: MessageEvent) => {
-		let data: m2qData = event.data;
-		switch (data.action) {
-			case msgAction.init:
-				this.getPageData(data.data);
-				break;
-			case msgAction.resetChart:
-				this.resetChart();
-				break;
-			case msgAction.showSearchPopup:
-				this.showSearchPopup(data.data);
-				break;
-			case msgAction.closeSearchPopup:
-				this.clearSearchList();
-				break;
-			case msgAction.toTop:
-				this.toTop();
-				break;
-			default:
-				console.warn("未知的消息", data);
-				break;
-		}
-	};
 
 	showSearchPopup(res?: quest[]) {
 		$("#questSearchList").empty();
@@ -552,12 +505,6 @@ export class MainPage {
 					item.append(img);
 					item.append(title);
 					item.append(desc);
-					// item.on("click", () => {
-					// 	this.sendMessageToMain({
-					// 		action: msgAction.showPopup,
-					// 		data: quest.quest_id,
-					// 	});
-					// });
 					PopMgr.showPopup(quest);
 					$("#questSearchList").append(item);
 				} else {
