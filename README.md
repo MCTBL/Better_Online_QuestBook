@@ -22,12 +22,17 @@
 
 #### 开发
 
+*PNPM*：根目录`pnpm run start`
+
+*PNPM*：根目录`npm run start`
+
+tips:
+
+不需要服务器可以使用watch
+
 *PNPM*：根目录`pnpm run watch`
 
 *PNPM*：根目录`npm run watch`
-
-对于开启服务器，推荐使用anywhere，记得cd到bin目录。
-
 
 ### 更新说明
 

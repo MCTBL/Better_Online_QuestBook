@@ -530,11 +530,6 @@ export class MainPage {
 		if (this.questList && this.questList.length) {
 			for (let i = 0; i < this.questList.length; i++) {
 				let quest = this.questList[i];
-				// <div class="searchItem" data-id="1">
-				// 	<img class="searchImg" src="http://192.168.50.82:9192/version/272/quests_icons/QuestIcon/2925.png" />
-				// 	<div class="searchTitle">熟练的神秘使</div>
-				// 	<div class="searchDesc">我已经掌握了基本的魔法知识.师傅给我讲过一些关于禁忌魔法的事情.但是这个听起来挺有前途的.我认为稍微研究</div>
-				// </div>
 				if (quest && quest.title != undefined) {
 					let item: JQuery<HTMLElement>;
 					item = $(

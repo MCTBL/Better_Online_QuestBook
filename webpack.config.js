@@ -56,4 +56,11 @@ module.exports = (env, argv) => ({
 		}),
 		new DeleteFilesAfterEmitPlugin(), // 构建后删除指定文件
 	],
+	devServer: {
+		static: {
+			directory: path.join(__dirname, "bin"),
+		},
+		compress: true,
+		port: 9000,
+	},
 });
