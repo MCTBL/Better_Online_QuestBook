@@ -28,12 +28,12 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
-
 	private oldQuestData: m2qData = null!;
 
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
+			ProjectData.processUrlParameters(window.location.href);
 			this.initPlatform();
 
 			const iframe = $("#mainIframe");
@@ -47,7 +47,6 @@ export class MainPage {
 			});
 		});
 	}
-
 
 	initPlatform() {
 		let isMobile = (window as any).isMobile;
@@ -122,7 +121,6 @@ export class MainPage {
 		$("#changeLang").on("click", this.onChangeLang);
 
 		$("#btnShowMsg").on("click", this.onClickInfo);
-
 
 		$("#btnTop").on("click", this.onClickTop);
 	}
@@ -272,6 +270,20 @@ export class MainPage {
 			this.sendMessageToIframe(data);
 			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
+			if (ProjectData.urlParameter.has("key")) {
+				var tempQuestId = ProjectData.urlParameter.get("key")!;
+				console.log(tempQuestId);
+				console.log(ProjectData.language);
+				console.log(this.questIdToQuest);
+				console.log(this.questIdToQuest[ProjectData.language]);
+				for (let questId in this.questIdToQuest[ProjectData.language]) {
+					if (tempQuestId == questId) {
+						PopMgr.showPopup(
+							this.questIdToQuest[ProjectData.language][questId]
+						);
+					}
+				}
+			}
 		} else {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
@@ -326,7 +338,7 @@ export class MainPage {
 		let sidebarWidth = $("#sidebar").width();
 		$("#toggleSidebar").hide();
 		// TipsMgr.showLoading();
-		let time = ProjectData.isPhone?250:500;
+		let time = ProjectData.isPhone ? 250 : 500;
 		setTimeout(() => {
 			$("#toggleSidebar").show();
 			// TipsMgr.hideLoading();
@@ -411,7 +423,7 @@ export class MainPage {
 			});
 		}
 	};
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();
@@ -440,9 +452,9 @@ export class MainPage {
 		} else {
 			let data: m2qData = {
 				action: msgAction.toTop,
-				data: null
-			}
+				data: null,
+			};
 			this.sendMessageToIframe(data);
 		}
-	}
+	};
 }
