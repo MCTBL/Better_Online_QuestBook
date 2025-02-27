@@ -90,7 +90,10 @@ export class QuestList {
 							<div class="searchDesc">${Utils.expMCcolor(quest.data.substring(0, 50))}</div>
 						</div>
 					`);
-					PopMgr.showPopup(quest);
+					item.off("click");
+					item.on("click", () => {
+						PopMgr.showPopup(quest);
+					});
 					$("#questSearchList").append(item);
 				}
 			});
