@@ -44,7 +44,8 @@ body {
 	color: rgb(0, 0, 0);
 	position: absolute;
 	right: 0px;
-	bottom: -70px;
+	bottom: 0px;
+	display: none;
 	border: 5px solid $borderColor;
 	border-radius: 10px;
 	background-color: #fbf3e0;

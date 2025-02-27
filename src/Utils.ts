@@ -37,30 +37,6 @@ export class Utils {
 		}, speed);
 	}
 
-	static rotScreen() {
-		var main = document.getElementById("main")!;
-		window.addEventListener("resize", function () {
-			adjustImageSize();
-		});
-		adjustImageSize();
-		function adjustImageSize() {
-			var windowHeight =
-				window.innerHeight ||
-				document.documentElement.clientHeight ||
-				document.body.clientHeight;
-			var windowWidth =
-				window.innerWidth ||
-				document.documentElement.clientWidth ||
-				document.body.clientWidth;
-			main.style.height = windowHeight + "px";
-			main.style.width = windowWidth + "px";
-			if (windowWidth > windowHeight) {
-				main.style.transform = "rotate(0deg)";
-			} else {
-				main.style.transform = "rotate(90deg)";
-			}
-		}
-	}
 
 	static copyH5Str(str: string) {
 		var input = str + "";
@@ -345,24 +321,6 @@ export class Utils {
 
 		return textWithUrls;
 	}
-
-	// static screenshot(node: HTMLElement) {
-	// 	html2canvas(node).then((canvas: any) => {
-	// 		$(canvas)
-	// 			.css("position", "fixed")
-	// 			.css("top", "0")
-	// 			.css("left", "0")
-	// 			.css("z-index", "999999")
-	// 			.css("background", "rgba(0,0,0,0.5)")
-	// 			.css("width", "80%")
-	// 			.css("height", "80%")
-	// 			.css("cursor", "pointer")
-	// 			.click(function () {
-	// 				$(this).remove();
-	// 			});
-	// 		document.body.appendChild(canvas);
-	// 	});
-	// }
 
 
 	/**洗牌算法 */

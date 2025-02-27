@@ -5,7 +5,7 @@
 	left: 280px;
 	top: 0px;
 	width: calc(100% - 280px);
-	height: 100vh;
+	height: 100%;
 	z-index: z(mainPage);
 }
 #mainIframe {
@@ -14,7 +14,7 @@
 	border: none;
 }
 #this_chart {
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	background-color: $frameBg;
 }

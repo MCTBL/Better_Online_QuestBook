@@ -10,6 +10,7 @@ import { EeggMgr } from "./EeggMgr";
 import { PopMgr } from "./PopMgr";
 import { ProjectConfig } from "./ProjectConfig";
 import { ProjectData } from "./ProjectData";
+import { QuestList } from "./QuestList";
 import { TipsMgr } from "./TipsMgr";
 import { Utils } from "./Utils";
 
@@ -29,11 +30,6 @@ export class MainPage {
 	private oldQuestData: { title: string, data: any } = null!;
 
 
-	private echarts: echarts.ECharts;
-	/**当前页面数据 桌面端才有的 */
-	private pageData: any;
-	/**搜索任务列表 */
-	private questList: quest[];
 
 	constructor() {
 		$(() => {
@@ -199,11 +195,12 @@ export class MainPage {
 					title: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
 					data: this.questAllData[ProjectData.language][quest.quest],
 				};
-				this.getPageData(data)
+				QuestList.getPageData(data)
 				this.oldQuestData = Utils.deepClone(data);
+
 				ProjectData.isPhone || this.onClosePop();
 
-				this.toggleSidebar();
+				ProjectData.isPhone && this.toggleSidebar();
 			},
 		});
 		button.data("questData", quest);
@@ -257,7 +254,7 @@ export class MainPage {
 				title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
 				data: questData,
 			};
-			this.getPageData(data)
+			QuestList.getPageData(data)
 			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
 			if (ProjectData.urlParameter.has("key")) {
@@ -285,7 +282,7 @@ export class MainPage {
 
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "r") {
-			this.resetChart();
+			QuestList.resetChart();
 		}
 	};
 
@@ -362,7 +359,7 @@ export class MainPage {
 					}
 				}
 			}
-			this.showSearchPopup(questList);
+			QuestList.showSearchPopup(questList);
 		} else {
 			this.onClosePop();
 		}
@@ -374,9 +371,9 @@ export class MainPage {
 		$("#btnCloseSp").css("opacity", 0);
 		ProjectData.isPhone && $("#logoBg").css("opacity", 1);
 		if (ProjectData.isPhone) {
-			this.getPageData(this.oldQuestData);
+			QuestList.getPageData(this.oldQuestData);
 		} else {
-			this.clearSearchList();
+			QuestList.clearSearchList();
 		}
 	};
 	onSearchBlur = () => { };
@@ -406,109 +403,12 @@ export class MainPage {
 		if (!this.showSidebar) {
 			$("#sidebar").animate({ scrollTop: 0 }, 500);
 		} else {
-			this.toTop();
+			QuestList.toTop();
 		}
 	};
 
 
 
 
-	//--------------以下是 “子域” -----------------
-	// 重置echarts
-	resetChart() {
-		this.echarts?.clear();
-		this.echarts?.resize();
-		this.echarts?.setOption(this.pageData);
-	}
 
-	getPageData(res: { data: questData; title: string }) {
-		if (ProjectData.isPhone) {
-			this.showSearchPopup(res.data.data);
-		} else {
-			Utils.typeText("#questTitle", res.title);
-			this.pageData = Utils.deepClone(ProjectData.echartsConfig);
-			this.pageData.series[0].data = res.data.data;
-			this.pageData.series[0].links = res.data.links;
-			this.initEcharts();
-		}
-	}
-
-
-	//桌面端才有的
-	initEcharts() {
-		if (!this.echarts) {
-			this.echarts = echarts.init(
-				document.getElementById("this_chart") as HTMLDivElement,
-				"white",
-				{ renderer: "canvas" }
-			);
-			this.echarts.on("click", (params: any) => {
-				if (
-					params.dataType === "node" &&
-					params.data.hasOwnProperty("quest_id")
-				) {
-					PopMgr.showPopup(params.data);
-				}
-			});
-
-			window.addEventListener("resize", () => {
-				this.echarts?.resize();
-			});
-		}
-		this.resetChart();
-	}
-
-
-	showSearchPopup(res?: quest[]) {
-		$("#questSearchList").empty();
-		if (res && res.length) {
-			this.questList = res;
-			this.showSearchList();
-			$("#searchPopup").show();
-		}
-	}
-
-	clearSearchList() {
-		$("#questSearchList").empty();
-		$("#searchPopup").hide();
-	}
-
-	toTop() {
-		$("#questSearchList").animate({ scrollTop: 0 }, 500);
-	}
-
-	showSearchList() {
-		if (this.questList && this.questList.length) {
-			for (let i = 0; i < this.questList.length; i++) {
-				let quest = this.questList[i];
-				if (quest && quest.title != undefined) {
-					let item: JQuery<HTMLElement>;
-					item = $(
-						`<div class="searchItem" data-id="${quest.quest_id}"></div>`
-					);
-					let img = $(
-						`<img class="searchImg" src="${quest.symbol.replace(
-							"image://",
-							""
-						)}" />`
-					);
-					let title = $(
-						`<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>`
-					);
-					let desc = $(
-						`<div class="searchDesc">${Utils.expMCcolor(
-							quest.data.substring(0, 50)
-						)}</div>`
-					);
-					item.append(img);
-					item.append(title);
-					item.append(desc);
-					PopMgr.showPopup(quest);
-					$("#questSearchList").append(item);
-				} else {
-					// console.warn(quest);
-				}
-			}
-		}
-	}
 }

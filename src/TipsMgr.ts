@@ -8,6 +8,8 @@ export class TipsMgr {
 
 		$("#tips").text(msg);
 		$("#tips").css("width", width + "px");
+		$("#tips").css("display", "flex");
+		$("#tips").css("bottom", "-70px");
 		$("#tips").animate({ bottom: "0px" }, 500);
 		if (this.tipsTimer) {
 			clearTimeout(this.tipsTimer);
@@ -15,6 +17,7 @@ export class TipsMgr {
 		}
 		this.tipsTimer = setTimeout(() => {
 			$("#tips").animate({ bottom: "-70px" }, 500);
+			$("#tips").css("display", "none");
 		}, 2000);
 	}
 
