@@ -99,7 +99,7 @@
 	position: absolute;
 }
 
-#copyLinkBtn,
+#copyLinkBtn:active,
 #copyIdBtn:active,
 #copyBtn:active {
 	transform: scale(1.05);
