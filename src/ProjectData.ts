@@ -160,16 +160,7 @@ export class ProjectData {
 			symbol: "logo.png",
 			x: 0,
 			y: 0,
-			data: `
-			§c§l${ProjectConfig.projectDsc}§r<br/><br/>
-			§lAuthor:§r §9§l<a class="githubLink" href="https://github.com/MCTBL" target="_blank">${ProjectConfig.projectAuthor[0]}</a>§r、 §3§l<a class="githubLink" href="https://github.com/NoRainLand" target="_blank">${ProjectConfig.projectAuthor[1]}</a>§r<br/><br/>
-			§lProject Address: [url]${ProjectConfig.projectUrl}[/url]§r<br/>
-			 - If you have any questions or needs, please go to the repository to submit an issue.<br/><br/>
-			 The icon in the upper right corner can switch languages, the lower left corner can turn the taskbar on and off, and the upper left corner is the search bar.<br/><br/>
-			 The §lscroll wheel§r can zoom in and out of the chart, and the §lleft mouse button§r can also drag.<br/><br/>
-			 §lShortcut keys:§r<br/>
-			 §lR§r - Reset the chart<br/>
-			 §lESC / E§r - Exit task details, or simply click on the black area outside the task box.<br/>`,
+			data: `§c§l${ProjectConfig.projectDsc}§r<br/><br/>§lAuthor:§r §9§l<a class="githubLink" href="https://github.com/MCTBL" target="_blank">${ProjectConfig.projectAuthor[0]}</a>§r、 §3§l<a class="githubLink" href="https://github.com/NoRainLand" target="_blank">${ProjectConfig.projectAuthor[1]}</a>§r<br/><br/>§lProject Address: [url]${ProjectConfig.projectUrl}[/url]§r<br/>- If you have any questions or needs, please go to the repository to submit an issue.<br/><br/>The icon in the upper right corner can switch languages, the lower left corner can turn the taskbar on and off, and the upper left corner is the search bar.<br/><br/>The §lscroll wheel§r can zoom in and out of the chart, and the §lleft mouse button§r can also drag.<br/><br/>§lShortcut keys:§r<br/>§lR§r - Reset the chart<br/>§lESC / E§r - Exit task details, or simply click on the black area outside the task box.<br/>`,
 			quest_id: "",
 			tooltip: "",
 			is_main: 0,
@@ -181,16 +172,7 @@ export class ProjectData {
 			symbol: "logo.png",
 			x: 0,
 			y: 0,
-			data: `<br/>
-			§c§l${ProjectConfig.projectDsc_zh}§r<br/><br/>
-			§l作者:§r §9§l<a class="githubLink" href="https://github.com/MCTBL" target="_blank">${ProjectConfig.projectAuthor[0]}</a>§r、 §3§l<a class="githubLink" href="https://github.com/NoRainLand" target="_blank">${ProjectConfig.projectAuthor[1]}</a>§r<br/><br/>
-			§l项目地址: [url]${ProjectConfig.projectUrl}[/url]§r<br/>
-			 - 有任何问题或需求前往仓库提交issue即可<br/><br/>
-			右上角图标可切换语言，左下角可开关任务栏，左上角为搜索栏<br/><br/>
-			§l滚轮§r可对图表进行缩放，§l左键§r可拖动<br/><br/>
-			§l快捷键：§r<br/>
-			§lR§r - 重置图表<br/>
-			§lESC / E§r - 退出任务详情，或直接点击任务框外侧黑色区域即可<br/><br/>`,
+			data: `<br/>§c§l${ProjectConfig.projectDsc_zh}§r<br/><br/>§l作者:§r §9§l<a class="githubLink" href="https://github.com/MCTBL" target="_blank">${ProjectConfig.projectAuthor[0]}</a>§r、 §3§l<a class="githubLink" href="https://github.com/NoRainLand" target="_blank">${ProjectConfig.projectAuthor[1]}</a>§r<br/><br/>§l项目地址: [url]${ProjectConfig.projectUrl}[/url]§r<br/>- 有任何问题或需求前往仓库提交issue即可<br/><br/><br/><br/>§l滚轮§r可对图表进行缩放，§l左键§r可拖动<br/><br/>§l快捷键：§r<br/>§lR§r - 重置图表<br/>§lESC / E§r - 退出任务详情，或直接点击任务框外侧黑色区域即可<br/><br/>`,
 			quest_id: "",
 			tooltip: "",
 			is_main: 0,

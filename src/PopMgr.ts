@@ -94,6 +94,7 @@ export class PopMgr {
 		);
 		$("#copyBtn").css("display", "none");
 		$("#copyIdBtn").css("display", "none");
+		$("#copyLinkBtn").css("display", "none");
 	}
 
 	static processDesc(desc: string): string {
