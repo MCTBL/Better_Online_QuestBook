@@ -1,0 +1,139 @@
+@use "./Common.scss";
+
+#sidebar {
+	width: 280px; /* 锁定宽度，方便做平移 */
+	height: 100vh; /* 使 sidebar 高度占满整个视口 */
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* 水平居中 */
+	overflow-y: scroll; /* 允许垂直滚动 */
+	scrollbar-width: none; /* 对 Firefox 隐藏滚动条 */
+	row-gap: 2px;
+	left: 0px;
+	position: absolute;
+	z-index: z(sidebar);
+}
+
+#sidebar::-webkit-scrollbar {
+	display: none; /* 对 Webkit 浏览器隐藏滚动条 */
+}
+
+#mainTitle {
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 280px;
+}
+
+#logoBg {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 200px;
+}
+
+#logoImg {
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	height: 200px;
+	width: 200px;
+	left: calc((100% - 200px) / 2);
+}
+
+#inputDiv {
+	position: absolute;
+	width: 277px;
+	height: 42px;
+	top: 200px;
+	border: 1px solid #000; /* 外描边 */
+	background-color: #ffffff;
+}
+
+#search {
+	width: 230px;
+	position: absolute;
+	left: 0px;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border: none;
+}
+#search:focus {
+	outline: none;
+}
+
+#btnCloseSp {
+	position: absolute;
+	right: 5px;
+	width: 40px;
+	height: 40px;
+	color: $borderColor;
+	display: none;
+	opacity: 0;
+}
+
+#versionSelect {
+	width: 100%;
+	margin-bottom: 0;
+	height: 40px !important;
+	box-sizing: border-box;
+	position: absolute;
+	top: 240px;
+}
+
+#questLineList {
+	width: 100%;
+	position: absolute;
+	top: 280px;
+	background-color: $borderColor;
+	overflow-y: scroll; /* 允许垂直滚动 */
+	scrollbar-width: none; /* 对 Firefox 隐藏滚动条 */
+	row-gap: 2px;
+	left: 0px;
+}
+
+#questLineList::-webkit-scrollbar {
+	display: none; /* 对 Webkit 浏览器隐藏滚动条 */
+}
+
+.questButton {
+	width: 100%;
+	height: 60px;
+	position: static;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.selected {
+	background-color: #433f39;
+}
+
+.unselected {
+	background-color: #b89267;
+}
+
+.questIcon {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 0;
+}
+
+.questText {
+	font-size: 20px;
+	position: relative;
+	left: 10px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 190px;
+	text-overflow: ellipsis;
+}

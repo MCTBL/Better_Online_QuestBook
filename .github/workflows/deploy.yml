@@ -26,15 +26,10 @@ jobs:
       - name: install
         run: |
           npm install
-          npm install -g typescript
-
-      - name: check tsc
-        run: tsc -v
-
-      - name: tsc
-        run: tsc
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: bin # The folder the action should deploy.
+          branch: gh-pages

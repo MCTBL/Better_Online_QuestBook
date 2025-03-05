@@ -1,6 +1,14 @@
 export class Utils {
-
 	private static typingInterval: any = null;
+
+	/**解析url */
+	static processUrlParameters(url: URL): Map<string, string> {
+		let map = new Map<string, string>();
+		for (var k of url.searchParams.keys()) {
+			map.set(k, url.searchParams.get(k)!);
+		}
+		return map;
+	}
 
 	/**打字机 */
 	static typeText(selector: string, text: string, speed: number = 50) {
@@ -26,31 +34,6 @@ export class Utils {
 		}, speed);
 	}
 
-	static rotScreen() {
-		var main = document.getElementById("main")!;
-		window.addEventListener("resize", function () {
-			adjustImageSize();
-		});
-		adjustImageSize();
-		function adjustImageSize() {
-			var windowHeight =
-				window.innerHeight ||
-				document.documentElement.clientHeight ||
-				document.body.clientHeight;
-			var windowWidth =
-				window.innerWidth ||
-				document.documentElement.clientWidth ||
-				document.body.clientWidth;
-			main.style.height = windowHeight + "px";
-			main.style.width = windowWidth + "px";
-			if (windowWidth > windowHeight) {
-				main.style.transform = "rotate(0deg)";
-			} else {
-				main.style.transform = "rotate(90deg)";
-			}
-		}
-	}
-
 	static copyH5Str(str: string) {
 		var input = str + "";
 		const el = document.createElement("textarea");
@@ -71,7 +54,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) { }
+		} catch (err) {}
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -92,8 +75,14 @@ export class Utils {
 			return source_str;
 		}
 
-		var reg = /(^)?([^§]+)($)?/g; // 去掉所有§符号的正则表达式
-		var target = document.createElement("temp"); // 创建一个span最终输出的
+		var reg = /([^§]+)/g; // /(^)?([^§]+)($)?/g; // 去掉所有§符号的正则表达式
+
+		if (source_str.match(reg) == null) {
+			console.error("正则匹配失败");
+			return source_str;
+		}
+
+		var target = document.createElement("span"); // 创建一个span最终输出的
 		var len = source_str.match(reg)!.length; // 获取原始motd分割后的段数
 		var output = ""; // 创建最终输出的变量
 
@@ -327,25 +316,6 @@ export class Utils {
 
 		return textWithUrls;
 	}
-
-	static screenshot(node: HTMLElement) {
-		html2canvas(node).then((canvas: any) => {
-			$(canvas)
-				.css("position", "fixed")
-				.css("top", "0")
-				.css("left", "0")
-				.css("z-index", "999999")
-				.css("background", "rgba(0,0,0,0.5)")
-				.css("width", "80%")
-				.css("height", "80%")
-				.css("cursor", "pointer")
-				.click(function () {
-					$(this).remove();
-				});
-			document.body.appendChild(canvas);
-		});
-	}
-
 
 	/**洗牌算法 */
 	static shuffle<T>(array: T[]): T[] {

@@ -1,7 +1,7 @@
-import { lang, quest } from "./Define.js";
-import { ProjectData } from "./ProjectData.js";
-import { TipsMgr } from "./TipsMgr.js";
-import { Utils } from "./Utils.js";
+import { lang, quest } from "./Define";
+import { ProjectData } from "./ProjectData";
+import { TipsMgr } from "./TipsMgr";
+import { Utils } from "./Utils";
 
 export class PopMgr {
 	private static nowTitle: string = "";
@@ -23,6 +23,13 @@ export class PopMgr {
 		);
 	};
 
+	static onCopyLink = () => {
+		Utils.copyH5Str(ProjectData.basicUrl + "?id=" + this.nowID);
+		TipsMgr.showTips(
+			ProjectData.language == lang.zh ? "复制成功" : "Copy Success"
+		);
+	};
+
 	static showPopup(res: quest) {
 		this.nowTitle = Utils.expMCcolor(res.title);
 		this.nowDesc = this.processDesc(Utils.expMCcolor(res.data));
@@ -30,7 +37,7 @@ export class PopMgr {
 		this.nowLogo = res.symbol.replace("image://", "");
 
 		$("#quest_id").text(this.nowID);
-		$("#popTitle").html("<h1>" + this.nowTitle + "</h1>");
+		$("#popTitle").html(this.nowTitle);
 		$("#popDesc").html(this.nowDesc);
 		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
 
@@ -53,11 +60,19 @@ export class PopMgr {
 		$("#copyIdBtn").on("click", this.onCopyId);
 		$("#copyIdBtn").css("display", "block");
 
+		// 绑定点击复制任务ID
+		$("#copyLinkBtn").off("click");
+		$("#copyLinkBtn").on("click", this.onCopyLink);
+		$("#copyLinkBtn").css("display", "block");
+
 		$("#copyBtn").text(
 			ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc"
 		);
 		$("#copyIdBtn").text(
 			ProjectData.language == lang.zh ? "复制任务ID" : "Copy ID"
+		);
+		$("#copyLinkBtn").text(
+			ProjectData.language == lang.zh ? "复制任务链接" : "Copy Link"
 		);
 
 		$("btnClosePop").off("click");
@@ -79,6 +94,7 @@ export class PopMgr {
 		);
 		$("#copyBtn").css("display", "none");
 		$("#copyIdBtn").css("display", "none");
+		$("#copyLinkBtn").css("display", "none");
 	}
 
 	static processDesc(desc: string): string {

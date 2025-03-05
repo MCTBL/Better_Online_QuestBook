@@ -1,10 +1,10 @@
-import { MainPage } from "./MainPage.js";
+import { MainPage } from "./MainPage";
 
 export class index {
 
-    constructor() {
-        new MainPage();
-    }
+	constructor() {
+		(window as any).mp = new MainPage();
+	}
 }
 
 new index();

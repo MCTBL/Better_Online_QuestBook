@@ -1,4 +1,3 @@
-import { ProjectConfig } from "./ProjectConfig";
 
 /**任务栏 */
 export type questLine = {
@@ -8,16 +7,7 @@ export type questLine = {
 	title_zh?: string;
 };
 
-export type m2qData = { action: msgAction; data: any };
 
-export enum msgAction {
-	init = "init",
-	ready = "ready",
-	showPopup = "showPopup",
-	resetChart = "resetChart",
-	closeSearchPopup = "closeSearchPopup",
-	showSearchPopup = "showSearchPopup",
-}
 
 export type dialogMsg = {
 	content: string;

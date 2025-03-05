@@ -8,7 +8,33 @@
 
 ### How to use locally/本地使用方式
 
-根目录下执行`pnpm i`，然后执行`pnpm run debug`即可
+#### 初始化
+
+*PNPM*: 根目录下执行`pnpm i`
+
+*NPM*: 根目录下执行`npm i`
+
+#### 构建
+
+*PNPM*：根目录`pnpm run build`
+
+*PNPM*：根目录`npm run build`
+
+#### 开发
+
+*PNPM*：根目录`pnpm run start`
+
+*PNPM*：根目录`npm run start`
+
+tips:
+
+不需要服务器可以使用watch
+
+*PNPM*：根目录`pnpm run watch`
+
+*PNPM*：根目录`npm run watch`
+
+如果需要开启vconsole，可以在url后面添加`?log=1`get参数
 
 ### 更新说明
 
@@ -37,6 +63,7 @@
 - [x] 9,优化假任务
 - [x] 10,优化任务数据里边多余的字符
 - [x] 11,决定域名
+- [ ] 12,简单分割手机端和桌面端
 
 ---
 

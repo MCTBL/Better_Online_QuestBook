@@ -1,5 +1,5 @@
-import { TipsMgr } from "./TipsMgr.js";
-import { Utils } from "./Utils.js";
+import { TipsMgr } from "./TipsMgr";
+import { Utils } from "./Utils";
 
 export class EeggMgr {
 

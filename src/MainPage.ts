@@ -1,25 +1,24 @@
 import {
 	lang,
 	localEnum,
-	m2qData,
-	msgAction,
 	quest,
 	questAllData,
 	questData,
 	questLine,
-} from "./Define.js";
-import { EeggMgr } from "./EeggMgr.js";
-import { PopMgr } from "./PopMgr.js";
-import { ProjectConfig } from "./ProjectConfig.js";
-import { ProjectData } from "./ProjectData.js";
-import { TipsMgr } from "./TipsMgr.js";
-import { Utils } from "./Utils.js";
+} from "./Define";
+import { EeggMgr } from "./EeggMgr";
+import { PopMgr } from "./PopMgr";
+import { ProjectConfig } from "./ProjectConfig";
+import { ProjectData } from "./ProjectData";
+import { QuestList } from "./QuestList";
+import { TipsMgr } from "./TipsMgr";
+import { Utils } from "./Utils";
 
 export class MainPage {
 	private questLine: questLine[] = [];
 	private buttonList: JQuery<HTMLElement>[] = [];
 	/**是否展示侧边栏 */
-	private showSidebar: boolean = false;
+	private isSidebarHide: boolean = false;
 	/**所有任务的数据 */
 	private questAllData: { [lang: string]: questAllData } = {};
 
@@ -28,19 +27,34 @@ export class MainPage {
 	/**任务ID对应任务数据 */
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
+	private oldQuestData: { title: string; data: any } = null!;
+
+	private startX = 0;
+	private startY = 0;
+
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
-			const iframe = $("#mainIframe");
-			iframe.on("load", () => {
-				//iframe加载完成
-				this.initLang();
-				this.initPage();
-				this.addEvent();
-				this.loadQuestLine();
-				this.showProjectMsg();
-			});
+
+			let url = new URL(window.location.href);
+			ProjectData.urlParameter = Utils.processUrlParameters(url);
+			ProjectData.basicUrl = url.origin;
+
+			this.initPlatform();
+			this.initLang();
+			this.initPage();
+			this.addEvent();
+			this.loadQuestLine();
+			this.showProjectMsg();
 		});
+	}
+
+	initPlatform() {
+		if (isMobile.phone) {
+			ProjectData.isPhone = true;
+		} else {
+			ProjectData.isPhone = false;
+		}
 	}
 
 	showProjectMsg() {
@@ -91,10 +105,16 @@ export class MainPage {
 	}
 
 	addEvent() {
-		addEventListener("message", this.onGetMessageFromIframe);
 		$("#toggleSidebar").on("click", this.toggleSidebar);
 
 		addEventListener("keydown", this.onKeyDown);
+
+		addEventListener("touchstart", (e: TouchEvent) => {
+			this.startX = e.touches[0].pageX;
+			this.startY = e.touches[0].pageY;
+		});
+
+		addEventListener("touchend", this.whenRightSlide);
 
 		$("#logoImg").on("click", this.onClickLogo);
 		$("#logoImg").on("contextmenu", this.onRightClickLogo);
@@ -107,6 +127,8 @@ export class MainPage {
 		$("#changeLang").on("click", this.onChangeLang);
 
 		$("#btnShowMsg").on("click", this.onClickInfo);
+
+		$("#btnTop").on("click", this.onClickTop);
 	}
 
 	// 加载任务列表
@@ -124,7 +146,7 @@ export class MainPage {
 
 	loadQuestData() {
 		if (this.questAllData && this.questAllData[ProjectData.language] != null) {
-			this.initMainIframe();
+			this.initQuestList();
 		} else {
 			$.getJSON(
 				ProjectData.getQuestDataPath(ProjectData.language),
@@ -160,7 +182,7 @@ export class MainPage {
 					}
 					this.titleToQuest[ProjectData.language] = qn;
 					this.questIdToQuest[ProjectData.language] = qid;
-					this.initMainIframe();
+					this.initQuestList();
 				}
 			);
 		}
@@ -179,17 +201,18 @@ export class MainPage {
 						button.removeClass("selected").addClass("unselected");
 					}
 				});
-				let data: m2qData = {
-					action: msgAction.init,
-					data: {
-						title: ProjectData.language.includes("zh")
-							? quest.title_zh
-							: quest.title,
-						data: this.questAllData[ProjectData.language][quest.quest],
-					},
+				let data: any = {
+					title: ProjectData.language.includes("zh")
+						? quest.title_zh
+						: quest.title,
+					data: this.questAllData[ProjectData.language][quest.quest],
 				};
-				this.sendMessageToIframe(data);
-				this.onClosePop();
+				QuestList.getPageData(data);
+				this.oldQuestData = Utils.deepClone(data);
+
+				ProjectData.isPhone || this.onClosePop();
+
+				ProjectData.isPhone && this.toggleSidebar();
 			},
 		});
 		button.data("questData", quest);
@@ -209,8 +232,7 @@ export class MainPage {
 		return button;
 	}
 
-	initMainIframe() {
-		//处理一些零碎的数据
+	initQuestList() {
 		$("#search").val("");
 		$("#search").attr(
 			"placeholder",
@@ -240,53 +262,37 @@ export class MainPage {
 		let questData: questData =
 			this.questAllData[ProjectData.language][quest.quest];
 		if (questData) {
-			let data: m2qData = {
-				action: msgAction.init,
-				data: {
-					title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
-					data: questData,
-				},
+			let data: any = {
+				title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
+				data: questData,
 			};
-			this.sendMessageToIframe(data);
-
+			QuestList.getPageData(data);
+			this.oldQuestData = Utils.deepClone(data);
 			TipsMgr.hideLoading();
+			this.checkHasQuestIdInParameters();
 		} else {
 			console.error("任务数据异常");
 			TipsMgr.showTips("任务数据异常");
 		}
 	}
 
-	/**发送消息到子域 */
-	sendMessageToIframe(msg: m2qData) {
-		const iframe = $("#mainIframe")[0] as HTMLIFrameElement;
-		iframe.contentWindow!.postMessage(msg, "*");
+	checkHasQuestIdInParameters() {
+		if (ProjectData.urlParameter.has("id")) {
+			var tempQuestId = ProjectData.urlParameter.get("id")!;
+			if (tempQuestId in this.questIdToQuest[ProjectData.language]) {
+				PopMgr.showPopup(
+					this.questIdToQuest[ProjectData.language][tempQuestId]
+				);
+			} else {
+				console.error("任务id有误");
+				TipsMgr.showTips("任务id有误");
+			}
+		}
 	}
 
-	//事件
-	onGetMessageFromIframe = (event: MessageEvent) => {
-		let data: m2qData = event.data;
-		switch (data.action) {
-			case msgAction.ready:
-				// this.initMainIframe();
-				break;
-			case msgAction.showPopup:
-				// 展示任务详情
-				let quest = this.questIdToQuest[ProjectData.language][data.data];
-				if (quest) {
-					PopMgr.showPopup(quest);
-				} else {
-					console.warn("任务ID没有对应数据！" + data.data);
-				}
-				break;
-			default:
-				console.warn("未知的消息", data);
-				break;
-		}
-	};
 	onKeyDown = (event: KeyboardEvent) => {
 		if (event.key == "r") {
-			let data: m2qData = { action: msgAction.resetChart, data: null };
-			this.sendMessageToIframe(data);
+			QuestList.resetChart();
 		}
 	};
 
@@ -297,32 +303,42 @@ export class MainPage {
 	onRightClickLogo = (evt: Event) => {
 		evt.preventDefault(); //拦截邮件点击
 		evt.stopPropagation(); //拦截事件冒泡
-		console.warn("右键点击");
 	};
 
 	toggleSidebar = () => {
-		this.onClosePop();
-		if (!this.showSidebar) {
-			$("#sidebar").animate({ left: "-280px" }, 500);
-			$("#mainPage").animate(
-				{
-					left: "0px",
-					width: "100%",
-				},
-				500
-			);
-			this.showSidebar = true;
+		let sidebarWidth = $("#sidebar").width();
+		$("#toggleSidebar").hide();
+		// TipsMgr.showLoading();
+		let time = ProjectData.isPhone ? 250 : 500;
+		setTimeout(() => {
+			$("#toggleSidebar").show();
+			// TipsMgr.hideLoading();
+		}, time);
+		if (!this.isSidebarHide) {
+			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, time);
+			if (!ProjectData.isPhone) {
+				$("#mainPage").animate(
+					{
+						left: "0px",
+						width: "100%",
+					},
+					time
+				);
+			}
+			this.isSidebarHide = true;
 		} else {
-			$("#sidebar").animate({ left: "0px" }, 500);
-			let width = $(window).width()! - 280;
-			$("#mainPage").animate(
-				{
-					left: "280px",
-					width: width + "px",
-				},
-				500
-			);
-			this.showSidebar = false;
+			$("#sidebar").animate({ left: "0px" }, time);
+			if (!ProjectData.isPhone) {
+				let width = $(window).width()! - sidebarWidth!;
+				$("#mainPage").animate(
+					{
+						left: `${sidebarWidth}px`,
+						width: width + "px",
+					},
+					time
+				);
+			}
+			this.isSidebarHide = false;
 		}
 	};
 
@@ -337,6 +353,9 @@ export class MainPage {
 				$("#btnCloseSp").show();
 				$("#btnCloseSp").animate({ opacity: 1 }, 500);
 			}
+
+			ProjectData.isPhone && $("#logoBg").animate({ opacity: 0.4 }, 500);
+
 			let questList: quest[] = [];
 			for (let key in this.titleToQuest[ProjectData.language]) {
 				if (
@@ -350,10 +369,7 @@ export class MainPage {
 					}
 				}
 			}
-			this.sendMessageToIframe({
-				action: msgAction.showSearchPopup,
-				data: questList,
-			});
+			QuestList.showSearchPopup(questList);
 		} else {
 			this.onClosePop();
 		}
@@ -363,10 +379,12 @@ export class MainPage {
 		$("#search").val("");
 		$("#btnCloseSp").hide();
 		$("#btnCloseSp").css("opacity", 0);
-		this.sendMessageToIframe({
-			action: msgAction.closeSearchPopup,
-			data: null,
-		});
+		ProjectData.isPhone && $("#logoBg").css("opacity", 1);
+		if (ProjectData.isPhone) {
+			QuestList.getPageData(this.oldQuestData);
+		} else {
+			QuestList.clearSearchList();
+		}
 	};
 	onSearchBlur = () => {};
 
@@ -382,11 +400,33 @@ export class MainPage {
 
 		this.initTitle();
 
-		this.onClosePop();
+		ProjectData.isPhone || this.onClosePop();
 		this.loadQuestData();
 	};
 
 	onClickInfo() {
 		PopMgr.showInfoPopup();
 	}
+
+	onClickTop = () => {
+		// $("#btnTop").animate({ opacity: 0 }, 500);
+		if (!this.isSidebarHide) {
+			$("#sidebar").animate({ scrollTop: 0 }, 500);
+		} else {
+			QuestList.toTop();
+		}
+	};
+
+	whenRightSlide = (e: TouchEvent) => {
+		const offsetX = e.changedTouches[0].clientX - this.startX;
+		const offsetY = e.changedTouches[0].clientY - this.startY;
+		if (
+			Math.abs(offsetY) <= 10 &&
+			offsetX > 50 &&
+			this.isSidebarHide &&
+			ProjectData.isPhone
+		) {
+			this.toggleSidebar();
+		}
+	};
 }
