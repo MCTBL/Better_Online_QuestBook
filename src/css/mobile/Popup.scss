@@ -61,18 +61,6 @@
 	font-size: 26px;
 }
 
-#copyLinkBtn {
-	position: absolute;
-	text-align: center;
-	font-size: 30px;
-	transition: transform 0.1s ease-in-out;
-	border: 2px solid $borderColor;
-	border-radius: 2px;
-	background-color: #dbd2bb;
-	margin: 0 5px 0 0;
-	bottom: 10px;
-}
-
 #copyBtn {
 	position: absolute;
 	text-align: center;
@@ -83,11 +71,11 @@
 	background-color: #dbd2bb;
 	margin: 0 5px 0 0;
 	bottom: 90px;
+	white-space: nowrap;
 }
 
 #copyIdBtn {
-	cursor: pointer;
-	float: left;
+	position: absolute;
 	text-align: center;
 	font-size: 30px;
 	transition: transform 0.1s ease-in-out;
@@ -96,7 +84,20 @@
 	background-color: #dbd2bb;
 	margin: 0 5px 0 0;
 	bottom: 50px;
+	white-space: nowrap;
+}
+
+#copyLinkBtn {
 	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	transition: transform 0.1s ease-in-out;
+	border: 2px solid $borderColor;
+	border-radius: 2px;
+	background-color: #dbd2bb;
+	margin: 0 5px 0 0;
+	bottom: 10px;
+	white-space: nowrap;
 }
 
 #copyLinkBtn:active,
