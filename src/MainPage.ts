@@ -18,7 +18,7 @@ export class MainPage {
 	private questLine: questLine[] = [];
 	private buttonList: JQuery<HTMLElement>[] = [];
 	/**是否展示侧边栏 */
-	private showSidebar: boolean = false;
+	private isSidebarHide: boolean = false;
 	/**所有任务的数据 */
 	private questAllData: { [lang: string]: questAllData } = {};
 
@@ -28,6 +28,9 @@ export class MainPage {
 	private questIdToQuest: { [lang: string]: { [key: string]: quest } } = {};
 
 	private oldQuestData: { title: string; data: any } = null!;
+
+	private startX = 0;
+	private startY = 0;
 
 	constructor() {
 		$(() => {
@@ -105,6 +108,13 @@ export class MainPage {
 		$("#toggleSidebar").on("click", this.toggleSidebar);
 
 		addEventListener("keydown", this.onKeyDown);
+
+		addEventListener("touchstart", (e: TouchEvent) => {
+			this.startX = e.touches[0].pageX;
+			this.startY = e.touches[0].pageY;
+		});
+
+		addEventListener("touchend", this.whenRightSlide);
 
 		$("#logoImg").on("click", this.onClickLogo);
 		$("#logoImg").on("contextmenu", this.onRightClickLogo);
@@ -304,7 +314,7 @@ export class MainPage {
 			$("#toggleSidebar").show();
 			// TipsMgr.hideLoading();
 		}, time);
-		if (!this.showSidebar) {
+		if (!this.isSidebarHide) {
 			$("#sidebar").animate({ left: `-${sidebarWidth}px` }, time);
 			if (!ProjectData.isPhone) {
 				$("#mainPage").animate(
@@ -315,7 +325,7 @@ export class MainPage {
 					time
 				);
 			}
-			this.showSidebar = true;
+			this.isSidebarHide = true;
 		} else {
 			$("#sidebar").animate({ left: "0px" }, time);
 			if (!ProjectData.isPhone) {
@@ -328,7 +338,7 @@ export class MainPage {
 					time
 				);
 			}
-			this.showSidebar = false;
+			this.isSidebarHide = false;
 		}
 	};
 
@@ -400,10 +410,23 @@ export class MainPage {
 
 	onClickTop = () => {
 		// $("#btnTop").animate({ opacity: 0 }, 500);
-		if (!this.showSidebar) {
+		if (!this.isSidebarHide) {
 			$("#sidebar").animate({ scrollTop: 0 }, 500);
 		} else {
 			QuestList.toTop();
+		}
+	};
+
+	whenRightSlide = (e: TouchEvent) => {
+		const offsetX = e.changedTouches[0].clientX - this.startX;
+		const offsetY = e.changedTouches[0].clientY - this.startY;
+		if (
+			Math.abs(offsetY) <= 10 &&
+			offsetX > 50 &&
+			this.isSidebarHide &&
+			ProjectData.isPhone
+		) {
+			this.toggleSidebar();
 		}
 	};
 }
