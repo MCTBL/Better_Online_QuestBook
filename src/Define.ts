@@ -21,14 +21,10 @@ export type dialogMsg = {
 };
 
 export enum localEnum {
-	// /**上次打开的任务页面 */
-	// mainIframeUrl = "mainIframeUrl",
+	/**上次选中的版本 */
+	selectVersionIndex = "selectVersionIndex",
 	/**上次选中的任务下标 */
 	selectBtnIndex = "selectBtnIndex",
-	// 	/**所有的任务数据 */
-	// 	questData = "questData",
-	// 	/**任务数据版本 */
-	// 	questDataVersion = "questDataVersion",
 	/**用户选中的语言 */
 	language = "language",
 }
