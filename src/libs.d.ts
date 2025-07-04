@@ -2,3 +2,4 @@ declare function html2canvas(element: HTMLElement, options?: any): Promise<HTMLC
 declare var isMobile: {
     phone: boolean;
 };
+declare var $: JQueryStatic;

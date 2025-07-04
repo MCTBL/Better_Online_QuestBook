@@ -1,6 +1,17 @@
-$frameBg: #f5f0d3;
-$borderColor: #692612;
-$bgMask: #000000bb;
+// Light theme colors
+$frameBg-light: #f5f0d3;
+$borderColor-light: #692612;
+$bgMask-light: #000000bb;
+
+// Dark theme colors
+$frameBg-dark: #2a2a2a;
+$borderColor-dark: #8b4513;
+$bgMask-dark: #000000bb;
+
+// Default to light theme
+$frameBg: var(--frameBg, #{$frameBg-light});
+$borderColor: var(--borderColor, #{$borderColor-light});
+$bgMask: var(--bgMask, #{$bgMask-light});
 
 // 所有的自定义深度必须在这里注册
 // 名字：深度
@@ -12,7 +23,8 @@ $z-layers: (
 	//-----固定角标-------
 	"toggleSidebar": 101,
 	"changeLang": 102,
-	"btnShowMsg": 103,
+	"themeToggle": 103,
+	"btnShowMsg": 104,
 
 	//-----弹出窗口-------
 	"overlay": 201,
