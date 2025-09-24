@@ -9,8 +9,8 @@ export class ProjectConfig {
 	static readonly projectVersion = "1.0.0";
 	static readonly projectDescription = "BetterOnlineQuestBook";
 	static readonly projectAuthor = ["MCTBL", "Grievous_Rain"];
-	static readonly versionList = ["2.7.2","2.8.0"];
-	static readonly resList = ["272", "280"];
+	static readonly versionList = ["2.8.0", "2.7.2"];
+	static readonly resList = ["280", "272"];
 	static readonly questLinePath = "quest_line.json";
 	static readonly questDataPath = "quest_json";
 	static readonly projectUrl =
