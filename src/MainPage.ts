@@ -39,7 +39,7 @@ export class MainPage {
 			let url = new URL(window.location.href);
 			ProjectData.urlParameter = Utils.processUrlParameters(url);
 			ProjectData.basicUrl = url.origin;
-
+			this.initVersion();
 			this.initPlatform();
 			this.initLang();
 			this.initPage();
@@ -69,6 +69,12 @@ export class MainPage {
 		}, 300);
 	}
 
+	initVersion(){
+		ProjectData.selectVersionIndex = parseInt(
+			localStorage.getItem(localEnum.selectVersionIndex) || "0"
+		);
+	}
+
 	initPage() {
 		for (let i = 0; i < ProjectConfig.versionList.length; i++) {
 			let option = $("<option>", {
@@ -77,6 +83,8 @@ export class MainPage {
 			});
 			$("#versionSelect").append(option);
 		}
+
+		$("#versionSelect").val(ProjectConfig.versionList[ProjectData.selectVersionIndex]);
 	}
 
 	initLang() {
@@ -129,6 +137,16 @@ export class MainPage {
 		$("#btnShowMsg").on("click", this.onClickInfo);
 
 		$("#btnTop").on("click", this.onClickTop);
+
+
+		$("#versionSelect").on("change", (e: any) => {
+			if(ProjectData.selectVersionIndex != e.target.selectedIndex) {
+				ProjectData.selectVersionIndex = e.target.selectedIndex;
+				localStorage.setItem(localEnum.selectVersionIndex, ProjectData.selectVersionIndex.toString());
+				//直接刷新页面即可
+				location.reload();
+			}
+		});
 	}
 
 	// 加载任务列表

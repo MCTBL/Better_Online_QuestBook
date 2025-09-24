@@ -54,7 +54,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) {}
+		} catch (err) { }
 
 		document.body.removeChild(el);
 		if (originalRange) {
