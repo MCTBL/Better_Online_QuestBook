@@ -1,6 +1,25 @@
 export class Utils {
 	private static typingInterval: any = null;
 
+	/**将base64加密的任务id解密后取后64bit转换为lower数字id */
+	static processBase64ToBinary(strId: string): string {
+		const std = strId
+			.replace(/-/g, "+")
+			.replace(/_/g, "/")
+			.padEnd(strId.length + ((4 - (strId.length % 4)) % 4), "=");
+
+		const bin = atob(std);
+		const bytes = new Uint8Array(bin.length);
+		for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+
+		const hex = Array.from(bytes, (b) =>
+			b.toString(16).padStart(2, "0")
+		).join("");
+		const last16 = hex.slice(-16);
+		const u64 = BigInt("0x" + last16);
+		return u64 >> 63n ? String(u64 - (1n << 64n)) : String(u64);
+	}
+
 	/**解析url */
 	static processUrlParameters(url: URL): Map<string, string> {
 		let map = new Map<string, string>();
@@ -54,7 +73,7 @@ export class Utils {
 		var success = false;
 		try {
 			success = document.execCommand("copy");
-		} catch (err) { }
+		} catch (err) {}
 
 		document.body.removeChild(el);
 		if (originalRange) {
@@ -200,7 +219,8 @@ export class Utils {
 		// 判断是否为object类型的辅助函数，减少重复代码
 		function isObject(target: any) {
 			return (
-				(typeof target === "object" && target) || typeof target === "function"
+				(typeof target === "object" && target) ||
+				typeof target === "function"
 			);
 		}
 
@@ -299,7 +319,8 @@ export class Utils {
 		let textWithUrls = html.replace(/<br\s*\/?>/gi, "\n");
 
 		// 正则表达式匹配<a>标签，并捕获href属性值
-		const aTagRegex = /<a\s+[^>]*?href=["']([^"']*)["'][^>]*?>([^<]*?)<\/a>/gi;
+		const aTagRegex =
+			/<a\s+[^>]*?href=["']([^"']*)["'][^>]*?>([^<]*?)<\/a>/gi;
 
 		// 替换函数，用于处理每个匹配的<a>标签
 		const replacer = (match: string, url: string, text: string): string => {

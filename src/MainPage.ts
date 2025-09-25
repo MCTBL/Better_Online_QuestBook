@@ -69,7 +69,7 @@ export class MainPage {
 		}, 300);
 	}
 
-	initVersion(){
+	initVersion() {
 		ProjectData.selectVersionIndex = parseInt(
 			localStorage.getItem(localEnum.selectVersionIndex) || "0"
 		);
@@ -84,7 +84,9 @@ export class MainPage {
 			$("#versionSelect").append(option);
 		}
 
-		$("#versionSelect").val(ProjectConfig.versionList[ProjectData.selectVersionIndex]);
+		$("#versionSelect").val(
+			ProjectConfig.versionList[ProjectData.selectVersionIndex]
+		);
 	}
 
 	initLang() {
@@ -138,11 +140,13 @@ export class MainPage {
 
 		$("#btnTop").on("click", this.onClickTop);
 
-
 		$("#versionSelect").on("change", (e: any) => {
-			if(ProjectData.selectVersionIndex != e.target.selectedIndex) {
+			if (ProjectData.selectVersionIndex != e.target.selectedIndex) {
 				ProjectData.selectVersionIndex = e.target.selectedIndex;
-				localStorage.setItem(localEnum.selectVersionIndex, ProjectData.selectVersionIndex.toString());
+				localStorage.setItem(
+					localEnum.selectVersionIndex,
+					ProjectData.selectVersionIndex.toString()
+				);
 				//直接刷新页面即可
 				location.reload();
 			}
@@ -163,12 +167,16 @@ export class MainPage {
 	}
 
 	loadQuestData() {
-		if (this.questAllData && this.questAllData[ProjectData.language] != null) {
+		if (
+			this.questAllData &&
+			this.questAllData[ProjectData.language] != null
+		) {
 			this.initQuestList();
 		} else {
 			$.getJSON(
 				ProjectData.getQuestDataPath(ProjectData.language),
 				(data: any) => {
+					let versionCode = ProjectData.getVersion();
 					this.questAllData[ProjectData.language] = data;
 					let allData = this.questAllData[ProjectData.language];
 					let qn: any = {};
@@ -180,15 +188,27 @@ export class MainPage {
 						if (questList) {
 							for (let i = 0; i < questList.length; i++) {
 								let quest = questList[i];
+								quest.symbol =
+									"image://version/" +
+									versionCode +
+									"/quests_icons/QuestIcon/" +
+									Utils.processBase64ToBinary(
+										quest.quest_id
+									) +
+									".png";
 								qn[quest.title] = quest;
 								qid[quest.quest_id] = quest;
 								// //添加一个假任务
-								let fakeQuest = Utils.deepClone(ProjectData.fakeQuest);
+								let fakeQuest = Utils.deepClone(
+									ProjectData.fakeQuest
+								);
 								fakeQuest.x = quest.x;
 								fakeQuest.y = quest.y;
 								fakeQuest.name = nameIndex; // quest.quest_id;
 								nameIndex++;
-								fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
+								fakeQuest.symbolSize = Math.ceil(
+									quest.symbolSize * 1.3
+								);
 								fakeQuest.symbol =
 									"image://static/" +
 									(quest.is_main == 1 ? "main" : "not_main") +
@@ -196,7 +216,9 @@ export class MainPage {
 								fakeQuestList.push(fakeQuest);
 							}
 						}
-						allData[key].data = fakeQuestList.concat(allData[key].data);
+						allData[key].data = fakeQuestList.concat(
+							allData[key].data
+						);
 					}
 					this.titleToQuest[ProjectData.language] = qn;
 					this.questIdToQuest[ProjectData.language] = qid;
@@ -213,7 +235,10 @@ export class MainPage {
 			click: (btn: any) => {
 				this.buttonList.forEach((button, index) => {
 					if (button[0] == btn.currentTarget) {
-						localStorage.setItem(localEnum.selectBtnIndex, index.toString());
+						localStorage.setItem(
+							localEnum.selectBtnIndex,
+							index.toString()
+						);
 						button.removeClass("unselected").addClass("selected");
 					} else {
 						button.removeClass("selected").addClass("unselected");
@@ -236,12 +261,16 @@ export class MainPage {
 		button.data("questData", quest);
 
 		const img = $("<img>", {
-			src: ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`),
+			src: ProjectData.getPath(
+				`quests_icons/QuestLineIcon/${quest.quest}.png`
+			),
 			class: "questIcon",
 		});
 
 		const txt = $("<span>", {
-			text: ProjectData.language.includes("zh") ? quest.title_zh : quest.title,
+			text: ProjectData.language.includes("zh")
+				? quest.title_zh
+				: quest.title,
 			class: "questText",
 		});
 
@@ -271,7 +300,9 @@ export class MainPage {
 				let btn = this.buttonList[i];
 				let quest: questLine = btn.data("questData");
 				let title =
-					ProjectData.language == lang.zh ? quest.title_zh : quest.title;
+					ProjectData.language == lang.zh
+						? quest.title_zh
+						: quest.title;
 				btn.find(".questText").text(title!);
 			}
 		}
@@ -281,7 +312,10 @@ export class MainPage {
 			this.questAllData[ProjectData.language][quest.quest];
 		if (questData) {
 			let data: any = {
-				title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
+				title:
+					ProjectData.language == lang.zh
+						? quest.title_zh
+						: quest.title,
 				data: questData,
 			};
 			QuestList.getPageData(data);
@@ -381,7 +415,8 @@ export class MainPage {
 						.toLocaleUpperCase()
 						.indexOf(value.toString().toLocaleUpperCase()) != -1
 				) {
-					let tempQuest = this.titleToQuest[ProjectData.language][key];
+					let tempQuest =
+						this.titleToQuest[ProjectData.language][key];
 					if (tempQuest.title != undefined) {
 						questList.push(tempQuest);
 					}
