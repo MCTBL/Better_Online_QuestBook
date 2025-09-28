@@ -1,10 +1,9 @@
 node_modules
-tools/DefaultQuests
-tools/lang/
+tools/DefaultQuests/*
+tools/lang/*.lang
 tools/html/
 tools/js/
 tools/json/
-tools
 bin/bundle.js
 bin/bundle.js.map
 bin/questPage.js
