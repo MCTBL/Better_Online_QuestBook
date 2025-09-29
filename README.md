@@ -10,42 +10,50 @@
 
 #### 初始化
 
-*PNPM*: 根目录下执行`pnpm i`
+_PNPM_: 根目录下执行`pnpm i`
 
-*NPM*: 根目录下执行`npm i`
+_NPM_: 根目录下执行`npm i`
 
 #### 构建图集
 
-*PNPM*：根目录`pnpm run makeFileConfig`
+_PNPM_：根目录`pnpm run makeFileConfig`
 
-*PNPM*：根目录`npm run makeFileConfig`
+_PNPM_：根目录`npm run makeFileConfig`
 
 #### 构建
 
-*PNPM*：根目录`pnpm run build`
+_PNPM_：根目录`pnpm run build`
 
-*PNPM*：根目录`npm run build`
+_PNPM_：根目录`npm run build`
+
+#### 精简字体
+
+注意：项目默认只有一个字体。
+
+_PNPM_：根目录`pnpm run minifyFont`
+
+_PNPM_：根目录`npm run minifyFont`
 
 #### 开发
 
-*PNPM*：根目录`pnpm run start`
+_PNPM_：根目录`pnpm run start`
 
-*PNPM*：根目录`npm run start`
+_PNPM_：根目录`npm run start`
 
 tips:
 
-不需要服务器可以使用watch
+不需要服务器可以使用 watch
 
-*PNPM*：根目录`pnpm run watch`
+_PNPM_：根目录`pnpm run watch`
 
-*PNPM*：根目录`npm run watch`
+_PNPM_：根目录`npm run watch`
 
-如果需要开启vconsole，可以在url后面添加`?log=1`get参数
+如果需要开启 vconsole，可以在 url 后面添加`?log=1`get 参数
 
 ### 更新说明
 
 | 版本  | 说明                                                     |
-| :-: | :- |
+| :---: | :------------------------------------------------------- |
 | 0.0.1 | 先搭建个大概,整理下思路,有空再做,计划在 4 月份之前完工() |
 | 0.0.2 | 整理资源                                                 |
 | 0.0.3 | 一个简单的可运行版本                                     |
@@ -53,27 +61,27 @@ tips:
 | 0.0.5 | 添加菜单栏移动                                           |
 | 1.0.0 | 实现基本的浏览                                           |
 | 1.0.1 | 优化任务数据                                             |
-| 1.0.2 | 更新2.8.0                                             |
+| 1.0.2 | 更新 2.8.0                                               |
 | 1.0.3 | 使用图集文件                                             |
 
 ### TODOList
 
 以下任务排序不分先后
 
-- [x] 1，实现侧栏以及 iframe
-- [x] 2，实现任务详情
-- [x] 3，实现更好的工具链
-- [x] 4，弄个图标吧
-- [x] 5，弄个好看一点的 logo 吧
-- [x] 6，实现搜索任务
-- [x] 7，读取并且展示任务物品以及奖励列表
-- [x] 8，添加关于面板
-- [x] 9，优化假任务
-- [x] 10，优化任务数据里边多余的字符
-- [x] 11，决定域名
-- [x] 12，简单分割手机端和桌面端
-- [x] 13，更新2.8.0的切换
-- [x] 14，添加图集以及切换图集代码
+-   [x] 1，实现侧栏以及 iframe
+-   [x] 2，实现任务详情
+-   [x] 3，实现更好的工具链
+-   [x] 4，弄个图标吧
+-   [x] 5，弄个好看一点的 logo 吧
+-   [x] 6，实现搜索任务
+-   [x] 7，读取并且展示任务物品以及奖励列表
+-   [x] 8，添加关于面板
+-   [x] 9，优化假任务
+-   [x] 10，优化任务数据里边多余的字符
+-   [x] 11，决定域名
+-   [x] 12，简单分割手机端和桌面端
+-   [x] 13，更新 2.8.0 的切换
+-   [x] 14，添加图集以及切换图集代码
 
 ---
 
