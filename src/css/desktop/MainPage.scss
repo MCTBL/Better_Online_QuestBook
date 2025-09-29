@@ -18,6 +18,8 @@ body {
 
 	position: absolute;
 	font-family: "MyFont", sans-serif;
+	background-color: var(--bgColor);
+	color: var(--textColor);
 }
 
 #toggleSidebar {
@@ -27,7 +29,7 @@ body {
 	width: 40px;
 	height: 40px;
 	z-index: z(toggleSidebar);
-	color: rgb(0, 0, 0);
+	color: var(--textColor);
 	opacity: 0.7;
 }
 
@@ -42,14 +44,14 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 200px;
-	color: rgb(0, 0, 0);
+	color: var(--textColor);
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
 	display: none;
 	border: 5px solid $borderColor;
 	border-radius: 10px;
-	background-color: #fbf3e0;
+	background-color: var(--frameBg);
 	z-index: z(tips);
 }
 
@@ -92,4 +94,34 @@ body {
 .githubLink {
 	text-decoration: none;
 	color: inherit;
+}
+
+#themeToggle {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	z-index: z(themeToggle);
+	color: var(--textColor);
+}
+
+// CSS custom properties for theming
+:root {
+	--frameBg: #{$frameBg-light};
+	--borderColor: #{$borderColor-light};
+	--bgMask: #{$bgMask-light};
+	--textColor: #000000;
+	--bgColor: #ffffff;
+	--sidebarBg: #ffffff;
+}
+
+:root[data-theme="dark"] {
+	--frameBg: #{$frameBg-dark};
+	--borderColor: #{$borderColor-dark};
+	--bgMask: #{$bgMask-dark};
+	--textColor: #ffffff;
+	--bgColor: #1a1a1a;
+	--sidebarBg: #333333;
 }
