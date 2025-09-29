@@ -14,12 +14,11 @@ export class ProjectData {
 
 	static selectVersionIndex: number = 0;
 	static getPath(url: string) {
-		return (
-			"version/" +
-			ProjectConfig.resList[ProjectData.selectVersionIndex] +
-			"/" +
-			url
-		);
+		return "version/" + this.getVersion() + "/" + url;
+	}
+
+	static getVersion() {
+		return ProjectConfig.resList[ProjectData.selectVersionIndex];
 	}
 
 	/**获取任务列表数据地址 */
