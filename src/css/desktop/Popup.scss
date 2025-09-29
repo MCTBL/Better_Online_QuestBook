@@ -1,152 +1,152 @@
-@import "./Common.scss";
+@use "./Common.scss" as *;
 
 #overlay {
-	display: none;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: $bgMask;
-	z-index: z(overlay);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $bgMask;
+    z-index: z(overlay);
 }
 
 #popup {
-	flex-direction: column;
-	display: flex;
-	transform: scale(0.85);
-	transform-origin: center center;
-	padding: 20px;
-	border: 5px solid $borderColor;
-	border-radius: 10px;
-	background-color: #fbf3e0;
-	width: 80vw;
-	height: 80vh;
+    flex-direction: column;
+    display: flex;
+    transform: scale(0.85);
+    transform-origin: center center;
+    padding: 20px;
+    border: 5px solid $borderColor;
+    border-radius: 10px;
+    background-color: #fbf3e0;
+    width: 80vw;
+    height: 80vh;
 }
 
 #leftAndRight {
-	flex-direction: row;
-	display: flex;
-	max-height: 70vh;
-	height: 100%;
+    flex-direction: row;
+    display: flex;
+    max-height: 70vh;
+    height: 100%;
 }
 
 #popupLeft {
-	/* background-color: red; */
-	width: 50%;
-	padding: 20px;
+    /* background-color: red; */
+    width: 50%;
+    padding: 20px;
 }
 
 #popupRight {
-	/* background: green; */
-	width: 50%;
-	padding: 20px;
+    /* background: green; */
+    width: 50%;
+    padding: 20px;
 }
 
 .v-line {
-	border-left: 2px solid gray;
-	top: 50%;
-	height: 100%;
-	margin: 0 1%;
+    border-left: 2px solid gray;
+    top: 50%;
+    height: 100%;
+    margin: 0 1%;
 }
 
 #buttonsBox {
-	position: absolute;
-	bottom: 0px;
-	height: 80px;
-	left: 40px;
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    left: 40px;
 }
 
 #quest_id {
-	display: none;
-	font-size: 26px;
+    display: none;
+    font-size: 26px;
 }
 
 #copyLinkBtn,
 #copyBtn,
 #copyIdBtn {
-	cursor: pointer;
-	float: left;
-	text-align: center;
-	font-size: 24px;
-	transition: transform 0.1s ease-in-out;
-	border: 2px solid $borderColor;
-	border-radius: 2px;
-	background-color: #dbd2bb;
-	margin: 0 5px 0 0;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    transition: transform 0.1s ease-in-out;
+    border: 2px solid $borderColor;
+    border-radius: 2px;
+    background-color: #dbd2bb;
+    margin: 0 5px 0 0;
 }
 
 #copyLinkBtn:active,
 #copyIdBtn:active,
 #copyBtn:active {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 #screenShot {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	width: 50px;
-	height: 50px;
-	display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
 }
 
 #btnClosePop {
-	cursor: pointer;
-	width: 40px;
-	height: 40px;
-	color: $borderColor;
-	position: absolute;
-	top: 5px;
-	right: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: $borderColor;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 #popTitle {
-	text-align: center;
-	margin: -13px;
-	font-size: 18px;
-	position: relative;
-	font-size: 50px;
-	margin-bottom: 10px;
+    text-align: center;
+    margin: -13px;
+    font-size: 18px;
+    position: relative;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 div #descBox {
-	border: 1px solid $borderColor;
-	border-width: 3px;
-	border-radius: 10px;
-	height: 95%;
-	overflow-y: auto;
-	padding-left: 2%;
-	padding-right: 2%;
-	margin-bottom: 10px;
+    border: 1px solid $borderColor;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 95%;
+    overflow-y: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
 }
 
 div #rewardsBox {
-	border: 1px solid $borderColor;
-	border-width: 3px;
-	border-radius: 10px;
-	height: 47.5%;
-	overflow-y: auto;
-	margin-bottom: 10px;
+    border: 1px solid $borderColor;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 47.5%;
+    overflow-y: auto;
+    margin-bottom: 10px;
 }
 
 #popDesc {
-	font-size: 22px;
-	line-height: 30px;
-	color: rgb(0, 0, 0);
-	font-weight: normal;
-	text-decoration: none;
-	font-style: normal;
-	white-space: break-spaces;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    white-space: break-spaces;
 }
 
 #popDesc a {
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 #quest_logo {
-	margin: 15%;
-	width: 70%;
+    margin: 15%;
+    width: 70%;
 }

@@ -1,3 +1,4 @@
+import { AtlasMgr } from "./AtlasMgr";
 import { lang, quest } from "./Define";
 import { ProjectData } from "./ProjectData";
 import { TipsMgr } from "./TipsMgr";
@@ -39,7 +40,8 @@ export class PopMgr {
 		$("#quest_id").text(this.nowID);
 		$("#popTitle").html(this.nowTitle);
 		$("#popDesc").html(this.nowDesc);
-		$("#quest_logo")[0].setAttribute("src", this.nowLogo);
+		let img = $("#quest_logo")[0] as HTMLImageElement;
+		AtlasMgr.instance.setImgSrc(img, this.nowLogo);
 
 		$("#mainPage").focus();
 		removeEventListener("keydown", this.onKeyDown);

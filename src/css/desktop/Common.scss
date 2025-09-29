@@ -5,30 +5,30 @@ $bgMask: #000000bb;
 // 所有的自定义深度必须在这里注册
 // 名字：深度
 $z-layers: (
-	//-----基础-------
-	"mainPage": 1,
-	"sidebar": 2,
+    //-----基础-------
+    "mainPage": 1,
+    "sidebar": 2,
 
-	//-----固定角标-------
-	"toggleSidebar": 101,
-	"changeLang": 102,
-	"btnShowMsg": 103,
+    //-----固定角标-------
+    "toggleSidebar": 101,
+    "changeLang": 102,
+    "btnShowMsg": 103,
 
-	//-----弹出窗口-------
-	"overlay": 201,
-	"tips": 202,
+    //-----弹出窗口-------
+    "overlay": 201,
+    "tips": 202,
 
-	//-----顶级弹窗-------
-	"loadingMask": 301,
+    //-----顶级弹窗-------
+    "loadingMask": 301,
 
-	//-----杂七杂八-------
+    //-----杂七杂八-------
 );
 
 @function z($key) {
-	@if map-has-key($z-layers, $key) {
-		@return map-get($z-layers, $key);
-	}
+    @if map-has-key($z-layers, $key) {
+        @return map-get($z-layers, $key);
+    }
 
-	@warn "Unknown `#{$key}` in $z-layers.";
-	@return 0;
+    @warn "Unknown `#{$key}` in $z-layers.";
+    @return 0;
 }

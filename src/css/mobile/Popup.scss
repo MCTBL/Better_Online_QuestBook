@@ -1,174 +1,174 @@
-@import "./Common.scss";
+@use "./Common.scss" as *;
 
 #overlay {
-	display: none;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: $bgMask;
-	z-index: z(overlay);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $bgMask;
+    z-index: z(overlay);
 }
 
 #popup {
-	flex-direction: column;
-	display: flex;
-	transform-origin: center center;
-	border: 5px solid $borderColor;
-	border-radius: 10px;
-	background-color: #fbf3e0;
-	width: calc(100vw - 10px);
-	// height: calc(100vh - 10px);
-	height: 80vh;
+    flex-direction: column;
+    display: flex;
+    transform-origin: center center;
+    border: 5px solid $borderColor;
+    border-radius: 10px;
+    background-color: #fbf3e0;
+    width: calc(100vw - 10px);
+    // height: calc(100vh - 10px);
+    height: 80vh;
 }
 
 #leftAndRight {
-	max-height: 80vh;
-	height: 100%;
+    max-height: 80vh;
+    height: 100%;
 }
 
 #popupLeft {
-	width: calc(100% - 10px);
-	padding: 5px;
-	height: 100%;
+    width: calc(100% - 10px);
+    padding: 5px;
+    height: 100%;
 }
 
 #popupRight {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	width: 10vh;
-	height: 10vh;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 10vh;
+    height: 10vh;
 }
 
 .v-line {
-	display: none;
+    display: none;
 }
 
 #buttonsBox {
-	position: absolute;
-	bottom: 0px;
-	height: 10vh;
-	width: 25vh;
-	left: 20px;
+    position: absolute;
+    bottom: 0px;
+    height: 10vh;
+    width: 25vh;
+    left: 20px;
 }
 
 #quest_id {
-	display: none;
-	font-size: 26px;
+    display: none;
+    font-size: 26px;
 }
 
 #copyBtn {
-	position: absolute;
-	text-align: center;
-	font-size: 30px;
-	transition: transform 0.1s ease-in-out;
-	border: 2px solid $borderColor;
-	border-radius: 2px;
-	background-color: #dbd2bb;
-	margin: 0 5px 0 0;
-	bottom: 90px;
-	white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transition: transform 0.1s ease-in-out;
+    border: 2px solid $borderColor;
+    border-radius: 2px;
+    background-color: #dbd2bb;
+    margin: 0 5px 0 0;
+    bottom: 90px;
+    white-space: nowrap;
 }
 
 #copyIdBtn {
-	position: absolute;
-	text-align: center;
-	font-size: 30px;
-	transition: transform 0.1s ease-in-out;
-	border: 2px solid $borderColor;
-	border-radius: 2px;
-	background-color: #dbd2bb;
-	margin: 0 5px 0 0;
-	bottom: 50px;
-	white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transition: transform 0.1s ease-in-out;
+    border: 2px solid $borderColor;
+    border-radius: 2px;
+    background-color: #dbd2bb;
+    margin: 0 5px 0 0;
+    bottom: 50px;
+    white-space: nowrap;
 }
 
 #copyLinkBtn {
-	position: absolute;
-	text-align: center;
-	font-size: 30px;
-	transition: transform 0.1s ease-in-out;
-	border: 2px solid $borderColor;
-	border-radius: 2px;
-	background-color: #dbd2bb;
-	margin: 0 5px 0 0;
-	bottom: 10px;
-	white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transition: transform 0.1s ease-in-out;
+    border: 2px solid $borderColor;
+    border-radius: 2px;
+    background-color: #dbd2bb;
+    margin: 0 5px 0 0;
+    bottom: 10px;
+    white-space: nowrap;
 }
 
 #copyLinkBtn:active,
 #copyIdBtn:active,
 #copyBtn:active {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 #screenShot {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	width: 50px;
-	height: 50px;
-	display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
 }
 
 #btnClosePop {
-	cursor: pointer;
-	width: 40px;
-	height: 40px;
-	color: $borderColor;
-	position: absolute;
-	top: 5px;
-	right: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: $borderColor;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 #popTitle {
-	text-align: center;
-	font-size: 18px;
-	position: relative;
-	font-size: 40px;
-	margin: 0px;
-	top: 10px;
-	margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    font-size: 40px;
+    margin: 0px;
+    top: 10px;
+    margin-bottom: 10px;
 }
 
 div #descBox {
-	border: 1px solid $borderColor;
-	border-width: 3px;
-	border-radius: 10px;
-	height: 50vh;
-	overflow-y: auto;
-	padding-left: 2%;
-	padding-right: 2%;
-	margin-bottom: 10px;
+    border: 1px solid $borderColor;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 50vh;
+    overflow-y: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
 }
 
 div #rewardsBox {
-	border: 1px solid $borderColor;
-	border-width: 3px;
-	border-radius: 10px;
-	height: 47.5%;
-	overflow-y: auto;
-	margin-bottom: 10px;
+    border: 1px solid $borderColor;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 47.5%;
+    overflow-y: auto;
+    margin-bottom: 10px;
 }
 
 #popDesc {
-	font-size: 26px;
-	line-height: 30px;
-	color: rgb(0, 0, 0);
-	font-weight: normal;
-	text-decoration: none;
-	font-style: normal;
-	white-space: break-spaces;
+    font-size: 26px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    white-space: break-spaces;
 }
 
 #popDesc a {
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 #quest_logo {
-	width: 100%;
+    width: 100%;
 }

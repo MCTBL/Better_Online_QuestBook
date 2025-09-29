@@ -1,99 +1,99 @@
-@import "./Common.scss";
+@use "./Common.scss" as *;
 
 @font-face {
-	font-family: "MyFont";
-	src: url("../../../fonts/Unifont-Regular.woff2") format("woff2");
+    font-family: "MyFont";
+    src: url("../../../fonts/Unifont-Regular.woff2") format("woff2");
 }
 
 button {
-	font-family: "MyFont";
+    font-family: "MyFont";
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	width: 100vw;
-	height: 100vh;
-	position: absolute;
-	font-family: "MyFont", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    font-family: "MyFont", sans-serif;
 }
 
 #toggleSidebar {
-	position: absolute;
-	bottom: 5px;
-	left: 5px;
-	width: 40px;
-	height: 40px;
-	z-index: z(toggleSidebar);
-	color: rgb(0, 0, 0);
-	opacity: 0.7;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    z-index: z(toggleSidebar);
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
 }
 
 #toggleSidebar:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
 #tips {
-	font-size: 30px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 200px;
-	color: rgb(0, 0, 0);
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	display: none;
-	border: 5px solid $borderColor;
-	border-radius: 10px;
-	background-color: #fbf3e0;
-	z-index: z(tips);
+    font-size: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+    border: 5px solid $borderColor;
+    border-radius: 10px;
+    background-color: #fbf3e0;
+    z-index: z(tips);
 }
 
 #changeLang {
-	position: absolute;
-	top: 10px;
-	right: 5px;
-	width: 30px;
-	height: 30px;
-	cursor: pointer;
-	z-index: z(changeLang);
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: z(changeLang);
 }
 
-#btnTop{
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	bottom: 50px;
-	right: 5px;
-	z-index: z(btnTop);
+#btnTop {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 50px;
+    right: 5px;
+    z-index: z(btnTop);
 }
 
 #btnShowMsg {
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	bottom: 5px;
-	right: 5px;
-	cursor: pointer;
-	z-index: z(btnShowMsg);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    z-index: z(btnShowMsg);
 }
 
 #loadingMask {
-	width: 100%;
-	height: 100%;
-	background-color: $bgMask;
-	z-index: z(loadingMask);
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: $bgMask;
+    z-index: z(loadingMask);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
 }
 
 .githubLink {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }

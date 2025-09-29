@@ -1,4 +1,5 @@
-@import "./Common.scss";
+@use "./Common.scss" as *;
+
 
 @font-face {
 	font-family: "MyFont";

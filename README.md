@@ -77,6 +77,6 @@ tips:
 
 ---
 
-Grievous_Rain_： `(　o=^•ェ•)o ....`
+Grievous_Rain： `(　o=^•ェ•)o ....`
 
 MCTBL： `o(*￣▽￣*)ブ`

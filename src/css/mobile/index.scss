@@ -1,5 +1,5 @@
-@import "./MainPage.scss";
-@import "./Sidebar.scss";
-@import "./Popup.scss";
-@import "./QuestPage.scss";
-@import "./SearchPopup.scss";
+@use "./MainPage.scss" as *;
+@use "./Sidebar.scss" as *;
+@use "./Popup.scss" as *;
+@use "./QuestPage.scss" as *;
+@use "./SearchPopup.scss" as *;

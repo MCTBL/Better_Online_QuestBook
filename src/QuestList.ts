@@ -1,3 +1,4 @@
+import { AtlasMgr } from "./AtlasMgr";
 import { quest, questData } from "./Define";
 import { PopMgr } from "./PopMgr";
 import { ProjectData } from "./ProjectData";
@@ -85,11 +86,13 @@ export class QuestList {
 				if (quest && quest.title !== undefined) {
 					const item = $(`
 						<div class="searchItem" data-id="${quest.quest_id}">
-							<img class="searchImg" src="${quest.symbol.replace("image://", "")}" />
+							<img class="searchImg" />
 							<div class="searchTitle">${Utils.expMCcolor(quest.title)}</div>
 							<div class="searchDesc">${Utils.expMCcolor(quest.data.substring(0, 50))}</div>
 						</div>
 					`);
+					const img = item.find(".searchImg")[0] as HTMLImageElement;
+					AtlasMgr.instance.setImgSrc(img, `${quest.symbol.replace("image://", "")}`);
 					item.off("click");
 					item.on("click", () => {
 						PopMgr.showPopup(quest);
