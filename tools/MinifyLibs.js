@@ -2,10 +2,10 @@ const fs = require("fs");
 const path = require("path");
 const Terser = require("terser");
 
-// 压缩 bin/libs 目录下所有 js 文件
-function minifyLibs(sourcePath,targetPath) {
+
+function minifyLibs(sourcePath, targetPath) {
     sourcePath = path.resolve(__dirname, sourcePath);
-	targetPath = path.resolve(__dirname, targetPath);
+    targetPath = path.resolve(__dirname, targetPath);
     if (!fs.existsSync(sourcePath)) {
         console.warn(`Directory not found: ${sourcePath}`);
         return;
@@ -20,6 +20,18 @@ function minifyLibs(sourcePath,targetPath) {
             }
         });
     }
+}
+
+if (require.main === module) {
+    // 示例：node tools/MinifyLibs.js ../bin/libs/echarts.dev.js ../bin/libs/echarts.min.js
+    const source = process.argv[2];
+    const target = process.argv[3];
+    if (!source || !target) {
+        console.log("用法: node tools/MinifyLibs.js <源文件路径> <目标文件路径>");
+        process.exit(1);
+    }
+
+    minifyLibs(source, target);
 }
 
 module.exports = minifyLibs;

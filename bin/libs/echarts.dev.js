@@ -194,7 +194,6 @@
       var image = new Image();
       image.onload = onload;
       image.onerror = onerror;
-    //   image.src = atlasMgr.getUrlByPath(src);
 	//改写掉这里即可
 	  atlasMgr?atlasMgr.setImgSrc(image,src):(image.src = src);
       return image;

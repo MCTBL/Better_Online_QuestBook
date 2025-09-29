@@ -2,8 +2,7 @@ const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const fs = require("fs");
 
-// 引入压缩libs的脚本
-const minifyLibs = require("./tools/MinifyLibs");
+
 
 class DeleteFilesAfterEmitPlugin {
     apply(compiler) {
@@ -22,11 +21,6 @@ class DeleteFilesAfterEmitPlugin {
                     console.log(`Deleted: ${file}`);
                 }
             });
-
-            // 生产模式下构建后压缩 bin/libs 下的 js 文件
-            if (process.env.NODE_ENV === "production") {
-                minifyLibs("../bin/libs/echarts.dev.js", "../bin/libs/echarts.min.js");
-            }
         });
     }
 }

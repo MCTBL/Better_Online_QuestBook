@@ -36,8 +36,7 @@ export class MainPage {
 	constructor() {
 		$(() => {
 			TipsMgr.showLoading();
-
-			let url = new URL(window.location.href);
+			const url = new URL(window.location.href);
 			ProjectData.urlParameter = Utils.processUrlParameters(url);
 			ProjectData.basicUrl = url.origin;
 			this.initVersion();
@@ -46,18 +45,12 @@ export class MainPage {
 			this.initPage();
 			this.addEvent();
 			this.showProjectMsg();
-			AtlasMgr.instance.init(() => {
-				this.loadQuestLine();
-			});
+			AtlasMgr.instance.init(() => this.loadQuestLine());
 		});
 	}
 
 	initPlatform() {
-		if (isMobile.phone) {
-			ProjectData.isPhone = true;
-		} else {
-			ProjectData.isPhone = false;
-		}
+		ProjectData.isPhone = !!isMobile.phone;
 	}
 
 	showProjectMsg() {
@@ -93,18 +86,11 @@ export class MainPage {
 	}
 
 	initLang() {
-		if (localStorage.getItem(localEnum.language)) {
-			if (localStorage.getItem(localEnum.language) == lang.zh) {
-				ProjectData.language = lang.zh;
-			} else {
-				ProjectData.language = lang.en;
-			}
+		const storedLang = localStorage.getItem(localEnum.language);
+		if (storedLang) {
+			ProjectData.language = storedLang === lang.zh ? lang.zh : lang.en;
 		} else {
-			if (navigator.language.includes("zh")) {
-				ProjectData.language = lang.zh;
-			} else {
-				ProjectData.language = lang.en;
-			}
+			ProjectData.language = navigator.language.includes("zh") ? lang.zh : lang.en;
 		}
 		this.initTitle();
 	}
@@ -233,55 +219,35 @@ export class MainPage {
 
 	createButton(index: number, quest: questLine) {
 		const button = $("<button>", {
-			id: "btnQuest_" + index,
+			id: `btnQuest_${index}`,
 			class: "questButton unselected",
 			click: (btn: any) => {
-				this.buttonList.forEach((button, index) => {
-					if (button[0] == btn.currentTarget) {
-						localStorage.setItem(
-							localEnum.selectBtnIndex,
-							index.toString()
-						);
-						button.removeClass("unselected").addClass("selected");
+				this.buttonList.forEach((b, idx) => {
+					if (b[0] === btn.currentTarget) {
+						localStorage.setItem(localEnum.selectBtnIndex, idx.toString());
+						b.removeClass("unselected").addClass("selected");
 					} else {
-						button.removeClass("selected").addClass("unselected");
+						b.removeClass("selected").addClass("unselected");
 					}
 				});
-				let data: any = {
-					title: ProjectData.language.includes("zh")
-						? quest.title_zh
-						: quest.title,
+				const data: any = {
+					title: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
 					data: this.questAllData[ProjectData.language][quest.quest],
 				};
 				QuestList.getPageData(data);
 				this.oldQuestData = Utils.deepClone(data);
-
-				ProjectData.isPhone || this.onClosePop();
-
-				ProjectData.isPhone && this.toggleSidebar();
+				if (!ProjectData.isPhone) this.onClosePop();
+				if (ProjectData.isPhone) this.toggleSidebar();
 			},
 		});
 		button.data("questData", quest);
-
-		const img = $("<img>", {
-			// src: ProjectData.getPath(
-			// 	``
-			// ),
-			class: "questIcon",
-		});
-
-		let imgElement = img[0] as HTMLImageElement;
-		AtlasMgr.instance.setImgSrc(imgElement,  ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`));
-
+		const img = $("<img>", { class: "questIcon" });
+		AtlasMgr.instance.setImgSrc(img[0] as HTMLImageElement, ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`));
 		const txt = $("<span>", {
-			text: ProjectData.language.includes("zh")
-				? quest.title_zh
-				: quest.title,
+			text: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
 			class: "questText",
 		});
-
-		button.append(img);
-		button.append(txt);
+		button.append(img, txt);
 		return button;
 	}
 
@@ -405,29 +371,14 @@ export class MainPage {
 	};
 
 	onSeachInput = () => {
-		let value = $("#search").val();
+		const value = $("#search").val()?.toString().trim();
 		if (value) {
-			if ($("#btnCloseSp").css("display") == "none") {
-				$("#btnCloseSp").show();
-				$("#btnCloseSp").animate({ opacity: 1 }, 500);
+			if ($("#btnCloseSp").css("display") === "none") {
+				$("#btnCloseSp").show().animate({ opacity: 1 }, 500);
 			}
-
-			ProjectData.isPhone && $("#logoBg").animate({ opacity: 0.4 }, 500);
-
-			let questList: quest[] = [];
-			for (let key in this.titleToQuest[ProjectData.language]) {
-				if (
-					key
-						.toLocaleUpperCase()
-						.indexOf(value.toString().toLocaleUpperCase()) != -1
-				) {
-					let tempQuest =
-						this.titleToQuest[ProjectData.language][key];
-					if (tempQuest.title != undefined) {
-						questList.push(tempQuest);
-					}
-				}
-			}
+			if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
+			const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language])
+				.filter(q => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
 			QuestList.showSearchPopup(questList);
 		} else {
 			this.onClosePop();

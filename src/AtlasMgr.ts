@@ -1,137 +1,131 @@
 import { ProjectConfig } from "./ProjectConfig";
 import { ProjectData } from "./ProjectData";
-/**图集管理器 */
+
+/** 图集管理器 */
 export class AtlasMgr {
 	private static _instance: AtlasMgr;
 	public static get instance(): AtlasMgr {
-		return this._instance ? this._instance : this._instance = new AtlasMgr();
+		return this._instance ?? (this._instance = new AtlasMgr());
 	}
 
-	private path2AtlasMap: { [path: string]: string } = {};
-
-	private path2Base64Map: { [path: string]: string } = {};
-
-	private loadAtlasMap: { [path: string]: { img: HTMLImageElement, path: string }[] } = {};
-
-	//是否使用json格式的图集
+	// 路径到图集文件映射
+	private path2Atlas: Record<string, string> = {};
+	// 路径到base64图片映射
+	private path2Base64: Record<string, string> = {};
+	// 图集文件到待设置图片队列
+	private atlasLoadingQueue: Record<string, { img: HTMLImageElement; path: string }[]> = {};
+	// 已加载的图集配置路径
+	private loadedConfigPaths: Set<string> = new Set();
+	// 是否使用json格式的图集
 	private useJson: boolean = false;
+	// 是否使用图集
+	private useAtlas: boolean = true;
 
 
-	//任务列表的路径
-	//quests_icons/QuestLineIcon/${quest.quest}.png
-	//echat的图标路径
-	//quests_icons/QuestIcon/608.png
-
-
-	private loadedPaths: Set<string> = new Set();
-
-	init(cb: Function) {
+	/** 初始化，加载图集配置 */
+	init(cb: () => void) {
+		if (!this.useAtlas) {
+			cb?.();
+			return;
+		}
 		this.loadConfig(cb);
 	}
 
-	private loadConfig(cb: Function) {
+	/** 加载图集配置文件 */
+	private loadConfig(cb: () => void) {
 		let url = ProjectConfig.atlasPath;
 		url = ProjectData.getPath(url);
-		if (this.loadedPaths.has(url)) {
+		if (this.loadedConfigPaths.has(url)) {
 			cb?.();
 			return;
-		} else {
-			fetch(url)
-				.then(res => res.json())
-				.then(res => {
-					this.loadedPaths.add(url);
-					this.dealPath(res, url);
-					cb?.();
-				})
+		}
+		fetch(url)
+			.then(res => res.json())
+			.then(res => {
+				this.loadedConfigPaths.add(url);
+				this.parseAtlasConfig(res, url);
+				cb?.();
+			});
+	}
+
+	/** 解析图集配置，建立路径映射 */
+	private parseAtlasConfig(data: Record<string, string>, url: string) {
+		const basePath = url.substring(0, url.lastIndexOf("."));
+		for (const key in data) {
+			const value = data[key];
+			const relKey = `${basePath}/${value}/${key}`;
+			const relValue = `${basePath}/${value}${this.useJson ? ".json" : ".gtbl"}`;
+			this.path2Atlas[relKey] = relValue;
 		}
 	}
 
-	private dealPath(data: { [key: string]: string }, url: string) {
-		let path = url.substring(0, url.lastIndexOf("."));
-		for (let key in data) {
-			let value = data[key];
-			let relKey = path + "/" + value + "/" + key;
-			let relValue = path + "/" + value + (this.useJson ? ".json" : ".gtbl");
-			this.path2AtlasMap[relKey] = relValue;
-		}
-	}
-
-
-
+	/** 设置base64图片 */
 	setBase64(path: string, base64: string) {
-		this.path2Base64Map[path] = base64;
+		this.path2Base64[path] = base64;
 	}
 
-	setAtlas(path: string, atlasPath: string) {
-
-	}
-
-
-	/**
-	 * 设置图片的src
-	 * @param img 图片对象
-	 * @param path 路径，带版本的
-	 * @returns 空
-	 */
+	/** 设置图片的src，自动处理base64/图集/原始路径 */
 	setImgSrc(img: HTMLImageElement, path: string) {
-		if (path in this.path2Base64Map) {
-			img.src = this.path2Base64Map[path];
+		if (!this.useAtlas) {
+			img.src = path;
 			return;
 		}
-		if (path in this.path2AtlasMap) {
-			let loadList = this.path2AtlasMap[path];
-			if (!this.loadAtlasMap[loadList]) {
-
-				this.loadAtlasMap[loadList] = [];
-				this.loadAtlas(loadList);
+		if (this.path2Base64[path]) {
+			img.src = this.path2Base64[path];
+			return;
+		}
+		if (this.path2Atlas[path]) {
+			const atlasPath = this.path2Atlas[path];
+			if (!this.atlasLoadingQueue[atlasPath]) {
+				this.atlasLoadingQueue[atlasPath] = [];
+				this.loadAtlas(atlasPath);
 			}
-			this.loadAtlasMap[loadList].push({ img: img, path: path });
+			this.atlasLoadingQueue[atlasPath].push({ img, path });
 		} else {
 			img.src = path;
 		}
 	}
 
-	private loadAtlas(path: string) {
-		fetch(path).then(res => (this.useJson ? res.json() : res.arrayBuffer()))
-			.then(bufOrJson => {
+	/** 加载图集文件（json或gtbl） */
+	private loadAtlas(atlasPath: string) {
+		fetch(atlasPath)
+			.then(res => this.useJson ? res.json() : res.arrayBuffer())
+			.then(data => {
 				if (this.useJson) {
-					let data = bufOrJson as { [key: string]: string };
-					this.addBase64(data, path);
+					this.addBase64(data as Record<string, string>, atlasPath);
 				} else {
-					let str = pako.ungzip(new Uint8Array(bufOrJson), { to: 'string' });
-					if (str && typeof str == "string") {
-						let data = JSON.parse(str);
-						this.addBase64(data, path);
+					const str = pako.ungzip(new Uint8Array(data), { to: 'string' });
+					if (typeof str === "string") {
+						this.addBase64(JSON.parse(str), atlasPath);
 					}
 				}
 			});
 	}
 
-	private addBase64(data: { [key: string]: string }, path: string) {
-		let relpath = path.substring(0, path.lastIndexOf("."));
-		for (let key in data) {
-			let value = data[key];
-			let relKey = relpath + "/" + key;
-			let relValue = "data:image/png;base64," + value;
-			this.path2Base64Map[relKey] = relValue;
+	/** 将图集数据中的base64图片加入映射，并回调设置图片src */
+	private addBase64(data: Record<string, string>, atlasPath: string) {
+		const relPath = atlasPath.substring(0, atlasPath.lastIndexOf("."));
+		for (const key in data) {
+			this.path2Base64[`${relPath}/${key}`] = `data:image/png;base64,${data[key]}`;
 		}
-		this.callbackImg(path);
+		this.callbackImg(atlasPath);
 	}
 
-	private callbackImg(path: string) {
-		let list = this.loadAtlasMap[path];
-		delete this.loadAtlasMap[path];
+	/** 回调设置所有等待中的图片src */
+	private callbackImg(atlasPath: string) {
+		const list = this.atlasLoadingQueue[atlasPath];
+		delete this.atlasLoadingQueue[atlasPath];
 		if (list && list.length) {
-			list.forEach(item => {
-				if (item.path in this.path2Base64Map) {
-					item.img.src = this.path2Base64Map[item.path];
+			for (const item of list) {
+				if (this.path2Base64[item.path]) {
+					item.img.src = this.path2Base64[item.path];
 				} else {
 					item.img.src = item.path;
 					console.warn("图集加载失败", item.path);
 				}
-			});
+			}
 		}
 	}
-
 }
-(<any>window).atlasMgr = AtlasMgr.instance;
+
+(window as any).atlasMgr = AtlasMgr.instance;

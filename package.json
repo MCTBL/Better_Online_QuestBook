@@ -7,7 +7,8 @@
 		"build": "cross-env NODE_ENV=production webpack --mode production",
 		"watch": "npx webpack --mode development --watch",
 		"start": "webpack serve --mode development",
-		"packSprite": "node tools/PackSprite.js"
+		"minifyEcharts": "node tools/MinifyLibs.js ../bin/libs/echarts.dev.js ../bin/libs/echarts.min.js",
+		"makeFileConfig": "node tools/MakeFileConfig.js ../bin/version/280/quests_icons"
 	},
 	"keywords": [],
 	"author": "",
