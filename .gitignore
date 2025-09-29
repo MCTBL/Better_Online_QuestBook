@@ -1,5 +1,6 @@
 node_modules
 tools/DefaultQuests/*
+tools/quests_icons/*
 tools/lang/*.lang
 tools/html/
 tools/js/
