@@ -1,256 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Better Online QuestBook / 更好的在线任务书" />
+        <meta property="og:url" content="https://gtnhquestsbook.top/" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/MCTBL/Better_Online_QuestBook/refs/heads/master/bin/logo.png" />
+        <meta property="og:description" content="online quest book for GTNH / 为GTNH开发的在线版的任务书" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="zh_CN" />
+        <meta property="og:see_also" content="https://github.com/MCTBL/Better_Online_QuestBook" />
 
+        <title>更好的在线任务书</title>
+        <script src="./libs/jquery.min.js"></script>
+        <script>
+            (function () {
+                var f = {};
+                var g = /iPhone/i,
+                    i = /iPod/i,
+                    j = /iPad/i,
+                    k = /\biOS-universal(?:.+)Mac\b/i,
+                    h = /\bAndroid(?:.+)Mobile\b/i,
+                    m = /Android/i,
+                    c = /(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,
+                    d = /Silk/i,
+                    b = /Windows Phone/i,
+                    n = /\bWindows(?:.+)ARM\b/i,
+                    p = /BlackBerry/i,
+                    q = /BB10/i,
+                    s = /Opera Mini/i,
+                    t = /\b(CriOS|Chrome)(?:.+)Mobile/i,
+                    u = /Mobile(?:.+)Firefox\b/i,
+                    v = function (l) {
+                        return void 0 !== l && "MacIntel" === l.platform && "number" == typeof l.maxTouchPoints && l.maxTouchPoints > 1 && "undefined" == typeof MSStream;
+                    };
+                function w(l) {
+                    return function ($) {
+                        return $.test(l);
+                    };
+                }
+                function x(l) {
+                    var $ = { userAgent: "", platform: "", maxTouchPoints: 0 };
+                    l || "undefined" == typeof navigator
+                        ? "string" == typeof l
+                            ? ($.userAgent = l)
+                            : l && l.userAgent && ($ = { userAgent: l.userAgent, platform: l.platform, maxTouchPoints: l.maxTouchPoints || 0 })
+                        : ($ = { userAgent: navigator.userAgent, platform: navigator.platform, maxTouchPoints: navigator.maxTouchPoints || 0 });
+                    var a = $.userAgent,
+                        e = a.split("[FBAN");
+                    void 0 !== e[1] && (a = e[0]), void 0 !== (e = a.split("Twitter"))[1] && (a = e[0]);
+                    var r = w(a),
+                        o = {
+                            apple: { phone: r(g) && !r(b), ipod: r(i), tablet: !r(g) && (r(j) || v($)) && !r(b), universal: r(k), device: (r(g) || r(i) || r(j) || r(k) || v($)) && !r(b) },
+                            amazon: { phone: r(c), tablet: !r(c) && r(d), device: r(c) || r(d) },
+                            android: {
+                                phone: (!r(b) && r(c)) || (!r(b) && r(h)),
+                                tablet: !r(b) && !r(c) && !r(h) && (r(d) || r(m)),
+                                device: (!r(b) && (r(c) || r(d) || r(h) || r(m))) || r(/\bokhttp\b/i),
+                            },
+                            windows: { phone: r(b), tablet: r(n), device: r(b) || r(n) },
+                            other: { blackberry: r(p), blackberry10: r(q), opera: r(s), firefox: r(u), chrome: r(t), device: r(p) || r(q) || r(s) || r(u) || r(t) },
+                            any: !1,
+                            phone: !1,
+                            tablet: !1,
+                        };
+                    return (
+                        (o.any = o.apple.device || o.android.device || o.windows.device || o.other.device),
+                        (o.phone = o.apple.phone || o.android.phone || o.windows.phone),
+                        (o.tablet = o.apple.tablet || o.android.tablet || o.windows.tablet),
+                        o
+                    );
+                }
+                f = x();
+                if (typeof exports === "object" && typeof module !== "undefined") {
+                    module.exports = f;
+                } else if (typeof define === "function" && define.amd) {
+                    define(function () {
+                        return f;
+                    });
+                } else {
+                    this["isMobile"] = f;
+                }
+            })();
+        </script>
+        <script>
+            (function () {
+                function loadScript(jsName, cb) {
+                    let script = document.createElement("script");
+                    script.src = "./libs/" + jsName;
+                    document.head.appendChild(script);
+                    script.onload = () => {
+                        cb && cb();
+                    };
+                }
 
-	<meta property="og:title" content="Better Online QuestBook / 更好的在线任务书" />
-	<meta property="og:url" content="https://gtnhquestsbook.top/" />
-	<meta property="og:image"
-		content="https://raw.githubusercontent.com/MCTBL/Better_Online_QuestBook/refs/heads/master/bin/logo.png" />
-	<meta property="og:description" content="online quest book for GTNH / 为GTNH开发的在线版的任务书" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:locale:alternate" content="zh_CN" />
-	<meta property="og:see_also" content="https://github.com/MCTBL/Better_Online_QuestBook" />
+                var isMobile = {
+                    tablet: false,
+                    phone: false,
+                };
 
+                if (window.isMobile) {
+                    isMobile = window.isMobile;
+                }
 
-	<title>更好的在线任务书</title>
-	<script src="./libs/jquery.min.js"></script>
-	<script>
-		(function () {
-			var f = {};
-			var g = /iPhone/i,
-				i = /iPod/i,
-				j = /iPad/i,
-				k = /\biOS-universal(?:.+)Mac\b/i,
-				h = /\bAndroid(?:.+)Mobile\b/i,
-				m = /Android/i,
-				c = /(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,
-				d = /Silk/i,
-				b = /Windows Phone/i,
-				n = /\bWindows(?:.+)ARM\b/i,
-				p = /BlackBerry/i,
-				q = /BB10/i,
-				s = /Opera Mini/i,
-				t = /\b(CriOS|Chrome)(?:.+)Mobile/i,
-				u = /Mobile(?:.+)Firefox\b/i,
-				v = function (l) {
-					return void 0 !== l && "MacIntel" === l.platform && "number" == typeof l.maxTouchPoints && l.maxTouchPoints > 1 && "undefined" == typeof MSStream;
-				};
-			function w(l) {
-				return function ($) {
-					return $.test(l);
-				};
-			}
-			function x(l) {
-				var $ = { userAgent: "", platform: "", maxTouchPoints: 0 };
-				l || "undefined" == typeof navigator
-					? "string" == typeof l
-						? ($.userAgent = l)
-						: l && l.userAgent && ($ = { userAgent: l.userAgent, platform: l.platform, maxTouchPoints: l.maxTouchPoints || 0 })
-					: ($ = { userAgent: navigator.userAgent, platform: navigator.platform, maxTouchPoints: navigator.maxTouchPoints || 0 });
-				var a = $.userAgent,
-					e = a.split("[FBAN");
-				void 0 !== e[1] && (a = e[0]), void 0 !== (e = a.split("Twitter"))[1] && (a = e[0]);
-				var r = w(a),
-					o = {
-						apple: { phone: r(g) && !r(b), ipod: r(i), tablet: !r(g) && (r(j) || v($)) && !r(b), universal: r(k), device: (r(g) || r(i) || r(j) || r(k) || v($)) && !r(b) },
-						amazon: { phone: r(c), tablet: !r(c) && r(d), device: r(c) || r(d) },
-						android: {
-							phone: (!r(b) && r(c)) || (!r(b) && r(h)),
-							tablet: !r(b) && !r(c) && !r(h) && (r(d) || r(m)),
-							device: (!r(b) && (r(c) || r(d) || r(h) || r(m))) || r(/\bokhttp\b/i),
-						},
-						windows: { phone: r(b), tablet: r(n), device: r(b) || r(n) },
-						other: { blackberry: r(p), blackberry10: r(q), opera: r(s), firefox: r(u), chrome: r(t), device: r(p) || r(q) || r(s) || r(u) || r(t) },
-						any: !1,
-						phone: !1,
-						tablet: !1,
-					};
-				return (
-					(o.any = o.apple.device || o.android.device || o.windows.device || o.other.device),
-					(o.phone = o.apple.phone || o.android.phone || o.windows.phone),
-					(o.tablet = o.apple.tablet || o.android.tablet || o.windows.tablet),
-					o
-				);
-			}
-			f = x();
-			if (typeof exports === "object" && typeof module !== "undefined") {
-				module.exports = f;
-			} else if (typeof define === "function" && define.amd) {
-				define(function () {
-					return f;
-				});
-			} else {
-				this["isMobile"] = f;
-			}
-		})();
-	</script>
-	<script>
-		(function () {
-			function loadScript(jsName, cb) {
-				let script = document.createElement("script");
-				script.src = "./libs/" + jsName;
-				document.head.appendChild(script);
-				script.onload = () => {
-					cb && cb();
-				};
-			}
+                function SwitchStyle() {
+                    if (isMobile.phone) {
+                        this.loadStylesheet("mobile.css");
+                    } else {
+                        this.loadStylesheet("desktop.css");
+                        loadScript("echarts.min.js");
+                    }
+                }
 
-			var isMobile = {
-				tablet: false,
-				phone: false,
-			};
+                SwitchStyle.prototype.loadStylesheet = function (filename) {
+                    var linkId = "dynamic-css";
+                    var stylesheet = document.getElementById(linkId);
 
-			if (window.isMobile) {
-				isMobile = window.isMobile;
-			}
+                    if (!stylesheet) {
+                        stylesheet = document.createElement("link");
+                        stylesheet.id = linkId;
+                        stylesheet.rel = "stylesheet";
+                        document.head.appendChild(stylesheet);
+                    }
 
-			function SwitchStyle() {
-				if (isMobile.phone) {
-					this.loadStylesheet("mobile.css");
-				} else {
-					this.loadStylesheet("desktop.css");
-					loadScript("echarts.min.js");
-				}
-			}
+                    if (stylesheet.href !== filename) {
+                        stylesheet.href = filename;
+                    }
+                };
 
-			SwitchStyle.prototype.loadStylesheet = function (filename) {
-				var linkId = "dynamic-css";
-				var stylesheet = document.getElementById(linkId);
+                function openLog() {
+                    let href = window.location.href;
+                    let url = new URL(href);
+                    let params = new URLSearchParams(url.search);
+                    if (params.get("log") == 1) {
+                        loadScript("vconsole.min.js", () => {
+                            new VConsole();
+                        });
+                    }
+                }
 
-				if (!stylesheet) {
-					stylesheet = document.createElement("link");
-					stylesheet.id = linkId;
-					stylesheet.rel = "stylesheet";
-					document.head.appendChild(stylesheet);
-				}
+                loadScript("pako.min.js", () => {});
 
-				if (stylesheet.href !== filename) {
-					stylesheet.href = filename;
-				}
-			};
+                new openLog();
+                new SwitchStyle();
+            })();
+        </script>
+        <script type="module" src="./bundle.js"></script>
+    </head>
 
-			function openLog() {
-				let href = window.location.href;
-				let url = new URL(href);
-				let params = new URLSearchParams(url.search);
-				if (params.get("log") == 1) {
-					loadScript("vconsole.min.js", () => {
-						new VConsole();
-					});
-				}
-			}
+    <body>
+        <!-- 侧栏 -->
+        <div id="sidebar" class="grid">
+            <div id="mainTitle">
+                <!-- logo -->
+                <div id="logoBg">
+                    <img id="logoImg" src="./logo.png" />
+                </div>
+                <div id="inputDiv">
+                    <input type="text" id="search" placeholder="搜索" />
+                    <svg
+                        id="btnCloseSp"
+                        style="display: none"
+                        data-slot="icon"
+                        fill="none"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+                    </svg>
+                </div>
+                <select required id="versionSelect"></select>
+            </div>
+            <div id="questLineList"></div>
+        </div>
+        <!-- 子域 -->
+        <div id="mainPage">
+            <div id="this_chart" class="chart-container"></div>
+            <span id="questTitle"></span>
+            <!-- 搜索弹窗 -->
+            <div id="searchPopup">
+                <div id="questSearchList"></div>
+            </div>
+        </div>
+        <!-- 侧栏开关 -->
+        <svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+        <!-- 弹窗 -->
+        <div id="overlay">
+            <div id="popup">
+                <p id="popTitle"></p>
+                <div id="leftAndRight">
+                    <div id="popupLeft">
+                        <div id="descBox">
+                            <p id="popDesc"></p>
+                        </div>
+                    </div>
+                    <div class="v-line"></div>
+                    <div id="popupRight"><img id="quest_logo" /></div>
 
-			new openLog();
-			new SwitchStyle();
-		})();
-	</script>
-	<script type="module" src="./bundle.js"></script>
-</head>
+                    <div id="buttonsBox">
+                        <div id="quest_id"></div>
+                        <button id="copyBtn"></button>
+                        <button id="copyIdBtn"></button>
+                        <button id="copyLinkBtn"></button>
+                    </div>
 
-<body>
-	<!-- 侧栏 -->
-	<div id="sidebar" class="grid">
-		<div id="mainTitle">
-			<!-- logo -->
-			<div id="logoBg">
-				<img id="logoImg" src="./logo.png" />
-			</div>
-			<div id="inputDiv">
-				<input type="text" id="search" placeholder="搜索" />
-				<svg id="btnCloseSp" style="display: none;" data-slot="icon" fill="none" stroke-width="1.5"
-					stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
-				</svg>
-			</div>
-			<select required id="versionSelect"></select>
-		</div>
-		<div id="questLineList"></div>
-	</div>
-	<!-- 子域 -->
-	<div id="mainPage">
-		<div id="this_chart" class="chart-container"></div>
-		<span id="questTitle"></span>
-		<!-- 搜索弹窗 -->
-		<div id="searchPopup">
-			<div id="questSearchList"></div>
-		</div>
-	</div>
-	<!-- 侧栏开关 -->
-	<svg id="toggleSidebar" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-		xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-	</svg>
-	<!-- 弹窗 -->
-	<div id="overlay">
-		<div id="popup">
-			<p id="popTitle"></p>
-			<div id="leftAndRight">
-				<div id="popupLeft">
-					<div id="descBox">
-						<p id="popDesc"></p>
-					</div>
-				</div>
-				<div class="v-line"></div>
-				<div id="popupRight"><img id="quest_logo" /></div>
+                    <svg id="btnClosePop" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- 提示框 -->
+        <div id="tips"></div>
+        <!-- 翻译 -->
+        <svg id="changeLang" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802"
+            ></path>
+        </svg>
 
-				<div id="buttonsBox">
-					<div id="quest_id"></div>
-					<button id="copyBtn"></button>
-					<button id="copyIdBtn"></button>
-					<button id="copyLinkBtn"></button>
-				</div>
+        <!-- 滚动到顶部 -->
+        <svg id="btnTop" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+        </svg>
 
-				<svg id="btnClosePop" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
-					viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round"
-						d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
-				</svg>
-			</div>
-		</div>
-	</div>
-	<!-- 提示框 -->
-	<div id="tips"></div>
-	<!-- 翻译 -->
-	<svg id="changeLang" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-		xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<path stroke-linecap="round" stroke-linejoin="round"
-			d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802">
-		</path>
-	</svg>
+        <!-- 信息 -->
+        <svg id="btnShowMsg" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"></path>
+        </svg>
 
-	<!-- 滚动到顶部 -->
-	<svg id="btnTop" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-		xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<path stroke-linecap="round" stroke-linejoin="round"
-			d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
-	</svg>
-
-	<!-- 信息 -->
-	<svg id="btnShowMsg" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-		xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<path stroke-linecap="round" stroke-linejoin="round"
-			d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"></path>
-	</svg>
-
-	<!-- 遮罩 -->
-	<div id="loadingMask">
-		<svg id="loadingMaskSvg" xmlns="https://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38"
-			stroke="#fff">
-			<g fill="none" fill-rule="evenodd">
-				<g transform="translate(1 1)" stroke-width="2">
-					<circle stroke-opacity=".5" cx="18" cy="18" r="18" />
-					<path d="M36 18c0-9.94-8.06-18-18-18">
-						<animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s"
-							repeatCount="indefinite" />
-					</path>
-				</g>
-			</g>
-		</svg>
-	</div>
-</body>
-
+        <!-- 遮罩 -->
+        <div id="loadingMask">
+            <svg id="loadingMaskSvg" xmlns="https://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" stroke="#fff">
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(1 1)" stroke-width="2">
+                        <circle stroke-opacity=".5" cx="18" cy="18" r="18" />
+                        <path d="M36 18c0-9.94-8.06-18-18-18">
+                            <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite" />
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </body>
 </html>

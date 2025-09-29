@@ -4,9 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx webpack --mode production",
+		"build": "cross-env NODE_ENV=production webpack --mode production",
 		"watch": "npx webpack --mode development --watch",
-		"start": "webpack serve --mode development"
+		"start": "webpack serve --mode development",
+		"packSprite": "node tools/PackSprite.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -18,10 +19,13 @@
 		"@types/jquery": "^3.5.33",
 		"babel-loader": "^8.0.0",
 		"concurrently": "^9.1.2",
+		"cross-env": "^10.0.0",
 		"css-loader": "^7.1.2",
 		"mini-css-extract-plugin": "^2.9.2",
 		"sass": "^1.85.0",
 		"sass-loader": "^16.0.5",
+		"sharp": "^0.34.4",
+		"terser": "^5.44.0",
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.7.3",
 		"webpack": "^5.98.0",

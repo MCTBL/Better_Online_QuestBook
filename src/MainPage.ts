@@ -1,3 +1,4 @@
+import { AtlasMgr } from "./AtlasMgr";
 import {
 	lang,
 	localEnum,
@@ -44,8 +45,10 @@ export class MainPage {
 			this.initLang();
 			this.initPage();
 			this.addEvent();
-			this.loadQuestLine();
 			this.showProjectMsg();
+			AtlasMgr.instance.init(() => {
+				this.loadQuestLine();
+			});
 		});
 	}
 
@@ -261,11 +264,14 @@ export class MainPage {
 		button.data("questData", quest);
 
 		const img = $("<img>", {
-			src: ProjectData.getPath(
-				`quests_icons/QuestLineIcon/${quest.quest}.png`
-			),
+			// src: ProjectData.getPath(
+			// 	``
+			// ),
 			class: "questIcon",
 		});
+
+		let imgElement = img[0] as HTMLImageElement;
+		AtlasMgr.instance.setImgSrc(imgElement,  ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`));
 
 		const txt = $("<span>", {
 			text: ProjectData.language.includes("zh")
@@ -439,7 +445,7 @@ export class MainPage {
 			QuestList.clearSearchList();
 		}
 	};
-	onSearchBlur = () => {};
+	onSearchBlur = () => { };
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();

@@ -15,5 +15,7 @@ export class ProjectConfig {
 	static readonly questDataPath = "quest_json";
 	static readonly projectUrl =
 		"https://github.com/MCTBL/Better_Online_QuestBook";
+
+	static readonly atlasPath = "quests_icons.json";
 }
 (window as any).ProjectConfig = ProjectConfig;
