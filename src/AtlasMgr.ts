@@ -20,7 +20,8 @@ export class AtlasMgr {
 	private useJson: boolean = false;
 	// 是否使用图集
 	private useAtlas: boolean = true;
-
+	//是否使用webp
+	private useWebp: boolean = false;
 
 	/** 初始化，加载图集配置 */
 	init(cb: () => void) {
@@ -55,7 +56,7 @@ export class AtlasMgr {
 			let list = data[key];
 			const relValue = `${basePath}/${key}${this.useJson ? ".json" : ".gtbl"}`;
 			for (let value of list) {
-				let relKey = `${basePath}/${key}/${value}.png`;
+				let relKey = `${basePath}/${key}/${value + this.useWebp ? ".webp" : ".png"}`;
 				this.path2Atlas[relKey] = relValue;
 			}
 		}
