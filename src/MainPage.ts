@@ -46,6 +46,7 @@ export class MainPage {
 			this.addEvent();
 			this.showProjectMsg();
 			AtlasMgr.instance.init(() => this.loadQuestLine());
+			EeggMgr.showEegg();
 		});
 	}
 
@@ -321,7 +322,7 @@ export class MainPage {
 	};
 
 	onClickLogo = () => {
-		EeggMgr.showEegg();
+
 	};
 
 	onRightClickLogo = (evt: Event) => {
