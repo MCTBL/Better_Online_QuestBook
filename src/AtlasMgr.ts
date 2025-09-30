@@ -49,14 +49,17 @@ export class AtlasMgr {
 	}
 
 	/** 解析图集配置，建立路径映射 */
-	private parseAtlasConfig(data: Record<string, string>, url: string) {
+	private parseAtlasConfig(data: Record<string, string[]>, url: string) {
 		const basePath = url.substring(0, url.lastIndexOf("."));
 		for (const key in data) {
-			const value = data[key];
-			const relKey = `${basePath}/${value}/${key}`;
-			const relValue = `${basePath}/${value}${this.useJson ? ".json" : ".gtbl"}`;
-			this.path2Atlas[relKey] = relValue;
+			let list = data[key];
+			const relValue = `${basePath}/${key}${this.useJson ? ".json" : ".gtbl"}`;
+			for (let value of list) {
+				let relKey = `${basePath}/${key}/${value}.png`;
+				this.path2Atlas[relKey] = relValue;
+			}
 		}
+
 	}
 
 	/** 设置base64图片 */

@@ -35,7 +35,7 @@ module.exports = (env, argv) => ({
             filename: "[name].css", // 输出的 CSS 文件名
         }),
         new DeleteFilesAfterEmitPlugin(), // 构建后删除指定文件
-        new MakeFileConfigPlugin(),
+        // new MakeFileConfigPlugin(),
         new ShrinkFontsPlugin(),
     ],
 

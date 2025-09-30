@@ -50,7 +50,11 @@ function makeFileConfig(dirPath) {
                             .relative(dirPath, fullPath)
                             .replace(/\\/g, "/")
                             .replace(/\.json$/i, "");
-                        config[key] = relPath;
+
+						if(!config[relPath]){
+							config[relPath] = [];
+						}
+						config[relPath].push(key.replace(".png",""));
                     }
                 } catch (e) {
                     console.error("JSON 解析错误:", fullPath, e.message);
