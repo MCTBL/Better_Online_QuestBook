@@ -178,14 +178,7 @@ export class MainPage {
 						if (questList) {
 							for (let i = 0; i < questList.length; i++) {
 								let quest = questList[i];
-								quest.symbol =
-									"image://version/" +
-									versionCode +
-									"/quests_icons/QuestIcon/" +
-									Utils.processBase64ToBinary(
-										quest.quest_id
-									) +
-									".png";
+								quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + key + "/" + Utils.processBase64ToBinary(quest.quest_id) + ".png";
 								qn[quest.title] = quest;
 								qid[quest.quest_id] = quest;
 								// //添加一个假任务
