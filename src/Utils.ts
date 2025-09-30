@@ -2,7 +2,7 @@ export class Utils {
 	private static typingInterval: any = null;
 
 	/**将base64加密的任务id解密后取后64bit转换为lower数字id */
-	static processBase64ToBinary(strId: string): string {
+	static processBase64ToDecimal(strId: string): string {
 		const std = strId
 			.replace(/-/g, "+")
 			.replace(/_/g, "/")

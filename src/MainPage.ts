@@ -91,7 +91,9 @@ export class MainPage {
 		if (storedLang) {
 			ProjectData.language = storedLang === lang.zh ? lang.zh : lang.en;
 		} else {
-			ProjectData.language = navigator.language.includes("zh") ? lang.zh : lang.en;
+			ProjectData.language = navigator.language.includes("zh")
+				? lang.zh
+				: lang.en;
 		}
 		this.initTitle();
 	}
@@ -178,7 +180,16 @@ export class MainPage {
 						if (questList) {
 							for (let i = 0; i < questList.length; i++) {
 								let quest = questList[i];
-								quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + key + "/" + Utils.processBase64ToBinary(quest.quest_id) + ".png";
+								quest.symbol =
+									"image://version/" +
+									versionCode +
+									"/quests_icons/QuestIcon/" +
+									key +
+									"/" +
+									Utils.processBase64ToDecimal(
+										quest.quest_id
+									) +
+									".png";
 								qn[quest.title] = quest;
 								qid[quest.quest_id] = quest;
 								// //添加一个假任务
@@ -218,14 +229,20 @@ export class MainPage {
 			click: (btn: any) => {
 				this.buttonList.forEach((b, idx) => {
 					if (b[0] === btn.currentTarget) {
-						localStorage.setItem(localEnum.selectBtnIndex, idx.toString());
+						localStorage.setItem(
+							localEnum.selectBtnIndex,
+							idx.toString()
+						);
 						b.removeClass("unselected").addClass("selected");
 					} else {
 						b.removeClass("selected").addClass("unselected");
 					}
 				});
 				const data: any = {
-					title: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
+					title:
+						ProjectData.language === lang.zh
+							? quest.title_zh
+							: quest.title,
 					data: this.questAllData[ProjectData.language][quest.quest],
 				};
 				QuestList.getPageData(data);
@@ -236,9 +253,13 @@ export class MainPage {
 		});
 		button.data("questData", quest);
 		const img = $("<img>", { class: "questIcon" });
-		AtlasMgr.instance.setImgSrc(img[0] as HTMLImageElement, ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`));
+		AtlasMgr.instance.setImgSrc(
+			img[0] as HTMLImageElement,
+			ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}.png`)
+		);
 		const txt = $("<span>", {
-			text: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
+			text:
+				ProjectData.language === lang.zh ? quest.title_zh : quest.title,
 			class: "questText",
 		});
 		button.append(img, txt);
@@ -314,9 +335,7 @@ export class MainPage {
 		}
 	};
 
-	onClickLogo = () => {
-
-	};
+	onClickLogo = () => {};
 
 	onRightClickLogo = (evt: Event) => {
 		evt.preventDefault(); //拦截邮件点击
@@ -370,9 +389,17 @@ export class MainPage {
 			if ($("#btnCloseSp").css("display") === "none") {
 				$("#btnCloseSp").show().animate({ opacity: 1 }, 500);
 			}
-			if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
-			const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language])
-				.filter(q => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
+			if (ProjectData.isPhone)
+				$("#logoBg").animate({ opacity: 0.4 }, 500);
+			const questList: quest[] = Object.values(
+				this.titleToQuest[ProjectData.language]
+			).filter(
+				(q) =>
+					q.title &&
+					q.title
+						.toLocaleUpperCase()
+						.includes(value.toLocaleUpperCase())
+			);
 			QuestList.showSearchPopup(questList);
 		} else {
 			this.onClosePop();
@@ -390,7 +417,7 @@ export class MainPage {
 			QuestList.clearSearchList();
 		}
 	};
-	onSearchBlur = () => { };
+	onSearchBlur = () => {};
 
 	onChangeLang = () => {
 		TipsMgr.showLoading();
