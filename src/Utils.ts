@@ -12,9 +12,7 @@ export class Utils {
 		const bytes = new Uint8Array(bin.length);
 		for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
 
-		const hex = Array.from(bytes, (b) =>
-			b.toString(16).padStart(2, "0")
-		).join("");
+		const hex = Array.from(bytes, (b) => b.toString(16).padStart(2, "0")).join("");
 		const last16 = hex.slice(-16);
 		const u64 = BigInt("0x" + last16);
 		return u64 >> 63n ? String(u64 - (1n << 64n)) : String(u64);
@@ -83,10 +81,7 @@ export class Utils {
 	}
 
 	static encodeMsg2AHref(msg: string): string {
-		return msg.replace(
-			/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g,
-			'<a href="$1" target="_blank">$1</a>'
-		);
+		return msg.replace(/\[url\](https?:\/\/[^\s\[\]]+)\[\/url\]/g, '<a href="$1" target="_blank">$1</a>');
 	}
 
 	static expMCcolor(source_str: string): string {
@@ -218,10 +213,7 @@ export class Utils {
 
 		// 判断是否为object类型的辅助函数，减少重复代码
 		function isObject(target: any) {
-			return (
-				(typeof target === "object" && target) ||
-				typeof target === "function"
-			);
+			return (typeof target === "object" && target) || typeof target === "function";
 		}
 
 		function clone(data: any): any {
@@ -319,8 +311,7 @@ export class Utils {
 		let textWithUrls = html.replace(/<br\s*\/?>/gi, "\n");
 
 		// 正则表达式匹配<a>标签，并捕获href属性值
-		const aTagRegex =
-			/<a\s+[^>]*?href=["']([^"']*)["'][^>]*?>([^<]*?)<\/a>/gi;
+		const aTagRegex = /<a\s+[^>]*?href=["']([^"']*)["'][^>]*?>([^<]*?)<\/a>/gi;
 
 		// 替换函数，用于处理每个匹配的<a>标签
 		const replacer = (match: string, url: string, text: string): string => {

@@ -5,7 +5,6 @@ import { ProjectData } from "./ProjectData";
 import { Utils } from "./Utils";
 
 export class QuestList {
-
 	private static echarts: echarts.ECharts;
 	/**当前页面数据 桌面端才有的 */
 	private static pageData: any;
@@ -30,20 +29,12 @@ export class QuestList {
 		}
 	}
 
-
 	//桌面端才有的
 	static initEcharts() {
 		if (!this.echarts) {
-			this.echarts = echarts.init(
-				document.getElementById("this_chart") as HTMLDivElement,
-				"white",
-				{ renderer: "canvas" }
-			);
+			this.echarts = echarts.init(document.getElementById("this_chart") as HTMLDivElement, "white", { renderer: "canvas" });
 			this.echarts.on("click", (params: any) => {
-				if (
-					params.dataType === "node" &&
-					params.data.hasOwnProperty("quest_id")
-				) {
+				if (params.dataType === "node" && params.data.hasOwnProperty("quest_id")) {
 					PopMgr.showPopup(params.data);
 				}
 			});
@@ -56,7 +47,6 @@ export class QuestList {
 		}
 		this.resetChart();
 	}
-
 
 	static onResize() {
 		this.echarts?.resize();
@@ -82,7 +72,7 @@ export class QuestList {
 
 	static showSearchList() {
 		if (this.questList && this.questList.length) {
-			this.questList.forEach(quest => {
+			this.questList.forEach((quest) => {
 				if (quest && quest.title !== undefined) {
 					const item = $(`
 						<div class="searchItem" data-id="${quest.quest_id}">
