@@ -11,6 +11,8 @@ export class ProjectConfig {
     static readonly resList = ["280", "272"];
     static readonly questLinePath = "quest_line.json";
     static readonly questDataPath = "quest_json";
+
+    static readonly allInOnePath = "allInOne";
     static readonly projectUrl = "https://github.com/MCTBL/Better_Online_QuestBook";
 
     static readonly atlasPath = "quests_icons.json";

@@ -35,6 +35,15 @@ export class ProjectData {
         return questDataPath + ".json";
     }
 
+    /**获取巨型任务数据地址 */
+    static getAllInOnePath(language: lang) {
+        var allInOnePath = this.getPath(ProjectConfig.allInOnePath);
+        if (language == lang.en) {
+            allInOnePath += "_en";
+        }
+        return allInOnePath + ".json";
+    }
+
     /**默认假任务配置 */
     static readonly fakeQuest = {
         name: 0, //顺序
@@ -94,6 +103,7 @@ export class ProjectData {
                     type: "solid",
                 },
                 roam: true,
+                roamTrigger: "global",
                 draggable: false,
                 focusNodeAdjacency: true,
                 data: null,

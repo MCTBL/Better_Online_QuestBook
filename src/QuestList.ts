@@ -10,6 +10,9 @@ export class QuestList {
     private static pageData: any;
     /**搜索任务列表 */
     private static questList: quest[];
+
+    private static allInOneQuestList: { [key: string]: { links: []; datas: quest[][]; names: string[] } } = {};
+
     // 重置echarts
     static resetChart() {
         this.echarts?.clear();
@@ -27,6 +30,68 @@ export class QuestList {
             this.pageData.series[0].links = res.data.links;
             this.initEcharts();
         }
+    }
+
+    static initAllInOne() {
+        if (!this.allInOneQuestList || !this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()]) {
+            $.getJSON(
+                ProjectData.getAllInOnePath(ProjectData.language),
+                (data: { links: []; datas: { questNames: string[]; allNodesLists: [quest[]] } }) => {
+                    this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()] = { datas: this.processQuestData(data.datas), links: data.links, names: data.datas.questNames };
+                    this.showAllInOne();
+                },
+                (err) => {
+                    console.error("加载巨型任务数据失败", err);
+                }
+            );
+        } else {
+            this.showAllInOne();
+        }
+    }
+    static showAllInOne() {
+        QuestList.resetChart();
+        this.pageData = Utils.deepClone(ProjectData.echartsConfig);
+        this.pageData.series[0].links = this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()].links;
+        this.pageData.series[0].data = [];
+        var tempData = this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()];
+        var count = -1;
+        const _ = setInterval(() => {
+            count++;
+            if (count < tempData.datas.length) {
+                Utils.typeText("#questTitle", tempData.names[count]);
+                this.pageData.series[0].data.push(...tempData.datas[count]);
+                this.echarts.setOption(this.pageData);
+            } else {
+                clearInterval(_);
+                this.pageData.series[0].data.push({ name: "DM is GOD", symbolSize: 100, x: 0, y: 0, symbol: "image://dm.jpg" });
+                this.echarts.setOption(this.pageData);
+            }
+        }, 1000);
+    }
+
+    static processQuestData(datas: { questNames: string[]; allNodesLists: [quest[]] }) {
+        let versionCode = ProjectData.getVersion();
+        let questNames = datas.questNames;
+        let allNodesLists = datas.allNodesLists;
+        let fakeIndex = 0;
+        for (let i = 0; i < questNames.length; i++) {
+            let questListName = questNames[i];
+            let questList = allNodesLists[i];
+            let fakeQuestList = [];
+            for (let quest of questList) {
+                quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questListName + "/" + Utils.processBase64ToDecimal(quest.quest_id);
+                // 添加一个假任务作为背景
+                let fakeQuest: quest = Utils.deepClone(quest);
+                fakeQuest.name = String(fakeIndex++);
+                fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
+                fakeQuest.parentSymbol = quest.symbol;
+                fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+                fakeQuestList.push(fakeQuest);
+            }
+            // questList = fakeQuestList.concat(questList);
+            allNodesLists[i] = questList;
+        }
+        return datas.allNodesLists;
     }
 
     //桌面端才有的

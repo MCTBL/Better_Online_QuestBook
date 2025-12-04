@@ -272,7 +272,13 @@ export class MainPage {
         }
     };
 
-    onClickLogo = () => {};
+    onClickLogo = () => {
+        this.buttonList.forEach((b, _) => {
+            b.removeClass("selected").addClass("unselected");
+        });
+        QuestList.initAllInOne();
+        this.toggleSidebar();
+    };
 
     onRightClickLogo = (evt: Event) => {
         evt.preventDefault(); //拦截邮件点击
