@@ -9,10 +9,8 @@ export class AtlasMgr {
         return this._instance ?? (this._instance = new AtlasMgr());
     }
 
-    // 路径到图集文件映射
-    private path2Atlas: Record<string, string> = {};
-    // 路径到base64图片映射
-    private path2Base64: Record<string, string> = {};
+    // 路径索引：统一保存 base64 或 atlas 信息，减少重复查找
+    private pathIndex: Map<string, { base64?: string; atlas?: string }> = new Map();
     // 图集文件到待设置图片队列
     private atlasLoadingQueue: Record<string, { img: ImageExtended; path: string }[]> = {};
     // 已加载的图集配置路径
@@ -84,37 +82,44 @@ export class AtlasMgr {
             const relValue = `${basePath}/${key}${this.useJson ? ".json" : ".gtbl"}`;
             for (let value of list) {
                 let relKey = `${basePath}/${key}/${value}`;
-                this.path2Atlas[relKey] = relValue;
+                const existing = this.pathIndex.get(relKey) || {};
+                existing.atlas = relValue;
+                this.pathIndex.set(relKey, existing);
             }
         }
     }
 
     /** 设置base64图片 */
     setBase64(path: string, base64: string) {
-        this.path2Base64[path] = base64;
+        const entry = this.pathIndex.get(path) || {};
+        entry.base64 = base64;
+        this.pathIndex.set(path, entry);
     }
 
-    /** 设置图片的src，自动处理base64/图集/原始路径 */
+    /** 设置图片的src，自动处理base64/图集/原始路径（只做一次查找） */
     setImgSrc(image: HTMLImageElement, path: string) {
         let img = image as ImageExtended;
         if (!this.useAtlas) {
             img.nativeSrc = path;
             return;
         }
-        if (this.path2Base64[path]) {
-            img.nativeSrc = this.path2Base64[path];
+
+        const entry = this.pathIndex.get(path);
+        if (entry?.base64) {
+            img.nativeSrc = entry.base64;
             return;
         }
-        if (this.path2Atlas[path]) {
-            const atlasPath = this.path2Atlas[path];
-            if (!this.atlasLoadingQueue[atlasPath]) {
-                this.atlasLoadingQueue[atlasPath] = [];
-                this.loadAtlas(atlasPath);
+        if (entry?.atlas) {
+            const atlasPath = entry.atlas;
+            if (!this.atlasLoadingQueue[atlasPath!]) {
+                this.atlasLoadingQueue[atlasPath!] = [];
+                this.loadAtlas(atlasPath!);
             }
-            this.atlasLoadingQueue[atlasPath].push({ img, path });
-        } else {
-            img.nativeSrc = path;
+            this.atlasLoadingQueue[atlasPath!].push({ img, path });
+            return;
         }
+
+        img.nativeSrc = path;
     }
 
     /** 加载图集文件（json或gtbl） */
@@ -138,7 +143,10 @@ export class AtlasMgr {
         const relPath = atlasPath.substring(0, atlasPath.lastIndexOf("."));
         for (const key in data) {
             let base64 = this.useWebp ? `data:image/webp;base64,${data[key]}` : `data:image/png;base64,${data[key]}`;
-            this.path2Base64[`${relPath}/${key.split(".")[0]}`] = base64;
+            const pathKey = `${relPath}/${key.split(".")[0]}`;
+            const existing = this.pathIndex.get(pathKey) || {};
+            existing.base64 = base64;
+            this.pathIndex.set(pathKey, existing);
         }
         this.callbackImg(atlasPath);
     }
@@ -149,8 +157,9 @@ export class AtlasMgr {
         delete this.atlasLoadingQueue[atlasPath];
         if (list && list.length) {
             for (const item of list) {
-                if (this.path2Base64[item.path]) {
-                    item.img.nativeSrc = this.path2Base64[item.path];
+                const base64 = this.pathIndex.get(item.path)?.base64;
+                if (base64) {
+                    item.img.nativeSrc = base64;
                 } else {
                     item.img.nativeSrc = item.path;
                     console.warn("图集加载失败", item.path);
