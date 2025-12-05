@@ -171,7 +171,7 @@ export class AtlasMgr {
 
 }
 
-// echarts的代码是 IFFE ，没有导出，所以只能通过Monkey patch来修改图片加载逻辑
+// echarts的加载图片代码是IIFE，没有导出，所以只能通过Monkey patch来修改图片加载逻辑
 // 保存原生 src 的 descriptor（优先从 HTMLImageElement.prototype）
 const nativeImage = window.Image;
 const originalSrcDesc =
