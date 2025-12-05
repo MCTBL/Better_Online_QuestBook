@@ -4,7 +4,7 @@ export class ProjectConfig {
     static readonly projectNm = "BOQB";
     static readonly projectDsc_zh = "一时间想不起是哪个任务但又不方便开游戏?试试这个,更好的在线任务书!";
     static readonly projectDsc = "A convenient online quest book when you can't remember which quest to play!";
-    static readonly projectVersion = "1.0.3";
+    static readonly projectVersion = "1.0.4";
     static readonly projectDescription = "BetterOnlineQuestBook";
     static readonly projectAuthor = ["MCTBL", "Grievous_Rain"];
     static readonly versionList = ["2.8.0", "2.7.2"];
@@ -12,7 +12,7 @@ export class ProjectConfig {
     static readonly questLinePath = "quest_line.json";
     static readonly questDataPath = "quest_json";
 
-    static readonly allInOnePath = "allInOne";
+    static readonly allInOneQuestDataPath = "allInOne";
     static readonly projectUrl = "https://github.com/MCTBL/Better_Online_QuestBook";
 
     static readonly atlasPath = "quests_icons.json";

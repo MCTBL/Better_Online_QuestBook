@@ -1,5 +1,5 @@
 import { AtlasMgr } from "./AtlasMgr";
-import { quest, questData } from "./Define";
+import { allInOneQuestData, allInOneQuestDataMap, quest, questData } from "./Define";
 import { PopMgr } from "./PopMgr";
 import { ProjectData } from "./ProjectData";
 import { Utils } from "./Utils";
@@ -11,7 +11,9 @@ export class QuestList {
     /**搜索任务列表 */
     private static questList: quest[];
 
-    private static allInOneQuestList: { [key: string]: { links: []; datas: quest[][]; names: string[] } } = {};
+    private static allInOneQuestList: allInOneQuestDataMap = {};
+
+    public static isInAllInOneMode: boolean = false;
 
     // 重置echarts
     static resetChart() {
@@ -21,23 +23,28 @@ export class QuestList {
     }
 
     static getPageData(res: { data: questData; title: string }) {
-        if (ProjectData.isPhone) {
-            this.showSearchPopup(res.data.data);
+        if (!this.isInAllInOneMode) {
+            if (ProjectData.isPhone) {
+                this.showSearchPopup(res.data.data);
+            } else {
+                Utils.typeText("#questTitle", res.title);
+                this.pageData = Utils.deepClone(ProjectData.echartsConfig);
+                this.pageData.series[0].data = res.data.data;
+                this.pageData.series[0].links = res.data.links;
+                this.initEcharts();
+            }
         } else {
-            Utils.typeText("#questTitle", res.title);
-            this.pageData = Utils.deepClone(ProjectData.echartsConfig);
-            this.pageData.series[0].data = res.data.data;
-            this.pageData.series[0].links = res.data.links;
-            this.initEcharts();
+            this.initAllInOne();
         }
     }
 
     static initAllInOne() {
-        if (!this.allInOneQuestList || !this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()]) {
+        // Key like zh/en -ish
+        if (!this.allInOneQuestList || !this.allInOneQuestList[ProjectData.language]) {
             $.getJSON(
                 ProjectData.getAllInOnePath(ProjectData.language),
-                (data: { links: []; datas: { questNames: string[]; allNodesLists: [quest[]] } }) => {
-                    this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()] = { datas: this.processQuestData(data.datas), links: data.links, names: data.datas.questNames };
+                (data: allInOneQuestData) => {
+                    this.allInOneQuestList[ProjectData.language] = this.processQuestData(data);
                     this.showAllInOne();
                 },
                 (err) => {
@@ -49,49 +56,51 @@ export class QuestList {
         }
     }
     static showAllInOne() {
+        this.isInAllInOneMode = true;
         QuestList.resetChart();
         this.pageData = Utils.deepClone(ProjectData.echartsConfig);
-        this.pageData.series[0].links = this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()].links;
+        this.pageData.series[0].links = this.allInOneQuestList[ProjectData.language].allInOneLinks;
         this.pageData.series[0].data = [];
-        var tempData = this.allInOneQuestList[ProjectData.language + ProjectData.getVersion()];
+        var tempData = this.allInOneQuestList[ProjectData.language];
         var count = -1;
         const _ = setInterval(() => {
             count++;
-            if (count < tempData.datas.length) {
-                Utils.typeText("#questTitle", tempData.names[count]);
-                this.pageData.series[0].data.push(...tempData.datas[count]);
+            if (count < tempData.allInOneQuestsList.length && this.isInAllInOneMode) {
+                Utils.typeText("#questTitle", tempData.allInOneQuestListNames[count]);
+                this.pageData.series[0].data.push(...tempData.allInOneQuestsList[count]);
                 this.echarts.setOption(this.pageData);
             } else {
                 clearInterval(_);
-                this.pageData.series[0].data.push({ name: "DM is GOD", symbolSize: 100, x: 0, y: 0, symbol: "image://dm.jpg" });
-                this.echarts.setOption(this.pageData);
+                if (this.isInAllInOneMode) {
+                    Utils.typeText("#questTitle", "All Main Quest Line in GTNH");
+                    this.pageData.series[0].data.push({ name: "DM is GOD", symbolSize: 400, x: 0, y: 0, symbol: "image://dm.jpg" } as quest);
+                    this.echarts.setOption(this.pageData);
+                }
             }
         }, 1000);
     }
 
-    static processQuestData(datas: { questNames: string[]; allNodesLists: [quest[]] }) {
+    static processQuestData(datas: allInOneQuestData) {
         let versionCode = ProjectData.getVersion();
-        let questNames = datas.questNames;
-        let allNodesLists = datas.allNodesLists;
+        let questNames = datas.allInOneQuestListNames;
         let fakeIndex = 0;
         for (let i = 0; i < questNames.length; i++) {
             let questListName = questNames[i];
-            let questList = allNodesLists[i];
+            let questList = datas.allInOneQuestsList[i];
             let fakeQuestList = [];
             for (let quest of questList) {
-                quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questListName + "/" + Utils.processBase64ToDecimal(quest.quest_id);
+                // TODO 要删掉的
+                quest.symbolSize *= 1.5;
+                quest.symbol = AtlasMgr.getFormatSymbolKey(versionCode, questListName, Utils.processBase64ToDecimal(quest.quest_id));
                 // 添加一个假任务作为背景
-                let fakeQuest: quest = Utils.deepClone(quest);
-                fakeQuest.name = String(fakeIndex++);
-                fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
-                fakeQuest.parentSymbol = quest.symbol;
-                fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+                let fakeQuest: quest = Utils.createFakeQuest(quest, String(fakeIndex++));
                 fakeQuestList.push(fakeQuest);
             }
+            // 假任务是否留存
             // questList = fakeQuestList.concat(questList);
-            allNodesLists[i] = questList;
+            datas.allInOneQuestsList[i] = questList;
         }
-        return datas.allNodesLists;
+        return datas;
     }
 
     //桌面端才有的

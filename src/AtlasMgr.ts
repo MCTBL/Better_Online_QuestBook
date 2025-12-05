@@ -157,6 +157,11 @@ export class AtlasMgr {
             }
         }
     }
+
+    /**得到原先格式的symbolKey */
+    static getFormatSymbolKey(versionCode: string, questLineName: string, questNumberId: string) {
+        return "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questLineName + "/" + questNumberId;
+    }
 }
 
 (window as any).atlasMgr = AtlasMgr.instance;

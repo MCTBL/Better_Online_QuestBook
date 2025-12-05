@@ -1,5 +1,5 @@
 {
-    "links":[
+    "allInOneLinks":[
         {
             "source":"你已经出师了!",
             "target":"熟练的神秘使",
@@ -159117,8 +159117,7 @@
             ]
         }
     ],
-    "datas":{
-        "questNames":[
+        "allInOneQuestListNames":[
             "AndSoItBegins",
             "Tier0StoneAge",
             "Tier05Steam",
@@ -159136,7 +159135,7 @@
             "Tier12UMV",
             "EndgameGoals"
         ],
-        "allNodesLists":[
+        "allInOneQuestsList":[
             [
                 {
                     "name":"All Alone in the Night",
@@ -174362,5 +174361,5 @@
                 }
             ]
         ]
-    }
+    
 }

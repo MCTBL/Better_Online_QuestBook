@@ -1,3 +1,4 @@
+/**右下角小弹窗工具类 */
 export class TipsMgr {
     static tipsTimer: any = 0;
     static showTips(msg: string) {

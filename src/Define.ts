@@ -24,6 +24,8 @@ export enum localEnum {
     selectBtnIndex = "selectBtnIndex",
     /**用户选中的语言 */
     language = "language",
+    /**上次任务书版本 */
+    lastTimeQuestBookVersion = "",
 }
 
 export enum lang {
@@ -37,6 +39,10 @@ export type questAllData = {
 };
 /**单页任务数据 */
 export type questData = { data: quest[]; links: questLink[] };
+
+export type allInOneQuestDataMap = { [lang: string]: allInOneQuestData };
+
+export type allInOneQuestData = { allInOneLinks: questLink[]; allInOneQuestsList: [quest[]]; allInOneQuestListNames: string[] };
 
 /**任务前置 */
 export type questLink = {

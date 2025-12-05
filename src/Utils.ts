@@ -1,3 +1,5 @@
+import { quest } from "./Define";
+
 export class Utils {
     private static typingInterval: any = null;
 
@@ -336,6 +338,16 @@ export class Utils {
             [array[i], array[j]] = [array[j], array[i]];
         }
         return array;
+    }
+
+    /**添加一个假任务作为背景 */
+    static createFakeQuest(quest: quest, fakeName: string): quest {
+        let fakeQuest: quest = Utils.deepClone(quest);
+        fakeQuest.name = String(fakeName);
+        fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
+        fakeQuest.parentSymbol = quest.symbol;
+        fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+        return fakeQuest;
     }
 }
 

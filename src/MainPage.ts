@@ -39,6 +39,7 @@ export class MainPage {
             this.addEvent();
             this.showProjectMsg();
             AtlasMgr.instance.init(() => this.loadQuestLine());
+            this.checkIsNeedShowInfoPopup();
             EeggMgr.showEegg();
         });
     }
@@ -82,14 +83,21 @@ export class MainPage {
         } else {
             ProjectData.language = navigator.language.includes("zh") ? lang.zh : lang.en;
         }
-        this.initTitle();
+        this.initWebsitePageTitle();
     }
 
-    initTitle() {
+    initWebsitePageTitle() {
         if (ProjectData.language == lang.zh) {
             document.title = ProjectConfig.projectName_zh;
         } else {
             document.title = ProjectConfig.projectName;
+        }
+    }
+
+    checkIsNeedShowInfoPopup() {
+        if (localStorage.getItem(localEnum.lastTimeQuestBookVersion) != ProjectConfig.projectVersion) {
+            localStorage.setItem(localEnum.lastTimeQuestBookVersion, ProjectConfig.projectVersion);
+            PopMgr.showInfoPopup();
         }
     }
 
@@ -98,12 +106,14 @@ export class MainPage {
 
         addEventListener("keydown", this.onKeyDown);
 
-        addEventListener("touchstart", (e: TouchEvent) => {
-            this.startX = e.touches[0].pageX;
-            this.startY = e.touches[0].pageY;
-        });
-
-        addEventListener("touchend", this.whenRightSlide);
+        // 检测手机左右滑动
+        if (ProjectData.isPhone) {
+            addEventListener("touchstart", (e: TouchEvent) => {
+                this.startX = e.touches[0].pageX;
+                this.startY = e.touches[0].pageY;
+            });
+            addEventListener("touchend", this.whenRightSlide);
+        }
 
         $("#logoImg").on("click", this.onClickLogo);
         $("#logoImg").on("contextmenu", this.onRightClickLogo);
@@ -158,15 +168,11 @@ export class MainPage {
                     if (questList) {
                         for (let i = 0; i < questList.length; i++) {
                             let quest = questList[i];
-                            quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + key + "/" + Utils.processBase64ToDecimal(quest.quest_id);
+                            quest.symbol = AtlasMgr.getFormatSymbolKey(versionCode, key, Utils.processBase64ToDecimal(quest.quest_id));
                             qn[quest.title] = quest;
                             qid[quest.quest_id] = quest;
                             // 添加一个假任务作为背景
-                            let fakeQuest: quest = Utils.deepClone(quest);
-                            fakeQuest.name = String(i);
-                            fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
-                            fakeQuest.parentSymbol = quest.symbol;
-                            fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
+                            let fakeQuest: quest = Utils.createFakeQuest(quest, String(i));
                             fakeQuestList.push(fakeQuest);
                         }
                     }
@@ -196,6 +202,7 @@ export class MainPage {
                     title: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
                     data: this.questAllData[ProjectData.language][quest.quest],
                 };
+                QuestList.isInAllInOneMode = false;
                 QuestList.getPageData(data);
                 this.oldQuestData = Utils.deepClone(data);
                 if (!ProjectData.isPhone) this.onClosePop();
@@ -273,11 +280,14 @@ export class MainPage {
     };
 
     onClickLogo = () => {
-        this.buttonList.forEach((b, _) => {
-            b.removeClass("selected").addClass("unselected");
-        });
-        QuestList.initAllInOne();
-        this.toggleSidebar();
+        if (!ProjectData.isPhone) {
+            this.buttonList.forEach((b, _) => {
+                b.removeClass("selected").addClass("unselected");
+            });
+            QuestList.isInAllInOneMode = true;
+            QuestList.getPageData({} as any);
+            this.toggleSidebar();
+        }
     };
 
     onRightClickLogo = (evt: Event) => {
@@ -365,7 +375,7 @@ export class MainPage {
 
         localStorage.setItem(localEnum.language, ProjectData.language);
 
-        this.initTitle();
+        this.initWebsitePageTitle();
 
         if (ProjectData.isPhone) {
             this.onClosePop();
