@@ -73,11 +73,11 @@ export class QuestList {
                 clearInterval(_);
                 if (this.isInAllInOneMode) {
                     Utils.typeText("#questTitle", "All Main Quest Line in GTNH");
-                    this.pageData.series[0].data.push({ name: "DM is GOD", symbolSize: 400, x: 0, y: 0, symbol: "image://dm.jpg" } as quest);
+                    this.pageData.series[0].data.push({ name: "DM is GOD", symbolSize: 150, x: 0, y: 2500, symbol: "image://dm.jpg" } as quest);
                     this.echarts.setOption(this.pageData);
                 }
             }
-        }, 1000);
+        }, 500);
     }
 
     static processQuestData(datas: allInOneQuestData) {
@@ -89,8 +89,6 @@ export class QuestList {
             let questList = datas.allInOneQuestsList[i];
             let fakeQuestList = [];
             for (let quest of questList) {
-                // TODO 要删掉的
-                quest.symbolSize *= 1.5;
                 quest.symbol = ProjectData.getFormatSymbolKey(versionCode, questListName, Utils.processBase64ToDecimal(quest.quest_id));
                 // 添加一个假任务作为背景
                 let fakeQuest: quest = Utils.createFakeQuest(quest, String(fakeIndex++));

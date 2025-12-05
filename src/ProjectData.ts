@@ -35,7 +35,6 @@ export class ProjectData {
         return questDataPath + ".json";
     }
 
-
     /**得到原先格式的symbolKey */
     static getFormatSymbolKey(versionCode: string, questLineName: string, questNumberId: string) {
         return "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questLineName + "/" + questNumberId;
@@ -84,7 +83,7 @@ export class ProjectData {
             {
                 type: "graph",
                 layout: "none",
-                nodeScaleRatio: 0,
+                nodeScaleRatio: 1,
                 symbolSize: 10,
                 circular: {
                     rotateLabel: false,
@@ -119,12 +118,12 @@ export class ProjectData {
                     margin: 8,
                     valueAnimation: false,
                 },
-                edgeSymbol: ["circle", "arrow"],
-                edgeSymbolSize: 10,
+                edgeSymbol: ["none", "arrow"],
+                edgeSymbolSize: [0, 10],
                 links: null,
                 emphasis: {
                     disabled: true,
-                    scale: 1.01,
+                    scale: 1,
                     focus: "None",
                 },
             },
