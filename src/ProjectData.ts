@@ -78,6 +78,7 @@ export class ProjectData {
             {
                 type: "graph",
                 layout: "none",
+                nodeScaleRatio: 0,
                 symbolSize: 10,
                 circular: {
                     rotateLabel: false,
@@ -117,7 +118,7 @@ export class ProjectData {
                 links: null,
                 emphasis: {
                     disabled: true,
-                    scale: 1,
+                    scale: 1.01,
                     focus: "None",
                 },
             },
