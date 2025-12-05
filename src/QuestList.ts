@@ -91,7 +91,7 @@ export class QuestList {
             for (let quest of questList) {
                 // TODO 要删掉的
                 quest.symbolSize *= 1.5;
-                quest.symbol = AtlasMgr.getFormatSymbolKey(versionCode, questListName, Utils.processBase64ToDecimal(quest.quest_id));
+                quest.symbol = ProjectData.getFormatSymbolKey(versionCode, questListName, Utils.processBase64ToDecimal(quest.quest_id));
                 // 添加一个假任务作为背景
                 let fakeQuest: quest = Utils.createFakeQuest(quest, String(fakeIndex++));
                 fakeQuestList.push(fakeQuest);

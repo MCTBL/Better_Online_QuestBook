@@ -14,7 +14,7 @@ export class AtlasMgr {
     // 路径到base64图片映射
     private path2Base64: Record<string, string> = {};
     // 图集文件到待设置图片队列
-    private atlasLoadingQueue: Record<string, { img: HTMLImageElement; path: string }[]> = {};
+    private atlasLoadingQueue: Record<string, { img: ImageExtended; path: string }[]> = {};
     // 已加载的图集配置路径
     private loadedConfigPaths: Set<string> = new Set();
     // 是否使用json格式的图集
@@ -95,13 +95,14 @@ export class AtlasMgr {
     }
 
     /** 设置图片的src，自动处理base64/图集/原始路径 */
-    setImgSrc(img: HTMLImageElement, path: string) {
+    setImgSrc(image: HTMLImageElement, path: string) {
+        let img = image as ImageExtended;
         if (!this.useAtlas) {
-            img.src = path;
+            img.nativeSrc = path;
             return;
         }
         if (this.path2Base64[path]) {
-            img.src = this.path2Base64[path];
+            img.nativeSrc = this.path2Base64[path];
             return;
         }
         if (this.path2Atlas[path]) {
@@ -112,7 +113,7 @@ export class AtlasMgr {
             }
             this.atlasLoadingQueue[atlasPath].push({ img, path });
         } else {
-            img.src = path;
+            img.nativeSrc = path;
         }
     }
 
@@ -149,19 +150,63 @@ export class AtlasMgr {
         if (list && list.length) {
             for (const item of list) {
                 if (this.path2Base64[item.path]) {
-                    item.img.src = this.path2Base64[item.path];
+                    item.img.nativeSrc = this.path2Base64[item.path];
                 } else {
-                    item.img.src = item.path;
+                    item.img.nativeSrc = item.path;
                     console.warn("图集加载失败", item.path);
                 }
             }
         }
     }
 
-    /**得到原先格式的symbolKey */
-    static getFormatSymbolKey(versionCode: string, questLineName: string, questNumberId: string) {
-        return "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questLineName + "/" + questNumberId;
-    }
+
 }
 
-(window as any).atlasMgr = AtlasMgr.instance;
+// echarts的代码是 IFFE ，没有导出，所以只能通过Monkey patch来修改图片加载逻辑
+// 保存原生 src 的 descriptor（优先从 HTMLImageElement.prototype）
+const nativeImage = window.Image;
+const originalSrcDesc =
+    Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, "src") ||
+    Object.getOwnPropertyDescriptor((window as any).Image.prototype, "src");
+const originalSrcSetter = originalSrcDesc?.set;
+const originalSrcGetter = originalSrcDesc?.get;
+
+// 立即在 prototype 上安装 nativeSrc（确保所有通过 createElement/jQuery/new Image 创建的 img 都有）
+Object.defineProperty(HTMLImageElement.prototype, "nativeSrc", {
+    set: function (this: HTMLImageElement, value: string) {
+        if (originalSrcSetter) {
+            originalSrcSetter.call(this, value);
+        } else {
+            this.setAttribute("src", value);
+        }
+    },
+    get: function (this: HTMLImageElement) {
+        if (originalSrcGetter) {
+            return originalSrcGetter.call(this);
+        }
+        return this.getAttribute("src") || "";
+    },
+    configurable: true,
+    enumerable: false,
+});
+
+// 在 prototype 上拦截 src 写入，交给 AtlasMgr 处理
+Object.defineProperty(HTMLImageElement.prototype, "src", {
+    set: function (this: HTMLImageElement, value: string) {
+        AtlasMgr.instance.setImgSrc(this, value);
+    },
+    get: function (this: HTMLImageElement) {
+        return (this as any).nativeSrc || "";
+    },
+    configurable: true,
+    enumerable: true,
+});
+
+// 仍然保留 Image 构造器行为（返回原生 Image 实例）
+window.Image = function Image(this: any) {
+    // 注意：不在这里再次定义 prototype，避免重复或延迟定义
+    return new (nativeImage as any)();
+} as any;
+
+type ImageExtended = HTMLImageElement & { nativeSrc: string };
+

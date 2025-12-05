@@ -76,7 +76,38 @@ function main() {
         console.log('未在 bin 目录下找到任何目标文件或字符');
         return;
     }
-    console.log('共收集到字符数:', usedChars.size);
+
+    // 检查是否传入 --force 参数（强制执行子集化）
+    const force = process.argv.includes('--force');
+
+    // 规范化字符集合为稳定的字符串（按码点排序），用于比较与持久化
+    const sortedText = Array.from(usedChars).sort().join('');
+    const tempDir = path.resolve(__dirname, 'temp');
+    const lastCharPath = path.join(tempDir, 'lastChar.txt');
+
+    // 比较 lastChar.txt（若存在），相同则跳过子集化（除非 --force）
+    let needSubsetting = true;
+    if (!force) {
+        try {
+            const prev = fs.readFileSync(lastCharPath, 'utf8');
+            if (prev === sortedText) {
+                console.log('字符集合未发生变化，跳过子集化。');
+                needSubsetting = false;
+            }
+        } catch (err) {
+            // 若读取失败（通常是文件不存在），则继续子集化
+        }
+    } else {
+        console.log('收到 --force 参数，强制执行子集化（忽略字符集合变化）。');
+    }
+
+    if (!needSubsetting) return;
+
+    // 确保 temp 目录存在，并将当前字符集合写入 lastChar.txt（覆盖）
+    fs.mkdirSync(tempDir, { recursive: true });
+    fs.writeFileSync(lastCharPath, sortedText, 'utf8');
+    console.log('字符集合与上次不同，已更新 temp/lastChar.txt，开始子集化...');
+
     // 搜索所有 ttf 源文件（如 fonts/*.ttf）
     const fontsDir = path.resolve(__dirname, '../fonts');
     let ttfFiles = [];

@@ -35,6 +35,12 @@ export class ProjectData {
         return questDataPath + ".json";
     }
 
+
+    /**得到原先格式的symbolKey */
+    static getFormatSymbolKey(versionCode: string, questLineName: string, questNumberId: string) {
+        return "image://version/" + versionCode + "/quests_icons/QuestIcon/" + questLineName + "/" + questNumberId;
+    }
+
     /**获取巨型任务数据地址 */
     static getAllInOnePath(language: lang) {
         var allInOnePath = this.getPath(ProjectConfig.allInOneQuestDataPath);

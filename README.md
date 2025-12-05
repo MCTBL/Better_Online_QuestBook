@@ -50,6 +50,17 @@ _PNPM_：根目录`npm run watch`
 
 如果需要开启 vconsole，可以在 url 后面添加`?log=1`get 参数
 
+#### 关于Echarts
+
+目前是使用[这里](https://echarts.apache.org/zh/builder.html)进行在线构建。
+
+构建选项：
+图表：关系图
+坐标系：直角坐标系
+组件：标题，提示框
+其他选项：工具集，代码压缩
+
+
 ### 更新说明
 
 | 版本  | 说明                                                     |

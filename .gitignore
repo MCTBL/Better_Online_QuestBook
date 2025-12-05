@@ -12,3 +12,4 @@ bin/questPage.js.map
 /bin/*.woff2
 bin/desktop.css
 bin/mobile.css
+tools/temp/lastChar.txt
