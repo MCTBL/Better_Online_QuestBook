@@ -1,6 +1,7 @@
 {
     "livePreview.defaultPreviewPath": "/bin/index.html",
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
     "oxc.enable": true,
     "editor.autoIndentOnPaste": true,
     "prettier.printWidth": 200,
