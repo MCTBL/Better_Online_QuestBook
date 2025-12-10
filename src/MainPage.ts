@@ -168,12 +168,12 @@ export class MainPage {
                     if (questList) {
                         for (let i = 0; i < questList.length; i++) {
                             let quest = questList[i];
-                            quest.symbol = ProjectData.getFormatSymbolKey(versionCode, key, Utils.processBase64ToDecimal(quest.quest_id));
+                            let questNumberId = Utils.processBase64ToDecimal(quest.quest_id);
+                            quest.symbol = ProjectData.getFormatSymbolKey(versionCode, key, questNumberId);
                             qn[quest.title] = quest;
                             qid[quest.quest_id] = quest;
                             // 添加一个假任务作为背景
-                            let fakeQuest: quest = Utils.createFakeQuest(quest, String(i));
-                            fakeQuestList.push(fakeQuest);
+                            fakeQuestList.push(Utils.createFakeQuest(quest, String(i)));
                         }
                     }
                     allData[key].data = fakeQuestList.concat(allData[key].data);
@@ -363,7 +363,7 @@ export class MainPage {
             QuestList.clearSearchList();
         }
     };
-    onSearchBlur = () => { };
+    onSearchBlur = () => {};
 
     onChangeLang = () => {
         TipsMgr.showLoading();
