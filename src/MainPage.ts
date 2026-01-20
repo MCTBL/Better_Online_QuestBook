@@ -41,8 +41,29 @@ export class MainPage {
             AtlasMgr.instance.init(() => this.loadQuestLine());
             this.checkIsNeedShowInfoPopup();
             EeggMgr.showEegg();
+            this.registerServiceWorker();
         });
     }
+
+
+    //PWA 注册服务工作线程
+    registerServiceWorker() {
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("/service-worker.js", { scope: "/" })
+                    .then((registration) => {
+                        console.log("Service Worker registered with scope:", registration.scope);
+                    })
+                    .catch((error) => {
+                        console.error("Service Worker registration failed:", error);
+                    });
+            });
+        } else {
+            console.error("Service Worker is not supported in this browser.");
+        }
+    }
+
 
     initPlatform() {
         ProjectData.isPhone = !!isMobile.phone;
@@ -363,7 +384,7 @@ export class MainPage {
             QuestList.clearSearchList();
         }
     };
-    onSearchBlur = () => {};
+    onSearchBlur = () => { };
 
     onChangeLang = () => {
         TipsMgr.showLoading();

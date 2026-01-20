@@ -1,0 +1,15 @@
+{
+    "urlsToCache": [
+        "./404.html",
+        "./dm.jpg",
+        "./static/main.png",
+        "./static/main_finish.png",
+        "./static/main_unclaim.png",
+        "./static/not_main.png",
+        "./static/not_main_finish.png",
+        "./static/not_main_unclaim.png",
+        "./favicon.ico",
+        "./logo.png",
+        "./logo_64.png"
+    ]
+}
