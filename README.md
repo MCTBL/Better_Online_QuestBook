@@ -50,6 +50,10 @@ _PNPM_：根目录`npm run watch`
 
 如果需要开启 vconsole，可以在 url 后面添加`?log=1`get 参数
 
+#### PWA功能
+
+需要测试PWA功能，本地必须使用"http://localhost:xxx"地址
+
 #### 关于Echarts
 
 目前是使用[这里](https://echarts.apache.org/zh/builder.html)进行在线构建。
@@ -74,6 +78,7 @@ _PNPM_：根目录`npm run watch`
 | 1.0.1 | 优化任务数据                                             |
 | 1.0.2 | 更新 2.8.0                                               |
 | 1.0.3 | 使用图集文件                                             |
+| 1.0.4 | 添加PWA                                             |
 
 ### TODOList
 
