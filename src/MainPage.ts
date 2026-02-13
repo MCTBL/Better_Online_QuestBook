@@ -32,6 +32,7 @@ export class MainPage {
             const url = new URL(window.location.href);
             ProjectData.urlParameter = Utils.processUrlParameters(url);
             ProjectData.basicUrl = url.origin;
+            this.forceCanvasSmooth();
             this.initVersion();
             this.initPlatform();
             this.initLang();
@@ -41,6 +42,52 @@ export class MainPage {
             AtlasMgr.instance.init(() => this.loadQuestLine());
             EeggMgr.showEegg();
         });
+    }
+
+    //强制所有的canvas平滑渲染
+    forceCanvasSmooth() {
+        // 保存原始的 getContext 方法
+        const originalGetContext = HTMLCanvasElement.prototype.getContext;
+        // @ts-ignore
+        // 重写 getContext 方法
+        HTMLCanvasElement.prototype.getContext = function (contextType, contextAttributes) {
+            // 调用原始方法获取上下文
+            const context = originalGetContext.call(this, contextType, contextAttributes);
+
+            // 如果是 2D 上下文，关闭图片平滑
+            if (contextType === "2d" && context) {
+                // @ts-ignore
+                context.imageSmoothingEnabled = false;
+                // @ts-ignore
+                // 兼容旧版浏览器的属性名
+                context.webkitImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.mozImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.msImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.oImageSmoothingEnabled = false;
+            }
+            return context;
+        };
+    }
+
+    //PWA 注册服务工作线程
+    registerServiceWorker() {
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("/service-worker.js", { scope: "/" })
+                    .then((registration) => {
+                        console.log("Service Worker registered with scope:", registration.scope);
+                    })
+                    .catch((error) => {
+                        console.error("Service Worker registration failed:", error);
+                    });
+            });
+        } else {
+            console.error("Service Worker is not supported in this browser.");
+        }
     }
 
     initPlatform() {
@@ -54,7 +101,7 @@ export class MainPage {
                 "color:#252525; font-size: 30px;",
                 "color:#e12885; font-size: 18px;",
                 "color:#137a7f; font-size: 20px;",
-                "color:#525658; font-size: 16px;"
+                "color:#525658; font-size: 16px;",
             );
         }, 300);
     }
@@ -158,7 +205,13 @@ export class MainPage {
                     if (questList) {
                         for (let i = 0; i < questList.length; i++) {
                             let quest = questList[i];
-                            quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + key + "/" + Utils.processBase64ToDecimal(quest.quest_id);
+                            quest.symbol =
+                                "image://version/" +
+                                versionCode +
+                                "/quests_icons/QuestIcon/" +
+                                key +
+                                "/" +
+                                Utils.processBase64ToDecimal(quest.quest_id);
                             qn[quest.title] = quest;
                             qid[quest.quest_id] = quest;
                             // 添加一个假任务作为背景
@@ -296,7 +349,7 @@ export class MainPage {
                         left: "0px",
                         width: "100%",
                     },
-                    time
+                    time,
                 );
             }
             this.isSidebarHide = true;
@@ -309,7 +362,7 @@ export class MainPage {
                         left: `${sidebarWidth}px`,
                         width: width + "px",
                     },
-                    time
+                    time,
                 );
             }
             this.isSidebarHide = false;
@@ -327,7 +380,9 @@ export class MainPage {
                 $("#btnCloseSp").show().animate({ opacity: 1 }, 500);
             }
             if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
-            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter((q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
+            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter(
+                (q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()),
+            );
             QuestList.showSearchPopup(questList);
         } else {
             this.onClosePop();
