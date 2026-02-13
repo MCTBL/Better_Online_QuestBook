@@ -18,6 +18,15 @@ body {
     position: absolute;
     font-family: "MyFont", sans-serif;
 }
+img,
+canvas {
+    /**canvas似乎不生效*/
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -webkit-crisp-edges; /* 旧版 Safari/Chrome */
+    image-rendering: pixelated; /* Chrome/Safari/Edge */
+    image-rendering: crisp-edges; /* 标准语法 */
+    -ms-interpolation-mode: nearest-neighbor; /* IE */
+}
 
 #toggleSidebar {
     position: absolute;
