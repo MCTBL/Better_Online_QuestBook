@@ -32,6 +32,7 @@ export class MainPage {
             const url = new URL(window.location.href);
             ProjectData.urlParameter = Utils.processUrlParameters(url);
             ProjectData.basicUrl = url.origin;
+            this.forceCanvasSmooth();
             this.initVersion();
             this.initPlatform();
             this.initLang();
@@ -43,6 +44,34 @@ export class MainPage {
             EeggMgr.showEegg();
             this.registerServiceWorker();
         });
+    }
+
+    //强制所有的canvas平滑渲染
+    forceCanvasSmooth() {
+        // 保存原始的 getContext 方法
+        const originalGetContext = HTMLCanvasElement.prototype.getContext;
+        // @ts-ignore
+        // 重写 getContext 方法
+        HTMLCanvasElement.prototype.getContext = function (contextType, contextAttributes) {
+            // 调用原始方法获取上下文
+            const context = originalGetContext.call(this, contextType, contextAttributes);
+
+            // 如果是 2D 上下文，关闭图片平滑
+            if (contextType === '2d' && context) {
+                // @ts-ignore
+                context.imageSmoothingEnabled = false;
+                // @ts-ignore
+                // 兼容旧版浏览器的属性名
+                context.webkitImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.mozImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.msImageSmoothingEnabled = false;
+                // @ts-ignore
+                context.oImageSmoothingEnabled = false;
+            }
+            return context;
+        };
     }
 
 
