@@ -169,6 +169,14 @@ div #rewardsBox {
     word-wrap: break-word;
 }
 
+#popDesc img {
+    height: 2em;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 4px;
+    border-radius: 20px;
+}
+
 #quest_logo {
     width: 100%;
 }
