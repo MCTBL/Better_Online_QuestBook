@@ -38,5 +38,4 @@ function fixCacheConfig() {
     console.log("已经同步版本目录下的文件到缓存配置中");
 }
 
-
 fixCacheConfig();
