@@ -41,6 +41,8 @@ module.exports = (env, argv) => {
             // new MakeFileConfigPlugin(),
             new ShrinkFontsPlugin(isProd),
 
+            new FixCacheConfigPlugin(),
+
             // new ToWebpPlugin(),
         ],
 
@@ -135,6 +137,21 @@ class ToWebpPlugin {
                 console.log("toWebp 任务已完成");
             } catch (e) {
                 console.error("toWebp 任务失败:", e.message);
+            }
+        });
+    }
+}
+
+class FixCacheConfigPlugin {
+    apply(compiler) {
+        compiler.hooks.afterEmit.tap("FixCacheConfigPlugin", (compilation) => {
+            try {
+                const scriptPath = path.resolve(__dirname, "tools/FixCacheConfig.js");
+                const cmd = `node "${scriptPath}"`;
+                execSync(cmd, { stdio: "inherit" });
+                console.log("FixCacheConfig 已执行，缓存配置已更新");
+            } catch (e) {
+                console.error("FixCacheConfig 执行失败:", e.message);
             }
         });
     }
