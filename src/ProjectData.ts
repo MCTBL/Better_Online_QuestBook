@@ -150,6 +150,7 @@ export class ProjectData {
             transitionDuration: 0.4,
             textStyle: {
                 fontSize: 14,
+                fontFamily: "MyFont"
             },
             borderWidth: 0,
             padding: 5,
