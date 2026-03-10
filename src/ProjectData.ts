@@ -155,6 +155,7 @@ export class ProjectData {
             borderWidth: 0,
             padding: 5,
             order: "seriesAsc",
+            extraCssText: "box-shadow: 0 0 5px rgba(94, 194, 180, 0.5); padding: 10px;", // Additional CSS styles
         },
     };
 
