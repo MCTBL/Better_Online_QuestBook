@@ -11,6 +11,8 @@ import { Utils } from "./Utils";
 export class MainPage {
     private questLine: questLine[] = [];
     private buttonList: JQuery<HTMLElement>[] = [];
+    /**搜索框是否处于输入法组词中 */
+    private isSearchComposing: boolean = false;
     /**是否展示侧边栏 */
     private isSidebarHide: boolean = false;
     /**所有任务的数据 */
@@ -40,7 +42,9 @@ export class MainPage {
             this.addEvent();
             this.showProjectMsg();
             AtlasMgr.instance.init(() => this.loadQuestLine());
+            this.checkIsNeedShowInfoPopup();
             EeggMgr.showEegg();
+            this.registerServiceWorker();
         });
     }
 
@@ -55,7 +59,7 @@ export class MainPage {
             const context = originalGetContext.call(this, contextType, contextAttributes);
 
             // 如果是 2D 上下文，关闭图片平滑
-            if (contextType === "2d" && context) {
+            if (contextType === '2d' && context) {
                 // @ts-ignore
                 context.imageSmoothingEnabled = false;
                 // @ts-ignore
@@ -71,6 +75,7 @@ export class MainPage {
             return context;
         };
     }
+
 
     //PWA 注册服务工作线程
     registerServiceWorker() {
@@ -90,6 +95,7 @@ export class MainPage {
         }
     }
 
+
     initPlatform() {
         ProjectData.isPhone = !!isMobile.phone;
     }
@@ -101,7 +107,7 @@ export class MainPage {
                 "color:#252525; font-size: 30px;",
                 "color:#e12885; font-size: 18px;",
                 "color:#137a7f; font-size: 20px;",
-                "color:#525658; font-size: 16px;",
+                "color:#525658; font-size: 16px;"
             );
         }, 300);
     }
@@ -129,14 +135,21 @@ export class MainPage {
         } else {
             ProjectData.language = navigator.language.includes("zh") ? lang.zh : lang.en;
         }
-        this.initTitle();
+        this.initWebsitePageTitle();
     }
 
-    initTitle() {
+    initWebsitePageTitle() {
         if (ProjectData.language == lang.zh) {
             document.title = ProjectConfig.projectName_zh;
         } else {
             document.title = ProjectConfig.projectName;
+        }
+    }
+
+    checkIsNeedShowInfoPopup() {
+        if (localStorage.getItem(localEnum.lastTimeQuestBookVersion) != ProjectConfig.projectVersion) {
+            localStorage.setItem(localEnum.lastTimeQuestBookVersion, ProjectConfig.projectVersion);
+            PopMgr.showInfoPopup();
         }
     }
 
@@ -145,17 +158,21 @@ export class MainPage {
 
         addEventListener("keydown", this.onKeyDown);
 
-        addEventListener("touchstart", (e: TouchEvent) => {
-            this.startX = e.touches[0].pageX;
-            this.startY = e.touches[0].pageY;
-        });
-
-        addEventListener("touchend", this.whenRightSlide);
+        // 检测手机左右滑动
+        if (ProjectData.isPhone) {
+            addEventListener("touchstart", (e: TouchEvent) => {
+                this.startX = e.touches[0].pageX;
+                this.startY = e.touches[0].pageY;
+            });
+            addEventListener("touchend", this.whenRightSlide);
+        }
 
         $("#logoImg").on("click", this.onClickLogo);
         $("#logoImg").on("contextmenu", this.onRightClickLogo);
         $("#search").on("focus", this.onSearchFocus);
         $("#search").on("blur", this.onSearchBlur);
+        $("#search").on("compositionstart", this.onSearchCompositionStart);
+        $("#search").on("compositionend", this.onSearchCompositionEnd);
         $("#search").on("input", this.onSeachInput);
 
         $("#btnCloseSp").on("click", this.onClosePop);
@@ -205,22 +222,12 @@ export class MainPage {
                     if (questList) {
                         for (let i = 0; i < questList.length; i++) {
                             let quest = questList[i];
-                            quest.symbol =
-                                "image://version/" +
-                                versionCode +
-                                "/quests_icons/QuestIcon/" +
-                                key +
-                                "/" +
-                                Utils.processBase64ToDecimal(quest.quest_id);
+                            let questNumberId = Utils.processBase64ToDecimal(quest.quest_id);
+                            quest.symbol = ProjectData.getFormatSymbolKey(versionCode, key, questNumberId);
                             qn[quest.title] = quest;
                             qid[quest.quest_id] = quest;
                             // 添加一个假任务作为背景
-                            let fakeQuest: quest = Utils.deepClone(quest);
-                            fakeQuest.name = String(i);
-                            fakeQuest.symbolSize = Math.ceil(quest.symbolSize * 1.3);
-                            fakeQuest.parentSymbol = quest.symbol;
-                            fakeQuest.symbol = "image://static/" + (quest.is_main == 1 ? "main" : "not_main") + ".png";
-                            fakeQuestList.push(fakeQuest);
+                            fakeQuestList.push(Utils.createFakeQuest(quest, String(i)));
                         }
                     }
                     allData[key].data = fakeQuestList.concat(allData[key].data);
@@ -249,6 +256,7 @@ export class MainPage {
                     title: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
                     data: this.questAllData[ProjectData.language][quest.quest],
                 };
+                QuestList.isInAllInOneMode = false;
                 QuestList.getPageData(data);
                 this.oldQuestData = Utils.deepClone(data);
                 if (!ProjectData.isPhone) this.onClosePop();
@@ -325,7 +333,16 @@ export class MainPage {
         }
     };
 
-    onClickLogo = () => {};
+    onClickLogo = () => {
+        if (!ProjectData.isPhone) {
+            this.buttonList.forEach((b, _) => {
+                b.removeClass("selected").addClass("unselected");
+            });
+            QuestList.isInAllInOneMode = true;
+            QuestList.getPageData({} as any);
+            this.toggleSidebar();
+        }
+    };
 
     onRightClickLogo = (evt: Event) => {
         evt.preventDefault(); //拦截邮件点击
@@ -349,7 +366,7 @@ export class MainPage {
                         left: "0px",
                         width: "100%",
                     },
-                    time,
+                    time
                 );
             }
             this.isSidebarHide = true;
@@ -362,7 +379,7 @@ export class MainPage {
                         left: `${sidebarWidth}px`,
                         width: width + "px",
                     },
-                    time,
+                    time
                 );
             }
             this.isSidebarHide = false;
@@ -373,16 +390,25 @@ export class MainPage {
         // this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
     };
 
+    onSearchCompositionStart = () => {
+        this.isSearchComposing = true;
+    };
+
+    onSearchCompositionEnd = () => {
+        this.isSearchComposing = false;
+        // 组词完成后补一次输入处理，避免最后一次输入丢失。
+        this.onSeachInput();
+    };
+
     onSeachInput = () => {
+        if (this.isSearchComposing) return;
         const value = $("#search").val()?.toString().trim();
         if (value) {
             if ($("#btnCloseSp").css("display") === "none") {
                 $("#btnCloseSp").show().animate({ opacity: 1 }, 500);
             }
             if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
-            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter(
-                (q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()),
-            );
+            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter((q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
             QuestList.showSearchPopup(questList);
         } else {
             this.onClosePop();
@@ -402,7 +428,7 @@ export class MainPage {
             QuestList.clearSearchList();
         }
     };
-    onSearchBlur = () => {};
+    onSearchBlur = () => { };
 
     onChangeLang = () => {
         TipsMgr.showLoading();
@@ -414,7 +440,7 @@ export class MainPage {
 
         localStorage.setItem(localEnum.language, ProjectData.language);
 
-        this.initTitle();
+        this.initWebsitePageTitle();
 
         if (ProjectData.isPhone) {
             this.onClosePop();
