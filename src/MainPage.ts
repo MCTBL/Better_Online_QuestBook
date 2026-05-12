@@ -374,7 +374,9 @@ export class MainPage {
                 $("#btnCloseSp").show().animate({ opacity: 1 }, 500);
             }
             if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
-            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter((q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
+            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter(
+                (q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()),
+            );
             QuestList.showSearchPopup(questList);
         } else {
             this.onClosePop();
