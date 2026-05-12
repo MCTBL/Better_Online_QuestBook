@@ -1,14 +1,16 @@
 {
 	"compilerOptions": {
 		"target": "esnext",
-		"module": "esnext",
+		"module": "node16",
+		"types":["jquery","echarts"],
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"skipLibCheck": true,
 		"sourceMap": false,
 		"outDir": "./bin/js",
-		"moduleResolution": "node",
+		"rootDir": "./src",
+		"moduleResolution": "node16",
 		"strictPropertyInitialization": false
 	},
 	"include": ["src/**/*"]

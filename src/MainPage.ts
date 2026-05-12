@@ -15,7 +15,8 @@ export class MainPage {
     private isSidebarHide: boolean = false;
     /**所有任务的数据 */
     private questAllData: { [lang: string]: questAllData } = {};
-
+	/**搜索框是否处于输入法组词中 */
+    private isSearchComposing: boolean = false;
     /**标题对应任务数据 */
     private titleToQuest: { [lang: string]: { [key: string]: quest } } = {};
     /**任务ID对应任务数据 */
@@ -157,7 +158,8 @@ export class MainPage {
         $("#search").on("focus", this.onSearchFocus);
         $("#search").on("blur", this.onSearchBlur);
         $("#search").on("input", this.onSeachInput);
-
+        $("#search").on("compositionstart", this.onSearchCompositionStart);
+        $("#search").on("compositionend", this.onSearchCompositionEnd);
         $("#btnCloseSp").on("click", this.onClosePop);
 
         $("#changeLang").on("click", this.onChangeLang);
@@ -373,7 +375,19 @@ export class MainPage {
         // this.sendMessageToIframe({ action: msgAction.showSearchPopup, data: null });
     };
 
+
+    onSearchCompositionStart = () => {
+        this.isSearchComposing = true;
+    };
+
+    onSearchCompositionEnd = () => {
+        this.isSearchComposing = false;
+        // 组词完成后补一次输入处理，避免最后一次输入丢失。
+        this.onSeachInput();
+    };
+
     onSeachInput = () => {
+        if (this.isSearchComposing) return;
         const value = $("#search").val()?.toString().trim();
         if (value) {
             if ($("#btnCloseSp").css("display") === "none") {
