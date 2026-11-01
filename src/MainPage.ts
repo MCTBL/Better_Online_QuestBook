@@ -205,13 +205,7 @@ export class MainPage {
                     if (questList) {
                         for (let i = 0; i < questList.length; i++) {
                             let quest = questList[i];
-                            quest.symbol =
-                                "image://version/" +
-                                versionCode +
-                                "/quests_icons/QuestIcon/" +
-                                key +
-                                "/" +
-                                Utils.processBase64ToDecimal(quest.quest_id);
+                            quest.symbol = "image://version/" + versionCode + "/quests_icons/QuestIcon/" + key + "/" + Utils.processBase64ToDecimal(quest.quest_id);
                             qn[quest.title] = quest;
                             qid[quest.quest_id] = quest;
                             // 添加一个假任务作为背景
@@ -380,9 +374,7 @@ export class MainPage {
                 $("#btnCloseSp").show().animate({ opacity: 1 }, 500);
             }
             if (ProjectData.isPhone) $("#logoBg").animate({ opacity: 0.4 }, 500);
-            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter(
-                (q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()),
-            );
+            const questList: quest[] = Object.values(this.titleToQuest[ProjectData.language]).filter((q) => q.title && q.title.toLocaleUpperCase().includes(value.toLocaleUpperCase()));
             QuestList.showSearchPopup(questList);
         } else {
             this.onClosePop();
